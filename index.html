@@ -35,7 +35,7 @@
   <section class="hero">
     <div class="hero-inner">
       <h2>Okurrrr &mdash; Set your Objectives. Certifications are the Key Results.</h2>
-      <p>Your cybersecurity career roadmap. Search by name, filter by NICE Work Role, CISSP domain, or vendor. Find free training resources. Aligned with NIST NICE Framework, NIST CSF, NIST RMF, NIST AI RMF, OWASP, DoD 8140, and the CISSP CBK.</p>
+      <p>Your cybersecurity career roadmap. Browse 629 certifications and 200+ curated free resources. Filter by NICE Work Role, CISSP domain, vendor, or level. Aligned with NIST NICE Framework, NIST CSF, NIST RMF, NIST AI RMF, OWASP, DoD 8140, and the CISSP CBK.</p>
       <div class="hero-stats">
         <div class="stat-badge stat-pink">
           <span class="stat-number" id="stat-certs">--</span>
@@ -51,7 +51,7 @@
         </div>
         <div class="stat-badge stat-green">
           <span class="stat-number" id="stat-free">--</span>
-          <span class="stat-label">Free Training</span>
+          <span class="stat-label">Free Resources</span>
         </div>
       </div>
     </div>
@@ -59,12 +59,21 @@
 
   <main class="main" id="main-content">
 
+    <div class="tab-bar" role="tablist">
+      <button class="tab active" role="tab" aria-selected="true" data-tab="certs">
+        Certifications <span class="tab-count" id="tab-count-certs">--</span>
+      </button>
+      <button class="tab" role="tab" aria-selected="false" data-tab="resources">
+        Free Resources <span class="tab-count" id="tab-count-resources">--</span>
+      </button>
+    </div>
+
     <div class="search-bar">
       <span class="search-icon">&#x1F50D;</span>
       <input type="text" id="search-input" placeholder="Search by name, vendor, or keyword..." autocomplete="off">
     </div>
 
-    <section class="controls">
+    <section class="controls" id="controls-certs">
       <div class="control-group">
         <label for="filter-vendor">Vendor</label>
         <select id="filter-vendor">
@@ -122,6 +131,47 @@
       </div>
       <div class="control-group">
         <button type="button" id="reset-filters" class="btn-ghost">Reset filters</button>
+      </div>
+    </section>
+
+    <section class="controls" id="controls-resources" style="display:none">
+      <div class="control-group">
+        <label for="filter-res-category">Category</label>
+        <select id="filter-res-category">
+          <option value="">-- All categories --</option>
+        </select>
+      </div>
+      <div class="control-group">
+        <label for="filter-res-provider">Provider</label>
+        <select id="filter-res-provider">
+          <option value="">-- All providers --</option>
+        </select>
+      </div>
+      <div class="control-group">
+        <label for="filter-res-level">Level</label>
+        <select id="filter-res-level">
+          <option value="">-- All levels --</option>
+          <option value="Beginner">Beginner</option>
+          <option value="Intermediate">Intermediate</option>
+          <option value="Expert">Expert</option>
+        </select>
+      </div>
+      <div class="control-group">
+        <label for="filter-res-cissp">CISSP Domain</label>
+        <select id="filter-res-cissp">
+          <option value="">-- All domains --</option>
+        </select>
+      </div>
+      <div class="control-group">
+        <label for="sort-res">Sort by</label>
+        <select id="sort-res">
+          <option value="name">Name A–Z</option>
+          <option value="level-asc">Level (Beginner → Expert)</option>
+          <option value="level-desc">Level (Expert → Beginner)</option>
+        </select>
+      </div>
+      <div class="control-group">
+        <button type="button" id="reset-res-filters" class="btn-ghost">Reset filters</button>
       </div>
     </section>
 

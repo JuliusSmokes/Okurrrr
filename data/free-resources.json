@@ -1,0 +1,5036 @@
+[
+  {
+    "id": "fr001",
+    "name": "MIT OCW Computer Systems Security",
+    "provider": "MIT",
+    "url": "https://ocw.mit.edu/courses/6-858-computer-systems-security-fall-2014/",
+    "description": "Graduate-level course covering exploitation techniques, sandboxing, web security, and network protocols.",
+    "category": "Courses",
+    "tags": [
+      "MIT",
+      "exploitation",
+      "web security",
+      "graduate"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d3",
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr002",
+    "name": "MIT OCW Network and Computer Security",
+    "provider": "MIT",
+    "url": "https://ocw.mit.edu/courses/6-857-network-and-computer-security-spring-2014/",
+    "description": "Graduate course on cryptographic protocols, network security, and secure system design.",
+    "category": "Courses",
+    "tags": [
+      "MIT",
+      "cryptography",
+      "network security"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d3",
+      "cissp-d4"
+    ],
+    "niceCategories": [
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr003",
+    "name": "Stanford Cryptography I",
+    "provider": "Stanford/Coursera",
+    "url": "https://www.coursera.org/learn/crypto",
+    "description": "Free audit of Dan Boneh's landmark cryptography course covering stream ciphers, block ciphers, and public-key crypto.",
+    "category": "Courses",
+    "tags": [
+      "Coursera",
+      "Stanford",
+      "cryptography",
+      "audit"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d3"
+    ],
+    "niceCategories": [
+      "Securely Provision"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr004",
+    "name": "Carnegie Mellon OLI",
+    "provider": "Carnegie Mellon",
+    "url": "https://oli.cmu.edu/",
+    "description": "Free open learning courses including Information Security and Computing fundamentals.",
+    "category": "Courses",
+    "tags": [
+      "OLI",
+      "open learning",
+      "fundamentals"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d1",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Oversee and Govern"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr005",
+    "name": "CISA Free Training",
+    "provider": "CISA",
+    "url": "https://www.cisa.gov/cybersecurity-training-exercises",
+    "description": "Free cybersecurity training and exercises from the Cybersecurity and Infrastructure Security Agency.",
+    "category": "Courses",
+    "tags": [
+      "CISA",
+      "government",
+      "training"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d1",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr006",
+    "name": "SANS Cyber Aces",
+    "provider": "SANS",
+    "url": "https://www.sans.org/cyberaces/",
+    "description": "Free introductory courses in operating systems, networking, and system administration security.",
+    "category": "Courses",
+    "tags": [
+      "SANS",
+      "networking",
+      "OS",
+      "introductory"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Operate and Maintain"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr007",
+    "name": "Professor Messer CompTIA Security+",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/security-plus/sy0-701/sy0-701-video/sy0-701-comptia-security-plus-course/",
+    "description": "Free video training series covering all CompTIA Security+ SY0-701 exam objectives.",
+    "category": "Courses",
+    "tags": [
+      "CompTIA",
+      "Security+",
+      "video",
+      "certification"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d1",
+      "cissp-d3",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr008",
+    "name": "Professor Messer CompTIA Network+",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/network-plus/n10-009/n10-009-video/n10-009-comptia-network-plus-course/",
+    "description": "Free video series covering all CompTIA Network+ N10-009 exam objectives.",
+    "category": "Courses",
+    "tags": [
+      "CompTIA",
+      "Network+",
+      "video",
+      "networking"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d4"
+    ],
+    "niceCategories": [
+      "Operate and Maintain"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr009",
+    "name": "Cybrary Free Tier",
+    "provider": "Cybrary",
+    "url": "https://www.cybrary.it/",
+    "description": "Free cybersecurity courses and virtual labs with career paths and skill assessments.",
+    "category": "Courses",
+    "tags": [
+      "Cybrary",
+      "courses",
+      "labs",
+      "career paths"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d1",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr010",
+    "name": "Coursera Cybersecurity Specialization (Georgia Tech)",
+    "provider": "Georgia Tech/Coursera",
+    "url": "https://www.coursera.org/specializations/intro-cyber-security",
+    "description": "Free audit of Georgia Tech's cybersecurity specialization covering network security, crypto, and systems security.",
+    "category": "Courses",
+    "tags": [
+      "Coursera",
+      "Georgia Tech",
+      "specialization",
+      "audit"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d3",
+      "cissp-d4"
+    ],
+    "niceCategories": [
+      "Protect and Defend",
+      "Securely Provision"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr011",
+    "name": "Splunk Fundamentals 1",
+    "provider": "Splunk",
+    "url": "https://education.splunk.com/learningpath/splunk-fundamentals-1",
+    "description": "Free foundational course on Splunk search, reporting, dashboards, and the SPL query language.",
+    "category": "Courses",
+    "tags": [
+      "Splunk",
+      "SPL",
+      "SIEM",
+      "dashboards"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Investigate",
+      "Analyze"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr012",
+    "name": "Microsoft Learn Security",
+    "provider": "Microsoft",
+    "url": "https://learn.microsoft.com/en-us/training/browse/?terms=security",
+    "description": "Free Microsoft Learn modules covering Azure security, Microsoft 365 security, and identity management.",
+    "category": "Courses",
+    "tags": [
+      "Microsoft",
+      "Azure",
+      "identity",
+      "cloud"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d5",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr013",
+    "name": "AWS Security Learning Path",
+    "provider": "AWS",
+    "url": "https://aws.amazon.com/training/learn-about/security/",
+    "description": "Free AWS training covering cloud security fundamentals, IAM, encryption, and compliance.",
+    "category": "Courses",
+    "tags": [
+      "AWS",
+      "cloud security",
+      "IAM",
+      "encryption"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d3",
+      "cissp-d5"
+    ],
+    "niceCategories": [
+      "Securely Provision"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr014",
+    "name": "Google Cybersecurity Certificate",
+    "provider": "Google/Coursera",
+    "url": "https://www.coursera.org/professional-certificates/google-cybersecurity",
+    "description": "Free audit of Google's entry-level cybersecurity certificate covering Linux, Python, SQL, and SIEM.",
+    "category": "Courses",
+    "tags": [
+      "Coursera",
+      "Google",
+      "certificate",
+      "entry-level"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d1",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr015",
+    "name": "fast.ai",
+    "provider": "fast.ai",
+    "url": "https://www.fast.ai/",
+    "description": "Free deep learning courses with practical approach covering neural networks, NLP, and computer vision.",
+    "category": "Courses",
+    "tags": [
+      "ML",
+      "deep learning",
+      "NLP",
+      "practical"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Securely Provision"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr016",
+    "name": "Google ML Crash Course",
+    "provider": "Google",
+    "url": "https://developers.google.com/machine-learning/crash-course",
+    "description": "Free machine learning crash course with TensorFlow covering ML concepts, data prep, and model training.",
+    "category": "Courses",
+    "tags": [
+      "ML",
+      "TensorFlow",
+      "crash course",
+      "Google"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Securely Provision"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr017",
+    "name": "Khan Academy Cryptography",
+    "provider": "Khan Academy",
+    "url": "https://www.khanacademy.org/computing/computer-science/cryptography",
+    "description": "Free interactive cryptography course covering ciphers, modular arithmetic, and Diffie-Hellman.",
+    "category": "Courses",
+    "tags": [
+      "Khan Academy",
+      "cryptography",
+      "interactive",
+      "ciphers"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d3"
+    ],
+    "niceCategories": [
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr018",
+    "name": "FedVTE",
+    "provider": "CISA",
+    "url": "https://fedvte.usalearning.gov/",
+    "description": "Federal Virtual Training Environment with 800+ hours of free cybersecurity training.",
+    "category": "Courses",
+    "tags": [
+      "CISA",
+      "federal",
+      "government",
+      "training"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d1",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr019",
+    "name": "edX Cybersecurity MicroMasters (RIT)",
+    "provider": "RIT/edX",
+    "url": "https://www.edx.org/micromasters/ritx-cybersecurity",
+    "description": "Free audit of RIT's MicroMasters covering network security, forensics, and risk management.",
+    "category": "Courses",
+    "tags": [
+      "edX",
+      "RIT",
+      "MicroMasters",
+      "forensics"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d4",
+      "cissp-d6"
+    ],
+    "niceCategories": [
+      "Protect and Defend",
+      "Investigate"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr020",
+    "name": "Cisco Networking Academy",
+    "provider": "Cisco",
+    "url": "https://www.netacad.com/courses/cybersecurity",
+    "description": "Free cybersecurity courses including Introduction to Cybersecurity and Cybersecurity Essentials.",
+    "category": "Courses",
+    "tags": [
+      "Cisco",
+      "NetAcad",
+      "networking",
+      "essentials"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d4",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Operate and Maintain"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr021",
+    "name": "TCM Security Academy Free Content",
+    "provider": "TCM Security",
+    "url": "https://academy.tcm-sec.com/",
+    "description": "Free cybersecurity courses on ethical hacking, OSINT, and Active Directory.",
+    "category": "Courses",
+    "tags": [
+      "TCM Security",
+      "ethical hacking",
+      "OSINT",
+      "Active Directory"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d6"
+    ],
+    "niceCategories": [
+      "Protect and Defend",
+      "Investigate"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr022",
+    "name": "picoCTF",
+    "provider": "Carnegie Mellon",
+    "url": "https://picoctf.org/",
+    "description": "Free beginner-friendly CTF platform with year-round challenges covering web exploitation, forensics, and crypto.",
+    "category": "CTFs",
+    "tags": [
+      "CTF",
+      "beginner",
+      "web",
+      "forensics"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d6",
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr023",
+    "name": "EC-Council CodeRed",
+    "provider": "EC-Council",
+    "url": "https://codered.eccouncil.org/",
+    "description": "Free cybersecurity courses and CTF challenges from EC-Council covering ethical hacking and defense.",
+    "category": "CTFs",
+    "tags": [
+      "EC-Council",
+      "CTF",
+      "ethical hacking"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d6"
+    ],
+    "niceCategories": [
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr024",
+    "name": "TryHackMe Free Rooms",
+    "provider": "TryHackMe",
+    "url": "https://tryhackme.com/",
+    "description": "Guided cybersecurity training with browser-based virtual machines and free beginner rooms.",
+    "category": "CTFs",
+    "tags": [
+      "TryHackMe",
+      "CTF",
+      "guided",
+      "VMs"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d6",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr025",
+    "name": "Hack The Box Free Tier",
+    "provider": "Hack The Box",
+    "url": "https://www.hackthebox.com/",
+    "description": "Hands-on hacking platform with free machines, challenges, and competitive CTF environments.",
+    "category": "CTFs",
+    "tags": [
+      "Hack The Box",
+      "CTF",
+      "machines",
+      "pentesting"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d6"
+    ],
+    "niceCategories": [
+      "Protect and Defend",
+      "Investigate"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr026",
+    "name": "OverTheWire",
+    "provider": "OverTheWire",
+    "url": "https://overthewire.org/wargames/",
+    "description": "Wargames teaching security concepts including Bandit (Linux), Natas (web), and Leviathan (exploitation).",
+    "category": "CTFs",
+    "tags": [
+      "wargames",
+      "Bandit",
+      "Natas",
+      "Linux"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d7",
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr027",
+    "name": "pwn.college",
+    "provider": "ASU",
+    "url": "https://pwn.college/",
+    "description": "Free cybersecurity education platform from Arizona State University with hands-on binary exploitation challenges.",
+    "category": "CTFs",
+    "tags": [
+      "ASU",
+      "binary exploitation",
+      "pwn",
+      "education"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr028",
+    "name": "CryptoHack",
+    "provider": "CryptoHack",
+    "url": "https://cryptohack.org/",
+    "description": "Free interactive platform for learning modern cryptography through gamified challenges.",
+    "category": "CTFs",
+    "tags": [
+      "cryptography",
+      "CTF",
+      "gamified",
+      "interactive"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d3"
+    ],
+    "niceCategories": [
+      "Analyze",
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr029",
+    "name": "Cryptopals (Matasano)",
+    "provider": "NCC Group",
+    "url": "https://cryptopals.com/",
+    "description": "Eight sets of practical cryptographic exercises teaching real-world attacks on crypto implementations.",
+    "category": "CTFs",
+    "tags": [
+      "Cryptopals",
+      "cryptography",
+      "exercises",
+      "attacks"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d3",
+      "cissp-d6"
+    ],
+    "niceCategories": [
+      "Analyze"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr030",
+    "name": "SANS Holiday Hack / KringleCon",
+    "provider": "SANS",
+    "url": "https://www.holidayhackchallenge.com/",
+    "description": "Annual free CTF event by SANS covering offensive and defensive security with creative challenges.",
+    "category": "CTFs",
+    "tags": [
+      "SANS",
+      "KringleCon",
+      "annual",
+      "holiday"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d6",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr031",
+    "name": "National Cyber League",
+    "provider": "National Cyber League",
+    "url": "https://nationalcyberleague.org/",
+    "description": "CTF-style competition for students covering OSINT, cryptography, log analysis, and network traffic.",
+    "category": "CTFs",
+    "tags": [
+      "NCL",
+      "students",
+      "competition",
+      "OSINT"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d6"
+    ],
+    "niceCategories": [
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr032",
+    "name": "RingZer0 CTF",
+    "provider": "RingZer0",
+    "url": "https://ringzer0ctf.com/",
+    "description": "Online CTF platform with 500+ challenges covering crypto, web, forensics, and reverse engineering.",
+    "category": "CTFs",
+    "tags": [
+      "RingZer0",
+      "CTF",
+      "forensics",
+      "RE"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d6"
+    ],
+    "niceCategories": [
+      "Protect and Defend",
+      "Investigate"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr033",
+    "name": "CTFtime.org",
+    "provider": "CTFtime",
+    "url": "https://ctftime.org/",
+    "description": "Global CTF event tracker and team ranking platform listing upcoming and past CTF competitions.",
+    "category": "CTFs",
+    "tags": [
+      "CTFtime",
+      "tracker",
+      "competitions",
+      "ranking"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d6"
+    ],
+    "niceCategories": [
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr034",
+    "name": "Gandalf (Lakera)",
+    "provider": "Lakera",
+    "url": "https://gandalf.lakera.ai/",
+    "description": "Interactive prompt injection challenge where you try to extract secrets from an AI guardian.",
+    "category": "CTFs",
+    "tags": [
+      "prompt injection",
+      "AI security",
+      "LLM",
+      "challenge"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr035",
+    "name": "HackAPrompt",
+    "provider": "Learn Prompting",
+    "url": "https://www.aicrowd.com/challenges/hackaprompt-2023",
+    "description": "Prompt injection CTF challenge for learning about LLM vulnerabilities and adversarial prompting.",
+    "category": "CTFs",
+    "tags": [
+      "HackAPrompt",
+      "prompt injection",
+      "LLM",
+      "AI security"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr036",
+    "name": "DEF CON AI Village",
+    "provider": "AI Village",
+    "url": "https://aivillage.org/",
+    "description": "Resources and CTF events focused on adversarial machine learning and AI security from DEF CON.",
+    "category": "CTFs",
+    "tags": [
+      "DEF CON",
+      "AI Village",
+      "adversarial ML",
+      "AI security"
+    ],
+    "level": "Expert",
+    "cisspDomains": [
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Analyze"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr037",
+    "name": "GOAD (Game of Active Directory)",
+    "provider": "Orange CyberDefense",
+    "url": "https://github.com/Orange-Cyberdefense/GOAD",
+    "description": "Vulnerable Active Directory lab with 5 VMs, 2 forests, and 3 domains for pentesting practice.",
+    "category": "Labs",
+    "tags": [
+      "Active Directory",
+      "lab",
+      "pentesting",
+      "VMs"
+    ],
+    "level": "Expert",
+    "cisspDomains": [
+      "cissp-d5",
+      "cissp-d6"
+    ],
+    "niceCategories": [
+      "Investigate"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr038",
+    "name": "DetectionLab",
+    "provider": "Chris Long",
+    "url": "https://github.com/clong/DetectionLab",
+    "description": "Pre-built lab environment with Splunk, osquery, and Sysmon for testing detection and response.",
+    "category": "Labs",
+    "tags": [
+      "lab",
+      "Splunk",
+      "Sysmon",
+      "detection"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr039",
+    "name": "Splunk Attack Range",
+    "provider": "Splunk",
+    "url": "https://github.com/splunk/attack_range",
+    "description": "Automated lab for simulating attacks against Windows, generating telemetry, and testing Splunk detections.",
+    "category": "Labs",
+    "tags": [
+      "Splunk",
+      "attack simulation",
+      "Windows",
+      "detection"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Protect and Defend",
+      "Investigate"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr040",
+    "name": "DVWA",
+    "provider": "DVWA",
+    "url": "https://github.com/digininja/DVWA",
+    "description": "Damn Vulnerable Web Application for practicing web attacks in a legal, intentionally insecure PHP/MySQL app.",
+    "category": "Labs",
+    "tags": [
+      "DVWA",
+      "web",
+      "vulnerable",
+      "OWASP"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d6",
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr041",
+    "name": "VulnHub",
+    "provider": "VulnHub",
+    "url": "https://www.vulnhub.com/",
+    "description": "Collection of vulnerable virtual machine images for offline penetration testing practice.",
+    "category": "Labs",
+    "tags": [
+      "VulnHub",
+      "VMs",
+      "pentesting",
+      "vulnerable"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d6"
+    ],
+    "niceCategories": [
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr042",
+    "name": "Metasploitable",
+    "provider": "Rapid7",
+    "url": "https://docs.rapid7.com/metasploit/metasploitable-2/",
+    "description": "Intentionally vulnerable Linux VM designed for Metasploit training and security testing practice.",
+    "category": "Labs",
+    "tags": [
+      "Metasploit",
+      "vulnerable",
+      "Linux",
+      "VM"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d6"
+    ],
+    "niceCategories": [
+      "Protect and Defend",
+      "Investigate"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr043",
+    "name": "CloudGoat",
+    "provider": "Rhino Security Labs",
+    "url": "https://github.com/RhinoSecurityLabs/cloudgoat",
+    "description": "Vulnerable-by-design AWS deployment for learning cloud penetration testing and exploitation.",
+    "category": "Labs",
+    "tags": [
+      "AWS",
+      "cloud",
+      "vulnerable",
+      "pentesting"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d3",
+      "cissp-d6"
+    ],
+    "niceCategories": [
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr044",
+    "name": "Flaws.cloud",
+    "provider": "Scott Piper",
+    "url": "http://flaws.cloud/",
+    "description": "CTF-style challenges teaching common AWS security misconfigurations through progressive levels.",
+    "category": "Labs",
+    "tags": [
+      "AWS",
+      "CTF",
+      "misconfiguration",
+      "cloud"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d3",
+      "cissp-d5"
+    ],
+    "niceCategories": [
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr045",
+    "name": "Flaws2.cloud",
+    "provider": "Scott Piper",
+    "url": "http://flaws2.cloud/",
+    "description": "Sequel to Flaws.cloud with both attacker and defender perspectives on AWS security issues.",
+    "category": "Labs",
+    "tags": [
+      "AWS",
+      "Flaws",
+      "attacker",
+      "defender"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d3",
+      "cissp-d5"
+    ],
+    "niceCategories": [
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr046",
+    "name": "GCPGoat",
+    "provider": "INE Security",
+    "url": "https://github.com/ine-labs/GCPGoat",
+    "description": "Vulnerable Google Cloud infrastructure for practicing GCP-specific penetration testing.",
+    "category": "Labs",
+    "tags": [
+      "GCP",
+      "cloud",
+      "vulnerable",
+      "pentesting"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d3",
+      "cissp-d6"
+    ],
+    "niceCategories": [
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr047",
+    "name": "AzureGoat",
+    "provider": "INE Security",
+    "url": "https://github.com/ine-labs/AzureGoat",
+    "description": "Vulnerable Azure infrastructure with OWASP Top 10 and cloud misconfigurations for pentesting.",
+    "category": "Labs",
+    "tags": [
+      "Azure",
+      "cloud",
+      "OWASP",
+      "pentesting"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d3",
+      "cissp-d6"
+    ],
+    "niceCategories": [
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr048",
+    "name": "Kubernetes Goat",
+    "provider": "Madhu Akula",
+    "url": "https://github.com/madhuakula/kubernetes-goat",
+    "description": "Intentionally vulnerable Kubernetes cluster environment for learning container security.",
+    "category": "Labs",
+    "tags": [
+      "Kubernetes",
+      "containers",
+      "vulnerable",
+      "security"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d3",
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr049",
+    "name": "Damn Vulnerable LLM Application",
+    "provider": "OWASP",
+    "url": "https://github.com/OWASP/www-project-vulnerable-llm-application",
+    "description": "Vulnerable AI application for learning OWASP LLM Top 10 vulnerabilities including prompt injection.",
+    "category": "Labs",
+    "tags": [
+      "OWASP",
+      "LLM",
+      "vulnerable",
+      "prompt injection"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr050",
+    "name": "OWASP Juice Shop",
+    "provider": "OWASP",
+    "url": "https://owasp.org/www-project-juice-shop/",
+    "description": "Insecure web application covering all OWASP Top 10 vulnerabilities with gamified challenge tracking.",
+    "category": "Labs",
+    "tags": [
+      "OWASP",
+      "Juice Shop",
+      "web security",
+      "Top 10"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d6",
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr051",
+    "name": "OWASP WebGoat",
+    "provider": "OWASP",
+    "url": "https://owasp.org/www-project-webgoat/",
+    "description": "Deliberately insecure Java application for learning web security flaws with built-in lessons.",
+    "category": "Labs",
+    "tags": [
+      "OWASP",
+      "WebGoat",
+      "web security",
+      "Java"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Protect and Defend",
+      "Securely Provision"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr052",
+    "name": "Malware Unicorn RE Workshops",
+    "provider": "Amanda Rousseau",
+    "url": "https://malwareunicorn.org/#/workshops",
+    "description": "Free reverse engineering workshops with hands-on exercises for malware analysis beginners.",
+    "category": "Labs",
+    "tags": [
+      "reverse engineering",
+      "malware",
+      "workshops",
+      "RE"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Investigate"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr053",
+    "name": "Cisco Modeling Labs",
+    "provider": "Cisco",
+    "url": "https://developer.cisco.com/modeling-labs/",
+    "description": "Network simulation platform for designing and testing network topologies with real Cisco images.",
+    "category": "Labs",
+    "tags": [
+      "Cisco",
+      "network simulation",
+      "topology"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d4"
+    ],
+    "niceCategories": [
+      "Operate and Maintain"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr054",
+    "name": "Eve-NG Community",
+    "provider": "Eve-NG",
+    "url": "https://www.eve-ng.net/",
+    "description": "Free network emulation platform supporting multi-vendor images for lab environments.",
+    "category": "Labs",
+    "tags": [
+      "Eve-NG",
+      "network emulation",
+      "lab"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d4"
+    ],
+    "niceCategories": [
+      "Operate and Maintain"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr055",
+    "name": "ServiceNow Developer Instance",
+    "provider": "ServiceNow",
+    "url": "https://developer.servicenow.com/",
+    "description": "Free personal developer instance of ServiceNow for learning ITSM, security operations, and automation.",
+    "category": "Labs",
+    "tags": [
+      "ServiceNow",
+      "ITSM",
+      "developer",
+      "instance"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d7",
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Operate and Maintain"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr056",
+    "name": "Ansible Community Training",
+    "provider": "Red Hat",
+    "url": "https://www.redhat.com/en/ansible-collaborative/ansible-community-training",
+    "description": "Free hands-on Ansible training with pre-configured environments running in your browser. Learn to create collections, develop modules, and add integration tests.",
+    "category": "DevSecOps Tools",
+    "tags": [
+      "automation",
+      "configuration management",
+      "IaC"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d8",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Securely Provision",
+      "Operate and Maintain"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr057",
+    "name": "Terraform Tutorials",
+    "provider": "HashiCorp",
+    "url": "https://developer.hashicorp.com/terraform/tutorials",
+    "description": "Step-by-step tutorials for building and managing cloud infrastructure with Terraform across AWS, Azure, GCP, Docker, and OCI.",
+    "category": "DevSecOps Tools",
+    "tags": [
+      "IaC",
+      "cloud",
+      "automation"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d8",
+      "cissp-d3"
+    ],
+    "niceCategories": [
+      "Securely Provision"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr058",
+    "name": "Chef InSpec",
+    "provider": "Chef",
+    "url": "https://www.chef.io/products/chef-inspec",
+    "description": "Open-source compliance and security testing framework. Write human-readable tests to validate infrastructure state and ensure compliance.",
+    "category": "DevSecOps Tools",
+    "tags": [
+      "compliance",
+      "security testing",
+      "infrastructure"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d6",
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Securely Provision",
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr059",
+    "name": "Docker Get Started",
+    "provider": "Docker",
+    "url": "https://docs.docker.com/guides/get-started/",
+    "description": "Official 45-minute workshop covering containerization, Docker Compose, multi-container deployments, and publishing to Docker Hub.",
+    "category": "DevSecOps Tools",
+    "tags": [
+      "containers",
+      "DevOps",
+      "tutorial"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d8",
+      "cissp-d3"
+    ],
+    "niceCategories": [
+      "Securely Provision"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr060",
+    "name": "Kubernetes Tutorials",
+    "provider": "CNCF",
+    "url": "https://kubernetes.io/docs/tutorials",
+    "description": "Interactive tutorials covering Kubernetes basics, Minikube, stateless/stateful apps, services, security, and cluster management.",
+    "category": "DevSecOps Tools",
+    "tags": [
+      "Kubernetes",
+      "orchestration",
+      "containers"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d8",
+      "cissp-d3"
+    ],
+    "niceCategories": [
+      "Securely Provision"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr061",
+    "name": "GitHub Actions",
+    "provider": "GitHub",
+    "url": "https://docs.github.com/en/actions",
+    "description": "Free CI/CD automation for GitHub repositories. Build, test, and deploy with workflows; free minutes for public repos.",
+    "category": "DevSecOps Tools",
+    "tags": [
+      "CI/CD",
+      "automation",
+      "GitHub"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d8",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Securely Provision"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr062",
+    "name": "GitLab CI",
+    "provider": "GitLab",
+    "url": "https://docs.gitlab.com/ee/ci/",
+    "description": "Free tier includes 400 compute minutes monthly for CI/CD pipelines. Full pipeline configuration and runner support.",
+    "category": "DevSecOps Tools",
+    "tags": [
+      "CI/CD",
+      "pipelines",
+      "DevOps"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d8",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Securely Provision"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr063",
+    "name": "Jenkins",
+    "provider": "Jenkins",
+    "url": "https://www.jenkins.io/",
+    "description": "Open-source automation server for building, deploying, and automating projects. Hundreds of plugins for CI/CD integration.",
+    "category": "DevSecOps Tools",
+    "tags": [
+      "CI/CD",
+      "automation",
+      "open source"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d8",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Securely Provision"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr064",
+    "name": "SonarQube Community",
+    "provider": "SonarSource",
+    "url": "https://www.sonarsource.com/open-source-editions/sonarqube-community-edition/",
+    "description": "Free automated code review for quality and security across 21+ languages. Integrates with CI/CD and IDEs.",
+    "category": "DevSecOps Tools",
+    "tags": [
+      "SAST",
+      "code quality",
+      "security"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d8",
+      "cissp-d6"
+    ],
+    "niceCategories": [
+      "Securely Provision"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr065",
+    "name": "Trivy",
+    "provider": "Aqua Security",
+    "url": "https://aquasecurity.github.io/trivy/",
+    "description": "Comprehensive open-source scanner for vulnerabilities, misconfigurations, secrets, and SBOM in containers, IaC, and Kubernetes.",
+    "category": "DevSecOps Tools",
+    "tags": [
+      "vulnerability scanner",
+      "containers",
+      "IaC"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d6",
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Securely Provision",
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr066",
+    "name": "Checkov",
+    "provider": "Bridgecrew",
+    "url": "https://github.com/bridgecrewio/checkov",
+    "description": "Static analysis for IaC and SCA. Scans Terraform, CloudFormation, Kubernetes, and more for security misconfigurations.",
+    "category": "DevSecOps Tools",
+    "tags": [
+      "IaC security",
+      "CloudFormation",
+      "Terraform"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d6",
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Securely Provision"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr067",
+    "name": "OWASP ZAP",
+    "provider": "OWASP",
+    "url": "https://www.zaproxy.org/",
+    "description": "Free, open-source web application security scanner. Manual and automated testing with extensible add-on marketplace.",
+    "category": "DevSecOps Tools",
+    "tags": [
+      "DAST",
+      "web security",
+      "OWASP"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d6",
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Securely Provision",
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr068",
+    "name": "Snyk Free Tier",
+    "provider": "Snyk",
+    "url": "https://snyk.io/",
+    "description": "Free developer security platform for vulnerability scanning in code, dependencies, containers, and IaC with CI/CD integration.",
+    "category": "DevSecOps Tools",
+    "tags": [
+      "SCA",
+      "vulnerability",
+      "DevSecOps"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d8",
+      "cissp-d6"
+    ],
+    "niceCategories": [
+      "Securely Provision"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr069",
+    "name": "Semgrep Free Tier",
+    "provider": "Semgrep",
+    "url": "https://semgrep.dev/",
+    "description": "Free static analysis with 3000+ rules. Local scanning, 30+ languages, no usage limits in Community Edition.",
+    "category": "DevSecOps Tools",
+    "tags": [
+      "SAST",
+      "static analysis",
+      "code"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d8",
+      "cissp-d6"
+    ],
+    "niceCategories": [
+      "Securely Provision"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr070",
+    "name": "Open Policy Agent",
+    "provider": "CNCF",
+    "url": "https://www.openpolicyagent.org/",
+    "description": "Open-source policy engine unifying policy enforcement across Kubernetes, CI/CD, APIs, and infrastructure. Uses Rego language.",
+    "category": "DevSecOps Tools",
+    "tags": [
+      "policy",
+      "compliance",
+      "Kubernetes"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d3",
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Securely Provision",
+      "Oversee and Govern"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr071",
+    "name": "HashiCorp Vault",
+    "provider": "HashiCorp",
+    "url": "https://www.vaultproject.io/",
+    "description": "Open-source secrets and encryption management. Secure storage, dynamic secrets, encryption as a service, and audit logging.",
+    "category": "DevSecOps Tools",
+    "tags": [
+      "secrets",
+      "encryption",
+      "IAM"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d5",
+      "cissp-d2"
+    ],
+    "niceCategories": [
+      "Securely Provision",
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr072",
+    "name": "Falco",
+    "provider": "Sysdig",
+    "url": "https://falco.org/",
+    "description": "CNCF runtime security project. Detects suspicious activity via syscalls and eBPF across hosts, containers, and Kubernetes.",
+    "category": "DevSecOps Tools",
+    "tags": [
+      "runtime security",
+      "containers",
+      "eBPF"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d7",
+      "cissp-d3"
+    ],
+    "niceCategories": [
+      "Protect and Defend",
+      "Operate and Maintain"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr073",
+    "name": "BloodHound Community Edition",
+    "provider": "SpecterOps",
+    "url": "https://github.com/SpecterOps/BloodHound",
+    "description": "Uses graph theory to reveal hidden attack paths in Active Directory and Entra ID. Identifies abusable configurations and relationships.",
+    "category": "Red Team and Adversary Simulation",
+    "tags": [
+      "Active Directory",
+      "attack paths",
+      "graph"
+    ],
+    "level": "Expert",
+    "cisspDomains": [
+      "cissp-d5",
+      "cissp-d6"
+    ],
+    "niceCategories": [
+      "Analyze",
+      "Investigate"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr074",
+    "name": "Atomic Red Team",
+    "provider": "Red Canary",
+    "url": "https://github.com/redcanaryco/atomic-red-team",
+    "description": "Library of 1700+ small tests mapped to MITRE ATT&CK. Validate detection capabilities with portable, reproducible tests.",
+    "category": "Red Team and Adversary Simulation",
+    "tags": [
+      "MITRE ATT&CK",
+      "detection testing",
+      "red team"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d6",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Protect and Defend",
+      "Investigate"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr075",
+    "name": "MITRE Caldera",
+    "provider": "MITRE",
+    "url": "https://github.com/mitre/caldera",
+    "description": "Automated adversary emulation platform. Run ATT&CK-based operations with autonomous red team agents.",
+    "category": "Red Team and Adversary Simulation",
+    "tags": [
+      "adversary emulation",
+      "ATT&CK",
+      "automation"
+    ],
+    "level": "Expert",
+    "cisspDomains": [
+      "cissp-d6",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Protect and Defend",
+      "Investigate"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr076",
+    "name": "Infection Monkey",
+    "provider": "Akamai",
+    "url": "https://www.akamai.com/infectionmonkey",
+    "description": "Free breach and attack simulation tool. Tests data center resiliency with worm-like propagation and security reporting.",
+    "category": "Red Team and Adversary Simulation",
+    "tags": [
+      "BAS",
+      "breach simulation",
+      "network"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d6",
+      "cissp-d4"
+    ],
+    "niceCategories": [
+      "Protect and Defend",
+      "Investigate"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr077",
+    "name": "Stratus Red Team",
+    "provider": "Datadog",
+    "url": "https://github.com/DataDog/stratus-red-team",
+    "description": "Granular adversary emulation for AWS, Azure, and GCP. Easily reproduce attack techniques to test detection pipelines.",
+    "category": "Red Team and Adversary Simulation",
+    "tags": [
+      "cloud",
+      "AWS",
+      "adversary emulation"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d6",
+      "cissp-d3"
+    ],
+    "niceCategories": [
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr078",
+    "name": "Prelude Operator",
+    "provider": "Prelude",
+    "url": "https://www.prelude.org/download",
+    "description": "Free adversary emulation desktop app. Run and customize MITRE ATT&CK TTPs with transparency and third-party integration.",
+    "category": "Red Team and Adversary Simulation",
+    "tags": [
+      "adversary emulation",
+      "ATT&CK",
+      "purple team"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d6",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Protect and Defend",
+      "Investigate"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr079",
+    "name": "VECTR",
+    "provider": "Security Risk Advisors",
+    "url": "https://vectr.io/",
+    "description": "Free purple team platform for testing controls, recording outcomes, and measuring threat resilience with Threat Index.",
+    "category": "Red Team and Adversary Simulation",
+    "tags": [
+      "purple team",
+      "metrics",
+      "ATT&CK"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d6",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Protect and Defend",
+      "Oversee and Govern"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr080",
+    "name": "PentestGPT",
+    "provider": "PentestGPT",
+    "url": "https://pentestgpt.com/",
+    "description": "AI-powered penetration testing assistant. Automates recon, vulnerability analysis, exploitation, and post-exploitation with LLMs.",
+    "category": "Red Team and Adversary Simulation",
+    "tags": [
+      "pentesting",
+      "AI",
+      "automation"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d6",
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Investigate",
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr081",
+    "name": "Nuclei",
+    "provider": "ProjectDiscovery",
+    "url": "https://github.com/projectdiscovery/nuclei",
+    "description": "Fast template-based vulnerability scanner. 12000+ YAML templates for apps, infra, and networks. CI/CD and bulk scanning.",
+    "category": "Red Team and Adversary Simulation",
+    "tags": [
+      "vulnerability scanning",
+      "templates",
+      "reconnaissance"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d6",
+      "cissp-d4"
+    ],
+    "niceCategories": [
+      "Protect and Defend",
+      "Investigate"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr082",
+    "name": "BurpGPT",
+    "provider": "Community",
+    "url": "https://github.com/aress31/burpgpt",
+    "description": "Burp Suite extension using GPT for passive vulnerability scanning and HTTP traffic analysis to find issues scanners miss.",
+    "category": "Red Team and Adversary Simulation",
+    "tags": [
+      "Burp Suite",
+      "AI",
+      "web security"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d6",
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Investigate",
+      "Securely Provision"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr083",
+    "name": "Fabric",
+    "provider": "Daniel Miessler",
+    "url": "https://github.com/danielmiessler/Fabric",
+    "description": "Open-source AI framework organizing prompts for solving specific tasks. 39000+ stars. Useful for security research and automation.",
+    "category": "Red Team and Adversary Simulation",
+    "tags": [
+      "AI",
+      "automation",
+      "prompts"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d8",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Securely Provision",
+      "Operate and Maintain"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr084",
+    "name": "Reconftw",
+    "provider": "Community",
+    "url": "https://github.com/six2dez/reconftw",
+    "description": "Automated reconnaissance framework orchestrating 80+ tools for subdomain enum, vuln scanning, OSINT, and web analysis.",
+    "category": "Red Team and Adversary Simulation",
+    "tags": [
+      "reconnaissance",
+      "OSINT",
+      "bug bounty"
+    ],
+    "level": "Expert",
+    "cisspDomains": [
+      "cissp-d6",
+      "cissp-d4"
+    ],
+    "niceCategories": [
+      "Collect and Operate",
+      "Investigate"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr085",
+    "name": "Sigma Rules",
+    "provider": "SigmaHQ",
+    "url": "https://github.com/SigmaHQ/sigma",
+    "description": "Generic detection format for log-based detection. 3000+ YAML rules convertible to Splunk, Elastic, and other SIEMs.",
+    "category": "Blue Team and DFIR",
+    "tags": [
+      "detection rules",
+      "SIEM",
+      "threat hunting"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d7",
+      "cissp-d6"
+    ],
+    "niceCategories": [
+      "Protect and Defend",
+      "Investigate"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr086",
+    "name": "YARA",
+    "provider": "VirusTotal",
+    "url": "https://github.com/VirusTotal/yara",
+    "description": "Pattern-matching swiss knife for malware research. Write rules to detect and classify malware samples and suspicious files.",
+    "category": "Blue Team and DFIR",
+    "tags": [
+      "malware",
+      "detection",
+      "signatures"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d7",
+      "cissp-d6"
+    ],
+    "niceCategories": [
+      "Protect and Defend",
+      "Investigate"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr087",
+    "name": "Volatility",
+    "provider": "Volatility Foundation",
+    "url": "https://www.volatilityfoundation.org/",
+    "description": "Leading open-source memory forensics framework. Analyze RAM dumps for malware, processes, and evidence. Volatility 3 supports auto-OS detection.",
+    "category": "Blue Team and DFIR",
+    "tags": [
+      "memory forensics",
+      "malware",
+      "incident response"
+    ],
+    "level": "Expert",
+    "cisspDomains": [
+      "cissp-d7",
+      "cissp-d6"
+    ],
+    "niceCategories": [
+      "Investigate",
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr088",
+    "name": "Velociraptor",
+    "provider": "Rapid7",
+    "url": "https://docs.velociraptor.app/",
+    "description": "Open-source DFIR platform for endpoint collection, hunting, and monitoring. VQL queries, forensic artifacts, cross-platform.",
+    "category": "Blue Team and DFIR",
+    "tags": [
+      "DFIR",
+      "endpoint",
+      "threat hunting"
+    ],
+    "level": "Expert",
+    "cisspDomains": [
+      "cissp-d7",
+      "cissp-d6"
+    ],
+    "niceCategories": [
+      "Investigate",
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr089",
+    "name": "TheHive / Cortex",
+    "provider": "StrangeBee",
+    "url": "https://thehive-project.org/",
+    "description": "Security case management and incident response. Cortex automation engine, MISP integration, 200+ analyzers for observables.",
+    "category": "Blue Team and DFIR",
+    "tags": [
+      "incident response",
+      "SOAR",
+      "case management"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d7",
+      "cissp-d6"
+    ],
+    "niceCategories": [
+      "Protect and Defend",
+      "Investigate"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr090",
+    "name": "HELK",
+    "provider": "Cyb3rWard0g",
+    "url": "https://github.com/Cyb3rWard0g/HELK",
+    "description": "Hunting ELK stack for threat hunting. Elasticsearch, Logstash, Kibana with security analytics and detection capabilities.",
+    "category": "Blue Team and DFIR",
+    "tags": [
+      "ELK",
+      "threat hunting",
+      "SIEM"
+    ],
+    "level": "Expert",
+    "cisspDomains": [
+      "cissp-d7",
+      "cissp-d6"
+    ],
+    "niceCategories": [
+      "Protect and Defend",
+      "Investigate"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr091",
+    "name": "DeepBlueCLI",
+    "provider": "SANS Blue Team",
+    "url": "https://github.com/sans-blue-team/DeepBlueCLI",
+    "description": "PowerShell module for Windows Event Log analysis. Parse and analyze Windows security events for blue team investigations.",
+    "category": "Blue Team and DFIR",
+    "tags": [
+      "Windows",
+      "event logs",
+      "PowerShell"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d7",
+      "cissp-d6"
+    ],
+    "niceCategories": [
+      "Investigate",
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr092",
+    "name": "Wazuh",
+    "provider": "Wazuh",
+    "url": "https://wazuh.com/",
+    "description": "Open-source XDR and SIEM. Endpoint detection, file integrity, vulnerability detection, and compliance monitoring.",
+    "category": "Blue Team and DFIR",
+    "tags": [
+      "XDR",
+      "SIEM",
+      "EDR"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d7",
+      "cissp-d6"
+    ],
+    "niceCategories": [
+      "Protect and Defend",
+      "Operate and Maintain"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr093",
+    "name": "Elastic Security",
+    "provider": "Elastic",
+    "url": "https://www.elastic.co/security",
+    "description": "Free and open SIEM with threat detection, endpoint security, and XDR. MITRE ATT&CK-aligned rules and ML detection.",
+    "category": "Blue Team and DFIR",
+    "tags": [
+      "SIEM",
+      "XDR",
+      "threat detection"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d7",
+      "cissp-d6"
+    ],
+    "niceCategories": [
+      "Protect and Defend",
+      "Investigate"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr094",
+    "name": "LimaCharlie",
+    "provider": "LimaCharlie",
+    "url": "https://limacharlie.io/",
+    "description": "Free tier includes 2 orgs with 2 sensors each. Full EDR capabilities, add-ons, and pay-as-you-go scaling.",
+    "category": "Blue Team and DFIR",
+    "tags": [
+      "EDR",
+      "endpoint",
+      "XDR"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d7",
+      "cissp-d5"
+    ],
+    "niceCategories": [
+      "Protect and Defend",
+      "Operate and Maintain"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr095",
+    "name": "Shuffle SOAR",
+    "provider": "Shuffle",
+    "url": "https://shuffler.io/",
+    "description": "Open-source SOAR platform for security automation. Event enrichment, response workflows, and collaboration.",
+    "category": "Blue Team and DFIR",
+    "tags": [
+      "SOAR",
+      "automation",
+      "incident response"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d7",
+      "cissp-d6"
+    ],
+    "niceCategories": [
+      "Protect and Defend",
+      "Operate and Maintain"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr096",
+    "name": "CyberChef",
+    "provider": "GCHQ",
+    "url": "https://gchq.github.io/CyberChef/",
+    "description": "Web app for encoding, encryption, hashing, compression, and data analysis. The Cyber Swiss Army Knife. All processing client-side.",
+    "category": "Blue Team and DFIR",
+    "tags": [
+      "encoding",
+      "decoding",
+      "forensics"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d7",
+      "cissp-d6"
+    ],
+    "niceCategories": [
+      "Investigate",
+      "Collect and Operate"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr097",
+    "name": "MITRE ATT&CK Navigator",
+    "provider": "MITRE",
+    "url": "https://mitre-attack.github.io/attack-navigator/",
+    "description": "Web app for navigating and annotating ATT&CK matrices. Create layers for adversary coverage, defensive gaps, and planning.",
+    "category": "Threat Intelligence",
+    "tags": [
+      "ATT&CK",
+      "visualization",
+      "threat modeling"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d7",
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Analyze",
+      "Oversee and Govern"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr098",
+    "name": "MITRE ATLAS",
+    "provider": "MITRE",
+    "url": "https://atlas.mitre.org/",
+    "description": "Knowledge base for adversarial machine learning. Matrix of tactics and techniques for ML system attacks and mitigations.",
+    "category": "Threat Intelligence",
+    "tags": [
+      "adversarial ML",
+      "AI security",
+      "threat modeling"
+    ],
+    "level": "Expert",
+    "cisspDomains": [
+      "cissp-d3",
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Analyze",
+      "Securely Provision"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr099",
+    "name": "STIX/TAXII Documentation",
+    "provider": "OASIS",
+    "url": "https://oasis-open.github.io/cti-documentation/",
+    "description": "Official docs for STIX (threat intel language) and TAXII (exchange protocol). Cyber Threat Intelligence Technical Committee.",
+    "category": "Threat Intelligence",
+    "tags": [
+      "STIX",
+      "TAXII",
+      "CTI"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d7",
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Collect and Operate",
+      "Analyze"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr100",
+    "name": "OpenCTI",
+    "provider": "Filigran",
+    "url": "https://www.opencti.io/",
+    "description": "Open-source threat intelligence platform. STIX 2.1 data model, 300+ integrations, MISP/TheHive integration, and GraphQL API.",
+    "category": "Threat Intelligence",
+    "tags": [
+      "CTI",
+      "STIX",
+      "visualization"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d7",
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Collect and Operate",
+      "Analyze"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr101",
+    "name": "MISP",
+    "provider": "MISP Project",
+    "url": "https://www.misp-project.org/",
+    "description": "Open-source threat intelligence platform. IOC management, correlation, sharing, and export to IDS/SIEM. 100K+ users.",
+    "category": "Threat Intelligence",
+    "tags": [
+      "IOC",
+      "threat sharing",
+      "CTI"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d7",
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Collect and Operate",
+      "Analyze"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr102",
+    "name": "Hail a TAXII",
+    "provider": "Community",
+    "url": "https://www.hailataxii.com/",
+    "description": "Free public TAXII feeds for threat intelligence. Phishtank, Abuse.ch, Cybercrime Tracker, DShield, and more collections.",
+    "category": "Threat Intelligence",
+    "tags": [
+      "TAXII",
+      "feeds",
+      "IOC"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d7",
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Collect and Operate"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr103",
+    "name": "AlienVault OTX",
+    "provider": "AT&T Cybersecurity",
+    "url": "https://otx.alienvault.com/",
+    "description": "World's largest open threat intelligence community. 19M+ daily indicators, pulses, IP reputation, and free API.",
+    "category": "Threat Intelligence",
+    "tags": [
+      "IOC",
+      "pulses",
+      "community"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d7",
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Collect and Operate",
+      "Analyze"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr104",
+    "name": "Abuse.ch",
+    "provider": "Abuse.ch",
+    "url": "https://abuse.ch/",
+    "description": "URLhaus, MalwareBazaar, and ThreatFox. Free malware URL tracking, sample sharing, and IOC feeds with APIs.",
+    "category": "Threat Intelligence",
+    "tags": [
+      "malware",
+      "URLhaus",
+      "ThreatFox"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d7",
+      "cissp-d6"
+    ],
+    "niceCategories": [
+      "Collect and Operate",
+      "Investigate"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr105",
+    "name": "VirusTotal",
+    "provider": "Google",
+    "url": "https://www.virustotal.com/",
+    "description": "Free file and URL scanning with 70+ AV engines. Web interface and free API (4 req/min). Non-commercial use.",
+    "category": "Threat Intelligence",
+    "tags": [
+      "malware",
+      "URL scanning",
+      "IOC"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d7",
+      "cissp-d6"
+    ],
+    "niceCategories": [
+      "Investigate",
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr106",
+    "name": "Shodan",
+    "provider": "Shodan",
+    "url": "https://www.shodan.io/",
+    "description": "Search engine for internet-connected devices. Free search with limits. Banners, ports, and device discovery.",
+    "category": "Threat Intelligence",
+    "tags": [
+      "OSINT",
+      "exposure",
+      "internet scanning"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d4",
+      "cissp-d6"
+    ],
+    "niceCategories": [
+      "Collect and Operate",
+      "Investigate"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr107",
+    "name": "Censys",
+    "provider": "Censys",
+    "url": "https://search.censys.io/",
+    "description": "Free internet scanning data. Host, certificate, and web property search. API and platform search for exposure analysis.",
+    "category": "Threat Intelligence",
+    "tags": [
+      "internet scanning",
+      "certificates",
+      "exposure"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d4",
+      "cissp-d6"
+    ],
+    "niceCategories": [
+      "Collect and Operate",
+      "Investigate"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr108",
+    "name": "GreyNoise Community",
+    "provider": "GreyNoise",
+    "url": "https://www.greynoise.io/community",
+    "description": "Free IP lookups and Community API. Identifies internet scanning noise. Research program for students and researchers.",
+    "category": "Threat Intelligence",
+    "tags": [
+      "IP reputation",
+      "scanning",
+      "noise"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d7",
+      "cissp-d4"
+    ],
+    "niceCategories": [
+      "Collect and Operate",
+      "Analyze"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr109",
+    "name": "DISA STIGs",
+    "provider": "DISA",
+    "url": "https://public.cyber.mil/stigs/",
+    "description": "Security Technical Implementation Guides for hardening DoD systems. Configuration benchmarks for Windows, Linux, network devices.",
+    "category": "Hardening and Compliance",
+    "tags": [
+      "STIG",
+      "hardening",
+      "DoD"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d3",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Securely Provision",
+      "Operate and Maintain"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr110",
+    "name": "STIG Viewer",
+    "provider": "DISA",
+    "url": "https://public.cyber.mil/stig/stig-viewing-tools/",
+    "description": "View and compare STIGs. Create checklists, customize baselines, and export for compliance reporting.",
+    "category": "Hardening and Compliance",
+    "tags": [
+      "STIG",
+      "checklist",
+      "compliance"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d3",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Operate and Maintain",
+      "Oversee and Govern"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr111",
+    "name": "OpenSCAP",
+    "provider": "OpenSCAP",
+    "url": "https://www.open-scap.org/",
+    "description": "Open-source SCAP tools for configuration and vulnerability scanning. DISA STIGs, NIST USGCB, PCI-DSS, and OVAL support.",
+    "category": "Hardening and Compliance",
+    "tags": [
+      "SCAP",
+      "compliance",
+      "vulnerability"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d3",
+      "cissp-d6"
+    ],
+    "niceCategories": [
+      "Securely Provision",
+      "Operate and Maintain"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr112",
+    "name": "CIS Benchmarks",
+    "provider": "CIS",
+    "url": "https://learn.cisecurity.org/benchmarks",
+    "description": "Free PDF benchmarks for OS, cloud, network devices, and applications. 25+ benchmarks with configuration guidance.",
+    "category": "Hardening and Compliance",
+    "tags": [
+      "benchmarks",
+      "hardening",
+      "configuration"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d3",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Securely Provision",
+      "Operate and Maintain"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr113",
+    "name": "CIS-CAT Lite",
+    "provider": "CIS",
+    "url": "https://learn.cisecurity.org/cis-cat-lite",
+    "description": "Free assessment tool with unlimited scans against select CIS Benchmarks. Compliance scores and remediation steps.",
+    "category": "Hardening and Compliance",
+    "tags": [
+      "assessment",
+      "compliance",
+      "CIS"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d3",
+      "cissp-d6"
+    ],
+    "niceCategories": [
+      "Operate and Maintain",
+      "Oversee and Govern"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr114",
+    "name": "Splunk SPL and BOTS",
+    "provider": "Splunk",
+    "url": "https://bots.splunk.com/",
+    "description": "SPL documentation and BOTS v1/v2/v3 datasets. Free CTF-style datasets for threat hunting practice with pre-indexed Splunk data.",
+    "category": "Query Languages",
+    "tags": [
+      "SPL",
+      "Splunk",
+      "threat hunting"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d7",
+      "cissp-d6"
+    ],
+    "niceCategories": [
+      "Investigate",
+      "Analyze"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr115",
+    "name": "MustLearnKQL",
+    "provider": "Rod Trent",
+    "url": "https://github.com/rod-trent/MustLearnKQL",
+    "description": "Code and resources for KQL learning. Blog series, book PDF, examples for Microsoft Sentinel and Defender.",
+    "category": "Query Languages",
+    "tags": [
+      "KQL",
+      "Sentinel",
+      "Defender"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d7",
+      "cissp-d6"
+    ],
+    "niceCategories": [
+      "Investigate",
+      "Analyze"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr116",
+    "name": "KC7 Cyber",
+    "provider": "KC7 Foundation",
+    "url": "https://www.kc7cyber.com/",
+    "description": "Free gamified breach investigation platform. Learn KQL through realistic scenarios. 100K+ analysts trained, runs on Azure Data Explorer.",
+    "category": "Query Languages",
+    "tags": [
+      "KQL",
+      "game",
+      "threat hunting"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d7",
+      "cissp-d6"
+    ],
+    "niceCategories": [
+      "Investigate",
+      "Analyze"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr117",
+    "name": "Azure Data Explorer Free Cluster",
+    "provider": "Microsoft",
+    "url": "https://dataexplorer.azure.com/",
+    "description": "Free KQL cluster for learning and development. Query large datasets and practice Kusto Query Language.",
+    "category": "Query Languages",
+    "tags": [
+      "KQL",
+      "Azure",
+      "analytics"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d7",
+      "cissp-d3"
+    ],
+    "niceCategories": [
+      "Analyze",
+      "Investigate"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr118",
+    "name": "CrowdStrike Falcon LogScale Community",
+    "provider": "CrowdStrike",
+    "url": "https://github.com/CrowdStrike/logscale-community-content",
+    "description": "Free 16GB/day LogScale Community Edition. Community content repo for queries, configs, and detection rules.",
+    "category": "Query Languages",
+    "tags": [
+      "LogScale",
+      "logging",
+      "SIEM"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d7",
+      "cissp-d6"
+    ],
+    "niceCategories": [
+      "Investigate",
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr119",
+    "name": "Sigma Rules + Uncoder.io",
+    "provider": "SOC Prime",
+    "url": "https://uncoder.io/",
+    "description": "Convert Sigma rules to 48+ SIEM formats. Splunk, Sentinel, Elastic, CrowdStrike. IDE and translation engine for detection portability.",
+    "category": "Query Languages",
+    "tags": [
+      "Sigma",
+      "converter",
+      "detection"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d7",
+      "cissp-d6"
+    ],
+    "niceCategories": [
+      "Protect and Defend",
+      "Investigate"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr120",
+    "name": "OSSEM",
+    "provider": "OTRF",
+    "url": "https://github.com/OTRF/OSSEM",
+    "description": "Open Source Security Events Metadata. Data dictionaries, CIM, and detection data model for Windows, Linux, macOS log analysis.",
+    "category": "Query Languages",
+    "tags": [
+      "metadata",
+      "data model",
+      "ATT&CK"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d7",
+      "cissp-d6"
+    ],
+    "niceCategories": [
+      "Analyze",
+      "Investigate"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr121",
+    "name": "JWT.io",
+    "provider": "Auth0",
+    "url": "https://jwt.io/",
+    "description": "Free JWT debugger and decoder for examining JSON Web Tokens (RFC 7519) with educational resources.",
+    "category": "Auth and Identity",
+    "tags": [
+      "JWT",
+      "tokens",
+      "OAuth",
+      "debugger"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d5",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Analyze",
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr122",
+    "name": "OAuth.net",
+    "provider": "OAuth Community",
+    "url": "https://www.oauth.net/",
+    "description": "Official OAuth community site with documentation, specifications (RFC 6749), grant types, and token management guides.",
+    "category": "Auth and Identity",
+    "tags": [
+      "OAuth",
+      "authorization",
+      "API",
+      "specifications"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d5",
+      "cissp-d3"
+    ],
+    "niceCategories": [
+      "Securely Provision",
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr123",
+    "name": "OpenID Connect Specifications",
+    "provider": "OpenID Foundation",
+    "url": "https://openid.net/specs/",
+    "description": "Complete specifications for OpenID Connect identity layer built on OAuth 2.0.",
+    "category": "Auth and Identity",
+    "tags": [
+      "OIDC",
+      "identity",
+      "OAuth",
+      "specifications"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d5",
+      "cissp-d3"
+    ],
+    "niceCategories": [
+      "Securely Provision",
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr124",
+    "name": "OWASP Authentication Cheat Sheet",
+    "provider": "OWASP",
+    "url": "https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html",
+    "description": "Practical security guidance for implementing authentication including password policies, user IDs, and MFA.",
+    "category": "Auth and Identity",
+    "tags": [
+      "authentication",
+      "OWASP",
+      "cheat sheet",
+      "secure coding"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d5",
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Securely Provision",
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr125",
+    "name": "OWASP Authorization Cheat Sheet",
+    "provider": "OWASP",
+    "url": "https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html",
+    "description": "Guidance on implementing proper authorization controls and access management in applications.",
+    "category": "Auth and Identity",
+    "tags": [
+      "authorization",
+      "OWASP",
+      "access control",
+      "RBAC"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d5",
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Securely Provision",
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr126",
+    "name": "OWASP Session Management Cheat Sheet",
+    "provider": "OWASP",
+    "url": "https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html",
+    "description": "Best practices for secure session handling including creation, fixation prevention, and timeout.",
+    "category": "Auth and Identity",
+    "tags": [
+      "sessions",
+      "OWASP",
+      "state management",
+      "secure coding"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d5",
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Securely Provision",
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr127",
+    "name": "Keycloak",
+    "provider": "Keycloak/Red Hat",
+    "url": "https://www.keycloak.org/",
+    "description": "Open-source identity and access management supporting SSO, OAuth 2.0, OpenID Connect, and SAML 2.0.",
+    "category": "Auth and Identity",
+    "tags": [
+      "IAM",
+      "SSO",
+      "OIDC",
+      "SAML"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d5",
+      "cissp-d3"
+    ],
+    "niceCategories": [
+      "Securely Provision",
+      "Operate and Maintain"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr128",
+    "name": "Authelia",
+    "provider": "Authelia",
+    "url": "https://www.authelia.com/",
+    "description": "Self-hosted authentication server providing SSO and 2FA (TOTP, WebAuthn, Duo) for internal services.",
+    "category": "Auth and Identity",
+    "tags": [
+      "SSO",
+      "2FA",
+      "self-hosted",
+      "WebAuthn"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d5",
+      "cissp-d3"
+    ],
+    "niceCategories": [
+      "Securely Provision",
+      "Operate and Maintain"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr129",
+    "name": "SAML-tracer",
+    "provider": "SimpleSAMLphp",
+    "url": "https://github.com/simplesamlphp/SAML-tracer",
+    "description": "Browser extension for Firefox and Chrome that captures and decodes SAML and WS-Federation messages for debugging.",
+    "category": "Auth and Identity",
+    "tags": [
+      "SAML",
+      "debugging",
+      "browser extension",
+      "SSO"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d5",
+      "cissp-d6"
+    ],
+    "niceCategories": [
+      "Investigate",
+      "Analyze"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr130",
+    "name": "OWASP ASVS 5.0",
+    "provider": "OWASP",
+    "url": "https://asvs.dev/",
+    "description": "Application Security Verification Standard 5.0 with security requirements for web applications and APIs across 17 categories.",
+    "category": "Auth and Identity",
+    "tags": [
+      "ASVS",
+      "verification",
+      "security requirements",
+      "web security"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d6",
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Analyze",
+      "Securely Provision"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr131",
+    "name": "Practical Cryptography for Developers",
+    "provider": "Svetlin Nakov",
+    "url": "https://cryptobook.nakov.com/",
+    "description": "Free book covering hashes, MAC, key derivation, symmetric/asymmetric ciphers, and digital signatures with code examples.",
+    "category": "Cryptography",
+    "tags": [
+      "cryptography",
+      "book",
+      "developers",
+      "practical"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d3",
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Securely Provision",
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr132",
+    "name": "HashiCorp Vault OSS",
+    "provider": "HashiCorp",
+    "url": "https://github.com/hashicorp/vault",
+    "description": "Open-source secrets management and encryption-as-a-service for storing and controlling access to sensitive data.",
+    "category": "Cryptography",
+    "tags": [
+      "secrets",
+      "encryption",
+      "key management",
+      "IAM"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d2",
+      "cissp-d3"
+    ],
+    "niceCategories": [
+      "Securely Provision",
+      "Operate and Maintain"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr133",
+    "name": "Let's Encrypt",
+    "provider": "Let's Encrypt",
+    "url": "https://letsencrypt.org/",
+    "description": "Nonprofit CA providing free TLS/SSL certificates via automated ACME protocol for HTTPS encryption.",
+    "category": "Cryptography",
+    "tags": [
+      "TLS",
+      "SSL",
+      "certificates",
+      "HTTPS"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d4",
+      "cissp-d3"
+    ],
+    "niceCategories": [
+      "Securely Provision",
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr134",
+    "name": "OpenSSL",
+    "provider": "OpenSSL Project",
+    "url": "https://www.openssl.org/",
+    "description": "Open-source TLS/SSL and cryptography library providing secure communications and crypto primitives.",
+    "category": "Cryptography",
+    "tags": [
+      "TLS",
+      "SSL",
+      "crypto library",
+      "open source"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d3",
+      "cissp-d4"
+    ],
+    "niceCategories": [
+      "Securely Provision",
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr135",
+    "name": "GPG/GnuPG",
+    "provider": "GnuPG Project",
+    "url": "https://www.gnupg.org/",
+    "description": "Free OpenPGP implementation for encrypting, signing data, and secure email communications.",
+    "category": "Cryptography",
+    "tags": [
+      "encryption",
+      "signing",
+      "OpenPGP",
+      "privacy"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d3",
+      "cissp-d4"
+    ],
+    "niceCategories": [
+      "Protect and Defend",
+      "Securely Provision"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr136",
+    "name": "NIST Post-Quantum Cryptography",
+    "provider": "NIST",
+    "url": "https://csrc.nist.gov/projects/post-quantum-cryptography",
+    "description": "NIST PQC project with standards (ML-KEM, ML-DSA, SLH-DSA) for quantum-resistant cryptography.",
+    "category": "Cryptography",
+    "tags": [
+      "post-quantum",
+      "PQC",
+      "quantum-resistant",
+      "NIST"
+    ],
+    "level": "Expert",
+    "cisspDomains": [
+      "cissp-d3",
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Securely Provision",
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr137",
+    "name": "ITIL 4 Foundation Overview",
+    "provider": "Axelos",
+    "url": "https://www.axelos.com/certifications/itil-service-management/itil-4-foundation",
+    "description": "Official ITIL 4 Foundation certification and overview for IT service management best practices.",
+    "category": "Governance and Service Management",
+    "tags": [
+      "ITIL",
+      "ITSM",
+      "service management",
+      "framework"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d1",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Oversee and Govern",
+      "Operate and Maintain"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr138",
+    "name": "BMC ITIL Guides",
+    "provider": "BMC",
+    "url": "https://www.bmc.com/blogs/itil-4-guide/",
+    "description": "BMC documentation and guides on ITIL processes including incident management and service level management.",
+    "category": "Governance and Service Management",
+    "tags": [
+      "ITIL",
+      "ITSM",
+      "processes",
+      "documentation"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d1",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Oversee and Govern",
+      "Operate and Maintain"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr139",
+    "name": "COBIT Overview",
+    "provider": "ISACA",
+    "url": "https://www.isaca.org/resources/cobit",
+    "description": "ISACA's COBIT framework for IT governance and management with control objectives and maturity models.",
+    "category": "Governance and Service Management",
+    "tags": [
+      "COBIT",
+      "governance",
+      "IT governance",
+      "controls"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d1",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Oversee and Govern",
+      "Operate and Maintain"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr140",
+    "name": "TOGAF Overview",
+    "provider": "The Open Group",
+    "url": "https://www.opengroup.org/togaf",
+    "description": "The Open Group Architecture Framework for enterprise architecture development and governance.",
+    "category": "Governance and Service Management",
+    "tags": [
+      "TOGAF",
+      "enterprise architecture",
+      "framework",
+      "ADM"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d1",
+      "cissp-d3"
+    ],
+    "niceCategories": [
+      "Oversee and Govern",
+      "Securely Provision"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr141",
+    "name": "ISO 27001/27002 Overview",
+    "provider": "ISO",
+    "url": "https://www.iso.org/standard/27001",
+    "description": "ISO 27001 information security management system standard and ISO 27002 controls implementation guide.",
+    "category": "Governance and Service Management",
+    "tags": [
+      "ISO 27001",
+      "ISMS",
+      "security controls",
+      "compliance"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d1",
+      "cissp-d2"
+    ],
+    "niceCategories": [
+      "Oversee and Govern",
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr142",
+    "name": "NIST SP 800-53 Controls Catalog",
+    "provider": "NIST",
+    "url": "https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final",
+    "description": "Comprehensive catalog of security and privacy controls for information systems and organizations.",
+    "category": "Governance and Service Management",
+    "tags": [
+      "NIST",
+      "controls",
+      "SP 800-53",
+      "FISMA"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d1",
+      "cissp-d6"
+    ],
+    "niceCategories": [
+      "Oversee and Govern",
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr143",
+    "name": "NIST Cybersecurity Framework",
+    "provider": "NIST",
+    "url": "https://www.nist.gov/cyberframework",
+    "description": "Voluntary framework (CSF 2.0) for managing and reducing cybersecurity risk across organizations.",
+    "category": "Governance and Service Management",
+    "tags": [
+      "NIST CSF",
+      "risk management",
+      "framework",
+      "governance"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d1",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Oversee and Govern",
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr144",
+    "name": "NIST Risk Management Framework",
+    "provider": "NIST",
+    "url": "https://csrc.nist.gov/projects/risk-management/about-rmf",
+    "description": "Seven-step RMF process for managing security and privacy risk in information systems (SP 800-37).",
+    "category": "Governance and Service Management",
+    "tags": [
+      "RMF",
+      "risk management",
+      "NIST",
+      "authorization"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d1",
+      "cissp-d6"
+    ],
+    "niceCategories": [
+      "Oversee and Govern",
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr145",
+    "name": "IAPP Free Resources",
+    "provider": "IAPP",
+    "url": "https://iapp.org/resources/",
+    "description": "Privacy 101, free study guides, training, webinars, and newsletters from the International Association of Privacy Professionals.",
+    "category": "Privacy and Legal",
+    "tags": [
+      "privacy",
+      "IAPP",
+      "training",
+      "GDPR"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d1",
+      "cissp-d2"
+    ],
+    "niceCategories": [
+      "Oversee and Govern",
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr146",
+    "name": "GDPR.eu",
+    "provider": "GDPR.eu",
+    "url": "https://gdpr.eu/",
+    "description": "Informational resource with GDPR compliance guidelines, checklists, templates, and compliance guidance.",
+    "category": "Privacy and Legal",
+    "tags": [
+      "GDPR",
+      "compliance",
+      "data protection",
+      "EU"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d1",
+      "cissp-d2"
+    ],
+    "niceCategories": [
+      "Oversee and Govern",
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr147",
+    "name": "NIST Privacy Framework",
+    "provider": "NIST",
+    "url": "https://www.nist.gov/privacy-framework",
+    "description": "Voluntary tool for identifying and managing privacy risk while building innovative products and services.",
+    "category": "Privacy and Legal",
+    "tags": [
+      "privacy",
+      "NIST",
+      "risk management",
+      "framework"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d1",
+      "cissp-d2"
+    ],
+    "niceCategories": [
+      "Oversee and Govern",
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr148",
+    "name": "FTC Cybersecurity Resources",
+    "provider": "FTC",
+    "url": "https://www.ftc.gov/business-guidance/small-businesses/cybersecurity",
+    "description": "FTC guidance on cybersecurity for small business including Start with Security guide and data security best practices.",
+    "category": "Privacy and Legal",
+    "tags": [
+      "FTC",
+      "cybersecurity",
+      "compliance",
+      "small business"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d1",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Oversee and Govern",
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr149",
+    "name": "Microsoft Security Copilot Documentation",
+    "provider": "Microsoft",
+    "url": "https://learn.microsoft.com/en-us/copilot/security/get-started-security-copilot",
+    "description": "Documentation for Microsoft's AI-powered security copilot for incident response and threat hunting.",
+    "category": "AI Security Tools",
+    "tags": [
+      "AI",
+      "security",
+      "Microsoft",
+      "Copilot"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d7",
+      "cissp-d6"
+    ],
+    "niceCategories": [
+      "Protect and Defend",
+      "Analyze"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr150",
+    "name": "PentestGPT",
+    "provider": "PentestGPT",
+    "url": "https://github.com/GreyDGL/PentestGPT",
+    "description": "Autonomous penetration testing framework powered by LLMs for reconnaissance through exploitation.",
+    "category": "AI Security Tools",
+    "tags": [
+      "pentesting",
+      "AI",
+      "automation",
+      "reconnaissance"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d6",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Protect and Defend",
+      "Investigate"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr151",
+    "name": "Nuclei AI",
+    "provider": "ProjectDiscovery",
+    "url": "https://docs.projectdiscovery.io/tools/nuclei/running",
+    "description": "Nuclei vulnerability scanner with AI-powered template generation (-ai flag) for CVE-based detection.",
+    "category": "AI Security Tools",
+    "tags": [
+      "vulnerability scanning",
+      "AI",
+      "Nuclei",
+      "CVE"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d6",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Analyze",
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr152",
+    "name": "BurpGPT",
+    "provider": "BurpGPT",
+    "url": "https://burpgpt.app/",
+    "description": "AI-powered Burp Suite extension for enhanced vulnerability analysis using LLMs including local models.",
+    "category": "AI Security Tools",
+    "tags": [
+      "Burp Suite",
+      "AI",
+      "web security",
+      "vulnerability"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d6",
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Analyze",
+      "Investigate"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr153",
+    "name": "CodeQL",
+    "provider": "GitHub",
+    "url": "https://codeql.github.com/",
+    "description": "GitHub's code analysis engine treating code as data to find vulnerabilities across 10+ languages.",
+    "category": "AI Security Tools",
+    "tags": [
+      "CodeQL",
+      "SAST",
+      "code analysis",
+      "GitHub"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d6",
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Analyze",
+      "Securely Provision"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr154",
+    "name": "Snyk Code",
+    "provider": "Snyk",
+    "url": "https://snyk.io/product/snyk-code/",
+    "description": "AI-driven SAST with free tier (100 scans/month) for JavaScript, TypeScript, Java, and Python.",
+    "category": "AI Security Tools",
+    "tags": [
+      "SAST",
+      "Snyk",
+      "code security",
+      "free tier"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d6",
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Analyze",
+      "Securely Provision"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr155",
+    "name": "Shodan MCP",
+    "provider": "Community",
+    "url": "https://github.com/Vorota-ai/shodan-mcp",
+    "description": "MCP server for Shodan API with reconnaissance, CVE lookup, DNS analysis; 4 tools work free without API key.",
+    "category": "MCP Servers",
+    "tags": [
+      "Shodan",
+      "MCP",
+      "OSINT",
+      "reconnaissance"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d6",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Collect and Operate",
+      "Investigate"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr156",
+    "name": "VirusTotal MCP",
+    "provider": "Community",
+    "url": "https://github.com/BurtTheCoder/mcp-virustotal",
+    "description": "MCP server for querying VirusTotal API for malware analysis and file hash lookups.",
+    "category": "MCP Servers",
+    "tags": [
+      "VirusTotal",
+      "MCP",
+      "malware",
+      "analysis"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d7",
+      "cissp-d6"
+    ],
+    "niceCategories": [
+      "Investigate",
+      "Analyze"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr157",
+    "name": "GreyNoise MCP",
+    "provider": "GreyNoise",
+    "url": "https://github.com/GreyNoise-Intelligence/greynoise-mcp-server",
+    "description": "MCP server for GreyNoise IP reputation, RIOT, CVE, and GNQL threat intelligence queries.",
+    "category": "MCP Servers",
+    "tags": [
+      "GreyNoise",
+      "MCP",
+      "threat intelligence",
+      "IP"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d7",
+      "cissp-d6"
+    ],
+    "niceCategories": [
+      "Analyze",
+      "Investigate"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr158",
+    "name": "GitHub MCP",
+    "provider": "Model Context Protocol",
+    "url": "https://github.com/modelcontextprotocol/servers",
+    "description": "MCP server for GitHub integration enabling AI agents to interact with repositories and code.",
+    "category": "MCP Servers",
+    "tags": [
+      "GitHub",
+      "MCP",
+      "repositories",
+      "integration"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d8",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Securely Provision",
+      "Operate and Maintain"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr159",
+    "name": "NVD/CVE MCP",
+    "provider": "Community",
+    "url": "https://github.com/marcoeg/mcp-nvd",
+    "description": "MCP server for NVD CVE lookups with get_cve and search_cve tools for vulnerability research.",
+    "category": "MCP Servers",
+    "tags": [
+      "CVE",
+      "NVD",
+      "MCP",
+      "vulnerability"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d6",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Analyze",
+      "Investigate"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr160",
+    "name": "Nuclei MCP",
+    "provider": "Community",
+    "url": "https://www.mcplane.com/mcp_servers/nuclei-1",
+    "description": "MCP server wrapping Nuclei vulnerability scanner for AI-assisted security testing workflows.",
+    "category": "MCP Servers",
+    "tags": [
+      "Nuclei",
+      "MCP",
+      "vulnerability scanning",
+      "security"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d6",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Protect and Defend",
+      "Analyze"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr161",
+    "name": "AutoGPT",
+    "provider": "Significant-Gravitas",
+    "url": "https://github.com/Significant-Gravitas/AutoGPT",
+    "description": "Open-source platform for building and deploying continuous AI agents with workflow automation.",
+    "category": "AI Agents and Frameworks",
+    "tags": [
+      "AI agents",
+      "automation",
+      "autonomous",
+      "open source"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d8",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Securely Provision",
+      "Operate and Maintain"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr162",
+    "name": "CrewAI",
+    "provider": "CrewAI",
+    "url": "https://www.crewai.com/",
+    "description": "Multi-agent platform for building collaborative AI agents and workflows with Python framework.",
+    "category": "AI Agents and Frameworks",
+    "tags": [
+      "multi-agent",
+      "AI",
+      "workflows",
+      "Python"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d8",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Securely Provision",
+      "Operate and Maintain"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr163",
+    "name": "LangChain",
+    "provider": "LangChain",
+    "url": "https://www.langchain.com/",
+    "description": "Open-source framework for building AI agents and LLM applications with 1000+ integrations.",
+    "category": "AI Agents and Frameworks",
+    "tags": [
+      "LangChain",
+      "LLM",
+      "agents",
+      "framework"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d8",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Securely Provision",
+      "Operate and Maintain"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr164",
+    "name": "Semantic Kernel",
+    "provider": "Microsoft",
+    "url": "https://learn.microsoft.com/en-us/semantic-kernel/overview/",
+    "description": "Lightweight SDK for building AI agents and integrating LLMs into applications with C#, Python, Java.",
+    "category": "AI Agents and Frameworks",
+    "tags": [
+      "Microsoft",
+      "AI",
+      "agents",
+      "SDK"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d8",
+      "cissp-d3"
+    ],
+    "niceCategories": [
+      "Securely Provision",
+      "Operate and Maintain"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr165",
+    "name": "Continue.dev",
+    "provider": "Continue",
+    "url": "https://continue.dev/",
+    "description": "Open-source AI coding assistant for VS Code and JetBrains with model flexibility and local execution.",
+    "category": "AI Agents and Frameworks",
+    "tags": [
+      "AI coding",
+      "VS Code",
+      "open source",
+      "privacy"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d8",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Securely Provision",
+      "Operate and Maintain"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr166",
+    "name": "Aider",
+    "provider": "Aider AI",
+    "url": "https://aider.chat/",
+    "description": "Terminal-based AI pair programming tool with Git integration and codebase understanding.",
+    "category": "AI Agents and Frameworks",
+    "tags": [
+      "AI",
+      "pair programming",
+      "terminal",
+      "Git"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d8",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Securely Provision",
+      "Operate and Maintain"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr167",
+    "name": "OpenAI Agents SDK",
+    "provider": "OpenAI",
+    "url": "https://platform.openai.com/docs/guides/agents-sdk",
+    "description": "Production-ready framework for building multi-agent AI applications with tools and guardrails.",
+    "category": "AI Agents and Frameworks",
+    "tags": [
+      "OpenAI",
+      "agents",
+      "SDK",
+      "multi-agent"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d8",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Securely Provision",
+      "Operate and Maintain"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr168",
+    "name": "Anthropic MCP Ecosystem",
+    "provider": "Anthropic",
+    "url": "https://docs.anthropic.com/en/docs/mcp",
+    "description": "Model Context Protocol documentation and ecosystem for connecting AI to external tools and data.",
+    "category": "AI Agents and Frameworks",
+    "tags": [
+      "MCP",
+      "Anthropic",
+      "Claude",
+      "integration"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d8",
+      "cissp-d3"
+    ],
+    "niceCategories": [
+      "Securely Provision",
+      "Operate and Maintain"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr169",
+    "name": "OWASP AI Security and Privacy Guide",
+    "provider": "OWASP",
+    "url": "https://owasp.org/www-project-ai-security-and-privacy-guide",
+    "description": "OWASP AI Exchange with 300+ pages of AI security and privacy guidance and threat controls.",
+    "category": "AI Governance",
+    "tags": [
+      "OWASP",
+      "AI security",
+      "privacy",
+      "guidance"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d1",
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Oversee and Govern",
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr170",
+    "name": "OWASP LLM Top 10",
+    "provider": "OWASP",
+    "url": "https://owasp.org/www-project-top-10-for-large-language-model-applications",
+    "description": "Top 10 critical vulnerabilities for LLM applications including prompt injection and data poisoning.",
+    "category": "AI Governance",
+    "tags": [
+      "OWASP",
+      "LLM",
+      "vulnerabilities",
+      "Top 10"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d1",
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Oversee and Govern",
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr171",
+    "name": "OWASP ML Security Top 10",
+    "provider": "OWASP",
+    "url": "https://owasp.org/www-project-machine-learning-security-top-10",
+    "description": "Top 10 security risks for machine learning systems including input manipulation and model theft.",
+    "category": "AI Governance",
+    "tags": [
+      "OWASP",
+      "ML security",
+      "adversarial",
+      "Top 10"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d1",
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Oversee and Govern",
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr172",
+    "name": "NIST AI RMF",
+    "provider": "NIST",
+    "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+    "description": "Voluntary AI Risk Management Framework with Govern, Map, Measure, and Manage functions.",
+    "category": "AI Governance",
+    "tags": [
+      "NIST",
+      "AI RMF",
+      "risk management",
+      "trustworthy AI"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d1",
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Oversee and Govern",
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr173",
+    "name": "NIST AI RMF Playbook",
+    "provider": "NIST",
+    "url": "https://www.nist.gov/itl/ai-risk-management-framework/nist-ai-rmf-playbook",
+    "description": "Companion playbook with actionable guidance and templates for implementing the AI RMF.",
+    "category": "AI Governance",
+    "tags": [
+      "NIST",
+      "AI RMF",
+      "playbook",
+      "implementation"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d1",
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Oversee and Govern",
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr174",
+    "name": "Google SAIF",
+    "provider": "Google",
+    "url": "https://saif.google/",
+    "description": "Secure AI Framework with six elements for building and deploying AI systems securely.",
+    "category": "AI Governance",
+    "tags": [
+      "Google",
+      "SAIF",
+      "AI security",
+      "framework"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d1",
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Oversee and Govern",
+      "Securely Provision"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr175",
+    "name": "Microsoft Responsible AI",
+    "provider": "Microsoft",
+    "url": "https://www.microsoft.com/en-us/ai/responsible-ai",
+    "description": "Microsoft's responsible AI principles, tools, and Responsible AI Standard for trustworthy AI.",
+    "category": "AI Governance",
+    "tags": [
+      "Microsoft",
+      "responsible AI",
+      "ethics",
+      "governance"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d1",
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Oversee and Govern",
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr176",
+    "name": "Anthropic Research Publications",
+    "provider": "Anthropic",
+    "url": "https://www.anthropic.com/research",
+    "description": "Research on AI alignment, safety, constitutional AI, and large language model behavior.",
+    "category": "AI Governance",
+    "tags": [
+      "Anthropic",
+      "research",
+      "AI safety",
+      "alignment"
+    ],
+    "level": "Expert",
+    "cisspDomains": [
+      "cissp-d1",
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Oversee and Govern",
+      "Analyze"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr177",
+    "name": "AI Incident Database",
+    "provider": "Partnership on AI",
+    "url": "https://incidentdatabase.ai/",
+    "description": "Catalog of AI incidents and failures for learning from deployment mistakes and risks.",
+    "category": "AI Governance",
+    "tags": [
+      "AI incidents",
+      "database",
+      "safety",
+      "lessons learned"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d1",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Oversee and Govern",
+      "Analyze"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr178",
+    "name": "OWASP Agentic AI Threats",
+    "provider": "OWASP",
+    "url": "https://genai.owasp.org/resource/agentic-ai-threats-and-mitigations/",
+    "description": "Top 10 risks and mitigations for agentic AI systems with autonomous multi-step execution.",
+    "category": "AI Governance",
+    "tags": [
+      "OWASP",
+      "agentic AI",
+      "threats",
+      "autonomous"
+    ],
+    "level": "Expert",
+    "cisspDomains": [
+      "cissp-d1",
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Oversee and Govern",
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr179",
+    "name": "Cisco Packet Tracer",
+    "provider": "Cisco Networking Academy",
+    "url": "https://www.netacad.com/resources/lab-downloads",
+    "description": "Free network simulator for learning Cisco routing and switching. Create virtual networks, configure devices, and practice troubleshooting in a safe environment.",
+    "category": "Networking and Infrastructure",
+    "tags": [
+      "network simulator",
+      "Cisco",
+      "routing",
+      "switching"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d3",
+      "cissp-d4"
+    ],
+    "niceCategories": [
+      "Operate and Maintain",
+      "Securely Provision"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr180",
+    "name": "GNS3",
+    "provider": "GNS3",
+    "url": "https://www.gns3.com/",
+    "description": "Open-source network emulator for building and testing complex network topologies. Run real Cisco and other vendor images in virtual environments.",
+    "category": "Networking and Infrastructure",
+    "tags": [
+      "network emulator",
+      "lab",
+      "topology",
+      "virtualization"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d3",
+      "cissp-d4"
+    ],
+    "niceCategories": [
+      "Operate and Maintain",
+      "Securely Provision"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr181",
+    "name": "Wireshark",
+    "provider": "Wireshark Foundation",
+    "url": "https://www.wireshark.org/",
+    "description": "Free, open-source packet analyzer for network protocol inspection and troubleshooting. Capture and analyze live network traffic.",
+    "category": "Networking and Infrastructure",
+    "tags": [
+      "packet analysis",
+      "protocol",
+      "traffic capture",
+      "forensics"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d4",
+      "cissp-d6"
+    ],
+    "niceCategories": [
+      "Analyze",
+      "Protect and Defend",
+      "Investigate"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr182",
+    "name": "TCPdump",
+    "provider": "The Tcpdump Group",
+    "url": "https://www.tcpdump.org/",
+    "description": "Command-line packet analyzer for capturing and displaying TCP/IP and other network packets. Essential tool for network debugging and security analysis.",
+    "category": "Networking and Infrastructure",
+    "tags": [
+      "packet capture",
+      "CLI",
+      "network analysis",
+      "Linux"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d4",
+      "cissp-d6"
+    ],
+    "niceCategories": [
+      "Analyze",
+      "Protect and Defend",
+      "Investigate"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr183",
+    "name": "Subnetting Practice Tools",
+    "provider": "SubnettingPractice.com",
+    "url": "https://subnettingpractice.com/",
+    "description": "Free subnetting practice and calculator tools to master IP addressing, CIDR notation, and subnet design for network administration.",
+    "category": "Networking and Infrastructure",
+    "tags": [
+      "subnetting",
+      "IP addressing",
+      "CIDR",
+      "practice"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d4"
+    ],
+    "niceCategories": [
+      "Operate and Maintain",
+      "Securely Provision"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr184",
+    "name": "Linux Journey",
+    "provider": "Linux Journey",
+    "url": "https://linuxjourney.com/",
+    "description": "Free interactive Linux tutorial covering command line, system administration, and networking from beginner to advanced levels.",
+    "category": "OS and Command Line",
+    "tags": [
+      "Linux",
+      "command line",
+      "bash",
+      "system administration"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Operate and Maintain",
+      "Securely Provision"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr185",
+    "name": "PowerShell Documentation",
+    "provider": "Microsoft",
+    "url": "https://learn.microsoft.com/en-us/powershell/",
+    "description": "Official Microsoft PowerShell documentation for automation, scripting, and Windows system management. Covers cmdlets, modules, and best practices.",
+    "category": "OS and Command Line",
+    "tags": [
+      "PowerShell",
+      "automation",
+      "Windows",
+      "scripting"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Operate and Maintain",
+      "Securely Provision"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr186",
+    "name": "Linux From Scratch",
+    "provider": "Linux From Scratch",
+    "url": "https://www.linuxfromscratch.org/",
+    "description": "Project that provides step-by-step instructions for building a custom Linux system from source code. Deep understanding of Linux internals.",
+    "category": "OS and Command Line",
+    "tags": [
+      "Linux",
+      "build from source",
+      "system internals",
+      "education"
+    ],
+    "level": "Expert",
+    "cisspDomains": [
+      "cissp-d3",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Securely Provision",
+      "Operate and Maintain"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr187",
+    "name": "Windows Sysinternals",
+    "provider": "Microsoft",
+    "url": "https://learn.microsoft.com/en-us/sysinternals/",
+    "description": "Suite of advanced utilities for Windows troubleshooting and malware analysis. Includes Process Explorer, Autoruns, and other system diagnostics.",
+    "category": "OS and Command Line",
+    "tags": [
+      "Sysinternals",
+      "Windows",
+      "forensics",
+      "troubleshooting"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d6",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Investigate",
+      "Operate and Maintain",
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr188",
+    "name": "OverTheWire Bandit",
+    "provider": "OverTheWire",
+    "url": "https://overthewire.org/wargames/bandit/",
+    "description": "Beginner-friendly wargame teaching Linux command line fundamentals through progressive challenges. Learn bash, file permissions, and basic exploitation.",
+    "category": "OS and Command Line",
+    "tags": [
+      "wargame",
+      "Linux",
+      "command line",
+      "CTF"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Protect and Defend",
+      "Investigate"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr189",
+    "name": "AWS Free Tier and Security Learning",
+    "provider": "Amazon Web Services",
+    "url": "https://skillbuilder.aws/",
+    "description": "Free AWS Skill Builder courses and hands-on labs for cloud security. Covers IAM, KMS, VPC security, and security fundamentals.",
+    "category": "Cloud Security",
+    "tags": [
+      "AWS",
+      "cloud",
+      "IAM",
+      "hands-on"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d5",
+      "cissp-d3"
+    ],
+    "niceCategories": [
+      "Securely Provision",
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr190",
+    "name": "Azure Learn Security Modules",
+    "provider": "Microsoft",
+    "url": "https://learn.microsoft.com/en-us/training/paths/manage-security-operations-new/",
+    "description": "Free Microsoft Learn security modules covering Azure RBAC, Microsoft Defender for Cloud, Sentinel, and Well-Architected Framework security.",
+    "category": "Cloud Security",
+    "tags": [
+      "Azure",
+      "cloud security",
+      "Defender",
+      "RBAC"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d5",
+      "cissp-d3"
+    ],
+    "niceCategories": [
+      "Securely Provision",
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr191",
+    "name": "GCP Security Command Center Documentation",
+    "provider": "Google Cloud",
+    "url": "https://cloud.google.com/security-command-center/docs",
+    "description": "Official documentation for Google Cloud Security Command Center. Covers threat detection, vulnerability management, compliance monitoring, and posture management.",
+    "category": "Cloud Security",
+    "tags": [
+      "GCP",
+      "Security Command Center",
+      "threat detection",
+      "compliance"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d3",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Protect and Defend",
+      "Analyze"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr192",
+    "name": "Cloud Security Alliance Guidance",
+    "provider": "Cloud Security Alliance",
+    "url": "https://cloudsecurityalliance.org/research/guidance",
+    "description": "Security Guidance for Critical Areas of Focus in Cloud Computing. Comprehensive framework covering IAM, incident response, zero trust, and cloud governance.",
+    "category": "Cloud Security",
+    "tags": [
+      "CSA",
+      "cloud guidance",
+      "framework",
+      "best practices"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d1",
+      "cissp-d3"
+    ],
+    "niceCategories": [
+      "Oversee and Govern",
+      "Securely Provision"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr193",
+    "name": "HackerOne",
+    "provider": "HackerOne",
+    "url": "https://www.hackerone.com/",
+    "description": "Leading bug bounty platform connecting researchers with organizations. Access thousands of programs, report vulnerabilities, and earn rewards.",
+    "category": "Bug Bounty",
+    "tags": [
+      "bug bounty",
+      "vulnerability disclosure",
+      "crowdsourced security",
+      "pentesting"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d6"
+    ],
+    "niceCategories": [
+      "Protect and Defend",
+      "Investigate"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr194",
+    "name": "Bugcrowd",
+    "provider": "Bugcrowd",
+    "url": "https://bugcrowd.com/",
+    "description": "Crowdsourced cybersecurity platform offering bug bounty programs, vulnerability disclosure, and pentest services. Connect with organizations seeking security researchers.",
+    "category": "Bug Bounty",
+    "tags": [
+      "bug bounty",
+      "crowdsourced security",
+      "vulnerability",
+      "pentesting"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d6"
+    ],
+    "niceCategories": [
+      "Protect and Defend",
+      "Investigate"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr195",
+    "name": "Intigriti",
+    "provider": "Intigriti",
+    "url": "https://www.intigriti.com/",
+    "description": "European bug bounty platform trusted by major organizations. Participate in managed programs and vulnerability disclosure initiatives.",
+    "category": "Bug Bounty",
+    "tags": [
+      "bug bounty",
+      "vulnerability disclosure",
+      "EU",
+      "crowdsourced security"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d6"
+    ],
+    "niceCategories": [
+      "Protect and Defend",
+      "Investigate"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr196",
+    "name": "PortSwigger Web Security Academy",
+    "provider": "PortSwigger",
+    "url": "https://portswigger.net/web-security",
+    "description": "Free online training with 190+ interactive labs on SQL injection, XSS, CSRF, and modern web vulnerabilities. From the creators of Burp Suite.",
+    "category": "Bug Bounty",
+    "tags": [
+      "web security",
+      "labs",
+      "OWASP",
+      "Burp Suite"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d6",
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Protect and Defend",
+      "Investigate"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr197",
+    "name": "NICE Cybersecurity Workforce Framework Interactive Tool",
+    "provider": "CISA NICCS",
+    "url": "https://niccs.cisa.gov/workforce-development/nice-framework-mapping-tool",
+    "description": "Interactive mapping tool to align cybersecurity roles with the NICE Framework. Identify skills gaps, training needs, and workforce development opportunities.",
+    "category": "Career Development",
+    "tags": [
+      "NICE Framework",
+      "career mapping",
+      "workforce",
+      "skills"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Oversee and Govern"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr198",
+    "name": "CyberSeek Career Pathway",
+    "provider": "NIST NICE, CompTIA, Lightcast",
+    "url": "https://www.cyberseek.org/",
+    "description": "Interactive career pathway tool showing cybersecurity job demand, salaries, required skills, and advancement paths. Mapped to NICE Framework roles.",
+    "category": "Career Development",
+    "tags": [
+      "career pathway",
+      "jobs",
+      "NICE",
+      "salary data"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Oversee and Govern"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr199",
+    "name": "CISA Career Resources",
+    "provider": "CISA",
+    "url": "https://www.cisa.gov/careers",
+    "description": "Official CISA careers portal with job listings, hiring events, and DHS Cybersecurity Service career tracks. Entry to executive level positions in federal cybersecurity.",
+    "category": "Career Development",
+    "tags": [
+      "CISA",
+      "federal jobs",
+      "hiring",
+      "government"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Oversee and Govern"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr200",
+    "name": "SANS Reading Room",
+    "provider": "SANS Institute",
+    "url": "https://www.sans.org/reading-room/",
+    "description": "Free whitepapers and research on threat hunting, incident response, ransomware, and security operations. Written by SANS instructors and community researchers.",
+    "category": "Career Development",
+    "tags": [
+      "whitepapers",
+      "research",
+      "threat hunting",
+      "incident response"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d7",
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Protect and Defend",
+      "Analyze",
+      "Investigate"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr201",
+    "name": "r/cybersecurity",
+    "provider": "Reddit",
+    "url": "https://www.reddit.com/r/cybersecurity/",
+    "description": "Reddit community for cybersecurity professionals and learners. Discuss news, career advice, tools, and share experiences.",
+    "category": "Community and News",
+    "tags": [
+      "Reddit",
+      "community",
+      "discussion",
+      "career"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Oversee and Govern"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr202",
+    "name": "r/netsec",
+    "provider": "Reddit",
+    "url": "https://www.reddit.com/r/netsec/",
+    "description": "Reddit community focused on network security research, vulnerabilities, and technical discussions. Academic and professional security content.",
+    "category": "Community and News",
+    "tags": [
+      "Reddit",
+      "network security",
+      "research",
+      "technical"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d4",
+      "cissp-d6"
+    ],
+    "niceCategories": [
+      "Protect and Defend",
+      "Investigate",
+      "Analyze"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr203",
+    "name": "SANS Internet Storm Center",
+    "provider": "SANS",
+    "url": "https://isc.sans.edu/",
+    "description": "Free real-time threat intelligence from global honeypot sensors. Daily diaries, StormCast podcast, and analysis of emerging threats and port activity.",
+    "category": "Community and News",
+    "tags": [
+      "threat intelligence",
+      "honeypot",
+      "StormCast",
+      "threats"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Analyze",
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr204",
+    "name": "Krebs on Security",
+    "provider": "Brian Krebs",
+    "url": "https://krebsonsecurity.com/",
+    "description": "Investigative cybersecurity journalism by Brian Krebs. In-depth coverage of data breaches, cybercrime, and threat actor activity.",
+    "category": "Community and News",
+    "tags": [
+      "journalism",
+      "breaches",
+      "cybercrime",
+      "investigation"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d1",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Investigate",
+      "Analyze"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr205",
+    "name": "The Hacker News",
+    "provider": "The Hacker News",
+    "url": "https://thehackernews.com/",
+    "description": "Cybersecurity news site covering breaches, vulnerabilities, malware, and security research. Breaking news and expert analysis.",
+    "category": "Community and News",
+    "tags": [
+      "news",
+      "vulnerabilities",
+      "malware",
+      "breaches"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Analyze",
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr206",
+    "name": "Dark Reading",
+    "provider": "Informa",
+    "url": "https://www.darkreading.com/",
+    "description": "Enterprise security news and analysis covering threats, vulnerabilities, cloud security, and industry trends. In-depth articles and expert perspectives.",
+    "category": "Community and News",
+    "tags": [
+      "news",
+      "enterprise",
+      "threats",
+      "analysis"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Analyze",
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr207",
+    "name": "Risky Business Podcast",
+    "provider": "Risky Business Media",
+    "url": "https://risky.biz/risky-business/",
+    "description": "Weekly information security podcast with news analysis and interviews. Covers threats, industry developments, and vendor insights since 2007.",
+    "category": "Community and News",
+    "tags": [
+      "podcast",
+      "news",
+      "interviews",
+      "infosec"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Analyze",
+      "Oversee and Govern"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr208",
+    "name": "Darknet Diaries",
+    "provider": "Jack Rhysider",
+    "url": "https://darknetdiaries.com/",
+    "description": "True stories from the dark side of the internet. Episodes cover hackers, breaches, cybercrime, and security culture in an engaging narrative format.",
+    "category": "Community and News",
+    "tags": [
+      "podcast",
+      "stories",
+      "hacking",
+      "cybercrime"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Investigate"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr209",
+    "name": "OWASP Community",
+    "provider": "OWASP Foundation",
+    "url": "https://owasp.org/",
+    "description": "Open community dedicated to application security. Projects, chapters, events, and resources for secure development and web application defense.",
+    "category": "Community and News",
+    "tags": [
+      "OWASP",
+      "application security",
+      "community",
+      "web security"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Securely Provision",
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr210",
+    "name": "arXiv Cybersecurity Papers",
+    "provider": "arXiv",
+    "url": "https://arxiv.org/list/cs.CR/recent",
+    "description": "Preprint repository for cryptography and security research. Free access to cutting-edge papers before formal publication.",
+    "category": "Research",
+    "tags": [
+      "academic",
+      "cryptography",
+      "preprints",
+      "research"
+    ],
+    "level": "Expert",
+    "cisspDomains": [
+      "cissp-d3"
+    ],
+    "niceCategories": [
+      "Analyze",
+      "Securely Provision"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr211",
+    "name": "NIST Publications Library",
+    "provider": "NIST",
+    "url": "https://www.nist.gov/publications",
+    "description": "Searchable library of NIST cybersecurity and standards publications. Frameworks, guidelines, and research from the National Institute of Standards and Technology.",
+    "category": "Research",
+    "tags": [
+      "NIST",
+      "frameworks",
+      "standards",
+      "guidelines"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d1",
+      "cissp-d3"
+    ],
+    "niceCategories": [
+      "Oversee and Govern",
+      "Securely Provision"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr212",
+    "name": "OWASP Documentation",
+    "provider": "OWASP Foundation",
+    "url": "https://docs.owasp.org/",
+    "description": "Official OWASP documentation including cheat sheets, developer guide, and project documentation. Practical application security guidance for developers.",
+    "category": "Research",
+    "tags": [
+      "OWASP",
+      "documentation",
+      "cheat sheets",
+      "secure coding"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Securely Provision",
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr213",
+    "name": "SANS Whitepapers",
+    "provider": "SANS Institute",
+    "url": "https://www.sans.org/white-papers/",
+    "description": "Free security research whitepapers on threat hunting, incident response, ransomware, and defensive operations. SANS instructor and community research.",
+    "category": "Research",
+    "tags": [
+      "whitepapers",
+      "threat hunting",
+      "incident response",
+      "research"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d7",
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Protect and Defend",
+      "Analyze",
+      "Investigate"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr214",
+    "name": "IEEE Cybersecurity Research",
+    "provider": "IEEE",
+    "url": "https://cybersecurity.ieee.org/read/",
+    "description": "IEEE cybersecurity articles, research, and publications. Access Security & Privacy Magazine content and security research from the engineering community.",
+    "category": "Research",
+    "tags": [
+      "IEEE",
+      "academic",
+      "research",
+      "engineering"
+    ],
+    "level": "Expert",
+    "cisspDomains": [
+      "cissp-d3"
+    ],
+    "niceCategories": [
+      "Analyze",
+      "Securely Provision"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr215",
+    "name": "ACM Digital Library",
+    "provider": "ACM",
+    "url": "https://dl.acm.org/",
+    "description": "ACM Digital Library with free-access papers on computer security, cryptography, and systems. Many publications available via open access.",
+    "category": "Research",
+    "tags": [
+      "ACM",
+      "academic",
+      "open access",
+      "computer security"
+    ],
+    "level": "Expert",
+    "cisspDomains": [
+      "cissp-d3",
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Analyze",
+      "Securely Provision"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr216",
+    "name": "Google Scholar Cybersecurity",
+    "provider": "Google",
+    "url": "https://scholar.google.com/",
+    "description": "Search engine for academic literature. Find cybersecurity papers, theses, and citations across publishers and repositories.",
+    "category": "Research",
+    "tags": [
+      "academic search",
+      "citations",
+      "papers",
+      "literature"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Analyze"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr217",
+    "name": "MITRE Research Publications",
+    "provider": "MITRE",
+    "url": "https://www.mitre.org/research",
+    "description": "MITRE cybersecurity research publications including ATT&CK framework updates, threat modeling, and applied security research.",
+    "category": "Research",
+    "tags": [
+      "MITRE",
+      "ATT&CK",
+      "threat modeling",
+      "research"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d1",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Analyze",
+      "Protect and Defend",
+      "Investigate"
+    ],
+    "relatedCertIds": []
+  }
+]

@@ -266,6 +266,93 @@ body {
   padding: var(--space-6) var(--space-8) var(--space-8);
 }
 
+/* ── Tab bar ── */
+
+.tab-bar {
+  display: flex;
+  gap: var(--space-2);
+  margin-bottom: var(--space-5);
+  border-bottom: 2px solid var(--border);
+  padding-bottom: 0;
+}
+
+.tab {
+  position: relative;
+  padding: var(--space-3) var(--space-5);
+  font-family: inherit;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  background: transparent;
+  color: var(--text-muted);
+  border: none;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -2px;
+  cursor: pointer;
+  transition: color 200ms, border-color 200ms;
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.tab:hover {
+  color: var(--text);
+}
+
+.tab.active {
+  color: var(--neon-teal);
+  border-bottom-color: var(--neon-teal);
+}
+
+.tab-count {
+  font-size: 0.75rem;
+  font-weight: 400;
+  padding: 1px 6px;
+  background: var(--surface-raised);
+  border-radius: var(--radius-pill);
+  color: var(--text-muted);
+}
+
+.tab.active .tab-count {
+  background: var(--neon-teal-subtle);
+  color: var(--neon-teal);
+}
+
+/* ── Resource card accent ── */
+
+.resource-card:hover {
+  border-left-color: var(--neon-blue) !important;
+}
+
+.badge-resource-category {
+  background: rgba(88, 166, 255, 0.12);
+  color: var(--neon-blue);
+  font-size: 0.6875rem;
+  font-weight: 500;
+  text-transform: none;
+  letter-spacing: normal;
+  border: 1px solid rgba(88, 166, 255, 0.2);
+}
+
+.badge-provider {
+  background: var(--neon-amber-subtle);
+  color: var(--neon-amber);
+  font-size: 0.625rem;
+  font-weight: 500;
+  text-transform: none;
+  letter-spacing: normal;
+  border: 1px solid rgba(245, 166, 35, 0.2);
+}
+
+.badge-tag {
+  background: var(--surface-raised);
+  color: var(--text-subtle);
+  font-size: 0.6rem;
+  font-weight: 400;
+  text-transform: none;
+  letter-spacing: normal;
+  border: 1px solid var(--border);
+}
+
 /* ── Search bar ── */
 
 .search-bar {

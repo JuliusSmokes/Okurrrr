@@ -1,6 +1,6 @@
 /**
  * Okurrrr – Cybersecurity Career Launcher
- * Loads certs + NICE work roles + CISSP domains, renders chip-based filters, card grid, active filter bar.
+ * Loads certs + NICE work roles + CISSP domains + free resources, renders tabbed UI with card grids.
  */
 
 (function () {
@@ -29,13 +29,27 @@
   var statRolesEl = document.getElementById('stat-roles');
   var statFreeEl = document.getElementById('stat-free');
 
+  var controlsCertsEl = document.getElementById('controls-certs');
+  var controlsResEl = document.getElementById('controls-resources');
+  var chipSectionEl = document.getElementById('chip-section');
+  var filterResCategoryEl = document.getElementById('filter-res-category');
+  var filterResProviderEl = document.getElementById('filter-res-provider');
+  var filterResLevelEl = document.getElementById('filter-res-level');
+  var filterResCisspEl = document.getElementById('filter-res-cissp');
+  var sortResEl = document.getElementById('sort-res');
+  var resetResBtn = document.getElementById('reset-res-filters');
+  var tabCountCertsEl = document.getElementById('tab-count-certs');
+  var tabCountResEl = document.getElementById('tab-count-resources');
+
   var certs = [];
+  var resources = [];
   var niceWorkRoles = [];
   var cisspDomains = [];
   var selectedRoleIds = new Set();
   var selectedCategoryId = '';
   var searchTerm = '';
   var debounceTimer = null;
+  var activeTab = 'certs';
 
   /* ── Utilities ── */
 
@@ -480,6 +494,196 @@
     });
   }
 
+  /* ── Resource filtering ── */
+
+  function filterResources() {
+    var term = searchTerm.toLowerCase();
+    var catVal = filterResCategoryEl ? filterResCategoryEl.value : '';
+    var provVal = filterResProviderEl ? filterResProviderEl.value : '';
+    var lvlVal = filterResLevelEl ? filterResLevelEl.value : '';
+    var cisspVal = filterResCisspEl ? filterResCisspEl.value : '';
+
+    return resources.filter(function (r) {
+      if (term) {
+        var nm = r.name.toLowerCase().indexOf(term) !== -1;
+        var pv = r.provider && r.provider.toLowerCase().indexOf(term) !== -1;
+        var ds = r.description && r.description.toLowerCase().indexOf(term) !== -1;
+        var tg = r.tags && r.tags.some(function (t) { return t.toLowerCase().indexOf(term) !== -1; });
+        if (!nm && !pv && !ds && !tg) return false;
+      }
+      if (catVal && r.category !== catVal) return false;
+      if (provVal && r.provider !== provVal) return false;
+      if (lvlVal && r.level !== lvlVal) return false;
+      if (cisspVal) {
+        if (!r.cisspDomains || r.cisspDomains.indexOf(cisspVal) === -1) return false;
+      }
+      return true;
+    });
+  }
+
+  /* ── Resource sorting ── */
+
+  function applySortResources(list, sortValue) {
+    var arr = list.slice();
+    switch (sortValue) {
+      case 'level-asc':
+        arr.sort(function (a, b) { return (LEVEL_ORDER[a.level] || 0) - (LEVEL_ORDER[b.level] || 0) || a.name.localeCompare(b.name); });
+        break;
+      case 'level-desc':
+        arr.sort(function (a, b) { return (LEVEL_ORDER[b.level] || 0) - (LEVEL_ORDER[a.level] || 0) || a.name.localeCompare(b.name); });
+        break;
+      case 'name':
+      default:
+        arr.sort(function (a, b) { return a.name.localeCompare(b.name); });
+        break;
+    }
+    return arr;
+  }
+
+  /* ── Render resource cards ── */
+
+  function renderResources(list) {
+    var sorted = applySortResources(list, sortResEl ? sortResEl.value : 'name');
+    resultsEl.innerHTML = '';
+
+    if (sorted.length === 0) {
+      resultsEl.innerHTML =
+        '<div class="empty-state">' +
+          '<span class="empty-icon">&#x1F4DA;</span>' +
+          '<p>No resources match your filters.<br>Try broadening your search or removing some filters.</p>' +
+          '<button class="btn-ghost" id="empty-reset-res">Reset all filters</button>' +
+        '</div>';
+      var emptyBtn = document.getElementById('empty-reset-res');
+      if (emptyBtn) emptyBtn.addEventListener('click', resetResources);
+      resultCountEl.textContent = '0 resources';
+      return;
+    }
+
+    var frag = document.createDocumentFragment();
+    sorted.forEach(function (res) {
+      var card = document.createElement('div');
+      card.className = 'cert-card resource-card';
+
+      var levelClass = (res.level || '').toLowerCase();
+      var tagBadges = '';
+      if (res.tags && res.tags.length) {
+        res.tags.slice(0, 3).forEach(function (t) {
+          tagBadges += '<span class="badge badge-tag">' + escapeHtml(t) + '</span>';
+        });
+      }
+
+      var cisspBadges = '';
+      if (res.cisspDomains && res.cisspDomains.length) {
+        res.cisspDomains.forEach(function (d) {
+          var dom = cisspDomains.find(function (cd) { return cd.id === d; });
+          var label = dom ? dom.name : d;
+          cisspBadges += '<span class="badge badge-category" title="' + escapeHtml(label) + '">' + escapeHtml(label) + '</span>';
+        });
+      }
+
+      card.innerHTML =
+        '<div class="cert-card-header">' +
+          '<a href="' + escapeHtml(res.url) + '" target="_blank" rel="noopener">' + escapeHtml(res.name) + '</a>' +
+          '<span class="cert-vendor">' + escapeHtml(res.provider || '') + '</span>' +
+          '<p class="cert-desc">' + escapeHtml(res.description || '') + '</p>' +
+        '</div>' +
+        '<div class="cert-card-body">' +
+          '<span class="badge badge-resource-category">' + escapeHtml(res.category || '') + '</span>' +
+          '<span class="badge badge-' + escapeHtml(levelClass) + '">' + escapeHtml(res.level || '') + '</span>' +
+          tagBadges +
+        '</div>' +
+        '<div class="cert-card-footer">' +
+          cisspBadges +
+        '</div>';
+
+      frag.appendChild(card);
+    });
+
+    resultsEl.appendChild(frag);
+    resultCountEl.textContent = sorted.length + ' resource' + (sorted.length === 1 ? '' : 's');
+  }
+
+  /* ── Populate resource dropdowns ── */
+
+  function populateResCategoryFilter() {
+    if (!filterResCategoryEl) return;
+    var cats = [];
+    var seen = new Set();
+    resources.forEach(function (r) {
+      if (r.category && !seen.has(r.category)) {
+        seen.add(r.category);
+        cats.push(r.category);
+      }
+    });
+    cats.sort();
+    filterResCategoryEl.innerHTML = '<option value="">-- All categories --</option>';
+    cats.forEach(function (c) {
+      var opt = document.createElement('option');
+      opt.value = c;
+      opt.textContent = c;
+      filterResCategoryEl.appendChild(opt);
+    });
+  }
+
+  function populateResProviderFilter() {
+    if (!filterResProviderEl) return;
+    var providers = [];
+    var seen = new Set();
+    resources.forEach(function (r) {
+      if (r.provider && !seen.has(r.provider)) {
+        seen.add(r.provider);
+        providers.push(r.provider);
+      }
+    });
+    providers.sort();
+    filterResProviderEl.innerHTML = '<option value="">-- All providers --</option>';
+    providers.forEach(function (p) {
+      var opt = document.createElement('option');
+      opt.value = p;
+      opt.textContent = p;
+      filterResProviderEl.appendChild(opt);
+    });
+  }
+
+  function populateResCisspFilter() {
+    if (!filterResCisspEl) return;
+    filterResCisspEl.innerHTML = '<option value="">-- All domains --</option>';
+    cisspDomains.forEach(function (d) {
+      var opt = document.createElement('option');
+      opt.value = d.id;
+      opt.textContent = d.name;
+      filterResCisspEl.appendChild(opt);
+    });
+  }
+
+  /* ── Tab switching ── */
+
+  function switchTab(tab) {
+    activeTab = tab;
+    var tabBtns = document.querySelectorAll('.tab-bar .tab');
+    tabBtns.forEach(function (btn) {
+      var isActive = btn.dataset.tab === tab;
+      btn.classList.toggle('active', isActive);
+      btn.setAttribute('aria-selected', isActive ? 'true' : 'false');
+    });
+
+    if (tab === 'certs') {
+      controlsCertsEl.style.display = '';
+      controlsResEl.style.display = 'none';
+      chipSectionEl.style.display = '';
+      searchInput.placeholder = 'Search by name, vendor, or keyword...';
+    } else {
+      controlsCertsEl.style.display = 'none';
+      controlsResEl.style.display = '';
+      chipSectionEl.style.display = 'none';
+      searchInput.placeholder = 'Search by name, provider, or keyword...';
+    }
+
+    searchInput.value = '';
+    searchTerm = '';
+    runFilterAndRender();
+  }
+
   /* ── Hero stats ── */
 
   function updateStats() {
@@ -489,17 +693,84 @@
     statCategoriesEl.textContent = cats.size;
     statRolesEl.textContent = niceWorkRoles.length;
     if (statFreeEl) {
-      statFreeEl.textContent = certs.filter(function (c) { return c.freeTraining; }).length;
+      statFreeEl.textContent = resources.length;
     }
+    if (tabCountCertsEl) tabCountCertsEl.textContent = certs.length;
+    if (tabCountResEl) tabCountResEl.textContent = resources.length;
   }
 
   /* ── Master filter + render ── */
 
   function runFilterAndRender() {
-    selectedCategoryId = filterCategoryEl.value || '';
-    var filtered = filterCerts();
-    renderCerts(filtered);
-    renderActiveFilters();
+    if (activeTab === 'certs') {
+      selectedCategoryId = filterCategoryEl.value || '';
+      var filtered = filterCerts();
+      renderCerts(filtered);
+      renderActiveFilters();
+    } else {
+      var filteredRes = filterResources();
+      renderResources(filteredRes);
+      renderActiveFiltersResources();
+    }
+  }
+
+  /* ── Active filters for resources ── */
+
+  function renderActiveFiltersResources() {
+    var chips = [];
+    if (searchTerm) {
+      chips.push({ label: 'Search: ' + searchTerm, clear: function () { searchInput.value = ''; searchTerm = ''; } });
+    }
+    if (filterResCategoryEl && filterResCategoryEl.value) {
+      var v = filterResCategoryEl.value;
+      chips.push({ label: 'Category: ' + v, clear: function () { filterResCategoryEl.value = ''; } });
+    }
+    if (filterResProviderEl && filterResProviderEl.value) {
+      var p = filterResProviderEl.value;
+      chips.push({ label: 'Provider: ' + p, clear: function () { filterResProviderEl.value = ''; } });
+    }
+    if (filterResLevelEl && filterResLevelEl.value) {
+      var l = filterResLevelEl.value;
+      chips.push({ label: 'Level: ' + l, clear: function () { filterResLevelEl.value = ''; } });
+    }
+    if (filterResCisspEl && filterResCisspEl.value) {
+      var cv = filterResCisspEl.value;
+      var domObj = cisspDomains.find(function (d) { return d.id === cv; });
+      var domLabel = domObj ? domObj.name : cv;
+      chips.push({ label: 'CISSP: ' + domLabel, clear: function () { filterResCisspEl.value = ''; } });
+    }
+
+    activeFiltersEl.innerHTML = '';
+    if (chips.length === 0) return;
+
+    var label = document.createElement('span');
+    label.className = 'af-label';
+    label.textContent = 'Active filters:';
+    activeFiltersEl.appendChild(label);
+
+    chips.forEach(function (c) {
+      var fc = document.createElement('span');
+      fc.className = 'filter-chip';
+      fc.textContent = c.label + ' ';
+      var btn = document.createElement('button');
+      btn.className = 'fc-remove';
+      btn.innerHTML = '&times;';
+      btn.setAttribute('aria-label', 'Remove filter: ' + c.label);
+      btn.addEventListener('click', function () {
+        c.clear();
+        runFilterAndRender();
+      });
+      fc.appendChild(btn);
+      activeFiltersEl.appendChild(fc);
+    });
+
+    if (chips.length >= 2) {
+      var clearAll = document.createElement('button');
+      clearAll.className = 'clear-all-btn';
+      clearAll.textContent = 'Clear all';
+      clearAll.addEventListener('click', resetResources);
+      activeFiltersEl.appendChild(clearAll);
+    }
   }
 
   /* ── Reset all ── */
@@ -521,6 +792,17 @@
     runFilterAndRender();
   }
 
+  function resetResources() {
+    searchInput.value = '';
+    searchTerm = '';
+    if (filterResCategoryEl) filterResCategoryEl.value = '';
+    if (filterResProviderEl) filterResProviderEl.value = '';
+    if (filterResLevelEl) filterResLevelEl.value = '';
+    if (filterResCisspEl) filterResCisspEl.value = '';
+    if (sortResEl) sortResEl.value = 'name';
+    runFilterAndRender();
+  }
+
   /* ── Event listeners ── */
 
   filterCategoryEl.addEventListener('change', runFilterAndRender);
@@ -532,6 +814,18 @@
   resetBtn.addEventListener('click', resetAll);
   if (filterDod8140El) filterDod8140El.addEventListener('change', runFilterAndRender);
   if (filterFreeEl) filterFreeEl.addEventListener('change', runFilterAndRender);
+
+  if (filterResCategoryEl) filterResCategoryEl.addEventListener('change', runFilterAndRender);
+  if (filterResProviderEl) filterResProviderEl.addEventListener('change', runFilterAndRender);
+  if (filterResLevelEl) filterResLevelEl.addEventListener('change', runFilterAndRender);
+  if (filterResCisspEl) filterResCisspEl.addEventListener('change', runFilterAndRender);
+  if (sortResEl) sortResEl.addEventListener('change', runFilterAndRender);
+  if (resetResBtn) resetResBtn.addEventListener('click', resetResources);
+
+  var tabBtns = document.querySelectorAll('.tab-bar .tab');
+  tabBtns.forEach(function (btn) {
+    btn.addEventListener('click', function () { switchTab(btn.dataset.tab); });
+  });
 
   searchInput.addEventListener('input', function () {
     clearTimeout(debounceTimer);
@@ -560,15 +854,20 @@
   Promise.all([
     loadJSON('data/certs.json'),
     loadJSON('data/nice-work-roles.json'),
-    loadJSON('data/cissp-domains.json')
+    loadJSON('data/cissp-domains.json'),
+    loadJSON('data/free-resources.json')
   ]).then(function (results) {
     certs = results[0] || [];
     niceWorkRoles = results[1] || [];
     cisspDomains = results[2] || [];
+    resources = results[3] || [];
     populateCategoryFilter();
     populateVendorFilter();
     populateRegionFilter();
     populateCisspFilter();
+    populateResCategoryFilter();
+    populateResProviderFilter();
+    populateResCisspFilter();
     buildChipPanel();
     updateStats();
     runFilterAndRender();
@@ -577,7 +876,7 @@
     resultsEl.innerHTML =
       '<div class="empty-state">' +
         '<span class="empty-icon">&#x26A0;</span>' +
-        '<p>Could not load certification data.<br>Ensure <code>data/certs.json</code>, <code>data/nice-work-roles.json</code>, and <code>data/cissp-domains.json</code> exist and are served from the same origin.</p>' +
+        '<p>Could not load data.<br>Ensure <code>data/certs.json</code>, <code>data/nice-work-roles.json</code>, <code>data/cissp-domains.json</code>, and <code>data/free-resources.json</code> exist and are served from the same origin.</p>' +
       '</div>';
   });
 

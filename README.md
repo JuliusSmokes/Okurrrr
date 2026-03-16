@@ -2,7 +2,7 @@
 
 **Set your Objectives. Certifications are the Key Results.**
 
-A static, shareable cybersecurity certification roadmap for mentees and career-changers. Filterable by **NICE Framework Work Roles**, **CISSP CBK Domains**, **vendor**, **level**, and **free training availability**. Sortable by difficulty and cost.
+A static, shareable cybersecurity certification roadmap and free resource hub for mentees and career-changers. Features a **tabbed interface** with 629 certifications and 200+ curated free resources across 24 categories. Filterable by **NICE Framework Work Roles**, **CISSP CBK Domains**, **vendor**, **provider**, **level**, and **category**. Sortable by difficulty and cost.
 
 Aligned with:
 - [NIST NICE Framework](https://www.nist.gov/itl/applied-cybersecurity/nice) v2.1.0
@@ -51,6 +51,15 @@ No backend or build step. Open in a browser or deploy as static files (e.g. GitH
 - **NICE Work Roles**: Replace or edit `data/nice-work-roles.json` with the same structure (array of `{ "id", "name", "categoryId", "categoryName" }`). You can refresh this from [NIST NICE Framework Components](https://www.nist.gov/itl/applied-cybersecurity/nice/nice-framework-resource-center/nice-framework-current-versions).
 
 - **CISSP Domains**: Edit `data/cissp-domains.json` to update the 8 CISSP CBK domain definitions.
+
+- **Free Resources**: Edit `data/free-resources.json`. Each object has:
+  - `id`, `name`, `provider`, `url`, `description`
+  - `category`: one of 24 categories (Courses, CTFs, Labs, DevSecOps Tools, Red Team and Adversary Simulation, Blue Team and DFIR, Threat Intelligence, Hardening and Compliance, Query Languages, Auth and Identity, Cryptography, Governance and Service Management, Privacy and Legal, AI Security Tools, MCP Servers, AI Agents and Frameworks, AI Governance, Networking and Infrastructure, OS and Command Line, Cloud Security, Bug Bounty, Career Development, Community and News, Research)
+  - `tags`: array of keywords
+  - `level`: Beginner | Intermediate | Expert
+  - `cisspDomains`: array of CISSP domain IDs
+  - `niceCategories`: array of NICE category names
+  - `relatedCertIds`: array of related cert IDs (optional)
 
 After saving JSON, refresh the page to see changes.
 
