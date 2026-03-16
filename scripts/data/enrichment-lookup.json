@@ -1,0 +1,3369 @@
+{
+  "c1": {
+    "fullName": "OffSec Exploitation Expert",
+    "vendor": "Offensive Security",
+    "description": "Validates advanced Windows exploitation, kernel-mode bypasses, and exploit development in hands-on lab.",
+    "costUsd": null,
+    "costNote": "Included with EXP-401 in-person training (contact vendor for pricing)"
+  },
+  "c2": {
+    "fullName": "Cisco Certified Internetwork Expert Security",
+    "vendor": "Cisco",
+    "description": "Validates mastery of planning, designing, and operating enterprise security solutions.",
+    "costUsd": 2000,
+    "costNote": null
+  },
+  "c3": {
+    "fullName": "CREST Registered Technical Security Architect",
+    "vendor": "CREST",
+    "description": "Validates technical security architecture competencies for enterprise design.",
+    "costUsd": null,
+    "costNote": "CREST certified exams ~£800; CRTSA may be discontinued–contact vendor"
+  },
+  "c4": {
+    "fullName": "ITIL 4 Master",
+    "vendor": "AXELOS",
+    "description": "Validates mastery of IT service management across multiple advanced designations.",
+    "costUsd": null,
+    "costNote": "Multiple designations required; contact vendor for total path cost"
+  },
+  "c5": {
+    "fullName": "OffSec Certified Expert Cubed",
+    "vendor": "Offensive Security",
+    "description": "Validates advanced offensive skills across web exploitation, pentesting, and exploit development.",
+    "costUsd": null,
+    "costNote": "Awarded upon earning OSWE, OSEP, and OSED; no separate exam fee"
+  },
+  "c6": {
+    "fullName": "Cisco Certified Internetwork Expert Enterprise Infrastructure",
+    "vendor": "Cisco",
+    "description": "Validates expert-level design and operation of enterprise network infrastructure.",
+    "costUsd": 2000,
+    "costNote": null
+  },
+  "c7": {
+    "fullName": "VMware Certified Design Expert - Data Center Virtualization",
+    "vendor": "VMware",
+    "description": "Validates enterprise vSphere design expertise via application review and panel defense.",
+    "costUsd": 3995,
+    "costNote": null
+  },
+  "c8": {
+    "fullName": "Red Hat Certified Architect",
+    "vendor": "Red Hat",
+    "description": "Validates advanced Red Hat skills by holding five or more Red Hat certifications.",
+    "costUsd": 2500,
+    "costNote": null
+  },
+  "c9": {
+    "fullName": "SABSA Chartered Master",
+    "vendor": "SABSA Institute",
+    "description": "Validates highest-level enterprise security architecture capability and leadership.",
+    "costUsd": null,
+    "costNote": "Training through AEPs; contact vendor for course and exam fees"
+  },
+  "c10": {
+    "fullName": "GIAC Security Expert",
+    "vendor": "GIAC",
+    "description": "Portfolio certification validating elite status via six Practitioner plus four Applied Knowledge certs.",
+    "costUsd": null,
+    "costNote": "No separate fee; awarded upon earning required GIAC certs"
+  },
+  "c11": {
+    "fullName": "GIAC Reverse Engineering Malware",
+    "vendor": "GIAC",
+    "description": "Validates malware analysis, reverse engineering, and malicious code identification skills.",
+    "costUsd": 999,
+    "costNote": null
+  },
+  "c12": {
+    "fullName": "OffSec Web Expert",
+    "vendor": "Offensive Security",
+    "description": "Validates advanced web application vulnerability discovery, exploitation, and reporting.",
+    "costUsd": 1749,
+    "costNote": null
+  },
+  "c13": {
+    "fullName": "OffSec Experienced Penetration Tester",
+    "vendor": "Offensive Security",
+    "description": "Validates advanced pentesting, AV evasion, and breaching hardened enterprise defenses.",
+    "costUsd": 1749,
+    "costNote": null
+  },
+  "c14": {
+    "fullName": "OffSec Exploit Developer",
+    "vendor": "Offensive Security",
+    "description": "Validates Windows user-mode exploit development and security mitigation bypass skills.",
+    "costUsd": 1749,
+    "costNote": null
+  },
+  "c15": {
+    "fullName": "Program Management Professional",
+    "vendor": "PMI",
+    "description": "Validates program-level project management and portfolio governance expertise.",
+    "costUsd": 555,
+    "costNote": null
+  },
+  "c16": {
+    "fullName": "CISSP Concentrations",
+    "vendor": "(ISC)2",
+    "description": "Validates CISSP specialization in architecture (ISSAP), engineering (ISSEP), or management (ISSMP).",
+    "costUsd": 599,
+    "costNote": null
+  },
+  "c17": {
+    "fullName": "NCSC Certified Cyber Professional - Lead Practitioner",
+    "vendor": "NCSC",
+    "description": "Validates UK government-assured cyber leadership competencies.",
+    "costUsd": null,
+    "costNote": "Contact NCSC/BCS for assured service fees"
+  },
+  "c18": {
+    "fullName": "Certified Forensic Computer Examiner",
+    "vendor": "IACIS",
+    "description": "Validates digital forensics competency through peer review and practical exam.",
+    "costUsd": 800,
+    "costNote": null
+  },
+  "c19": {
+    "fullName": "GIAC Exploit Researcher and Advanced Penetration Tester",
+    "vendor": "GIAC",
+    "description": "Validates advanced exploitation, vulnerability research, and penetration testing skills.",
+    "costUsd": 999,
+    "costNote": null
+  },
+  "c20": {
+    "fullName": "VMware Certified Implementation Expert - Data Center Virtualization",
+    "vendor": "VMware",
+    "description": "Validates vSphere design and deployment expertise at expert level.",
+    "costUsd": 500,
+    "costNote": null
+  },
+  "c21": {
+    "fullName": "Certified Protection Professional",
+    "vendor": "ASIS International",
+    "description": "Validates physical security, risk assessment, and asset protection management.",
+    "costUsd": 485,
+    "costNote": null
+  },
+  "c22": {
+    "fullName": "Zachman Certified Enterprise Architect Professional",
+    "vendor": "Zachman International",
+    "description": "Validates enterprise architecture using the Zachman Framework at professional level.",
+    "costUsd": 2999,
+    "costNote": null
+  },
+  "c23": {
+    "fullName": "Project Management Professional",
+    "vendor": "PMI",
+    "description": "Validates project management knowledge, processes, and leadership competence.",
+    "costUsd": 555,
+    "costNote": null
+  },
+  "c24": {
+    "fullName": "Certified Information Security Manager",
+    "vendor": "ISACA",
+    "description": "Validates information security management and governance expertise.",
+    "costUsd": 760,
+    "costNote": null
+  },
+  "c25": {
+    "fullName": "SECO-Institute Information Security Manager Expert",
+    "vendor": "SECO-Institute",
+    "description": "Validates advanced information security management competencies.",
+    "costUsd": null,
+    "costNote": "Contact vendor for exam and training fees"
+  },
+  "c26": {
+    "fullName": "NCSC Certified Cyber Professional - Security Professional",
+    "vendor": "NCSC",
+    "description": "Validates UK government-assured security professional competencies.",
+    "costUsd": null,
+    "costNote": "Contact NCSC/BCS for assured service fees"
+  },
+  "c27": {
+    "fullName": "Cybersecurity Forensic Analyst",
+    "vendor": "CSIAC",
+    "description": "Validates digital forensics and incident response analysis capabilities.",
+    "costUsd": null,
+    "costNote": "Contact vendor for certification fees"
+  },
+  "c28": {
+    "fullName": "GIAC iOS and macOS Examiner",
+    "vendor": "GIAC",
+    "description": "Validates Apple platform forensic examination and mobile device analysis.",
+    "costUsd": 999,
+    "costNote": null
+  },
+  "c29": {
+    "fullName": "GIAC Assessing and Auditing Wireless Networks",
+    "vendor": "GIAC",
+    "description": "Validates wireless network security assessment and auditing skills.",
+    "costUsd": 999,
+    "costNote": null
+  },
+  "c30": {
+    "fullName": "Certified Information Systems Security Professional",
+    "vendor": "(ISC)2",
+    "description": "Validates advanced cybersecurity leadership and security program management.",
+    "costUsd": 749,
+    "costNote": null
+  },
+  "c31": {
+    "fullName": "Certified CyberDefender",
+    "vendor": "CyberDefenders",
+    "description": "Validates blue team defensive cybersecurity and incident response skills.",
+    "costUsd": null,
+    "costNote": "Contact vendor for certification fees"
+  },
+  "c32": {
+    "fullName": "Certified Advanced Windows Forensic Examiner",
+    "vendor": "IACIS",
+    "description": "Validates advanced Windows forensic examination and analysis competency.",
+    "costUsd": 800,
+    "costNote": null
+  },
+  "c33": {
+    "fullName": "GIAC Certified Forensic Analyst",
+    "vendor": "GIAC",
+    "description": "Validates digital forensics and incident response investigation skills.",
+    "costUsd": 999,
+    "costNote": null
+  },
+  "c34": {
+    "fullName": "GIAC Cyber Threat Intelligence",
+    "vendor": "GIAC",
+    "description": "Validates threat intelligence collection, analysis, and dissemination skills.",
+    "costUsd": 999,
+    "costNote": null
+  },
+  "c35": {
+    "fullName": "CREST Certified Simulated Attack Manager",
+    "vendor": "CREST",
+    "description": "Validates red team and simulated attack program management expertise.",
+    "costUsd": 1016,
+    "costNote": null
+  },
+  "c36": {
+    "fullName": "Juniper Networks Certified Internet Expert Security",
+    "vendor": "Juniper Networks",
+    "description": "Validates expert Junos security platform deployment and troubleshooting.",
+    "costUsd": 1500,
+    "costNote": null
+  },
+  "c37": {
+    "fullName": "Cisco Certified Design Expert",
+    "vendor": "Cisco",
+    "description": "Validates expert-level network design and architecture competency.",
+    "costUsd": 400,
+    "costNote": null
+  },
+  "c38": {
+    "fullName": "AWS Certified Solutions Architect - Professional",
+    "vendor": "Amazon Web Services",
+    "description": "Validates AWS solution design for complex, scalable distributed systems.",
+    "costUsd": 300,
+    "costNote": null
+  },
+  "c39": {
+    "fullName": "Red Hat Certified Engineer",
+    "vendor": "Red Hat",
+    "description": "Validates Red Hat system administration and automation skills.",
+    "costUsd": 500,
+    "costNote": null
+  },
+  "c40": {
+    "fullName": "GIAC Defending Advanced Threats",
+    "vendor": "GIAC",
+    "description": "Validates advanced threat detection and defensive security operations.",
+    "costUsd": 999,
+    "costNote": null
+  },
+  "c41": {
+    "fullName": "Microsoft Certified: Cybersecurity Architect Expert",
+    "vendor": "Microsoft",
+    "description": "Validates design and implementation of Microsoft security solutions.",
+    "costUsd": 165,
+    "costNote": null
+  },
+  "c42": {
+    "fullName": "TOGAF Enterprise Architecture",
+    "vendor": "The Open Group",
+    "description": "Validates enterprise architecture design using the TOGAF framework.",
+    "costUsd": 405,
+    "costNote": null
+  },
+  "c43": {
+    "fullName": "Certified Chief Information Security Officer",
+    "vendor": "EC-Council",
+    "description": "Validates CISO-level security leadership and executive management.",
+    "costUsd": 2000,
+    "costNote": null
+  },
+  "c44": {
+    "fullName": "EXIN Information Security Management Expert",
+    "vendor": "EXIN",
+    "description": "Validates ISO/IEC 27001-based information security management expertise.",
+    "costUsd": null,
+    "costNote": "Contact vendor for exam fees"
+  },
+  "c45": {
+    "fullName": "GIAC Strategic Planning, Policy, and Leadership",
+    "vendor": "GIAC",
+    "description": "Validates security strategy development and policy leadership skills.",
+    "costUsd": 999,
+    "costNote": null
+  },
+  "c46": {
+    "fullName": "NCSC Certified Cyber Professional - Practitioner",
+    "vendor": "NCSC",
+    "description": "Validates UK government-assured cyber practitioner competencies.",
+    "costUsd": null,
+    "costNote": "Contact NCSC/BCS for assured service fees"
+  },
+  "c47": {
+    "fullName": "GIAC Systems and Network Auditor",
+    "vendor": "GIAC",
+    "description": "Validates systems and network security auditing and assessment skills.",
+    "costUsd": 999,
+    "costNote": null
+  },
+  "c48": {
+    "fullName": "Forensic Security Responder",
+    "vendor": "OpenText",
+    "description": "Validates EnCase-based forensic investigation and incident response.",
+    "costUsd": null,
+    "costNote": "Included with EnCase training; contact vendor"
+  },
+  "c49": {
+    "fullName": "GIAC Network Forensic Analyst",
+    "vendor": "GIAC",
+    "description": "Validates network traffic analysis and forensic investigation skills.",
+    "costUsd": 999,
+    "costNote": null
+  },
+  "c50": {
+    "fullName": "eLearnSecurity Web Application Penetration Tester eXtreme",
+    "vendor": "INE/eLearnSecurity",
+    "description": "Validates advanced web application penetration testing and API security.",
+    "costUsd": 400,
+    "costNote": null
+  },
+  "c51": {
+    "fullName": "CREST Certified Simulated Attack Specialist",
+    "vendor": "CREST",
+    "description": "Validates red team and simulated attack execution expertise.",
+    "costUsd": 1016,
+    "costNote": null
+  },
+  "c52": {
+    "fullName": "Fortinet Certified Expert",
+    "vendor": "Fortinet",
+    "description": "Validates Fortinet security platform mastery via written and practical exams.",
+    "costUsd": 2000,
+    "costNote": null
+  },
+  "c53": {
+    "fullName": "Microsoft Certified: Azure Solutions Architect Expert",
+    "vendor": "Microsoft",
+    "description": "Validates Azure infrastructure design and solutions architecture.",
+    "costUsd": 165,
+    "costNote": null
+  },
+  "c54": {
+    "fullName": "VMware Certified Implementation Expert - Network Virtualization",
+    "vendor": "VMware",
+    "description": "Validates NSX design and deployment expertise at expert level.",
+    "costUsd": 500,
+    "costNote": null
+  },
+  "c55": {
+    "fullName": "LPIC-3 Security",
+    "vendor": "Linux Professional Institute",
+    "description": "Validates advanced Linux security administration and hardening skills.",
+    "costUsd": 200,
+    "costNote": null
+  },
+  "c56": {
+    "fullName": "SABSA Chartered Security Architect Practitioner",
+    "vendor": "SABSA Institute",
+    "description": "Validates SABSA method application for security architecture design.",
+    "costUsd": null,
+    "costNote": "Training through AEPs; contact vendor for fees"
+  },
+  "c57": {
+    "fullName": "Professional Scrum Master III",
+    "vendor": "Scrum.org",
+    "description": "Validates advanced Scrum mastery and agile coaching competencies.",
+    "costUsd": 250,
+    "costNote": null
+  },
+  "c58": {
+    "fullName": "GIAC Security Professional",
+    "vendor": "GIAC",
+    "description": "Portfolio certification via three Practitioner plus two Applied Knowledge certs.",
+    "costUsd": null,
+    "costNote": "No separate fee; awarded upon earning required GIAC certs"
+  },
+  "c59": {
+    "fullName": "GIAC Information Security Professional",
+    "vendor": "GIAC",
+    "description": "Validates information security management and governance knowledge.",
+    "costUsd": 999,
+    "costNote": null
+  },
+  "c60": {
+    "fullName": "MOSSE Certified Threat Intelligence Analyst",
+    "vendor": "MOSSE Institute",
+    "description": "Validates threat intelligence analysis and intelligence-driven security.",
+    "costUsd": null,
+    "costNote": "Contact vendor for certification fees"
+  },
+  "c61": {
+    "fullName": "GIAC Cloud Forensics Responder",
+    "vendor": "GIAC",
+    "description": "Validates cloud forensics and cloud incident response capabilities.",
+    "costUsd": 999,
+    "costNote": null
+  },
+  "c62": {
+    "fullName": "Blue Team Level 2",
+    "vendor": "Security Blue Team",
+    "description": "Validates advanced defensive cybersecurity, malware analysis, and threat hunting.",
+    "costUsd": 2540,
+    "costNote": null
+  },
+  "c63": {
+    "fullName": "MOSSE Certified Red Teamer",
+    "vendor": "MOSSE Institute",
+    "description": "Validates red team operations and adversary simulation skills.",
+    "costUsd": null,
+    "costNote": "Contact vendor for certification fees"
+  },
+  "c64": {
+    "fullName": "CREST Certified Infrastructure Tester",
+    "vendor": "CREST",
+    "description": "Validates infrastructure penetration testing at certified level.",
+    "costUsd": 1016,
+    "costNote": null
+  },
+  "c65": {
+    "fullName": "HackTheBox Certified Web Exploitation Expert",
+    "vendor": "Hack The Box",
+    "description": "Validates advanced web application exploitation via hands-on assessment.",
+    "costUsd": null,
+    "costNote": "Included in Gold subscription; contact vendor for standalone"
+  },
+  "c66": {
+    "fullName": "Google Professional Cloud Architect",
+    "vendor": "Google",
+    "description": "Validates design and management of scalable, reliable Google Cloud solutions.",
+    "costUsd": 200,
+    "costNote": null
+  },
+  "c67": {
+    "fullName": "SUSE Certified Engineer",
+    "vendor": "SUSE",
+    "description": "Validates SUSE Linux Enterprise Server administration expertise.",
+    "costUsd": null,
+    "costNote": "Contact vendor for exam fees"
+  },
+  "c68": {
+    "fullName": "ISA/IEC 62443 Cybersecurity Expert",
+    "vendor": "ISA",
+    "description": "Validates industrial control system and OT security competencies.",
+    "costUsd": null,
+    "costNote": "Contact ISA for exam and training fees"
+  },
+  "c69": {
+    "fullName": "GIAC Defensible Security Architecture",
+    "vendor": "GIAC",
+    "description": "Validates security architecture design for defensible environments.",
+    "costUsd": 999,
+    "costNote": null
+  },
+  "c70": {
+    "fullName": "ITIL 4 Strategic Leader",
+    "vendor": "AXELOS",
+    "description": "Validates strategic IT and digital services leadership competencies.",
+    "costUsd": null,
+    "costNote": "Multiple exams; contact vendor for path cost"
+  },
+  "c71": {
+    "fullName": "Zachman Certified Enterprise Architect Practitioner",
+    "vendor": "Zachman International",
+    "description": "Validates enterprise architecture using the Zachman Framework at practitioner level.",
+    "costUsd": 2470,
+    "costNote": null
+  },
+  "c72": {
+    "fullName": "GIAC Security Leadership",
+    "vendor": "GIAC",
+    "description": "Validates security leadership and program management skills.",
+    "costUsd": 999,
+    "costNote": null
+  },
+  "c73": {
+    "fullName": "SECO-Institute Chief Information Security Officer",
+    "vendor": "SECO-Institute",
+    "description": "Validates CISO-level information security leadership competencies.",
+    "costUsd": null,
+    "costNote": "Contact vendor for certification fees"
+  },
+  "c74": {
+    "fullName": "GIAC Certified Forensics Examiner",
+    "vendor": "GIAC",
+    "description": "Validates Windows forensics and incident response examination skills.",
+    "costUsd": 999,
+    "costNote": null
+  },
+  "c75": {
+    "fullName": "GIAC Enterprise Incident Responder",
+    "vendor": "GIAC",
+    "description": "Validates enterprise-level incident response and containment capabilities.",
+    "costUsd": 999,
+    "costNote": null
+  },
+  "c76": {
+    "fullName": "Pentester Academy Global Certified Blue Teamer",
+    "vendor": "Pentester Academy",
+    "description": "Validates blue team defensive security and incident response skills.",
+    "costUsd": null,
+    "costNote": "Included with training; contact vendor"
+  },
+  "c77": {
+    "fullName": "SECO-Institute Certified Ethical Hacking Leader",
+    "vendor": "SECO-Institute",
+    "description": "Validates advanced ethical hacking and penetration testing leadership.",
+    "costUsd": null,
+    "costNote": "Contact vendor for certification fees"
+  },
+  "c78": {
+    "fullName": "CREST Registered Penetration Tester",
+    "vendor": "CREST",
+    "description": "Validates penetration testing competency at registered level.",
+    "costUsd": 762,
+    "costNote": null
+  },
+  "c79": {
+    "fullName": "Certified Red Team Operator II",
+    "vendor": "Zero Point Security",
+    "description": "Validates advanced red team operations and offensive tradecraft.",
+    "costUsd": 540,
+    "costNote": null
+  },
+  "c80": {
+    "fullName": "MOSSE Certified Code Deobfuscation Specialist",
+    "vendor": "MOSSE Institute",
+    "description": "Validates malware analysis and code deobfuscation capabilities.",
+    "costUsd": null,
+    "costNote": "Contact vendor for certification fees"
+  },
+  "c81": {
+    "fullName": "Cisco Certified Network Professional Security",
+    "vendor": "Cisco",
+    "description": "Validates network security implementation and operations at professional level.",
+    "costUsd": 700,
+    "costNote": null
+  },
+  "c82": {
+    "fullName": "Certified Identity Management Professional",
+    "vendor": "Identity Management Institute",
+    "description": "Validates identity and access management expertise.",
+    "costUsd": null,
+    "costNote": "Contact vendor for certification fees"
+  },
+  "c83": {
+    "fullName": "CompTIA Advanced Security Practitioner",
+    "vendor": "CompTIA",
+    "description": "Validates advanced security practitioner skills across multiple domains.",
+    "costUsd": 466,
+    "costNote": null
+  },
+  "c84": {
+    "fullName": "GIAC Advanced Smartphone Forensics",
+    "vendor": "GIAC",
+    "description": "Validates mobile device and smartphone forensic examination skills.",
+    "costUsd": 999,
+    "costNote": null
+  },
+  "c85": {
+    "fullName": "INE Certified Threat Hunting Professional",
+    "vendor": "INE Security",
+    "description": "Validates threat hunting methodology and detection engineering skills.",
+    "costUsd": null,
+    "costNote": "Contact vendor for exam voucher pricing"
+  },
+  "c86": {
+    "fullName": "SECO-Institute Certified Ethical Hacker Expert",
+    "vendor": "SECO-Institute",
+    "description": "Validates expert-level ethical hacking and penetration testing.",
+    "costUsd": null,
+    "costNote": "Contact vendor for certification fees"
+  },
+  "c87": {
+    "fullName": "Juniper Networks Certified Internet Professional Security",
+    "vendor": "Juniper Networks",
+    "description": "Validates Junos security implementation at professional level.",
+    "costUsd": 300,
+    "costNote": null
+  },
+  "c88": {
+    "fullName": "Palo Alto Networks Certified Network Security Engineer",
+    "vendor": "Palo Alto Networks",
+    "description": "Validates Palo Alto firewall and security platform administration.",
+    "costUsd": 175,
+    "costNote": null
+  },
+  "c89": {
+    "fullName": "Fortinet Certified Solution Specialist Zero Trust Access",
+    "vendor": "Fortinet",
+    "description": "Validates Fortinet zero trust and ZTNA solution implementation.",
+    "costUsd": 400,
+    "costNote": null
+  },
+  "c90": {
+    "fullName": "Fortinet Certified Solution Specialist Secure Access Service Edge",
+    "vendor": "Fortinet",
+    "description": "Validates Fortinet SASE solution design and deployment.",
+    "costUsd": 400,
+    "costNote": null
+  },
+  "c91": {
+    "fullName": "Fortinet Certified Solution Specialist Public Cloud Security",
+    "vendor": "Fortinet",
+    "description": "Validates Fortinet public cloud security implementation.",
+    "costUsd": 400,
+    "costNote": null
+  },
+  "c92": {
+    "fullName": "GIAC Cloud Threat Detection",
+    "vendor": "GIAC",
+    "description": "Validates cloud threat detection and cloud security monitoring.",
+    "costUsd": 999,
+    "costNote": null
+  },
+  "c93": {
+    "fullName": "Certified Automation Cybersecurity Expert",
+    "vendor": "exida",
+    "description": "Validates IACS and SCADA cybersecurity for industrial automation systems.",
+    "costUsd": null,
+    "costNote": "Contact vendor for exam fees"
+  },
+  "c94": {
+    "fullName": "ITIL 4 Managing Professional",
+    "vendor": "AXELOS",
+    "description": "Validates ITIL 4 managing professional competencies across four modules.",
+    "costUsd": null,
+    "costNote": "Multiple exams; contact vendor for path cost"
+  },
+  "c95": {
+    "fullName": "Scaled Professional Scrum",
+    "vendor": "Scrum.org",
+    "description": "Validates scaled Scrum and multi-team agile delivery expertise.",
+    "costUsd": 250,
+    "costNote": null
+  },
+  "c96": {
+    "fullName": "GIAC Law of Data Security and Investigations",
+    "vendor": "GIAC",
+    "description": "Validates legal and regulatory aspects of data security and forensics.",
+    "costUsd": 999,
+    "costNote": null
+  },
+  "c97": {
+    "fullName": "Certified Information Systems Security Manager",
+    "vendor": "GAQM",
+    "description": "Validates information systems security management competencies.",
+    "costUsd": null,
+    "costNote": "Contact vendor for exam fees"
+  },
+  "c98": {
+    "fullName": "Certified in Governance, Risk and Compliance",
+    "vendor": "(ISC)2",
+    "description": "Validates GRC program design and management for information systems.",
+    "costUsd": 599,
+    "costNote": null
+  },
+  "c99": {
+    "fullName": "Certified in Risk and Information Systems Control",
+    "vendor": "ISACA",
+    "description": "Validates IT risk identification, assessment, and response expertise.",
+    "costUsd": 760,
+    "costNote": null
+  },
+  "c100": {
+    "fullName": "GIAC Critical Controls Certification",
+    "vendor": "GIAC",
+    "description": "Validates implementation and assessment of critical security controls.",
+    "costUsd": 999,
+    "costNote": null
+  },
+  "c101": {
+    "fullName": "PCI Qualified Security Assessor",
+    "vendor": "PCI Security Standards Council",
+    "description": "Validates ability to perform PCI DSS compliance assessments.",
+    "costUsd": null,
+    "costNote": "Firm qualification; contact PCI SSC for fees"
+  },
+  "c102": {
+    "fullName": "GIAC Certified Web Application Defender",
+    "vendor": "GIAC",
+    "description": "Validates web application security and defense capabilities.",
+    "costUsd": 999,
+    "costNote": null
+  },
+  "c103": {
+    "fullName": "Cisco CyberOps Professional",
+    "vendor": "Cisco",
+    "description": "Validates SOC operations and security monitoring at professional level.",
+    "costUsd": 300,
+    "costNote": null
+  },
+  "c104": {
+    "fullName": "Certified Cyber Forensics Examiner",
+    "vendor": "Infosec Institute",
+    "description": "Validates digital forensics and cyber investigation skills.",
+    "costUsd": null,
+    "costNote": "Included with training; contact vendor"
+  },
+  "c105": {
+    "fullName": "GIAC Certified Enterprise Defender",
+    "vendor": "GIAC",
+    "description": "Validates enterprise security operations and defensive capabilities.",
+    "costUsd": 999,
+    "costNote": null
+  },
+  "c106": {
+    "fullName": "MOSSE Certified Cyber Protection Expert",
+    "vendor": "MOSSE Institute",
+    "description": "Validates cyber protection and defensive security expertise.",
+    "costUsd": null,
+    "costNote": "Contact vendor for certification fees"
+  },
+  "c107": {
+    "fullName": "CREST Certified Threat Intelligence Manager",
+    "vendor": "CREST",
+    "description": "Validates threat intelligence program management at certified level.",
+    "costUsd": 1016,
+    "costNote": null
+  },
+  "c108": {
+    "fullName": "Offensive Security Certified Professional",
+    "vendor": "Offensive Security",
+    "description": "Validates hands-on penetration testing and ethical hacking skills.",
+    "costUsd": 1699,
+    "costNote": null
+  },
+  "c109": {
+    "fullName": "F5 Certified Solution Expert Security",
+    "vendor": "F5",
+    "description": "Validates F5 security solution design and implementation expertise.",
+    "costUsd": null,
+    "costNote": "Contact vendor for exam fees"
+  },
+  "c110": {
+    "fullName": "Cisco Certified Network Professional Enterprise",
+    "vendor": "Cisco",
+    "description": "Validates enterprise network implementation and operations.",
+    "costUsd": 700,
+    "costNote": null
+  },
+  "c111": {
+    "fullName": "Microsoft 365 Enterprise Administrator Expert",
+    "vendor": "Microsoft",
+    "description": "Validates Microsoft 365 tenant and identity management expertise.",
+    "costUsd": 165,
+    "costNote": null
+  },
+  "c112": {
+    "fullName": "GIAC Public Cloud Security",
+    "vendor": "GIAC",
+    "description": "Validates public cloud security architecture and operations.",
+    "costUsd": 999,
+    "costNote": null
+  },
+  "c113": {
+    "fullName": "GIAC Cloud Security Automation",
+    "vendor": "GIAC",
+    "description": "Validates cloud security automation and DevSecOps skills.",
+    "costUsd": 999,
+    "costNote": null
+  },
+  "c114": {
+    "fullName": "GIAC Certified Windows Security Administrator",
+    "vendor": "GIAC",
+    "description": "Validates Windows security configuration and hardening skills.",
+    "costUsd": 999,
+    "costNote": null
+  },
+  "c115": {
+    "fullName": "GIAC Response and Industrial Defense",
+    "vendor": "GIAC",
+    "description": "Validates industrial control system incident response capabilities.",
+    "costUsd": 999,
+    "costNote": null
+  },
+  "c116": {
+    "fullName": "Certified ISO 27001 Lead Implementer",
+    "vendor": "IT Governance",
+    "description": "Validates ISO/IEC 27001 ISMS implementation expertise.",
+    "costUsd": null,
+    "costNote": "Included with training; contact vendor for pricing"
+  },
+  "c117": {
+    "fullName": "Certified Information Privacy Technologist",
+    "vendor": "IAPP",
+    "description": "Validates privacy technology implementation and data protection skills.",
+    "costUsd": 550,
+    "costNote": null
+  },
+  "c118": {
+    "fullName": "Certified Data Privacy Solutions Engineer",
+    "vendor": "ISACA",
+    "description": "Validates privacy by design and data protection engineering.",
+    "costUsd": 760,
+    "costNote": null
+  },
+  "c119": {
+    "fullName": "Certified Scrum Master",
+    "vendor": "GAQM",
+    "description": "Validates Scrum framework knowledge and agile project management.",
+    "costUsd": null,
+    "costNote": "Contact vendor for exam fees"
+  },
+  "c120": {
+    "fullName": "Certified Agile Scrum Master",
+    "vendor": "GAQM",
+    "description": "Validates agile and Scrum methodology competency.",
+    "costUsd": null,
+    "costNote": "Contact vendor for exam fees"
+  },
+  "c121": {
+    "fullName": "Certified Master Information Systems Security Officer",
+    "vendor": "Mile2",
+    "description": "Validates comprehensive security officer competencies across four certification progressions.",
+    "costUsd": 3180,
+    "costNote": null
+  },
+  "c122": {
+    "fullName": "SECO Information Security Professional",
+    "vendor": "SECO Institute",
+    "description": "Validates advanced information security management and governance expertise.",
+    "costUsd": null,
+    "costNote": "Contact vendor for exam and training fees"
+  },
+  "c123": {
+    "fullName": "Certified Information Systems Auditor",
+    "vendor": "ISACA",
+    "description": "Validates IT and business systems auditing, monitoring, and risk-based assessment skills.",
+    "costUsd": 575,
+    "costNote": null
+  },
+  "c124": {
+    "fullName": "GIAC Continuous Monitoring",
+    "vendor": "GIAC",
+    "description": "Validates defensible security architecture, network monitoring, and intrusion detection capabilities.",
+    "costUsd": 999,
+    "costNote": null
+  },
+  "c125": {
+    "fullName": "Certified ISO 27001 ISMS Lead Auditor",
+    "vendor": "IT Governance",
+    "description": "Validates ability to plan, manage, and report on ISMS conformity audits per certification body standards.",
+    "costUsd": 2788,
+    "costNote": null
+  },
+  "c126": {
+    "fullName": "Secure Programming Certified Leader",
+    "vendor": "SECO Institute",
+    "description": "Validates expert secure software development and vulnerability prevention skills.",
+    "costUsd": null,
+    "costNote": "Contact vendor for exam and training fees"
+  },
+  "c127": {
+    "fullName": "GIAC Certified Detection Analyst",
+    "vendor": "GIAC",
+    "description": "Validates threat detection, hunting, and security analytics capabilities.",
+    "costUsd": 999,
+    "costNote": null
+  },
+  "c128": {
+    "fullName": "Certified Mobile Forensics Examiner",
+    "vendor": "Infosec",
+    "description": "Validates mobile device forensics investigation and evidence extraction skills.",
+    "costUsd": 1699,
+    "costNote": null
+  },
+  "c129": {
+    "fullName": "GIAC Experienced Forensics Analyst",
+    "vendor": "GIAC",
+    "description": "Validates advanced digital forensics and incident response investigation expertise.",
+    "costUsd": 1299,
+    "costNote": null
+  },
+  "c130": {
+    "fullName": "GIAC Certified Incident Handler",
+    "vendor": "GIAC",
+    "description": "Validates incident response, containment, and recovery capabilities.",
+    "costUsd": 999,
+    "costNote": null
+  },
+  "c131": {
+    "fullName": "GIAC Experienced Penetration Tester",
+    "vendor": "GIAC",
+    "description": "Validates advanced penetration testing and offensive security tradecraft.",
+    "costUsd": 1299,
+    "costNote": null
+  },
+  "c132": {
+    "fullName": "GIAC Penetration Tester",
+    "vendor": "GIAC",
+    "description": "Validates penetration testing methodology, tools, and hands-on assessment skills.",
+    "costUsd": 999,
+    "costNote": null
+  },
+  "c133": {
+    "fullName": "OffSec Wireless Professional",
+    "vendor": "Offensive Security",
+    "description": "Validates 802.11 wireless network vulnerability identification and exploitation skills.",
+    "costUsd": 1749,
+    "costNote": null
+  },
+  "c134": {
+    "fullName": "Certified Red Team Operator",
+    "vendor": "Zero Point Security",
+    "description": "Validates red team operations, C2 tradecraft, and adversary simulation skills.",
+    "costUsd": 464,
+    "costNote": null
+  },
+  "c135": {
+    "fullName": "Check Point Certified Security Master",
+    "vendor": "Check Point",
+    "description": "Validates Check Point security platform mastery and Infinity Specialist accreditations.",
+    "costUsd": null,
+    "costNote": "Requires CCSE plus two Infinity Specialist exams; contact vendor"
+  },
+  "c136": {
+    "fullName": "Palo Alto Certified Security Automation Engineer",
+    "vendor": "Palo Alto Networks",
+    "description": "Validates Cortex XSOAR administration and security orchestration automation.",
+    "costUsd": 175,
+    "costNote": null
+  },
+  "c137": {
+    "fullName": "Prisma Certified Cloud Security Engineer",
+    "vendor": "Palo Alto Networks",
+    "description": "Validates Prisma Cloud deployment and multi-cloud security administration.",
+    "costUsd": 175,
+    "costNote": null
+  },
+  "c138": {
+    "fullName": "Certified Identity and Access Manager",
+    "vendor": "Identity Management Institute",
+    "description": "Validates identity and access management program design and governance.",
+    "costUsd": null,
+    "costNote": "Contact vendor for membership and certification fees"
+  },
+  "c139": {
+    "fullName": "Fortinet Certified Solutions Specialist in Security Operations",
+    "vendor": "Fortinet",
+    "description": "Validates Fortinet security operations center and SOC analyst competencies.",
+    "costUsd": 400,
+    "costNote": null
+  },
+  "c140": {
+    "fullName": "Certified DevSecOps Expert",
+    "vendor": "Practical DevSecOps",
+    "description": "Validates DevSecOps implementation, CI/CD security, and pipeline hardening.",
+    "costUsd": 1199,
+    "costNote": null
+  },
+  "c141": {
+    "fullName": "VMware Certified Professional - Data Center Virtualization",
+    "vendor": "VMware",
+    "description": "Validates vSphere administration and data center virtualization skills.",
+    "costUsd": 350,
+    "costNote": null
+  },
+  "c142": {
+    "fullName": "Certified Kubernetes Security Specialist",
+    "vendor": "CNCF",
+    "description": "Validates Kubernetes cluster security hardening and vulnerability remediation.",
+    "costUsd": 445,
+    "costNote": null
+  },
+  "c143": {
+    "fullName": "Linux Foundation Certified System Administrator",
+    "vendor": "Linux Foundation",
+    "description": "Validates Linux system administration and operational competency.",
+    "costUsd": 445,
+    "costNote": null
+  },
+  "c144": {
+    "fullName": "Fortinet Certified Solutions Specialist in OT Security",
+    "vendor": "Fortinet",
+    "description": "Validates OT/ICS security and industrial control system protection.",
+    "costUsd": 400,
+    "costNote": null
+  },
+  "c145": {
+    "fullName": "Certified Security Solutions Architect",
+    "vendor": "Infosec",
+    "description": "Validates security architecture design and solution implementation skills.",
+    "costUsd": null,
+    "costNote": "Included with training; contact vendor"
+  },
+  "c146": {
+    "fullName": "Professional Scrum Developer I",
+    "vendor": "Scrum.org",
+    "description": "Validates Scrum development practices and agile software delivery.",
+    "costUsd": 200,
+    "costNote": null
+  },
+  "c147": {
+    "fullName": "GIAC Certified Project Manager",
+    "vendor": "GIAC",
+    "description": "Validates cybersecurity project management and program delivery.",
+    "costUsd": null,
+    "costNote": "In abeyance; renewal $199"
+  },
+  "c148": {
+    "fullName": "BCS Practitioner Certificate in Information Risk Management",
+    "vendor": "BCS",
+    "description": "Validates information risk assessment and management practices.",
+    "costUsd": null,
+    "costNote": "Contact vendor or training providers for exam fees"
+  },
+  "c149": {
+    "fullName": "EXIN Information Security Management Professional",
+    "vendor": "EXIN",
+    "description": "Validates ISO/IEC 27001-based information security management competencies.",
+    "costUsd": null,
+    "costNote": "Contact vendor for exam fees"
+  },
+  "c150": {
+    "fullName": "MOSSE Certified GRC Practitioner",
+    "vendor": "MOSSE Institute",
+    "description": "Validates governance, risk, and compliance program implementation.",
+    "costUsd": 595,
+    "costNote": null
+  },
+  "c151": {
+    "fullName": "Certified Secure Software Lifecycle Professional",
+    "vendor": "(ISC)2",
+    "description": "Validates secure software development lifecycle and application security.",
+    "costUsd": 599,
+    "costNote": null
+  },
+  "c152": {
+    "fullName": "MOSSE Certified Threat Hunter",
+    "vendor": "MOSSE Institute",
+    "description": "Validates threat hunting methodology and detection engineering skills.",
+    "costUsd": 595,
+    "costNote": null
+  },
+  "c153": {
+    "fullName": "Certified DevSecOps Professional",
+    "vendor": "Infosec",
+    "description": "Validates DevSecOps fundamentals and secure pipeline practices.",
+    "costUsd": null,
+    "costNote": "Included with training; contact vendor"
+  },
+  "c154": {
+    "fullName": "INE Certified Digital Forensics Professional",
+    "vendor": "INE Security",
+    "description": "Validates digital forensics investigation and evidence analysis skills.",
+    "costUsd": null,
+    "costNote": "Requires INE subscription and voucher; contact vendor"
+  },
+  "c155": {
+    "fullName": "GIAC Python Coder",
+    "vendor": "GIAC",
+    "description": "Validates Python programming for security automation and scripting.",
+    "costUsd": 999,
+    "costNote": null
+  },
+  "c156": {
+    "fullName": "MOSSE Certified DFIR Specialist",
+    "vendor": "MOSSE Institute",
+    "description": "Validates digital forensics and incident response capabilities.",
+    "costUsd": 699,
+    "costNote": null
+  },
+  "c157": {
+    "fullName": "Licensed Penetration Tester Master",
+    "vendor": "EC-Council",
+    "description": "Validates elite penetration testing via 90%+ CPENT score or separate path.",
+    "costUsd": null,
+    "costNote": "Awarded with 90%+ CPENT or contact vendor for LPT path"
+  },
+  "c158": {
+    "fullName": "Practical Network Penetration Tester",
+    "vendor": "TCM Security",
+    "description": "Validates network penetration testing via practical exam and report.",
+    "costUsd": 400,
+    "costNote": null
+  },
+  "c159": {
+    "fullName": "GIAC Cloud Penetration Tester",
+    "vendor": "GIAC",
+    "description": "Validates cloud environment penetration testing and assessment skills.",
+    "costUsd": 999,
+    "costNote": null
+  },
+  "c160": {
+    "fullName": "GIAC Red Team Professional",
+    "vendor": "GIAC",
+    "description": "Validates red team operations and adversary simulation expertise.",
+    "costUsd": 999,
+    "costNote": null
+  },
+  "c161": {
+    "fullName": "Certified AppSec Pentesting Expert",
+    "vendor": "SecOps Group",
+    "description": "Validates advanced web application penetration testing via practical exam.",
+    "costUsd": 508,
+    "costNote": null
+  },
+  "c162": {
+    "fullName": "GIAC Mobile Device Security Analyst",
+    "vendor": "GIAC",
+    "description": "Validates mobile device security assessment and BYOD management.",
+    "costUsd": 999,
+    "costNote": null
+  },
+  "c163": {
+    "fullName": "Fortinet Certified Solutions Specialist in Network Security",
+    "vendor": "Fortinet",
+    "description": "Validates Fortinet network security and firewall administration.",
+    "costUsd": 400,
+    "costNote": null
+  },
+  "c164": {
+    "fullName": "Certified Identity Professional",
+    "vendor": "IDPro",
+    "description": "Validates identity and access management professional competencies.",
+    "costUsd": 750,
+    "costNote": null
+  },
+  "c165": {
+    "fullName": "Certified Cloud Security Professional",
+    "vendor": "(ISC)2",
+    "description": "Validates cloud security architecture, design, and operations.",
+    "costUsd": 599,
+    "costNote": null
+  },
+  "c166": {
+    "fullName": "Fortinet Certified Professional in Public Cloud Security",
+    "vendor": "Fortinet",
+    "description": "Validates multi-cloud security and public cloud protection.",
+    "costUsd": 400,
+    "costNote": null
+  },
+  "c167": {
+    "fullName": "Fortinet Certified Professional in Security Operations",
+    "vendor": "Fortinet",
+    "description": "Validates Fortinet security operations and SOC capabilities.",
+    "costUsd": 400,
+    "costNote": null
+  },
+  "c168": {
+    "fullName": "Red Hat Certified System Administrator",
+    "vendor": "Red Hat",
+    "description": "Validates Red Hat Enterprise Linux system administration skills.",
+    "costUsd": 500,
+    "costNote": null
+  },
+  "c169": {
+    "fullName": "ISA/IEC 62443 Cybersecurity Design Specialist",
+    "vendor": "ISA",
+    "description": "Validates industrial control system security design per IEC 62443.",
+    "costUsd": 2214,
+    "costNote": null
+  },
+  "c170": {
+    "fullName": "Salesforce Certified Technical Architect",
+    "vendor": "Salesforce",
+    "description": "Validates Salesforce solution architecture and technical leadership.",
+    "costUsd": 6000,
+    "costNote": null
+  },
+  "c171": {
+    "fullName": "EXIN Privacy and Data Protection Practitioner",
+    "vendor": "EXIN",
+    "description": "Validates GDPR and privacy program implementation expertise.",
+    "costUsd": null,
+    "costNote": "Contact vendor; training typically bundled"
+  },
+  "c172": {
+    "fullName": "Management of Risk Practitioner",
+    "vendor": "AXELOS",
+    "description": "Validates risk management methodology application per M_o_R framework.",
+    "costUsd": null,
+    "costNote": "Training bundle required; contact PeopleCert"
+  },
+  "c173": {
+    "fullName": "Certified Project Director",
+    "vendor": "GAQM",
+    "description": "Validates project and program director competencies.",
+    "costUsd": null,
+    "costNote": "Contact vendor or training providers"
+  },
+  "c174": {
+    "fullName": "PMI Agile Certified Practitioner",
+    "vendor": "PMI",
+    "description": "Validates agile and Scrum project delivery competencies.",
+    "costUsd": 495,
+    "costNote": null
+  },
+  "c175": {
+    "fullName": "EC-Council Information Security Manager",
+    "vendor": "EC-Council",
+    "description": "Validates information security management program leadership.",
+    "costUsd": null,
+    "costNote": "Contact vendor for EISM program fees"
+  },
+  "c176": {
+    "fullName": "Certified in the Governance of Enterprise IT",
+    "vendor": "ISACA",
+    "description": "Validates enterprise IT governance and strategic alignment.",
+    "costUsd": 575,
+    "costNote": null
+  },
+  "c177": {
+    "fullName": "EXIN Information Security Management Expert",
+    "vendor": "EXIN",
+    "description": "Validates ISO/IEC 27001 expert-level information security management.",
+    "costUsd": null,
+    "costNote": "Contact vendor for exam fees"
+  },
+  "c178": {
+    "fullName": "PECB ISO/IEC 27005 Lead Risk Manager",
+    "vendor": "PECB",
+    "description": "Validates information security risk management per ISO 27005.",
+    "costUsd": null,
+    "costNote": "Training bundle typically $2,500–5,000; contact vendor"
+  },
+  "c179": {
+    "fullName": "Certified Cyber Resilience Professional",
+    "vendor": "DRI International",
+    "description": "Validates cyber resilience planning and business continuity.",
+    "costUsd": 400,
+    "costNote": null
+  },
+  "c180": {
+    "fullName": "GIAC Certified Intrusion Analyst",
+    "vendor": "GIAC",
+    "description": "Validates network intrusion detection and traffic analysis skills.",
+    "costUsd": 999,
+    "costNote": null
+  },
+  "c181": {
+    "fullName": "Certified Third-Party Risk Assessor",
+    "vendor": "Shared Assessments",
+    "description": "Validates third-party and vendor risk assessment methodology.",
+    "costUsd": null,
+    "costNote": "Bootcamp required; contact vendor for pricing"
+  },
+  "c182": {
+    "fullName": "PECB ISO/IEC 27001 Lead Auditor",
+    "vendor": "PECB",
+    "description": "Validates ISO 27001 ISMS audit leadership and conformity assessment.",
+    "costUsd": 2500,
+    "costNote": null
+  },
+  "c183": {
+    "fullName": "Cisco DevNet Professional",
+    "vendor": "Cisco",
+    "description": "Validates network automation, APIs, and DevOps for Cisco platforms.",
+    "costUsd": 400,
+    "costNote": null
+  },
+  "c184": {
+    "fullName": "Microsoft 365 Information Protection Administrator",
+    "vendor": "Microsoft",
+    "description": "Validates Microsoft 365 information protection and compliance administration.",
+    "costUsd": 165,
+    "costNote": null
+  },
+  "c185": {
+    "fullName": "Certified Computer Examiner",
+    "vendor": "ISFCE",
+    "description": "Validates computer forensics examination and evidence handling.",
+    "costUsd": null,
+    "costNote": "Contact vendor for exam fees"
+  },
+  "c186": {
+    "fullName": "Certified Master Digital Forensics Investigator",
+    "vendor": "Mile2",
+    "description": "Validates advanced digital forensics across multiple examiner certifications.",
+    "costUsd": 3180,
+    "costNote": null
+  },
+  "c187": {
+    "fullName": "CREST Registered Intrusion Analyst",
+    "vendor": "CREST",
+    "description": "Validates intrusion detection and network security monitoring.",
+    "costUsd": 762,
+    "costNote": null
+  },
+  "c188": {
+    "fullName": "CREST Registered Threat Intelligence Analyst",
+    "vendor": "CREST",
+    "description": "Validates threat intelligence collection, analysis, and dissemination.",
+    "costUsd": 762,
+    "costNote": null
+  },
+  "c189": {
+    "fullName": "GIAC Web Application Penetration Tester",
+    "vendor": "GIAC",
+    "description": "Validates web application security assessment and vulnerability discovery.",
+    "costUsd": 999,
+    "costNote": null
+  },
+  "c190": {
+    "fullName": "OffSec macOS Researcher",
+    "vendor": "Offensive Security",
+    "description": "Validates macOS security control bypass and exploit research skills.",
+    "costUsd": 1749,
+    "costNote": null
+  },
+  "c191": {
+    "fullName": "GAQM Certified Penetration Tester",
+    "vendor": "GAQM",
+    "description": "Validates penetration testing methodology and assessment skills.",
+    "costUsd": null,
+    "costNote": "Contact vendor for exam fees"
+  },
+  "c192": {
+    "fullName": "Certified Cloud Pentesting Expert - AWS",
+    "vendor": "SecOps Group",
+    "description": "Validates AWS cloud penetration testing via practical exam.",
+    "costUsd": 508,
+    "costNote": null
+  },
+  "c193": {
+    "fullName": "Check Point Certified Security Expert",
+    "vendor": "Check Point",
+    "description": "Validates Check Point security platform deployment and troubleshooting.",
+    "costUsd": 318,
+    "costNote": null
+  },
+  "c194": {
+    "fullName": "AWS Certified Security - Specialty",
+    "vendor": "Amazon Web Services",
+    "description": "Validates AWS security design, implementation, and operations.",
+    "costUsd": 300,
+    "costNote": null
+  },
+  "c195": {
+    "fullName": "Salesforce Certified Community Cloud Consultant",
+    "vendor": "Salesforce",
+    "description": "Validates Salesforce Community Cloud implementation and consulting.",
+    "costUsd": 200,
+    "costNote": null
+  },
+  "c196": {
+    "fullName": "EXIN Professional Cloud Solution Architect",
+    "vendor": "EXIN",
+    "description": "Validates cloud solution architecture and design competencies.",
+    "costUsd": null,
+    "costNote": "Contact vendor for exam fees"
+  },
+  "c197": {
+    "fullName": "Certified Kubernetes Administrator",
+    "vendor": "CNCF",
+    "description": "Validates Kubernetes cluster administration and operations.",
+    "costUsd": 445,
+    "costNote": null
+  },
+  "c198": {
+    "fullName": "TÜV Certified Operational Technology Cybersecurity Professional",
+    "vendor": "TÜV",
+    "description": "Validates OT/ICS cybersecurity expertise for industrial environments.",
+    "costUsd": 378,
+    "costNote": null
+  },
+  "c199": {
+    "fullName": "SABSA Chartered Security Architect Foundation",
+    "vendor": "SABSA Institute",
+    "description": "Validates SABSA methodology and security architecture fundamentals.",
+    "costUsd": null,
+    "costNote": "Training through AEPs; contact vendor for fees"
+  },
+  "c200": {
+    "fullName": "Certified Identity Protection Advisor",
+    "vendor": "Identity Management Institute",
+    "description": "Validates identity theft prevention and protection program advisory.",
+    "costUsd": null,
+    "costNote": "Contact vendor for membership and certification fees"
+  },
+  "c201": {
+    "fullName": "DSCI Certified Privacy Professional",
+    "vendor": "DSCI",
+    "description": "Validates privacy program implementation and data protection practices.",
+    "costUsd": 213,
+    "costNote": null
+  },
+  "c202": {
+    "fullName": "Professional Agile Leadership I",
+    "vendor": "Scrum.org",
+    "description": "Validates agile leadership and organizational agility.",
+    "costUsd": 200,
+    "costNote": null
+  },
+  "c203": {
+    "fullName": "Certified Associate in Project Management",
+    "vendor": "PMI",
+    "description": "Validates entry-level project management knowledge and practices.",
+    "costUsd": 300,
+    "costNote": null
+  },
+  "c204": {
+    "fullName": "Professional Scrum Master II",
+    "vendor": "Scrum.org",
+    "description": "Validates advanced Scrum Master and agile coaching competencies.",
+    "costUsd": 250,
+    "costNote": null
+  },
+  "c205": {
+    "fullName": "APMG ISO/IEC 20000 Practitioner",
+    "vendor": "APMG International",
+    "description": "Validates IT service management per ISO/IEC 20000.",
+    "costUsd": null,
+    "costNote": "Contact vendor for exam fees"
+  },
+  "c206": {
+    "fullName": "Certified Information Systems Risk Manager",
+    "vendor": "Mile2",
+    "description": "Validates information systems risk assessment and management.",
+    "costUsd": 3180,
+    "costNote": null
+  },
+  "c207": {
+    "fullName": "APMG ISO/IEC 27001 Practitioner",
+    "vendor": "APMG International",
+    "description": "Validates ISO 27001 implementation and risk treatment.",
+    "costUsd": null,
+    "costNote": "Contact vendor for exam fees"
+  },
+  "c208": {
+    "fullName": "PECB ISO/IEC 27001 Lead Implementer",
+    "vendor": "PECB",
+    "description": "Validates ISO 27001 ISMS implementation and management.",
+    "costUsd": 640,
+    "costNote": null
+  },
+  "c209": {
+    "fullName": "Mile2 IS20",
+    "vendor": "Mile2",
+    "description": "Validates information security competencies per Mile2 curriculum.",
+    "costUsd": null,
+    "costNote": "Contact vendor for course and exam fees"
+  },
+  "c210": {
+    "fullName": "Certified Information Systems Security Auditor",
+    "vendor": "Mile2",
+    "description": "Validates security auditing and compliance assessment skills.",
+    "costUsd": null,
+    "costNote": "Contact vendor for individual course pricing"
+  },
+  "c211": {
+    "fullName": "APMG ISO/IEC 27001 Lead Auditor",
+    "vendor": "APMG International",
+    "description": "Validates ISO 27001 ISMS audit leadership.",
+    "costUsd": null,
+    "costNote": "Contact vendor for exam fees"
+  },
+  "c212": {
+    "fullName": "Certified Application Security Engineer",
+    "vendor": "EC-Council",
+    "description": "Validates secure application development and security testing.",
+    "costUsd": null,
+    "costNote": "Contact vendor for exam fees"
+  },
+  "c213": {
+    "fullName": "Certified Master Disaster Recovery Engineer",
+    "vendor": "Mile2",
+    "description": "Validates disaster recovery planning and business continuity.",
+    "costUsd": 3180,
+    "costNote": null
+  },
+  "c214": {
+    "fullName": "GIAC Security Operations Certified",
+    "vendor": "GIAC",
+    "description": "Validates SOC analyst and security operations competencies.",
+    "costUsd": 999,
+    "costNote": null
+  },
+  "c215": {
+    "fullName": "GIAC Battlefield Forensics and Acquisition",
+    "vendor": "GIAC",
+    "description": "Validates forensic acquisition and evidence collection skills.",
+    "costUsd": 999,
+    "costNote": null
+  },
+  "c216": {
+    "fullName": "Blue Team Level 1",
+    "vendor": "Security Blue Team",
+    "description": "Validates junior defensive cybersecurity and incident response.",
+    "costUsd": 507,
+    "costNote": null
+  },
+  "c217": {
+    "fullName": "MOSSE Certified Blue Teamer",
+    "vendor": "MOSSE Institute",
+    "description": "Validates blue team defensive security operations.",
+    "costUsd": 699,
+    "costNote": null
+  },
+  "c218": {
+    "fullName": "MOSSE Certified Penetration Tester",
+    "vendor": "MOSSE Institute",
+    "description": "Validates penetration testing methodology and hands-on assessment.",
+    "costUsd": 595,
+    "costNote": null
+  },
+  "c219": {
+    "fullName": "Certified Penetration Testing Professional",
+    "vendor": "EC-Council",
+    "description": "Validates advanced penetration testing via 24-hour practical exam.",
+    "costUsd": 999,
+    "costNote": null
+  },
+  "c220": {
+    "fullName": "CREST Certified Tester - Application",
+    "vendor": "CREST",
+    "description": "Validates web application penetration testing at certified level.",
+    "costUsd": 1016,
+    "costNote": null
+  },
+  "c221": {
+    "fullName": "HackTheBox Certified Penetration Testing Specialist",
+    "vendor": "Hack The Box",
+    "description": "Validates penetration testing via hands-on practical assessment.",
+    "costUsd": 210,
+    "costNote": null
+  },
+  "c222": {
+    "fullName": "MOSSE Certified Reverse Engineer",
+    "vendor": "MOSSE Institute",
+    "description": "Validates malware reverse engineering and binary analysis.",
+    "costUsd": null,
+    "costNote": "Contact vendor for certification fees"
+  },
+  "c223": {
+    "fullName": "Juniper Networks Certified Internet Specialist Security",
+    "vendor": "Juniper Networks",
+    "description": "Validates Junos security platform administration and troubleshooting.",
+    "costUsd": null,
+    "costNote": "Contact Pearson VUE for exam fees"
+  },
+  "c224": {
+    "fullName": "GIAC Machine Learning Engineer",
+    "vendor": "GIAC",
+    "description": "Validates ML security and adversarial machine learning skills.",
+    "costUsd": 999,
+    "costNote": null
+  },
+  "c225": {
+    "fullName": "CREST Certified Host Intrusion Analyst",
+    "vendor": "CREST",
+    "description": "Validates host-based intrusion analysis and endpoint forensics.",
+    "costUsd": 1016,
+    "costNote": null
+  },
+  "c226": {
+    "fullName": "EnCase Certified Examiner",
+    "vendor": "OpenText",
+    "description": "Validates EnCase forensic examination and evidence analysis.",
+    "costUsd": 500,
+    "costNote": null
+  },
+  "c227": {
+    "fullName": "AccessData Certified Examiner",
+    "vendor": "AccessData",
+    "description": "Validates FTK and digital forensics examination competency.",
+    "costUsd": 100,
+    "costNote": null
+  },
+  "c228": {
+    "fullName": "INE Certified Incident Responder",
+    "vendor": "INE Security",
+    "description": "Validates incident response and forensic analysis skills.",
+    "costUsd": null,
+    "costNote": "Requires INE subscription and voucher; contact vendor"
+  },
+  "c229": {
+    "fullName": "Certified Incident Handling Engineer",
+    "vendor": "Mile2",
+    "description": "Validates incident response and handling methodology.",
+    "costUsd": null,
+    "costNote": "Contact vendor for course pricing"
+  },
+  "c230": {
+    "fullName": "Cyber Scheme Team Leader",
+    "vendor": "The Cyber Scheme",
+    "description": "Validates UK government-assured penetration testing team leadership.",
+    "costUsd": null,
+    "costNote": "Contact vendor for exam fees"
+  },
+  "c231": {
+    "fullName": "INE Certified Professional Penetration Tester",
+    "vendor": "INE Security",
+    "description": "Validates penetration testing via practical exam.",
+    "costUsd": 250,
+    "costNote": null
+  },
+  "c232": {
+    "fullName": "INE Certified Web Application Penetration Tester",
+    "vendor": "INE Security",
+    "description": "Validates web application security testing and vulnerability assessment.",
+    "costUsd": 250,
+    "costNote": null
+  },
+  "c233": {
+    "fullName": "Certified Master Intrusion Prevention Specialist",
+    "vendor": "Mile2",
+    "description": "Validates penetration testing and intrusion prevention across four certifications.",
+    "costUsd": 3180,
+    "costNote": null
+  },
+  "c234": {
+    "fullName": "HackTheBox Certified Bug Bounty Hunter",
+    "vendor": "Hack The Box",
+    "description": "Validates bug bounty hunting and vulnerability disclosure skills.",
+    "costUsd": 351,
+    "costNote": null
+  },
+  "c235": {
+    "fullName": "Practical Junior Malware Researcher",
+    "vendor": "TCM Security",
+    "description": "Validates malware analysis and reverse engineering fundamentals.",
+    "costUsd": 399,
+    "costNote": null
+  },
+  "c236": {
+    "fullName": "F5 Certified Technology Specialist Application Performance Management",
+    "vendor": "F5",
+    "description": "Validates F5 application delivery and performance management.",
+    "costUsd": null,
+    "costNote": "Contact vendor for exam fees"
+  },
+  "c237": {
+    "fullName": "Fortinet Certified Professional in Network Security",
+    "vendor": "Fortinet",
+    "description": "Validates Fortinet firewall and network security administration.",
+    "costUsd": 400,
+    "costNote": null
+  },
+  "c238": {
+    "fullName": "Cisco Certified Network Associate",
+    "vendor": "Cisco",
+    "description": "Validates network fundamentals, routing, switching, and security basics.",
+    "costUsd": 300,
+    "costNote": null
+  },
+  "c239": {
+    "fullName": "Microsoft Certified: Azure Security Engineer Associate",
+    "vendor": "Microsoft",
+    "description": "Validates Azure security implementation and management.",
+    "costUsd": 165,
+    "costNote": null
+  },
+  "c240": {
+    "fullName": "Certificate of Cloud Governance and Compliance",
+    "vendor": "Cloud Security Alliance",
+    "description": "Validates cloud governance, compliance, and risk management.",
+    "costUsd": null,
+    "costNote": "CSA offers CCSK, CCZT; contact vendor for CGC pricing"
+  },
+  "c241": {
+    "fullName": "VMware Certified Professional - Network Virtualization",
+    "vendor": "VMware (Broadcom)",
+    "description": "Validates skills in designing, installing, and managing VMware NSX network virtualization and security solutions.",
+    "costUsd": 250,
+    "costNote": null
+  },
+  "c242": {
+    "fullName": "Certified Kubernetes Application Developer",
+    "vendor": "Cloud Native Computing Foundation",
+    "description": "Validates ability to design, build, and deploy cloud-native applications on Kubernetes.",
+    "costUsd": 445,
+    "costNote": null
+  },
+  "c243": {
+    "fullName": "LPIC-2 Linux Engineer",
+    "vendor": "Linux Professional Institute",
+    "description": "Validates ability to administer small-to-medium mixed networks including advanced storage, security, and services.",
+    "costUsd": 400,
+    "costNote": null
+  },
+  "c244": {
+    "fullName": "GIAC Critical Infrastructure Protection",
+    "vendor": "GIAC/SANS",
+    "description": "Validates understanding of NERC CIP regulatory requirements and critical infrastructure protection implementation.",
+    "costUsd": 999,
+    "costNote": null
+  },
+  "c245": {
+    "fullName": "Certified Identity Management Professional",
+    "vendor": "Identity Management Institute",
+    "description": "Validates technical IAM expertise for developing and implementing identity and access management solutions.",
+    "costUsd": 295,
+    "costNote": null
+  },
+  "c246": {
+    "fullName": "Certified in Data Protection",
+    "vendor": "Identity Management Institute",
+    "description": "Validates comprehensive knowledge of global data protection, privacy regulations, and security controls.",
+    "costUsd": 395,
+    "costNote": null
+  },
+  "c247": {
+    "fullName": "CMMC Certified Professional",
+    "vendor": "ecfirst / Cyber AB",
+    "description": "Validates knowledge of CMMC requirements and implementation for defense supply chain compliance.",
+    "costUsd": null,
+    "costNote": "Contact vendor; exam via Cyber AB"
+  },
+  "c248": {
+    "fullName": "Certified Information Systems Security Officer",
+    "vendor": "Mile2",
+    "description": "Validates competencies in implementing and managing information security programs and controls.",
+    "costUsd": 440,
+    "costNote": null
+  },
+  "c249": {
+    "fullName": "Certified ISMS Risk Management (ISO 27005)",
+    "vendor": "IT Governance / IBITGQ",
+    "description": "Validates ability to conduct ISO 27005-aligned information security risk assessments.",
+    "costUsd": 1495,
+    "costNote": null
+  },
+  "c250": {
+    "fullName": "EXIN Information Security Management Professional (ISO/IEC 27001)",
+    "vendor": "EXIN",
+    "description": "Validates implementation and evaluation of information security programs based on ISO/IEC 27001.",
+    "costUsd": null,
+    "costNote": "Training mandatory; contact ATP for price"
+  },
+  "c251": {
+    "fullName": "PECB ISO/IEC 27032 Lead Cybersecurity Manager",
+    "vendor": "PECB",
+    "description": "Validates ability to manage cybersecurity programs for cyberspace and ICT environments.",
+    "costUsd": 1999,
+    "costNote": null
+  },
+  "c252": {
+    "fullName": "Certified Healthcare Information Systems Security Practitioner",
+    "vendor": "Mile2",
+    "description": "Validates healthcare information security competencies and regulatory compliance knowledge.",
+    "costUsd": 550,
+    "costNote": null
+  },
+  "c253": {
+    "fullName": "APMG ISO/IEC 20000 Auditor",
+    "vendor": "APMG International",
+    "description": "Validates auditing competence for IT service management systems per ISO/IEC 20000.",
+    "costUsd": null,
+    "costNote": "Contact APMG or ATO"
+  },
+  "c254": {
+    "fullName": "Certified Information Security Management Systems Lead Auditor/Implementer",
+    "vendor": "Mile2",
+    "description": "Validates competence in auditing and implementing ISMS per ISO 27001.",
+    "costUsd": 550,
+    "costNote": null
+  },
+  "c255": {
+    "fullName": "Certified ISMS Internal Auditor (ISO 27001)",
+    "vendor": "IT Governance / IBITGQ",
+    "description": "Validates ability to perform internal audits of information security management systems.",
+    "costUsd": null,
+    "costNote": "Included with training ($1,495+)"
+  },
+  "c256": {
+    "fullName": "Certified Advanced Software Security Tester",
+    "vendor": "GAQM",
+    "description": "Validates advanced software security testing and vulnerability assessment skills.",
+    "costUsd": 425,
+    "costNote": null
+  },
+  "c257": {
+    "fullName": "Open Source Intelligence",
+    "vendor": "IntelTechniques / OSIP",
+    "description": "Validates skills in gathering and analyzing open source intelligence for investigations.",
+    "costUsd": null,
+    "costNote": "Contact vendor"
+  },
+  "c258": {
+    "fullName": "Cisco Certified CyberOps Associate",
+    "vendor": "Cisco",
+    "description": "Validates SOC analyst skills in security monitoring, incident response, and network intrusion analysis.",
+    "costUsd": 300,
+    "costNote": null
+  },
+  "c259": {
+    "fullName": "Certified HIPAA Security Specialist",
+    "vendor": "ecfirst",
+    "description": "Validates HIPAA security rule implementation and healthcare compliance knowledge.",
+    "costUsd": null,
+    "costNote": "Training $1,650+; contact ecfirst"
+  },
+  "c260": {
+    "fullName": "Computer Hacking Forensic Investigator",
+    "vendor": "EC-Council",
+    "description": "Validates digital forensics skills for investigating cybercrimes and evidence collection.",
+    "costUsd": 650,
+    "costNote": null
+  },
+  "c261": {
+    "fullName": "SECO Certified Threat Analyst",
+    "vendor": "SECO Institute",
+    "description": "Validates SOC analyst and threat analyst competencies in cyber defense operations.",
+    "costUsd": null,
+    "costNote": "Contact vendor; bundled with training"
+  },
+  "c262": {
+    "fullName": "EC-Council Certified Incident Handler",
+    "vendor": "EC-Council",
+    "description": "Validates incident response and handling capabilities for security events and breaches.",
+    "costUsd": 450,
+    "costNote": null
+  },
+  "c263": {
+    "fullName": "Certified PowerShell Hacker",
+    "vendor": "Mile2",
+    "description": "Validates offensive PowerShell skills for penetration testing and red team operations.",
+    "costUsd": 550,
+    "costNote": null
+  },
+  "c264": {
+    "fullName": "Certified Mobile and Web Application Penetration Tester",
+    "vendor": "InfoSec Institute",
+    "description": "Validates mobile and web application penetration testing and vulnerability assessment skills.",
+    "costUsd": null,
+    "costNote": "Included with boot camp ($4,000+)"
+  },
+  "c265": {
+    "fullName": "Certified Penetration Testing Engineer",
+    "vendor": "Mile2",
+    "description": "Validates penetration testing methodology and offensive security assessment skills.",
+    "costUsd": 550,
+    "costNote": null
+  },
+  "c266": {
+    "fullName": "Certified Red Team Operations Professional",
+    "vendor": "InfoSec Institute",
+    "description": "Validates red team operations, adversarial simulation, and advanced attack techniques.",
+    "costUsd": 4599,
+    "costNote": null
+  },
+  "c267": {
+    "fullName": "Cyber Struggle Ranger",
+    "vendor": "Cyber Struggle",
+    "description": "Validates defensive cybersecurity operations and incident response capabilities.",
+    "costUsd": null,
+    "costNote": "Contact vendor"
+  },
+  "c268": {
+    "fullName": "F5 Certified Technology Specialist - BIG-IP DNS",
+    "vendor": "F5 Networks",
+    "description": "Validates administration and troubleshooting of F5 BIG-IP DNS solutions.",
+    "costUsd": 180,
+    "costNote": null
+  },
+  "c269": {
+    "fullName": "Palo Alto Networks Certified Detection and Remediation Analyst",
+    "vendor": "Palo Alto Networks",
+    "description": "Validates SOC analyst skills in detection, investigation, and remediation using Cortex XDR.",
+    "costUsd": 165,
+    "costNote": null
+  },
+  "c270": {
+    "fullName": "Salesforce Certified Identity and Access Management Designer",
+    "vendor": "Salesforce",
+    "description": "Validates design of identity and access management solutions on Salesforce platform.",
+    "costUsd": 400,
+    "costNote": null
+  },
+  "c271": {
+    "fullName": "GIAC Cloud Security Essentials",
+    "vendor": "GIAC/SANS",
+    "description": "Validates foundational cloud security concepts and multi-cloud security implementation.",
+    "costUsd": 999,
+    "costNote": null
+  },
+  "c272": {
+    "fullName": "AWS Certified Solutions Architect - Associate",
+    "vendor": "Amazon Web Services",
+    "description": "Validates ability to design cost-optimized and performant solutions on AWS.",
+    "costUsd": 150,
+    "costNote": null
+  },
+  "c273": {
+    "fullName": "EXIN Professional Cloud Service Manager",
+    "vendor": "EXIN",
+    "description": "Validates cloud service management, delivery, and governance competencies.",
+    "costUsd": null,
+    "costNote": "Contact vendor or ATP"
+  },
+  "c274": {
+    "fullName": "ISA/IEC 62443 Cybersecurity Risk Assessment Specialist",
+    "vendor": "International Society of Automation",
+    "description": "Validates ICS/OT cybersecurity risk assessment per ISA/IEC 62443 standards.",
+    "costUsd": null,
+    "costNote": "Contact ISA"
+  },
+  "c275": {
+    "fullName": "Splunk Enterprise Security Certified Admin",
+    "vendor": "Splunk",
+    "description": "Validates administration of Splunk Enterprise Security SIEM and security analytics.",
+    "costUsd": 125,
+    "costNote": null
+  },
+  "c276": {
+    "fullName": "BCS Practitioner Certificate in Information Assurance Architecture",
+    "vendor": "BCS",
+    "description": "Validates design and assurance of information security architecture.",
+    "costUsd": null,
+    "costNote": "Contact BCS"
+  },
+  "c277": {
+    "fullName": "Certified HIPAA Security Specialist",
+    "vendor": "ecfirst",
+    "description": "Validates HIPAA security rule implementation and healthcare compliance knowledge.",
+    "costUsd": null,
+    "costNote": "Training $1,650+; contact ecfirst"
+  },
+  "c278": {
+    "fullName": "Professional in Project Management",
+    "vendor": "GAQM",
+    "description": "Validates project management competencies for security and IT projects.",
+    "costUsd": null,
+    "costNote": "Contact GAQM"
+  },
+  "c279": {
+    "fullName": "Certified Information Systems Security Manager",
+    "vendor": "Mile2",
+    "description": "Validates security program management and information assurance leadership.",
+    "costUsd": 550,
+    "costNote": null
+  },
+  "c280": {
+    "fullName": "TÜV Certified ITSM",
+    "vendor": "TÜV SÜD / Certipedia",
+    "description": "Validates IT service management competencies and process implementation.",
+    "costUsd": null,
+    "costNote": "Contact TÜV/Certipedia"
+  },
+  "c281": {
+    "fullName": "Certified Cyber Security Risk Manager",
+    "vendor": "IT Governance / IBITGQ",
+    "description": "Validates cyber security risk management and NIST CSF implementation.",
+    "costUsd": 200,
+    "costNote": null
+  },
+  "c282": {
+    "fullName": "PECB ISO/IEC 27005 Risk Manager",
+    "vendor": "PECB",
+    "description": "Validates ISO 27005 information security risk management implementation.",
+    "costUsd": null,
+    "costNote": "Bundled with training; contact PECB"
+  },
+  "c283": {
+    "fullName": "Certified Secure Software Assurer",
+    "vendor": "Software Certification Institute",
+    "description": "Validates secure software development and assurance competencies.",
+    "costUsd": null,
+    "costNote": "Contact vendor"
+  },
+  "c284": {
+    "fullName": "Certified Business Continuity Lead Auditor",
+    "vendor": "DRI International",
+    "description": "Validates BCM program auditing and ISO 22301 experience.",
+    "costUsd": 900,
+    "costNote": null
+  },
+  "c285": {
+    "fullName": "TÜV Certified Management System Auditor",
+    "vendor": "TÜV SÜD / Certipedia",
+    "description": "Validates management system auditing competencies for ISO standards.",
+    "costUsd": null,
+    "costNote": "Contact TÜV/Certipedia"
+  },
+  "c286": {
+    "fullName": "Cisco Certified DevNet Associate",
+    "vendor": "Cisco",
+    "description": "Validates network automation, DevOps, and Cisco platform API development skills.",
+    "costUsd": 300,
+    "costNote": null
+  },
+  "c287": {
+    "fullName": "CompTIA Cybersecurity Analyst+",
+    "vendor": "CompTIA",
+    "description": "Validates incident detection, vulnerability management, and security analysis competencies.",
+    "costUsd": 425,
+    "costNote": null
+  },
+  "c288": {
+    "fullName": "CSX Cybersecurity Practitioner",
+    "vendor": "ISACA",
+    "description": "Validates hands-on cybersecurity operations and incident response capabilities.",
+    "costUsd": 549,
+    "costNote": null
+  },
+  "c289": {
+    "fullName": "Certified Network Forensics Examiner",
+    "vendor": "Mile2",
+    "description": "Validates network forensics and traffic analysis for incident investigation.",
+    "costUsd": 550,
+    "costNote": null
+  },
+  "c290": {
+    "fullName": "GIAC Open Source Intelligence",
+    "vendor": "GIAC/SANS",
+    "description": "Validates OSINT collection, analysis, and reporting for investigations.",
+    "costUsd": 999,
+    "costNote": null
+  },
+  "c291": {
+    "fullName": "Certified Threat Intelligence Analyst",
+    "vendor": "Mile2",
+    "description": "Validates threat intelligence collection, analysis, and dissemination skills.",
+    "costUsd": 550,
+    "costNote": null
+  },
+  "c292": {
+    "fullName": "Offensive Security Defense Analyst",
+    "vendor": "Offensive Security",
+    "description": "Validates SOC analyst skills in detection, investigation, and threat hunting.",
+    "costUsd": 999,
+    "costNote": null
+  },
+  "c293": {
+    "fullName": "eLearnSecurity Mobile Application Penetration Tester",
+    "vendor": "INE Security",
+    "description": "Validates mobile application penetration testing and security assessment.",
+    "costUsd": 399,
+    "costNote": null
+  },
+  "c294": {
+    "fullName": "Burp Suite Certified Practitioner",
+    "vendor": "PortSwigger",
+    "description": "Validates practical web application security testing using Burp Suite.",
+    "costUsd": 99,
+    "costNote": null
+  },
+  "c295": {
+    "fullName": "OSTMM Professional Security Tester",
+    "vendor": "ISECOM",
+    "description": "Validates security testing methodology per OSSTMM framework.",
+    "costUsd": null,
+    "costNote": "Contact ISECOM"
+  },
+  "c296": {
+    "fullName": "Offensive Security Web Assessor",
+    "vendor": "Offensive Security",
+    "description": "Validates web application penetration testing and security assessment skills.",
+    "costUsd": 1749,
+    "costNote": null
+  },
+  "c297": {
+    "fullName": "Certified Reverse Engineering Analyst",
+    "vendor": "InfoSec Institute",
+    "description": "Validates reverse engineering and malware analysis competencies.",
+    "costUsd": null,
+    "costNote": "Included with boot camp"
+  },
+  "c298": {
+    "fullName": "Certified Wireless Security Professional",
+    "vendor": "CWNP",
+    "description": "Validates enterprise Wi-Fi security design, implementation, and troubleshooting.",
+    "costUsd": 350,
+    "costNote": null
+  },
+  "c299": {
+    "fullName": "CREST Certified Network Intrusion Analyst",
+    "vendor": "CREST",
+    "description": "Validates network intrusion analysis and security monitoring competencies.",
+    "costUsd": 1005,
+    "costNote": null
+  },
+  "c300": {
+    "fullName": "Certified Identity Governance Expert",
+    "vendor": "Identity Management Institute",
+    "description": "Validates identity governance, lifecycle, and compliance implementation.",
+    "costUsd": null,
+    "costNote": "Contact IMI"
+  },
+  "c301": {
+    "fullName": "Microsoft Certified: Azure Administrator Associate",
+    "vendor": "Microsoft",
+    "description": "Validates Azure cloud administration including identity, storage, and networking.",
+    "costUsd": 165,
+    "costNote": null
+  },
+  "c302": {
+    "fullName": "PECB Certified Lead Cloud Security Manager",
+    "vendor": "PECB",
+    "description": "Validates cloud security program management and multi-cloud security governance.",
+    "costUsd": 699,
+    "costNote": null
+  },
+  "c303": {
+    "fullName": "Certified Cloud Security Engineer",
+    "vendor": "EC-Council",
+    "description": "Validates cloud security design, implementation, and assessment across platforms.",
+    "costUsd": null,
+    "costNote": "Contact EC-Council"
+  },
+  "c304": {
+    "fullName": "MCSI Certified Cloud Security Engineer",
+    "vendor": "Mosse Institute",
+    "description": "Validates cloud security hardening for AWS, GCP, Azure, Docker, and Kubernetes.",
+    "costUsd": 595,
+    "costNote": null
+  },
+  "c305": {
+    "fullName": "Salesforce Certified System Architect",
+    "vendor": "Salesforce",
+    "description": "Validates enterprise solution architecture on Salesforce platform.",
+    "costUsd": 400,
+    "costNote": null
+  },
+  "c306": {
+    "fullName": "Associate Protection Professional",
+    "vendor": "ASIS International",
+    "description": "Validates physical security and asset protection fundamentals.",
+    "costUsd": null,
+    "costNote": "Contact ASIS"
+  },
+  "c307": {
+    "fullName": "Certified Network Defense Architect",
+    "vendor": "EC-Council",
+    "description": "Validates network defense architecture and secure network design.",
+    "costUsd": null,
+    "costNote": "Contact EC-Council"
+  },
+  "c308": {
+    "fullName": "Associate Cyber Resilience Professional",
+    "vendor": "DRI International",
+    "description": "Validates cyber resilience and business continuity fundamentals.",
+    "costUsd": 700,
+    "costNote": null
+  },
+  "c309": {
+    "fullName": "Certified ISO 27005 ISMS Risk Management",
+    "vendor": "IT Governance / IBITGQ",
+    "description": "Validates ISO 27005 information security risk management competencies.",
+    "costUsd": 200,
+    "costNote": null
+  },
+  "c310": {
+    "fullName": "Certified Risk Management Professional",
+    "vendor": "DRI International",
+    "description": "Validates risk management and business continuity program leadership.",
+    "costUsd": 900,
+    "costNote": null
+  },
+  "c311": {
+    "fullName": "SANS Security Awareness Professional",
+    "vendor": "SANS Institute",
+    "description": "Validates security awareness program development and human risk management.",
+    "costUsd": null,
+    "costNote": "Included with LDR433 course"
+  },
+  "c312": {
+    "fullName": "GRC Professional",
+    "vendor": "OCEG",
+    "description": "Validates governance, risk, and compliance program implementation.",
+    "costUsd": 499,
+    "costNote": null
+  },
+  "c313": {
+    "fullName": "Security Awareness and Culture Professional",
+    "vendor": "The H Layer",
+    "description": "Validates security awareness program design and culture change management.",
+    "costUsd": 369,
+    "costNote": null
+  },
+  "c314": {
+    "fullName": "Certified Information Security Professional",
+    "vendor": "GAQM",
+    "description": "Validates information security management and implementation competencies.",
+    "costUsd": null,
+    "costNote": "Contact GAQM"
+  },
+  "c315": {
+    "fullName": "TÜV Certified Information Security Auditor",
+    "vendor": "TÜV SÜD / Certipedia",
+    "description": "Validates information security management system auditing competencies.",
+    "costUsd": null,
+    "costNote": "Contact TÜV/Certipedia"
+  },
+  "c316": {
+    "fullName": "Certified Third-Party Risk Management Professional",
+    "vendor": "Shared Assessments",
+    "description": "Validates third-party and vendor risk assessment methodologies.",
+    "costUsd": 595,
+    "costNote": null
+  },
+  "c317": {
+    "fullName": "Certified Internal Auditor",
+    "vendor": "The Institute of Internal Auditors",
+    "description": "Validates internal auditing standards, practices, and ethics.",
+    "costUsd": 1270,
+    "costNote": null
+  },
+  "c318": {
+    "fullName": "Certified Cyber Secure Coder",
+    "vendor": "CertNexus",
+    "description": "Validates secure coding practices and application security development.",
+    "costUsd": null,
+    "costNote": "Contact CertNexus; ~$367"
+  },
+  "c319": {
+    "fullName": "Microsoft Certified: Security Operations Analyst Associate",
+    "vendor": "Microsoft",
+    "description": "Validates Microsoft Security stack configuration and incident response.",
+    "costUsd": 165,
+    "costNote": null
+  },
+  "c320": {
+    "fullName": "MCSI Remote Cybersecurity Internship",
+    "vendor": "Mosse Institute",
+    "description": "Validates practical cybersecurity skills through remote internship simulation.",
+    "costUsd": null,
+    "costNote": "Contact vendor"
+  },
+  "c321": {
+    "fullName": "EC-Council Disaster Recovery Professional",
+    "vendor": "EC-Council",
+    "description": "Validates disaster recovery planning and business continuity implementation.",
+    "costUsd": null,
+    "costNote": "Contact EC-Council"
+  },
+  "c322": {
+    "fullName": "HackTheBox Certified Defensive Security Analyst",
+    "vendor": "HackTheBox",
+    "description": "Validates defensive security operations and SOC analyst competencies.",
+    "costUsd": null,
+    "costNote": "Contact HackTheBox Academy"
+  },
+  "c323": {
+    "fullName": "Cybersec First Responder",
+    "vendor": "CertNexus",
+    "description": "Validates incident response, threat detection, and digital forensics capabilities.",
+    "costUsd": 368,
+    "costNote": null
+  },
+  "c324": {
+    "fullName": "Certified Threat Intelligence Analyst",
+    "vendor": "EC-Council",
+    "description": "Validates threat intelligence lifecycle and analysis methodologies.",
+    "costUsd": null,
+    "costNote": "Contact EC-Council"
+  },
+  "c325": {
+    "fullName": "Cyber Scheme Team Member",
+    "vendor": "The Cyber Scheme",
+    "description": "Validates foundational penetration testing competencies for UK government.",
+    "costUsd": null,
+    "costNote": "Contact Cyber Scheme"
+  },
+  "c326": {
+    "fullName": "eLearnSecurity Junior Penetration Tester",
+    "vendor": "INE Security",
+    "description": "Validates entry-level penetration testing and vulnerability assessment skills.",
+    "costUsd": 200,
+    "costNote": null
+  },
+  "c327": {
+    "fullName": "SECO Ethical Hacking Practitioner",
+    "vendor": "SECO Institute",
+    "description": "Validates ethical hacking and penetration testing methodology.",
+    "costUsd": null,
+    "costNote": "Contact vendor; bundled with training"
+  },
+  "c328": {
+    "fullName": "Certified Hacking and Testing",
+    "vendor": "ISECOM",
+    "description": "Validates security testing per OSSTMM methodology.",
+    "costUsd": null,
+    "costNote": "Contact ISECOM"
+  },
+  "c329": {
+    "fullName": "CREST Practitioner Security Analyst",
+    "vendor": "CREST",
+    "description": "Validates foundational penetration testing and security assessment skills.",
+    "costUsd": 345,
+    "costNote": null
+  },
+  "c330": {
+    "fullName": "F5 Certified BIG-IP Administrator",
+    "vendor": "F5 Networks",
+    "description": "Validates F5 BIG-IP administration for application delivery and security.",
+    "costUsd": 360,
+    "costNote": null
+  },
+  "c331": {
+    "fullName": "eLearnSecurity Network Defense Professional",
+    "vendor": "INE Security",
+    "description": "Validates network defense and security monitoring competencies.",
+    "costUsd": null,
+    "costNote": "Contact INE"
+  },
+  "c332": {
+    "fullName": "Certified Identity and Security Technologist",
+    "vendor": "Identity Management Institute",
+    "description": "Validates identity security and IAM technology implementation.",
+    "costUsd": null,
+    "costNote": "Contact IMI"
+  },
+  "c333": {
+    "fullName": "Google Professional Cloud Security Engineer",
+    "vendor": "Google",
+    "description": "Validates design and implementation of secure GCP infrastructure and data protection.",
+    "costUsd": 200,
+    "costNote": null
+  },
+  "c334": {
+    "fullName": "EXIN Professional Cloud Security Manager",
+    "vendor": "EXIN",
+    "description": "Validates cloud security governance and implementation competencies.",
+    "costUsd": null,
+    "costNote": "Contact vendor or ATP"
+  },
+  "c335": {
+    "fullName": "MCSI Certified DevSecOps Engineer",
+    "vendor": "Mosse Institute",
+    "description": "Validates DevSecOps practices and secure CI/CD pipeline implementation.",
+    "costUsd": null,
+    "costNote": "Contact vendor"
+  },
+  "c336": {
+    "fullName": "SUSE Certified Administrator in Enterprise Linux 15",
+    "vendor": "SUSE",
+    "description": "Validates SUSE Linux Enterprise Server administration and troubleshooting.",
+    "costUsd": null,
+    "costNote": "Contact SUSE"
+  },
+  "c337": {
+    "fullName": "ISA/IEC 62443 Cybersecurity Design Specialist",
+    "vendor": "International Society of Automation",
+    "description": "Validates ICS/OT security design per ISA/IEC 62443 standards.",
+    "costUsd": null,
+    "costNote": "Contact ISA"
+  },
+  "c338": {
+    "fullName": "TÜV Certified Operational Security Manager",
+    "vendor": "Limes Security / TÜV",
+    "description": "Validates ICS security operations and OT security management.",
+    "costUsd": null,
+    "costNote": "Contact vendor"
+  },
+  "c339": {
+    "fullName": "Zachman Certified Enterprise Architect Associate",
+    "vendor": "Zachman International",
+    "description": "Validates enterprise architecture using the Zachman Framework.",
+    "costUsd": 2799,
+    "costNote": null
+  },
+  "c340": {
+    "fullName": "Certified Agile Developer",
+    "vendor": "GAQM",
+    "description": "Validates agile development and Scrum implementation competencies.",
+    "costUsd": null,
+    "costNote": "Contact GAQM"
+  },
+  "c341": {
+    "fullName": "Certified Agile Coach",
+    "vendor": "GAQM",
+    "description": "Validates agile coaching and team facilitation competencies.",
+    "costUsd": null,
+    "costNote": "Contact GAQM"
+  },
+  "c342": {
+    "fullName": "ISMI Certified Security Management Professional",
+    "vendor": "Institute of Strategic Management",
+    "description": "Validates security management and program leadership competencies.",
+    "costUsd": null,
+    "costNote": "Contact ISMI"
+  },
+  "c343": {
+    "fullName": "Certified Security Compliance Specialist",
+    "vendor": "ecfirst",
+    "description": "Validates regulatory compliance and security control implementation.",
+    "costUsd": 1650,
+    "costNote": null
+  },
+  "c344": {
+    "fullName": "APMG ISO/IEC 27001 Foundation",
+    "vendor": "APMG International",
+    "description": "Validates foundational ISO 27001 ISMS concepts and requirements.",
+    "costUsd": 390,
+    "costNote": null
+  },
+  "c345": {
+    "fullName": "PECB ISO/IEC 27001 Foundation",
+    "vendor": "PECB",
+    "description": "Validates foundational ISO 27001 information security management concepts.",
+    "costUsd": 400,
+    "costNote": null
+  },
+  "c346": {
+    "fullName": "Certified Secure Lifecycle Manager",
+    "vendor": "Mile2",
+    "description": "Validates secure SDLC implementation and software security management.",
+    "costUsd": null,
+    "costNote": "Contact Mile2"
+  },
+  "c347": {
+    "fullName": "Certified Business Continuity Auditor",
+    "vendor": "DRI International",
+    "description": "Validates business continuity and disaster recovery program auditing.",
+    "costUsd": 900,
+    "costNote": null
+  },
+  "c348": {
+    "fullName": "GRC Audit",
+    "vendor": "OCEG",
+    "description": "Validates GRC auditing and assurance competencies.",
+    "costUsd": null,
+    "costNote": "Contact OCEG"
+  },
+  "c349": {
+    "fullName": "Certified Information Systems Security Trainer",
+    "vendor": "GAQM",
+    "description": "Validates security training delivery and instructional design.",
+    "costUsd": null,
+    "costNote": "Contact GAQM"
+  },
+  "c350": {
+    "fullName": "Certified Secure Web Application Engineer",
+    "vendor": "Mile2",
+    "description": "Validates web application security testing and secure development.",
+    "costUsd": null,
+    "costNote": "Contact Mile2"
+  },
+  "c351": {
+    "fullName": "ISECOM Professional Security Analyst",
+    "vendor": "ISECOM",
+    "description": "Validates security analysis per OSSTMM methodology.",
+    "costUsd": null,
+    "costNote": "Contact ISECOM"
+  },
+  "c352": {
+    "fullName": "Cyber Struggle Aegis",
+    "vendor": "Cyber Struggle",
+    "description": "Validates advanced defensive cybersecurity operations.",
+    "costUsd": null,
+    "costNote": "Contact vendor"
+  },
+  "c353": {
+    "fullName": "ASIS Professional Certified Investigator",
+    "vendor": "ASIS International",
+    "description": "Validates investigative techniques for security and fraud investigations.",
+    "costUsd": null,
+    "costNote": "Contact ASIS"
+  },
+  "c354": {
+    "fullName": "MITRE ATT&CK Defender - SOC Analyst",
+    "vendor": "MITRE Engenuity",
+    "description": "Validates SOC operations using MITRE ATT&CK framework.",
+    "costUsd": null,
+    "costNote": "Contact MITRE Engenuity"
+  },
+  "c355": {
+    "fullName": "MITRE ATT&CK Defender - Cyber Threat Intelligence",
+    "vendor": "MITRE Engenuity",
+    "description": "Validates threat intelligence using MITRE ATT&CK framework.",
+    "costUsd": null,
+    "costNote": "Contact MITRE Engenuity"
+  },
+  "c356": {
+    "fullName": "Certified Ethical Hacker",
+    "vendor": "EC-Council",
+    "description": "Validates ethical hacking methodology and penetration testing techniques.",
+    "costUsd": 950,
+    "costNote": null
+  },
+  "c357": {
+    "fullName": "SecOps Certified AppSec Pentester",
+    "vendor": "SecOps Group",
+    "description": "Validates web application penetration testing and security assessment.",
+    "costUsd": 315,
+    "costNote": null
+  },
+  "c358": {
+    "fullName": "Certified Penetration Testing Engineer",
+    "vendor": "Mile2",
+    "description": "Validates penetration testing methodology and offensive security skills.",
+    "costUsd": 550,
+    "costNote": null
+  },
+  "c359": {
+    "fullName": "SecOps Certified Network Pentester",
+    "vendor": "SecOps Group",
+    "description": "Validates network penetration testing and infrastructure assessment.",
+    "costUsd": 315,
+    "costNote": null
+  },
+  "c360": {
+    "fullName": "0xDarkVortex Red Team and Operational Security",
+    "vendor": "0xDarkVortex",
+    "description": "Validates red team operations and offensive security techniques.",
+    "costUsd": null,
+    "costNote": "Contact vendor"
+  },
+  "c361": {
+    "fullName": "Dark Vortex Offensive Tool Development",
+    "vendor": "0xDarkVortex",
+    "description": "Validates skills in building custom offensive tools for Red Team engagements using C/C++ and Windows API exploitation.",
+    "costUsd": 2000,
+    "costNote": null
+  },
+  "c362": {
+    "fullName": "Certified Vulnerability Researcher and Exploitation Specialist",
+    "vendor": "Mossé Cyber Security Institute",
+    "description": "Validates advanced skills in finding and exploiting zero-day vulnerabilities and developing weaponized exploits.",
+    "costUsd": 699,
+    "costNote": null
+  },
+  "c363": {
+    "fullName": "Network Security Essentials",
+    "vendor": "Mossé Cyber Security Institute",
+    "description": "Validates foundational network security knowledge and practical defense skills.",
+    "costUsd": 699,
+    "costNote": null
+  },
+  "c364": {
+    "fullName": "Palo Alto Networks Certified Network Security Administrator",
+    "vendor": "Palo Alto Networks",
+    "description": "Validates skills to configure, deploy, and manage Palo Alto Networks next-generation firewalls.",
+    "costUsd": 155,
+    "costNote": null
+  },
+  "c365": {
+    "fullName": "OSSTMM Wireless Security Expert",
+    "vendor": "ISECOM",
+    "description": "Validates expertise in wireless network security assessment using OSSTMM methodology.",
+    "costUsd": 539,
+    "costNote": null
+  },
+  "c366": {
+    "fullName": "Microsoft Certified: Identity and Access Administrator Associate",
+    "vendor": "Microsoft",
+    "description": "Validates skills in designing and implementing identity and access management with Microsoft Entra ID.",
+    "costUsd": 165,
+    "costNote": null
+  },
+  "c367": {
+    "fullName": "Certificate of Cloud Security Knowledge",
+    "vendor": "Cloud Security Alliance",
+    "description": "Validates knowledge of cloud security best practices and CSA Security Guidance.",
+    "costUsd": 445,
+    "costNote": null
+  },
+  "c368": {
+    "fullName": "Certified Cloud Security Officer",
+    "vendor": "Mile2",
+    "description": "Validates cloud security knowledge to protect organizational IP and IT infrastructure.",
+    "costUsd": 550,
+    "costNote": null
+  },
+  "c369": {
+    "fullName": "Docker Certified Associate",
+    "vendor": "Mirantis",
+    "description": "Validates real-world Docker skills for building, shipping, and running containerized applications.",
+    "costUsd": 199,
+    "costNote": null
+  },
+  "c370": {
+    "fullName": "LPIC-1 Linux Administrator",
+    "vendor": "Linux Professional Institute",
+    "description": "Validates proficiency in Linux system administration across two exams (101 and 102).",
+    "costUsd": 400,
+    "costNote": null
+  },
+  "c371": {
+    "fullName": "Global Industrial Cyber Security Professional",
+    "vendor": "GIAC",
+    "description": "Validates expertise in securing industrial control systems across IT, engineering, and cybersecurity.",
+    "costUsd": 999,
+    "costNote": null
+  },
+  "c372": {
+    "fullName": "GIAC Security Essentials",
+    "vendor": "GIAC",
+    "description": "Validates hands-on security skills in access control, cryptography, and defensive operations.",
+    "costUsd": 999,
+    "costNote": null
+  },
+  "c373": {
+    "fullName": "Certified OSINT Expert",
+    "vendor": "Mossé Cyber Security Institute",
+    "description": "Validates open-source intelligence techniques for investigation and data analysis.",
+    "costUsd": 699,
+    "costNote": null
+  },
+  "c374": {
+    "fullName": "Certified Forensic Analyst",
+    "vendor": "GAQM",
+    "description": "Validates digital forensics analysis and incident investigation skills.",
+    "costUsd": 150,
+    "costNote": null
+  },
+  "c375": {
+    "fullName": "Certified SOC Analyst",
+    "vendor": "EC-Council",
+    "description": "Validates SOC operations skills including monitoring, incident response, and threat intelligence.",
+    "costUsd": 550,
+    "costNote": null
+  },
+  "c376": {
+    "fullName": "GIAC Foundational Cybersecurity Technologies",
+    "vendor": "GIAC",
+    "description": "Validates foundational IT and cybersecurity knowledge including computers, networks, and security.",
+    "costUsd": 399,
+    "costNote": null
+  },
+  "c377": {
+    "fullName": "Certified Mobile Pentester – Android",
+    "vendor": "SecOps Group",
+    "description": "Validates mobile application security testing skills for Android platforms.",
+    "costUsd": 318,
+    "costNote": null
+  },
+  "c378": {
+    "fullName": "Certified Mobile Pentester – iOS",
+    "vendor": "SecOps Group",
+    "description": "Validates mobile application security testing skills for iOS platforms.",
+    "costUsd": 318,
+    "costNote": null
+  },
+  "c379": {
+    "fullName": "Malware on Steroids",
+    "vendor": "0xDarkVortex",
+    "description": "Validates skills in building custom C2 infrastructure and malware payloads with evasion techniques.",
+    "costUsd": 2500,
+    "costNote": null
+  },
+  "c380": {
+    "fullName": "CompTIA PenTest+",
+    "vendor": "CompTIA",
+    "description": "Validates penetration testing skills across cloud, web apps, APIs, and IoT.",
+    "costUsd": 404,
+    "costNote": null
+  },
+  "c381": {
+    "fullName": "CREST Certified Simulated Attack Specialist",
+    "vendor": "CREST",
+    "description": "Validates red team and simulated attack specialist skills (now CCRTS).",
+    "costUsd": 1016,
+    "costNote": null
+  },
+  "c382": {
+    "fullName": "EC-Council Certified Encryption Specialist",
+    "vendor": "EC-Council",
+    "description": "Validates knowledge of encryption technologies, algorithms, and cryptographic implementations.",
+    "costUsd": 249,
+    "costNote": null
+  },
+  "c383": {
+    "fullName": "Juniper Networks Certified Associate – Security",
+    "vendor": "Juniper Networks",
+    "description": "Validates Juniper Junos security fundamentals and SRX configuration skills.",
+    "costUsd": null,
+    "costNote": "Contact Pearson VUE for current exam pricing"
+  },
+  "c384": {
+    "fullName": "Fortinet Certified Associate in Cybersecurity",
+    "vendor": "Fortinet",
+    "description": "Validates foundational NSE cybersecurity knowledge; exam often included with free training.",
+    "costUsd": null,
+    "costNote": "Minimal or included with course; contact vendor"
+  },
+  "c385": {
+    "fullName": "Wireshark Certified Network Analyst",
+    "vendor": "Chappell University",
+    "description": "Validates packet analysis skills using Wireshark, tshark, and related tools.",
+    "costUsd": 299,
+    "costNote": null
+  },
+  "c386": {
+    "fullName": "CompTIA Server+",
+    "vendor": "CompTIA",
+    "description": "Validates server hardware, software, storage, and troubleshooting skills.",
+    "costUsd": 348,
+    "costNote": null
+  },
+  "c387": {
+    "fullName": "Certified DevSecOps Professional",
+    "vendor": "Practical DevSecOps",
+    "description": "Validates DevSecOps practices including secure SDLC, CI/CD, SAST, DAST, and security as code.",
+    "costUsd": 899,
+    "costNote": null
+  },
+  "c388": {
+    "fullName": "Professional Cloud Developer",
+    "vendor": "EXIN/Cloud Credential Council",
+    "description": "Validates cloud application development and deployment skills.",
+    "costUsd": null,
+    "costNote": "Contact vendor or training partner"
+  },
+  "c389": {
+    "fullName": "Kubernetes and Cloud Native Associate",
+    "vendor": "CNCF/Linux Foundation",
+    "description": "Validates foundational Kubernetes and cloud-native ecosystem knowledge.",
+    "costUsd": 250,
+    "costNote": null
+  },
+  "c390": {
+    "fullName": "CompTIA Linux+",
+    "vendor": "CompTIA",
+    "description": "Validates Linux system administration, security, and troubleshooting across cloud and hybrid environments.",
+    "costUsd": 390,
+    "costNote": null
+  },
+  "c391": {
+    "fullName": "Microsoft Certified: Azure IoT Developer Specialty",
+    "vendor": "Microsoft",
+    "description": "Validates skills in implementing and managing IoT solutions on Azure.",
+    "costUsd": 165,
+    "costNote": null
+  },
+  "c392": {
+    "fullName": "Certified Risk and Fraud Specialist",
+    "vendor": "Identity Management Institute",
+    "description": "Validates identity theft prevention and fraud detection skills for regulated industries.",
+    "costUsd": null,
+    "costNote": "Contact vendor"
+  },
+  "c393": {
+    "fullName": "Systems Security Certified Practitioner",
+    "vendor": "(ISC)²",
+    "description": "Validates hands-on security operations skills in access controls, cryptography, and monitoring.",
+    "costUsd": 249,
+    "costNote": null
+  },
+  "c394": {
+    "fullName": "Certified Application Security Practitioner",
+    "vendor": "SecOps Group",
+    "description": "Validates application security testing and secure development practices.",
+    "costUsd": 318,
+    "costNote": null
+  },
+  "c395": {
+    "fullName": "Certified Cybersecurity Operations Analyst",
+    "vendor": "ISACA",
+    "description": "Validates SOC operations and cybersecurity analysis skills for early-career professionals.",
+    "costUsd": null,
+    "costNote": "Contact ISACA for exam fee"
+  },
+  "c396": {
+    "fullName": "CREST Practitioner Intrusion Analyst",
+    "vendor": "CREST",
+    "description": "Validates incident response and intrusion analysis skills.",
+    "costUsd": 350,
+    "costNote": null
+  },
+  "c397": {
+    "fullName": "Certified Enterprise Security Engineer",
+    "vendor": "Mossé Cyber Security Institute",
+    "description": "Validates enterprise security architecture and implementation skills.",
+    "costUsd": 699,
+    "costNote": null
+  },
+  "c398": {
+    "fullName": "CREST Practitioner Threat Intelligence Analyst",
+    "vendor": "CREST",
+    "description": "Validates threat intelligence collection, analysis, and reporting skills.",
+    "costUsd": 350,
+    "costNote": null
+  },
+  "c399": {
+    "fullName": "Certified Cloud Penetration Tester",
+    "vendor": "Mossé Cyber Security Institute",
+    "description": "Validates cloud infrastructure and service penetration testing skills.",
+    "costUsd": 699,
+    "costNote": null
+  },
+  "c400": {
+    "fullName": "Certified Professional Ethical Hacker",
+    "vendor": "Mile2",
+    "description": "Validates ethical hacking and penetration testing methodologies.",
+    "costUsd": 595,
+    "costNote": null
+  },
+  "c401": {
+    "fullName": "Certified Professional Ethical Hacker",
+    "vendor": "GAQM",
+    "description": "Validates ethical hacking and penetration testing competencies.",
+    "costUsd": 150,
+    "costNote": null
+  },
+  "c402": {
+    "fullName": "Check Point Certified Security Administrator",
+    "vendor": "Check Point",
+    "description": "Validates Check Point firewall administration and security policy management.",
+    "costUsd": 300,
+    "costNote": null
+  },
+  "c403": {
+    "fullName": "IT Specialist – Network Security",
+    "vendor": "Certiport/Pearson VUE",
+    "description": "Validates foundational IT network security concepts and practices.",
+    "costUsd": 133,
+    "costNote": null
+  },
+  "c404": {
+    "fullName": "Cisco Certified Technician",
+    "vendor": "Cisco",
+    "description": "Validates entry-level skills in diagnosing, repairing, and maintaining Cisco equipment.",
+    "costUsd": 125,
+    "costNote": null
+  },
+  "c405": {
+    "fullName": "CompTIA Cloud+",
+    "vendor": "CompTIA",
+    "description": "Validates multi-cloud infrastructure design, security, and optimization skills.",
+    "costUsd": 390,
+    "costNote": null
+  },
+  "c406": {
+    "fullName": "Google Cloud Associate Cloud Engineer",
+    "vendor": "Google",
+    "description": "Validates skills to deploy and manage applications on Google Cloud Platform.",
+    "costUsd": 125,
+    "costNote": null
+  },
+  "c407": {
+    "fullName": "Certified Cloud Security Practitioner – AWS",
+    "vendor": "SecOps Group",
+    "description": "Validates AWS cloud security fundamentals and best practices.",
+    "costUsd": 127,
+    "costNote": null
+  },
+  "c408": {
+    "fullName": "Linux Foundation Certified IT Associate",
+    "vendor": "Linux Foundation",
+    "description": "Validates foundational open-source IT and cloud computing knowledge.",
+    "costUsd": 250,
+    "costNote": null
+  },
+  "c409": {
+    "fullName": "ISA/IEC 62443 Cybersecurity Certificate",
+    "vendor": "ISA",
+    "description": "Validates industrial control system cybersecurity per ISA/IEC 62443 standards.",
+    "costUsd": 2160,
+    "costNote": null
+  },
+  "c410": {
+    "fullName": "EITCA/IS Information Security Academy",
+    "vendor": "EITCA Academy",
+    "description": "Validates comprehensive information security knowledge across 12 European IT Certificates.",
+    "costUsd": 1026,
+    "costNote": null
+  },
+  "c411": {
+    "fullName": "Certified Information Privacy Professional",
+    "vendor": "IAPP",
+    "description": "Validates privacy laws, regulations, and frameworks; jurisdiction-specific versions available.",
+    "costUsd": 550,
+    "costNote": null
+  },
+  "c412": {
+    "fullName": "CompTIA Security+",
+    "vendor": "CompTIA",
+    "description": "Validates baseline cybersecurity skills including threat detection and risk mitigation.",
+    "costUsd": 425,
+    "costNote": null
+  },
+  "c413": {
+    "fullName": "EC-Council Certified Security Specialist",
+    "vendor": "EC-Council",
+    "description": "Validates foundational cybersecurity knowledge across multiple domains.",
+    "costUsd": null,
+    "costNote": "Contact vendor"
+  },
+  "c414": {
+    "fullName": "Certified Digital Forensics Examiner",
+    "vendor": "Mile2",
+    "description": "Validates digital forensics examination and evidence collection skills.",
+    "costUsd": null,
+    "costNote": "Bundled with training ($1,600+); contact vendor for exam-only"
+  },
+  "c415": {
+    "fullName": "Associate SOC Analyst",
+    "vendor": "SECO-Institute",
+    "description": "Validates Tier 1 SOC analyst skills including SIEM operations and logging.",
+    "costUsd": 410,
+    "costNote": null
+  },
+  "c416": {
+    "fullName": "Adversary Operations and Proactive Hunting",
+    "vendor": "0xDarkVortex",
+    "description": "Validates endpoint hunting, Windows API analysis, and threat detection on Windows.",
+    "costUsd": 2500,
+    "costNote": null
+  },
+  "c417": {
+    "fullName": "Certified Network Security Practitioner",
+    "vendor": "SecOps Group",
+    "description": "Validates core network security concepts including protocols, tools, and configurations.",
+    "costUsd": 127,
+    "costNote": null
+  },
+  "c418": {
+    "fullName": "CompTIA Network+",
+    "vendor": "CompTIA",
+    "description": "Validates network configuration, troubleshooting, and security fundamentals.",
+    "costUsd": 369,
+    "costNote": null
+  },
+  "c419": {
+    "fullName": "Certified Access Management Specialist",
+    "vendor": "Identity Management Institute",
+    "description": "Validates identity and access management implementation skills.",
+    "costUsd": null,
+    "costNote": "Contact vendor for fee voucher"
+  },
+  "c420": {
+    "fullName": "Microsoft Certified: Azure Fundamentals",
+    "vendor": "Microsoft",
+    "description": "Validates foundational Azure cloud concepts and services.",
+    "costUsd": 99,
+    "costNote": null
+  },
+  "c421": {
+    "fullName": "Cloud Services Fundamentals",
+    "vendor": "Mossé Cyber Security Institute",
+    "description": "Validates foundational cloud computing and service models knowledge.",
+    "costUsd": 699,
+    "costNote": null
+  },
+  "c422": {
+    "fullName": "System Administration Fundamentals",
+    "vendor": "Mossé Cyber Security Institute",
+    "description": "Validates foundational system administration and IT operations skills.",
+    "costUsd": 699,
+    "costNote": null
+  },
+  "c423": {
+    "fullName": "Apple Certified Support Professional",
+    "vendor": "Apple",
+    "description": "Validates macOS support and troubleshooting skills for help desk roles.",
+    "costUsd": null,
+    "costNote": "Included with Apple training; contact vendor"
+  },
+  "c424": {
+    "fullName": "Certified Associate in Cyber Security",
+    "vendor": "Exida CACE",
+    "description": "Validates entry-level cybersecurity fundamentals.",
+    "costUsd": null,
+    "costNote": "Contact vendor"
+  },
+  "c425": {
+    "fullName": "TÜV Rheinland Certified OT Security Engineer",
+    "vendor": "Limes Security",
+    "description": "Validates industrial control system and OT cybersecurity fundamentals.",
+    "costUsd": null,
+    "costNote": "Bundled with training; contact vendor"
+  },
+  "c426": {
+    "fullName": "EXIN Privacy and Data Protection Foundation",
+    "vendor": "EXIN",
+    "description": "Validates foundational privacy and data protection principles.",
+    "costUsd": null,
+    "costNote": "Contact vendor or training partner"
+  },
+  "c427": {
+    "fullName": "TOGAF 9 Foundation",
+    "vendor": "The Open Group",
+    "description": "Validates foundational enterprise architecture concepts per TOGAF framework.",
+    "costUsd": 405,
+    "costNote": null
+  },
+  "c428": {
+    "fullName": "Certified Scrum Professional",
+    "vendor": "GAQM",
+    "description": "Validates advanced Scrum and agile project management skills.",
+    "costUsd": 150,
+    "costNote": null
+  },
+  "c429": {
+    "fullName": "Certificate in Cybersecurity Analysis",
+    "vendor": "IIBA",
+    "description": "Validates business analysis applied to cybersecurity contexts.",
+    "costUsd": null,
+    "costNote": "Contact IIBA"
+  },
+  "c430": {
+    "fullName": "Implementing IT Governance Foundation",
+    "vendor": "IT Governance",
+    "description": "Validates IT governance principles and implementation.",
+    "costUsd": null,
+    "costNote": "Bundled with training; contact vendor"
+  },
+  "c431": {
+    "fullName": "Information Systems Security Certified Associate Professional",
+    "vendor": "Mile2",
+    "description": "Validates foundational information systems security knowledge.",
+    "costUsd": 400,
+    "costNote": null
+  },
+  "c432": {
+    "fullName": "Cyber Security Analyst Professional",
+    "vendor": "InfoSec Institute",
+    "description": "Validates foundational SOC and security analyst skills.",
+    "costUsd": null,
+    "costNote": "Contact vendor"
+  },
+  "c433": {
+    "fullName": "ISO/IEC 27032 Foundation",
+    "vendor": "PECB",
+    "description": "Validates foundational cybersecurity and cyber-risk management per ISO 27032.",
+    "costUsd": 400,
+    "costNote": null
+  },
+  "c434": {
+    "fullName": "Cybersecurity Leadership",
+    "vendor": "Mossé Cyber Security Institute",
+    "description": "Validates cybersecurity leadership and management competencies.",
+    "costUsd": 699,
+    "costNote": null
+  },
+  "c435": {
+    "fullName": "IT Specialist – Cybersecurity",
+    "vendor": "Certiport/Pearson VUE",
+    "description": "Validates foundational cybersecurity concepts for IT professionals.",
+    "costUsd": 133,
+    "costNote": null
+  },
+  "c436": {
+    "fullName": "EXIN Cyber and IT Security",
+    "vendor": "EXIN",
+    "description": "Validates foundational cyber and IT security knowledge.",
+    "costUsd": 200,
+    "costNote": null
+  },
+  "c437": {
+    "fullName": "TÜV Certified Cyber Security Specialist",
+    "vendor": "TÜV",
+    "description": "Validates cybersecurity specialist knowledge and practices.",
+    "costUsd": null,
+    "costNote": "Bundled with training; contact vendor"
+  },
+  "c438": {
+    "fullName": "Certified Software Security Tester",
+    "vendor": "GAQM",
+    "description": "Validates software security testing and vulnerability assessment skills.",
+    "costUsd": 150,
+    "costNote": null
+  },
+  "c439": {
+    "fullName": "OSSTMM Professional Security Expert",
+    "vendor": "ISECOM",
+    "description": "Validates OSSTMM-based security assessment expertise.",
+    "costUsd": 539,
+    "costNote": null
+  },
+  "c440": {
+    "fullName": "Cyber Incident Response Management Foundation",
+    "vendor": "IT Governance",
+    "description": "Validates foundational cyber incident response and management skills.",
+    "costUsd": null,
+    "costNote": "Bundled with training; contact vendor"
+  },
+  "c441": {
+    "fullName": "Malware Incident and Log Forensics",
+    "vendor": "0xDarkVortex",
+    "description": "Validates malware forensics and log analysis for incident response.",
+    "costUsd": null,
+    "costNote": "Contact vendor for course pricing"
+  },
+  "c442": {
+    "fullName": "Cyber Incident Response Management Foundation",
+    "vendor": "IT Governance",
+    "description": "Validates foundational incident response management and planning.",
+    "costUsd": null,
+    "costNote": "Bundled with training; contact vendor"
+  },
+  "c443": {
+    "fullName": "EXIN Ethical Hacking Foundation",
+    "vendor": "EXIN",
+    "description": "Validates foundational ethical hacking concepts and methodology.",
+    "costUsd": null,
+    "costNote": "Contact vendor"
+  },
+  "c444": {
+    "fullName": "Ethical Hacking Foundation",
+    "vendor": "SECO-Institute",
+    "description": "Validates foundational ethical hacking and penetration testing concepts.",
+    "costUsd": null,
+    "costNote": "Contact vendor"
+  },
+  "c445": {
+    "fullName": "Certified Hacker Analyst",
+    "vendor": "ISECOM",
+    "description": "Validates entry-level security assessment and hacker methodology knowledge.",
+    "costUsd": 107,
+    "costNote": null
+  },
+  "c446": {
+    "fullName": "Fortinet Certified Fundamentals",
+    "vendor": "Fortinet",
+    "description": "Validates foundational NSE cybersecurity knowledge.",
+    "costUsd": null,
+    "costNote": "Free with Fortinet training; contact vendor"
+  },
+  "c447": {
+    "fullName": "Palo Alto Networks Certified Cybersecurity Entry-level Technician",
+    "vendor": "Palo Alto Networks",
+    "description": "Validates entry-level cybersecurity technician skills.",
+    "costUsd": 110,
+    "costNote": null
+  },
+  "c448": {
+    "fullName": "AWS Certified Cloud Practitioner",
+    "vendor": "Amazon Web Services",
+    "description": "Validates foundational AWS cloud services and architecture knowledge.",
+    "costUsd": 100,
+    "costNote": null
+  },
+  "c449": {
+    "fullName": "Professional Cloud Administrator",
+    "vendor": "EXIN/Cloud Credential Council",
+    "description": "Validates cloud infrastructure administration and operations skills.",
+    "costUsd": null,
+    "costNote": "Contact vendor"
+  },
+  "c450": {
+    "fullName": "CompTIA A+",
+    "vendor": "CompTIA",
+    "description": "Validates IT support skills in hardware, software, networking, and troubleshooting.",
+    "costUsd": 530,
+    "costNote": null
+  },
+  "c451": {
+    "fullName": "Certified IoT Security Practitioner",
+    "vendor": "CertNexus",
+    "description": "Validates IoT security implementation and best practices.",
+    "costUsd": null,
+    "costNote": "Contact vendor"
+  },
+  "c452": {
+    "fullName": "TÜV Rheinland Certified OT Security Professional",
+    "vendor": "Limes Security",
+    "description": "Validates OT and ICS security fundamentals.",
+    "costUsd": null,
+    "costNote": "Bundled with training; contact vendor"
+  },
+  "c453": {
+    "fullName": "EXIN Privacy and Data Protection Essentials",
+    "vendor": "EXIN",
+    "description": "Validates essential privacy and data protection knowledge.",
+    "costUsd": null,
+    "costNote": "Contact vendor"
+  },
+  "c454": {
+    "fullName": "Management of Risk Foundation",
+    "vendor": "AXELOS",
+    "description": "Validates foundational risk management principles per M_o_R framework.",
+    "costUsd": null,
+    "costNote": "Contact vendor"
+  },
+  "c455": {
+    "fullName": "FAIR Analysis Fundamentals",
+    "vendor": "RiskLens",
+    "description": "Validates Factor Analysis of Information Risk (FAIR) methodology fundamentals.",
+    "costUsd": null,
+    "costNote": "Contact vendor"
+  },
+  "c456": {
+    "fullName": "Professional Scrum Master I",
+    "vendor": "Scrum.org",
+    "description": "Validates Scrum Master role knowledge and Scrum framework understanding.",
+    "costUsd": 200,
+    "costNote": null
+  },
+  "c457": {
+    "fullName": "ISO/IEC 20000 Foundation",
+    "vendor": "APMG International",
+    "description": "Validates foundational IT service management per ISO 20000.",
+    "costUsd": null,
+    "costNote": "Contact vendor"
+  },
+  "c458": {
+    "fullName": "Certified Security Manager",
+    "vendor": "ISMI",
+    "description": "Validates security management and leadership competencies.",
+    "costUsd": null,
+    "costNote": "Contact vendor"
+  },
+  "c459": {
+    "fullName": "BCS Foundation Certificate in Information Security Management Principles",
+    "vendor": "BCS",
+    "description": "Validates foundational information security management principles and standards.",
+    "costUsd": 594,
+    "costNote": null
+  },
+  "c460": {
+    "fullName": "Certified in Cybersecurity",
+    "vendor": "(ISC)²",
+    "description": "Validates foundational cybersecurity knowledge for career starters.",
+    "costUsd": 199,
+    "costNote": null
+  },
+  "c461": {
+    "fullName": "Information Security Foundation",
+    "vendor": "SECO-Institute",
+    "description": "Validates foundational information security concepts and principles.",
+    "costUsd": null,
+    "costNote": "Contact vendor"
+  },
+  "c462": {
+    "fullName": "GIAC Information Security Fundamentals",
+    "vendor": "GIAC",
+    "description": "Validates foundational information security knowledge and concepts.",
+    "costUsd": 399,
+    "costNote": null
+  },
+  "c463": {
+    "fullName": "TÜV Certified Cybersecurity Awareness Officer",
+    "vendor": "TÜV/IS-ITS",
+    "description": "Validates cybersecurity awareness program design and delivery.",
+    "costUsd": null,
+    "costNote": "Bundled with training; contact vendor"
+  },
+  "c464": {
+    "fullName": "Certified Application Security Engineer",
+    "vendor": "Mossé Cyber Security Institute",
+    "description": "Validates secure application development and security testing skills.",
+    "costUsd": 699,
+    "costNote": null
+  },
+  "c465": {
+    "fullName": "Certified Security Professional",
+    "vendor": "Mile2",
+    "description": "Validates foundational security professional knowledge.",
+    "costUsd": 400,
+    "costNote": null
+  },
+  "c466": {
+    "fullName": "Certified Network Defender",
+    "vendor": "EC-Council",
+    "description": "Validates network defense, hardening, and incident response skills.",
+    "costUsd": 550,
+    "costNote": null
+  },
+  "c467": {
+    "fullName": "Certified Vulnerability Assessor",
+    "vendor": "Mile2",
+    "description": "Validates vulnerability assessment and scanning methodology.",
+    "costUsd": 400,
+    "costNote": null
+  },
+  "c468": {
+    "fullName": "Kali Linux Certified Professional",
+    "vendor": "OffSec",
+    "description": "Validates Kali Linux administration and offensive security tool proficiency.",
+    "costUsd": 150,
+    "costNote": null
+  },
+  "c469": {
+    "fullName": "Microsoft Certified: Security, Compliance, and Identity Fundamentals",
+    "vendor": "Microsoft",
+    "description": "Validates foundational Microsoft security, compliance, and identity concepts.",
+    "costUsd": 99,
+    "costNote": null
+  },
+  "c470": {
+    "fullName": "CompTIA Cloud Essentials+",
+    "vendor": "CompTIA",
+    "description": "Validates cloud computing business and technical fundamentals.",
+    "costUsd": 138,
+    "costNote": null
+  },
+  "c471": {
+    "fullName": "ITIL 4 Foundation",
+    "vendor": "AXELOS/PeopleCert",
+    "description": "Validates IT service management fundamentals per ITIL 4 framework.",
+    "costUsd": 669,
+    "costNote": null
+  },
+  "c472": {
+    "fullName": "CompTIA Project+",
+    "vendor": "CompTIA",
+    "description": "Validates IT project management skills from initiation to closure.",
+    "costUsd": 369,
+    "costNote": null
+  },
+  "c473": {
+    "fullName": "Introduction to Cyber Security Fundamentals",
+    "vendor": "CIISec",
+    "description": "Validates foundational cybersecurity concepts and terminology.",
+    "costUsd": null,
+    "costNote": "Contact vendor"
+  },
+  "c474": {
+    "fullName": "EXIN Information Security Foundation based on ISO/IEC 27001",
+    "vendor": "EXIN",
+    "description": "Validates foundational information security concepts per ISO 27001.",
+    "costUsd": 200,
+    "costNote": null
+  },
+  "c475": {
+    "fullName": "EXIN Information Security Foundation based on ISO/IEC 27001",
+    "vendor": "EXIN",
+    "description": "Validates foundational information security concepts per ISO 27001.",
+    "costUsd": 200,
+    "costNote": null
+  },
+  "c476": {
+    "fullName": "ISO/IEC 27005 Foundation",
+    "vendor": "PECB",
+    "description": "Validates foundational information security risk management per ISO 27005.",
+    "costUsd": 431,
+    "costNote": null
+  },
+  "c477": {
+    "fullName": "Certified Cyber Security Foundation",
+    "vendor": "IT Governance",
+    "description": "Validates foundational cyber security principles and best practices.",
+    "costUsd": null,
+    "costNote": "Bundled with training; contact vendor"
+  },
+  "c478": {
+    "fullName": "Certified ISO 27001 ISMS Foundation",
+    "vendor": "IT Governance",
+    "description": "Validates ISO 27001 information security management system fundamentals.",
+    "costUsd": null,
+    "costNote": "Bundled with training; contact vendor"
+  },
+  "c479": {
+    "fullName": "Secure Programming Foundation",
+    "vendor": "SECO-Institute",
+    "description": "Validates foundational secure coding and development practices.",
+    "costUsd": null,
+    "costNote": "Contact vendor"
+  },
+  "c480": {
+    "fullName": "Certified Secure Computer User",
+    "vendor": "EC-Council",
+    "description": "Validates end-user security awareness and safe computing practices.",
+    "costUsd": null,
+    "costNote": "Contact vendor"
+  },
+  "c481": {
+    "fullName": "Introduction to Cyber Security",
+    "vendor": "Mossé Cyber Security Institute",
+    "description": "Validates foundational cybersecurity concepts and terminology.",
+    "costUsd": 699,
+    "costNote": null
+  }
+}

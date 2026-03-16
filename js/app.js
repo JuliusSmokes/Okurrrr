@@ -88,7 +88,12 @@
   function filterCerts() {
     var term = searchTerm.toLowerCase();
     return certs.filter(function (cert) {
-      if (term && cert.name.toLowerCase().indexOf(term) === -1) return false;
+      if (term) {
+        var nameMatch = cert.name.toLowerCase().indexOf(term) !== -1;
+        var fullMatch = cert.fullName && cert.fullName.toLowerCase().indexOf(term) !== -1;
+        var vendorMatch = cert.vendor && cert.vendor.toLowerCase().indexOf(term) !== -1;
+        if (!nameMatch && !fullMatch && !vendorMatch) return false;
+      }
 
       if (selectedCategoryId) {
         var roleIdsInCategory = niceWorkRoles
@@ -146,9 +151,22 @@
         dodBadgeHtml = '<span class="badge badge-dod" title="' + escapeHtml(dodTitle) + '">DoD 8140</span>';
       }
 
+      var displayName = cert.fullName || cert.name;
+      var acronym = (cert.fullName && cert.fullName !== cert.name)
+        ? ' <span class="cert-acronym">(' + escapeHtml(cert.name) + ')</span>'
+        : '';
+      var vendorHtml = cert.vendor
+        ? '<span class="cert-vendor">' + escapeHtml(cert.vendor) + '</span>'
+        : '';
+      var descHtml = cert.description
+        ? '<p class="cert-desc">' + escapeHtml(cert.description) + '</p>'
+        : '';
+
       card.innerHTML =
         '<div class="cert-card-header">' +
-          '<a href="' + escapeHtml(cert.url) + '" target="_blank" rel="noopener">' + escapeHtml(cert.name) + '</a>' +
+          '<a href="' + escapeHtml(cert.url) + '" target="_blank" rel="noopener">' + escapeHtml(displayName) + acronym + '</a>' +
+          vendorHtml +
+          descHtml +
         '</div>' +
         '<div class="cert-card-body">' +
           '<span class="badge badge-' + escapeHtml(levelClass) + '">' + escapeHtml(cert.level || '') + '</span>' +
