@@ -624,7 +624,7 @@
                 speed: 1.8,
                 direction: 'none',
                 outModes: { default: 'bounce' },
-                attract: { enable: true, rotate: { x: 1500, y: 1500 } },
+                attract: { enable: false },
                 random: true
               }
             },
