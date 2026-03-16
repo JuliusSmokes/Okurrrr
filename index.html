@@ -35,7 +35,7 @@
   <section class="hero">
     <div class="hero-inner">
       <h2>Okurrrr &mdash; Set your Objectives. Certifications are the Key Results.</h2>
-      <p>Your cybersecurity career roadmap. Browse 629 certifications and 200+ curated free resources. Filter by NICE Work Role, CISSP domain, vendor, or level. Aligned with NIST NICE Framework, NIST CSF, NIST RMF, NIST AI RMF, OWASP, DoD 8140, and the CISSP CBK.</p>
+      <p>Your cybersecurity career roadmap. Browse 629 certifications, 275+ curated free resources, and the complete DEF CON Media archive. Filter by NICE Work Role, CISSP domain, vendor, or level. Aligned with NIST NICE Framework, NIST CSF, NIST RMF, NIST AI RMF, OWASP, DoD 8140, and the CISSP CBK.</p>
       <div class="hero-stats">
         <div class="stat-badge stat-pink">
           <span class="stat-number" id="stat-certs">--</span>
@@ -65,6 +65,9 @@
       </button>
       <button class="tab" role="tab" aria-selected="false" data-tab="resources">
         Free Resources <span class="tab-count" id="tab-count-resources">--</span>
+      </button>
+      <button class="tab" role="tab" aria-selected="false" data-tab="defcon">
+        DEF CON Media <span class="tab-count" id="tab-count-defcon">--</span>
       </button>
     </div>
 
@@ -131,6 +134,20 @@
       </div>
       <div class="control-group">
         <button type="button" id="reset-filters" class="btn-ghost">Reset filters</button>
+      </div>
+    </section>
+
+    <section class="controls" id="controls-defcon" style="display:none">
+      <div class="control-group">
+        <label for="sort-defcon">Sort by</label>
+        <select id="sort-defcon">
+          <option value="year-desc">Year (newest first)</option>
+          <option value="year-asc">Year (oldest first)</option>
+          <option value="name">Name A–Z</option>
+        </select>
+      </div>
+      <div class="control-group">
+        <button type="button" id="reset-defcon-filters" class="btn-ghost">Reset filters</button>
       </div>
     </section>
 

@@ -31,6 +31,7 @@
 
   var controlsCertsEl = document.getElementById('controls-certs');
   var controlsResEl = document.getElementById('controls-resources');
+  var controlsDefconEl = document.getElementById('controls-defcon');
   var chipSectionEl = document.getElementById('chip-section');
   var filterResCategoryEl = document.getElementById('filter-res-category');
   var filterResProviderEl = document.getElementById('filter-res-provider');
@@ -38,11 +39,15 @@
   var filterResCisspEl = document.getElementById('filter-res-cissp');
   var sortResEl = document.getElementById('sort-res');
   var resetResBtn = document.getElementById('reset-res-filters');
+  var sortDefconEl = document.getElementById('sort-defcon');
+  var resetDefconBtn = document.getElementById('reset-defcon-filters');
   var tabCountCertsEl = document.getElementById('tab-count-certs');
   var tabCountResEl = document.getElementById('tab-count-resources');
+  var tabCountDefconEl = document.getElementById('tab-count-defcon');
 
   var certs = [];
   var resources = [];
+  var defconMedia = [];
   var niceWorkRoles = [];
   var cisspDomains = [];
   var selectedRoleIds = new Set();
@@ -50,6 +55,17 @@
   var searchTerm = '';
   var debounceTimer = null;
   var activeTab = 'certs';
+
+  var CISSP_SHORT = {
+    'cissp-d1': 'D1: Risk Mgmt',
+    'cissp-d2': 'D2: Asset Security',
+    'cissp-d3': 'D3: Sec Architecture',
+    'cissp-d4': 'D4: Network Security',
+    'cissp-d5': 'D5: IAM',
+    'cissp-d6': 'D6: Sec Testing',
+    'cissp-d7': 'D7: Sec Operations',
+    'cissp-d8': 'D8: Software Security'
+  };
 
   /* ── Utilities ── */
 
@@ -572,13 +588,16 @@
         });
       }
 
-      var cisspBadges = '';
+      var cisspTagsHtml = '';
       if (res.cisspDomains && res.cisspDomains.length) {
+        var tagItems = '';
         res.cisspDomains.forEach(function (d) {
           var dom = cisspDomains.find(function (cd) { return cd.id === d; });
-          var label = dom ? dom.name : d;
-          cisspBadges += '<span class="badge badge-category" title="' + escapeHtml(label) + '">' + escapeHtml(label) + '</span>';
+          var fullLabel = dom ? dom.name : d;
+          var shortLabel = CISSP_SHORT[d] || fullLabel;
+          tagItems += '<span class="cissp-tag" title="' + escapeHtml(fullLabel) + '">' + escapeHtml(shortLabel) + '</span>';
         });
+        cisspTagsHtml = '<div class="cert-card-cissp">' + tagItems + '</div>';
       }
 
       card.innerHTML =
@@ -592,8 +611,8 @@
           '<span class="badge badge-' + escapeHtml(levelClass) + '">' + escapeHtml(res.level || '') + '</span>' +
           tagBadges +
         '</div>' +
+        cisspTagsHtml +
         '<div class="cert-card-footer">' +
-          cisspBadges +
         '</div>';
 
       frag.appendChild(card);
@@ -601,6 +620,92 @@
 
     resultsEl.appendChild(frag);
     resultCountEl.textContent = sorted.length + ' resource' + (sorted.length === 1 ? '' : 's');
+  }
+
+  /* ── DEF CON filtering, sorting, rendering ── */
+
+  function filterDefcon() {
+    var term = searchTerm.toLowerCase();
+    return defconMedia.filter(function (dc) {
+      if (term) {
+        var nm = dc.name.toLowerCase().indexOf(term) !== -1;
+        var ds = dc.description && dc.description.toLowerCase().indexOf(term) !== -1;
+        var yr = String(dc.year).indexOf(term) !== -1;
+        var tg = dc.tags && dc.tags.some(function (t) { return t.toLowerCase().indexOf(term) !== -1; });
+        if (!nm && !ds && !yr && !tg) return false;
+      }
+      return true;
+    });
+  }
+
+  function sortDefcon(list, sortValue) {
+    var arr = list.slice();
+    switch (sortValue) {
+      case 'year-asc':
+        arr.sort(function (a, b) { return a.year - b.year || a.name.localeCompare(b.name); });
+        break;
+      case 'name':
+        arr.sort(function (a, b) { return a.name.localeCompare(b.name); });
+        break;
+      case 'year-desc':
+      default:
+        arr.sort(function (a, b) { return b.year - a.year || a.name.localeCompare(b.name); });
+        break;
+    }
+    return arr;
+  }
+
+  function renderDefcon(list) {
+    var sorted = sortDefcon(list, sortDefconEl ? sortDefconEl.value : 'year-desc');
+    resultsEl.innerHTML = '';
+
+    if (sorted.length === 0) {
+      resultsEl.innerHTML =
+        '<div class="empty-state">' +
+          '<span class="empty-icon">&#x1F399;</span>' +
+          '<p>No DEF CON conferences match your search.</p>' +
+          '<button class="btn-ghost" id="empty-reset-dc">Reset</button>' +
+        '</div>';
+      var emptyBtn = document.getElementById('empty-reset-dc');
+      if (emptyBtn) emptyBtn.addEventListener('click', resetDefcon);
+      resultCountEl.textContent = '0 conferences';
+      return;
+    }
+
+    var frag = document.createDocumentFragment();
+    sorted.forEach(function (dc) {
+      var card = document.createElement('div');
+      card.className = 'cert-card defcon-card';
+
+      var tagBadges = '';
+      if (dc.tags && dc.tags.length) {
+        dc.tags.forEach(function (t) {
+          tagBadges += '<span class="badge badge-defcon-tag">' + escapeHtml(t) + '</span>';
+        });
+      }
+
+      card.innerHTML =
+        '<div class="cert-card-header">' +
+          '<a href="' + escapeHtml(dc.url) + '" target="_blank" rel="noopener">' + escapeHtml(dc.name) + '</a>' +
+          '<span class="defcon-year">' + escapeHtml(String(dc.year)) + '</span>' +
+          '<p class="cert-desc">' + escapeHtml(dc.description || '') + '</p>' +
+        '</div>' +
+        '<div class="cert-card-body">' +
+          '<div class="defcon-tags">' + tagBadges + '</div>' +
+        '</div>';
+
+      frag.appendChild(card);
+    });
+
+    resultsEl.appendChild(frag);
+    resultCountEl.textContent = sorted.length + ' conference' + (sorted.length === 1 ? '' : 's');
+  }
+
+  function resetDefcon() {
+    searchInput.value = '';
+    searchTerm = '';
+    if (sortDefconEl) sortDefconEl.value = 'year-desc';
+    runFilterAndRender();
   }
 
   /* ── Populate resource dropdowns ── */
@@ -667,16 +772,21 @@
       btn.setAttribute('aria-selected', isActive ? 'true' : 'false');
     });
 
+    controlsCertsEl.style.display = 'none';
+    controlsResEl.style.display = 'none';
+    if (controlsDefconEl) controlsDefconEl.style.display = 'none';
+    chipSectionEl.style.display = 'none';
+
     if (tab === 'certs') {
       controlsCertsEl.style.display = '';
-      controlsResEl.style.display = 'none';
       chipSectionEl.style.display = '';
       searchInput.placeholder = 'Search by name, vendor, or keyword...';
-    } else {
-      controlsCertsEl.style.display = 'none';
+    } else if (tab === 'resources') {
       controlsResEl.style.display = '';
-      chipSectionEl.style.display = 'none';
       searchInput.placeholder = 'Search by name, provider, or keyword...';
+    } else if (tab === 'defcon') {
+      if (controlsDefconEl) controlsDefconEl.style.display = '';
+      searchInput.placeholder = 'Search DEF CON conferences...';
     }
 
     searchInput.value = '';
@@ -697,6 +807,7 @@
     }
     if (tabCountCertsEl) tabCountCertsEl.textContent = certs.length;
     if (tabCountResEl) tabCountResEl.textContent = resources.length;
+    if (tabCountDefconEl) tabCountDefconEl.textContent = defconMedia.length;
   }
 
   /* ── Master filter + render ── */
@@ -707,10 +818,14 @@
       var filtered = filterCerts();
       renderCerts(filtered);
       renderActiveFilters();
-    } else {
+    } else if (activeTab === 'resources') {
       var filteredRes = filterResources();
       renderResources(filteredRes);
       renderActiveFiltersResources();
+    } else if (activeTab === 'defcon') {
+      var filteredDc = filterDefcon();
+      renderDefcon(filteredDc);
+      renderActiveFiltersDefcon();
     }
   }
 
@@ -773,6 +888,39 @@
     }
   }
 
+  /* ── Active filters for DEF CON ── */
+
+  function renderActiveFiltersDefcon() {
+    var chips = [];
+    if (searchTerm) {
+      chips.push({ label: 'Search: ' + searchTerm, clear: function () { searchInput.value = ''; searchTerm = ''; } });
+    }
+
+    activeFiltersEl.innerHTML = '';
+    if (chips.length === 0) return;
+
+    var label = document.createElement('span');
+    label.className = 'af-label';
+    label.textContent = 'Active filters:';
+    activeFiltersEl.appendChild(label);
+
+    chips.forEach(function (c) {
+      var fc = document.createElement('span');
+      fc.className = 'filter-chip';
+      fc.textContent = c.label + ' ';
+      var btn = document.createElement('button');
+      btn.className = 'fc-remove';
+      btn.innerHTML = '&times;';
+      btn.setAttribute('aria-label', 'Remove filter: ' + c.label);
+      btn.addEventListener('click', function () {
+        c.clear();
+        runFilterAndRender();
+      });
+      fc.appendChild(btn);
+      activeFiltersEl.appendChild(fc);
+    });
+  }
+
   /* ── Reset all ── */
 
   function resetAll() {
@@ -821,6 +969,8 @@
   if (filterResCisspEl) filterResCisspEl.addEventListener('change', runFilterAndRender);
   if (sortResEl) sortResEl.addEventListener('change', runFilterAndRender);
   if (resetResBtn) resetResBtn.addEventListener('click', resetResources);
+  if (sortDefconEl) sortDefconEl.addEventListener('change', runFilterAndRender);
+  if (resetDefconBtn) resetDefconBtn.addEventListener('click', resetDefcon);
 
   var tabBtns = document.querySelectorAll('.tab-bar .tab');
   tabBtns.forEach(function (btn) {
@@ -855,12 +1005,14 @@
     loadJSON('data/certs.json'),
     loadJSON('data/nice-work-roles.json'),
     loadJSON('data/cissp-domains.json'),
-    loadJSON('data/free-resources.json')
+    loadJSON('data/free-resources.json'),
+    loadJSON('data/defcon-media.json')
   ]).then(function (results) {
     certs = results[0] || [];
     niceWorkRoles = results[1] || [];
     cisspDomains = results[2] || [];
     resources = results[3] || [];
+    defconMedia = results[4] || [];
     populateCategoryFilter();
     populateVendorFilter();
     populateRegionFilter();
@@ -876,7 +1028,7 @@
     resultsEl.innerHTML =
       '<div class="empty-state">' +
         '<span class="empty-icon">&#x26A0;</span>' +
-        '<p>Could not load data.<br>Ensure <code>data/certs.json</code>, <code>data/nice-work-roles.json</code>, <code>data/cissp-domains.json</code>, and <code>data/free-resources.json</code> exist and are served from the same origin.</p>' +
+        '<p>Could not load data.<br>Ensure all data files exist and are served from the same origin.</p>' +
       '</div>';
   });
 
