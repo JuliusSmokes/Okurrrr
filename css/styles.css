@@ -777,6 +777,16 @@ body {
   text-decoration: underline;
 }
 
+.badge-region {
+  background: rgba(167, 139, 250, 0.12);
+  color: #a78bfa;
+  font-size: 0.6rem;
+  border: 1px solid rgba(167, 139, 250, 0.2);
+  text-transform: none;
+  font-weight: 500;
+  letter-spacing: normal;
+}
+
 .cert-cost {
   font-size: 0.8125rem;
   color: var(--neon-amber);

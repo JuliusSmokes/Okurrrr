@@ -12,6 +12,7 @@
   var filterVendorEl = document.getElementById('filter-vendor');
   var filterLevelEl = document.getElementById('filter-level');
   var filterCisspEl = document.getElementById('filter-cissp');
+  var filterRegionEl = document.getElementById('filter-region');
   var filterDod8140El = document.getElementById('filter-dod8140');
   var filterFreeEl = document.getElementById('filter-free');
   var sortByEl = document.getElementById('sort-by');
@@ -94,6 +95,7 @@
   function filterCerts() {
     var term = searchTerm.toLowerCase();
     var vendorVal = filterVendorEl ? filterVendorEl.value : '';
+    var regionVal = filterRegionEl ? filterRegionEl.value : '';
     var levelVal = filterLevelEl ? filterLevelEl.value : '';
     var cisspVal = filterCisspEl ? filterCisspEl.value : '';
 
@@ -107,6 +109,10 @@
       }
 
       if (vendorVal && cert.vendor !== vendorVal) return false;
+
+      if (regionVal) {
+        if (!cert.regions || cert.regions.indexOf(regionVal) === -1) return false;
+      }
 
       if (levelVal && cert.level !== levelVal) return false;
 
@@ -206,6 +212,13 @@
         ? '<p class="cert-desc">' + escapeHtml(cert.description) + '</p>'
         : '';
 
+      var regionBadgesHtml = '';
+      if (cert.regions && !(cert.regions.length === 1 && cert.regions[0] === 'Global')) {
+        cert.regions.forEach(function (r) {
+          regionBadgesHtml += '<span class="badge badge-region">' + escapeHtml(r) + '</span>';
+        });
+      }
+
       card.innerHTML =
         '<div class="cert-card-header">' +
           '<a href="' + escapeHtml(cert.url) + '" target="_blank" rel="noopener">' + escapeHtml(displayName) + acronym + '</a>' +
@@ -215,6 +228,7 @@
         '<div class="cert-card-body">' +
           '<span class="badge badge-' + escapeHtml(levelClass) + '">' + escapeHtml(cert.level || '') + '</span>' +
           '<span class="badge badge-category" title="' + escapeHtml(cert.category || '') + '">' + escapeHtml(cert.category || '') + '</span>' +
+          regionBadgesHtml +
         '</div>' +
         '<div class="cert-card-footer">' +
           dodBadgeHtml +
@@ -324,6 +338,10 @@
       var vv = filterVendorEl.value;
       chips.push({ label: 'Vendor: ' + vv, clear: function () { filterVendorEl.value = ''; } });
     }
+    if (filterRegionEl && filterRegionEl.value) {
+      var rv = filterRegionEl.value;
+      chips.push({ label: 'Region: ' + rv, clear: function () { filterRegionEl.value = ''; } });
+    }
     if (filterLevelEl && filterLevelEl.value) {
       var lv = filterLevelEl.value;
       chips.push({ label: 'Level: ' + lv, clear: function () { filterLevelEl.value = ''; } });
@@ -428,6 +446,29 @@
     });
   }
 
+  function populateRegionFilter() {
+    if (!filterRegionEl) return;
+    var regionSet = new Set();
+    certs.forEach(function (c) {
+      if (c.regions) c.regions.forEach(function (r) { regionSet.add(r); });
+    });
+    var regions = [];
+    regionSet.forEach(function (r) { regions.push(r); });
+    regions.sort(function (a, b) {
+      if (a === 'Global') return -1;
+      if (b === 'Global') return 1;
+      return a.localeCompare(b);
+    });
+
+    filterRegionEl.innerHTML = '<option value="">-- All regions --</option>';
+    regions.forEach(function (r) {
+      var opt = document.createElement('option');
+      opt.value = r;
+      opt.textContent = r;
+      filterRegionEl.appendChild(opt);
+    });
+  }
+
   function populateCisspFilter() {
     if (!filterCisspEl) return;
     filterCisspEl.innerHTML = '<option value="">-- All domains --</option>';
@@ -469,6 +510,7 @@
     filterCategoryEl.value = '';
     selectedCategoryId = '';
     if (filterVendorEl) filterVendorEl.value = '';
+    if (filterRegionEl) filterRegionEl.value = '';
     if (filterLevelEl) filterLevelEl.value = '';
     if (filterCisspEl) filterCisspEl.value = '';
     if (filterDod8140El) filterDod8140El.checked = false;
@@ -483,6 +525,7 @@
 
   filterCategoryEl.addEventListener('change', runFilterAndRender);
   if (filterVendorEl) filterVendorEl.addEventListener('change', runFilterAndRender);
+  if (filterRegionEl) filterRegionEl.addEventListener('change', runFilterAndRender);
   if (filterLevelEl) filterLevelEl.addEventListener('change', runFilterAndRender);
   if (filterCisspEl) filterCisspEl.addEventListener('change', runFilterAndRender);
   sortByEl.addEventListener('change', function () { runFilterAndRender(); });
@@ -524,6 +567,7 @@
     cisspDomains = results[2] || [];
     populateCategoryFilter();
     populateVendorFilter();
+    populateRegionFilter();
     populateCisspFilter();
     buildChipPanel();
     updateStats();

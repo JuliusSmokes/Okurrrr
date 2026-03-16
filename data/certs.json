@@ -26,6 +26,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -55,6 +58,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -84,6 +90,11 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "UK",
+      "Australia",
+      "Asia-Pacific"
     ]
   },
   {
@@ -113,6 +124,10 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Europe",
+      "UK"
     ]
   },
   {
@@ -142,6 +157,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -171,6 +189,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -200,6 +221,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -225,6 +249,9 @@
     "cisspDomains": [
       "cissp-d3",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -250,6 +277,9 @@
     "freeTrainingUrl": null,
     "cisspDomains": [
       "cissp-d3"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -279,6 +309,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -311,6 +344,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -336,6 +372,9 @@
     "freeTrainingUrl": null,
     "cisspDomains": [
       "cissp-d6"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -361,6 +400,9 @@
     "freeTrainingUrl": null,
     "cisspDomains": [
       "cissp-d6"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -386,6 +428,9 @@
     "freeTrainingUrl": null,
     "cisspDomains": [
       "cissp-d6"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -415,6 +460,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -442,6 +490,9 @@
     "cisspDomains": [
       "cissp-d1",
       "cissp-d2"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -471,6 +522,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "UK"
     ]
   },
   {
@@ -497,6 +551,9 @@
     "freeTrainingUrl": null,
     "cisspDomains": [
       "cissp-d7"
+    ],
+    "regions": [
+      "North America"
     ]
   },
   {
@@ -522,6 +579,9 @@
     "freeTrainingUrl": null,
     "cisspDomains": [
       "cissp-d6"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -551,6 +611,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -580,6 +643,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -605,6 +671,9 @@
     "freeTrainingUrl": null,
     "cisspDomains": [
       "cissp-d3"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -634,6 +703,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -664,6 +736,9 @@
     "cisspDomains": [
       "cissp-d1",
       "cissp-d2"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -693,6 +768,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Europe"
     ]
   },
   {
@@ -722,6 +800,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "UK"
     ]
   },
   {
@@ -748,6 +829,9 @@
     "freeTrainingUrl": null,
     "cisspDomains": [
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -777,6 +861,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -806,6 +893,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -838,6 +928,9 @@
     "cisspDomains": [
       "cissp-d1",
       "cissp-d2"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -867,6 +960,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -896,6 +992,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "North America"
     ]
   },
   {
@@ -933,6 +1032,9 @@
     "freeTrainingUrl": null,
     "cisspDomains": [
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -971,6 +1073,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -1000,6 +1105,11 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "UK",
+      "Australia",
+      "Asia-Pacific"
     ]
   },
   {
@@ -1029,6 +1139,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -1054,6 +1167,9 @@
     "freeTrainingUrl": "https://skillsforall.com/",
     "cisspDomains": [
       "cissp-d3"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -1082,6 +1198,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -1107,6 +1226,9 @@
     "cisspDomains": [
       "cissp-d3",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -1136,6 +1258,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -1161,6 +1286,9 @@
     "freeTrainingUrl": "https://learn.microsoft.com/training/",
     "cisspDomains": [
       "cissp-d3"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -1186,6 +1314,9 @@
     "freeTrainingUrl": null,
     "cisspDomains": [
       "cissp-d3"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -1218,6 +1349,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -1247,6 +1381,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Europe"
     ]
   },
   {
@@ -1276,6 +1413,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -1305,6 +1445,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "UK"
     ]
   },
   {
@@ -1334,6 +1477,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -1360,6 +1506,9 @@
     "freeTrainingUrl": null,
     "cisspDomains": [
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -1386,6 +1535,9 @@
     "freeTrainingUrl": null,
     "cisspDomains": [
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -1415,6 +1567,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -1440,6 +1595,11 @@
     "freeTrainingUrl": null,
     "cisspDomains": [
       "cissp-d6"
+    ],
+    "regions": [
+      "UK",
+      "Australia",
+      "Asia-Pacific"
     ]
   },
   {
@@ -1469,6 +1629,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -1497,6 +1660,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -1526,6 +1692,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -1551,6 +1720,9 @@
     "cisspDomains": [
       "cissp-d3",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -1576,6 +1748,9 @@
     "freeTrainingUrl": null,
     "cisspDomains": [
       "cissp-d3"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -1605,6 +1780,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -1634,6 +1812,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -1663,6 +1844,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -1692,6 +1876,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -1721,6 +1908,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -1750,6 +1940,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -1775,6 +1968,9 @@
     "freeTrainingUrl": "https://www.mosse-institute.com/",
     "cisspDomains": [
       "cissp-d6"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -1800,6 +1996,11 @@
     "freeTrainingUrl": null,
     "cisspDomains": [
       "cissp-d6"
+    ],
+    "regions": [
+      "UK",
+      "Australia",
+      "Asia-Pacific"
     ]
   },
   {
@@ -1825,6 +2026,9 @@
     "freeTrainingUrl": "https://academy.hackthebox.com/",
     "cisspDomains": [
       "cissp-d6"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -1853,6 +2057,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -1878,6 +2085,9 @@
     "cisspDomains": [
       "cissp-d3",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -1904,6 +2114,9 @@
     "cisspDomains": [
       "cissp-d3",
       "cissp-d4"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -1929,6 +2142,9 @@
     "freeTrainingUrl": null,
     "cisspDomains": [
       "cissp-d3"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -1958,6 +2174,10 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Europe",
+      "UK"
     ]
   },
   {
@@ -1983,6 +2203,9 @@
     "freeTrainingUrl": null,
     "cisspDomains": [
       "cissp-d3"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -2015,6 +2238,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -2044,6 +2270,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Europe"
     ]
   },
   {
@@ -2077,6 +2306,9 @@
     "freeTrainingUrl": null,
     "cisspDomains": [
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -2101,6 +2333,9 @@
     "freeTrainingUrl": null,
     "cisspDomains": [
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -2125,6 +2360,9 @@
     "freeTrainingUrl": null,
     "cisspDomains": [
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -2154,6 +2392,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Europe"
     ]
   },
   {
@@ -2179,6 +2420,11 @@
     "freeTrainingUrl": null,
     "cisspDomains": [
       "cissp-d6"
+    ],
+    "regions": [
+      "UK",
+      "Australia",
+      "Asia-Pacific"
     ]
   },
   {
@@ -2204,6 +2450,9 @@
     "freeTrainingUrl": null,
     "cisspDomains": [
       "cissp-d6"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -2229,6 +2478,9 @@
     "freeTrainingUrl": "https://www.mosse-institute.com/",
     "cisspDomains": [
       "cissp-d6"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -2254,6 +2506,9 @@
     "freeTrainingUrl": "https://skillsforall.com/",
     "cisspDomains": [
       "cissp-d4"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -2279,6 +2534,9 @@
     "freeTrainingUrl": null,
     "cisspDomains": [
       "cissp-d5"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -2308,6 +2566,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -2337,6 +2598,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -2366,6 +2630,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -2395,6 +2662,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Europe"
     ]
   },
   {
@@ -2424,6 +2694,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -2453,6 +2726,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -2482,6 +2758,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -2510,6 +2789,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -2539,6 +2821,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -2568,6 +2853,10 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "DACH",
+      "Europe"
     ]
   },
   {
@@ -2597,6 +2886,10 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Europe",
+      "UK"
     ]
   },
   {
@@ -2626,6 +2919,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -2655,6 +2951,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -2684,6 +2983,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -2711,6 +3013,9 @@
     "cisspDomains": [
       "cissp-d1",
       "cissp-d2"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -2738,6 +3043,9 @@
     "cisspDomains": [
       "cissp-d1",
       "cissp-d2"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -2767,6 +3075,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -2796,6 +3107,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -2825,6 +3139,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -2854,6 +3171,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -2883,6 +3203,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -2912,6 +3235,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -2941,6 +3267,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -2970,6 +3299,11 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "UK",
+      "Australia",
+      "Asia-Pacific"
     ]
   },
   {
@@ -2995,6 +3329,9 @@
     "freeTrainingUrl": null,
     "cisspDomains": [
       "cissp-d6"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -3020,6 +3357,9 @@
     "freeTrainingUrl": "https://www.f5.com/learn",
     "cisspDomains": [
       "cissp-d4"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -3045,6 +3385,9 @@
     "freeTrainingUrl": "https://skillsforall.com/",
     "cisspDomains": [
       "cissp-d4"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -3073,6 +3416,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -3101,6 +3447,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -3130,6 +3479,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -3159,6 +3511,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -3186,6 +3541,9 @@
     "cisspDomains": [
       "cissp-d1",
       "cissp-d2"
+    ],
+    "regions": [
+      "UK"
     ]
   },
   {
@@ -3215,6 +3573,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -3244,6 +3605,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -3273,6 +3637,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -3302,6 +3669,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -3331,6 +3701,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -3360,6 +3733,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Europe"
     ]
   },
   {
@@ -3392,6 +3768,9 @@
     "cisspDomains": [
       "cissp-d1",
       "cissp-d2"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -3421,6 +3800,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -3448,6 +3830,9 @@
     "cisspDomains": [
       "cissp-d1",
       "cissp-d2"
+    ],
+    "regions": [
+      "UK"
     ]
   },
   {
@@ -3477,6 +3862,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Europe"
     ]
   },
   {
@@ -3506,6 +3894,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -3535,6 +3926,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -3561,6 +3955,9 @@
     "freeTrainingUrl": null,
     "cisspDomains": [
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -3594,6 +3991,9 @@
     "freeTrainingUrl": null,
     "cisspDomains": [
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -3623,6 +4023,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -3657,6 +4060,9 @@
     "freeTrainingUrl": null,
     "cisspDomains": [
       "cissp-d6"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -3686,6 +4092,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -3711,6 +4120,9 @@
     "freeTrainingUrl": null,
     "cisspDomains": [
       "cissp-d6"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -3740,6 +4152,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -3765,6 +4180,9 @@
     "freeTrainingUrl": null,
     "cisspDomains": [
       "cissp-d5"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -3794,6 +4212,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -3821,6 +4242,9 @@
     "cisspDomains": [
       "cissp-d3",
       "cissp-d8"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -3849,6 +4273,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -3877,6 +4304,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -3905,6 +4335,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -3931,6 +4364,9 @@
     "cisspDomains": [
       "cissp-d3",
       "cissp-d4"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -3960,6 +4396,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -3989,6 +4428,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -4018,6 +4460,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -4045,6 +4490,9 @@
     "cisspDomains": [
       "cissp-d1",
       "cissp-d2"
+    ],
+    "regions": [
+      "UK"
     ]
   },
   {
@@ -4074,6 +4522,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Europe"
     ]
   },
   {
@@ -4103,6 +4554,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -4130,6 +4584,9 @@
     "cisspDomains": [
       "cissp-d3",
       "cissp-d8"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -4159,6 +4616,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -4186,6 +4646,9 @@
     "cisspDomains": [
       "cissp-d3",
       "cissp-d8"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -4212,6 +4675,9 @@
     "freeTrainingUrl": "https://ine.com/learning/paths",
     "cisspDomains": [
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -4241,6 +4707,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -4267,6 +4736,9 @@
     "freeTrainingUrl": "https://www.mosse-institute.com/",
     "cisspDomains": [
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -4292,6 +4764,9 @@
     "freeTrainingUrl": "https://codered.eccouncil.org/",
     "cisspDomains": [
       "cissp-d6"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -4317,6 +4792,9 @@
     "freeTrainingUrl": "https://academy.tcm-sec.com/",
     "cisspDomains": [
       "cissp-d6"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -4346,6 +4824,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -4375,6 +4856,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -4404,6 +4888,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -4433,6 +4920,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -4458,6 +4948,9 @@
     "freeTrainingUrl": "https://training.fortinet.com/",
     "cisspDomains": [
       "cissp-d4"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -4483,6 +4976,9 @@
     "freeTrainingUrl": "https://idpro.org/body-of-knowledge/",
     "cisspDomains": [
       "cissp-d5"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -4511,6 +5007,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -4539,6 +5038,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -4568,6 +5070,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -4593,6 +5098,9 @@
     "cisspDomains": [
       "cissp-d3",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -4619,6 +5127,9 @@
     "cisspDomains": [
       "cissp-d3",
       "cissp-d4"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -4648,6 +5159,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -4677,6 +5191,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Europe"
     ]
   },
   {
@@ -4704,6 +5221,10 @@
     "cisspDomains": [
       "cissp-d1",
       "cissp-d2"
+    ],
+    "regions": [
+      "Europe",
+      "UK"
     ]
   },
   {
@@ -4733,6 +5254,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -4762,6 +5286,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -4791,6 +5318,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -4820,6 +5350,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -4849,6 +5382,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Europe"
     ]
   },
   {
@@ -4876,6 +5412,9 @@
     "cisspDomains": [
       "cissp-d1",
       "cissp-d2"
+    ],
+    "regions": [
+      "Europe"
     ]
   },
   {
@@ -4905,6 +5444,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -4934,6 +5476,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -4961,6 +5506,9 @@
     "cisspDomains": [
       "cissp-d1",
       "cissp-d2"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -4988,6 +5536,9 @@
     "cisspDomains": [
       "cissp-d1",
       "cissp-d2"
+    ],
+    "regions": [
+      "Europe"
     ]
   },
   {
@@ -5017,6 +5568,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -5043,6 +5597,9 @@
     "freeTrainingUrl": null,
     "cisspDomains": [
       "cissp-d7"
+    ],
+    "regions": [
+      "North America"
     ]
   },
   {
@@ -5072,6 +5629,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -5101,6 +5661,11 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "UK",
+      "Australia",
+      "Asia-Pacific"
     ]
   },
   {
@@ -5130,6 +5695,11 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "UK",
+      "Australia",
+      "Asia-Pacific"
     ]
   },
   {
@@ -5159,6 +5729,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -5184,6 +5757,9 @@
     "freeTrainingUrl": null,
     "cisspDomains": [
       "cissp-d6"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -5213,6 +5789,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -5241,6 +5820,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -5270,6 +5852,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -5298,6 +5883,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -5327,6 +5915,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -5356,6 +5947,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Europe"
     ]
   },
   {
@@ -5384,6 +5978,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -5410,6 +6007,10 @@
     "cisspDomains": [
       "cissp-d3",
       "cissp-d4"
+    ],
+    "regions": [
+      "DACH",
+      "Europe"
     ]
   },
   {
@@ -5435,6 +6036,9 @@
     "freeTrainingUrl": null,
     "cisspDomains": [
       "cissp-d3"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -5460,6 +6064,9 @@
     "freeTrainingUrl": null,
     "cisspDomains": [
       "cissp-d5"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -5489,6 +6096,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "India"
     ]
   },
   {
@@ -5518,6 +6128,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -5547,6 +6160,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -5576,6 +6192,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -5603,6 +6222,10 @@
     "cisspDomains": [
       "cissp-d1",
       "cissp-d2"
+    ],
+    "regions": [
+      "Europe",
+      "UK"
     ]
   },
   {
@@ -5630,6 +6253,9 @@
     "cisspDomains": [
       "cissp-d1",
       "cissp-d2"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -5657,6 +6283,10 @@
     "cisspDomains": [
       "cissp-d1",
       "cissp-d2"
+    ],
+    "regions": [
+      "Europe",
+      "UK"
     ]
   },
   {
@@ -5684,6 +6314,9 @@
     "cisspDomains": [
       "cissp-d1",
       "cissp-d2"
+    ],
+    "regions": [
+      "Europe"
     ]
   },
   {
@@ -5713,6 +6346,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -5740,6 +6376,9 @@
     "cisspDomains": [
       "cissp-d1",
       "cissp-d2"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -5767,6 +6406,10 @@
     "cisspDomains": [
       "cissp-d1",
       "cissp-d2"
+    ],
+    "regions": [
+      "Europe",
+      "UK"
     ]
   },
   {
@@ -5794,6 +6437,9 @@
     "cisspDomains": [
       "cissp-d3",
       "cissp-d8"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -5823,6 +6469,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -5847,6 +6496,9 @@
     "freeTrainingUrl": null,
     "cisspDomains": [
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -5873,6 +6525,9 @@
     "freeTrainingUrl": null,
     "cisspDomains": [
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -5902,6 +6557,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -5931,6 +6589,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -5956,6 +6617,9 @@
     "freeTrainingUrl": "https://www.mosse-institute.com/",
     "cisspDomains": [
       "cissp-d6"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -5981,6 +6645,9 @@
     "freeTrainingUrl": "https://codered.eccouncil.org/",
     "cisspDomains": [
       "cissp-d6"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -6006,6 +6673,11 @@
     "freeTrainingUrl": null,
     "cisspDomains": [
       "cissp-d6"
+    ],
+    "regions": [
+      "UK",
+      "Australia",
+      "Asia-Pacific"
     ]
   },
   {
@@ -6031,6 +6703,9 @@
     "freeTrainingUrl": "https://academy.hackthebox.com/",
     "cisspDomains": [
       "cissp-d6"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -6060,6 +6735,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -6089,6 +6767,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -6118,6 +6799,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -6147,6 +6831,11 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "UK",
+      "Australia",
+      "Asia-Pacific"
     ]
   },
   {
@@ -6173,6 +6862,9 @@
     "freeTrainingUrl": null,
     "cisspDomains": [
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -6199,6 +6891,9 @@
     "freeTrainingUrl": null,
     "cisspDomains": [
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -6225,6 +6920,9 @@
     "freeTrainingUrl": "https://ine.com/learning/paths",
     "cisspDomains": [
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -6254,6 +6952,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -6283,6 +6984,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "UK"
     ]
   },
   {
@@ -6312,6 +7016,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -6341,6 +7048,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -6370,6 +7080,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -6399,6 +7112,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -6424,6 +7140,9 @@
     "freeTrainingUrl": "https://www.f5.com/learn",
     "cisspDomains": [
       "cissp-d4"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -6449,6 +7168,9 @@
     "freeTrainingUrl": "https://training.fortinet.com/",
     "cisspDomains": [
       "cissp-d4"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -6477,6 +7199,9 @@
     "freeTrainingUrl": "https://skillsforall.com/",
     "cisspDomains": [
       "cissp-d4"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -6505,6 +7230,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -6534,6 +7262,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -6562,6 +7293,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -6590,6 +7324,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -6615,6 +7352,9 @@
     "cisspDomains": [
       "cissp-d3",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -6644,6 +7384,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -6669,6 +7412,9 @@
     "freeTrainingUrl": null,
     "cisspDomains": [
       "cissp-d5"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -6694,6 +7440,9 @@
     "freeTrainingUrl": null,
     "cisspDomains": [
       "cissp-d5"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -6723,6 +7472,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "North America"
     ]
   },
   {
@@ -6750,6 +7502,9 @@
     "cisspDomains": [
       "cissp-d1",
       "cissp-d2"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -6777,6 +7532,9 @@
     "cisspDomains": [
       "cissp-d1",
       "cissp-d2"
+    ],
+    "regions": [
+      "UK"
     ]
   },
   {
@@ -6806,6 +7564,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Europe"
     ]
   },
   {
@@ -6833,6 +7594,9 @@
     "cisspDomains": [
       "cissp-d1",
       "cissp-d2"
+    ],
+    "regions": [
+      "Europe"
     ]
   },
   {
@@ -6860,6 +7624,9 @@
     "cisspDomains": [
       "cissp-d1",
       "cissp-d2"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -6887,6 +7654,10 @@
     "cisspDomains": [
       "cissp-d1",
       "cissp-d2"
+    ],
+    "regions": [
+      "Europe",
+      "UK"
     ]
   },
   {
@@ -6914,6 +7685,9 @@
     "cisspDomains": [
       "cissp-d1",
       "cissp-d2"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -6941,6 +7715,9 @@
     "cisspDomains": [
       "cissp-d1",
       "cissp-d2"
+    ],
+    "regions": [
+      "UK"
     ]
   },
   {
@@ -6968,6 +7745,9 @@
     "cisspDomains": [
       "cissp-d3",
       "cissp-d8"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -6997,6 +7777,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -7026,6 +7809,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -7055,6 +7841,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "North America"
     ]
   },
   {
@@ -7088,6 +7877,9 @@
     "freeTrainingUrl": "https://codered.eccouncil.org/",
     "cisspDomains": [
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -7117,6 +7909,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Europe"
     ]
   },
   {
@@ -7141,6 +7936,9 @@
     "freeTrainingUrl": "https://codered.eccouncil.org/",
     "cisspDomains": [
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -7170,6 +7968,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -7199,6 +8000,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -7224,6 +8028,9 @@
     "freeTrainingUrl": null,
     "cisspDomains": [
       "cissp-d6"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -7253,6 +8060,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -7282,6 +8092,10 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Europe",
+      "Middle East"
     ]
   },
   {
@@ -7307,6 +8121,9 @@
     "freeTrainingUrl": "https://www.f5.com/learn",
     "cisspDomains": [
       "cissp-d4"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -7332,6 +8149,9 @@
     "freeTrainingUrl": "https://trailhead.salesforce.com/",
     "cisspDomains": [
       "cissp-d5"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -7360,6 +8180,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -7388,6 +8211,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -7417,6 +8243,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Europe"
     ]
   },
   {
@@ -7443,6 +8272,9 @@
     "cisspDomains": [
       "cissp-d3",
       "cissp-d4"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -7472,6 +8304,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -7499,6 +8334,9 @@
     "cisspDomains": [
       "cissp-d1",
       "cissp-d2"
+    ],
+    "regions": [
+      "UK"
     ]
   },
   {
@@ -7528,6 +8366,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "North America"
     ]
   },
   {
@@ -7557,6 +8398,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -7584,6 +8428,9 @@
     "cisspDomains": [
       "cissp-d1",
       "cissp-d2"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -7613,6 +8460,10 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "DACH",
+      "Europe"
     ]
   },
   {
@@ -7640,6 +8491,9 @@
     "cisspDomains": [
       "cissp-d1",
       "cissp-d2"
+    ],
+    "regions": [
+      "UK"
     ]
   },
   {
@@ -7667,6 +8521,9 @@
     "cisspDomains": [
       "cissp-d1",
       "cissp-d2"
+    ],
+    "regions": [
+      "Europe"
     ]
   },
   {
@@ -7696,6 +8553,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -7725,6 +8585,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -7754,6 +8617,10 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "DACH",
+      "Europe"
     ]
   },
   {
@@ -7783,6 +8650,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -7821,6 +8691,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -7850,6 +8723,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -7879,6 +8755,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -7908,6 +8787,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -7937,6 +8819,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -7962,6 +8847,9 @@
     "freeTrainingUrl": null,
     "cisspDomains": [
       "cissp-d6"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -7987,6 +8875,9 @@
     "freeTrainingUrl": "https://ine.com/learning/paths",
     "cisspDomains": [
       "cissp-d6"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -8012,6 +8903,9 @@
     "freeTrainingUrl": "https://portswigger.net/web-security",
     "cisspDomains": [
       "cissp-d6"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -8041,6 +8935,10 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Europe",
+      "North America"
     ]
   },
   {
@@ -8066,6 +8964,9 @@
     "freeTrainingUrl": null,
     "cisspDomains": [
       "cissp-d6"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -8095,6 +8996,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -8124,6 +9028,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -8153,6 +9060,11 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "UK",
+      "Australia",
+      "Asia-Pacific"
     ]
   },
   {
@@ -8178,6 +9090,9 @@
     "freeTrainingUrl": null,
     "cisspDomains": [
       "cissp-d5"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -8206,6 +9121,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -8235,6 +9153,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Europe"
     ]
   },
   {
@@ -8264,6 +9185,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -8293,6 +9217,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -8322,6 +9249,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -8351,6 +9281,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -8380,6 +9313,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -8407,6 +9343,9 @@
     "cisspDomains": [
       "cissp-d1",
       "cissp-d2"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -8436,6 +9375,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "UK"
     ]
   },
   {
@@ -8463,6 +9405,9 @@
     "cisspDomains": [
       "cissp-d1",
       "cissp-d2"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -8490,6 +9435,9 @@
     "cisspDomains": [
       "cissp-d1",
       "cissp-d2"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -8517,6 +9465,9 @@
     "cisspDomains": [
       "cissp-d1",
       "cissp-d2"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -8546,6 +9497,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -8575,6 +9529,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -8604,6 +9561,10 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "DACH",
+      "Europe"
     ]
   },
   {
@@ -8631,6 +9592,9 @@
     "cisspDomains": [
       "cissp-d1",
       "cissp-d2"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -8660,6 +9624,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -8689,6 +9656,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -8718,6 +9688,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -8747,6 +9720,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -8776,6 +9752,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -8805,6 +9784,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -8841,6 +9823,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -8870,6 +9855,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -8899,6 +9887,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "UK"
     ]
   },
   {
@@ -8924,6 +9915,9 @@
     "freeTrainingUrl": "https://ine.com/learning/paths",
     "cisspDomains": [
       "cissp-d6"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -8953,6 +9947,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Europe"
     ]
   },
   {
@@ -8982,6 +9979,10 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Europe",
+      "North America"
     ]
   },
   {
@@ -9007,6 +10008,11 @@
     "freeTrainingUrl": null,
     "cisspDomains": [
       "cissp-d6"
+    ],
+    "regions": [
+      "UK",
+      "Australia",
+      "Asia-Pacific"
     ]
   },
   {
@@ -9032,6 +10038,9 @@
     "freeTrainingUrl": "https://www.f5.com/learn",
     "cisspDomains": [
       "cissp-d4"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -9061,6 +10070,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -9086,6 +10098,9 @@
     "freeTrainingUrl": null,
     "cisspDomains": [
       "cissp-d5"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -9114,6 +10129,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -9143,6 +10161,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Europe"
     ]
   },
   {
@@ -9170,6 +10191,9 @@
     "cisspDomains": [
       "cissp-d3",
       "cissp-d8"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -9195,6 +10219,9 @@
     "cisspDomains": [
       "cissp-d3",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -9221,6 +10248,9 @@
     "cisspDomains": [
       "cissp-d3",
       "cissp-d4"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -9250,6 +10280,10 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "DACH",
+      "Europe"
     ]
   },
   {
@@ -9275,6 +10309,9 @@
     "freeTrainingUrl": null,
     "cisspDomains": [
       "cissp-d3"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -9304,6 +10341,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -9333,6 +10373,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -9362,6 +10405,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "UK"
     ]
   },
   {
@@ -9391,6 +10437,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "North America"
     ]
   },
   {
@@ -9418,6 +10467,10 @@
     "cisspDomains": [
       "cissp-d1",
       "cissp-d2"
+    ],
+    "regions": [
+      "Europe",
+      "UK"
     ]
   },
   {
@@ -9445,6 +10498,9 @@
     "cisspDomains": [
       "cissp-d1",
       "cissp-d2"
+    ],
+    "regions": [
+      "Europe"
     ]
   },
   {
@@ -9472,6 +10528,9 @@
     "cisspDomains": [
       "cissp-d3",
       "cissp-d8"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -9501,6 +10560,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -9528,6 +10590,9 @@
     "cisspDomains": [
       "cissp-d1",
       "cissp-d2"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -9557,6 +10622,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -9584,6 +10652,9 @@
     "cisspDomains": [
       "cissp-d3",
       "cissp-d8"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -9613,6 +10684,10 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Europe",
+      "North America"
     ]
   },
   {
@@ -9642,6 +10717,10 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Europe",
+      "Middle East"
     ]
   },
   {
@@ -9671,6 +10750,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -9700,6 +10782,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -9729,6 +10814,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -9754,6 +10842,9 @@
     "freeTrainingUrl": "https://codered.eccouncil.org/",
     "cisspDomains": [
       "cissp-d6"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -9779,6 +10870,9 @@
     "freeTrainingUrl": null,
     "cisspDomains": [
       "cissp-d6"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -9804,6 +10898,9 @@
     "freeTrainingUrl": null,
     "cisspDomains": [
       "cissp-d6"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -9829,6 +10926,9 @@
     "freeTrainingUrl": null,
     "cisspDomains": [
       "cissp-d6"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -9858,6 +10958,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -9887,6 +10990,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -9912,6 +11018,9 @@
     "freeTrainingUrl": "https://www.mosse-institute.com/",
     "cisspDomains": [
       "cissp-d6"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -9941,6 +11050,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -9970,6 +11082,10 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Europe",
+      "North America"
     ]
   },
   {
@@ -9995,6 +11111,9 @@
     "freeTrainingUrl": "https://learn.microsoft.com/training/",
     "cisspDomains": [
       "cissp-d5"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -10023,6 +11142,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -10052,6 +11174,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -10077,6 +11202,9 @@
     "cisspDomains": [
       "cissp-d3",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -10102,6 +11230,9 @@
     "cisspDomains": [
       "cissp-d3",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -10131,6 +11262,9 @@
     "cisspDomains": [
       "cissp-d3",
       "cissp-d4"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -10167,6 +11301,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -10196,6 +11333,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -10225,6 +11365,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -10254,6 +11397,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -10286,6 +11432,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -10315,6 +11464,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -10344,6 +11496,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -10373,6 +11528,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -10407,6 +11565,9 @@
     "freeTrainingUrl": "https://www.comptia.org/training/resources",
     "cisspDomains": [
       "cissp-d6"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -10432,6 +11593,11 @@
     "freeTrainingUrl": null,
     "cisspDomains": [
       "cissp-d6"
+    ],
+    "regions": [
+      "UK",
+      "Australia",
+      "Asia-Pacific"
     ]
   },
   {
@@ -10461,6 +11627,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -10490,6 +11659,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -10519,6 +11691,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -10544,6 +11719,9 @@
     "freeTrainingUrl": null,
     "cisspDomains": [
       "cissp-d4"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -10573,6 +11751,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -10600,6 +11781,9 @@
     "cisspDomains": [
       "cissp-d3",
       "cissp-d8"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -10629,6 +11813,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Europe"
     ]
   },
   {
@@ -10657,6 +11844,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -10682,6 +11872,9 @@
     "cisspDomains": [
       "cissp-d3",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -10710,6 +11903,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -10735,6 +11931,9 @@
     "freeTrainingUrl": null,
     "cisspDomains": [
       "cissp-d5"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -10773,6 +11972,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -10802,6 +12004,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -10831,6 +12036,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -10860,6 +12068,11 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "UK",
+      "Australia",
+      "Asia-Pacific"
     ]
   },
   {
@@ -10889,6 +12102,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -10918,6 +12134,11 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "UK",
+      "Australia",
+      "Asia-Pacific"
     ]
   },
   {
@@ -10947,6 +12168,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -10972,6 +12196,9 @@
     "freeTrainingUrl": null,
     "cisspDomains": [
       "cissp-d6"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -10997,6 +12224,9 @@
     "freeTrainingUrl": null,
     "cisspDomains": [
       "cissp-d6"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -11026,6 +12256,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -11055,6 +12288,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -11084,6 +12320,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -11115,6 +12354,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -11141,6 +12383,9 @@
     "freeTrainingUrl": "https://cloud.google.com/training/free",
     "cisspDomains": [
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -11169,6 +12414,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -11197,6 +12445,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -11223,6 +12474,9 @@
     "cisspDomains": [
       "cissp-d3",
       "cissp-d4"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -11252,6 +12506,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -11281,6 +12538,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -11317,6 +12577,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -11346,6 +12609,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -11375,6 +12641,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -11404,6 +12673,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Europe"
     ]
   },
   {
@@ -11433,6 +12705,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -11462,6 +12737,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -11491,6 +12769,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -11516,6 +12797,9 @@
     "freeTrainingUrl": null,
     "cisspDomains": [
       "cissp-d5"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -11544,6 +12828,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -11573,6 +12860,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -11602,6 +12892,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -11631,6 +12924,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -11660,6 +12956,10 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "DACH",
+      "Europe"
     ]
   },
   {
@@ -11686,6 +12986,10 @@
     "cisspDomains": [
       "cissp-d3",
       "cissp-d4"
+    ],
+    "regions": [
+      "DACH",
+      "Europe"
     ]
   },
   {
@@ -11715,6 +13019,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Europe"
     ]
   },
   {
@@ -11740,6 +13047,9 @@
     "freeTrainingUrl": null,
     "cisspDomains": [
       "cissp-d3"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -11769,6 +13079,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -11798,6 +13111,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -11827,6 +13143,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "UK"
     ]
   },
   {
@@ -11856,6 +13175,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -11885,6 +13207,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -11912,6 +13237,9 @@
     "cisspDomains": [
       "cissp-d1",
       "cissp-d2"
+    ],
+    "regions": [
+      "Europe"
     ]
   },
   {
@@ -11941,6 +13269,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -11970,6 +13301,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -11999,6 +13333,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Europe"
     ]
   },
   {
@@ -12028,6 +13365,10 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "DACH",
+      "Europe"
     ]
   },
   {
@@ -12055,6 +13396,9 @@
     "cisspDomains": [
       "cissp-d3",
       "cissp-d8"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -12084,6 +13428,10 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Europe",
+      "North America"
     ]
   },
   {
@@ -12113,6 +13461,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "UK"
     ]
   },
   {
@@ -12142,6 +13493,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -12166,6 +13520,9 @@
     "freeTrainingUrl": null,
     "cisspDomains": [
       "cissp-d7"
+    ],
+    "regions": [
+      "UK"
     ]
   },
   {
@@ -12195,6 +13552,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Europe"
     ]
   },
   {
@@ -12224,6 +13584,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Europe"
     ]
   },
   {
@@ -12253,6 +13616,10 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Europe",
+      "North America"
     ]
   },
   {
@@ -12282,6 +13649,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -12310,6 +13680,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -12339,6 +13712,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Europe"
     ]
   },
   {
@@ -12371,6 +13747,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -12400,6 +13779,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -12426,6 +13808,10 @@
     "cisspDomains": [
       "cissp-d3",
       "cissp-d4"
+    ],
+    "regions": [
+      "DACH",
+      "Europe"
     ]
   },
   {
@@ -12455,6 +13841,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Europe"
     ]
   },
   {
@@ -12482,6 +13871,10 @@
     "cisspDomains": [
       "cissp-d1",
       "cissp-d2"
+    ],
+    "regions": [
+      "Europe",
+      "UK"
     ]
   },
   {
@@ -12511,6 +13904,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -12540,6 +13936,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -12567,6 +13966,10 @@
     "cisspDomains": [
       "cissp-d1",
       "cissp-d2"
+    ],
+    "regions": [
+      "Europe",
+      "UK"
     ]
   },
   {
@@ -12596,6 +13999,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "North America"
     ]
   },
   {
@@ -12623,6 +14029,9 @@
     "cisspDomains": [
       "cissp-d1",
       "cissp-d2"
+    ],
+    "regions": [
+      "UK"
     ]
   },
   {
@@ -12652,6 +14061,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -12681,6 +14093,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Europe"
     ]
   },
   {
@@ -12710,6 +14125,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -12739,6 +14157,10 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "DACH",
+      "Europe"
     ]
   },
   {
@@ -12766,6 +14188,9 @@
     "cisspDomains": [
       "cissp-d3",
       "cissp-d8"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -12795,6 +14220,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -12827,6 +14255,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -12856,6 +14287,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -12885,6 +14319,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -12914,6 +14351,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -12942,6 +14382,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -12971,6 +14414,10 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Europe",
+      "UK"
     ]
   },
   {
@@ -13000,6 +14447,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -13029,6 +14479,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "UK"
     ]
   },
   {
@@ -13058,6 +14511,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Europe"
     ]
   },
   {
@@ -13087,6 +14543,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Europe"
     ]
   },
   {
@@ -13114,6 +14573,9 @@
     "cisspDomains": [
       "cissp-d1",
       "cissp-d2"
+    ],
+    "regions": [
+      "Europe"
     ]
   },
   {
@@ -13143,6 +14605,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "UK"
     ]
   },
   {
@@ -13172,6 +14637,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "UK"
     ]
   },
   {
@@ -13199,6 +14667,9 @@
     "cisspDomains": [
       "cissp-d3",
       "cissp-d8"
+    ],
+    "regions": [
+      "Europe"
     ]
   },
   {
@@ -13228,6 +14699,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -13257,6 +14731,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -13282,6 +14759,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -13304,6 +14784,9 @@
     "freeTrainingUrl": "https://university.crowdstrike.com/",
     "cisspDomains": [
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -13329,6 +14812,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -13354,6 +14840,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -13376,6 +14865,9 @@
     "freeTrainingUrl": "https://university.crowdstrike.com/",
     "cisspDomains": [
       "cissp-d3"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -13398,6 +14890,9 @@
     "freeTrainingUrl": "https://university.crowdstrike.com/",
     "cisspDomains": [
       "cissp-d5"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -13422,6 +14917,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -13447,6 +14945,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -13472,6 +14973,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -13497,6 +15001,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -13519,6 +15026,9 @@
     "freeTrainingUrl": "https://tryhackme.com/",
     "cisspDomains": [
       "cissp-d6"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -13544,6 +15054,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -13566,6 +15079,9 @@
     "freeTrainingUrl": "https://academy.hackthebox.com/",
     "cisspDomains": [
       "cissp-d6"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -13588,6 +15104,9 @@
     "freeTrainingUrl": "https://academy.hackthebox.com/",
     "cisspDomains": [
       "cissp-d6"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -13610,6 +15129,9 @@
     "freeTrainingUrl": "https://academy.hackthebox.com/",
     "cisspDomains": [
       "cissp-d6"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -13634,6 +15156,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -13658,6 +15183,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -13682,6 +15210,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -13707,6 +15238,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -13729,6 +15263,9 @@
     "freeTrainingUrl": "https://education.oracle.com/learning-explorer",
     "cisspDomains": [
       "cissp-d4"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -13753,6 +15290,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -13777,6 +15317,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -13802,6 +15345,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -13824,6 +15370,9 @@
     "freeTrainingUrl": "https://cloud.google.com/training/free",
     "cisspDomains": [
       "cissp-d4"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -13848,6 +15397,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -13872,6 +15424,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -13896,6 +15451,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -13921,6 +15479,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -13945,6 +15506,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -13969,6 +15533,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -13993,6 +15560,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -14015,6 +15585,9 @@
     "freeTrainingUrl": "https://www.cncf.io/training/",
     "cisspDomains": [
       "cissp-d4"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -14037,6 +15610,9 @@
     "freeTrainingUrl": "https://www.cncf.io/training/",
     "cisspDomains": [
       "cissp-d4"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -14062,6 +15638,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -14086,6 +15665,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -14110,6 +15692,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -14134,6 +15719,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -14158,6 +15746,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -14182,6 +15773,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -14206,6 +15800,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -14228,6 +15825,9 @@
     "freeTrainingUrl": "https://learn.nvidia.com/",
     "cisspDomains": [
       "cissp-d4"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -14251,6 +15851,9 @@
     "cisspDomains": [
       "cissp-d3",
       "cissp-d8"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -14274,6 +15877,9 @@
     "cisspDomains": [
       "cissp-d3",
       "cissp-d8"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -14297,6 +15903,9 @@
     "cisspDomains": [
       "cissp-d3",
       "cissp-d8"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -14321,6 +15930,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -14345,6 +15957,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -14367,6 +15982,9 @@
     "freeTrainingUrl": "https://developer.hashicorp.com/tutorials",
     "cisspDomains": [
       "cissp-d5"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -14389,6 +16007,9 @@
     "freeTrainingUrl": "https://developer.hashicorp.com/tutorials",
     "cisspDomains": [
       "cissp-d5"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -14411,6 +16032,9 @@
     "freeTrainingUrl": "https://developer.hashicorp.com/tutorials",
     "cisspDomains": [
       "cissp-d4"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -14436,6 +16060,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -14461,6 +16088,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -14484,6 +16114,9 @@
     "cisspDomains": [
       "cissp-d1",
       "cissp-d2"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -14507,6 +16140,9 @@
     "cisspDomains": [
       "cissp-d1",
       "cissp-d2"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -14529,6 +16165,9 @@
     "freeTrainingUrl": "https://www.ibm.com/training/free",
     "cisspDomains": [
       "cissp-d5"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -14551,6 +16190,9 @@
     "freeTrainingUrl": "https://www.ibm.com/training/free",
     "cisspDomains": [
       "cissp-d5"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -14576,6 +16218,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -14601,6 +16246,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -14623,6 +16271,9 @@
     "freeTrainingUrl": "https://beacon.paloaltonetworks.com/",
     "cisspDomains": [
       "cissp-d4"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -14645,6 +16296,9 @@
     "freeTrainingUrl": "https://beacon.paloaltonetworks.com/",
     "cisspDomains": [
       "cissp-d4"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -14667,6 +16321,9 @@
     "freeTrainingUrl": "https://beacon.paloaltonetworks.com/",
     "cisspDomains": [
       "cissp-d4"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -14689,6 +16346,9 @@
     "freeTrainingUrl": "https://beacon.paloaltonetworks.com/",
     "cisspDomains": [
       "cissp-d4"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -14711,6 +16371,9 @@
     "freeTrainingUrl": "https://beacon.paloaltonetworks.com/",
     "cisspDomains": [
       "cissp-d4"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -14733,6 +16396,9 @@
     "freeTrainingUrl": "https://beacon.paloaltonetworks.com/",
     "cisspDomains": [
       "cissp-d3"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -14758,6 +16424,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -14783,6 +16452,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -14808,6 +16480,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -14833,6 +16508,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -14858,6 +16536,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -14883,6 +16564,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -14905,6 +16589,9 @@
     "freeTrainingUrl": "https://beacon.paloaltonetworks.com/",
     "cisspDomains": [
       "cissp-d3"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -14929,6 +16616,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -14953,6 +16643,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -14977,6 +16670,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -15001,6 +16697,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -15025,6 +16724,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -15048,6 +16750,9 @@
     "cisspDomains": [
       "cissp-d3",
       "cissp-d8"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -15072,6 +16777,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -15094,6 +16802,9 @@
     "freeTrainingUrl": "https://aws.amazon.com/training/digital/",
     "cisspDomains": [
       "cissp-d4"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -15118,6 +16829,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -15141,6 +16855,9 @@
     "cisspDomains": [
       "cissp-d1",
       "cissp-d2"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -15166,6 +16883,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -15191,6 +16911,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -15214,6 +16937,9 @@
     "cisspDomains": [
       "cissp-d3",
       "cissp-d8"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -15237,6 +16963,9 @@
     "cisspDomains": [
       "cissp-d3",
       "cissp-d4"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -15262,6 +16991,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -15284,6 +17016,9 @@
     "freeTrainingUrl": "https://skillsforall.com/",
     "cisspDomains": [
       "cissp-d4"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -15309,6 +17044,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -15333,6 +17071,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -15356,6 +17097,9 @@
     "cisspDomains": [
       "cissp-d3",
       "cissp-d8"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -15380,6 +17124,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -15404,6 +17151,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -15426,6 +17176,9 @@
     "freeTrainingUrl": "https://skillsforall.com/",
     "cisspDomains": [
       "cissp-d3"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -15451,6 +17204,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -15476,6 +17232,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -15501,6 +17260,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -15525,6 +17287,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -15550,6 +17315,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -15572,6 +17340,9 @@
     "freeTrainingUrl": "https://education.splunk.com/catalog",
     "cisspDomains": [
       "cissp-d3"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -15594,6 +17365,9 @@
     "freeTrainingUrl": "https://education.splunk.com/catalog",
     "cisspDomains": [
       "cissp-d3"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -15619,6 +17393,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -15643,6 +17420,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -15668,6 +17448,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -15693,6 +17476,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -15717,6 +17503,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -15741,6 +17530,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -15766,6 +17558,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -15790,6 +17585,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -15814,6 +17612,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -15837,6 +17638,9 @@
     "cisspDomains": [
       "cissp-d3",
       "cissp-d8"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -15861,6 +17665,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -15885,6 +17692,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -15909,6 +17719,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -15933,6 +17746,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -15955,6 +17771,9 @@
     "freeTrainingUrl": "https://learn.snowflake.com/",
     "cisspDomains": [
       "cissp-d5"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -15977,6 +17796,9 @@
     "freeTrainingUrl": "https://learn.snowflake.com/",
     "cisspDomains": [
       "cissp-d3"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -16001,6 +17823,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -16023,6 +17848,9 @@
     "freeTrainingUrl": "https://www.f5.com/learn",
     "cisspDomains": [
       "cissp-d4"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -16045,6 +17873,9 @@
     "freeTrainingUrl": "https://www.f5.com/learn",
     "cisspDomains": [
       "cissp-d4"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -16070,6 +17901,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -16094,6 +17928,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -16118,6 +17955,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -16142,6 +17982,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -16164,6 +18007,9 @@
     "freeTrainingUrl": "https://training.citrix.com/",
     "cisspDomains": [
       "cissp-d4"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -16189,6 +18035,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -16213,6 +18062,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -16235,6 +18087,9 @@
     "freeTrainingUrl": "https://www.redhat.com/en/services/training-and-certification",
     "cisspDomains": [
       "cissp-d5"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -16257,6 +18112,9 @@
     "freeTrainingUrl": "https://cloudsecurityalliance.org/education/",
     "cisspDomains": [
       "cissp-d3"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -16280,6 +18138,9 @@
     "cisspDomains": [
       "cissp-d1",
       "cissp-d2"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -16305,6 +18166,9 @@
     "freeTrainingUrl": "https://partneracademy.zscaler.com/",
     "cisspDomains": [
       "cissp-d3"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -16332,6 +18196,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -16359,6 +18226,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -16386,6 +18256,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -16414,6 +18287,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -16442,6 +18318,9 @@
       "cissp-d2",
       "cissp-d6",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -16467,6 +18346,9 @@
     "freeTrainingUrl": "https://certification.okta.com/page/study-guides",
     "cisspDomains": [
       "cissp-d5"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -16492,6 +18374,9 @@
     "freeTrainingUrl": "https://certification.okta.com/page/study-guides",
     "cisspDomains": [
       "cissp-d5"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -16518,6 +18403,9 @@
     "freeTrainingUrl": "https://certification.okta.com/page/study-guides",
     "cisspDomains": [
       "cissp-d5"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -16543,6 +18431,9 @@
     "freeTrainingUrl": "https://certification.okta.com/page/study-guides",
     "cisspDomains": [
       "cissp-d5"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -16568,6 +18459,9 @@
     "freeTrainingUrl": "https://certification.okta.com/page/study-guides",
     "cisspDomains": [
       "cissp-d5"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -16593,6 +18487,9 @@
     "freeTrainingUrl": "https://certification.okta.com/page/study-guides",
     "cisspDomains": [
       "cissp-d5"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -16619,6 +18516,9 @@
     "freeTrainingUrl": "https://certification.okta.com/page/study-guides",
     "cisspDomains": [
       "cissp-d5"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -16645,6 +18545,9 @@
     "freeTrainingUrl": "https://trailhead.salesforce.com/",
     "cisspDomains": [
       "cissp-d5"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -16670,6 +18573,9 @@
     "freeTrainingUrl": "https://trailhead.salesforce.com/",
     "cisspDomains": [
       "cissp-d3"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -16696,6 +18602,9 @@
     "cisspDomains": [
       "cissp-d3",
       "cissp-d8"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -16722,6 +18631,9 @@
     "cisspDomains": [
       "cissp-d3",
       "cissp-d8"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -16749,6 +18661,9 @@
       "cissp-d2",
       "cissp-d4",
       "cissp-d7"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -16775,6 +18690,9 @@
     "cisspDomains": [
       "cissp-d3",
       "cissp-d8"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -16801,6 +18719,9 @@
     "cisspDomains": [
       "cissp-d1",
       "cissp-d2"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -16827,6 +18748,9 @@
     "cisspDomains": [
       "cissp-d1",
       "cissp-d2"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -16854,6 +18778,9 @@
     "cisspDomains": [
       "cissp-d1",
       "cissp-d2"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -16880,6 +18807,9 @@
     "cisspDomains": [
       "cissp-d1",
       "cissp-d2"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -16904,6 +18834,9 @@
     "freeTrainingUrl": "https://university.sailpoint.com/",
     "cisspDomains": [
       "cissp-d5"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -16929,6 +18862,9 @@
     "freeTrainingUrl": "https://university.sailpoint.com/",
     "cisspDomains": [
       "cissp-d5"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -16955,6 +18891,9 @@
     "freeTrainingUrl": "https://university.sailpoint.com/",
     "cisspDomains": [
       "cissp-d5"
+    ],
+    "regions": [
+      "Global"
     ]
   },
   {
@@ -16981,6 +18920,9 @@
     "freeTrainingUrl": "https://university.sailpoint.com/",
     "cisspDomains": [
       "cissp-d5"
+    ],
+    "regions": [
+      "Global"
     ]
   }
 ]
