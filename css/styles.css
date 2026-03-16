@@ -936,20 +936,14 @@ body {
   border-left-color: #4ade80 !important;
 }
 
-.defcon-header-row {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: var(--space-3);
-}
-
 .defcon-year {
+  display: block;
   font-size: 1.25rem;
   font-weight: 800;
   font-stretch: 85%;
   color: #4ade80;
   letter-spacing: -0.02em;
-  flex-shrink: 0;
+  margin-top: var(--space-1);
 }
 
 .defcon-tags {
