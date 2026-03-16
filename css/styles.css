@@ -72,13 +72,19 @@ body {
 
 /* ── Particle background container ── */
 
-#tsparticles {
+#tsparticles,
+#tsparticles-stars {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   z-index: 0;
+  pointer-events: none;
+}
+
+#tsparticles {
+  pointer-events: auto;
 }
 
 /* ── Skip link (accessibility) ── */

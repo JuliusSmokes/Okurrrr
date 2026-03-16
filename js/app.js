@@ -593,7 +593,7 @@
             fpsLimit: 120,
             particles: {
               number: {
-                value: 100,
+                value: 130,
                 density: { enable: true, area: 1000 }
               },
               color: {
@@ -640,6 +640,42 @@
                 push: { quantity: 4 }
               }
             },
+            detectRetina: true
+          }
+        });
+
+        return tsParticles.load({
+          id: 'tsparticles-stars',
+          options: {
+            fullScreen: { enable: false },
+            fpsLimit: 120,
+            particles: {
+              number: { value: 4, density: { enable: false } },
+              color: { value: ['#e2e8f4', '#58a6ff', '#ff5a9d', '#00e5c7', '#f5a623'] },
+              shape: { type: 'circle' },
+              opacity: {
+                value: { min: 0.5, max: 1.0 },
+                animation: { enable: true, speed: 2, startValue: 'max', sync: false }
+              },
+              size: {
+                value: { min: 1, max: 2.5 },
+                animation: { enable: false }
+              },
+              links: { enable: false },
+              move: {
+                enable: true,
+                speed: { min: 20, max: 40 },
+                direction: 'bottom-left',
+                outModes: { default: 'out' },
+                straight: true,
+                trail: {
+                  enable: true,
+                  length: 15,
+                  fill: { color: '#0b0e1a' }
+                }
+              }
+            },
+            interactivity: { detectsOn: 'canvas', events: {} },
             detectRetina: true
           }
         });
