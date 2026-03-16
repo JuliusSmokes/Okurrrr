@@ -68,6 +68,7 @@ body {
   line-height: 1.5;
   min-height: 100vh;
   font-size: 15px;
+  overflow-x: hidden;
 }
 
 /* ── Particle background container ── */
@@ -663,8 +664,9 @@ body {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 16px;
-  height: 16px;
+  width: 20px;
+  height: 20px;
+  min-width: 20px;
   font-size: 0.625rem;
   border-radius: 50%;
   cursor: pointer;
@@ -1537,6 +1539,79 @@ a.pf-item-name:hover {
   .controls {
     gap: var(--space-3);
   }
+
+  .tab-bar {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    gap: 0;
+  }
+
+  .tab-bar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .tab {
+    padding: var(--space-2) var(--space-3);
+    font-size: 0.8125rem;
+    white-space: nowrap;
+  }
+
+  .filter-chip .fc-remove {
+    width: 24px;
+    height: 24px;
+    min-width: 24px;
+  }
+
+  .pf-item input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+@media (max-width: 640px) {
+  .control-group {
+    width: 100%;
+  }
+
+  .control-group select {
+    min-width: 0;
+    width: 100%;
+  }
+
+  .pathfinder-inputs {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .pathfinder-inputs .control-group {
+    width: 100%;
+  }
+
+  .pathfinder-inputs .control-group select {
+    min-width: 0;
+    width: 100%;
+  }
+
+  .pathfinder-heading {
+    font-size: 1.1rem;
+  }
+
+  .hero {
+    padding: var(--space-5) var(--space-3);
+  }
+
+  .main {
+    padding: var(--space-3) var(--space-3) var(--space-5);
+  }
+
+  .footer {
+    padding: var(--space-4) var(--space-3);
+  }
+
+  .controls {
+    padding: var(--space-3);
+  }
 }
 
 @media (max-width: 480px) {
@@ -1553,8 +1628,36 @@ a.pf-item-name:hover {
     font-size: 1.15rem;
   }
 
+  .hero p {
+    font-size: 0.875rem;
+  }
+
   .stat-badge .stat-number {
     font-size: 1.25rem;
+  }
+
+  .tab {
+    padding: var(--space-2);
+    font-size: 0.75rem;
+  }
+
+  .tab-count {
+    font-size: 0.625rem;
+    padding: 1px 4px;
+  }
+
+  .pf-stage-line {
+    min-width: 30px;
+  }
+
+  .pf-stage-node {
+    width: 32px;
+    height: 32px;
+    font-size: 0.5625rem;
+  }
+
+  .pf-stage-label {
+    font-size: 0.5625rem;
   }
 }
 
