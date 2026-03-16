@@ -583,56 +583,61 @@
 
   /* ── Particle background (Miami Vice themed) ── */
 
-  if (typeof loadBasic === 'function' && typeof tsParticles !== 'undefined') {
+  if (typeof loadSlim === 'function' && typeof tsParticles !== 'undefined') {
     (function () {
-      loadBasic(tsParticles).then(function () {
+      loadSlim(tsParticles).then(function () {
         return tsParticles.load({
           id: 'tsparticles',
           options: {
             fullScreen: { enable: false },
-            fpsLimit: 60,
+            fpsLimit: 120,
             particles: {
               number: {
-                value: 80,
-                density: { enable: true, area: 900 }
+                value: 50,
+                density: { enable: true, area: 800 }
               },
               color: {
                 value: ['#ff2d7b', '#00e5c7', '#f5a623']
               },
               shape: { type: 'circle' },
               opacity: {
-                value: { min: 0.4, max: 0.7 },
-                animation: { enable: true, speed: 0.4, startValue: 'random', sync: false }
+                value: { min: 0.5, max: 0.85 },
+                animation: { enable: true, speed: 0.8, startValue: 'random', sync: false }
               },
               size: {
-                value: { min: 2, max: 5 },
-                animation: { enable: true, speed: 1.5, startValue: 'random', sync: false }
+                value: { min: 4, max: 12 },
+                animation: { enable: true, speed: 3, startValue: 'random', sync: false }
+              },
+              collisions: {
+                enable: true,
+                mode: 'bounce'
               },
               links: {
                 enable: true,
-                distance: 200,
-                color: '#00e5c7',
-                opacity: 0.5,
-                width: 1.8
+                distance: 250,
+                color: { value: ['#ff2d7b', '#00e5c7', '#f5a623'] },
+                opacity: 0.7,
+                width: 2.5
               },
               move: {
                 enable: true,
-                speed: 1.0,
+                speed: 0.6,
                 direction: 'none',
-                outModes: { default: 'out' },
+                outModes: { default: 'bounce' },
+                attract: { enable: true, rotate: { x: 600, y: 1200 } },
                 random: true,
                 straight: false
               }
             },
             interactivity: {
-              detectsOn: 'window',
+              detectsOn: 'canvas',
               events: {
                 onHover: { enable: true, mode: 'grab' },
                 onClick: { enable: true, mode: 'push' }
               },
               modes: {
-                grab: { distance: 220, links: { opacity: 0.7, color: '#ff2d7b' } },
-                push: { quantity: 3 }
+                grab: { distance: 280, links: { opacity: 0.9, color: '#ff2d7b' } },
+                push: { quantity: 2 }
               }
             },
             detectRetina: true
