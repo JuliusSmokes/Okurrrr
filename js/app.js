@@ -597,7 +597,7 @@
                 density: { enable: true, area: 1000 }
               },
               color: {
-                value: ['#ff2d7b', '#ff5a9d', '#00e5c7', '#33f0d6', '#f5a623', '#58a6ff', '#a78bfa']
+                value: ['#ff2d7b', '#ff5a9d', '#00e5c7', '#33f0d6', '#f5a623', '#58a6ff', '#a78bfa', '#ff6b6b', '#e2e8f4']
               },
               shape: { type: 'circle' },
               opacity: {
@@ -615,7 +615,7 @@
               links: {
                 enable: true,
                 distance: 220,
-                color: { value: ['#ff2d7b', '#ff5a9d', '#00e5c7', '#33f0d6', '#f5a623', '#58a6ff', '#a78bfa'] },
+                color: { value: ['#ff2d7b', '#ff5a9d', '#00e5c7', '#33f0d6', '#f5a623', '#58a6ff', '#a78bfa', '#ff6b6b', '#e2e8f4'] },
                 opacity: 0.85,
                 width: 1.5
               },
