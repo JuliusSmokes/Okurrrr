@@ -580,4 +580,65 @@
         '<p>Could not load certification data.<br>Ensure <code>data/certs.json</code>, <code>data/nice-work-roles.json</code>, and <code>data/cissp-domains.json</code> exist and are served from the same origin.</p>' +
       '</div>';
   });
+
+  /* ── Particle background (Miami Vice themed) ── */
+
+  if (typeof loadBasic === 'function' && typeof tsParticles !== 'undefined') {
+    (function () {
+      loadBasic(tsParticles).then(function () {
+        return tsParticles.load({
+          id: 'tsparticles',
+          options: {
+            fullScreen: { enable: false },
+            fpsLimit: 60,
+            particles: {
+              number: {
+                value: 60,
+                density: { enable: true, area: 900 }
+              },
+              color: {
+                value: ['#ff2d7b', '#00e5c7', '#f5a623']
+              },
+              shape: { type: 'circle' },
+              opacity: {
+                value: { min: 0.25, max: 0.5 },
+                animation: { enable: true, speed: 0.4, startValue: 'random', sync: false }
+              },
+              size: {
+                value: { min: 1.5, max: 3.5 },
+                animation: { enable: true, speed: 1.5, startValue: 'random', sync: false }
+              },
+              links: {
+                enable: true,
+                distance: 160,
+                color: '#00e5c7',
+                opacity: 0.12,
+                width: 1
+              },
+              move: {
+                enable: true,
+                speed: 0.8,
+                direction: 'none',
+                outModes: { default: 'out' },
+                random: true,
+                straight: false
+              }
+            },
+            interactivity: {
+              detectsOn: 'window',
+              events: {
+                onHover: { enable: true, mode: 'grab' },
+                onClick: { enable: true, mode: 'push' }
+              },
+              modes: {
+                grab: { distance: 180, links: { opacity: 0.25, color: '#ff2d7b' } },
+                push: { quantity: 2 }
+              }
+            },
+            detectRetina: true
+          }
+        });
+      });
+    })();
+  }
 })();
