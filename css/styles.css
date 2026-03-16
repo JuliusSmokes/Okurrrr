@@ -1,0 +1,235 @@
+/* Security Certification Roadmap – NICE Filterable */
+:root {
+  --bg: #0f1419;
+  --surface: #1a2332;
+  --text: #e6edf3;
+  --text-muted: #8b949e;
+  --accent: #58a6ff;
+  --accent-visited: #a371f7;
+  --border: #30363d;
+  --success: #3fb950;
+  --warning: #d29922;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+.header {
+  padding: 1.5rem 1.5rem 1rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.header h1 {
+  margin: 0 0 0.25rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.tagline {
+  margin: 0;
+  font-size: 0.875rem;
+  color: var(--text-muted);
+}
+
+.tagline a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.tagline a:hover {
+  text-decoration: underline;
+}
+
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem 1.5rem 2rem;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 1.5rem;
+  align-items: flex-end;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background: var(--surface);
+  border-radius: 8px;
+  border: 1px solid var(--border);
+}
+
+.control-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.control-group label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.control-group select {
+  min-width: 200px;
+  padding: 0.4rem 0.6rem;
+  font-size: 0.875rem;
+  background: var(--bg);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+}
+
+.control-group select[multiple] {
+  min-height: 120px;
+}
+
+.control-group small {
+  font-size: 0.7rem;
+  color: var(--text-muted);
+}
+
+.control-group button {
+  padding: 0.5rem 0.75rem;
+  font-size: 0.875rem;
+  background: var(--surface);
+  color: var(--accent);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.control-group button:hover {
+  background: var(--border);
+}
+
+.result-count {
+  margin: 0 0 0.75rem;
+  font-size: 0.875rem;
+  color: var(--text-muted);
+}
+
+.results {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.cert-card {
+  display: grid;
+  grid-template-columns: 1fr auto auto auto auto;
+  gap: 1rem;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-size: 0.875rem;
+}
+
+.control-group .checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  cursor: pointer;
+  font-weight: normal;
+  text-transform: none;
+  letter-spacing: normal;
+}
+
+.cert-badges {
+  white-space: nowrap;
+}
+
+.cert-dod8140 {
+  display: inline-block;
+  padding: 0.15rem 0.4rem;
+  font-size: 0.65rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  background: var(--border);
+  color: var(--text);
+  border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+  .cert-card {
+    grid-template-columns: 1fr auto;
+    grid-template-rows: auto auto;
+  }
+  .cert-card .cert-name { grid-column: 1 / -1; }
+}
+
+.cert-name a {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.cert-name a:hover {
+  text-decoration: underline;
+}
+
+.cert-name a:visited {
+  color: var(--accent-visited);
+}
+
+.cert-level {
+  white-space: nowrap;
+}
+
+.cert-level.beginner { color: var(--success); }
+.cert-level.intermediate { color: var(--warning); }
+.cert-level.expert { color: #f85149; }
+
+.cert-cost {
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+
+.cert-category {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  max-width: 140px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.footer {
+  margin-top: 2rem;
+  padding: 1rem 1.5rem;
+  border-top: 1px solid var(--border);
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+.footer a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer code {
+  background: var(--surface);
+  padding: 0.1em 0.35em;
+  border-radius: 4px;
+  font-size: 0.85em;
+}

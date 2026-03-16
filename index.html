@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Security Certification Roadmap – NICE Filterable</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="header">
+    <h1>Security Certification Roadmap</h1>
+    <p class="tagline">Filter by NICE Framework Work Roles · Sort by level and cost · <a href="https://pauljerimy.com/security-certification-roadmap/" target="_blank" rel="noopener">Based on Paul Jerimy’s roadmap</a></p>
+  </header>
+
+  <main class="main">
+    <section class="controls">
+      <div class="control-group">
+        <label for="filter-nice">Filter by NICE Work Role</label>
+        <select id="filter-nice" multiple size="6">
+                  </select>
+        <small>Hold Ctrl/Cmd to select multiple</small>
+      </div>
+      <div class="control-group">
+        <label for="filter-category">Work Role Category</label>
+        <select id="filter-category">
+          <option value="">— All categories —</option>
+        </select>
+      </div>
+      <div class="control-group">
+        <label class="checkbox-label">
+          <input type="checkbox" id="filter-dod8140" value="1">
+          DoD 8140 only
+        </label>
+      </div>
+      <div class="control-group">
+        <label for="sort-by">Sort by</label>
+        <select id="sort-by">
+          <option value="level-asc">Level (Beginner → Expert)</option>
+          <option value="level-desc">Level (Expert → Beginner)</option>
+          <option value="cost-asc">Cost (low → high)</option>
+          <option value="cost-desc">Cost (high → low)</option>
+          <option value="name">Name A–Z</option>
+        </select>
+      </div>
+      <div class="control-group">
+        <button type="button" id="reset-filters">Reset filters</button>
+      </div>
+    </section>
+
+    <p class="result-count" id="result-count"></p>
+
+    <div class="results" id="results">
+      <!-- Filled by app.js -->
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>Certification data from <a href="https://pauljerimy.com/security-certification-roadmap/" target="_blank" rel="noopener">Paul Jerimy</a> (July 2024). NICE Framework from <a href="https://www.nist.gov/itl/applied-cybersecurity/nice" target="_blank" rel="noopener">NIST</a>. DoD 8140 from <a href="https://www.cyber.mil/dod-workforce-innovation-directorate/dod8140" target="_blank" rel="noopener">DoD Cybersecurity Workforce Qualification Program</a>. Cost and NICE mapping can be updated in <code>data/certs.json</code>.</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
