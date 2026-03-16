@@ -4,8 +4,10 @@
   "description": "Static NICE-filterable security certification roadmap with DoD 8140 enrichment",
   "private": true,
   "scripts": {
+    "build": "node scripts/validate-build.js",
     "parse-dod8140": "node scripts/parse-dod8140.js",
-    "enrich-dod8140": "node scripts/enrich-dod8140.js"
+    "enrich-dod8140": "node scripts/enrich-dod8140.js",
+    "enable-pages": "node scripts/enable-github-pages.js"
   },
   "dependencies": {
     "xlsx": "^0.18.5"

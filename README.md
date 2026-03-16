@@ -62,6 +62,10 @@ The repo is set up for GitHub Pages with a `.nojekyll` file (so Jekyll is not ru
 
 If your default branch is not `main`, either use Option A with that branch, or edit the workflow `branches: [main]` to match your branch name.
 
+**Option C – Enable from CLI (after repo is on GitHub)**  
+If the repo has a remote and you use [GitHub CLI](https://cli.github.com/) (`gh auth login`), you can enable Pages from the project root:  
+`npm run enable-pages`
+
 ---
 
 ## Attribution
@@ -82,16 +86,6 @@ node scripts/build-certs.js path/to/roadmap-sample.txt
 
 This overwrites `data/certs.json` with parsed certs, inferred categories, and NICE role IDs from the category mapping in the script. You can then edit `data/certs.json` to add costs or adjust NICE roles.
 
----
-
-## DoD 8140 enrichment
-
-To refresh DoD 8140 alignment (e.g. after the DoD matrix is updated):
-
-1. Download the **Cybersecurity Qualification Matrix** (xlsx) from the [DoD 8140](https://www.cyber.mil/dod-workforce-innovation-directorate/dod8140) site and save it as `scripts/data/DoD8140MatrixV2.1.xlsx`.
-2. Run: `npm run parse-dod8140` to parse the xlsx and generate `scripts/data/dod8140-lookup.json`.
-3. Run: `npm run enrich-dod8140` to merge the lookup into `data/certs.json` (sets `dod8140` and `dodWorkRoleCodes` per cert).
-4. Reload the site; the "DoD 8140 only" filter and DoD 8140 badges will reflect the updated data.
 
 ---
 
