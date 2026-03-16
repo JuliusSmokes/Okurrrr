@@ -35,7 +35,7 @@
   <section class="hero">
     <div class="hero-inner">
       <h2>Okurrrr &mdash; Set your Objectives. Certifications are the Key Results.</h2>
-      <p>Your cybersecurity career roadmap. Browse 629 certifications, 275+ curated free resources, and the complete DEF CON Media archive. Filter by NICE Work Role, CISSP domain, vendor, or level. Aligned with NIST NICE Framework, NIST CSF, NIST RMF, NIST AI RMF, OWASP, DoD 8140, and the CISSP CBK.</p>
+      <p>Your cybersecurity career roadmap. Browse 629 certifications, 417 curated free resources, and the complete DEF CON Media archive. Build a personalized Career Pathfinder with progress tracking. Aligned with NIST NICE Framework, NIST CSF, NIST RMF, NIST AI RMF, OWASP, DoD 8140, and the CISSP CBK.</p>
       <div class="hero-stats">
         <div class="stat-badge stat-pink">
           <span class="stat-number" id="stat-certs">--</span>
@@ -68,6 +68,9 @@
       </button>
       <button class="tab" role="tab" aria-selected="false" data-tab="defcon">
         DEF CON Media <span class="tab-count" id="tab-count-defcon">--</span>
+      </button>
+      <button class="tab" role="tab" aria-selected="false" data-tab="pathfinder">
+        Career Pathfinder <span class="tab-count" id="tab-count-pathfinder">18</span>
       </button>
     </div>
 
@@ -190,6 +193,30 @@
       <div class="control-group">
         <button type="button" id="reset-res-filters" class="btn-ghost">Reset filters</button>
       </div>
+    </section>
+
+    <section id="pathfinder-panel" style="display:none">
+      <div class="pathfinder-selector">
+        <h3 class="pathfinder-heading">Choose your career path</h3>
+        <p class="pathfinder-subtext">Select a job title, NICE Work Role, or CISSP Domain to build a personalized roadmap with certifications, training, tools, and milestones.</p>
+        <div class="pathfinder-inputs">
+          <div class="control-group">
+            <label for="pf-nice-role">NICE Work Role</label>
+            <select id="pf-nice-role">
+              <option value="">-- Select a role --</option>
+            </select>
+          </div>
+          <div class="control-group">
+            <label for="pf-cissp-domain">CISSP Domain</label>
+            <select id="pf-cissp-domain">
+              <option value="">-- Select a domain --</option>
+            </select>
+          </div>
+        </div>
+        <div class="pathfinder-chips" id="pathfinder-chips"></div>
+        <button type="button" class="btn-build-path" id="build-path-btn" disabled>Build My Path</button>
+      </div>
+      <div id="pathfinder-timeline" style="display:none"></div>
     </section>
 
     <div class="chip-section" id="chip-section">

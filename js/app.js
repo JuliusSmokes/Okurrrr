@@ -50,11 +50,22 @@
   var defconMedia = [];
   var niceWorkRoles = [];
   var cisspDomains = [];
+  var careerPaths = [];
   var selectedRoleIds = new Set();
   var selectedCategoryId = '';
   var searchTerm = '';
   var debounceTimer = null;
   var activeTab = 'certs';
+  var selectedPath = null;
+  var pathfinderProgress = {};
+
+  var pathfinderPanelEl = document.getElementById('pathfinder-panel');
+  var pathfinderTimelineEl = document.getElementById('pathfinder-timeline');
+  var pathfinderChipsEl = document.getElementById('pathfinder-chips');
+  var tabCountPathfinderEl = document.getElementById('tab-count-pathfinder');
+  var buildPathBtn = document.getElementById('build-path-btn');
+  var pfNiceRoleEl = document.getElementById('pf-nice-role');
+  var pfCisspDomainEl = document.getElementById('pf-cissp-domain');
 
   var CISSP_SHORT = {
     'cissp-d1': 'D1: Risk Mgmt',
@@ -761,6 +772,416 @@
     });
   }
 
+  /* ── Career Pathfinder ── */
+
+  function loadPathfinderProgress() {
+    try {
+      var raw = localStorage.getItem('okurrrr-pathfinder');
+      return raw ? JSON.parse(raw) : {};
+    } catch (e) { return {}; }
+  }
+
+  function savePathfinderProgress() {
+    try { localStorage.setItem('okurrrr-pathfinder', JSON.stringify(pathfinderProgress)); } catch (e) {}
+  }
+
+  function populatePathfinderDropdowns() {
+    if (pfNiceRoleEl) {
+      pfNiceRoleEl.innerHTML = '<option value="">-- Select a role --</option>';
+      niceWorkRoles.forEach(function (r) {
+        var opt = document.createElement('option');
+        opt.value = r.id;
+        opt.textContent = r.name;
+        pfNiceRoleEl.appendChild(opt);
+      });
+    }
+    if (pfCisspDomainEl) {
+      pfCisspDomainEl.innerHTML = '<option value="">-- Select a domain --</option>';
+      cisspDomains.forEach(function (d) {
+        var opt = document.createElement('option');
+        opt.value = d.id;
+        opt.textContent = d.name;
+        pfCisspDomainEl.appendChild(opt);
+      });
+    }
+  }
+
+  function buildPathfinderChips() {
+    if (!pathfinderChipsEl) return;
+    pathfinderChipsEl.innerHTML = '';
+    careerPaths.forEach(function (p) {
+      var chip = document.createElement('button');
+      chip.className = 'path-chip';
+      chip.type = 'button';
+      chip.textContent = p.title;
+      chip.dataset.pathId = p.id;
+      chip.addEventListener('click', function () { selectCareerPath(p.id); });
+      pathfinderChipsEl.appendChild(chip);
+    });
+  }
+
+  function selectCareerPath(pathId) {
+    selectedPath = careerPaths.find(function (p) { return p.id === pathId; }) || null;
+    if (pfNiceRoleEl) pfNiceRoleEl.value = '';
+    if (pfCisspDomainEl) pfCisspDomainEl.value = '';
+
+    var chips = pathfinderChipsEl.querySelectorAll('.path-chip');
+    chips.forEach(function (c) {
+      c.classList.toggle('active', c.dataset.pathId === pathId);
+    });
+
+    if (buildPathBtn) buildPathBtn.disabled = !selectedPath;
+  }
+
+  function selectPathByNiceRole(roleId) {
+    if (!roleId) { selectedPath = null; updateBuildBtn(); return; }
+    var match = careerPaths.find(function (p) {
+      return p.niceRoleIds.indexOf(roleId) !== -1;
+    });
+    if (match) {
+      selectCareerPath(match.id);
+    } else {
+      selectedPath = null;
+      var chips = pathfinderChipsEl.querySelectorAll('.path-chip');
+      chips.forEach(function (c) { c.classList.remove('active'); });
+      updateBuildBtn();
+    }
+  }
+
+  function selectPathByCisspDomain(domainId) {
+    if (!domainId) { selectedPath = null; updateBuildBtn(); return; }
+    var match = careerPaths.find(function (p) {
+      return p.cisspDomains.indexOf(domainId) !== -1;
+    });
+    if (match) {
+      selectCareerPath(match.id);
+    } else {
+      selectedPath = null;
+      var chips = pathfinderChipsEl.querySelectorAll('.path-chip');
+      chips.forEach(function (c) { c.classList.remove('active'); });
+      updateBuildBtn();
+    }
+  }
+
+  function updateBuildBtn() {
+    if (buildPathBtn) buildPathBtn.disabled = !selectedPath;
+  }
+
+  function arraysIntersect(a, b) {
+    if (!a || !b) return false;
+    for (var i = 0; i < a.length; i++) {
+      if (b.indexOf(a[i]) !== -1) return true;
+    }
+    return false;
+  }
+
+  function buildPathfinder() {
+    if (!selectedPath) return;
+    var path = selectedPath;
+    pathfinderProgress = loadPathfinderProgress();
+
+    var pathCerts = certs.filter(function (c) {
+      return arraysIntersect(c.niceWorkRoleIds, path.niceRoleIds) ||
+             arraysIntersect(c.cisspDomains, path.cisspDomains);
+    });
+
+    var pathResources = resources.filter(function (r) {
+      return arraysIntersect(r.cisspDomains, path.cisspDomains) ||
+             (path.resourceCategories.indexOf(r.category) !== -1);
+    });
+
+    var pathTools = resources.filter(function (r) {
+      return path.toolCategories.indexOf(r.category) !== -1;
+    });
+
+    var groupedCerts = groupByLevel(pathCerts);
+    var groupedRes = groupByLevel(pathResources);
+    var groupedTools = groupByLevel(pathTools);
+
+    renderPathfinderTimeline(path, groupedCerts, groupedRes, groupedTools);
+  }
+
+  function groupByLevel(items) {
+    var grouped = { Beginner: [], Intermediate: [], Expert: [] };
+    items.forEach(function (item) {
+      var lvl = item.level || 'Beginner';
+      if (grouped[lvl]) grouped[lvl].push(item);
+      else grouped.Beginner.push(item);
+    });
+    grouped.Beginner.sort(function (a, b) { return a.name.localeCompare(b.name); });
+    grouped.Intermediate.sort(function (a, b) { return a.name.localeCompare(b.name); });
+    grouped.Expert.sort(function (a, b) { return a.name.localeCompare(b.name); });
+    return grouped;
+  }
+
+  function renderPathfinderTimeline(path, groupedCerts, groupedRes, groupedTools) {
+    var el = pathfinderTimelineEl;
+    if (!el) return;
+
+    var checked = pathfinderProgress[path.id] || {};
+    var totalItems = 0;
+    var checkedCount = 0;
+
+    function countItems(grouped, prefix) {
+      ['Beginner', 'Intermediate', 'Expert'].forEach(function (lvl) {
+        grouped[lvl].forEach(function (item) {
+          totalItems++;
+          if (checked[prefix + item.id]) checkedCount++;
+        });
+      });
+    }
+
+    countItems(groupedCerts, 'cert-');
+    countItems(groupedRes, 'res-');
+    countItems(groupedTools, 'tool-');
+
+    var pct = totalItems > 0 ? Math.round((checkedCount / totalItems) * 100) : 0;
+
+    var html = '';
+
+    html += '<div class="pf-timeline-header">' +
+      '<div class="pf-timeline-title">Career Pathfinder: <span>' + escapeHtml(path.title) + '</span></div>' +
+      '<button type="button" class="pf-change-btn" id="pf-change-btn">&larr; Change Role</button>' +
+    '</div>';
+
+    html += '<div class="pf-overall-progress">' +
+      '<div class="pf-overall-label"><span>Overall Progress</span><span>' + checkedCount + ' / ' + totalItems + ' milestones (' + pct + '%)</span></div>' +
+      '<div class="pf-progress-track"><div class="pf-progress-fill" style="width:' + pct + '%"></div></div>' +
+    '</div>';
+
+    html += '<div class="pf-stages">' +
+      '<div class="pf-stage"><div class="pf-stage-node beginner">1</div><div class="pf-stage-label">Beginner</div></div>' +
+      '<div class="pf-stage-line"></div>' +
+      '<div class="pf-stage"><div class="pf-stage-node intermediate">2</div><div class="pf-stage-label">Intermediate</div></div>' +
+      '<div class="pf-stage-line"></div>' +
+      '<div class="pf-stage"><div class="pf-stage-node expert">3</div><div class="pf-stage-label">Expert</div></div>' +
+    '</div>';
+
+    html += renderSwimlaneCerts('Certifications', groupedCerts, 'cert-', checked, path);
+    html += renderSwimlaneResources('Free Training', groupedRes, 'res-', checked, path);
+    html += renderSwimlaneResources('Tools to Learn', groupedTools, 'tool-', checked, path);
+    html += renderSwimlaneLearningPath(path);
+    html += renderProgressSummary(path, groupedCerts, groupedRes, groupedTools, checked);
+
+    el.innerHTML = html;
+    el.style.display = '';
+
+    el.querySelector('#pf-change-btn').addEventListener('click', resetPathfinder);
+
+    el.querySelectorAll('.pf-check').forEach(function (cb) {
+      cb.addEventListener('change', function () {
+        handlePathfinderCheck(path.id, cb.dataset.itemKey, cb.checked);
+      });
+    });
+
+    document.querySelector('.pathfinder-selector').style.display = 'none';
+  }
+
+  function renderSwimlaneCerts(title, grouped, prefix, checked, path) {
+    var total = grouped.Beginner.length + grouped.Intermediate.length + grouped.Expert.length;
+    var html = '<div class="pf-swimlane">' +
+      '<div class="pf-swimlane-header">' + escapeHtml(title) + ' <span class="pf-lane-count">(' + total + ')</span></div>' +
+      '<div class="pf-swimlane-body">';
+
+    ['Beginner', 'Intermediate', 'Expert'].forEach(function (lvl) {
+      html += '<div class="pf-level-col">' +
+        '<div class="pf-level-col-header ' + lvl.toLowerCase() + '">' + lvl + '</div>';
+
+      if (grouped[lvl].length === 0) {
+        html += '<div class="pf-item-none">None at this level</div>';
+      } else {
+        grouped[lvl].forEach(function (cert) {
+          var key = prefix + cert.id;
+          var isChecked = checked[key] ? ' checked' : '';
+          var completedClass = checked[key] ? ' completed' : '';
+          var displayName = cert.fullName || cert.name;
+          var meta = escapeHtml(cert.vendor || '') + (cert.costUsd != null ? ' &middot; ' + escapeHtml(formatCost(cert)) : '');
+
+          html += '<div class="pf-item' + completedClass + '">' +
+            '<input type="checkbox" class="pf-check" data-item-key="' + escapeHtml(key) + '"' + isChecked + '>' +
+            '<div class="pf-item-info">' +
+              '<a class="pf-item-name" href="' + escapeHtml(cert.url) + '" target="_blank" rel="noopener">' + escapeHtml(displayName) + '</a>' +
+              '<div class="pf-item-meta">' + meta + '</div>' +
+            '</div>' +
+          '</div>';
+        });
+      }
+
+      html += '</div>';
+    });
+
+    html += '</div></div>';
+    return html;
+  }
+
+  function renderSwimlaneResources(title, grouped, prefix, checked, path) {
+    var total = grouped.Beginner.length + grouped.Intermediate.length + grouped.Expert.length;
+    var html = '<div class="pf-swimlane">' +
+      '<div class="pf-swimlane-header">' + escapeHtml(title) + ' <span class="pf-lane-count">(' + total + ')</span></div>' +
+      '<div class="pf-swimlane-body">';
+
+    ['Beginner', 'Intermediate', 'Expert'].forEach(function (lvl) {
+      html += '<div class="pf-level-col">' +
+        '<div class="pf-level-col-header ' + lvl.toLowerCase() + '">' + lvl + '</div>';
+
+      if (grouped[lvl].length === 0) {
+        html += '<div class="pf-item-none">None at this level</div>';
+      } else {
+        grouped[lvl].forEach(function (res) {
+          var key = prefix + res.id;
+          var isChecked = checked[key] ? ' checked' : '';
+          var completedClass = checked[key] ? ' completed' : '';
+          var meta = escapeHtml(res.provider || '') + ' &middot; ' + escapeHtml(res.category || '');
+
+          html += '<div class="pf-item' + completedClass + '">' +
+            '<input type="checkbox" class="pf-check" data-item-key="' + escapeHtml(key) + '"' + isChecked + '>' +
+            '<div class="pf-item-info">' +
+              '<a class="pf-item-name" href="' + escapeHtml(res.url) + '" target="_blank" rel="noopener">' + escapeHtml(res.name) + '</a>' +
+              '<div class="pf-item-meta">' + meta + '</div>' +
+            '</div>' +
+          '</div>';
+        });
+      }
+
+      html += '</div>';
+    });
+
+    html += '</div></div>';
+    return html;
+  }
+
+  function renderSwimlaneLearningPath(path) {
+    var html = '<div class="pf-swimlane">' +
+      '<div class="pf-swimlane-header">Learning Path</div>' +
+      '<div class="pf-swimlane-body">';
+
+    path.phases.forEach(function (phase) {
+      var lvlClass = (phase.level || 'Beginner').toLowerCase();
+      html += '<div class="pf-level-col">' +
+        '<div class="pf-level-col-header ' + lvlClass + '">' + escapeHtml(phase.level) + '</div>' +
+        '<div class="pf-phase-card">' +
+          '<div class="pf-phase-title">' + escapeHtml(phase.name) + '</div>' +
+          '<ul class="pf-phase-skills">';
+
+      phase.skills.forEach(function (skill) {
+        html += '<li>' + escapeHtml(skill) + '</li>';
+      });
+
+      html += '</ul></div></div>';
+    });
+
+    html += '</div></div>';
+    return html;
+  }
+
+  function renderProgressSummary(path, groupedCerts, groupedRes, groupedTools, checked) {
+    function calcPct(grouped, prefix) {
+      var total = 0;
+      var done = 0;
+      ['Beginner', 'Intermediate', 'Expert'].forEach(function (lvl) {
+        grouped[lvl].forEach(function (item) {
+          total++;
+          if (checked[prefix + item.id]) done++;
+        });
+      });
+      return total > 0 ? Math.round((done / total) * 100) : 0;
+    }
+
+    function calcLevelPct(level) {
+      var total = 0;
+      var done = 0;
+      [groupedCerts, groupedRes, groupedTools].forEach(function (g) {
+        g[level].forEach(function (item) {
+          total++;
+          var prefix = g === groupedCerts ? 'cert-' : (g === groupedRes ? 'res-' : 'tool-');
+          if (checked[prefix + item.id]) done++;
+        });
+      });
+      return total > 0 ? Math.round((done / total) * 100) : 0;
+    }
+
+    var certPct = calcPct(groupedCerts, 'cert-');
+    var resPct = calcPct(groupedRes, 'res-');
+    var toolPct = calcPct(groupedTools, 'tool-');
+    var begPct = calcLevelPct('Beginner');
+    var intPct = calcLevelPct('Intermediate');
+    var expPct = calcLevelPct('Expert');
+
+    var html = '<div class="pf-progress-section"><h4>Milestone Progress</h4>';
+
+    html += progressRow('Beginner Stage', begPct, 'beginner');
+    html += progressRow('Intermediate Stage', intPct, 'intermediate');
+    html += progressRow('Expert Stage', expPct, 'expert');
+    html += progressRow('Certifications', certPct, 'gradient');
+    html += progressRow('Free Training', resPct, 'gradient');
+    html += progressRow('Tools', toolPct, 'gradient');
+
+    html += '</div>';
+    return html;
+  }
+
+  function progressRow(label, pct, fillClass) {
+    return '<div class="pf-progress-row">' +
+      '<span class="pf-progress-row-label">' + escapeHtml(label) + '</span>' +
+      '<div class="pf-progress-row-track"><div class="pf-progress-row-fill ' + fillClass + '" style="width:' + pct + '%"></div></div>' +
+      '<span class="pf-progress-row-pct">' + pct + '%</span>' +
+    '</div>';
+  }
+
+  function handlePathfinderCheck(pathId, itemKey, isChecked) {
+    if (!pathfinderProgress[pathId]) pathfinderProgress[pathId] = {};
+    if (isChecked) {
+      pathfinderProgress[pathId][itemKey] = true;
+    } else {
+      delete pathfinderProgress[pathId][itemKey];
+    }
+    savePathfinderProgress();
+
+    var item = document.querySelector('.pf-check[data-item-key="' + itemKey + '"]');
+    if (item) {
+      item.closest('.pf-item').classList.toggle('completed', isChecked);
+    }
+
+    updatePathfinderProgressBars();
+  }
+
+  function updatePathfinderProgressBars() {
+    if (!selectedPath) return;
+    var path = selectedPath;
+    var checked = pathfinderProgress[path.id] || {};
+
+    var allChecks = pathfinderTimelineEl.querySelectorAll('.pf-check');
+    var totalItems = allChecks.length;
+    var checkedCount = 0;
+    allChecks.forEach(function (cb) { if (cb.checked) checkedCount++; });
+
+    var pct = totalItems > 0 ? Math.round((checkedCount / totalItems) * 100) : 0;
+
+    var overallFill = pathfinderTimelineEl.querySelector('.pf-progress-fill');
+    if (overallFill) overallFill.style.width = pct + '%';
+
+    var overallLabel = pathfinderTimelineEl.querySelector('.pf-overall-label');
+    if (overallLabel) {
+      overallLabel.innerHTML = '<span>Overall Progress</span><span>' + checkedCount + ' / ' + totalItems + ' milestones (' + pct + '%)</span>';
+    }
+
+    buildPathfinder();
+  }
+
+  function resetPathfinder() {
+    selectedPath = null;
+    if (pathfinderTimelineEl) pathfinderTimelineEl.style.display = 'none';
+    var selector = document.querySelector('.pathfinder-selector');
+    if (selector) selector.style.display = '';
+
+    if (pfNiceRoleEl) pfNiceRoleEl.value = '';
+    if (pfCisspDomainEl) pfCisspDomainEl.value = '';
+    if (buildPathBtn) buildPathBtn.disabled = true;
+
+    var chips = pathfinderChipsEl ? pathfinderChipsEl.querySelectorAll('.path-chip') : [];
+    chips.forEach(function (c) { c.classList.remove('active'); });
+  }
+
   /* ── Tab switching ── */
 
   function switchTab(tab) {
@@ -775,23 +1196,46 @@
     controlsCertsEl.style.display = 'none';
     controlsResEl.style.display = 'none';
     if (controlsDefconEl) controlsDefconEl.style.display = 'none';
+    if (pathfinderPanelEl) pathfinderPanelEl.style.display = 'none';
     chipSectionEl.style.display = 'none';
+
+    var searchBarEl = document.querySelector('.search-bar');
+    var activeFiltersBar = document.getElementById('active-filters');
+    var resultCountLine = document.getElementById('result-count');
 
     if (tab === 'certs') {
       controlsCertsEl.style.display = '';
       chipSectionEl.style.display = '';
       searchInput.placeholder = 'Search by name, vendor, or keyword...';
+      if (searchBarEl) searchBarEl.style.display = '';
+      if (activeFiltersBar) activeFiltersBar.style.display = '';
+      if (resultCountLine) resultCountLine.style.display = '';
+      resultsEl.style.display = '';
     } else if (tab === 'resources') {
       controlsResEl.style.display = '';
       searchInput.placeholder = 'Search by name, provider, or keyword...';
+      if (searchBarEl) searchBarEl.style.display = '';
+      if (activeFiltersBar) activeFiltersBar.style.display = '';
+      if (resultCountLine) resultCountLine.style.display = '';
+      resultsEl.style.display = '';
     } else if (tab === 'defcon') {
       if (controlsDefconEl) controlsDefconEl.style.display = '';
       searchInput.placeholder = 'Search DEF CON conferences...';
+      if (searchBarEl) searchBarEl.style.display = '';
+      if (activeFiltersBar) activeFiltersBar.style.display = '';
+      if (resultCountLine) resultCountLine.style.display = '';
+      resultsEl.style.display = '';
+    } else if (tab === 'pathfinder') {
+      if (pathfinderPanelEl) pathfinderPanelEl.style.display = '';
+      if (searchBarEl) searchBarEl.style.display = 'none';
+      if (activeFiltersBar) activeFiltersBar.style.display = 'none';
+      if (resultCountLine) resultCountLine.style.display = 'none';
+      resultsEl.style.display = 'none';
     }
 
     searchInput.value = '';
     searchTerm = '';
-    runFilterAndRender();
+    if (tab !== 'pathfinder') runFilterAndRender();
   }
 
   /* ── Hero stats ── */
@@ -808,6 +1252,7 @@
     if (tabCountCertsEl) tabCountCertsEl.textContent = certs.length;
     if (tabCountResEl) tabCountResEl.textContent = resources.length;
     if (tabCountDefconEl) tabCountDefconEl.textContent = defconMedia.length;
+    if (tabCountPathfinderEl) tabCountPathfinderEl.textContent = careerPaths.length;
   }
 
   /* ── Master filter + render ── */
@@ -826,6 +1271,8 @@
       var filteredDc = filterDefcon();
       renderDefcon(filteredDc);
       renderActiveFiltersDefcon();
+    } else if (activeTab === 'pathfinder') {
+      activeFiltersEl.innerHTML = '';
     }
   }
 
@@ -977,6 +1424,14 @@
     btn.addEventListener('click', function () { switchTab(btn.dataset.tab); });
   });
 
+  if (pfNiceRoleEl) pfNiceRoleEl.addEventListener('change', function () {
+    selectPathByNiceRole(pfNiceRoleEl.value);
+  });
+  if (pfCisspDomainEl) pfCisspDomainEl.addEventListener('change', function () {
+    selectPathByCisspDomain(pfCisspDomainEl.value);
+  });
+  if (buildPathBtn) buildPathBtn.addEventListener('click', buildPathfinder);
+
   searchInput.addEventListener('input', function () {
     clearTimeout(debounceTimer);
     debounceTimer = setTimeout(function () {
@@ -1006,13 +1461,15 @@
     loadJSON('data/nice-work-roles.json'),
     loadJSON('data/cissp-domains.json'),
     loadJSON('data/free-resources.json'),
-    loadJSON('data/defcon-media.json')
+    loadJSON('data/defcon-media.json'),
+    loadJSON('data/career-paths.json')
   ]).then(function (results) {
     certs = results[0] || [];
     niceWorkRoles = results[1] || [];
     cisspDomains = results[2] || [];
     resources = results[3] || [];
     defconMedia = results[4] || [];
+    careerPaths = results[5] || [];
     populateCategoryFilter();
     populateVendorFilter();
     populateRegionFilter();
@@ -1021,6 +1478,9 @@
     populateResProviderFilter();
     populateResCisspFilter();
     buildChipPanel();
+    populatePathfinderDropdowns();
+    buildPathfinderChips();
+    pathfinderProgress = loadPathfinderProgress();
     updateStats();
     runFilterAndRender();
   }).catch(function (err) {

@@ -1,0 +1,254 @@
+[
+  {
+    "id": "soc-analyst",
+    "title": "SOC Analyst",
+    "description": "Monitor, detect, and respond to security events in a Security Operations Center.",
+    "niceRoleIds": ["PD-WRL-001", "PD-WRL-003", "PD-WRL-006"],
+    "cisspDomains": ["cissp-d4", "cissp-d7"],
+    "resourceCategories": ["Blue Team and DFIR", "Query Languages", "Threat Intelligence"],
+    "toolCategories": ["Command Shells and CLI Tools", "Blue Team and DFIR", "OS and Command Line"],
+    "phases": [
+      { "name": "Foundation", "level": "Beginner", "skills": ["Networking basics (TCP/IP, DNS, HTTP)", "Linux command line proficiency", "Security fundamentals (CIA triad, risk)", "Python scripting basics"] },
+      { "name": "Specialization", "level": "Intermediate", "skills": ["SIEM operations (Splunk, Elastic)", "Log analysis and triage", "Incident response procedures", "Threat intelligence consumption", "Malware triage"] },
+      { "name": "Mastery", "level": "Expert", "skills": ["Threat hunting methodology", "IR leadership and playbook development", "Advanced forensics", "SOC process engineering", "Mentoring junior analysts"] }
+    ]
+  },
+  {
+    "id": "penetration-tester",
+    "title": "Penetration Tester",
+    "description": "Simulate adversary attacks to identify vulnerabilities in networks, systems, and applications.",
+    "niceRoleIds": ["PD-WRL-007", "PD-WRL-001"],
+    "cisspDomains": ["cissp-d4", "cissp-d6"],
+    "resourceCategories": ["Red Team and Adversary Simulation", "CTFs", "Labs"],
+    "toolCategories": ["Command Shells and CLI Tools", "Red Team and Adversary Simulation", "OS and Command Line"],
+    "phases": [
+      { "name": "Foundation", "level": "Beginner", "skills": ["Networking and protocol analysis", "Linux/Windows administration", "Web application fundamentals", "Scripting (Python, Bash)"] },
+      { "name": "Specialization", "level": "Intermediate", "skills": ["Web app exploitation (OWASP Top 10)", "Network penetration testing", "Active Directory attacks", "Privilege escalation techniques", "Report writing"] },
+      { "name": "Mastery", "level": "Expert", "skills": ["Exploit development", "Red team operations", "Evasion and bypasses", "Custom tooling", "Physical and social engineering"] }
+    ]
+  },
+  {
+    "id": "cloud-security-engineer",
+    "title": "Cloud Security Engineer",
+    "description": "Secure cloud infrastructure, workloads, and services across AWS, Azure, and GCP.",
+    "niceRoleIds": ["DD-WRL-001", "DD-WRL-004", "IO-WRL-005"],
+    "cisspDomains": ["cissp-d3", "cissp-d4", "cissp-d5"],
+    "resourceCategories": ["Cloud Security", "DevSecOps Tools", "Hardening and Compliance"],
+    "toolCategories": ["DevSecOps Tools", "Command Shells and CLI Tools"],
+    "phases": [
+      { "name": "Foundation", "level": "Beginner", "skills": ["Cloud fundamentals (AWS/Azure/GCP)", "Networking in the cloud (VPCs, subnets, security groups)", "IAM policies and least privilege", "Linux/CLI basics"] },
+      { "name": "Specialization", "level": "Intermediate", "skills": ["Infrastructure as Code security (Terraform, CloudFormation)", "Container security (Docker, Kubernetes)", "Cloud SIEM and logging", "CIS Benchmarks for cloud", "Secrets management"] },
+      { "name": "Mastery", "level": "Expert", "skills": ["Multi-cloud security architecture", "Zero Trust networking", "Cloud-native incident response", "Compliance automation (FedRAMP, SOC 2)", "Cost-aware security engineering"] }
+    ]
+  },
+  {
+    "id": "grc-analyst",
+    "title": "GRC Analyst",
+    "description": "Manage governance, risk, and compliance programs aligned with regulatory frameworks.",
+    "niceRoleIds": ["OG-WRL-002", "OG-WRL-012", "OG-WRL-013", "OG-WRL-016"],
+    "cisspDomains": ["cissp-d1", "cissp-d2"],
+    "resourceCategories": ["Governance and Service Management", "Hardening and Compliance", "Privacy and Legal"],
+    "toolCategories": ["Governance and Service Management", "Hardening and Compliance"],
+    "phases": [
+      { "name": "Foundation", "level": "Beginner", "skills": ["Risk management fundamentals", "Compliance frameworks (NIST CSF, ISO 27001)", "Security policy development", "Business impact analysis"] },
+      { "name": "Specialization", "level": "Intermediate", "skills": ["Risk assessment methodology (NIST 800-30)", "Audit preparation and evidence collection", "Third-party risk management", "Control mapping across frameworks", "Privacy regulations (GDPR, CCPA)"] },
+      { "name": "Mastery", "level": "Expert", "skills": ["Enterprise risk management program", "Board-level security reporting", "Regulatory strategy and advocacy", "GRC tool implementation", "Cross-framework harmonization"] }
+    ]
+  },
+  {
+    "id": "dfir-specialist",
+    "title": "DFIR Specialist",
+    "description": "Investigate security incidents and perform digital forensics to contain threats and recover evidence.",
+    "niceRoleIds": ["PD-WRL-002", "PD-WRL-003"],
+    "cisspDomains": ["cissp-d7"],
+    "resourceCategories": ["Blue Team and DFIR", "Research"],
+    "toolCategories": ["Blue Team and DFIR", "Command Shells and CLI Tools", "OS and Command Line"],
+    "phases": [
+      { "name": "Foundation", "level": "Beginner", "skills": ["File systems and operating system internals", "Evidence collection and chain of custody", "Log analysis fundamentals", "Basic malware identification"] },
+      { "name": "Specialization", "level": "Intermediate", "skills": ["Disk and memory forensics", "Network forensics and PCAP analysis", "Timeline reconstruction", "Incident handling (NIST 800-61)", "YARA rule writing"] },
+      { "name": "Mastery", "level": "Expert", "skills": ["Advanced malware reverse engineering", "Threat actor attribution", "Enterprise-scale IR management", "Legal and regulatory considerations", "Forensic tool development"] }
+    ]
+  },
+  {
+    "id": "appsec-engineer",
+    "title": "Application Security Engineer",
+    "description": "Integrate security into the software development lifecycle through testing, code review, and secure design.",
+    "niceRoleIds": ["DD-WRL-003", "DD-WRL-005"],
+    "cisspDomains": ["cissp-d8", "cissp-d6"],
+    "resourceCategories": ["Courses", "Hardening and Compliance", "DevSecOps Tools"],
+    "toolCategories": ["DevSecOps Tools", "Command Shells and CLI Tools", "Hardening and Compliance"],
+    "phases": [
+      { "name": "Foundation", "level": "Beginner", "skills": ["Programming fundamentals (Python, JavaScript, Java)", "OWASP Top 10 vulnerabilities", "HTTP protocol and web architecture", "Version control (Git)"] },
+      { "name": "Specialization", "level": "Intermediate", "skills": ["SAST and DAST tool integration", "Secure code review methodology", "API security testing", "Threat modeling (STRIDE)", "CI/CD pipeline security"] },
+      { "name": "Mastery", "level": "Expert", "skills": ["Security architecture review", "Secure SDLC program management", "Bug bounty program management", "Custom security tooling", "Developer security training programs"] }
+    ]
+  },
+  {
+    "id": "security-architect",
+    "title": "Security Architect",
+    "description": "Design and oversee enterprise security architecture aligned with business objectives.",
+    "niceRoleIds": ["DD-WRL-001", "DD-WRL-002", "OG-WRL-007"],
+    "cisspDomains": ["cissp-d1", "cissp-d3", "cissp-d4", "cissp-d5"],
+    "resourceCategories": ["Hardening and Compliance", "Cloud Security", "Governance and Service Management"],
+    "toolCategories": ["DevSecOps Tools", "Hardening and Compliance"],
+    "phases": [
+      { "name": "Foundation", "level": "Beginner", "skills": ["Networking fundamentals (OSI, TCP/IP)", "Operating system security", "Cryptography basics", "Security frameworks (NIST, ISO)"] },
+      { "name": "Specialization", "level": "Intermediate", "skills": ["Enterprise architecture frameworks (TOGAF, SABSA)", "Zero Trust architecture", "Cloud security architecture", "Identity federation and SSO", "Network segmentation"] },
+      { "name": "Mastery", "level": "Expert", "skills": ["Security reference architectures", "Board and C-suite communication", "Technology evaluation and strategy", "Regulatory and compliance alignment", "Defense in depth program design"] }
+    ]
+  },
+  {
+    "id": "threat-intel-analyst",
+    "title": "Threat Intelligence Analyst",
+    "description": "Collect, analyze, and disseminate threat intelligence to inform defensive operations.",
+    "niceRoleIds": ["PD-WRL-006", "PD-WRL-005"],
+    "cisspDomains": ["cissp-d7"],
+    "resourceCategories": ["Threat Intelligence", "Research", "Community and News"],
+    "toolCategories": ["Blue Team and DFIR", "Research", "Command Shells and CLI Tools"],
+    "phases": [
+      { "name": "Foundation", "level": "Beginner", "skills": ["Intelligence cycle fundamentals", "OSINT collection techniques", "Malware identification basics", "STIX/TAXII data formats"] },
+      { "name": "Specialization", "level": "Intermediate", "skills": ["Threat actor profiling and tracking", "MITRE ATT&CK framework mapping", "Diamond Model of Intrusion Analysis", "Indicator enrichment and pivoting", "Intelligence report writing"] },
+      { "name": "Mastery", "level": "Expert", "skills": ["Strategic threat intelligence", "Hunt team leadership", "Attribution analysis", "Intelligence program development", "Cross-sector intelligence sharing"] }
+    ]
+  },
+  {
+    "id": "vuln-mgmt-analyst",
+    "title": "Vulnerability Management Analyst",
+    "description": "Identify, prioritize, and remediate vulnerabilities across the enterprise attack surface.",
+    "niceRoleIds": ["PD-WRL-007", "PD-WRL-004"],
+    "cisspDomains": ["cissp-d6", "cissp-d7"],
+    "resourceCategories": ["DevSecOps Tools", "Hardening and Compliance"],
+    "toolCategories": ["DevSecOps Tools", "Command Shells and CLI Tools"],
+    "phases": [
+      { "name": "Foundation", "level": "Beginner", "skills": ["Vulnerability scanning basics (Nessus, Qualys)", "CVE and CVSS scoring", "Patch management fundamentals", "Asset inventory and discovery"] },
+      { "name": "Specialization", "level": "Intermediate", "skills": ["Risk-based prioritization (CISA KEV, EPSS)", "Vulnerability chaining and exploit paths", "Configuration compliance scanning", "Remediation coordination", "Reporting and metrics (SLAs, MTTR)"] },
+      { "name": "Mastery", "level": "Expert", "skills": ["Attack surface management", "Vulnerability management program design", "Automation and orchestration", "Executive dashboards and KPIs", "Integration with threat intel feeds"] }
+    ]
+  },
+  {
+    "id": "iam-engineer",
+    "title": "Identity and Access Management Engineer",
+    "description": "Design and implement identity governance, authentication, and authorization systems.",
+    "niceRoleIds": ["IO-WRL-005", "IO-WRL-006"],
+    "cisspDomains": ["cissp-d5"],
+    "resourceCategories": ["Auth and Identity", "Cloud Security"],
+    "toolCategories": ["Auth and Identity", "DevSecOps Tools"],
+    "phases": [
+      { "name": "Foundation", "level": "Beginner", "skills": ["Active Directory administration", "LDAP and directory services", "Authentication protocols (Kerberos, SAML, OAuth)", "Role-based access control (RBAC)"] },
+      { "name": "Specialization", "level": "Intermediate", "skills": ["Identity federation and SSO", "Multi-factor authentication implementation", "Privileged Access Management (PAM)", "Identity governance and lifecycle", "Cloud IAM (AWS IAM, Azure AD, GCP IAM)"] },
+      { "name": "Mastery", "level": "Expert", "skills": ["Zero Trust identity architecture", "Identity analytics and UEBA", "Decentralized identity and FIDO2", "IAM program strategy", "Compliance automation for access reviews"] }
+    ]
+  },
+  {
+    "id": "devsecops-engineer",
+    "title": "DevSecOps Engineer",
+    "description": "Embed security into CI/CD pipelines and development workflows.",
+    "niceRoleIds": ["DD-WRL-003", "DD-WRL-004", "IO-WRL-005"],
+    "cisspDomains": ["cissp-d8", "cissp-d3"],
+    "resourceCategories": ["DevSecOps Tools", "Courses"],
+    "toolCategories": ["DevSecOps Tools", "Command Shells and CLI Tools"],
+    "phases": [
+      { "name": "Foundation", "level": "Beginner", "skills": ["Git, CI/CD basics (GitHub Actions, Jenkins)", "Linux administration", "Container fundamentals (Docker)", "Programming (Python, Go, or Bash)"] },
+      { "name": "Specialization", "level": "Intermediate", "skills": ["SAST/DAST/SCA integration in pipelines", "Infrastructure as Code scanning", "Container/image scanning (Trivy, Grype)", "Secrets management in CI/CD", "Policy as Code (OPA, Kyverno)"] },
+      { "name": "Mastery", "level": "Expert", "skills": ["Security pipeline architecture", "SBOM generation and supply chain security", "Runtime security (Falco, eBPF)", "Developer experience engineering", "Metrics and maturity models"] }
+    ]
+  },
+  {
+    "id": "malware-analyst",
+    "title": "Malware Analyst",
+    "description": "Reverse engineer and analyze malicious software to understand attacker capabilities.",
+    "niceRoleIds": ["PD-WRL-002", "PD-WRL-006"],
+    "cisspDomains": ["cissp-d7", "cissp-d8"],
+    "resourceCategories": ["Blue Team and DFIR", "Research"],
+    "toolCategories": ["Blue Team and DFIR", "Command Shells and CLI Tools", "OS and Command Line"],
+    "phases": [
+      { "name": "Foundation", "level": "Beginner", "skills": ["Operating system internals (Windows, Linux)", "Assembly language basics (x86/x64)", "C programming fundamentals", "File format analysis (PE, ELF)"] },
+      { "name": "Specialization", "level": "Intermediate", "skills": ["Static analysis with IDA/Ghidra", "Dynamic analysis in sandboxes", "Behavioral analysis and API monitoring", "YARA rule development", "Packing and obfuscation identification"] },
+      { "name": "Mastery", "level": "Expert", "skills": ["Advanced reverse engineering", "Exploit analysis and reproduction", "Malware family tracking and classification", "Custom unpacking and decryption", "Threat intelligence report authoring"] }
+    ]
+  },
+  {
+    "id": "red-team-operator",
+    "title": "Red Team Operator",
+    "description": "Conduct adversary emulation operations to test organizational detection and response capabilities.",
+    "niceRoleIds": ["PD-WRL-001", "PD-WRL-007"],
+    "cisspDomains": ["cissp-d6", "cissp-d7"],
+    "resourceCategories": ["Red Team and Adversary Simulation", "CTFs", "Labs"],
+    "toolCategories": ["Red Team and Adversary Simulation", "Command Shells and CLI Tools", "OS and Command Line"],
+    "phases": [
+      { "name": "Foundation", "level": "Beginner", "skills": ["Networking and system administration", "Penetration testing methodology", "Web and network exploitation basics", "Scripting (Python, PowerShell, Bash)"] },
+      { "name": "Specialization", "level": "Intermediate", "skills": ["C2 framework operation (Sliver, Cobalt Strike)", "Active Directory attack paths", "Phishing and initial access techniques", "Lateral movement and persistence", "Evasion techniques (AMSI, EDR bypass)"] },
+      { "name": "Mastery", "level": "Expert", "skills": ["Custom implant development", "Physical penetration testing", "Purple team collaboration", "Adversary tradecraft emulation (MITRE ATT&CK)", "Operation planning and reporting"] }
+    ]
+  },
+  {
+    "id": "security-awareness-trainer",
+    "title": "Security Awareness / Training Specialist",
+    "description": "Develop and deliver cybersecurity training and awareness programs for organizations.",
+    "niceRoleIds": ["OG-WRL-004", "OG-WRL-005"],
+    "cisspDomains": ["cissp-d1"],
+    "resourceCategories": ["Courses", "Community and News", "Career Development"],
+    "toolCategories": ["Community and News", "Governance and Service Management"],
+    "phases": [
+      { "name": "Foundation", "level": "Beginner", "skills": ["Security fundamentals and terminology", "Common threat landscape", "Social engineering awareness", "Phishing simulation basics"] },
+      { "name": "Specialization", "level": "Intermediate", "skills": ["Curriculum design and instructional methods", "Phishing campaign management (Gophish)", "Metrics and behavior change measurement", "Compliance training (PCI, HIPAA)", "Content creation and delivery"] },
+      { "name": "Mastery", "level": "Expert", "skills": ["Security culture transformation", "Executive briefing and storytelling", "Program maturity assessment", "Gamification and engagement strategies", "Cross-department partnership"] }
+    ]
+  },
+  {
+    "id": "network-security-engineer",
+    "title": "Network Security Engineer",
+    "description": "Design, implement, and maintain secure network architectures and defenses.",
+    "niceRoleIds": ["IO-WRL-004", "PD-WRL-004"],
+    "cisspDomains": ["cissp-d4"],
+    "resourceCategories": ["Networking and Infrastructure", "Hardening and Compliance"],
+    "toolCategories": ["Command Shells and CLI Tools", "Networking and Infrastructure"],
+    "phases": [
+      { "name": "Foundation", "level": "Beginner", "skills": ["TCP/IP and OSI model mastery", "Routing and switching (VLANs, subnets, ACLs)", "Firewall administration basics", "Wireless networking fundamentals"] },
+      { "name": "Specialization", "level": "Intermediate", "skills": ["Network segmentation and micro-segmentation", "IDS/IPS tuning (Snort, Suricata)", "VPN and encrypted tunnel configuration", "Network traffic analysis (Zeek, Wireshark)", "Load balancer and proxy security"] },
+      { "name": "Mastery", "level": "Expert", "skills": ["SD-WAN and SASE architecture", "Zero Trust network design", "DDoS mitigation strategy", "Network forensics and threat hunting", "Vendor-agnostic architecture design"] }
+    ]
+  },
+  {
+    "id": "privacy-engineer",
+    "title": "Privacy Engineer",
+    "description": "Implement technical controls to protect personal data and ensure privacy regulation compliance.",
+    "niceRoleIds": ["OG-WRL-008", "DD-WRL-003"],
+    "cisspDomains": ["cissp-d1", "cissp-d2"],
+    "resourceCategories": ["Privacy and Legal", "Governance and Service Management", "Hardening and Compliance"],
+    "toolCategories": ["Governance and Service Management", "DevSecOps Tools"],
+    "phases": [
+      { "name": "Foundation", "level": "Beginner", "skills": ["Privacy regulations overview (GDPR, CCPA, HIPAA)", "Data classification and mapping", "Privacy by Design principles", "Consent management basics"] },
+      { "name": "Specialization", "level": "Intermediate", "skills": ["Data protection impact assessments (DPIA)", "Anonymization and pseudonymization techniques", "Cross-border data transfer mechanisms", "Privacy-enhancing technologies (PETs)", "Data subject rights automation"] },
+      { "name": "Mastery", "level": "Expert", "skills": ["Privacy program architecture", "Differential privacy implementation", "International privacy law strategy", "Privacy engineering at scale", "Regulatory engagement and advocacy"] }
+    ]
+  },
+  {
+    "id": "cybercrime-investigator",
+    "title": "Cybercrime Investigator",
+    "description": "Investigate cybercrimes, collect digital evidence, and support law enforcement proceedings.",
+    "niceRoleIds": ["IN-WRL-001", "IN-WRL-002"],
+    "cisspDomains": ["cissp-d7"],
+    "resourceCategories": ["Blue Team and DFIR", "Research"],
+    "toolCategories": ["Blue Team and DFIR", "Command Shells and CLI Tools", "OS and Command Line"],
+    "phases": [
+      { "name": "Foundation", "level": "Beginner", "skills": ["Digital evidence fundamentals", "Chain of custody procedures", "Legal frameworks for cybercrime", "Basic forensic imaging and analysis"] },
+      { "name": "Specialization", "level": "Intermediate", "skills": ["Network traffic analysis for investigations", "Mobile and cloud forensics", "Cryptocurrency tracing", "Open source intelligence (OSINT)", "Report writing for legal proceedings"] },
+      { "name": "Mastery", "level": "Expert", "skills": ["Cross-jurisdiction investigation coordination", "Expert witness testimony", "Advanced anti-forensics detection", "Dark web investigations", "Investigation program management"] }
+    ]
+  },
+  {
+    "id": "ot-ics-security-engineer",
+    "title": "OT/ICS Security Engineer",
+    "description": "Secure operational technology and industrial control systems in critical infrastructure.",
+    "niceRoleIds": ["DD-WRL-009", "DD-WRL-004"],
+    "cisspDomains": ["cissp-d3", "cissp-d4"],
+    "resourceCategories": ["Hardening and Compliance", "Networking and Infrastructure"],
+    "toolCategories": ["Command Shells and CLI Tools", "Hardening and Compliance"],
+    "phases": [
+      { "name": "Foundation", "level": "Beginner", "skills": ["OT/ICS fundamentals (PLCs, HMIs, SCADA)", "Purdue Model for industrial networks", "ICS-specific protocols (Modbus, DNP3, OPC)", "IT/OT convergence challenges"] },
+      { "name": "Specialization", "level": "Intermediate", "skills": ["ICS network segmentation and monitoring", "NIST SP 800-82 implementation", "ICS vulnerability assessment", "Secure remote access for OT", "Safety instrumented systems (SIS)"] },
+      { "name": "Mastery", "level": "Expert", "skills": ["ICS threat intelligence and hunting", "Incident response for OT environments", "Regulatory compliance (NERC CIP, IEC 62443)", "IT/OT security program integration", "Critical infrastructure protection strategy"] }
+    ]
+  }
+]
