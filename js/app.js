@@ -593,11 +593,11 @@
             fpsLimit: 120,
             particles: {
               number: {
-                value: 120,
-                density: { enable: true, area: 700 }
+                value: 100,
+                density: { enable: true, area: 1000 }
               },
               color: {
-                value: ['#ff2d7b', '#00e5c7', '#f5a623']
+                value: ['#ff2d7b', '#ff5a9d', '#00e5c7', '#33f0d6', '#f5a623', '#58a6ff', '#a78bfa']
               },
               shape: { type: 'circle' },
               opacity: {
@@ -614,8 +614,8 @@
               },
               links: {
                 enable: true,
-                distance: 180,
-                color: { value: ['#ff2d7b', '#00e5c7', '#f5a623'] },
+                distance: 220,
+                color: { value: ['#ff2d7b', '#ff5a9d', '#00e5c7', '#33f0d6', '#f5a623', '#58a6ff', '#a78bfa'] },
                 opacity: 0.85,
                 width: 1.5
               },
@@ -624,7 +624,7 @@
                 speed: 1.8,
                 direction: 'none',
                 outModes: { default: 'bounce' },
-                attract: { enable: true, rotate: { x: 3000, y: 3000 } },
+                attract: { enable: true, rotate: { x: 1500, y: 1500 } },
                 random: true
               }
             },
@@ -635,7 +635,7 @@
                 onClick: { enable: true, mode: 'push' }
               },
               modes: {
-                grab: { distance: 200, links: { opacity: 1.0, color: '#ff2d7b' } },
+                grab: { distance: 250, links: { opacity: 1.0, color: '#a78bfa' } },
                 attract: { distance: 200, duration: 0.4, speed: 1 },
                 push: { quantity: 4 }
               }
