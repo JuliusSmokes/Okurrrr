@@ -610,7 +610,33 @@
               },
               collisions: {
                 enable: true,
-                mode: 'bounce'
+                mode: 'destroy'
+              },
+              destroy: {
+                mode: 'split',
+                split: {
+                  count: 2,
+                  factor: { value: { min: 2, max: 4 } },
+                  rate: { value: { min: 2, max: 3 } },
+                  particles: {
+                    collisions: { enable: false },
+                    destroy: { mode: 'none' },
+                    life: {
+                      count: 1,
+                      duration: { value: { min: 1, max: 3 } }
+                    },
+                    opacity: {
+                      value: { min: 0.3, max: 0.8 },
+                      animation: { enable: true, speed: 2, startValue: 'max', destroy: 'min', sync: false }
+                    },
+                    move: {
+                      speed: { min: 3, max: 6 },
+                      outModes: { default: 'out' },
+                      random: true,
+                      straight: false
+                    }
+                  }
+                }
               },
               links: {
                 enable: true,
@@ -624,7 +650,7 @@
                 speed: 1.8,
                 direction: 'none',
                 outModes: { default: 'bounce' },
-                attract: { enable: false },
+                attract: { enable: true, rotate: { x: 600, y: 600 } },
                 random: true
               }
             },
@@ -632,11 +658,12 @@
               detectsOn: 'canvas',
               events: {
                 onHover: { enable: true, mode: ['grab', 'attract'] },
-                onClick: { enable: true, mode: 'push' }
+                onClick: { enable: true, mode: ['push', 'repulse'] }
               },
               modes: {
                 grab: { distance: 250, links: { opacity: 1.0, color: '#a78bfa' } },
                 attract: { distance: 200, duration: 0.4, speed: 1 },
+                repulse: { distance: 200, duration: 0.8, speed: 1 },
                 push: { quantity: 4 }
               }
             },
