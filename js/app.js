@@ -1,6 +1,6 @@
 /**
- * Security Certification Roadmap – NICE Filterable
- * Loads certs + NICE work roles, renders chip-based filters, card grid, active filter bar.
+ * Okurrrr – Cybersecurity Career Launcher
+ * Loads certs + NICE work roles + CISSP domains, renders chip-based filters, card grid, active filter bar.
  */
 
 (function () {
@@ -9,7 +9,11 @@
   var resultsEl = document.getElementById('results');
   var resultCountEl = document.getElementById('result-count');
   var filterCategoryEl = document.getElementById('filter-category');
+  var filterVendorEl = document.getElementById('filter-vendor');
+  var filterLevelEl = document.getElementById('filter-level');
+  var filterCisspEl = document.getElementById('filter-cissp');
   var filterDod8140El = document.getElementById('filter-dod8140');
+  var filterFreeEl = document.getElementById('filter-free');
   var sortByEl = document.getElementById('sort-by');
   var resetBtn = document.getElementById('reset-filters');
   var searchInput = document.getElementById('search-input');
@@ -22,9 +26,11 @@
   var statCertsEl = document.getElementById('stat-certs');
   var statCategoriesEl = document.getElementById('stat-categories');
   var statRolesEl = document.getElementById('stat-roles');
+  var statFreeEl = document.getElementById('stat-free');
 
   var certs = [];
   var niceWorkRoles = [];
+  var cisspDomains = [];
   var selectedRoleIds = new Set();
   var selectedCategoryId = '';
   var searchTerm = '';
@@ -51,11 +57,11 @@
     if (cert.costUsd != null) {
       if (typeof cert.costUsd === 'number') return '$' + cert.costUsd.toLocaleString();
       if (cert.costUsd.min != null && cert.costUsd.max != null)
-        return '$' + cert.costUsd.min.toLocaleString() + '–' + cert.costUsd.max.toLocaleString();
+        return '$' + cert.costUsd.min.toLocaleString() + '\u2013' + cert.costUsd.max.toLocaleString();
       if (cert.costUsd.min != null) return '$' + cert.costUsd.min.toLocaleString() + '+';
     }
     if (cert.costNote) return cert.costNote;
-    return '—';
+    return '\u2014';
   }
 
   /* ── Sorting ── */
@@ -87,12 +93,25 @@
 
   function filterCerts() {
     var term = searchTerm.toLowerCase();
+    var vendorVal = filterVendorEl ? filterVendorEl.value : '';
+    var levelVal = filterLevelEl ? filterLevelEl.value : '';
+    var cisspVal = filterCisspEl ? filterCisspEl.value : '';
+
     return certs.filter(function (cert) {
       if (term) {
         var nameMatch = cert.name.toLowerCase().indexOf(term) !== -1;
         var fullMatch = cert.fullName && cert.fullName.toLowerCase().indexOf(term) !== -1;
         var vendorMatch = cert.vendor && cert.vendor.toLowerCase().indexOf(term) !== -1;
-        if (!nameMatch && !fullMatch && !vendorMatch) return false;
+        var descMatch = cert.description && cert.description.toLowerCase().indexOf(term) !== -1;
+        if (!nameMatch && !fullMatch && !vendorMatch && !descMatch) return false;
+      }
+
+      if (vendorVal && cert.vendor !== vendorVal) return false;
+
+      if (levelVal && cert.level !== levelVal) return false;
+
+      if (cisspVal) {
+        if (!cert.cisspDomains || cert.cisspDomains.indexOf(cisspVal) === -1) return false;
       }
 
       if (selectedCategoryId) {
@@ -112,6 +131,10 @@
 
       if (filterDod8140El && filterDod8140El.checked) {
         if (!cert.dod8140) return false;
+      }
+
+      if (filterFreeEl && filterFreeEl.checked) {
+        if (!cert.freeTraining) return false;
       }
 
       return true;
@@ -162,6 +185,16 @@
         card.className += ' cert-card-upcoming';
       }
 
+      var freeBadgeHtml = '';
+      if (cert.freeTraining) {
+        if (cert.freeTrainingUrl) {
+          freeBadgeHtml = '<span class="badge badge-free"><a href="' + escapeHtml(cert.freeTrainingUrl) +
+            '" target="_blank" rel="noopener" title="Free study resources available">Free Training \u2197</a></span>';
+        } else {
+          freeBadgeHtml = '<span class="badge badge-free" title="Free study resources available">Free Training</span>';
+        }
+      }
+
       var displayName = cert.fullName || cert.name;
       var acronym = (cert.fullName && cert.fullName !== cert.name)
         ? ' <span class="cert-acronym">(' + escapeHtml(cert.name) + ')</span>'
@@ -186,6 +219,7 @@
         '<div class="cert-card-footer">' +
           dodBadgeHtml +
           statusBadgeHtml +
+          freeBadgeHtml +
           '<span class="cert-cost">' + escapeHtml(formatCost(cert)) + '</span>' +
         '</div>';
 
@@ -286,11 +320,25 @@
     if (searchTerm) {
       chips.push({ label: 'Search: ' + searchTerm, clear: function () { searchInput.value = ''; searchTerm = ''; } });
     }
+    if (filterVendorEl && filterVendorEl.value) {
+      var vv = filterVendorEl.value;
+      chips.push({ label: 'Vendor: ' + vv, clear: function () { filterVendorEl.value = ''; } });
+    }
+    if (filterLevelEl && filterLevelEl.value) {
+      var lv = filterLevelEl.value;
+      chips.push({ label: 'Level: ' + lv, clear: function () { filterLevelEl.value = ''; } });
+    }
     if (selectedCategoryId) {
       var catName = '';
       var catOpt = filterCategoryEl.querySelector('option[value="' + selectedCategoryId + '"]');
       if (catOpt) catName = catOpt.textContent;
-      chips.push({ label: 'Category: ' + catName, clear: function () { filterCategoryEl.value = ''; selectedCategoryId = ''; } });
+      chips.push({ label: 'NICE Category: ' + catName, clear: function () { filterCategoryEl.value = ''; selectedCategoryId = ''; } });
+    }
+    if (filterCisspEl && filterCisspEl.value) {
+      var cv = filterCisspEl.value;
+      var domObj = cisspDomains.find(function (d) { return d.id === cv; });
+      var domLabel = domObj ? domObj.name : cv;
+      chips.push({ label: 'CISSP: ' + domLabel, clear: function () { filterCisspEl.value = ''; } });
     }
     selectedRoleIds.forEach(function (id) {
       var role = niceWorkRoles.find(function (r) { return r.id === id; });
@@ -299,6 +347,9 @@
     });
     if (filterDod8140El && filterDod8140El.checked) {
       chips.push({ label: 'DoD 8140', clear: function () { filterDod8140El.checked = false; } });
+    }
+    if (filterFreeEl && filterFreeEl.checked) {
+      chips.push({ label: 'Free Training', clear: function () { filterFreeEl.checked = false; } });
     }
 
     activeFiltersEl.innerHTML = '';
@@ -334,7 +385,7 @@
     }
   }
 
-  /* ── Populate category dropdown ── */
+  /* ── Populate dropdowns ── */
 
   function populateCategoryFilter() {
     var categoryIds = [];
@@ -356,6 +407,38 @@
     });
   }
 
+  function populateVendorFilter() {
+    if (!filterVendorEl) return;
+    var vendors = [];
+    var seen = new Set();
+    certs.forEach(function (c) {
+      if (c.vendor && !seen.has(c.vendor)) {
+        seen.add(c.vendor);
+        vendors.push(c.vendor);
+      }
+    });
+    vendors.sort(function (a, b) { return a.localeCompare(b); });
+
+    filterVendorEl.innerHTML = '<option value="">-- All vendors --</option>';
+    vendors.forEach(function (v) {
+      var opt = document.createElement('option');
+      opt.value = v;
+      opt.textContent = v;
+      filterVendorEl.appendChild(opt);
+    });
+  }
+
+  function populateCisspFilter() {
+    if (!filterCisspEl) return;
+    filterCisspEl.innerHTML = '<option value="">-- All domains --</option>';
+    cisspDomains.forEach(function (d) {
+      var opt = document.createElement('option');
+      opt.value = d.id;
+      opt.textContent = d.name;
+      filterCisspEl.appendChild(opt);
+    });
+  }
+
   /* ── Hero stats ── */
 
   function updateStats() {
@@ -364,6 +447,9 @@
     niceWorkRoles.forEach(function (r) { cats.add(r.categoryId); });
     statCategoriesEl.textContent = cats.size;
     statRolesEl.textContent = niceWorkRoles.length;
+    if (statFreeEl) {
+      statFreeEl.textContent = certs.filter(function (c) { return c.freeTraining; }).length;
+    }
   }
 
   /* ── Master filter + render ── */
@@ -382,7 +468,11 @@
     searchTerm = '';
     filterCategoryEl.value = '';
     selectedCategoryId = '';
+    if (filterVendorEl) filterVendorEl.value = '';
+    if (filterLevelEl) filterLevelEl.value = '';
+    if (filterCisspEl) filterCisspEl.value = '';
     if (filterDod8140El) filterDod8140El.checked = false;
+    if (filterFreeEl) filterFreeEl.checked = false;
     sortByEl.value = 'level-asc';
     selectedRoleIds.clear();
     syncChipVisuals();
@@ -392,9 +482,13 @@
   /* ── Event listeners ── */
 
   filterCategoryEl.addEventListener('change', runFilterAndRender);
+  if (filterVendorEl) filterVendorEl.addEventListener('change', runFilterAndRender);
+  if (filterLevelEl) filterLevelEl.addEventListener('change', runFilterAndRender);
+  if (filterCisspEl) filterCisspEl.addEventListener('change', runFilterAndRender);
   sortByEl.addEventListener('change', function () { runFilterAndRender(); });
   resetBtn.addEventListener('click', resetAll);
   if (filterDod8140El) filterDod8140El.addEventListener('change', runFilterAndRender);
+  if (filterFreeEl) filterFreeEl.addEventListener('change', runFilterAndRender);
 
   searchInput.addEventListener('input', function () {
     clearTimeout(debounceTimer);
@@ -422,11 +516,15 @@
 
   Promise.all([
     loadJSON('data/certs.json'),
-    loadJSON('data/nice-work-roles.json')
+    loadJSON('data/nice-work-roles.json'),
+    loadJSON('data/cissp-domains.json')
   ]).then(function (results) {
     certs = results[0] || [];
     niceWorkRoles = results[1] || [];
+    cisspDomains = results[2] || [];
     populateCategoryFilter();
+    populateVendorFilter();
+    populateCisspFilter();
     buildChipPanel();
     updateStats();
     runFilterAndRender();
@@ -435,7 +533,7 @@
     resultsEl.innerHTML =
       '<div class="empty-state">' +
         '<span class="empty-icon">&#x26A0;</span>' +
-        '<p>Could not load certification data.<br>Ensure <code>data/certs.json</code> and <code>data/nice-work-roles.json</code> exist and are served from the same origin.</p>' +
+        '<p>Could not load certification data.<br>Ensure <code>data/certs.json</code>, <code>data/nice-work-roles.json</code>, and <code>data/cissp-domains.json</code> exist and are served from the same origin.</p>' +
       '</div>';
   });
 })();

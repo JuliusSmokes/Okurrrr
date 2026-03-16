@@ -1,4 +1,4 @@
-/* Security Certification Roadmap – Miami Vice Theme */
+/* Okurrrr – Miami Vice Theme */
 
 :root {
   --bg: #0b0e1a;
@@ -137,7 +137,8 @@ body {
 
 .header-links {
   display: flex;
-  gap: var(--space-4);
+  flex-wrap: wrap;
+  gap: var(--space-2) var(--space-4);
   font-size: 0.8125rem;
 }
 
@@ -217,6 +218,7 @@ body {
 .stat-pink .stat-number { color: var(--neon-pink); }
 .stat-amber .stat-number { color: var(--neon-amber); }
 .stat-teal .stat-number { color: var(--neon-teal); }
+.stat-green .stat-number { color: #4ade80; }
 
 .stat-badge .stat-label {
   font-size: 0.75rem;
@@ -415,8 +417,8 @@ body {
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius-md);
-  max-height: 200px;
-  overflow-y: auto;
+  max-height: none;
+  overflow-y: visible;
   box-shadow: var(--elevation-1);
   transition: max-height 300ms ease, opacity 200ms ease, padding 300ms ease;
 }
@@ -757,6 +759,22 @@ body {
 .cert-card-upcoming {
   border-left-color: var(--neon-blue) !important;
   border-style: dashed;
+}
+
+.badge-free {
+  background: rgba(74, 222, 128, 0.12);
+  color: #4ade80;
+  font-size: 0.625rem;
+  border: 1px solid rgba(74, 222, 128, 0.25);
+}
+
+.badge-free a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.badge-free a:hover {
+  text-decoration: underline;
 }
 
 .cert-cost {

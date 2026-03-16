@@ -1,5 +1,5 @@
 /**
- * Build data/certs.json from Paul Jerimy roadmap content.
+ * Build data/certs.json from roadmap content.
  * Run from repo root: node scripts/build-certs.js [path-to-roadmap-text]
  * If no path given, reads scripts/roadmap-sample.txt
  */
@@ -10,7 +10,7 @@ const path = require('path');
 const roadmapPath = process.argv[2] || path.join(__dirname, 'roadmap-sample.txt');
 const outPath = path.join(__dirname, '..', 'data', 'certs.json');
 
-// Paul Jerimy category -> NICE Work Role IDs (best-effort mapping)
+// Cert category -> NICE Work Role IDs (best-effort mapping)
 const CATEGORY_TO_NICE = {
   'Communication and Network Security': ['OG-WRL-001', 'IO-WRL-004'],
   'IAM': ['IO-WRL-005', 'DD-WRL-001'],

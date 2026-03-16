@@ -1,0 +1,10 @@
+[
+  { "id": "cissp-d1", "name": "Domain 1: Security and Risk Management" },
+  { "id": "cissp-d2", "name": "Domain 2: Asset Security" },
+  { "id": "cissp-d3", "name": "Domain 3: Security Architecture and Engineering" },
+  { "id": "cissp-d4", "name": "Domain 4: Communication and Network Security" },
+  { "id": "cissp-d5", "name": "Domain 5: Identity and Access Management (IAM)" },
+  { "id": "cissp-d6", "name": "Domain 6: Security Assessment and Testing" },
+  { "id": "cissp-d7", "name": "Domain 7: Security Operations" },
+  { "id": "cissp-d8", "name": "Domain 8: Software Development Security" }
+]

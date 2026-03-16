@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Security Certification Roadmap – NICE Filterable</title>
+  <title>Okurrrr – Cybersecurity Career Launcher</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -17,10 +17,13 @@
 
   <header class="header">
     <div class="header-inner">
-      <h1><span class="header-icon">&#x1F6E1;</span> <span class="title-gradient">Security Certification Roadmap</span></h1>
+      <h1><span class="header-icon">&#x1F6E1;</span> <span class="title-gradient">Okurrrr</span></h1>
       <nav class="header-links">
         <a href="https://www.nist.gov/itl/applied-cybersecurity/nice" target="_blank" rel="noopener">NICE Framework</a>
-        <a href="https://pauljerimy.com/security-certification-roadmap/" target="_blank" rel="noopener">Paul Jerimy's Roadmap</a>
+        <a href="https://www.nist.gov/cyberframework" target="_blank" rel="noopener">NIST CSF</a>
+        <a href="https://csrc.nist.gov/projects/risk-management" target="_blank" rel="noopener">NIST RMF</a>
+        <a href="https://www.nist.gov/artificial-intelligence" target="_blank" rel="noopener">NIST AI RMF</a>
+        <a href="https://owasp.org" target="_blank" rel="noopener">OWASP</a>
         <a href="https://github.com/JuliusSmokes/Security-Certification-Roadmap" target="_blank" rel="noopener">GitHub</a>
       </nav>
     </div>
@@ -28,8 +31,8 @@
 
   <section class="hero">
     <div class="hero-inner">
-      <h2>Find the right cybersecurity certification for your career path</h2>
-      <p>Search by name, filter by NICE Framework work role, or browse all certifications below. Aligned with NIST NICE Framework v2.1.0 and the DoD 8140 Qualification Matrix.</p>
+      <h2>Okurrrr &mdash; Set your Objectives. Certifications are the Key Results.</h2>
+      <p>Your cybersecurity career roadmap. Search by name, filter by NICE Work Role, CISSP domain, or vendor. Find free training resources. Aligned with NIST NICE Framework, NIST CSF, NIST RMF, NIST AI RMF, OWASP, DoD 8140, and the CISSP CBK.</p>
       <div class="hero-stats">
         <div class="stat-badge stat-pink">
           <span class="stat-number" id="stat-certs">--</span>
@@ -43,6 +46,10 @@
           <span class="stat-number" id="stat-roles">--</span>
           <span class="stat-label">Work Roles</span>
         </div>
+        <div class="stat-badge stat-green">
+          <span class="stat-number" id="stat-free">--</span>
+          <span class="stat-label">Free Training</span>
+        </div>
       </div>
     </div>
   </section>
@@ -51,20 +58,47 @@
 
     <div class="search-bar">
       <span class="search-icon">&#x1F50D;</span>
-      <input type="text" id="search-input" placeholder="Search certifications by name (e.g. CISSP, Security+, OSCP...)" autocomplete="off">
+      <input type="text" id="search-input" placeholder="Search by name, vendor, or keyword..." autocomplete="off">
     </div>
 
     <section class="controls">
       <div class="control-group">
-        <label for="filter-category">Work Role Category</label>
+        <label for="filter-vendor">Vendor</label>
+        <select id="filter-vendor">
+          <option value="">-- All vendors --</option>
+        </select>
+      </div>
+      <div class="control-group">
+        <label for="filter-level">Level</label>
+        <select id="filter-level">
+          <option value="">-- All levels --</option>
+          <option value="Beginner">Beginner</option>
+          <option value="Intermediate">Intermediate</option>
+          <option value="Expert">Expert</option>
+        </select>
+      </div>
+      <div class="control-group">
+        <label for="filter-category">NICE Category</label>
         <select id="filter-category">
           <option value="">-- All categories --</option>
+        </select>
+      </div>
+      <div class="control-group">
+        <label for="filter-cissp">CISSP Domain</label>
+        <select id="filter-cissp">
+          <option value="">-- All domains --</option>
         </select>
       </div>
       <div class="control-group">
         <label class="checkbox-label">
           <input type="checkbox" id="filter-dod8140" value="1">
           DoD 8140 only
+        </label>
+      </div>
+      <div class="control-group">
+        <label class="checkbox-label">
+          <input type="checkbox" id="filter-free" value="1">
+          Free training available
         </label>
       </div>
       <div class="control-group">
@@ -107,7 +141,7 @@
   </main>
 
   <footer class="footer">
-    <p>Security Certification Roadmap &copy; 2024</p>
+    <p>Okurrrr &copy; 2024&ndash;2025</p>
   </footer>
 
   <script src="js/app.js"></script>
