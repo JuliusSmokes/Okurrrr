@@ -733,6 +733,32 @@ body {
   border: 1px solid var(--border);
 }
 
+.badge-retiring {
+  background: var(--warning-subtle);
+  color: var(--warning);
+  font-size: 0.625rem;
+  border: 1px solid rgba(245, 166, 35, 0.2);
+  cursor: help;
+}
+
+.badge-upcoming {
+  background: rgba(88, 166, 255, 0.12);
+  color: var(--neon-blue);
+  font-size: 0.625rem;
+  border: 1px solid rgba(88, 166, 255, 0.2);
+  cursor: help;
+}
+
+.cert-card-retiring {
+  border-left-color: var(--neon-amber) !important;
+  opacity: 0.85;
+}
+
+.cert-card-upcoming {
+  border-left-color: var(--neon-blue) !important;
+  border-style: dashed;
+}
+
 .cert-cost {
   font-size: 0.8125rem;
   color: var(--neon-amber);

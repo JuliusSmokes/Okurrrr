@@ -151,6 +151,17 @@
         dodBadgeHtml = '<span class="badge badge-dod" title="' + escapeHtml(dodTitle) + '">DoD 8140</span>';
       }
 
+      var statusBadgeHtml = '';
+      if (cert.status === 'retiring') {
+        var statusTitle = cert.statusNote || 'This certification is being retired';
+        statusBadgeHtml = '<span class="badge badge-retiring" title="' + escapeHtml(statusTitle) + '">Retiring</span>';
+        card.className += ' cert-card-retiring';
+      } else if (cert.status === 'upcoming') {
+        var upTitle = cert.statusNote || 'This certification is not yet available';
+        statusBadgeHtml = '<span class="badge badge-upcoming" title="' + escapeHtml(upTitle) + '">Upcoming</span>';
+        card.className += ' cert-card-upcoming';
+      }
+
       var displayName = cert.fullName || cert.name;
       var acronym = (cert.fullName && cert.fullName !== cert.name)
         ? ' <span class="cert-acronym">(' + escapeHtml(cert.name) + ')</span>'
@@ -174,6 +185,7 @@
         '</div>' +
         '<div class="cert-card-footer">' +
           dodBadgeHtml +
+          statusBadgeHtml +
           '<span class="cert-cost">' + escapeHtml(formatCost(cert)) + '</span>' +
         '</div>';
 
