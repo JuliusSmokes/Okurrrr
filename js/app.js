@@ -686,8 +686,10 @@
 
       card.innerHTML =
         '<div class="cert-card-header">' +
-          '<a href="' + escapeHtml(dc.url) + '" target="_blank" rel="noopener">' + escapeHtml(dc.name) + '</a>' +
-          '<span class="defcon-year">' + escapeHtml(String(dc.year)) + '</span>' +
+          '<div class="defcon-header-row">' +
+            '<a href="' + escapeHtml(dc.url) + '" target="_blank" rel="noopener">' + escapeHtml(dc.name) + '</a>' +
+            '<span class="defcon-year">' + escapeHtml(String(dc.year)) + '</span>' +
+          '</div>' +
           '<p class="cert-desc">' + escapeHtml(dc.description || '') + '</p>' +
         '</div>' +
         '<div class="cert-card-body">' +
