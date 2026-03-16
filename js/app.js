@@ -593,20 +593,20 @@
             fpsLimit: 120,
             particles: {
               number: {
-                value: 50,
-                density: { enable: true, area: 800 }
+                value: 120,
+                density: { enable: true, area: 700 }
               },
               color: {
                 value: ['#ff2d7b', '#00e5c7', '#f5a623']
               },
               shape: { type: 'circle' },
               opacity: {
-                value: { min: 0.5, max: 0.85 },
-                animation: { enable: true, speed: 0.8, startValue: 'random', sync: false }
+                value: { min: 0.6, max: 1.0 },
+                animation: { enable: true, speed: 1.5, startValue: 'random', sync: false }
               },
               size: {
-                value: { min: 4, max: 12 },
-                animation: { enable: true, speed: 3, startValue: 'random', sync: false }
+                value: { min: 1, max: 4 },
+                animation: { enable: true, speed: 2, startValue: 'random', sync: false }
               },
               collisions: {
                 enable: true,
@@ -614,30 +614,30 @@
               },
               links: {
                 enable: true,
-                distance: 250,
+                distance: 180,
                 color: { value: ['#ff2d7b', '#00e5c7', '#f5a623'] },
-                opacity: 0.7,
-                width: 2.5
+                opacity: 0.85,
+                width: 1.5
               },
               move: {
                 enable: true,
-                speed: 0.6,
+                speed: 1.8,
                 direction: 'none',
                 outModes: { default: 'bounce' },
-                attract: { enable: true, rotate: { x: 600, y: 1200 } },
-                random: true,
-                straight: false
+                attract: { enable: true, rotate: { x: 3000, y: 3000 } },
+                random: true
               }
             },
             interactivity: {
               detectsOn: 'canvas',
               events: {
-                onHover: { enable: true, mode: 'grab' },
+                onHover: { enable: true, mode: ['grab', 'attract'] },
                 onClick: { enable: true, mode: 'push' }
               },
               modes: {
-                grab: { distance: 280, links: { opacity: 0.9, color: '#ff2d7b' } },
-                push: { quantity: 2 }
+                grab: { distance: 200, links: { opacity: 1.0, color: '#ff2d7b' } },
+                attract: { distance: 200, duration: 0.4, speed: 1 },
+                push: { quantity: 4 }
               }
             },
             detectRetina: true
