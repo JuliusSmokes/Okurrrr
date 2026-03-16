@@ -612,8 +612,8 @@
                 enable: true,
                 distance: 160,
                 color: '#00e5c7',
-                opacity: 0.12,
-                width: 1
+                opacity: 0.25,
+                width: 1.2
               },
               move: {
                 enable: true,
@@ -631,7 +631,7 @@
                 onClick: { enable: true, mode: 'push' }
               },
               modes: {
-                grab: { distance: 180, links: { opacity: 0.25, color: '#ff2d7b' } },
+                grab: { distance: 180, links: { opacity: 0.4, color: '#ff2d7b' } },
                 push: { quantity: 2 }
               }
             },
