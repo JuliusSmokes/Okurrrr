@@ -9523,5 +9523,1384 @@
     ],
     "relatedCertIds": [],
     "id": "fr417"
+  },
+  {
+    "name": "FinOps Foundation",
+    "provider": "FinOps Foundation",
+    "url": "https://www.finops.org/",
+    "description": "Cloud cost management framework, practices, and community. The industry standard for FinOps.",
+    "category": "FinOps and Cloud Cost Management",
+    "tags": [
+      "FinOps",
+      "cloud cost",
+      "framework",
+      "community"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Oversee and Govern"
+    ],
+    "relatedCertIds": [],
+    "id": "fr418"
+  },
+  {
+    "name": "FinOps Certified Practitioner Training",
+    "provider": "FinOps Foundation",
+    "url": "https://learn.finops.org/",
+    "description": "Free FinOps training and certification preparation materials.",
+    "category": "FinOps and Cloud Cost Management",
+    "tags": [
+      "FinOps",
+      "certification",
+      "training",
+      "cloud cost"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Oversee and Govern"
+    ],
+    "relatedCertIds": [],
+    "id": "fr419"
+  },
+  {
+    "name": "FinOps Microsoft Licensing Guide",
+    "provider": "FinOps Foundation",
+    "url": "https://www.finops.org/wg/microsoft-licensing-management-guide/",
+    "description": "FinOps Foundation guide for Microsoft licensing cost management and optimization.",
+    "category": "FinOps and Cloud Cost Management",
+    "tags": [
+      "FinOps",
+      "Microsoft",
+      "licensing",
+      "cost optimization"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Oversee and Govern"
+    ],
+    "relatedCertIds": [],
+    "id": "fr420"
+  },
+  {
+    "name": "OpenCost",
+    "provider": "CNCF",
+    "url": "https://www.opencost.io/",
+    "description": "CNCF open-source Kubernetes cost monitoring. Real-time cost allocation for K8s workloads.",
+    "category": "FinOps and Cloud Cost Management",
+    "tags": [
+      "Kubernetes",
+      "cost",
+      "CNCF",
+      "open source"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d3"
+    ],
+    "niceCategories": [
+      "Operate and Maintain"
+    ],
+    "relatedCertIds": [],
+    "id": "fr421"
+  },
+  {
+    "name": "Kubecost",
+    "provider": "Kubecost",
+    "url": "https://www.kubecost.com/install",
+    "description": "Open-source Kubernetes cost monitoring and optimization. Real-time visibility into cluster spend.",
+    "category": "FinOps and Cloud Cost Management",
+    "tags": [
+      "Kubernetes",
+      "cost",
+      "monitoring",
+      "optimization"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d3"
+    ],
+    "niceCategories": [
+      "Operate and Maintain"
+    ],
+    "relatedCertIds": [],
+    "id": "fr422"
+  },
+  {
+    "name": "Infracost",
+    "provider": "Infracost",
+    "url": "https://www.infracost.io/",
+    "description": "Cloud cost estimates for Terraform pull requests. Shift cost awareness left into CI/CD.",
+    "category": "FinOps and Cloud Cost Management",
+    "tags": [
+      "Terraform",
+      "cost",
+      "CI/CD",
+      "IaC"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d3",
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Securely Provision"
+    ],
+    "relatedCertIds": [],
+    "id": "fr423"
+  },
+  {
+    "name": "AWS Cost Management Docs",
+    "provider": "Amazon Web Services",
+    "url": "https://docs.aws.amazon.com/cost-management/",
+    "description": "AWS cost management, billing, budgets, and Cost Explorer documentation.",
+    "category": "FinOps and Cloud Cost Management",
+    "tags": [
+      "AWS",
+      "cost",
+      "billing",
+      "budgets"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Operate and Maintain"
+    ],
+    "relatedCertIds": [],
+    "id": "fr424"
+  },
+  {
+    "name": "Azure Cost Management Docs",
+    "provider": "Microsoft",
+    "url": "https://learn.microsoft.com/en-us/azure/cost-management-billing/",
+    "description": "Azure cost management, billing, budgets, and cost analysis documentation.",
+    "category": "FinOps and Cloud Cost Management",
+    "tags": [
+      "Azure",
+      "cost",
+      "billing",
+      "budgets"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Operate and Maintain"
+    ],
+    "relatedCertIds": [],
+    "id": "fr425"
+  },
+  {
+    "name": "GCP Cloud Billing Docs",
+    "provider": "Google Cloud",
+    "url": "https://cloud.google.com/billing/docs",
+    "description": "GCP billing, budgets, cost management, and pricing documentation.",
+    "category": "FinOps and Cloud Cost Management",
+    "tags": [
+      "GCP",
+      "billing",
+      "cost",
+      "budgets"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Operate and Maintain"
+    ],
+    "relatedCertIds": [],
+    "id": "fr426"
+  },
+  {
+    "name": "Azure Pricing Calculator",
+    "provider": "Microsoft",
+    "url": "https://azure.microsoft.com/pricing/calculator/",
+    "description": "Free tool to estimate Azure service costs before deployment.",
+    "category": "FinOps and Cloud Cost Management",
+    "tags": [
+      "Azure",
+      "pricing",
+      "calculator",
+      "estimation"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Operate and Maintain"
+    ],
+    "relatedCertIds": [],
+    "id": "fr427"
+  },
+  {
+    "name": "AWS Pricing Calculator",
+    "provider": "Amazon Web Services",
+    "url": "https://calculator.aws/",
+    "description": "Free tool to estimate AWS service costs for architecture planning.",
+    "category": "FinOps and Cloud Cost Management",
+    "tags": [
+      "AWS",
+      "pricing",
+      "calculator",
+      "estimation"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Operate and Maintain"
+    ],
+    "relatedCertIds": [],
+    "id": "fr428"
+  },
+  {
+    "name": "Cloud Custodian",
+    "provider": "CNCF",
+    "url": "https://cloudcustodian.io/",
+    "description": "Open-source cloud cost and security policy engine. Automate guardrails across AWS, Azure, and GCP.",
+    "category": "FinOps and Cloud Cost Management",
+    "tags": [
+      "policy",
+      "cloud",
+      "CNCF",
+      "automation"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d1",
+      "cissp-d3"
+    ],
+    "niceCategories": [
+      "Protect and Defend"
+    ],
+    "relatedCertIds": [],
+    "id": "fr429"
+  },
+  {
+    "name": "Microsoft Sentinel Ninja Training",
+    "provider": "Microsoft",
+    "url": "https://aka.ms/sentinelninja",
+    "description": "Free self-paced training to become a Microsoft Sentinel expert. SIEM and SOAR skills.",
+    "category": "Courses",
+    "tags": [
+      "Sentinel",
+      "SIEM",
+      "Ninja",
+      "Microsoft"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Protect and Defend"
+    ],
+    "relatedCertIds": [],
+    "id": "fr430"
+  },
+  {
+    "name": "Microsoft Defender for Endpoint Ninja",
+    "provider": "Microsoft",
+    "url": "https://aka.ms/mdeninja",
+    "description": "Free training path for Microsoft Defender for Endpoint. EDR and endpoint protection.",
+    "category": "Courses",
+    "tags": [
+      "Defender",
+      "endpoint",
+      "Ninja",
+      "EDR"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Protect and Defend"
+    ],
+    "relatedCertIds": [],
+    "id": "fr431"
+  },
+  {
+    "name": "Microsoft Defender for Identity Ninja",
+    "provider": "Microsoft",
+    "url": "https://aka.ms/MDINinja",
+    "description": "Free training for Microsoft Defender for Identity. Active Directory threat detection.",
+    "category": "Courses",
+    "tags": [
+      "Defender",
+      "identity",
+      "Ninja",
+      "AD"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d5",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Protect and Defend"
+    ],
+    "relatedCertIds": [],
+    "id": "fr432"
+  },
+  {
+    "name": "Microsoft Defender for Office 365 Ninja",
+    "provider": "Microsoft",
+    "url": "https://aka.ms/MDONinja",
+    "description": "Free training for Defender for Office 365. Email security, anti-phishing, and safe links.",
+    "category": "Courses",
+    "tags": [
+      "Defender",
+      "email",
+      "Ninja",
+      "phishing"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d4",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Protect and Defend"
+    ],
+    "relatedCertIds": [],
+    "id": "fr433"
+  },
+  {
+    "name": "Microsoft Defender for Cloud Ninja",
+    "provider": "Microsoft",
+    "url": "http://aka.ms/ascninja",
+    "description": "Free training for Microsoft Defender for Cloud. Cloud security posture management.",
+    "category": "Courses",
+    "tags": [
+      "Defender",
+      "cloud",
+      "Ninja",
+      "CSPM"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d3",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Protect and Defend"
+    ],
+    "relatedCertIds": [],
+    "id": "fr434"
+  },
+  {
+    "name": "Microsoft Defender for Cloud Apps Ninja",
+    "provider": "Microsoft",
+    "url": "http://aka.ms/mcasninja",
+    "description": "Free training for Defender for Cloud Apps (CASB). SaaS security and shadow IT discovery.",
+    "category": "Courses",
+    "tags": [
+      "Defender",
+      "CASB",
+      "Ninja",
+      "SaaS"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d3",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Protect and Defend"
+    ],
+    "relatedCertIds": [],
+    "id": "fr435"
+  },
+  {
+    "name": "Microsoft 365 Defender Ninja",
+    "provider": "Microsoft",
+    "url": "https://aka.ms/m365dninja",
+    "description": "Free training for the unified Microsoft 365 Defender suite. XDR across endpoints, email, identity.",
+    "category": "Courses",
+    "tags": [
+      "M365 Defender",
+      "XDR",
+      "Ninja",
+      "unified"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Protect and Defend"
+    ],
+    "relatedCertIds": [],
+    "id": "fr436"
+  },
+  {
+    "name": "Microsoft Defender Threat Intelligence Ninja",
+    "provider": "Microsoft",
+    "url": "https://techcommunity.microsoft.com/t5/microsoft-defender-threat/become-a-microsoft-defender-threat-intelligence-ninja-the/ba-p/3656965",
+    "description": "Free training for Microsoft Defender Threat Intelligence. Threat actor profiling and IOC analysis.",
+    "category": "Courses",
+    "tags": [
+      "Defender",
+      "threat intel",
+      "Ninja",
+      "IOC"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Analyze"
+    ],
+    "relatedCertIds": [],
+    "id": "fr437"
+  },
+  {
+    "name": "Microsoft Purview Information Protection Ninja",
+    "provider": "Microsoft",
+    "url": "https://aka.ms/MIPNinja",
+    "description": "Free training for Microsoft Purview Information Protection. Data classification and labeling.",
+    "category": "Courses",
+    "tags": [
+      "Purview",
+      "information protection",
+      "Ninja",
+      "DLP"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d2"
+    ],
+    "niceCategories": [
+      "Protect and Defend"
+    ],
+    "relatedCertIds": [],
+    "id": "fr438"
+  },
+  {
+    "name": "Microsoft Purview DLP Ninja",
+    "provider": "Microsoft",
+    "url": "https://aka.ms/DLPNinja",
+    "description": "Free training for Microsoft Purview Data Loss Prevention. Policy creation and tuning.",
+    "category": "Courses",
+    "tags": [
+      "Purview",
+      "DLP",
+      "Ninja",
+      "data loss"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d2"
+    ],
+    "niceCategories": [
+      "Protect and Defend"
+    ],
+    "relatedCertIds": [],
+    "id": "fr439"
+  },
+  {
+    "name": "Microsoft Purview eDiscovery Ninja",
+    "provider": "Microsoft",
+    "url": "https://aka.ms/ediscoveryninja",
+    "description": "Free training for Microsoft Purview eDiscovery. Legal hold, search, and export.",
+    "category": "Courses",
+    "tags": [
+      "Purview",
+      "eDiscovery",
+      "Ninja",
+      "legal"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d1",
+      "cissp-d2"
+    ],
+    "niceCategories": [
+      "Investigate"
+    ],
+    "relatedCertIds": [],
+    "id": "fr440"
+  },
+  {
+    "name": "Microsoft Purview Insider Risk Ninja",
+    "provider": "Microsoft",
+    "url": "https://aka.ms/insiderriskninja",
+    "description": "Free training for Purview Insider Risk Management. Detect and mitigate insider threats.",
+    "category": "Courses",
+    "tags": [
+      "Purview",
+      "insider risk",
+      "Ninja",
+      "insider threat"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d1",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Protect and Defend"
+    ],
+    "relatedCertIds": [],
+    "id": "fr441"
+  },
+  {
+    "name": "Microsoft Purview Compliance Manager Ninja",
+    "provider": "Microsoft",
+    "url": "http://aka.ms/compliancemanagerninja",
+    "description": "Free training for Purview Compliance Manager. Compliance score and regulatory assessments.",
+    "category": "Courses",
+    "tags": [
+      "Purview",
+      "compliance",
+      "Ninja",
+      "regulatory"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Oversee and Govern"
+    ],
+    "relatedCertIds": [],
+    "id": "fr442"
+  },
+  {
+    "name": "Azure Network Security Ninja",
+    "provider": "Microsoft",
+    "url": "http://aka.ms/aznetsecninja",
+    "description": "Free training for Azure network security. NSGs, firewalls, DDoS protection, and private endpoints.",
+    "category": "Courses",
+    "tags": [
+      "Azure",
+      "network security",
+      "Ninja",
+      "firewall"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d4"
+    ],
+    "niceCategories": [
+      "Protect and Defend"
+    ],
+    "relatedCertIds": [],
+    "id": "fr443"
+  },
+  {
+    "name": "Microsoft Learn Training",
+    "provider": "Microsoft",
+    "url": "https://learn.microsoft.com/training/",
+    "description": "Free official Microsoft learning paths, modules, and hands-on labs across all products.",
+    "category": "Courses",
+    "tags": [
+      "Microsoft Learn",
+      "training",
+      "free",
+      "official"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Oversee and Govern"
+    ],
+    "relatedCertIds": [],
+    "id": "fr444"
+  },
+  {
+    "name": "Microsoft Certifications Browser",
+    "provider": "Microsoft",
+    "url": "https://learn.microsoft.com/credentials/browse/?credential_types=certification",
+    "description": "Browse all Microsoft certifications with study guides and exam details.",
+    "category": "Courses",
+    "tags": [
+      "Microsoft",
+      "certifications",
+      "exams",
+      "credentials"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Oversee and Govern"
+    ],
+    "relatedCertIds": [],
+    "id": "fr445"
+  },
+  {
+    "name": "Microsoft Applied Skills",
+    "provider": "Microsoft",
+    "url": "https://learn.microsoft.com/credentials/browse/?credential_types=applied%20skills",
+    "description": "Hands-on applied skills credentials. Scenario-based assessments for real-world tasks.",
+    "category": "Courses",
+    "tags": [
+      "Microsoft",
+      "applied skills",
+      "hands-on",
+      "credentials"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Operate and Maintain"
+    ],
+    "relatedCertIds": [],
+    "id": "fr446"
+  },
+  {
+    "name": "Microsoft Practice Assessments",
+    "provider": "Microsoft",
+    "url": "https://learn.microsoft.com/credentials/certifications/practice-assessments-for-microsoft-certifications",
+    "description": "Free practice exams for all Microsoft certifications. Test readiness before scheduling.",
+    "category": "Courses",
+    "tags": [
+      "Microsoft",
+      "practice exam",
+      "assessment",
+      "free"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Oversee and Govern"
+    ],
+    "relatedCertIds": [],
+    "id": "fr447"
+  },
+  {
+    "name": "Microsoft Virtual Training Days",
+    "provider": "Microsoft",
+    "url": "https://mvtd.events.microsoft.com",
+    "description": "Free instructor-led virtual training events with free certification exam vouchers.",
+    "category": "Courses",
+    "tags": [
+      "Microsoft",
+      "virtual training",
+      "instructor-led",
+      "free voucher"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Oversee and Govern"
+    ],
+    "relatedCertIds": [],
+    "id": "fr448"
+  },
+  {
+    "name": "Microsoft Exam Sandbox",
+    "provider": "Microsoft",
+    "url": "https://go.microsoft.com/fwlink/?linkid=2226877",
+    "description": "Practice the exam interface and question types before your real Microsoft certification exam.",
+    "category": "Courses",
+    "tags": [
+      "Microsoft",
+      "exam sandbox",
+      "practice",
+      "interface"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Oversee and Govern"
+    ],
+    "relatedCertIds": [],
+    "id": "fr449"
+  },
+  {
+    "name": "Microsoft Learn Exam Readiness Zone",
+    "provider": "Microsoft",
+    "url": "https://learn.microsoft.com/shows/exam-readiness-zone/",
+    "description": "Free exam prep videos covering key topics for each Microsoft certification.",
+    "category": "Courses",
+    "tags": [
+      "Microsoft",
+      "exam prep",
+      "videos",
+      "readiness"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Oversee and Govern"
+    ],
+    "relatedCertIds": [],
+    "id": "fr450"
+  },
+  {
+    "name": "Cloud Skills Challenge (30 Days to Learn)",
+    "provider": "Microsoft",
+    "url": "https://aka.ms/30-days-to-learn-it",
+    "description": "Free 30-day cloud skills learning challenges across Azure, security, and AI.",
+    "category": "Courses",
+    "tags": [
+      "Microsoft",
+      "challenge",
+      "30 days",
+      "cloud"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Oversee and Govern"
+    ],
+    "relatedCertIds": [],
+    "id": "fr451"
+  },
+  {
+    "name": "Microsoft Learn Cloud Games",
+    "provider": "Microsoft",
+    "url": "https://learn.microsoft.com/training/cloud-games",
+    "description": "Gamified learning experiences for cloud and security concepts.",
+    "category": "Courses",
+    "tags": [
+      "Microsoft",
+      "games",
+      "gamified",
+      "learning"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Oversee and Govern"
+    ],
+    "relatedCertIds": [],
+    "id": "fr452"
+  },
+  {
+    "name": "ExpertZone",
+    "provider": "Microsoft",
+    "url": "https://expertzone.microsoft.com/",
+    "description": "Free Microsoft product training with assessments. Registration required.",
+    "category": "Courses",
+    "tags": [
+      "Microsoft",
+      "ExpertZone",
+      "product training",
+      "free"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Operate and Maintain"
+    ],
+    "relatedCertIds": [],
+    "id": "fr453"
+  },
+  {
+    "name": "Microsoft 365 Defender Portal",
+    "provider": "Microsoft",
+    "url": "https://security.microsoft.com",
+    "description": "Unified Microsoft security portal. Incidents, alerts, hunting, Secure Score, and threat analytics.",
+    "category": "Blue Team and DFIR",
+    "tags": [
+      "M365 Defender",
+      "XDR",
+      "portal",
+      "incidents"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Protect and Defend"
+    ],
+    "relatedCertIds": [],
+    "id": "fr454"
+  },
+  {
+    "name": "Microsoft Secure Score",
+    "provider": "Microsoft",
+    "url": "https://security.microsoft.com/securescore",
+    "description": "Security posture assessment with actionable improvement recommendations for M365.",
+    "category": "Blue Team and DFIR",
+    "tags": [
+      "Secure Score",
+      "posture",
+      "assessment",
+      "M365"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d1",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Protect and Defend"
+    ],
+    "relatedCertIds": [],
+    "id": "fr455"
+  },
+  {
+    "name": "Microsoft Purview Portal",
+    "provider": "Microsoft",
+    "url": "https://purview.microsoft.com/",
+    "description": "Data governance, compliance, and information protection portal.",
+    "category": "Blue Team and DFIR",
+    "tags": [
+      "Purview",
+      "compliance",
+      "governance",
+      "DLP"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d1",
+      "cissp-d2"
+    ],
+    "niceCategories": [
+      "Oversee and Govern"
+    ],
+    "relatedCertIds": [],
+    "id": "fr456"
+  },
+  {
+    "name": "Microsoft Entra Admin Center",
+    "provider": "Microsoft",
+    "url": "https://entra.microsoft.com",
+    "description": "Identity and access management portal (formerly Azure AD). Users, groups, Conditional Access.",
+    "category": "Auth and Identity",
+    "tags": [
+      "Entra",
+      "Azure AD",
+      "IAM",
+      "Conditional Access"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d5"
+    ],
+    "niceCategories": [
+      "Operate and Maintain"
+    ],
+    "relatedCertIds": [],
+    "id": "fr457"
+  },
+  {
+    "name": "Microsoft Intune Admin Center",
+    "provider": "Microsoft",
+    "url": "https://intune.microsoft.com",
+    "description": "Endpoint management portal. Device compliance, app protection, and configuration profiles.",
+    "category": "Blue Team and DFIR",
+    "tags": [
+      "Intune",
+      "endpoint",
+      "MDM",
+      "compliance"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d2",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Operate and Maintain"
+    ],
+    "relatedCertIds": [],
+    "id": "fr458"
+  },
+  {
+    "name": "Microsoft Sentinel (Azure Portal)",
+    "provider": "Microsoft",
+    "url": "https://portal.azure.com/#blade/Microsoft_Azure_Security_Insights/WorkspaceSelectorBlade",
+    "description": "Cloud-native SIEM and SOAR. Log analytics, hunting queries, and automated playbooks.",
+    "category": "Blue Team and DFIR",
+    "tags": [
+      "Sentinel",
+      "SIEM",
+      "SOAR",
+      "Azure"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Protect and Defend"
+    ],
+    "relatedCertIds": [],
+    "id": "fr459"
+  },
+  {
+    "name": "Microsoft Defender for Cloud (Azure Portal)",
+    "provider": "Microsoft",
+    "url": "https://portal.azure.com/#blade/Microsoft_Azure_Security/SecurityMenuBlade/0",
+    "description": "Cloud security posture management (CSPM) and workload protection across multi-cloud.",
+    "category": "Blue Team and DFIR",
+    "tags": [
+      "Defender",
+      "CSPM",
+      "cloud security",
+      "Azure"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d3",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Protect and Defend"
+    ],
+    "relatedCertIds": [],
+    "id": "fr460"
+  },
+  {
+    "name": "Microsoft Service Health Dashboard",
+    "provider": "Microsoft",
+    "url": "https://status.cloud.microsoft",
+    "description": "Real-time service health status for Microsoft 365, Azure, and Power Platform.",
+    "category": "Blue Team and DFIR",
+    "tags": [
+      "service health",
+      "status",
+      "Microsoft",
+      "monitoring"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Operate and Maintain"
+    ],
+    "relatedCertIds": [],
+    "id": "fr461"
+  },
+  {
+    "name": "Attack Simulation Training (M365)",
+    "provider": "Microsoft",
+    "url": "https://security.microsoft.com/attacksimulator",
+    "description": "Built-in phishing simulation and security awareness training in Microsoft 365 Defender.",
+    "category": "Red Team and Adversary Simulation",
+    "tags": [
+      "phishing simulation",
+      "M365",
+      "awareness",
+      "training"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d1",
+      "cissp-d6"
+    ],
+    "niceCategories": [
+      "Protect and Defend"
+    ],
+    "relatedCertIds": [],
+    "id": "fr462"
+  },
+  {
+    "name": "John Savill's Technical Training (YouTube)",
+    "provider": "John Savill",
+    "url": "https://www.youtube.com/channel/UCpIn7ox7j7bH_OFj7tYouOQ",
+    "description": "Azure and cloud certification study. Whiteboards, deep dives, and exam cram sessions.",
+    "category": "Community and News",
+    "tags": [
+      "YouTube",
+      "Azure",
+      "certification",
+      "study"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d3"
+    ],
+    "niceCategories": [
+      "Operate and Maintain"
+    ],
+    "relatedCertIds": [],
+    "id": "fr463"
+  },
+  {
+    "name": "Microsoft Mechanics (YouTube)",
+    "provider": "Microsoft",
+    "url": "https://www.youtube.com/@MSFTMechanics",
+    "description": "Official Microsoft engineering updates and product deep dives.",
+    "category": "Community and News",
+    "tags": [
+      "YouTube",
+      "Microsoft",
+      "engineering",
+      "updates"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Operate and Maintain"
+    ],
+    "relatedCertIds": [],
+    "id": "fr464"
+  },
+  {
+    "name": "Intune Training (YouTube)",
+    "provider": "Intune Training",
+    "url": "https://www.youtube.com/@IntuneTraining",
+    "description": "Intune and endpoint management tutorials, walkthroughs, and best practices.",
+    "category": "Community and News",
+    "tags": [
+      "YouTube",
+      "Intune",
+      "endpoint",
+      "MDM"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d2"
+    ],
+    "niceCategories": [
+      "Operate and Maintain"
+    ],
+    "relatedCertIds": [],
+    "id": "fr465"
+  },
+  {
+    "name": "Microsoft Security Community (YouTube)",
+    "provider": "Microsoft",
+    "url": "https://www.youtube.com/@MicrosoftSecurityCommunity",
+    "description": "Microsoft security webcasts, product updates, and community content.",
+    "category": "Community and News",
+    "tags": [
+      "YouTube",
+      "Microsoft",
+      "security",
+      "community"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Protect and Defend"
+    ],
+    "relatedCertIds": [],
+    "id": "fr466"
+  },
+  {
+    "name": "Kusto Detective Agency",
+    "provider": "Microsoft",
+    "url": "https://detective.kusto.io/",
+    "description": "Gamified KQL learning. Solve mysteries using Kusto Query Language in a detective narrative.",
+    "category": "Labs",
+    "tags": [
+      "KQL",
+      "gamified",
+      "Kusto",
+      "learning"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Analyze"
+    ],
+    "relatedCertIds": [],
+    "id": "fr467"
+  },
+  {
+    "name": "MSPortals.io",
+    "provider": "Community",
+    "url": "https://msportals.io/",
+    "description": "Comprehensive directory of all Microsoft admin, security, developer, and end-user portals.",
+    "category": "Research",
+    "tags": [
+      "Microsoft",
+      "portals",
+      "directory",
+      "admin"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Operate and Maintain"
+    ],
+    "relatedCertIds": [],
+    "id": "fr468"
+  },
+  {
+    "name": "cmd.ms",
+    "provider": "Community",
+    "url": "https://cmd.ms",
+    "description": "Microsoft shortlink and aka.ms URL lookup tool. Find any Microsoft portal quickly.",
+    "category": "Research",
+    "tags": [
+      "Microsoft",
+      "shortlinks",
+      "aka.ms",
+      "lookup"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Operate and Maintain"
+    ],
+    "relatedCertIds": [],
+    "id": "fr469"
+  },
+  {
+    "name": "M365 Maps (Licensing Diagrams)",
+    "provider": "Aaron Dinnage",
+    "url": "https://m365maps.com/",
+    "description": "Visual Microsoft 365 licensing comparison diagrams. Enterprise, Business, and Education plans.",
+    "category": "Research",
+    "tags": [
+      "Microsoft",
+      "licensing",
+      "diagrams",
+      "M365"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Oversee and Govern"
+    ],
+    "relatedCertIds": [],
+    "id": "fr470"
+  },
+  {
+    "name": "Azure Charts",
+    "provider": "Azure Charts",
+    "url": "https://azurecharts.com/",
+    "description": "Azure service update tracker. Monitor new features, retirements, and pricing changes.",
+    "category": "Research",
+    "tags": [
+      "Azure",
+      "charts",
+      "updates",
+      "tracker"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d3"
+    ],
+    "niceCategories": [
+      "Operate and Maintain"
+    ],
+    "relatedCertIds": [],
+    "id": "fr471"
+  },
+  {
+    "name": "ASD Blueprint for Secure Cloud",
+    "provider": "Australian Signals Directorate",
+    "url": "https://blueprint.asd.gov.au/",
+    "description": "Australian Signals Directorate cloud security blueprint. Hardened M365 and Azure configurations.",
+    "category": "Hardening and Compliance",
+    "tags": [
+      "ASD",
+      "blueprint",
+      "hardening",
+      "M365"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d1",
+      "cissp-d3"
+    ],
+    "niceCategories": [
+      "Protect and Defend"
+    ],
+    "relatedCertIds": [],
+    "id": "fr472"
+  },
+  {
+    "name": "Conditional Access Documenter (idPowerToys)",
+    "provider": "Merill Fernando",
+    "url": "https://idpowertoys.merill.net/ca",
+    "description": "Document and visualize Entra ID Conditional Access policies for audit and review.",
+    "category": "Auth and Identity",
+    "tags": [
+      "Entra",
+      "Conditional Access",
+      "documentation",
+      "audit"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d5"
+    ],
+    "niceCategories": [
+      "Oversee and Govern"
+    ],
+    "relatedCertIds": [],
+    "id": "fr473"
+  },
+  {
+    "name": "Entra.News",
+    "provider": "Merill Fernando",
+    "url": "https://entra.news/",
+    "description": "Weekly Microsoft Entra and identity management newsletter with curated updates.",
+    "category": "Community and News",
+    "tags": [
+      "Entra",
+      "identity",
+      "newsletter",
+      "weekly"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d5"
+    ],
+    "niceCategories": [
+      "Oversee and Govern"
+    ],
+    "relatedCertIds": [],
+    "id": "fr474"
+  },
+  {
+    "name": "Microsoft Defender for Endpoint P2 Trial",
+    "provider": "Microsoft",
+    "url": "https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e",
+    "description": "Free 3-month trial of Microsoft Defender for Endpoint P2. Full EDR capabilities.",
+    "category": "Labs",
+    "tags": [
+      "Defender",
+      "trial",
+      "EDR",
+      "endpoint"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Protect and Defend"
+    ],
+    "relatedCertIds": [],
+    "id": "fr475"
+  },
+  {
+    "name": "Microsoft Defender ATP Testground",
+    "provider": "Microsoft",
+    "url": "https://demo.wd.microsoft.com/",
+    "description": "Live Defender demo and test environment. Simulate attacks and test detection capabilities.",
+    "category": "Labs",
+    "tags": [
+      "Defender",
+      "demo",
+      "testground",
+      "simulation"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Protect and Defend"
+    ],
+    "relatedCertIds": [],
+    "id": "fr476"
+  },
+  {
+    "name": "Microsoft 365 E5 Security Trial",
+    "provider": "Microsoft",
+    "url": "https://signup.microsoft.com/Signup?OfferId=b73fce33-ac89-4175-b199-0173b4c74b1f",
+    "description": "Free 1-month trial of Microsoft 365 E5 Security. Full Defender suite and Purview.",
+    "category": "Labs",
+    "tags": [
+      "M365",
+      "E5",
+      "trial",
+      "security"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Protect and Defend"
+    ],
+    "relatedCertIds": [],
+    "id": "fr477"
+  },
+  {
+    "name": "Microsoft Defender for Identity Trial",
+    "provider": "Microsoft",
+    "url": "https://signup.microsoft.com/Signup?OfferId=a0db242a-96d7-4f99-bd52-05c0d5556257",
+    "description": "Free 3-month trial of Microsoft Defender for Identity. AD threat detection.",
+    "category": "Labs",
+    "tags": [
+      "Defender",
+      "identity",
+      "trial",
+      "AD"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d5",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Protect and Defend"
+    ],
+    "relatedCertIds": [],
+    "id": "fr478"
+  },
+  {
+    "name": "Microsoft 365 Developer Program",
+    "provider": "Microsoft",
+    "url": "https://developer.microsoft.com/en-us/microsoft-365/dev-program",
+    "description": "Free M365 E5 developer tenant with 25 user licenses. Build and test security configurations.",
+    "category": "Labs",
+    "tags": [
+      "M365",
+      "developer",
+      "free tenant",
+      "E5"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Securely Provision"
+    ],
+    "relatedCertIds": [],
+    "id": "fr479"
   }
 ]
