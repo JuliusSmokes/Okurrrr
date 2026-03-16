@@ -593,7 +593,7 @@
             fpsLimit: 60,
             particles: {
               number: {
-                value: 60,
+                value: 80,
                 density: { enable: true, area: 900 }
               },
               color: {
@@ -601,23 +601,23 @@
               },
               shape: { type: 'circle' },
               opacity: {
-                value: { min: 0.25, max: 0.5 },
+                value: { min: 0.4, max: 0.7 },
                 animation: { enable: true, speed: 0.4, startValue: 'random', sync: false }
               },
               size: {
-                value: { min: 1.5, max: 3.5 },
+                value: { min: 2, max: 5 },
                 animation: { enable: true, speed: 1.5, startValue: 'random', sync: false }
               },
               links: {
                 enable: true,
-                distance: 160,
+                distance: 200,
                 color: '#00e5c7',
-                opacity: 0.25,
-                width: 1.2
+                opacity: 0.5,
+                width: 1.8
               },
               move: {
                 enable: true,
-                speed: 0.8,
+                speed: 1.0,
                 direction: 'none',
                 outModes: { default: 'out' },
                 random: true,
@@ -631,8 +631,8 @@
                 onClick: { enable: true, mode: 'push' }
               },
               modes: {
-                grab: { distance: 180, links: { opacity: 0.4, color: '#ff2d7b' } },
-                push: { quantity: 2 }
+                grab: { distance: 220, links: { opacity: 0.7, color: '#ff2d7b' } },
+                push: { quantity: 3 }
               }
             },
             detectRetina: true
