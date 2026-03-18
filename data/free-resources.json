@@ -158,9 +158,9 @@
   },
   {
     "id": "fr008",
-    "name": "Professor Messer CompTIA Network+",
+    "name": "Professor Messer CompTIA Network+ (N10-009)",
     "provider": "Professor Messer",
-    "url": "https://www.professormesser.com/network-plus/n10-009/n10-009-video/n10-009-comptia-network-plus-course/",
+    "url": "https://www.professormesser.com/get-n10-009-network-plus-certified/",
     "description": "Free video series covering all CompTIA Network+ N10-009 exam objectives.",
     "category": "Courses",
     "tags": [
@@ -1089,9 +1089,9 @@
   },
   {
     "id": "fr049",
-    "name": "Damn Vulnerable LLM Application",
+    "name": "Damn Vulnerable LLM Agent",
     "provider": "OWASP",
-    "url": "https://github.com/OWASP/www-project-vulnerable-llm-application",
+    "url": "https://github.com/WithSecureLabs/damn-vulnerable-llm-agent",
     "description": "Vulnerable AI application for learning OWASP LLM Top 10 vulnerabilities including prompt injection.",
     "category": "Labs",
     "tags": [
@@ -5294,29 +5294,6 @@
   },
   {
     "id": "fr229",
-    "name": "Quantum Computing Playground",
-    "provider": "Google",
-    "url": "https://quantumplayground.withgoogle.com/",
-    "description": "Browser-based WebGL quantum computer simulator supporting up to 22 qubits with a scripting language for quantum algorithms.",
-    "category": "Quantum Computing",
-    "tags": [
-      "simulator",
-      "quantum",
-      "browser",
-      "Google"
-    ],
-    "level": "Beginner",
-    "cisspDomains": [
-      "cissp-d3"
-    ],
-    "niceCategories": [
-      "Securely Provision",
-      "Analyze"
-    ],
-    "relatedCertIds": []
-  },
-  {
-    "id": "fr230",
     "name": "CISA Post-Quantum Cryptography Initiative",
     "provider": "CISA",
     "url": "https://www.cisa.gov/quantum",
@@ -5361,7 +5338,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr231"
+    "id": "fr230"
   },
   {
     "name": "GNU Bash Reference Manual",
@@ -5383,7 +5360,7 @@
       "Operate and Maintain"
     ],
     "relatedCertIds": [],
-    "id": "fr232"
+    "id": "fr231"
   },
   {
     "name": "Zsh Documentation",
@@ -5404,7 +5381,7 @@
       "Operate and Maintain"
     ],
     "relatedCertIds": [],
-    "id": "fr233"
+    "id": "fr232"
   },
   {
     "name": "Fish Shell Documentation",
@@ -5425,7 +5402,7 @@
       "Operate and Maintain"
     ],
     "relatedCertIds": [],
-    "id": "fr234"
+    "id": "fr233"
   },
   {
     "name": "tmux Wiki",
@@ -5446,7 +5423,7 @@
       "Operate and Maintain"
     ],
     "relatedCertIds": [],
-    "id": "fr235"
+    "id": "fr234"
   },
   {
     "name": "Nmap Reference Guide",
@@ -5470,7 +5447,7 @@
       "Analyze"
     ],
     "relatedCertIds": [],
-    "id": "fr236"
+    "id": "fr235"
   },
   {
     "name": "Netcat (ncat) Guide",
@@ -5492,7 +5469,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr237"
+    "id": "fr236"
   },
   {
     "name": "Wireshark / tshark User Guide",
@@ -5516,7 +5493,7 @@
       "Analyze"
     ],
     "relatedCertIds": [],
-    "id": "fr238"
+    "id": "fr237"
   },
   {
     "name": "tcpdump Manual",
@@ -5539,7 +5516,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr239"
+    "id": "fr238"
   },
   {
     "name": "curl Documentation",
@@ -5561,7 +5538,7 @@
       "Operate and Maintain"
     ],
     "relatedCertIds": [],
-    "id": "fr240"
+    "id": "fr239"
   },
   {
     "name": "OpenSSL Command Reference",
@@ -5585,7 +5562,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr241"
+    "id": "fr240"
   },
   {
     "name": "dig / nslookup (BIND 9 Utilities)",
@@ -5607,7 +5584,7 @@
       "Operate and Maintain"
     ],
     "relatedCertIds": [],
-    "id": "fr242"
+    "id": "fr241"
   },
   {
     "name": "ss / netstat Quick Reference",
@@ -5630,7 +5607,7 @@
       "Operate and Maintain"
     ],
     "relatedCertIds": [],
-    "id": "fr243"
+    "id": "fr242"
   },
   {
     "name": "iptables / nftables Documentation",
@@ -5653,7 +5630,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr244"
+    "id": "fr243"
   },
   {
     "name": "Volatility 3 Documentation",
@@ -5675,12 +5652,12 @@
       "Investigate"
     ],
     "relatedCertIds": [],
-    "id": "fr245"
+    "id": "fr244"
   },
   {
     "name": "Autopsy Digital Forensics",
     "provider": "Sleuth Kit",
-    "url": "https://www.autopsy.com/documentation/",
+    "url": "https://sleuthkit.org/autopsy/docs/user-docs/latest/",
     "description": "Open-source digital forensics platform with disk imaging, timeline analysis, and keyword search.",
     "category": "Command Shells and CLI Tools",
     "tags": [
@@ -5697,7 +5674,7 @@
       "Investigate"
     ],
     "relatedCertIds": [],
-    "id": "fr246"
+    "id": "fr245"
   },
   {
     "name": "binwalk Firmware Analysis",
@@ -5720,7 +5697,7 @@
       "Analyze"
     ],
     "relatedCertIds": [],
-    "id": "fr247"
+    "id": "fr246"
   },
   {
     "name": "strings / file / xxd (GNU Coreutils & Forensics)",
@@ -5742,7 +5719,7 @@
       "Investigate"
     ],
     "relatedCertIds": [],
-    "id": "fr248"
+    "id": "fr247"
   },
   {
     "name": "lsof Reference",
@@ -5764,7 +5741,7 @@
       "Operate and Maintain"
     ],
     "relatedCertIds": [],
-    "id": "fr249"
+    "id": "fr248"
   },
   {
     "name": "strace / ltrace Reference",
@@ -5787,7 +5764,7 @@
       "Analyze"
     ],
     "relatedCertIds": [],
-    "id": "fr250"
+    "id": "fr249"
   },
   {
     "name": "Metasploit Framework Documentation",
@@ -5810,7 +5787,7 @@
       "Analyze"
     ],
     "relatedCertIds": [],
-    "id": "fr251"
+    "id": "fr250"
   },
   {
     "name": "sqlmap Usage Guide",
@@ -5833,7 +5810,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr252"
+    "id": "fr251"
   },
   {
     "name": "Nikto Web Scanner",
@@ -5855,7 +5832,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr253"
+    "id": "fr252"
   },
   {
     "name": "Gobuster / ffuf (Web Fuzzing)",
@@ -5877,7 +5854,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr254"
+    "id": "fr253"
   },
   {
     "name": "Hashcat Documentation",
@@ -5900,7 +5877,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr255"
+    "id": "fr254"
   },
   {
     "name": "John the Ripper",
@@ -5922,7 +5899,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr256"
+    "id": "fr255"
   },
   {
     "name": "Hydra (THC)",
@@ -5945,7 +5922,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr257"
+    "id": "fr256"
   },
   {
     "name": "Aircrack-ng Documentation",
@@ -5967,7 +5944,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr258"
+    "id": "fr257"
   },
   {
     "name": "Responder",
@@ -5990,7 +5967,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr259"
+    "id": "fr258"
   },
   {
     "name": "Impacket",
@@ -6014,7 +5991,7 @@
       "Analyze"
     ],
     "relatedCertIds": [],
-    "id": "fr260"
+    "id": "fr259"
   },
   {
     "name": "journalctl Reference",
@@ -6036,7 +6013,7 @@
       "Operate and Maintain"
     ],
     "relatedCertIds": [],
-    "id": "fr261"
+    "id": "fr260"
   },
   {
     "name": "auditd / auditctl Reference",
@@ -6058,7 +6035,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr262"
+    "id": "fr261"
   },
   {
     "name": "jq Manual",
@@ -6080,7 +6057,7 @@
       "Operate and Maintain"
     ],
     "relatedCertIds": [],
-    "id": "fr263"
+    "id": "fr262"
   },
   {
     "name": "yq Documentation",
@@ -6102,7 +6079,7 @@
       "Operate and Maintain"
     ],
     "relatedCertIds": [],
-    "id": "fr264"
+    "id": "fr263"
   },
   {
     "name": "grep / awk / sed (Text Processing)",
@@ -6125,7 +6102,7 @@
       "Operate and Maintain"
     ],
     "relatedCertIds": [],
-    "id": "fr265"
+    "id": "fr264"
   },
   {
     "name": "Docker CLI Reference",
@@ -6148,7 +6125,7 @@
       "Operate and Maintain"
     ],
     "relatedCertIds": [],
-    "id": "fr266"
+    "id": "fr265"
   },
   {
     "name": "kubectl Reference",
@@ -6171,7 +6148,7 @@
       "Operate and Maintain"
     ],
     "relatedCertIds": [],
-    "id": "fr267"
+    "id": "fr266"
   },
   {
     "name": "Terraform CLI Documentation",
@@ -6193,7 +6170,7 @@
       "Operate and Maintain"
     ],
     "relatedCertIds": [],
-    "id": "fr268"
+    "id": "fr267"
   },
   {
     "name": "AWS CLI Reference",
@@ -6216,7 +6193,7 @@
       "Operate and Maintain"
     ],
     "relatedCertIds": [],
-    "id": "fr269"
+    "id": "fr268"
   },
   {
     "name": "Azure CLI Reference",
@@ -6239,7 +6216,7 @@
       "Operate and Maintain"
     ],
     "relatedCertIds": [],
-    "id": "fr270"
+    "id": "fr269"
   },
   {
     "name": "gcloud CLI Reference",
@@ -6262,7 +6239,7 @@
       "Operate and Maintain"
     ],
     "relatedCertIds": [],
-    "id": "fr271"
+    "id": "fr270"
   },
   {
     "name": "Git Documentation",
@@ -6284,7 +6261,7 @@
       "Operate and Maintain"
     ],
     "relatedCertIds": [],
-    "id": "fr272"
+    "id": "fr271"
   },
   {
     "name": "Semgrep CLI",
@@ -6306,12 +6283,12 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr273"
+    "id": "fr272"
   },
   {
     "name": "Trivy (Aqua Security)",
     "provider": "Aqua Security",
-    "url": "https://aquasecurity.github.io/trivy/latest/",
+    "url": "https://trivy.dev/latest/",
     "description": "All-in-one vulnerability scanner for containers, filesystems, Git repos, and Kubernetes. Scans for CVEs, misconfigs, and secrets.",
     "category": "Command Shells and CLI Tools",
     "tags": [
@@ -6329,7 +6306,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr274"
+    "id": "fr273"
   },
   {
     "name": "Grype (Anchore)",
@@ -6352,7 +6329,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr275"
+    "id": "fr274"
   },
   {
     "name": "Syft (SBOM Generator)",
@@ -6374,7 +6351,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr276"
+    "id": "fr275"
   },
   {
     "name": "YARA Rules Documentation",
@@ -6397,7 +6374,7 @@
       "Investigate"
     ],
     "relatedCertIds": [],
-    "id": "fr277"
+    "id": "fr276"
   },
   {
     "name": "Promptfoo",
@@ -6419,7 +6396,7 @@
       "Analyze"
     ],
     "relatedCertIds": [],
-    "id": "fr278"
+    "id": "fr277"
   },
   {
     "name": "Mozilla SOPS",
@@ -6442,7 +6419,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr279"
+    "id": "fr278"
   },
   {
     "name": "age (encryption tool)",
@@ -6464,7 +6441,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr280"
+    "id": "fr279"
   },
   {
     "name": "Sealed Secrets (Bitnami)",
@@ -6487,7 +6464,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr281"
+    "id": "fr280"
   },
   {
     "name": "External Secrets Operator",
@@ -6510,7 +6487,7 @@
       "Operate and Maintain"
     ],
     "relatedCertIds": [],
-    "id": "fr282"
+    "id": "fr281"
   },
   {
     "name": "Infisical",
@@ -6533,7 +6510,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr283"
+    "id": "fr282"
   },
   {
     "name": "Doppler",
@@ -6555,7 +6532,7 @@
       "Operate and Maintain"
     ],
     "relatedCertIds": [],
-    "id": "fr284"
+    "id": "fr283"
   },
   {
     "name": "AWS Secrets Manager Docs",
@@ -6578,7 +6555,7 @@
       "Operate and Maintain"
     ],
     "relatedCertIds": [],
-    "id": "fr285"
+    "id": "fr284"
   },
   {
     "name": "Azure Key Vault Docs",
@@ -6601,7 +6578,7 @@
       "Operate and Maintain"
     ],
     "relatedCertIds": [],
-    "id": "fr286"
+    "id": "fr285"
   },
   {
     "name": "GCP Secret Manager Docs",
@@ -6624,7 +6601,7 @@
       "Operate and Maintain"
     ],
     "relatedCertIds": [],
-    "id": "fr287"
+    "id": "fr286"
   },
   {
     "name": "detect-secrets (Yelp)",
@@ -6646,7 +6623,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr288"
+    "id": "fr287"
   },
   {
     "name": "git-secrets (AWS Labs)",
@@ -6668,7 +6645,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr289"
+    "id": "fr288"
   },
   {
     "name": "truffleHog",
@@ -6690,7 +6667,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr290"
+    "id": "fr289"
   },
   {
     "name": "step-ca / Smallstep",
@@ -6714,7 +6691,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr291"
+    "id": "fr290"
   },
   {
     "name": "cert-manager (Kubernetes)",
@@ -6737,7 +6714,7 @@
       "Operate and Maintain"
     ],
     "relatedCertIds": [],
-    "id": "fr292"
+    "id": "fr291"
   },
   {
     "name": "cfssl (Cloudflare)",
@@ -6760,7 +6737,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr293"
+    "id": "fr292"
   },
   {
     "name": "mkcert",
@@ -6782,7 +6759,7 @@
       "Operate and Maintain"
     ],
     "relatedCertIds": [],
-    "id": "fr294"
+    "id": "fr293"
   },
   {
     "name": "EJBCA Community",
@@ -6804,7 +6781,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr295"
+    "id": "fr294"
   },
   {
     "name": "XCA (X Certificate and Key Management)",
@@ -6826,7 +6803,7 @@
       "Operate and Maintain"
     ],
     "relatedCertIds": [],
-    "id": "fr296"
+    "id": "fr295"
   },
   {
     "name": "Sliver C2",
@@ -6850,7 +6827,7 @@
       "Analyze"
     ],
     "relatedCertIds": [],
-    "id": "fr297"
+    "id": "fr296"
   },
   {
     "name": "Havoc C2",
@@ -6874,7 +6851,7 @@
       "Analyze"
     ],
     "relatedCertIds": [],
-    "id": "fr298"
+    "id": "fr297"
   },
   {
     "name": "Mythic C2",
@@ -6898,7 +6875,7 @@
       "Analyze"
     ],
     "relatedCertIds": [],
-    "id": "fr299"
+    "id": "fr298"
   },
   {
     "name": "Merlin C2",
@@ -6920,7 +6897,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr300"
+    "id": "fr299"
   },
   {
     "name": "Villain",
@@ -6942,7 +6919,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr301"
+    "id": "fr300"
   },
   {
     "name": "Covenant C2",
@@ -6965,7 +6942,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr302"
+    "id": "fr301"
   },
   {
     "name": "Nginx Documentation",
@@ -6987,7 +6964,7 @@
       "Operate and Maintain"
     ],
     "relatedCertIds": [],
-    "id": "fr303"
+    "id": "fr302"
   },
   {
     "name": "Caddy Server",
@@ -7009,7 +6986,7 @@
       "Operate and Maintain"
     ],
     "relatedCertIds": [],
-    "id": "fr304"
+    "id": "fr303"
   },
   {
     "name": "Traefik Documentation",
@@ -7031,7 +7008,7 @@
       "Operate and Maintain"
     ],
     "relatedCertIds": [],
-    "id": "fr305"
+    "id": "fr304"
   },
   {
     "name": "HAProxy Documentation",
@@ -7053,7 +7030,7 @@
       "Operate and Maintain"
     ],
     "relatedCertIds": [],
-    "id": "fr306"
+    "id": "fr305"
   },
   {
     "name": "Proxychains-ng",
@@ -7075,7 +7052,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr307"
+    "id": "fr306"
   },
   {
     "name": "Chisel",
@@ -7097,7 +7074,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr308"
+    "id": "fr307"
   },
   {
     "name": "Socat",
@@ -7119,7 +7096,7 @@
       "Operate and Maintain"
     ],
     "relatedCertIds": [],
-    "id": "fr309"
+    "id": "fr308"
   },
   {
     "name": "mitmproxy",
@@ -7142,7 +7119,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr310"
+    "id": "fr309"
   },
   {
     "name": "DMARC.org",
@@ -7164,7 +7141,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr311"
+    "id": "fr310"
   },
   {
     "name": "MXToolbox",
@@ -7187,7 +7164,7 @@
       "Operate and Maintain"
     ],
     "relatedCertIds": [],
-    "id": "fr312"
+    "id": "fr311"
   },
   {
     "name": "DKIM.org",
@@ -7209,7 +7186,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr313"
+    "id": "fr312"
   },
   {
     "name": "SPF Record Syntax (Open SPF)",
@@ -7231,7 +7208,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr314"
+    "id": "fr313"
   },
   {
     "name": "MTA-STS / TLS-RPT Guide",
@@ -7253,7 +7230,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr315"
+    "id": "fr314"
   },
   {
     "name": "Mail-Tester",
@@ -7275,7 +7252,7 @@
       "Operate and Maintain"
     ],
     "relatedCertIds": [],
-    "id": "fr316"
+    "id": "fr315"
   },
   {
     "name": "DANE/TLSA for Email (RFC 7672)",
@@ -7298,7 +7275,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr317"
+    "id": "fr316"
   },
   {
     "name": "Ghidra",
@@ -7320,7 +7297,7 @@
       "Analyze"
     ],
     "relatedCertIds": [],
-    "id": "fr318"
+    "id": "fr317"
   },
   {
     "name": "Radare2",
@@ -7342,7 +7319,7 @@
       "Analyze"
     ],
     "relatedCertIds": [],
-    "id": "fr319"
+    "id": "fr318"
   },
   {
     "name": "Cutter (rizin)",
@@ -7364,7 +7341,7 @@
       "Analyze"
     ],
     "relatedCertIds": [],
-    "id": "fr320"
+    "id": "fr319"
   },
   {
     "name": "IDA Free",
@@ -7386,7 +7363,7 @@
       "Analyze"
     ],
     "relatedCertIds": [],
-    "id": "fr321"
+    "id": "fr320"
   },
   {
     "name": "GDB (GNU Debugger)",
@@ -7408,7 +7385,7 @@
       "Analyze"
     ],
     "relatedCertIds": [],
-    "id": "fr322"
+    "id": "fr321"
   },
   {
     "name": "pwndbg",
@@ -7430,7 +7407,7 @@
       "Analyze"
     ],
     "relatedCertIds": [],
-    "id": "fr323"
+    "id": "fr322"
   },
   {
     "name": "Rizin",
@@ -7451,7 +7428,7 @@
       "Analyze"
     ],
     "relatedCertIds": [],
-    "id": "fr324"
+    "id": "fr323"
   },
   {
     "name": "PE-bear",
@@ -7475,7 +7452,7 @@
       "Investigate"
     ],
     "relatedCertIds": [],
-    "id": "fr325"
+    "id": "fr324"
   },
   {
     "name": "LOLBAS Project",
@@ -7499,7 +7476,7 @@
       "Analyze"
     ],
     "relatedCertIds": [],
-    "id": "fr326"
+    "id": "fr325"
   },
   {
     "name": "GTFOBins",
@@ -7523,7 +7500,7 @@
       "Analyze"
     ],
     "relatedCertIds": [],
-    "id": "fr327"
+    "id": "fr326"
   },
   {
     "name": "LOLDrivers",
@@ -7545,7 +7522,7 @@
       "Analyze"
     ],
     "relatedCertIds": [],
-    "id": "fr328"
+    "id": "fr327"
   },
   {
     "name": "WADComs",
@@ -7568,7 +7545,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr329"
+    "id": "fr328"
   },
   {
     "name": "LOFLCAB",
@@ -7590,7 +7567,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr330"
+    "id": "fr329"
   },
   {
     "name": "Kismet",
@@ -7612,7 +7589,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr331"
+    "id": "fr330"
   },
   {
     "name": "HackRF One / GNU Radio",
@@ -7634,7 +7611,7 @@
       "Analyze"
     ],
     "relatedCertIds": [],
-    "id": "fr332"
+    "id": "fr331"
   },
   {
     "name": "Flipper Zero Docs",
@@ -7656,7 +7633,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr333"
+    "id": "fr332"
   },
   {
     "name": "WiFi Pineapple Docs",
@@ -7678,12 +7655,12 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr334"
+    "id": "fr333"
   },
   {
     "name": "Bettercap",
     "provider": "bettercap",
-    "url": "https://www.bettercap.org/intro/",
+    "url": "https://www.bettercap.org/",
     "description": "Network reconnaissance and MITM framework. WiFi, BLE, HID, and Ethernet attacks.",
     "category": "Red Team and Adversary Simulation",
     "tags": [
@@ -7700,7 +7677,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr335"
+    "id": "fr334"
   },
   {
     "name": "Social-Engineer Toolkit (SET)",
@@ -7723,7 +7700,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr336"
+    "id": "fr335"
   },
   {
     "name": "Gophish",
@@ -7746,7 +7723,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr337"
+    "id": "fr336"
   },
   {
     "name": "USB Rubber Ducky Docs",
@@ -7768,7 +7745,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr338"
+    "id": "fr337"
   },
   {
     "name": "King Phisher",
@@ -7791,7 +7768,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr339"
+    "id": "fr338"
   },
   {
     "name": "Evilginx2",
@@ -7814,7 +7791,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr340"
+    "id": "fr339"
   },
   {
     "name": "ANY.RUN",
@@ -7837,7 +7814,7 @@
       "Investigate"
     ],
     "relatedCertIds": [],
-    "id": "fr341"
+    "id": "fr340"
   },
   {
     "name": "MalwareBazaar",
@@ -7860,7 +7837,7 @@
       "Investigate"
     ],
     "relatedCertIds": [],
-    "id": "fr342"
+    "id": "fr341"
   },
   {
     "name": "Hybrid Analysis",
@@ -7882,7 +7859,7 @@
       "Analyze"
     ],
     "relatedCertIds": [],
-    "id": "fr343"
+    "id": "fr342"
   },
   {
     "name": "REMnux",
@@ -7906,7 +7883,7 @@
       "Investigate"
     ],
     "relatedCertIds": [],
-    "id": "fr344"
+    "id": "fr343"
   },
   {
     "name": "Joe Sandbox Community",
@@ -7928,7 +7905,7 @@
       "Analyze"
     ],
     "relatedCertIds": [],
-    "id": "fr345"
+    "id": "fr344"
   },
   {
     "name": "Cuckoo Sandbox",
@@ -7950,7 +7927,7 @@
       "Analyze"
     ],
     "relatedCertIds": [],
-    "id": "fr346"
+    "id": "fr345"
   },
   {
     "name": "YARA-Forge",
@@ -7972,7 +7949,7 @@
       "Analyze"
     ],
     "relatedCertIds": [],
-    "id": "fr347"
+    "id": "fr346"
   },
   {
     "name": "Maltego CE",
@@ -7994,7 +7971,7 @@
       "Analyze"
     ],
     "relatedCertIds": [],
-    "id": "fr348"
+    "id": "fr347"
   },
   {
     "name": "SpiderFoot",
@@ -8016,7 +7993,7 @@
       "Analyze"
     ],
     "relatedCertIds": [],
-    "id": "fr349"
+    "id": "fr348"
   },
   {
     "name": "recon-ng",
@@ -8038,7 +8015,7 @@
       "Analyze"
     ],
     "relatedCertIds": [],
-    "id": "fr350"
+    "id": "fr349"
   },
   {
     "name": "theHarvester",
@@ -8060,7 +8037,7 @@
       "Analyze"
     ],
     "relatedCertIds": [],
-    "id": "fr351"
+    "id": "fr350"
   },
   {
     "name": "IntelTechniques OSINT Tools",
@@ -8082,7 +8059,7 @@
       "Analyze"
     ],
     "relatedCertIds": [],
-    "id": "fr352"
+    "id": "fr351"
   },
   {
     "name": "OSINT Framework",
@@ -8104,7 +8081,7 @@
       "Analyze"
     ],
     "relatedCertIds": [],
-    "id": "fr353"
+    "id": "fr352"
   },
   {
     "name": "Amass (OWASP)",
@@ -8126,13 +8103,13 @@
       "Analyze"
     ],
     "relatedCertIds": [],
-    "id": "fr354"
+    "id": "fr353"
   },
   {
-    "name": "NIST SP 800-61 Rev. 2 (IR Guide)",
+    "name": "NIST SP 800-61 Rev. 3 (IR Guide)",
     "provider": "NIST",
-    "url": "https://csrc.nist.gov/pubs/sp/800/61/r2/final",
-    "description": "Computer Security Incident Handling Guide. The gold standard for IR process.",
+    "url": "https://csrc.nist.gov/pubs/sp/800/61/r3/final",
+    "description": "NIST Incident Response guide with updated recommendations for preparing, detecting, analyzing, containing, eradicating, and recovering from cybersecurity incidents.",
     "category": "Blue Team and DFIR",
     "tags": [
       "NIST",
@@ -8148,7 +8125,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr355"
+    "id": "fr354"
   },
   {
     "name": "Cortex",
@@ -8170,7 +8147,7 @@
       "Analyze"
     ],
     "relatedCertIds": [],
-    "id": "fr356"
+    "id": "fr355"
   },
   {
     "name": "GRR Rapid Response",
@@ -8192,7 +8169,7 @@
       "Investigate"
     ],
     "relatedCertIds": [],
-    "id": "fr357"
+    "id": "fr356"
   },
   {
     "name": "DFIR ORC (ANSSI)",
@@ -8214,7 +8191,7 @@
       "Investigate"
     ],
     "relatedCertIds": [],
-    "id": "fr358"
+    "id": "fr357"
   },
   {
     "name": "kube-bench",
@@ -8237,7 +8214,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr359"
+    "id": "fr358"
   },
   {
     "name": "kube-hunter",
@@ -8259,7 +8236,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr360"
+    "id": "fr359"
   },
   {
     "name": "Polaris",
@@ -8281,7 +8258,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr361"
+    "id": "fr360"
   },
   {
     "name": "Kubescape",
@@ -8304,7 +8281,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr362"
+    "id": "fr361"
   },
   {
     "name": "OWASP API Security Top 10",
@@ -8326,7 +8303,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr363"
+    "id": "fr362"
   },
   {
     "name": "Postman Learning Center",
@@ -8348,7 +8325,7 @@
       "Operate and Maintain"
     ],
     "relatedCertIds": [],
-    "id": "fr364"
+    "id": "fr363"
   },
   {
     "name": "Burp Suite Community",
@@ -8371,7 +8348,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr365"
+    "id": "fr364"
   },
   {
     "name": "Hoppscotch",
@@ -8393,7 +8370,7 @@
       "Operate and Maintain"
     ],
     "relatedCertIds": [],
-    "id": "fr366"
+    "id": "fr365"
   },
   {
     "name": "Risky Business Podcast",
@@ -8415,7 +8392,7 @@
       "Oversee and Govern"
     ],
     "relatedCertIds": [],
-    "id": "fr367"
+    "id": "fr366"
   },
   {
     "name": "John Hammond (YouTube)",
@@ -8437,7 +8414,7 @@
       "Analyze"
     ],
     "relatedCertIds": [],
-    "id": "fr368"
+    "id": "fr367"
   },
   {
     "name": "IppSec (YouTube)",
@@ -8459,7 +8436,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr369"
+    "id": "fr368"
   },
   {
     "name": "STOK (YouTube)",
@@ -8481,7 +8458,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr370"
+    "id": "fr369"
   },
   {
     "name": "The Cyber Mentor (YouTube)",
@@ -8503,7 +8480,7 @@
       "Oversee and Govern"
     ],
     "relatedCertIds": [],
-    "id": "fr371"
+    "id": "fr370"
   },
   {
     "name": "Black Hills Information Security",
@@ -8525,7 +8502,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr372"
+    "id": "fr371"
   },
   {
     "name": "Bitwarden",
@@ -8547,7 +8524,7 @@
       "Operate and Maintain"
     ],
     "relatedCertIds": [],
-    "id": "fr373"
+    "id": "fr372"
   },
   {
     "name": "KeePassXC",
@@ -8569,7 +8546,7 @@
       "Operate and Maintain"
     ],
     "relatedCertIds": [],
-    "id": "fr374"
+    "id": "fr373"
   },
   {
     "name": "PCI DSS Document Library",
@@ -8591,7 +8568,7 @@
       "Oversee and Govern"
     ],
     "relatedCertIds": [],
-    "id": "fr375"
+    "id": "fr374"
   },
   {
     "name": "HIPAA Security Rule (HHS)",
@@ -8613,7 +8590,7 @@
       "Oversee and Govern"
     ],
     "relatedCertIds": [],
-    "id": "fr376"
+    "id": "fr375"
   },
   {
     "name": "FedRAMP Documentation",
@@ -8635,7 +8612,7 @@
       "Oversee and Govern"
     ],
     "relatedCertIds": [],
-    "id": "fr377"
+    "id": "fr376"
   },
   {
     "name": "SOC 2 Overview (AICPA)",
@@ -8657,30 +8634,7 @@
       "Oversee and Govern"
     ],
     "relatedCertIds": [],
-    "id": "fr378"
-  },
-  {
-    "name": "Python for Cybersecurity (SANS)",
-    "provider": "SANS",
-    "url": "https://www.sans.org/blog/python-for-cybersecurity/",
-    "description": "Python scripting for security automation, tool building, and exploit development.",
-    "category": "Courses",
-    "tags": [
-      "Python",
-      "scripting",
-      "automation",
-      "SANS"
-    ],
-    "level": "Beginner",
-    "cisspDomains": [
-      "cissp-d8"
-    ],
-    "niceCategories": [
-      "Analyze",
-      "Protect and Defend"
-    ],
-    "relatedCertIds": [],
-    "id": "fr379"
+    "id": "fr377"
   },
   {
     "name": "Automate the Boring Stuff with Python",
@@ -8702,7 +8656,7 @@
       "Operate and Maintain"
     ],
     "relatedCertIds": [],
-    "id": "fr380"
+    "id": "fr378"
   },
   {
     "name": "Black Hat Python (GitHub examples)",
@@ -8725,7 +8679,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr381"
+    "id": "fr379"
   },
   {
     "name": "Go by Example",
@@ -8747,7 +8701,7 @@
       "Operate and Maintain"
     ],
     "relatedCertIds": [],
-    "id": "fr382"
+    "id": "fr380"
   },
   {
     "name": "The Rust Programming Language Book",
@@ -8769,7 +8723,7 @@
       "Securely Provision"
     ],
     "relatedCertIds": [],
-    "id": "fr383"
+    "id": "fr381"
   },
   {
     "name": "Learn C Programming",
@@ -8791,7 +8745,7 @@
       "Analyze"
     ],
     "relatedCertIds": [],
-    "id": "fr384"
+    "id": "fr382"
   },
   {
     "name": "x86/x64 Assembly Tutorial",
@@ -8813,7 +8767,7 @@
       "Analyze"
     ],
     "relatedCertIds": [],
-    "id": "fr385"
+    "id": "fr383"
   },
   {
     "name": "PowerShell 101 (Microsoft)",
@@ -8835,7 +8789,7 @@
       "Operate and Maintain"
     ],
     "relatedCertIds": [],
-    "id": "fr386"
+    "id": "fr384"
   },
   {
     "name": "Bash Scripting Tutorial",
@@ -8857,7 +8811,7 @@
       "Operate and Maintain"
     ],
     "relatedCertIds": [],
-    "id": "fr387"
+    "id": "fr385"
   },
   {
     "name": "JavaScript Security (PortSwigger)",
@@ -8879,7 +8833,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr388"
+    "id": "fr386"
   },
   {
     "name": "Ruby for Metasploit Development",
@@ -8902,7 +8856,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr389"
+    "id": "fr387"
   },
   {
     "name": "Lua Scripting for Nmap NSE",
@@ -8925,7 +8879,7 @@
       "Analyze"
     ],
     "relatedCertIds": [],
-    "id": "fr390"
+    "id": "fr388"
   },
   {
     "name": "SQL for Security (SQLBolt)",
@@ -8947,7 +8901,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr391"
+    "id": "fr389"
   },
   {
     "name": "Nim for Offensive Security",
@@ -8970,7 +8924,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr392"
+    "id": "fr390"
   },
   {
     "name": "SANS Incident Handling Cheat Sheet",
@@ -8992,12 +8946,12 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr393"
+    "id": "fr391"
   },
   {
     "name": "SANS TCP/IP and tcpdump Cheat Sheet",
     "provider": "SANS",
-    "url": "https://www.sans.org/posters/tcpip-and-tcpdump/",
+    "url": "https://www.sans.org/posters/tcp-ip-and-tcpdump/",
     "description": "Packet analysis quick reference for TCP/IP and tcpdump filters.",
     "category": "Research",
     "tags": [
@@ -9014,7 +8968,7 @@
       "Analyze"
     ],
     "relatedCertIds": [],
-    "id": "fr394"
+    "id": "fr392"
   },
   {
     "name": "SANS Windows Command Line Cheat Sheet",
@@ -9036,12 +8990,12 @@
       "Investigate"
     ],
     "relatedCertIds": [],
-    "id": "fr395"
+    "id": "fr393"
   },
   {
     "name": "SANS Linux CLI Cheat Sheet",
     "provider": "SANS",
-    "url": "https://www.sans.org/posters/linux-command-line-cheat-sheet/",
+    "url": "https://www.sans.org/posters/linux-essentials-cheat-sheet/",
     "description": "Core Linux commands for security operations and administration.",
     "category": "Research",
     "tags": [
@@ -9058,12 +9012,12 @@
       "Operate and Maintain"
     ],
     "relatedCertIds": [],
-    "id": "fr396"
+    "id": "fr394"
   },
   {
     "name": "SANS PowerShell Cheat Sheet",
     "provider": "SANS",
-    "url": "https://www.sans.org/posters/powershell-cheat-sheet/",
+    "url": "https://www.sans.org/blog/sans-pen-test-cheat-sheet-powershell/",
     "description": "PowerShell commands for security operations and digital forensics.",
     "category": "Research",
     "tags": [
@@ -9080,7 +9034,7 @@
       "Investigate"
     ],
     "relatedCertIds": [],
-    "id": "fr397"
+    "id": "fr395"
   },
   {
     "name": "SANS REMnux Malware Analysis Cheat Sheet",
@@ -9102,7 +9056,7 @@
       "Analyze"
     ],
     "relatedCertIds": [],
-    "id": "fr398"
+    "id": "fr396"
   },
   {
     "name": "SANS SIFT Workstation Cheat Sheet",
@@ -9124,12 +9078,12 @@
       "Investigate"
     ],
     "relatedCertIds": [],
-    "id": "fr399"
+    "id": "fr397"
   },
   {
-    "name": "SANS Cloud Security Cheat Sheet",
+    "name": "SANS Multicloud Security Cheat Sheet",
     "provider": "SANS",
-    "url": "https://www.sans.org/posters/cloud-cheat-sheet/",
+    "url": "https://www.sans.org/posters/multicloud-cheat-sheet/",
     "description": "AWS, Azure, and GCP security quick reference.",
     "category": "Research",
     "tags": [
@@ -9148,7 +9102,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr400"
+    "id": "fr398"
   },
   {
     "name": "SANS Intrusion Discovery Cheat Sheet",
@@ -9170,7 +9124,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr401"
+    "id": "fr399"
   },
   {
     "name": "SANS Google Dorking / OSINT Cheat Sheet",
@@ -9192,7 +9146,7 @@
       "Analyze"
     ],
     "relatedCertIds": [],
-    "id": "fr402"
+    "id": "fr400"
   },
   {
     "name": "Kali Linux",
@@ -9214,7 +9168,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr403"
+    "id": "fr401"
   },
   {
     "name": "Parrot Security OS",
@@ -9236,7 +9190,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr404"
+    "id": "fr402"
   },
   {
     "name": "Tails",
@@ -9258,7 +9212,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr405"
+    "id": "fr403"
   },
   {
     "name": "SANS SIFT Workstation",
@@ -9280,7 +9234,7 @@
       "Investigate"
     ],
     "relatedCertIds": [],
-    "id": "fr406"
+    "id": "fr404"
   },
   {
     "name": "Security Onion",
@@ -9302,7 +9256,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr407"
+    "id": "fr405"
   },
   {
     "name": "BlackArch Linux",
@@ -9324,7 +9278,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr408"
+    "id": "fr406"
   },
   {
     "name": "Commando VM (Mandiant)",
@@ -9346,7 +9300,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr409"
+    "id": "fr407"
   },
   {
     "name": "FlareVM (Mandiant)",
@@ -9368,7 +9322,7 @@
       "Analyze"
     ],
     "relatedCertIds": [],
-    "id": "fr410"
+    "id": "fr408"
   },
   {
     "name": "CSI Linux",
@@ -9390,7 +9344,7 @@
       "Investigate"
     ],
     "relatedCertIds": [],
-    "id": "fr411"
+    "id": "fr409"
   },
   {
     "name": "Whonix",
@@ -9412,7 +9366,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr412"
+    "id": "fr410"
   },
   {
     "name": "man7.org (Linux Man Pages)",
@@ -9434,7 +9388,7 @@
       "Operate and Maintain"
     ],
     "relatedCertIds": [],
-    "id": "fr413"
+    "id": "fr411"
   },
   {
     "name": "tldr pages",
@@ -9456,7 +9410,7 @@
       "Operate and Maintain"
     ],
     "relatedCertIds": [],
-    "id": "fr414"
+    "id": "fr412"
   },
   {
     "name": "ExplainShell",
@@ -9478,7 +9432,7 @@
       "Operate and Maintain"
     ],
     "relatedCertIds": [],
-    "id": "fr415"
+    "id": "fr413"
   },
   {
     "name": "cheat.sh",
@@ -9500,7 +9454,7 @@
       "Operate and Maintain"
     ],
     "relatedCertIds": [],
-    "id": "fr416"
+    "id": "fr414"
   },
   {
     "name": "Die.net Man Pages",
@@ -9522,7 +9476,7 @@
       "Operate and Maintain"
     ],
     "relatedCertIds": [],
-    "id": "fr417"
+    "id": "fr415"
   },
   {
     "name": "FinOps Foundation",
@@ -9544,7 +9498,7 @@
       "Oversee and Govern"
     ],
     "relatedCertIds": [],
-    "id": "fr418"
+    "id": "fr416"
   },
   {
     "name": "FinOps Certified Practitioner Training",
@@ -9566,7 +9520,7 @@
       "Oversee and Govern"
     ],
     "relatedCertIds": [],
-    "id": "fr419"
+    "id": "fr417"
   },
   {
     "name": "FinOps Microsoft Licensing Guide",
@@ -9588,7 +9542,7 @@
       "Oversee and Govern"
     ],
     "relatedCertIds": [],
-    "id": "fr420"
+    "id": "fr418"
   },
   {
     "name": "OpenCost",
@@ -9610,7 +9564,7 @@
       "Operate and Maintain"
     ],
     "relatedCertIds": [],
-    "id": "fr421"
+    "id": "fr419"
   },
   {
     "name": "Kubecost",
@@ -9632,7 +9586,7 @@
       "Operate and Maintain"
     ],
     "relatedCertIds": [],
-    "id": "fr422"
+    "id": "fr420"
   },
   {
     "name": "Infracost",
@@ -9655,7 +9609,7 @@
       "Securely Provision"
     ],
     "relatedCertIds": [],
-    "id": "fr423"
+    "id": "fr421"
   },
   {
     "name": "AWS Cost Management Docs",
@@ -9677,7 +9631,7 @@
       "Operate and Maintain"
     ],
     "relatedCertIds": [],
-    "id": "fr424"
+    "id": "fr422"
   },
   {
     "name": "Azure Cost Management Docs",
@@ -9699,7 +9653,7 @@
       "Operate and Maintain"
     ],
     "relatedCertIds": [],
-    "id": "fr425"
+    "id": "fr423"
   },
   {
     "name": "GCP Cloud Billing Docs",
@@ -9721,12 +9675,12 @@
       "Operate and Maintain"
     ],
     "relatedCertIds": [],
-    "id": "fr426"
+    "id": "fr424"
   },
   {
     "name": "Azure Pricing Calculator",
     "provider": "Microsoft",
-    "url": "https://azure.microsoft.com/pricing/calculator/",
+    "url": "https://azure.microsoft.com/en-us/pricing/calculator/",
     "description": "Free tool to estimate Azure service costs before deployment.",
     "category": "FinOps and Cloud Cost Management",
     "tags": [
@@ -9743,7 +9697,7 @@
       "Operate and Maintain"
     ],
     "relatedCertIds": [],
-    "id": "fr427"
+    "id": "fr425"
   },
   {
     "name": "AWS Pricing Calculator",
@@ -9765,7 +9719,7 @@
       "Operate and Maintain"
     ],
     "relatedCertIds": [],
-    "id": "fr428"
+    "id": "fr426"
   },
   {
     "name": "Cloud Custodian",
@@ -9788,7 +9742,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr429"
+    "id": "fr427"
   },
   {
     "name": "Microsoft Sentinel Ninja Training",
@@ -9810,7 +9764,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr430"
+    "id": "fr428"
   },
   {
     "name": "Microsoft Defender for Endpoint Ninja",
@@ -9832,7 +9786,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr431"
+    "id": "fr429"
   },
   {
     "name": "Microsoft Defender for Identity Ninja",
@@ -9855,7 +9809,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr432"
+    "id": "fr430"
   },
   {
     "name": "Microsoft Defender for Office 365 Ninja",
@@ -9878,7 +9832,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr433"
+    "id": "fr431"
   },
   {
     "name": "Microsoft Defender for Cloud Ninja",
@@ -9901,7 +9855,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr434"
+    "id": "fr432"
   },
   {
     "name": "Microsoft Defender for Cloud Apps Ninja",
@@ -9924,7 +9878,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr435"
+    "id": "fr433"
   },
   {
     "name": "Microsoft 365 Defender Ninja",
@@ -9946,7 +9900,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr436"
+    "id": "fr434"
   },
   {
     "name": "Microsoft Defender Threat Intelligence Ninja",
@@ -9968,7 +9922,7 @@
       "Analyze"
     ],
     "relatedCertIds": [],
-    "id": "fr437"
+    "id": "fr435"
   },
   {
     "name": "Microsoft Purview Information Protection Ninja",
@@ -9990,7 +9944,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr438"
+    "id": "fr436"
   },
   {
     "name": "Microsoft Purview DLP Ninja",
@@ -10012,7 +9966,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr439"
+    "id": "fr437"
   },
   {
     "name": "Microsoft Purview eDiscovery Ninja",
@@ -10035,7 +9989,7 @@
       "Investigate"
     ],
     "relatedCertIds": [],
-    "id": "fr440"
+    "id": "fr438"
   },
   {
     "name": "Microsoft Purview Insider Risk Ninja",
@@ -10058,7 +10012,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr441"
+    "id": "fr439"
   },
   {
     "name": "Microsoft Purview Compliance Manager Ninja",
@@ -10080,7 +10034,7 @@
       "Oversee and Govern"
     ],
     "relatedCertIds": [],
-    "id": "fr442"
+    "id": "fr440"
   },
   {
     "name": "Azure Network Security Ninja",
@@ -10102,7 +10056,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr443"
+    "id": "fr441"
   },
   {
     "name": "Microsoft Learn Training",
@@ -10124,7 +10078,7 @@
       "Oversee and Govern"
     ],
     "relatedCertIds": [],
-    "id": "fr444"
+    "id": "fr442"
   },
   {
     "name": "Microsoft Certifications Browser",
@@ -10146,7 +10100,7 @@
       "Oversee and Govern"
     ],
     "relatedCertIds": [],
-    "id": "fr445"
+    "id": "fr443"
   },
   {
     "name": "Microsoft Applied Skills",
@@ -10168,7 +10122,7 @@
       "Operate and Maintain"
     ],
     "relatedCertIds": [],
-    "id": "fr446"
+    "id": "fr444"
   },
   {
     "name": "Microsoft Practice Assessments",
@@ -10190,7 +10144,7 @@
       "Oversee and Govern"
     ],
     "relatedCertIds": [],
-    "id": "fr447"
+    "id": "fr445"
   },
   {
     "name": "Microsoft Virtual Training Days",
@@ -10212,7 +10166,7 @@
       "Oversee and Govern"
     ],
     "relatedCertIds": [],
-    "id": "fr448"
+    "id": "fr446"
   },
   {
     "name": "Microsoft Exam Sandbox",
@@ -10234,7 +10188,7 @@
       "Oversee and Govern"
     ],
     "relatedCertIds": [],
-    "id": "fr449"
+    "id": "fr447"
   },
   {
     "name": "Microsoft Learn Exam Readiness Zone",
@@ -10256,7 +10210,7 @@
       "Oversee and Govern"
     ],
     "relatedCertIds": [],
-    "id": "fr450"
+    "id": "fr448"
   },
   {
     "name": "Cloud Skills Challenge (30 Days to Learn)",
@@ -10278,7 +10232,7 @@
       "Oversee and Govern"
     ],
     "relatedCertIds": [],
-    "id": "fr451"
+    "id": "fr449"
   },
   {
     "name": "Microsoft Learn Cloud Games",
@@ -10300,7 +10254,7 @@
       "Oversee and Govern"
     ],
     "relatedCertIds": [],
-    "id": "fr452"
+    "id": "fr450"
   },
   {
     "name": "ExpertZone",
@@ -10322,7 +10276,7 @@
       "Operate and Maintain"
     ],
     "relatedCertIds": [],
-    "id": "fr453"
+    "id": "fr451"
   },
   {
     "name": "Microsoft 365 Defender Portal",
@@ -10344,7 +10298,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr454"
+    "id": "fr452"
   },
   {
     "name": "Microsoft Secure Score",
@@ -10367,7 +10321,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr455"
+    "id": "fr453"
   },
   {
     "name": "Microsoft Purview Portal",
@@ -10390,7 +10344,7 @@
       "Oversee and Govern"
     ],
     "relatedCertIds": [],
-    "id": "fr456"
+    "id": "fr454"
   },
   {
     "name": "Microsoft Entra Admin Center",
@@ -10412,7 +10366,7 @@
       "Operate and Maintain"
     ],
     "relatedCertIds": [],
-    "id": "fr457"
+    "id": "fr455"
   },
   {
     "name": "Microsoft Intune Admin Center",
@@ -10435,7 +10389,7 @@
       "Operate and Maintain"
     ],
     "relatedCertIds": [],
-    "id": "fr458"
+    "id": "fr456"
   },
   {
     "name": "Microsoft Sentinel (Azure Portal)",
@@ -10457,7 +10411,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr459"
+    "id": "fr457"
   },
   {
     "name": "Microsoft Defender for Cloud (Azure Portal)",
@@ -10480,7 +10434,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr460"
+    "id": "fr458"
   },
   {
     "name": "Microsoft Service Health Dashboard",
@@ -10502,7 +10456,7 @@
       "Operate and Maintain"
     ],
     "relatedCertIds": [],
-    "id": "fr461"
+    "id": "fr459"
   },
   {
     "name": "Attack Simulation Training (M365)",
@@ -10525,7 +10479,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr462"
+    "id": "fr460"
   },
   {
     "name": "John Savill's Technical Training (YouTube)",
@@ -10547,7 +10501,7 @@
       "Operate and Maintain"
     ],
     "relatedCertIds": [],
-    "id": "fr463"
+    "id": "fr461"
   },
   {
     "name": "Microsoft Mechanics (YouTube)",
@@ -10569,7 +10523,7 @@
       "Operate and Maintain"
     ],
     "relatedCertIds": [],
-    "id": "fr464"
+    "id": "fr462"
   },
   {
     "name": "Intune Training (YouTube)",
@@ -10591,7 +10545,7 @@
       "Operate and Maintain"
     ],
     "relatedCertIds": [],
-    "id": "fr465"
+    "id": "fr463"
   },
   {
     "name": "Microsoft Security Community (YouTube)",
@@ -10613,7 +10567,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr466"
+    "id": "fr464"
   },
   {
     "name": "Kusto Detective Agency",
@@ -10635,7 +10589,7 @@
       "Analyze"
     ],
     "relatedCertIds": [],
-    "id": "fr467"
+    "id": "fr465"
   },
   {
     "name": "MSPortals.io",
@@ -10657,7 +10611,7 @@
       "Operate and Maintain"
     ],
     "relatedCertIds": [],
-    "id": "fr468"
+    "id": "fr466"
   },
   {
     "name": "cmd.ms",
@@ -10679,7 +10633,7 @@
       "Operate and Maintain"
     ],
     "relatedCertIds": [],
-    "id": "fr469"
+    "id": "fr467"
   },
   {
     "name": "M365 Maps (Licensing Diagrams)",
@@ -10701,7 +10655,7 @@
       "Oversee and Govern"
     ],
     "relatedCertIds": [],
-    "id": "fr470"
+    "id": "fr468"
   },
   {
     "name": "Azure Charts",
@@ -10723,7 +10677,7 @@
       "Operate and Maintain"
     ],
     "relatedCertIds": [],
-    "id": "fr471"
+    "id": "fr469"
   },
   {
     "name": "ASD Blueprint for Secure Cloud",
@@ -10746,7 +10700,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr472"
+    "id": "fr470"
   },
   {
     "name": "Conditional Access Documenter (idPowerToys)",
@@ -10768,7 +10722,7 @@
       "Oversee and Govern"
     ],
     "relatedCertIds": [],
-    "id": "fr473"
+    "id": "fr471"
   },
   {
     "name": "Entra.News",
@@ -10790,7 +10744,7 @@
       "Oversee and Govern"
     ],
     "relatedCertIds": [],
-    "id": "fr474"
+    "id": "fr472"
   },
   {
     "name": "Microsoft Defender for Endpoint P2 Trial",
@@ -10812,7 +10766,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr475"
+    "id": "fr473"
   },
   {
     "name": "Microsoft Defender ATP Testground",
@@ -10834,7 +10788,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr476"
+    "id": "fr474"
   },
   {
     "name": "Microsoft 365 E5 Security Trial",
@@ -10856,7 +10810,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr477"
+    "id": "fr475"
   },
   {
     "name": "Microsoft Defender for Identity Trial",
@@ -10879,7 +10833,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr478"
+    "id": "fr476"
   },
   {
     "name": "Microsoft 365 Developer Program",
@@ -10901,7 +10855,7 @@
       "Securely Provision"
     ],
     "relatedCertIds": [],
-    "id": "fr479"
+    "id": "fr477"
   },
   {
     "name": "EFF Surveillance Self-Defense (SSD)",
@@ -10925,7 +10879,7 @@
       "Oversight and Governance"
     ],
     "relatedCertIds": [],
-    "id": "fr480"
+    "id": "fr478"
   },
   {
     "name": "EFF Security Education Companion",
@@ -10948,7 +10902,7 @@
       "Oversight and Governance"
     ],
     "relatedCertIds": [],
-    "id": "fr481"
+    "id": "fr479"
   },
   {
     "name": "EFF Privacy Badger",
@@ -10971,7 +10925,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr482"
+    "id": "fr480"
   },
   {
     "name": "EFF Certbot (Let's Encrypt Client)",
@@ -10996,7 +10950,7 @@
       "Implementation and Operation"
     ],
     "relatedCertIds": [],
-    "id": "fr483"
+    "id": "fr481"
   },
   {
     "name": "EFF Deeplinks Blog",
@@ -11019,7 +10973,7 @@
       "Oversight and Governance"
     ],
     "relatedCertIds": [],
-    "id": "fr484"
+    "id": "fr482"
   },
   {
     "name": "EFF Atlas of Surveillance",
@@ -11043,7 +10997,7 @@
       "Oversight and Governance"
     ],
     "relatedCertIds": [],
-    "id": "fr485"
+    "id": "fr483"
   },
   {
     "name": "EFF Know Your Rights",
@@ -11066,7 +11020,7 @@
       "Oversight and Governance"
     ],
     "relatedCertIds": [],
-    "id": "fr486"
+    "id": "fr484"
   },
   {
     "name": "EFF Street Level Surveillance",
@@ -11090,7 +11044,7 @@
       "Oversight and Governance"
     ],
     "relatedCertIds": [],
-    "id": "fr487"
+    "id": "fr485"
   },
   {
     "name": "EFF Who Has Your Back Report",
@@ -11114,7 +11068,7 @@
       "Oversight and Governance"
     ],
     "relatedCertIds": [],
-    "id": "fr488"
+    "id": "fr486"
   },
   {
     "name": "OWASP Threat Modeling Guide",
@@ -11138,7 +11092,7 @@
       "Design and Development"
     ],
     "relatedCertIds": [],
-    "id": "fr489"
+    "id": "fr487"
   },
   {
     "name": "OWASP Threat Modeling Cheat Sheet",
@@ -11160,7 +11114,7 @@
       "Design and Development"
     ],
     "relatedCertIds": [],
-    "id": "fr490"
+    "id": "fr488"
   },
   {
     "name": "Threat Modeling Manifesto",
@@ -11183,7 +11137,7 @@
       "Design and Development"
     ],
     "relatedCertIds": [],
-    "id": "fr491"
+    "id": "fr489"
   },
   {
     "name": "STRIDE Threat Classification",
@@ -11205,7 +11159,7 @@
       "Design and Development"
     ],
     "relatedCertIds": [],
-    "id": "fr492"
+    "id": "fr490"
   },
   {
     "name": "LINDDUN Privacy Threat Modeling",
@@ -11229,7 +11183,7 @@
       "Oversight and Governance"
     ],
     "relatedCertIds": [],
-    "id": "fr493"
+    "id": "fr491"
   },
   {
     "name": "PASTA Threat Modeling Process",
@@ -11252,12 +11206,12 @@
       "Design and Development"
     ],
     "relatedCertIds": [],
-    "id": "fr494"
+    "id": "fr492"
   },
   {
     "name": "NIST SP 800-154: Guide to Data-Centric Threat Modeling (Draft)",
     "provider": "NIST",
-    "url": "https://csrc.nist.gov/publications/detail/sp/800-154/draft",
+    "url": "https://csrc.nist.gov/pubs/sp/800/154/ipd",
     "description": "NIST's guide to data-centric system threat modeling, focusing on identifying and mitigating threats to data throughout its lifecycle within information systems.",
     "category": "Threat Modeling",
     "tags": [
@@ -11275,7 +11229,7 @@
       "Design and Development"
     ],
     "relatedCertIds": [],
-    "id": "fr495"
+    "id": "fr493"
   },
   {
     "name": "Attack Trees (Bruce Schneier)",
@@ -11298,7 +11252,7 @@
       "Design and Development"
     ],
     "relatedCertIds": [],
-    "id": "fr496"
+    "id": "fr494"
   },
   {
     "name": "SAFECode Tactical Threat Modeling",
@@ -11321,7 +11275,7 @@
       "Design and Development"
     ],
     "relatedCertIds": [],
-    "id": "fr497"
+    "id": "fr495"
   },
   {
     "name": "Microsoft Threat Modeling Tool",
@@ -11344,7 +11298,7 @@
       "Design and Development"
     ],
     "relatedCertIds": [],
-    "id": "fr498"
+    "id": "fr496"
   },
   {
     "name": "OWASP Threat Dragon",
@@ -11366,7 +11320,7 @@
       "Design and Development"
     ],
     "relatedCertIds": [],
-    "id": "fr499"
+    "id": "fr497"
   },
   {
     "name": "Threagile",
@@ -11390,7 +11344,7 @@
       "Design and Development"
     ],
     "relatedCertIds": [],
-    "id": "fr500"
+    "id": "fr498"
   },
   {
     "name": "OWASP pytm",
@@ -11413,7 +11367,7 @@
       "Design and Development"
     ],
     "relatedCertIds": [],
-    "id": "fr501"
+    "id": "fr499"
   },
   {
     "name": "Deciduous Attack Tree Builder",
@@ -11436,12 +11390,12 @@
       "Design and Development"
     ],
     "relatedCertIds": [],
-    "id": "fr502"
+    "id": "fr500"
   },
   {
     "name": "IriusRisk Community Edition",
     "provider": "IriusRisk",
-    "url": "https://www.iriusrisk.com/community-edition",
+    "url": "https://www.iriusrisk.com/community/",
     "description": "Free tier of the enterprise threat modeling platform with questionnaire-driven threat identification, component-based modeling, and countermeasure recommendations.",
     "category": "Threat Modeling",
     "tags": [
@@ -11459,7 +11413,7 @@
       "Design and Development"
     ],
     "relatedCertIds": [],
-    "id": "fr503"
+    "id": "fr501"
   },
   {
     "name": "CAIRIS",
@@ -11482,7 +11436,7 @@
       "Design and Development"
     ],
     "relatedCertIds": [],
-    "id": "fr504"
+    "id": "fr502"
   },
   {
     "name": "Threat Modeling Resources (Adam Shostack)",
@@ -11505,7 +11459,7 @@
       "Design and Development"
     ],
     "relatedCertIds": [],
-    "id": "fr505"
+    "id": "fr503"
   },
   {
     "name": "Elevation of Privilege Card Game",
@@ -11528,7 +11482,7 @@
       "Design and Development"
     ],
     "relatedCertIds": [],
-    "id": "fr506"
+    "id": "fr504"
   },
   {
     "name": "EFF Threat Modeling Guide (Your Security Plan)",
@@ -11551,7 +11505,7 @@
       "Oversight and Governance"
     ],
     "relatedCertIds": [],
-    "id": "fr507"
+    "id": "fr505"
   },
   {
     "name": "HHS 405(d) Health Industry Cybersecurity Practices (HICP)",
@@ -11575,12 +11529,12 @@
       "Oversight and Governance"
     ],
     "relatedCertIds": [],
-    "id": "fr508"
+    "id": "fr506"
   },
   {
     "name": "NIST SP 800-66 Rev. 2: HIPAA Security Rule Implementation Guide",
     "provider": "NIST",
-    "url": "https://csrc.nist.gov/publications/detail/sp/800-66/rev-2/final",
+    "url": "https://csrc.nist.gov/pubs/sp/800/66/r2/final",
     "description": "NIST's definitive guide for implementing the HIPAA Security Rule. Maps HIPAA requirements to NIST Cybersecurity Framework controls with practical implementation guidance for healthcare organizations.",
     "category": "Healthcare Cybersecurity",
     "tags": [
@@ -11599,12 +11553,12 @@
       "Oversight and Governance"
     ],
     "relatedCertIds": [],
-    "id": "fr509"
+    "id": "fr507"
   },
   {
     "name": "HITRUST CSF Overview",
     "provider": "HITRUST Alliance",
-    "url": "https://hitrustalliance.net/csf/",
+    "url": "https://hitrustalliance.net/hitrust-framework/",
     "description": "Overview of the HITRUST Common Security Framework, the most widely adopted security and privacy framework in the U.S. healthcare industry. Integrates HIPAA, NIST, ISO, PCI, and other standards into a single certifiable framework.",
     "category": "Healthcare Cybersecurity",
     "tags": [
@@ -11623,7 +11577,7 @@
       "Oversight and Governance"
     ],
     "relatedCertIds": [],
-    "id": "fr510"
+    "id": "fr508"
   },
   {
     "name": "HHS Cybersecurity Performance Goals (CPGs) for Healthcare",
@@ -11647,7 +11601,7 @@
       "Oversight and Governance"
     ],
     "relatedCertIds": [],
-    "id": "fr511"
+    "id": "fr509"
   },
   {
     "name": "FDA Premarket Cybersecurity Guidance for Medical Devices",
@@ -11672,7 +11626,7 @@
       "Design and Development"
     ],
     "relatedCertIds": [],
-    "id": "fr512"
+    "id": "fr510"
   },
   {
     "name": "NIST Cybersecurity Framework Healthcare Profile",
@@ -11696,7 +11650,7 @@
       "Oversight and Governance"
     ],
     "relatedCertIds": [],
-    "id": "fr513"
+    "id": "fr511"
   },
   {
     "name": "HIPAA Security Rule Crosswalk to NIST CSF",
@@ -11720,7 +11674,7 @@
       "Oversight and Governance"
     ],
     "relatedCertIds": [],
-    "id": "fr514"
+    "id": "fr512"
   },
   {
     "name": "HHS HC3 – Health Sector Cybersecurity Coordination Center",
@@ -11744,7 +11698,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr515"
+    "id": "fr513"
   },
   {
     "name": "Health-ISAC",
@@ -11768,7 +11722,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr516"
+    "id": "fr514"
   },
   {
     "name": "CISA Healthcare and Public Health Sector Resources",
@@ -11792,7 +11746,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr517"
+    "id": "fr515"
   },
   {
     "name": "MITRE Medical Device Cybersecurity Playbook",
@@ -11815,12 +11769,12 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr518"
+    "id": "fr516"
   },
   {
-    "name": "CISA Healthcare Cybersecurity Toolkit",
+    "name": "CISA Healthcare and Public Health Mitigation Guide",
     "provider": "CISA",
-    "url": "https://www.cisa.gov/resources-tools/resources/healthcare-and-public-health-hph-cybersecurity-toolkit",
+    "url": "https://www.cisa.gov/resources-tools/resources/mitigation-guide-healthcare-and-public-health-hph-sector",
     "description": "Free cybersecurity toolkit for healthcare organizations from CISA. Includes risk assessment templates, incident response checklists, staff training materials, and implementation guides tailored to healthcare environments.",
     "category": "Healthcare Cybersecurity",
     "tags": [
@@ -11839,7 +11793,7 @@
       "Oversight and Governance"
     ],
     "relatedCertIds": [],
-    "id": "fr519"
+    "id": "fr517"
   },
   {
     "name": "(ISC)² HCISPP Overview and Study Resources",
@@ -11863,12 +11817,12 @@
       "Oversight and Governance"
     ],
     "relatedCertIds": [],
-    "id": "fr520"
+    "id": "fr518"
   },
   {
-    "name": "SANS Health Care Cybersecurity Summit Recordings",
+    "name": "SANS Healthcare Cybersecurity Forum",
     "provider": "SANS Institute",
-    "url": "https://www.sans.org/cyber-security-summit/archives/healthcare",
+    "url": "https://www.sans.org/mlp/healthcare-cybersecurity/",
     "description": "Archived talks from SANS Health Care Cybersecurity Summits. Features expert presentations on healthcare threat landscape, medical device security, incident response in hospitals, and regulatory compliance strategies.",
     "category": "Healthcare Cybersecurity",
     "tags": [
@@ -11887,7 +11841,7 @@
       "Oversight and Governance"
     ],
     "relatedCertIds": [],
-    "id": "fr521"
+    "id": "fr519"
   },
   {
     "name": "I Am The Cavalry – Hippocratic Oath for Connected Medical Devices",
@@ -11911,7 +11865,7 @@
       "Design and Development"
     ],
     "relatedCertIds": [],
-    "id": "fr522"
+    "id": "fr520"
   },
   {
     "name": "HL7 FHIR Security and Privacy Module",
@@ -11935,31 +11889,7 @@
       "Design and Development"
     ],
     "relatedCertIds": [],
-    "id": "fr523"
-  },
-  {
-    "name": "OWASP Medical Device Security Guide",
-    "provider": "OWASP",
-    "url": "https://owasp.org/www-project-medical-device-security/",
-    "description": "OWASP project addressing cybersecurity risks in connected medical devices. Covers common attack surfaces, firmware analysis, wireless protocol vulnerabilities, and secure development practices for medical IoT.",
-    "category": "Healthcare Cybersecurity",
-    "tags": [
-      "OWASP",
-      "medical devices",
-      "IoMT",
-      "firmware",
-      "attack surface"
-    ],
-    "level": "Intermediate",
-    "cisspDomains": [
-      "cissp-d3",
-      "cissp-d8"
-    ],
-    "niceCategories": [
-      "Design and Development"
-    ],
-    "relatedCertIds": [],
-    "id": "fr524"
+    "id": "fr521"
   },
   {
     "name": "CISA Medical Device Cybersecurity Advisories",
@@ -11983,7 +11913,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr525"
+    "id": "fr522"
   },
   {
     "name": "NTIA/CISA Healthcare SBOM Proof of Concept",
@@ -12007,7 +11937,7 @@
       "Design and Development"
     ],
     "relatedCertIds": [],
-    "id": "fr526"
+    "id": "fr523"
   },
   {
     "name": "HC3 Analyst Notes and Threat Briefs",
@@ -12030,7 +11960,7 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr527"
+    "id": "fr524"
   },
   {
     "name": "Archimedes Center for Healthcare and Device Security",
@@ -12054,7 +11984,7 @@
       "Design and Development"
     ],
     "relatedCertIds": [],
-    "id": "fr528"
+    "id": "fr525"
   },
   {
     "name": "HHS HIPAA Breach Portal (Wall of Shame)",
@@ -12078,7 +12008,7 @@
       "Oversight and Governance"
     ],
     "relatedCertIds": [],
-    "id": "fr529"
+    "id": "fr526"
   },
   {
     "name": "Cynerio Healthcare Cybersecurity Research",
@@ -12102,12 +12032,12 @@
       "Protect and Defend"
     ],
     "relatedCertIds": [],
-    "id": "fr530"
+    "id": "fr527"
   },
   {
-    "name": "MedCrypt Medical Device Security Resources",
+    "name": "MedCrypt Medical Device Security",
     "provider": "MedCrypt",
-    "url": "https://www.medcrypt.com/resources",
+    "url": "https://www.medcrypt.com/",
     "description": "Medical device cybersecurity company providing free resources on FDA compliance, embedded device encryption, SBOM management, and secure development practices for healthcare technology manufacturers.",
     "category": "Healthcare Cybersecurity",
     "tags": [
@@ -12126,6 +12056,6 @@
       "Design and Development"
     ],
     "relatedCertIds": [],
-    "id": "fr531"
+    "id": "fr528"
   }
 ]

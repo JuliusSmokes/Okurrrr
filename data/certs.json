@@ -621,7 +621,7 @@
   {
     "id": "c21",
     "name": "Zach EAPro",
-    "url": "https://www.zachman.com/certification/what-we-certify/enterprise-architect",
+    "url": "https://zachman-feac.com/",
     "category": "Security Architecture and Engineering",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -778,7 +778,7 @@
   {
     "id": "c26",
     "name": "CSFA",
-    "url": "https://www.csiac.org/certification/cybersecurity-forensic-analyst-csfa-certification/",
+    "url": "https://cybersecurityforensicanalyst.com/",
     "category": "Forensics",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -2153,7 +2153,7 @@
   {
     "id": "c70",
     "name": "Zach EAP",
-    "url": "https://www.zachman.com/certification/what-we-certify/enterprise-architect",
+    "url": "https://zachman-feac.com/",
     "category": "Security Architecture and Engineering",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -8466,38 +8466,6 @@
   },
   {
     "id": "c274",
-    "name": "CSBA",
-    "url": "https://www.softwarecertifications.org/csba/",
-    "category": "Security Operations",
-    "level": "Intermediate",
-    "niceWorkRoleIds": [
-      "PD-WRL-001",
-      "PD-WRL-003",
-      "IO-WRL-006"
-    ],
-    "costUsd": null,
-    "costNote": "Contact vendor",
-    "dod8140": false,
-    "dodWorkRoleCodes": [],
-    "fullName": "Certified Secure Software Assurer",
-    "vendor": "Software Certification Institute",
-    "description": "Validates secure software development and assurance competencies.",
-    "status": "active",
-    "statusNote": null,
-    "freeTraining": false,
-    "freeTrainingUrl": null,
-    "cisspDomains": [
-      "cissp-d1",
-      "cissp-d2",
-      "cissp-d6",
-      "cissp-d7"
-    ],
-    "regions": [
-      "Global"
-    ]
-  },
-  {
-    "id": "c275",
     "name": "DCBCLA",
     "url": "https://drii.org/certification/cbcla",
     "category": "Security Operations",
@@ -8529,7 +8497,7 @@
     ]
   },
   {
-    "id": "c276",
+    "id": "c275",
     "name": "TUV MSA",
     "url": "https://www.certipedia.com/quality_marks/0000046324?locale=en",
     "category": "Security Operations",
@@ -8562,7 +8530,7 @@
     ]
   },
   {
-    "id": "c277",
+    "id": "c276",
     "name": "DevNet A",
     "url": "https://www.cisco.com/site/us/en/learn/training-certifications/certifications/devnet/associate/index.html",
     "category": "Security Operations",
@@ -8594,7 +8562,7 @@
     ]
   },
   {
-    "id": "c278",
+    "id": "c277",
     "name": "CySA+",
     "url": "https://www.comptia.org/certifications/cybersecurity-analyst",
     "category": "Security Operations",
@@ -8635,7 +8603,7 @@
     ]
   },
   {
-    "id": "c279",
+    "id": "c278",
     "name": "CSX-P",
     "url": "https://cybersecurity.isaca.org/csx-certifications/csx-practitioner-certification",
     "category": "Security Operations",
@@ -8667,7 +8635,7 @@
     ]
   },
   {
-    "id": "c280",
+    "id": "c279",
     "name": "C)NFE",
     "url": "https://www.mile2.com/network-forensics-examiner-outline/",
     "category": "Security Operations",
@@ -8699,7 +8667,7 @@
     ]
   },
   {
-    "id": "c281",
+    "id": "c280",
     "name": "GOSI",
     "url": "https://www.giac.org/certification/open-source-intelligence-gosi",
     "category": "Security Operations",
@@ -8731,7 +8699,7 @@
     ]
   },
   {
-    "id": "c282",
+    "id": "c281",
     "name": "C)TIA",
     "url": "https://www.mile2.com/threat-analyst/",
     "category": "Security Operations",
@@ -8763,7 +8731,7 @@
     ]
   },
   {
-    "id": "c283",
+    "id": "c282",
     "name": "OSDA",
     "url": "https://www.offensive-security.com/soc200-osda/",
     "category": "Penetration Testing",
@@ -8791,7 +8759,7 @@
     ]
   },
   {
-    "id": "c284",
+    "id": "c283",
     "name": "eMAPT",
     "url": "https://security.ine.com/certifications/emapt-certification/",
     "category": "Penetration Testing",
@@ -8819,7 +8787,7 @@
     ]
   },
   {
-    "id": "c285",
+    "id": "c284",
     "name": "BSCP",
     "url": "https://portswigger.net/web-security/certification",
     "category": "Penetration Testing",
@@ -8847,7 +8815,7 @@
     ]
   },
   {
-    "id": "c286",
+    "id": "c285",
     "name": "OPST",
     "url": "https://www.isecom.org/certification.html",
     "category": "Security Operations",
@@ -8880,7 +8848,7 @@
     ]
   },
   {
-    "id": "c287",
+    "id": "c286",
     "name": "OSWA",
     "url": "https://www.offensive-security.com/web200-oswa/",
     "category": "Penetration Testing",
@@ -8908,7 +8876,7 @@
     ]
   },
   {
-    "id": "c288",
+    "id": "c287",
     "name": "CREA",
     "url": "https://app.infosecinstitute.com/portal/courses/a0tC0000000Fp4IIAS",
     "category": "Security Operations",
@@ -8940,7 +8908,7 @@
     ]
   },
   {
-    "id": "c289",
+    "id": "c288",
     "name": "CWSP",
     "url": "https://www.cwnp.com/certifications/cwsp",
     "category": "Security Operations",
@@ -8972,7 +8940,7 @@
     ]
   },
   {
-    "id": "c290",
+    "id": "c289",
     "name": "CREST CCNIA",
     "url": "https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-network-intrusion-analyst",
     "category": "Security Operations",
@@ -9006,7 +8974,7 @@
     ]
   },
   {
-    "id": "c291",
+    "id": "c290",
     "name": "CIGE",
     "url": "https://www.identitymanagementinstitute.org/cige/",
     "category": "IAM",
@@ -9034,7 +9002,7 @@
     ]
   },
   {
-    "id": "c292",
+    "id": "c291",
     "name": "AZ-104",
     "url": "https://docs.microsoft.com/en-us/learn/certifications/azure-administrator?wt.mc_id=learningredirect_certs-web-wwl",
     "category": "Cloud/SysOps",
@@ -9065,7 +9033,7 @@
     ]
   },
   {
-    "id": "c293",
+    "id": "c292",
     "name": "CLCSM",
     "url": "https://pecb.com/en/education-and-certification-for-individuals/cloud-security/lead-cloud-security-manager",
     "category": "Security Operations",
@@ -9097,7 +9065,7 @@
     ]
   },
   {
-    "id": "c294",
+    "id": "c293",
     "name": "CCSE",
     "url": "https://cert.eccouncil.org/certified-cloud-security-engineer.html",
     "category": "Security Operations",
@@ -9129,7 +9097,7 @@
     ]
   },
   {
-    "id": "c295",
+    "id": "c294",
     "name": "MCSE",
     "url": "https://www.mosse-institute.com/certifications/mcse-certified-cloud-security-engineer.html",
     "category": "Security Operations",
@@ -9161,7 +9129,7 @@
     ]
   },
   {
-    "id": "c296",
+    "id": "c295",
     "name": "SFSA",
     "url": "https://trailhead.salesforce.com/credentials/systemarchitect",
     "category": "Security Operations",
@@ -9193,7 +9161,7 @@
     ]
   },
   {
-    "id": "c297",
+    "id": "c296",
     "name": "ASIS APP",
     "url": "https://www.asisonline.org/certification/associate-protection-professional-app/",
     "category": "Security Operations",
@@ -9225,7 +9193,7 @@
     ]
   },
   {
-    "id": "c298",
+    "id": "c297",
     "name": "CNDA",
     "url": "https://www.eccouncil.org/programs/certified-network-defense-architect-cnda/",
     "category": "Security Operations",
@@ -9257,7 +9225,7 @@
     ]
   },
   {
-    "id": "c299",
+    "id": "c298",
     "name": "DACRP",
     "url": "https://drii.org/certification/acrp",
     "category": "GRC",
@@ -9287,7 +9255,7 @@
     ]
   },
   {
-    "id": "c300",
+    "id": "c299",
     "name": "CISRM",
     "url": "https://www.itgovernance.co.uk/shop/product/iso-27005-certified-isms-risk-management",
     "category": "Security Operations",
@@ -9319,7 +9287,7 @@
     ]
   },
   {
-    "id": "c301",
+    "id": "c300",
     "name": "DCRMP",
     "url": "https://drii.org/certification/crmp",
     "category": "GRC",
@@ -9349,7 +9317,7 @@
     ]
   },
   {
-    "id": "c302",
+    "id": "c301",
     "name": "SSAP",
     "url": "https://www.sans.org/security-awareness-training/career-development/credential/",
     "category": "GRC",
@@ -9379,7 +9347,7 @@
     ]
   },
   {
-    "id": "c303",
+    "id": "c302",
     "name": "GRCP",
     "url": "https://www.oceg.org/certifications/grc-professional-certification/",
     "category": "GRC",
@@ -9409,7 +9377,7 @@
     ]
   },
   {
-    "id": "c304",
+    "id": "c303",
     "name": "SACP",
     "url": "https://www.thehlayer.com/about-exam/",
     "category": "Security Operations",
@@ -9441,7 +9409,7 @@
     ]
   },
   {
-    "id": "c305",
+    "id": "c304",
     "name": "CISP",
     "url": "https://gaqm.org/certifications/information_systems_security/cisp",
     "category": "Security Operations",
@@ -9473,7 +9441,7 @@
     ]
   },
   {
-    "id": "c306",
+    "id": "c305",
     "name": "TUV Auditor",
     "url": "https://www.certipedia.com/quality_marks/0000063484?locale=en",
     "category": "Security Operations",
@@ -9506,7 +9474,7 @@
     ]
   },
   {
-    "id": "c307",
+    "id": "c306",
     "name": "CTPRP",
     "url": "https://sharedassessments.org/ctprp/",
     "category": "GRC",
@@ -9536,7 +9504,7 @@
     ]
   },
   {
-    "id": "c308",
+    "id": "c307",
     "name": "IIA CIA",
     "url": "https://na.theiia.org/certification/CIA-Certification/Pages/CIA-Certification.aspx",
     "category": "Security Operations",
@@ -9568,7 +9536,7 @@
     ]
   },
   {
-    "id": "c309",
+    "id": "c308",
     "name": "CCSC",
     "url": "https://certnexus.com/certification/cyber-secure-coder/",
     "category": "Security Operations",
@@ -9600,7 +9568,7 @@
     ]
   },
   {
-    "id": "c310",
+    "id": "c309",
     "name": "SC-200",
     "url": "https://docs.microsoft.com/en-us/learn/certifications/security-operations-analyst/",
     "category": "Security Operations",
@@ -9632,7 +9600,7 @@
     ]
   },
   {
-    "id": "c311",
+    "id": "c310",
     "name": "MRCI",
     "url": "https://www.mosse-institute.com/certifications/mrci-remote-cybersecurity-internship.html",
     "category": "Security Operations",
@@ -9664,7 +9632,7 @@
     ]
   },
   {
-    "id": "c312",
+    "id": "c311",
     "name": "EDRP",
     "url": "https://www.eccouncil.org/programs/disaster-recovery-professional-edrp/",
     "category": "Security Operations",
@@ -9696,7 +9664,7 @@
     ]
   },
   {
-    "id": "c313",
+    "id": "c312",
     "name": "HTB CDSA",
     "url": "https://academy.hackthebox.com/preview/certifications/htb-certified-defensive-security-analyst",
     "category": "Security Operations",
@@ -9728,7 +9696,7 @@
     ]
   },
   {
-    "id": "c314",
+    "id": "c313",
     "name": "CFR",
     "url": "https://certnexus.com/certification/cybersec-first-responder/",
     "category": "Security Operations",
@@ -9767,7 +9735,7 @@
     ]
   },
   {
-    "id": "c315",
+    "id": "c314",
     "name": "CTIA",
     "url": "https://www.eccouncil.org/programs/certified-threat-intelligence-analyst-ctia/",
     "category": "Security Operations",
@@ -9799,7 +9767,7 @@
     ]
   },
   {
-    "id": "c316",
+    "id": "c315",
     "name": "CSTM",
     "url": "https://thecyberscheme.org/cyber-scheme-team-member-cstm-exam/",
     "category": "Security Operations",
@@ -9831,7 +9799,7 @@
     ]
   },
   {
-    "id": "c317",
+    "id": "c316",
     "name": "eJPT",
     "url": "https://ine.com/learning/certifications/internal/elearnsecurity-junior-penetration-tester-v2",
     "category": "Penetration Testing",
@@ -9859,7 +9827,7 @@
     ]
   },
   {
-    "id": "c318",
+    "id": "c317",
     "name": "S-EHP",
     "url": "https://www.seco-institute.org/certifications/ethical-hacking-track/practitioner/",
     "category": "Security Operations",
@@ -9891,7 +9859,7 @@
     ]
   },
   {
-    "id": "c319",
+    "id": "c318",
     "name": "CHAT",
     "url": "https://www.isecom.org/certification.html",
     "category": "Security Operations",
@@ -9924,7 +9892,7 @@
     ]
   },
   {
-    "id": "c320",
+    "id": "c319",
     "name": "CREST CPSA",
     "url": "https://www.crest-approved.org/certification-careers/crest-certifications/crest-practitioner-security-analyst",
     "category": "Penetration Testing",
@@ -9954,7 +9922,7 @@
     ]
   },
   {
-    "id": "c321",
+    "id": "c320",
     "name": "F5 CA",
     "url": "https://view.ceros.com/f5/certification-roadmap/p/9?heightOverride=740",
     "category": "Communication and Network Security",
@@ -9982,7 +9950,7 @@
     ]
   },
   {
-    "id": "c322",
+    "id": "c321",
     "name": "eNDP",
     "url": "https://www.elearnsecurity.com/certification/endp/",
     "category": "Security Operations",
@@ -10014,7 +9982,7 @@
     ]
   },
   {
-    "id": "c323",
+    "id": "c322",
     "name": "CIST",
     "url": "https://www.identitymanagementinstitute.org/cist/",
     "category": "IAM",
@@ -10042,7 +10010,7 @@
     ]
   },
   {
-    "id": "c324",
+    "id": "c323",
     "name": "Google PCSE",
     "url": "https://cloud.google.com/certification/cloud-security-engineer",
     "category": "Cloud/SysOps",
@@ -10073,7 +10041,7 @@
     ]
   },
   {
-    "id": "c325",
+    "id": "c324",
     "name": "EXIN PCSM",
     "url": "https://www.exin.com/certifications/ccc-professional-cloud-security-manager-exam",
     "category": "Security Operations",
@@ -10105,7 +10073,7 @@
     ]
   },
   {
-    "id": "c326",
+    "id": "c325",
     "name": "MDSO",
     "url": "https://www.mosse-institute.com/certifications/mdso-certified-devsecops-engineer.html",
     "category": "Software Security",
@@ -10135,7 +10103,7 @@
     ]
   },
   {
-    "id": "c327",
+    "id": "c326",
     "name": "SCA",
     "url": "https://www.suse.com/training/exam/sca-sles-15/",
     "category": "*nix",
@@ -10163,7 +10131,7 @@
     ]
   },
   {
-    "id": "c328",
+    "id": "c327",
     "name": "ISA CAP",
     "url": "https://www.isa.org/training-and-certifications/isa-certification/isa99iec-62443/isa99iec-62443-cybersecurity-certificate-programs/",
     "category": "ICS/IoT",
@@ -10192,7 +10160,7 @@
     ]
   },
   {
-    "id": "c329",
+    "id": "c328",
     "name": "TUV COSM",
     "url": "https://limessecurity.com/en/academy/ics-211/",
     "category": "Security Operations",
@@ -10225,9 +10193,9 @@
     ]
   },
   {
-    "id": "c330",
+    "id": "c329",
     "name": "Zach EAA",
-    "url": "https://www.zachman.com/certification/what-we-certify/enterprise-architect",
+    "url": "https://zachman-feac.com/",
     "category": "Security Architecture and Engineering",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -10253,7 +10221,7 @@
     ]
   },
   {
-    "id": "c331",
+    "id": "c330",
     "name": "CAD",
     "url": "https://gaqm.org/certifications/scrum_agile/cad",
     "category": "Security Operations",
@@ -10285,7 +10253,7 @@
     ]
   },
   {
-    "id": "c332",
+    "id": "c331",
     "name": "CAC",
     "url": "https://gaqm.org/certifications/scrum_agile/cac",
     "category": "Security Operations",
@@ -10317,7 +10285,7 @@
     ]
   },
   {
-    "id": "c333",
+    "id": "c332",
     "name": "ISMI CSMP",
     "url": "https://www.ismi.org.uk/csmp/csmp%C2%AE-overview.aspx",
     "category": "Security Operations",
@@ -10349,7 +10317,7 @@
     ]
   },
   {
-    "id": "c334",
+    "id": "c333",
     "name": "CSCS",
     "url": "https://ecfirst.biz/index.php?route=product/product&#038;path=59_61&#038;product_id=89",
     "category": "Security Operations",
@@ -10381,7 +10349,7 @@
     ]
   },
   {
-    "id": "c335",
+    "id": "c334",
     "name": "APMG 27001F",
     "url": "https://apmg-international.com/product/isoiec-27001",
     "category": "GRC",
@@ -10412,7 +10380,7 @@
     ]
   },
   {
-    "id": "c336",
+    "id": "c335",
     "name": "PECB 27001F",
     "url": "https://pecb.com/en/education-and-certification-for-individuals/iso-iec-27001/iso-iec-27001-foundation",
     "category": "GRC",
@@ -10442,7 +10410,7 @@
     ]
   },
   {
-    "id": "c337",
+    "id": "c336",
     "name": "C)SLO",
     "url": "https://www.mile2.com/cslo_outline/",
     "category": "Software Security",
@@ -10472,7 +10440,7 @@
     ]
   },
   {
-    "id": "c338",
+    "id": "c337",
     "name": "DCBCA",
     "url": "https://drii.org/certification/cbca",
     "category": "Security Operations",
@@ -10504,7 +10472,7 @@
     ]
   },
   {
-    "id": "c339",
+    "id": "c338",
     "name": "GRCA",
     "url": "https://www.oceg.org/certifications/grc-audit-certification/",
     "category": "GRC",
@@ -10534,7 +10502,7 @@
     ]
   },
   {
-    "id": "c340",
+    "id": "c339",
     "name": "CISST",
     "url": "https://gaqm.org/certifications/information_systems_security/cisst",
     "category": "Security Operations",
@@ -10566,7 +10534,7 @@
     ]
   },
   {
-    "id": "c341",
+    "id": "c340",
     "name": "C)SWAE",
     "url": "https://www.mile2.com/cswae_outline/",
     "category": "Software Security",
@@ -10596,7 +10564,7 @@
     ]
   },
   {
-    "id": "c342",
+    "id": "c341",
     "name": "OPSA",
     "url": "https://www.isecom.org/certification.html",
     "category": "Security Operations",
@@ -10629,7 +10597,7 @@
     ]
   },
   {
-    "id": "c343",
+    "id": "c342",
     "name": "CSAE",
     "url": "https://cyberstruggle.org/aegis-certification/",
     "category": "Security Operations",
@@ -10662,7 +10630,7 @@
     ]
   },
   {
-    "id": "c344",
+    "id": "c343",
     "name": "ASIS PCI",
     "url": "https://www.asisonline.org/certification/professional-certified-investigator-pci",
     "category": "Security Operations",
@@ -10694,9 +10662,9 @@
     ]
   },
   {
-    "id": "c345",
+    "id": "c344",
     "name": "MAD SOCA",
-    "url": "https://mitre-engenuity.org/mad/",
+    "url": "https://mad20.io/mad/",
     "category": "Security Operations",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -10714,7 +10682,7 @@
     "status": "active",
     "statusNote": null,
     "freeTraining": true,
-    "freeTrainingUrl": "https://mitre-engenuity.org/",
+    "freeTrainingUrl": "https://mad20.io/",
     "cisspDomains": [
       "cissp-d1",
       "cissp-d2",
@@ -10726,9 +10694,9 @@
     ]
   },
   {
-    "id": "c346",
+    "id": "c345",
     "name": "MAD CTI",
-    "url": "https://mitre-engenuity.org/mad/",
+    "url": "https://mad20.io/mad/",
     "category": "Security Operations",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -10746,7 +10714,7 @@
     "status": "active",
     "statusNote": null,
     "freeTraining": true,
-    "freeTrainingUrl": "https://mitre-engenuity.org/",
+    "freeTrainingUrl": "https://mad20.io/",
     "cisspDomains": [
       "cissp-d1",
       "cissp-d2",
@@ -10758,7 +10726,7 @@
     ]
   },
   {
-    "id": "c347",
+    "id": "c346",
     "name": "CEH",
     "url": "https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/",
     "category": "Penetration Testing",
@@ -10786,7 +10754,7 @@
     ]
   },
   {
-    "id": "c348",
+    "id": "c347",
     "name": "SOG CAPen",
     "url": "https://secops.group/product/certified-appsec-pentester/",
     "category": "Penetration Testing",
@@ -10814,7 +10782,7 @@
     ]
   },
   {
-    "id": "c349",
+    "id": "c348",
     "name": "C)PTE",
     "url": "https://www.mile2.com/penetration-testing-engineer-outline/",
     "category": "Penetration Testing",
@@ -10842,7 +10810,7 @@
     ]
   },
   {
-    "id": "c350",
+    "id": "c349",
     "name": "SOG CNPen",
     "url": "https://secops.group/product/certified-network-pentester/",
     "category": "Penetration Testing",
@@ -10870,7 +10838,7 @@
     ]
   },
   {
-    "id": "c351",
+    "id": "c350",
     "name": "DV RTOS",
     "url": "https://0xdarkvortex.dev/training-programs/red-team-and-operational-security/",
     "category": "Security Operations",
@@ -10902,7 +10870,7 @@
     ]
   },
   {
-    "id": "c352",
+    "id": "c351",
     "name": "DV OTD",
     "url": "https://0xdarkvortex.dev/training-programs/offensive-tool-development/",
     "category": "Security Operations",
@@ -10934,7 +10902,7 @@
     ]
   },
   {
-    "id": "c353",
+    "id": "c352",
     "name": "MVRE",
     "url": "https://www.mosse-institute.com/certifications/mvre-vulnerability-researcher-and-exploitation-specialist.html",
     "category": "Exploitation",
@@ -10962,7 +10930,7 @@
     ]
   },
   {
-    "id": "c354",
+    "id": "c353",
     "name": "MNSE",
     "url": "https://www.mosse-institute.com/certifications/mnse-network-security-essentials.html",
     "category": "Security Operations",
@@ -10994,7 +10962,7 @@
     ]
   },
   {
-    "id": "c355",
+    "id": "c354",
     "name": "OWSE",
     "url": "https://www.isecom.org/certification.html",
     "category": "Security Operations",
@@ -11027,7 +10995,7 @@
     ]
   },
   {
-    "id": "c356",
+    "id": "c355",
     "name": "SC-300",
     "url": "https://docs.microsoft.com/en-us/learn/certifications/identity-and-access-administrator/",
     "category": "IAM",
@@ -11055,7 +11023,7 @@
     ]
   },
   {
-    "id": "c357",
+    "id": "c356",
     "name": "CSA CCSK",
     "url": "https://cloudsecurityalliance.org/education/ccsk/",
     "category": "Cloud/SysOps",
@@ -11086,7 +11054,7 @@
     ]
   },
   {
-    "id": "c358",
+    "id": "c357",
     "name": "C)CSO",
     "url": "https://mile2.com/ccso_outline/",
     "category": "Security Operations",
@@ -11118,7 +11086,7 @@
     ]
   },
   {
-    "id": "c359",
+    "id": "c358",
     "name": "DCA",
     "url": "https://training.mirantis.com/dca-certification-exam/",
     "category": "*nix",
@@ -11146,7 +11114,7 @@
     ]
   },
   {
-    "id": "c360",
+    "id": "c359",
     "name": "LPIC-1",
     "url": "https://www.lpi.org/our-certifications/lpic-1-overview",
     "category": "*nix",
@@ -11174,7 +11142,7 @@
     ]
   },
   {
-    "id": "c361",
+    "id": "c360",
     "name": "GICSP",
     "url": "https://www.giac.org/certification/global-industrial-cyber-security-professional-gicsp",
     "category": "ICS/IoT",
@@ -11206,7 +11174,7 @@
     ]
   },
   {
-    "id": "c362",
+    "id": "c361",
     "name": "GSEC",
     "url": "https://www.giac.org/certification/security-essentials-gsec",
     "category": "Security Operations",
@@ -11245,7 +11213,7 @@
     ]
   },
   {
-    "id": "c363",
+    "id": "c362",
     "name": "MOIS",
     "url": "https://www.mosse-institute.com/certifications/mois-certified-osint-expert.html",
     "category": "Security Operations",
@@ -11277,7 +11245,7 @@
     ]
   },
   {
-    "id": "c364",
+    "id": "c363",
     "name": "CFA",
     "url": "https://gaqm.org/certifications/information_systems_security/cfa",
     "category": "Security Operations",
@@ -11309,7 +11277,7 @@
     ]
   },
   {
-    "id": "c365",
+    "id": "c364",
     "name": "CSA",
     "url": "https://www.eccouncil.org/programs/certified-soc-analyst-csa/",
     "category": "Security Operations",
@@ -11341,7 +11309,7 @@
     ]
   },
   {
-    "id": "c366",
+    "id": "c365",
     "name": "GFACT",
     "url": "https://www.giac.org/certifications/foundational-cybersecurity-technologies-gfact/",
     "category": "Security Operations",
@@ -11376,7 +11344,7 @@
     ]
   },
   {
-    "id": "c367",
+    "id": "c366",
     "name": "SOG CMPen And",
     "url": "https://secops.group/product/certified-mobile-pentester-cmpen-android/",
     "category": "Security Operations",
@@ -11408,7 +11376,7 @@
     ]
   },
   {
-    "id": "c368",
+    "id": "c367",
     "name": "SOG CMPen iOS",
     "url": "https://secops.group/product/certified-mobile-pentester-cmpen-ios/",
     "category": "Security Operations",
@@ -11440,7 +11408,7 @@
     ]
   },
   {
-    "id": "c369",
+    "id": "c368",
     "name": "DV MoS",
     "url": "https://0xdarkvortex.dev/training-programs/malware-on-steroids/#certification",
     "category": "Security Operations",
@@ -11472,7 +11440,7 @@
     ]
   },
   {
-    "id": "c370",
+    "id": "c369",
     "name": "Pentest+",
     "url": "https://www.comptia.org/certifications/pentest",
     "category": "Penetration Testing",
@@ -11509,7 +11477,7 @@
     ]
   },
   {
-    "id": "c371",
+    "id": "c370",
     "name": "CREST CSAS",
     "url": "https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-simulated-attack-specialist",
     "category": "Penetration Testing",
@@ -11539,7 +11507,7 @@
     ]
   },
   {
-    "id": "c372",
+    "id": "c371",
     "name": "ECES",
     "url": "https://www.eccouncil.org/programs/ec-council-certified-encryption-specialist-eces/",
     "category": "Security Operations",
@@ -11571,7 +11539,7 @@
     ]
   },
   {
-    "id": "c373",
+    "id": "c372",
     "name": "JNCIA Sec",
     "url": "https://www.juniper.net/us/en/training/certification/certification-tracks/junos-security-track/?tab=jnciasec",
     "category": "Security Operations",
@@ -11603,7 +11571,7 @@
     ]
   },
   {
-    "id": "c374",
+    "id": "c373",
     "name": "FCA",
     "url": "https://training.fortinet.com/local/staticpage/view.php?page=fca_cybersecurity",
     "category": "Security Operations",
@@ -11635,7 +11603,7 @@
     ]
   },
   {
-    "id": "c375",
+    "id": "c374",
     "name": "WCNA",
     "url": "https://www.wcnacertification.com/exam-information-1",
     "category": "Communication and Network Security",
@@ -11663,7 +11631,7 @@
     ]
   },
   {
-    "id": "c376",
+    "id": "c375",
     "name": "Server+",
     "url": "https://www.comptia.org/certifications/server",
     "category": "Security Operations",
@@ -11695,7 +11663,7 @@
     ]
   },
   {
-    "id": "c377",
+    "id": "c376",
     "name": "PDSO CDP",
     "url": "https://www.practical-devsecops.com/certified-devsecops-professional/",
     "category": "Software Security",
@@ -11725,7 +11693,7 @@
     ]
   },
   {
-    "id": "c378",
+    "id": "c377",
     "name": "EXIN PCD",
     "url": "https://www.exin.com/certifications/ccc-professional-cloud-developer-exam",
     "category": "Security Operations",
@@ -11757,7 +11725,7 @@
     ]
   },
   {
-    "id": "c379",
+    "id": "c378",
     "name": "KCNA",
     "url": "https://www.cncf.io/certification/kcna/",
     "category": "Cloud/SysOps",
@@ -11788,7 +11756,7 @@
     ]
   },
   {
-    "id": "c380",
+    "id": "c379",
     "name": "Linux+",
     "url": "https://www.comptia.org/certifications/linux",
     "category": "*nix",
@@ -11816,7 +11784,7 @@
     ]
   },
   {
-    "id": "c381",
+    "id": "c380",
     "name": "AZ-220",
     "url": "https://docs.microsoft.com/en-us/learn/certifications/azure-iot-developer-specialty?wt.mc_id=learningredirect_certs-web-wwl",
     "category": "Cloud/SysOps",
@@ -11847,7 +11815,7 @@
     ]
   },
   {
-    "id": "c382",
+    "id": "c381",
     "name": "CRFS",
     "url": "https://www.identitymanagementinstitute.org/crfs/",
     "category": "IAM",
@@ -11875,7 +11843,7 @@
     ]
   },
   {
-    "id": "c383",
+    "id": "c382",
     "name": "SSCP",
     "url": "https://www.isc2.org/Certifications/SSCP",
     "category": "Security Operations",
@@ -11916,7 +11884,7 @@
     ]
   },
   {
-    "id": "c384",
+    "id": "c383",
     "name": "SOG CAP",
     "url": "https://secops.group/product/certified-application-security-practitioner/",
     "category": "Security Operations",
@@ -11948,7 +11916,7 @@
     ]
   },
   {
-    "id": "c385",
+    "id": "c384",
     "name": "CCOA",
     "url": "https://www.isaca.org/credentialing/ccoa",
     "category": "Security Operations",
@@ -11980,7 +11948,7 @@
     ]
   },
   {
-    "id": "c386",
+    "id": "c385",
     "name": "CREST CPIA",
     "url": "https://www.crest-approved.org/certification-careers/crest-certifications/crest-practitioner-intrusion-analyst",
     "category": "Security Operations",
@@ -12014,7 +11982,7 @@
     ]
   },
   {
-    "id": "c387",
+    "id": "c386",
     "name": "MESE",
     "url": "https://www.mosse-institute.com/certifications/mese-certified-enterprise-security-engineer.html",
     "category": "Security Operations",
@@ -12046,7 +12014,7 @@
     ]
   },
   {
-    "id": "c388",
+    "id": "c387",
     "name": "CREST CPTIA",
     "url": "https://www.crest-approved.org/certification-careers/crest-certifications/crest-practitioner-threat-intelligence-analyst/",
     "category": "Security Operations",
@@ -12080,7 +12048,7 @@
     ]
   },
   {
-    "id": "c389",
+    "id": "c388",
     "name": "MCPT",
     "url": "https://www.mosse-institute.com/certifications/mcpt-cloud-penetration-tester.html",
     "category": "Security Operations",
@@ -12112,7 +12080,7 @@
     ]
   },
   {
-    "id": "c390",
+    "id": "c389",
     "name": "C)PEH",
     "url": "https://mile2.com/professional-ethical-hacker/",
     "category": "Penetration Testing",
@@ -12140,7 +12108,7 @@
     ]
   },
   {
-    "id": "c391",
+    "id": "c390",
     "name": "GCPEH",
     "url": "https://gaqm.org/certifications/information_systems_security/cpeh",
     "category": "Penetration Testing",
@@ -12168,7 +12136,7 @@
     ]
   },
   {
-    "id": "c392",
+    "id": "c391",
     "name": "CCSA",
     "url": "https://training-certifications.checkpoint.com/#/courses/Check%20Point%20Certified%20Admin%20(CCSA",
     "category": "Security Operations",
@@ -12200,7 +12168,7 @@
     ]
   },
   {
-    "id": "c393",
+    "id": "c392",
     "name": "ITS-NS",
     "url": "https://certiport.filecamp.com/s/ITS_OD_102_Network_Security/fi",
     "category": "Security Operations",
@@ -12232,7 +12200,7 @@
     ]
   },
   {
-    "id": "c394",
+    "id": "c393",
     "name": "CCT",
     "url": "https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/entry/technician-cct.html",
     "category": "Security Operations",
@@ -12264,7 +12232,7 @@
     ]
   },
   {
-    "id": "c395",
+    "id": "c394",
     "name": "Cloud+",
     "url": "https://www.comptia.org/certifications/cloud",
     "category": "Cloud/SysOps",
@@ -12298,7 +12266,7 @@
     ]
   },
   {
-    "id": "c396",
+    "id": "c395",
     "name": "Google ACE",
     "url": "https://cloud.google.com/certification/cloud-engineer",
     "category": "Forensics",
@@ -12327,7 +12295,7 @@
     ]
   },
   {
-    "id": "c397",
+    "id": "c396",
     "name": "SOG CCSP-AWS",
     "url": "https://secops.group/product/certified-cloud-security-practitioner-aws-ccsp-aws/",
     "category": "Cloud/SysOps",
@@ -12358,7 +12326,7 @@
     ]
   },
   {
-    "id": "c398",
+    "id": "c397",
     "name": "LFCA",
     "url": "https://training.linuxfoundation.org/certification/certified-it-associate/",
     "category": "Cloud/SysOps",
@@ -12389,7 +12357,7 @@
     ]
   },
   {
-    "id": "c399",
+    "id": "c398",
     "name": "ISA CFS",
     "url": "https://www.isa.org/training-and-certifications/isa-certification/isa99iec-62443/isa99iec-62443-cybersecurity-certificate-programs/",
     "category": "ICS/IoT",
@@ -12418,7 +12386,7 @@
     ]
   },
   {
-    "id": "c400",
+    "id": "c399",
     "name": "EITCA/IS",
     "url": "https://eitca.org/eitca-is-information-security-academy/",
     "category": "Security Operations",
@@ -12450,7 +12418,7 @@
     ]
   },
   {
-    "id": "c401",
+    "id": "c400",
     "name": "CIPP",
     "url": "https://iapp.org/certify/cipp",
     "category": "Security Operations",
@@ -12482,7 +12450,7 @@
     ]
   },
   {
-    "id": "c402",
+    "id": "c401",
     "name": "Security+",
     "url": "https://www.comptia.org/certifications/security",
     "category": "Security Operations",
@@ -12521,7 +12489,7 @@
     ]
   },
   {
-    "id": "c403",
+    "id": "c402",
     "name": "ECSS",
     "url": "https://www.eccouncil.org/programs/certified-security-specialist-ecss/",
     "category": "Security Operations",
@@ -12553,7 +12521,7 @@
     ]
   },
   {
-    "id": "c404",
+    "id": "c403",
     "name": "C)DFE",
     "url": "https://www.mile2.com/cdfe_outline/",
     "category": "Security Operations",
@@ -12585,7 +12553,7 @@
     ]
   },
   {
-    "id": "c405",
+    "id": "c404",
     "name": "S-SA",
     "url": "https://www.seco-institute.org/get-trained/cyber-defense-track/associate-soc-analyst-certification/",
     "category": "Security Operations",
@@ -12617,7 +12585,7 @@
     ]
   },
   {
-    "id": "c406",
+    "id": "c405",
     "name": "DV AOPH",
     "url": "https://0xdarkvortex.dev/training-programs/adversary-operations-and-proactive-hunting/",
     "category": "Security Operations",
@@ -12649,7 +12617,7 @@
     ]
   },
   {
-    "id": "c407",
+    "id": "c406",
     "name": "SOG NSP",
     "url": "https://secops.group/product/certified-network-security-practitioner/",
     "category": "Security Operations",
@@ -12681,7 +12649,7 @@
     ]
   },
   {
-    "id": "c408",
+    "id": "c407",
     "name": "Net+",
     "url": "https://www.comptia.org/certifications/network",
     "category": "Security Operations",
@@ -12713,7 +12681,7 @@
     ]
   },
   {
-    "id": "c409",
+    "id": "c408",
     "name": "CAMS",
     "url": "https://www.identitymanagementinstitute.org/cams/",
     "category": "IAM",
@@ -12741,7 +12709,7 @@
     ]
   },
   {
-    "id": "c410",
+    "id": "c409",
     "name": "AZ-900",
     "url": "https://docs.microsoft.com/en-us/learn/certifications/azure-fundamentals",
     "category": "Cloud/SysOps",
@@ -12772,7 +12740,7 @@
     ]
   },
   {
-    "id": "c411",
+    "id": "c410",
     "name": "MCSF",
     "url": "https://www.mosse-institute.com/certifications/mcsf-cloud-services-fundamentals.html",
     "category": "Security Operations",
@@ -12804,7 +12772,7 @@
     ]
   },
   {
-    "id": "c412",
+    "id": "c411",
     "name": "MSAF",
     "url": "https://www.mosse-institute.com/certifications/msaf-system-administration-fundamentals.html",
     "category": "Security Operations",
@@ -12836,7 +12804,7 @@
     ]
   },
   {
-    "id": "c413",
+    "id": "c412",
     "name": "Apple ACSP",
     "url": "https://training.apple.com/us/en/recognition",
     "category": "Security Operations",
@@ -12868,7 +12836,7 @@
     ]
   },
   {
-    "id": "c414",
+    "id": "c413",
     "name": "CACS",
     "url": "https://www.exidacace.com/Apply/CACS",
     "category": "Security Operations",
@@ -12901,7 +12869,7 @@
     ]
   },
   {
-    "id": "c415",
+    "id": "c414",
     "name": "TUV COSTE",
     "url": "https://limessecurity.com/en/academy/ics-211/",
     "category": "ICS/IoT",
@@ -12931,7 +12899,7 @@
     ]
   },
   {
-    "id": "c416",
+    "id": "c415",
     "name": "EPDPF",
     "url": "https://www.exin.com/certifications/exin-privacy-and-data-protection-foundation-exam",
     "category": "Security Operations",
@@ -12963,7 +12931,7 @@
     ]
   },
   {
-    "id": "c417",
+    "id": "c416",
     "name": "TOGAF Fdn",
     "url": "https://www.opengroup.org/certifications/togaf",
     "category": "Security Architecture and Engineering",
@@ -12991,7 +12959,7 @@
     ]
   },
   {
-    "id": "c418",
+    "id": "c417",
     "name": "CSP",
     "url": "https://gaqm.org/certifications/scrum_agile/csp-410",
     "category": "Security Operations",
@@ -13023,7 +12991,7 @@
     ]
   },
   {
-    "id": "c419",
+    "id": "c418",
     "name": "IIBA CCA",
     "url": "https://www.iiba.org/certification/iiba-certifications/specialized-business-analysis-certifications/certificate-in-cybersecurity-analysis/",
     "category": "Security Operations",
@@ -13055,7 +13023,7 @@
     ]
   },
   {
-    "id": "c420",
+    "id": "c419",
     "name": "CITGP",
     "url": "https://www.itgovernance.co.uk/shop/product/implementing-it-governance-foundation-principles-training-course",
     "category": "Security Operations",
@@ -13087,7 +13055,7 @@
     ]
   },
   {
-    "id": "c421",
+    "id": "c420",
     "name": "C)ISCAP",
     "url": "https://www.mile2.com/iscap_outline/",
     "category": "Security Operations",
@@ -13119,7 +13087,7 @@
     ]
   },
   {
-    "id": "c422",
+    "id": "c421",
     "name": "CSAP",
     "url": "https://app.infosecinstitute.com/portal/courses/a0t0y000009lTzjAAE",
     "category": "Security Operations",
@@ -13151,7 +13119,7 @@
     ]
   },
   {
-    "id": "c423",
+    "id": "c422",
     "name": "PECB 27032F",
     "url": "https://pecb.com/en/education-and-certification-for-individuals/iso-iec-27032/iso-iec-27032-foundation",
     "category": "GRC",
@@ -13181,7 +13149,7 @@
     ]
   },
   {
-    "id": "c424",
+    "id": "c423",
     "name": "MCL",
     "url": "https://www.mosse-institute.com/certifications/mcl-cybersecurity-leadership.html",
     "category": "Security Operations",
@@ -13213,7 +13181,7 @@
     ]
   },
   {
-    "id": "c425",
+    "id": "c424",
     "name": "ITS-C",
     "url": "https://certiport.filecamp.com/s/JTIy1sX0ci0ZI3ss/fi",
     "category": "Security Operations",
@@ -13245,7 +13213,7 @@
     ]
   },
   {
-    "id": "c426",
+    "id": "c425",
     "name": "EXIN CIT",
     "url": "https://www.exin.com/qualification-program/exin-cyber-and-it-security",
     "category": "Security Operations",
@@ -13277,7 +13245,7 @@
     ]
   },
   {
-    "id": "c427",
+    "id": "c426",
     "name": "TUV CySec",
     "url": "https://www.tuv.com/landingpage/en/training-functional-safety-cyber-security/detail-pages/zertifikate/cs-specialist.html",
     "category": "Security Operations",
@@ -13310,7 +13278,7 @@
     ]
   },
   {
-    "id": "c428",
+    "id": "c427",
     "name": "CSST",
     "url": "https://gaqm.org/certifications/software_security_testing/csst",
     "category": "Software Security",
@@ -13340,7 +13308,7 @@
     ]
   },
   {
-    "id": "c429",
+    "id": "c428",
     "name": "OPSE",
     "url": "https://www.isecom.org/certification.html",
     "category": "Security Operations",
@@ -13373,7 +13341,7 @@
     ]
   },
   {
-    "id": "c430",
+    "id": "c429",
     "name": "CSX-F",
     "url": "https://www.itgovernance.co.uk/shop/product/cyber-incident-response-management-foundation-training-course",
     "category": "Security Operations",
@@ -13405,7 +13373,7 @@
     ]
   },
   {
-    "id": "c431",
+    "id": "c430",
     "name": "DV MILF",
     "url": "https://0xdarkvortex.dev/training-programs/malware-incident-and-log-forensics/",
     "category": "Security Operations",
@@ -13437,7 +13405,7 @@
     ]
   },
   {
-    "id": "c432",
+    "id": "c431",
     "name": "CIRM Fdn",
     "url": "https://www.itgovernance.co.uk/shop/product/cyber-incident-response-management-foundation-training-course",
     "category": "Incident Handling",
@@ -13464,7 +13432,7 @@
     ]
   },
   {
-    "id": "c433",
+    "id": "c432",
     "name": "EEHF",
     "url": "https://www.exin.com/certifications/exin-ethical-hacking-foundation-exam",
     "category": "Security Operations",
@@ -13496,7 +13464,7 @@
     ]
   },
   {
-    "id": "c434",
+    "id": "c433",
     "name": "S-EHF",
     "url": "https://www.seco-institute.org/certifications/ethical-hacking-certification-track/ethical-hacking-foundation/",
     "category": "Security Operations",
@@ -13528,7 +13496,7 @@
     ]
   },
   {
-    "id": "c435",
+    "id": "c434",
     "name": "CHA",
     "url": "https://www.isecom.org/certification.html",
     "category": "Security Operations",
@@ -13561,7 +13529,7 @@
     ]
   },
   {
-    "id": "c436",
+    "id": "c435",
     "name": "FCF",
     "url": "https://training.fortinet.com/local/staticpage/view.php?page=fcf_cybersecurity",
     "category": "Security Operations",
@@ -13593,7 +13561,7 @@
     ]
   },
   {
-    "id": "c437",
+    "id": "c436",
     "name": "AWS CP",
     "url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
     "category": "Cloud/SysOps",
@@ -13624,7 +13592,7 @@
     ]
   },
   {
-    "id": "c438",
+    "id": "c437",
     "name": "EXIN PCA",
     "url": "https://www.exin.com/certifications/ccc-professional-cloud-administrator-exam",
     "category": "Security Operations",
@@ -13656,7 +13624,7 @@
     ]
   },
   {
-    "id": "c439",
+    "id": "c438",
     "name": "A+",
     "url": "https://www.comptia.org/certifications/a",
     "category": "Security Operations",
@@ -13691,7 +13659,7 @@
     ]
   },
   {
-    "id": "c440",
+    "id": "c439",
     "name": "CIOTSP",
     "url": "https://certnexus.com/certification/ciotsp/",
     "category": "Security Operations",
@@ -13723,7 +13691,7 @@
     ]
   },
   {
-    "id": "c441",
+    "id": "c440",
     "name": "TUV COSP",
     "url": "https://limessecurity.com/en/academy/ics-201/",
     "category": "ICS/IoT",
@@ -13753,7 +13721,7 @@
     ]
   },
   {
-    "id": "c442",
+    "id": "c441",
     "name": "EPDPE",
     "url": "https://www.exin.com/certifications/exin-privacy-and-data-protection-essentials-exam",
     "category": "Security Operations",
@@ -13785,7 +13753,7 @@
     ]
   },
   {
-    "id": "c443",
+    "id": "c442",
     "name": "M_o_R Fdn",
     "url": "https://www.axelos.com/certifications/propath/mor-risk-management/mor-foundation",
     "category": "GRC",
@@ -13816,7 +13784,7 @@
     ]
   },
   {
-    "id": "c444",
+    "id": "c443",
     "name": "Fair Fdn",
     "url": "https://risklens-academy.myshopify.com/collections/popular-courses/products/fair-analysis-fundamentals-2",
     "category": "Security Operations",
@@ -13848,7 +13816,7 @@
     ]
   },
   {
-    "id": "c445",
+    "id": "c444",
     "name": "PSM I",
     "url": "https://www.scrum.org/assessments/professional-scrum-master-i-certification",
     "category": "Security Operations",
@@ -13880,7 +13848,7 @@
     ]
   },
   {
-    "id": "c446",
+    "id": "c445",
     "name": "APMG 20000F",
     "url": "https://apmg-international.com/product/iso-20000",
     "category": "GRC",
@@ -13911,7 +13879,7 @@
     ]
   },
   {
-    "id": "c447",
+    "id": "c446",
     "name": "ISMI CSM",
     "url": "https://www.ismi.org.uk/csmp/certified-security-manager%C2%AE",
     "category": "Security Operations",
@@ -13943,7 +13911,7 @@
     ]
   },
   {
-    "id": "c448",
+    "id": "c447",
     "name": "BCS FISMP",
     "url": "https://www.bcs.org/get-qualified/certifications-for-professionals/information-security-and-ccp-scheme-certifications/bcs-foundation-certificate-in-information-security-management-principles/",
     "category": "GRC",
@@ -13973,7 +13941,7 @@
     ]
   },
   {
-    "id": "c449",
+    "id": "c448",
     "name": "CC",
     "url": "https://www.isc2.org/Certifications/CC",
     "category": "Security Operations",
@@ -14005,7 +13973,7 @@
     ]
   },
   {
-    "id": "c450",
+    "id": "c449",
     "name": "S-ISF",
     "url": "https://www.seco-institute.org/certifications/information-security-certification-track/",
     "category": "Security Operations",
@@ -14037,7 +14005,7 @@
     ]
   },
   {
-    "id": "c451",
+    "id": "c450",
     "name": "GISF",
     "url": "https://www.giac.org/certification/information-security-fundamentals-gisf",
     "category": "Security Operations",
@@ -14069,7 +14037,7 @@
     ]
   },
   {
-    "id": "c452",
+    "id": "c451",
     "name": "TUV CyAware",
     "url": "https://www.is-its.org/seminare/isits-seminarangebot/cybersecurity-awareness-beauftragter",
     "category": "Security Operations",
@@ -14102,7 +14070,7 @@
     ]
   },
   {
-    "id": "c453",
+    "id": "c452",
     "name": "MASE",
     "url": "https://www.mosse-institute.com/certifications/mase-certified-application-security-engineer.html",
     "category": "Software Security",
@@ -14132,7 +14100,7 @@
     ]
   },
   {
-    "id": "c454",
+    "id": "c453",
     "name": "C)SP",
     "url": "https://www.mile2.com/csp_outline/",
     "category": "Security Operations",
@@ -14164,7 +14132,7 @@
     ]
   },
   {
-    "id": "c455",
+    "id": "c454",
     "name": "CND",
     "url": "https://www.eccouncil.org/programs/certified-network-defender-cnd/",
     "category": "Security Operations",
@@ -14199,7 +14167,7 @@
     ]
   },
   {
-    "id": "c456",
+    "id": "c455",
     "name": "C)VA",
     "url": "https://www.mile2.com/vulnerability-assessor-outline/",
     "category": "Security Operations",
@@ -14231,7 +14199,7 @@
     ]
   },
   {
-    "id": "c457",
+    "id": "c456",
     "name": "KLCP",
     "url": "https://kali.training/klcp/",
     "category": "Security Operations",
@@ -14263,7 +14231,7 @@
     ]
   },
   {
-    "id": "c458",
+    "id": "c457",
     "name": "SC-900",
     "url": "https://docs.microsoft.com/en-us/learn/certifications/security-compliance-and-identity-fundamentals/",
     "category": "Security Operations",
@@ -14295,7 +14263,7 @@
     ]
   },
   {
-    "id": "c459",
+    "id": "c458",
     "name": "Cloud Essnt",
     "url": "https://www.comptia.org/certifications/cloud-essentials",
     "category": "Cloud/SysOps",
@@ -14326,7 +14294,7 @@
     ]
   },
   {
-    "id": "c460",
+    "id": "c459",
     "name": "ITIL Fdn",
     "url": "https://www.axelos.com/certifications/itil-certifications/itil-foundation",
     "category": "Security Operations",
@@ -14359,7 +14327,7 @@
     ]
   },
   {
-    "id": "c461",
+    "id": "c460",
     "name": "Project+",
     "url": "https://www.comptia.org/certifications/project",
     "category": "Security Operations",
@@ -14391,7 +14359,7 @@
     ]
   },
   {
-    "id": "c462",
+    "id": "c461",
     "name": "CIISec ICSF",
     "url": "https://www.ciisec.org/ICSF_Exam",
     "category": "Security Operations",
@@ -14423,7 +14391,7 @@
     ]
   },
   {
-    "id": "c463",
+    "id": "c462",
     "name": "FEXIN",
     "url": "https://www.exin.com/certifications/information-security-foundation-based-iso-iec-27001-exam?language_content_entity=en",
     "category": "Security Operations",
@@ -14455,7 +14423,7 @@
     ]
   },
   {
-    "id": "c464",
+    "id": "c463",
     "name": "EXIN 27001F",
     "url": "https://www.exin.com/certifications/information-security-foundation-based-iso-iec-27001-exam",
     "category": "Security Operations",
@@ -14487,7 +14455,7 @@
     ]
   },
   {
-    "id": "c465",
+    "id": "c464",
     "name": "PECB 27005F",
     "url": "https://pecb.com/en/education-and-certification-for-individuals/iso-iec-27005/iso-iec-27005-foundation",
     "category": "GRC",
@@ -14517,7 +14485,7 @@
     ]
   },
   {
-    "id": "c466",
+    "id": "c465",
     "name": "C CS F",
     "url": "https://www.itgovernance.co.uk/shop/product/certified-cyber-security-foundation-training-course",
     "category": "Security Operations",
@@ -14549,7 +14517,7 @@
     ]
   },
   {
-    "id": "c467",
+    "id": "c466",
     "name": "CIS F",
     "url": "https://www.itgovernance.co.uk/shop/product/certified-iso-27001-isms-foundation-training-course",
     "category": "Security Operations",
@@ -14581,7 +14549,7 @@
     ]
   },
   {
-    "id": "c468",
+    "id": "c467",
     "name": "S-SPF",
     "url": "https://www.seco-institute.org/certifications/secure-software-certification-track/secure-programming-foundation/",
     "category": "Software Security",
@@ -14611,7 +14579,7 @@
     ]
   },
   {
-    "id": "c469",
+    "id": "c468",
     "name": "CSCU",
     "url": "https://www.eccouncil.org/Certification/certified-secure-computer-user",
     "category": "Security Operations",
@@ -14643,7 +14611,7 @@
     ]
   },
   {
-    "id": "c470",
+    "id": "c469",
     "name": "MICS",
     "url": "https://www.mosse-institute.com/certifications/mics-introduction-to-cyber-security.html",
     "category": "Security Operations",
@@ -14675,7 +14643,7 @@
     ]
   },
   {
-    "id": "c471",
+    "id": "c470",
     "name": "CCFA",
     "fullName": "CrowdStrike Certified Falcon Administrator",
     "vendor": "CrowdStrike",
@@ -14703,7 +14671,7 @@
     ]
   },
   {
-    "id": "c472",
+    "id": "c471",
     "name": "CCFR",
     "fullName": "CrowdStrike Certified Falcon Responder",
     "vendor": "CrowdStrike",
@@ -14728,7 +14696,7 @@
     ]
   },
   {
-    "id": "c473",
+    "id": "c472",
     "name": "CCFH",
     "fullName": "CrowdStrike Certified Falcon Hunter",
     "vendor": "CrowdStrike",
@@ -14756,7 +14724,7 @@
     ]
   },
   {
-    "id": "c474",
+    "id": "c473",
     "name": "CS-CCSA",
     "fullName": "CrowdStrike Certified SIEM Analyst",
     "vendor": "CrowdStrike",
@@ -14784,7 +14752,7 @@
     ]
   },
   {
-    "id": "c475",
+    "id": "c474",
     "name": "CS-CCSE",
     "fullName": "CrowdStrike Certified SIEM Engineer",
     "vendor": "CrowdStrike",
@@ -14809,7 +14777,7 @@
     ]
   },
   {
-    "id": "c476",
+    "id": "c475",
     "name": "CCIS",
     "fullName": "CrowdStrike Certified Identity Specialist",
     "vendor": "CrowdStrike",
@@ -14834,7 +14802,7 @@
     ]
   },
   {
-    "id": "c477",
+    "id": "c476",
     "name": "CCCS",
     "fullName": "CrowdStrike Certified Cloud Specialist",
     "vendor": "CrowdStrike",
@@ -14861,7 +14829,7 @@
     ]
   },
   {
-    "id": "c478",
+    "id": "c477",
     "name": "THM SEC0",
     "fullName": "TryHackMe Pre Security Certification",
     "vendor": "TryHackMe",
@@ -14889,7 +14857,7 @@
     ]
   },
   {
-    "id": "c479",
+    "id": "c478",
     "name": "THM SEC1",
     "fullName": "TryHackMe Cyber Security 101 Certification",
     "vendor": "TryHackMe",
@@ -14917,7 +14885,7 @@
     ]
   },
   {
-    "id": "c480",
+    "id": "c479",
     "name": "THM SAL1",
     "fullName": "TryHackMe Security Analyst Level 1",
     "vendor": "TryHackMe",
@@ -14945,7 +14913,7 @@
     ]
   },
   {
-    "id": "c481",
+    "id": "c480",
     "name": "THM PT1",
     "fullName": "TryHackMe Junior Penetration Tester",
     "vendor": "TryHackMe",
@@ -14970,7 +14938,7 @@
     ]
   },
   {
-    "id": "c482",
+    "id": "c481",
     "name": "HTB CJCA",
     "fullName": "Hack The Box Certified Junior Cybersecurity Associate",
     "vendor": "Hack The Box",
@@ -14998,7 +14966,7 @@
     ]
   },
   {
-    "id": "c483",
+    "id": "c482",
     "name": "HTB CWES",
     "fullName": "Hack The Box Certified Web Exploitation Specialist",
     "vendor": "Hack The Box",
@@ -15023,7 +14991,7 @@
     ]
   },
   {
-    "id": "c484",
+    "id": "c483",
     "name": "HTB CAPE",
     "fullName": "Hack The Box Certified Active Directory Pentesting Expert",
     "vendor": "Hack The Box",
@@ -15048,7 +15016,7 @@
     ]
   },
   {
-    "id": "c485",
+    "id": "c484",
     "name": "HTB CWPE",
     "fullName": "Hack The Box Certified Wi-Fi Pentesting Expert",
     "vendor": "Hack The Box",
@@ -15073,7 +15041,7 @@
     ]
   },
   {
-    "id": "c486",
+    "id": "c485",
     "name": "OCI Foundations",
     "fullName": "Oracle Cloud Infrastructure Foundations Associate",
     "vendor": "Oracle",
@@ -15100,7 +15068,7 @@
     ]
   },
   {
-    "id": "c487",
+    "id": "c486",
     "name": "OCI Arch Assoc",
     "fullName": "Oracle Cloud Infrastructure Architect Associate",
     "vendor": "Oracle",
@@ -15127,7 +15095,7 @@
     ]
   },
   {
-    "id": "c488",
+    "id": "c487",
     "name": "OCI Arch Pro",
     "fullName": "Oracle Cloud Infrastructure Architect Professional",
     "vendor": "Oracle",
@@ -15154,7 +15122,7 @@
     ]
   },
   {
-    "id": "c489",
+    "id": "c488",
     "name": "OCI Security Pro",
     "fullName": "Oracle Cloud Infrastructure Security Professional",
     "vendor": "Oracle",
@@ -15182,7 +15150,7 @@
     ]
   },
   {
-    "id": "c490",
+    "id": "c489",
     "name": "OCI Net Pro",
     "fullName": "Oracle Cloud Infrastructure Networking Professional",
     "vendor": "Oracle",
@@ -15207,7 +15175,7 @@
     ]
   },
   {
-    "id": "c491",
+    "id": "c490",
     "name": "OCI DevOps Pro",
     "fullName": "Oracle Cloud Infrastructure DevOps Professional",
     "vendor": "Oracle",
@@ -15234,7 +15202,7 @@
     ]
   },
   {
-    "id": "c492",
+    "id": "c491",
     "name": "GCP CDL",
     "fullName": "Google Cloud Digital Leader",
     "vendor": "Google Cloud",
@@ -15261,7 +15229,7 @@
     ]
   },
   {
-    "id": "c493",
+    "id": "c492",
     "name": "Google PSOE",
     "fullName": "Google Professional Security Operations Engineer",
     "vendor": "Google Cloud",
@@ -15289,7 +15257,7 @@
     ]
   },
   {
-    "id": "c494",
+    "id": "c493",
     "name": "Google PCNE",
     "fullName": "Google Professional Cloud Network Engineer",
     "vendor": "Google Cloud",
@@ -15314,7 +15282,7 @@
     ]
   },
   {
-    "id": "c495",
+    "id": "c494",
     "name": "Google PCDO",
     "fullName": "Google Professional Cloud DevOps Engineer",
     "vendor": "Google Cloud",
@@ -15341,7 +15309,7 @@
     ]
   },
   {
-    "id": "c496",
+    "id": "c495",
     "name": "Google PCD",
     "fullName": "Google Professional Cloud Developer",
     "vendor": "Google Cloud",
@@ -15368,7 +15336,7 @@
     ]
   },
   {
-    "id": "c497",
+    "id": "c496",
     "name": "Google PDE",
     "fullName": "Google Professional Data Engineer",
     "vendor": "Google Cloud",
@@ -15395,7 +15363,7 @@
     ]
   },
   {
-    "id": "c498",
+    "id": "c497",
     "name": "KCSA",
     "fullName": "Kubernetes and Cloud Native Security Associate",
     "vendor": "CNCF / Linux Foundation",
@@ -15423,7 +15391,7 @@
     ]
   },
   {
-    "id": "c499",
+    "id": "c498",
     "name": "CNPE",
     "fullName": "Certified Cloud Native Platform Engineer",
     "vendor": "CNCF / Linux Foundation",
@@ -15450,7 +15418,7 @@
     ]
   },
   {
-    "id": "c500",
+    "id": "c499",
     "name": "CNPA",
     "fullName": "Cloud Native Platform Engineering Associate",
     "vendor": "CNCF / Linux Foundation",
@@ -15477,7 +15445,7 @@
     ]
   },
   {
-    "id": "c501",
+    "id": "c500",
     "name": "PCA",
     "fullName": "Prometheus Certified Associate",
     "vendor": "CNCF / Linux Foundation",
@@ -15504,7 +15472,7 @@
     ]
   },
   {
-    "id": "c502",
+    "id": "c501",
     "name": "ICA",
     "fullName": "Istio Certified Associate",
     "vendor": "CNCF / Linux Foundation",
@@ -15529,7 +15497,7 @@
     ]
   },
   {
-    "id": "c503",
+    "id": "c502",
     "name": "CCA",
     "fullName": "Cilium Certified Associate",
     "vendor": "CNCF / Linux Foundation",
@@ -15554,7 +15522,7 @@
     ]
   },
   {
-    "id": "c504",
+    "id": "c503",
     "name": "KCA",
     "fullName": "Kyverno Certified Associate",
     "vendor": "CNCF / Linux Foundation",
@@ -15582,7 +15550,7 @@
     ]
   },
   {
-    "id": "c505",
+    "id": "c504",
     "name": "CAPA",
     "fullName": "Certified Argo Project Associate",
     "vendor": "CNCF / Linux Foundation",
@@ -15609,7 +15577,7 @@
     ]
   },
   {
-    "id": "c506",
+    "id": "c505",
     "name": "CGOA",
     "fullName": "Certified GitOps Associate",
     "vendor": "CNCF / Linux Foundation",
@@ -15636,7 +15604,7 @@
     ]
   },
   {
-    "id": "c507",
+    "id": "c506",
     "name": "CBA",
     "fullName": "Certified Backstage Associate",
     "vendor": "CNCF / Linux Foundation",
@@ -15663,7 +15631,7 @@
     ]
   },
   {
-    "id": "c508",
+    "id": "c507",
     "name": "NCA-AIIO",
     "fullName": "NVIDIA Certified Associate: AI Infrastructure and Operations",
     "vendor": "NVIDIA",
@@ -15690,7 +15658,7 @@
     ]
   },
   {
-    "id": "c509",
+    "id": "c508",
     "name": "NCP-AII",
     "fullName": "NVIDIA Certified Professional: AI Infrastructure",
     "vendor": "NVIDIA",
@@ -15717,7 +15685,7 @@
     ]
   },
   {
-    "id": "c510",
+    "id": "c509",
     "name": "NCP-AIO",
     "fullName": "NVIDIA Certified Professional: AI Operations",
     "vendor": "NVIDIA",
@@ -15744,7 +15712,7 @@
     ]
   },
   {
-    "id": "c511",
+    "id": "c510",
     "name": "NCP-AIN",
     "fullName": "NVIDIA Certified Professional: AI Networking",
     "vendor": "NVIDIA",
@@ -15769,7 +15737,7 @@
     ]
   },
   {
-    "id": "c512",
+    "id": "c511",
     "name": "NCA-GENL",
     "fullName": "NVIDIA Certified Associate: Generative AI LLM",
     "vendor": "NVIDIA",
@@ -15795,7 +15763,7 @@
     ]
   },
   {
-    "id": "c513",
+    "id": "c512",
     "name": "NCP-GENL",
     "fullName": "NVIDIA Certified Professional: Generative AI LLMs",
     "vendor": "NVIDIA",
@@ -15821,7 +15789,7 @@
     ]
   },
   {
-    "id": "c514",
+    "id": "c513",
     "name": "NCP-AAI",
     "fullName": "NVIDIA Certified Professional: Agentic AI",
     "vendor": "NVIDIA",
@@ -15847,7 +15815,7 @@
     ]
   },
   {
-    "id": "c515",
+    "id": "c514",
     "name": "HC Terraform Assoc",
     "fullName": "HashiCorp Certified: Terraform Associate",
     "vendor": "HashiCorp",
@@ -15874,7 +15842,7 @@
     ]
   },
   {
-    "id": "c516",
+    "id": "c515",
     "name": "HC Terraform Pro",
     "fullName": "HashiCorp Terraform Authoring and Operations Professional",
     "vendor": "HashiCorp",
@@ -15901,7 +15869,7 @@
     ]
   },
   {
-    "id": "c517",
+    "id": "c516",
     "name": "HC Vault Assoc",
     "fullName": "HashiCorp Certified: Vault Associate",
     "vendor": "HashiCorp",
@@ -15926,7 +15894,7 @@
     ]
   },
   {
-    "id": "c518",
+    "id": "c517",
     "name": "HC Vault Pro",
     "fullName": "HashiCorp Vault Operations Professional",
     "vendor": "HashiCorp",
@@ -15951,7 +15919,7 @@
     ]
   },
   {
-    "id": "c519",
+    "id": "c518",
     "name": "HC Consul Assoc",
     "fullName": "HashiCorp Certified: Consul Associate",
     "vendor": "HashiCorp",
@@ -15976,7 +15944,7 @@
     ]
   },
   {
-    "id": "c520",
+    "id": "c519",
     "name": "IBM QRadar Analyst",
     "fullName": "IBM Certified Analyst - Security QRadar SIEM V7.5",
     "vendor": "IBM",
@@ -16004,7 +15972,7 @@
     ]
   },
   {
-    "id": "c521",
+    "id": "c520",
     "name": "IBM QRadar Admin",
     "fullName": "IBM Certified Administrator - Security QRadar SIEM V7.5",
     "vendor": "IBM",
@@ -16032,7 +16000,7 @@
     ]
   },
   {
-    "id": "c522",
+    "id": "c521",
     "name": "IBM Guardium v11",
     "fullName": "IBM Certified Administrator - Security Guardium v11.x",
     "vendor": "IBM",
@@ -16058,7 +16026,7 @@
     ]
   },
   {
-    "id": "c523",
+    "id": "c522",
     "name": "IBM Guardium v12",
     "fullName": "IBM Certified Guardium Data Protection v12.x Administrator Professional",
     "vendor": "IBM",
@@ -16084,7 +16052,7 @@
     ]
   },
   {
-    "id": "c524",
+    "id": "c523",
     "name": "IBM Verify Access",
     "fullName": "IBM Certified Deployment Professional - Security Verify Access V10.0",
     "vendor": "IBM",
@@ -16109,7 +16077,7 @@
     ]
   },
   {
-    "id": "c525",
+    "id": "c524",
     "name": "IBM Verify SaaS",
     "fullName": "IBM Verify SaaS v1 Administrator",
     "vendor": "IBM",
@@ -16134,7 +16102,7 @@
     ]
   },
   {
-    "id": "c526",
+    "id": "c525",
     "name": "PA Apprentice",
     "fullName": "Palo Alto Networks Cybersecurity Apprentice",
     "vendor": "Palo Alto Networks",
@@ -16162,7 +16130,7 @@
     ]
   },
   {
-    "id": "c527",
+    "id": "c526",
     "name": "PA Practitioner",
     "fullName": "Palo Alto Networks Cybersecurity Practitioner",
     "vendor": "Palo Alto Networks",
@@ -16190,7 +16158,7 @@
     ]
   },
   {
-    "id": "c528",
+    "id": "c527",
     "name": "PCSNP",
     "fullName": "Palo Alto Networks Network Security Professional",
     "vendor": "Palo Alto Networks",
@@ -16215,7 +16183,7 @@
     ]
   },
   {
-    "id": "c529",
+    "id": "c528",
     "name": "PCSNA",
     "fullName": "Palo Alto Networks Network Security Analyst",
     "vendor": "Palo Alto Networks",
@@ -16240,7 +16208,7 @@
     ]
   },
   {
-    "id": "c530",
+    "id": "c529",
     "name": "PCSNE",
     "fullName": "Palo Alto Networks Next-Generation Firewall Engineer",
     "vendor": "Palo Alto Networks",
@@ -16265,7 +16233,7 @@
     ]
   },
   {
-    "id": "c531",
+    "id": "c530",
     "name": "PCSWE",
     "fullName": "Palo Alto Networks SD-WAN Engineer",
     "vendor": "Palo Alto Networks",
@@ -16290,7 +16258,7 @@
     ]
   },
   {
-    "id": "c532",
+    "id": "c531",
     "name": "PCSSE",
     "fullName": "Palo Alto Networks Security Service Edge Engineer",
     "vendor": "Palo Alto Networks",
@@ -16315,7 +16283,7 @@
     ]
   },
   {
-    "id": "c533",
+    "id": "c532",
     "name": "PA NS Architect",
     "fullName": "Palo Alto Networks Network Security Architect",
     "vendor": "Palo Alto Networks",
@@ -16340,7 +16308,7 @@
     ]
   },
   {
-    "id": "c534",
+    "id": "c533",
     "name": "PCSOP",
     "fullName": "Palo Alto Networks Security Operations Professional",
     "vendor": "Palo Alto Networks",
@@ -16368,7 +16336,7 @@
     ]
   },
   {
-    "id": "c535",
+    "id": "c534",
     "name": "PCSXA",
     "fullName": "Palo Alto Networks XSIAM Analyst",
     "vendor": "Palo Alto Networks",
@@ -16396,7 +16364,7 @@
     ]
   },
   {
-    "id": "c536",
+    "id": "c535",
     "name": "PCSXE",
     "fullName": "Palo Alto Networks XDR Analyst",
     "vendor": "Palo Alto Networks",
@@ -16424,7 +16392,7 @@
     ]
   },
   {
-    "id": "c537",
+    "id": "c536",
     "name": "PCSXI-E",
     "fullName": "Palo Alto Networks XSIAM Engineer",
     "vendor": "Palo Alto Networks",
@@ -16452,7 +16420,7 @@
     ]
   },
   {
-    "id": "c538",
+    "id": "c537",
     "name": "PCSXD-E",
     "fullName": "Palo Alto Networks XDR Engineer",
     "vendor": "Palo Alto Networks",
@@ -16480,7 +16448,7 @@
     ]
   },
   {
-    "id": "c539",
+    "id": "c538",
     "name": "PCSOAR",
     "fullName": "Palo Alto Networks XSOAR Engineer",
     "vendor": "Palo Alto Networks",
@@ -16508,7 +16476,7 @@
     ]
   },
   {
-    "id": "c540",
+    "id": "c539",
     "name": "PA SOA Architect",
     "fullName": "Palo Alto Networks Security Operations Architect",
     "vendor": "Palo Alto Networks",
@@ -16533,7 +16501,7 @@
     ]
   },
   {
-    "id": "c541",
+    "id": "c540",
     "name": "PCCSP",
     "fullName": "Palo Alto Networks Cloud Security Professional",
     "vendor": "Palo Alto Networks",
@@ -16560,7 +16528,7 @@
     ]
   },
   {
-    "id": "c542",
+    "id": "c541",
     "name": "AWS CloudOps",
     "fullName": "AWS Certified CloudOps Engineer - Associate",
     "vendor": "Amazon Web Services",
@@ -16587,7 +16555,7 @@
     ]
   },
   {
-    "id": "c543",
+    "id": "c542",
     "name": "AWS DEA",
     "fullName": "AWS Certified Data Engineer - Associate",
     "vendor": "Amazon Web Services",
@@ -16614,7 +16582,7 @@
     ]
   },
   {
-    "id": "c544",
+    "id": "c543",
     "name": "AWS MLE",
     "fullName": "AWS Certified Machine Learning Engineer - Associate",
     "vendor": "Amazon Web Services",
@@ -16641,7 +16609,7 @@
     ]
   },
   {
-    "id": "c545",
+    "id": "c544",
     "name": "AWS AIF",
     "fullName": "AWS Certified AI Practitioner",
     "vendor": "Amazon Web Services",
@@ -16668,7 +16636,7 @@
     ]
   },
   {
-    "id": "c546",
+    "id": "c545",
     "name": "AWS GenAI Pro",
     "fullName": "AWS Certified Generative AI Developer - Professional",
     "vendor": "Amazon Web Services",
@@ -16694,7 +16662,7 @@
     ]
   },
   {
-    "id": "c547",
+    "id": "c546",
     "name": "AWS DOP",
     "fullName": "AWS Certified DevOps Engineer - Professional",
     "vendor": "Amazon Web Services",
@@ -16721,7 +16689,7 @@
     ]
   },
   {
-    "id": "c548",
+    "id": "c547",
     "name": "AWS ANS",
     "fullName": "AWS Certified Advanced Networking - Specialty",
     "vendor": "Amazon Web Services",
@@ -16746,7 +16714,7 @@
     ]
   },
   {
-    "id": "c549",
+    "id": "c548",
     "name": "AWS DBS",
     "fullName": "AWS Certified Database - Specialty",
     "vendor": "Amazon Web Services",
@@ -16773,7 +16741,7 @@
     ]
   },
   {
-    "id": "c550",
+    "id": "c549",
     "name": "SC-401",
     "fullName": "Microsoft Certified: Information Security Administrator Associate",
     "vendor": "Microsoft",
@@ -16799,7 +16767,7 @@
     ]
   },
   {
-    "id": "c551",
+    "id": "c550",
     "name": "MS-102",
     "fullName": "Microsoft 365 Certified: Administrator Expert",
     "vendor": "Microsoft",
@@ -16827,7 +16795,7 @@
     ]
   },
   {
-    "id": "c552",
+    "id": "c551",
     "name": "MS Copilot Admin",
     "fullName": "Microsoft 365 Certified: Copilot and Agent Administration Fundamentals",
     "vendor": "Microsoft",
@@ -16855,7 +16823,7 @@
     ]
   },
   {
-    "id": "c553",
+    "id": "c552",
     "name": "GitHub AdvSec",
     "fullName": "GitHub Advanced Security Certification",
     "vendor": "Microsoft / GitHub",
@@ -16881,7 +16849,7 @@
     ]
   },
   {
-    "id": "c554",
+    "id": "c553",
     "name": "AZ-220",
     "fullName": "Microsoft Certified: Azure IoT Developer Specialty",
     "vendor": "Microsoft",
@@ -16907,7 +16875,7 @@
     ]
   },
   {
-    "id": "c555",
+    "id": "c554",
     "name": "CCST Cyber",
     "fullName": "Cisco Certified Support Technician - Cybersecurity",
     "vendor": "Cisco",
@@ -16935,7 +16903,7 @@
     ]
   },
   {
-    "id": "c556",
+    "id": "c555",
     "name": "CCST Net",
     "fullName": "Cisco Certified Support Technician - Networking",
     "vendor": "Cisco",
@@ -16960,7 +16928,7 @@
     ]
   },
   {
-    "id": "c557",
+    "id": "c556",
     "name": "CCNP Cyber",
     "fullName": "Cisco Certified Network Professional - Cybersecurity",
     "vendor": "Cisco",
@@ -16988,7 +16956,7 @@
     ]
   },
   {
-    "id": "c558",
+    "id": "c557",
     "name": "Cisco SCAZT",
     "fullName": "Cisco Certified Specialist - Secure Cloud Access",
     "vendor": "Cisco",
@@ -17015,7 +16983,7 @@
     ]
   },
   {
-    "id": "c559",
+    "id": "c558",
     "name": "Cisco AITECH",
     "fullName": "Cisco AI Technical Practitioner",
     "vendor": "Cisco",
@@ -17041,7 +17009,7 @@
     ]
   },
   {
-    "id": "c560",
+    "id": "c559",
     "name": "CCNA Auto",
     "fullName": "Cisco Certified Network Associate - Automation",
     "vendor": "Cisco",
@@ -17068,7 +17036,7 @@
     ]
   },
   {
-    "id": "c561",
+    "id": "c560",
     "name": "CCNP Auto",
     "fullName": "Cisco Certified Network Professional - Automation",
     "vendor": "Cisco",
@@ -17095,7 +17063,7 @@
     ]
   },
   {
-    "id": "c562",
+    "id": "c561",
     "name": "Cisco SDSI",
     "fullName": "Cisco Certified Specialist - Designing Security Infrastructure",
     "vendor": "Cisco",
@@ -17120,7 +17088,7 @@
     ]
   },
   {
-    "id": "c563",
+    "id": "c562",
     "name": "Splunk Core User",
     "fullName": "Splunk Core Certified User",
     "vendor": "Splunk",
@@ -17148,7 +17116,7 @@
     ]
   },
   {
-    "id": "c564",
+    "id": "c563",
     "name": "Splunk Power User",
     "fullName": "Splunk Core Certified Power User",
     "vendor": "Splunk",
@@ -17176,7 +17144,7 @@
     ]
   },
   {
-    "id": "c565",
+    "id": "c564",
     "name": "Splunk Adv PU",
     "fullName": "Splunk Core Certified Advanced Power User",
     "vendor": "Splunk",
@@ -17204,7 +17172,7 @@
     ]
   },
   {
-    "id": "c566",
+    "id": "c565",
     "name": "Splunk Cloud Admin",
     "fullName": "Splunk Cloud Certified Admin",
     "vendor": "Splunk",
@@ -17231,7 +17199,7 @@
     ]
   },
   {
-    "id": "c567",
+    "id": "c566",
     "name": "Splunk Ent Admin",
     "fullName": "Splunk Enterprise Certified Admin",
     "vendor": "Splunk",
@@ -17259,7 +17227,7 @@
     ]
   },
   {
-    "id": "c568",
+    "id": "c567",
     "name": "Splunk Architect",
     "fullName": "Splunk Enterprise Certified Architect",
     "vendor": "Splunk",
@@ -17284,7 +17252,7 @@
     ]
   },
   {
-    "id": "c569",
+    "id": "c568",
     "name": "Splunk Consultant",
     "fullName": "Splunk Core Certified Consultant",
     "vendor": "Splunk",
@@ -17309,7 +17277,7 @@
     ]
   },
   {
-    "id": "c570",
+    "id": "c569",
     "name": "Splunk SOAR",
     "fullName": "Splunk SOAR Certified Automation Developer",
     "vendor": "Splunk",
@@ -17337,7 +17305,7 @@
     ]
   },
   {
-    "id": "c571",
+    "id": "c570",
     "name": "Splunk O11y",
     "fullName": "Splunk O11y Cloud Certified Metrics User",
     "vendor": "Splunk",
@@ -17364,7 +17332,7 @@
     ]
   },
   {
-    "id": "c572",
+    "id": "c571",
     "name": "Splunk CCDA",
     "fullName": "Splunk Certified Cybersecurity Defense Analyst",
     "vendor": "Splunk",
@@ -17392,7 +17360,7 @@
     ]
   },
   {
-    "id": "c573",
+    "id": "c572",
     "name": "Splunk CCDE",
     "fullName": "Splunk Certified Cybersecurity Defense Engineer",
     "vendor": "Splunk",
@@ -17420,7 +17388,7 @@
     ]
   },
   {
-    "id": "c574",
+    "id": "c573",
     "name": "Splunk ITSI",
     "fullName": "Splunk IT Service Intelligence Certified Admin",
     "vendor": "Splunk",
@@ -17447,7 +17415,7 @@
     ]
   },
   {
-    "id": "c575",
+    "id": "c574",
     "name": "Wiz Cloud",
     "fullName": "Wiz Certified Cloud Fundamentals",
     "vendor": "Wiz",
@@ -17474,7 +17442,7 @@
     ]
   },
   {
-    "id": "c576",
+    "id": "c575",
     "name": "Wiz Defend",
     "fullName": "Wiz Certified Defend Fundamentals",
     "vendor": "Wiz",
@@ -17502,7 +17470,7 @@
     ]
   },
   {
-    "id": "c577",
+    "id": "c576",
     "name": "DB DEA",
     "fullName": "Databricks Certified Data Engineer Associate",
     "vendor": "Databricks",
@@ -17529,7 +17497,7 @@
     ]
   },
   {
-    "id": "c578",
+    "id": "c577",
     "name": "DB DEP",
     "fullName": "Databricks Certified Data Engineer Professional",
     "vendor": "Databricks",
@@ -17556,7 +17524,7 @@
     ]
   },
   {
-    "id": "c579",
+    "id": "c578",
     "name": "DB GenAI",
     "fullName": "Databricks Certified Generative AI Engineer Associate",
     "vendor": "Databricks",
@@ -17582,7 +17550,7 @@
     ]
   },
   {
-    "id": "c580",
+    "id": "c579",
     "name": "DB MLP",
     "fullName": "Databricks Certified Machine Learning Professional",
     "vendor": "Databricks",
@@ -17609,7 +17577,7 @@
     ]
   },
   {
-    "id": "c581",
+    "id": "c580",
     "name": "DB Platform Admin",
     "fullName": "Databricks Platform Administrator Accreditation",
     "vendor": "Databricks",
@@ -17636,7 +17604,7 @@
     ]
   },
   {
-    "id": "c582",
+    "id": "c581",
     "name": "SnowPro Assoc",
     "fullName": "SnowPro Associate: Platform Certification",
     "vendor": "Snowflake",
@@ -17663,7 +17631,7 @@
     ]
   },
   {
-    "id": "c583",
+    "id": "c582",
     "name": "SnowPro Core",
     "fullName": "SnowPro Core Certification",
     "vendor": "Snowflake",
@@ -17690,7 +17658,7 @@
     ]
   },
   {
-    "id": "c584",
+    "id": "c583",
     "name": "SnowPro Adv Sec",
     "fullName": "SnowPro Advanced: Security Engineer",
     "vendor": "Snowflake",
@@ -17715,7 +17683,7 @@
     ]
   },
   {
-    "id": "c585",
+    "id": "c584",
     "name": "SnowPro Adv Arch",
     "fullName": "SnowPro Advanced: Architect",
     "vendor": "Snowflake",
@@ -17740,7 +17708,7 @@
     ]
   },
   {
-    "id": "c586",
+    "id": "c585",
     "name": "SnowPro Adv Admin",
     "fullName": "SnowPro Advanced: Administrator",
     "vendor": "Snowflake",
@@ -17767,7 +17735,7 @@
     ]
   },
   {
-    "id": "c587",
+    "id": "c586",
     "name": "F5-CA NGINX",
     "fullName": "F5 Certified Administrator, NGINX",
     "vendor": "F5",
@@ -17792,7 +17760,7 @@
     ]
   },
   {
-    "id": "c588",
+    "id": "c587",
     "name": "F5-CTS LTM",
     "fullName": "F5 Certified Technology Specialist, BIG-IP LTM",
     "vendor": "F5",
@@ -17817,7 +17785,7 @@
     ]
   },
   {
-    "id": "c589",
+    "id": "c588",
     "name": "F5-CTS ASM",
     "fullName": "F5 Certified Technology Specialist, BIG-IP ASM",
     "vendor": "F5",
@@ -17845,7 +17813,7 @@
     ]
   },
   {
-    "id": "c590",
+    "id": "c589",
     "name": "F5-CSE Cloud",
     "fullName": "F5 Certified Solution Expert, Cloud",
     "vendor": "F5",
@@ -17872,7 +17840,7 @@
     ]
   },
   {
-    "id": "c591",
+    "id": "c590",
     "name": "Citrix CCA-V",
     "fullName": "Citrix Certified Associate - Virtualization",
     "vendor": "Citrix",
@@ -17888,7 +17856,7 @@
     "status": "active",
     "statusNote": null,
     "freeTraining": true,
-    "freeTrainingUrl": "https://training.citrix.com/",
+    "freeTrainingUrl": "https://www.citrix.com/training/",
     "cisspDomains": [
       "cissp-d2",
       "cissp-d4",
@@ -17899,7 +17867,7 @@
     ]
   },
   {
-    "id": "c592",
+    "id": "c591",
     "name": "Citrix CCP-V",
     "fullName": "Citrix Certified Professional - Virtualization",
     "vendor": "Citrix",
@@ -17915,7 +17883,7 @@
     "status": "active",
     "statusNote": null,
     "freeTraining": true,
-    "freeTrainingUrl": "https://training.citrix.com/",
+    "freeTrainingUrl": "https://www.citrix.com/training/",
     "cisspDomains": [
       "cissp-d2",
       "cissp-d4",
@@ -17926,7 +17894,7 @@
     ]
   },
   {
-    "id": "c593",
+    "id": "c592",
     "name": "Citrix CCA-AppDS",
     "fullName": "Citrix Certified Associate - App Delivery and Security",
     "vendor": "Citrix",
@@ -17942,7 +17910,7 @@
     "status": "active",
     "statusNote": null,
     "freeTraining": true,
-    "freeTrainingUrl": "https://training.citrix.com/",
+    "freeTrainingUrl": "https://www.citrix.com/training/",
     "cisspDomains": [
       "cissp-d4"
     ],
@@ -17951,7 +17919,7 @@
     ]
   },
   {
-    "id": "c594",
+    "id": "c593",
     "name": "RHCS Security",
     "fullName": "Red Hat Certified Specialist in Security: Linux",
     "vendor": "Red Hat",
@@ -17979,7 +17947,7 @@
     ]
   },
   {
-    "id": "c595",
+    "id": "c594",
     "name": "RHCS OCP ACS",
     "fullName": "Red Hat Certified Specialist in OpenShift Advanced Cluster Security",
     "vendor": "Red Hat",
@@ -18006,7 +17974,7 @@
     ]
   },
   {
-    "id": "c596",
+    "id": "c595",
     "name": "RHCS IdM",
     "fullName": "Red Hat Certified Specialist in Identity Management",
     "vendor": "Red Hat",
@@ -18031,7 +17999,7 @@
     ]
   },
   {
-    "id": "c597",
+    "id": "c596",
     "name": "CCZT",
     "fullName": "Certificate of Competence in Zero Trust",
     "vendor": "Cloud Security Alliance",
@@ -18056,7 +18024,7 @@
     ]
   },
   {
-    "id": "c598",
+    "id": "c597",
     "name": "TAISE",
     "fullName": "Trusted AI Safety Expert",
     "vendor": "Cloud Security Alliance",
@@ -18082,7 +18050,7 @@
     ]
   },
   {
-    "id": "c599",
+    "id": "c598",
     "dod8140": false,
     "dodWorkRoleCodes": [],
     "status": "active",
@@ -18110,7 +18078,7 @@
     ]
   },
   {
-    "id": "c600",
+    "id": "c599",
     "dod8140": false,
     "dodWorkRoleCodes": [],
     "status": "active",
@@ -18140,7 +18108,7 @@
     ]
   },
   {
-    "id": "c601",
+    "id": "c600",
     "dod8140": false,
     "dodWorkRoleCodes": [],
     "status": "active",
@@ -18170,7 +18138,7 @@
     ]
   },
   {
-    "id": "c602",
+    "id": "c601",
     "dod8140": false,
     "dodWorkRoleCodes": [],
     "status": "active",
@@ -18200,7 +18168,7 @@
     ]
   },
   {
-    "id": "c603",
+    "id": "c602",
     "dod8140": false,
     "dodWorkRoleCodes": [],
     "status": "active",
@@ -18231,7 +18199,7 @@
     ]
   },
   {
-    "id": "c604",
+    "id": "c603",
     "dod8140": false,
     "dodWorkRoleCodes": [],
     "status": "active",
@@ -18262,7 +18230,7 @@
     ]
   },
   {
-    "id": "c605",
+    "id": "c604",
     "dod8140": false,
     "dodWorkRoleCodes": [],
     "status": "active",
@@ -18290,7 +18258,7 @@
     ]
   },
   {
-    "id": "c606",
+    "id": "c605",
     "dod8140": false,
     "dodWorkRoleCodes": [],
     "status": "active",
@@ -18318,7 +18286,7 @@
     ]
   },
   {
-    "id": "c607",
+    "id": "c606",
     "dod8140": false,
     "dodWorkRoleCodes": [],
     "status": "active",
@@ -18347,7 +18315,7 @@
     ]
   },
   {
-    "id": "c608",
+    "id": "c607",
     "dod8140": false,
     "dodWorkRoleCodes": [],
     "status": "active",
@@ -18375,7 +18343,7 @@
     ]
   },
   {
-    "id": "c609",
+    "id": "c608",
     "dod8140": false,
     "dodWorkRoleCodes": [],
     "status": "active",
@@ -18403,7 +18371,7 @@
     ]
   },
   {
-    "id": "c610",
+    "id": "c609",
     "dod8140": false,
     "dodWorkRoleCodes": [],
     "status": "active",
@@ -18431,7 +18399,7 @@
     ]
   },
   {
-    "id": "c611",
+    "id": "c610",
     "dod8140": false,
     "dodWorkRoleCodes": [],
     "status": "active",
@@ -18460,7 +18428,7 @@
     ]
   },
   {
-    "id": "c612",
+    "id": "c611",
     "dod8140": false,
     "dodWorkRoleCodes": [],
     "status": "active",
@@ -18489,7 +18457,7 @@
     ]
   },
   {
-    "id": "c613",
+    "id": "c612",
     "dod8140": false,
     "dodWorkRoleCodes": [],
     "status": "active",
@@ -18517,7 +18485,7 @@
     ]
   },
   {
-    "id": "c614",
+    "id": "c613",
     "dod8140": false,
     "dodWorkRoleCodes": [],
     "status": "active",
@@ -18546,7 +18514,7 @@
     ]
   },
   {
-    "id": "c615",
+    "id": "c614",
     "dod8140": false,
     "dodWorkRoleCodes": [],
     "status": "active",
@@ -18575,7 +18543,7 @@
     ]
   },
   {
-    "id": "c616",
+    "id": "c615",
     "dod8140": false,
     "dodWorkRoleCodes": [],
     "status": "active",
@@ -18605,7 +18573,7 @@
     ]
   },
   {
-    "id": "c617",
+    "id": "c616",
     "dod8140": false,
     "dodWorkRoleCodes": [],
     "status": "active",
@@ -18634,7 +18602,7 @@
     ]
   },
   {
-    "id": "c618",
+    "id": "c617",
     "dod8140": false,
     "dodWorkRoleCodes": [],
     "status": "active",
@@ -18663,7 +18631,7 @@
     ]
   },
   {
-    "id": "c619",
+    "id": "c618",
     "dod8140": false,
     "dodWorkRoleCodes": [],
     "status": "active",
@@ -18692,7 +18660,7 @@
     ]
   },
   {
-    "id": "c620",
+    "id": "c619",
     "dod8140": false,
     "dodWorkRoleCodes": [],
     "status": "active",
@@ -18722,7 +18690,7 @@
     ]
   },
   {
-    "id": "c621",
+    "id": "c620",
     "dod8140": false,
     "dodWorkRoleCodes": [],
     "status": "active",
@@ -18751,7 +18719,7 @@
     ]
   },
   {
-    "id": "c622",
+    "id": "c621",
     "dod8140": false,
     "dodWorkRoleCodes": [],
     "status": "active",
@@ -18778,7 +18746,7 @@
     ]
   },
   {
-    "id": "c623",
+    "id": "c622",
     "dod8140": false,
     "dodWorkRoleCodes": [],
     "status": "active",
@@ -18806,7 +18774,7 @@
     ]
   },
   {
-    "id": "c624",
+    "id": "c623",
     "dod8140": false,
     "dodWorkRoleCodes": [],
     "status": "active",
@@ -18835,7 +18803,7 @@
     ]
   },
   {
-    "id": "c625",
+    "id": "c624",
     "dod8140": false,
     "dodWorkRoleCodes": [],
     "status": "active",
@@ -18864,7 +18832,7 @@
     ]
   },
   {
-    "id": "c626",
+    "id": "c625",
     "name": "ISSAP",
     "url": "https://www.isc2.org/certifications/issap",
     "category": "GRC",
@@ -18895,7 +18863,7 @@
     ]
   },
   {
-    "id": "c627",
+    "id": "c626",
     "name": "ISSEP",
     "url": "https://www.isc2.org/certifications/issep",
     "category": "GRC",
@@ -18926,7 +18894,7 @@
     ]
   },
   {
-    "id": "c628",
+    "id": "c627",
     "name": "ISSMP",
     "url": "https://www.isc2.org/certifications/issmp",
     "category": "GRC",
