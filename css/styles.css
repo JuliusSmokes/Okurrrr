@@ -248,6 +248,7 @@ body {
 .stat-teal .stat-number { color: var(--neon-teal); }
 .stat-green .stat-number { color: #4ade80; }
 .stat-purple .stat-number { color: #a78bfa; }
+.stat-blue .stat-number { color: var(--neon-blue); }
 
 .stat-badge .stat-label {
   font-size: 0.75rem;
@@ -272,6 +273,7 @@ body {
 
 .tab-bar {
   display: flex;
+  align-items: stretch;
   gap: var(--space-2);
   margin-bottom: var(--space-5);
   border-bottom: 2px solid var(--border);
@@ -317,6 +319,76 @@ body {
 .tab.active .tab-count {
   background: var(--neon-teal-subtle);
   color: var(--neon-teal);
+}
+
+/* ── Reference dropdown ── */
+
+.tab-dropdown {
+  position: relative;
+  display: inline-flex;
+}
+
+.tab-dropdown-trigger {
+  gap: var(--space-1);
+}
+
+.tab-dropdown-arrow {
+  font-size: 0.625rem;
+  transition: transform 200ms;
+}
+
+.tab-dropdown.open .tab-dropdown-arrow {
+  transform: rotate(180deg);
+}
+
+.tab-dropdown-menu {
+  display: none;
+  position: absolute;
+  top: calc(100% + 2px);
+  left: 0;
+  min-width: 200px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--elevation-2);
+  z-index: 100;
+  padding: var(--space-1) 0;
+}
+
+.tab-dropdown.open .tab-dropdown-menu {
+  display: block;
+}
+
+.tab-dropdown-item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  width: 100%;
+  padding: var(--space-2) var(--space-4);
+  font-family: inherit;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  background: transparent;
+  color: var(--text-muted);
+  border: none;
+  cursor: pointer;
+  transition: background 150ms, color 150ms;
+  text-align: left;
+}
+
+.tab-dropdown-item:hover {
+  background: var(--surface-raised);
+  color: var(--text);
+}
+
+.tab-dropdown-item.active {
+  color: var(--neon-teal);
+  background: var(--neon-teal-subtle);
+}
+
+.tab-dropdown-item .tab-count {
+  font-size: 0.6875rem;
+  margin-left: auto;
 }
 
 /* ── Resource card accent ── */
@@ -2074,6 +2146,368 @@ a.pf-item-name:hover {
   opacity: 0.5;
 }
 
+/* ── CAPEC Database ── */
+
+.capec-header {
+  text-align: center;
+  padding: var(--space-4) 0 var(--space-2);
+}
+
+.capec-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  font-stretch: 110%;
+  background: linear-gradient(135deg, var(--text) 30%, var(--neon-blue) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: var(--space-1);
+}
+
+.capec-subtitle {
+  color: var(--text-muted);
+  font-size: 0.875rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  flex-wrap: wrap;
+}
+
+.capec-version-badge {
+  display: inline-flex;
+  padding: 1px var(--space-2);
+  font-size: 0.6875rem;
+  font-weight: 600;
+  background: rgba(88, 166, 255, 0.12);
+  color: var(--neon-blue);
+  border: 1px solid rgba(88, 166, 255, 0.25);
+  border-radius: var(--radius-sm);
+}
+
+.capec-controls {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  margin-bottom: var(--space-4);
+  padding: var(--space-4);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--elevation-1);
+}
+
+.capec-search {
+  position: relative;
+}
+
+.capec-search input {
+  width: 100%;
+  padding: var(--space-3) var(--space-4) var(--space-3) 40px;
+  font-family: inherit;
+  font-size: 0.9375rem;
+  background: var(--bg);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  outline: none;
+  transition: border-color 200ms, box-shadow 200ms;
+}
+
+.capec-search input:focus {
+  border-color: var(--neon-blue);
+  box-shadow: 0 0 0 3px rgba(88, 166, 255, 0.15), 0 0 20px rgba(88, 166, 255, 0.08);
+}
+
+.capec-search input::placeholder {
+  color: var(--text-subtle);
+}
+
+.capec-filters {
+  display: flex;
+  gap: var(--space-4);
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.capec-count {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  margin-bottom: var(--space-4);
+}
+
+.capec-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.capec-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 3px solid transparent;
+  border-radius: var(--radius-md);
+  padding: var(--space-4);
+  box-shadow: var(--elevation-1);
+  transition: box-shadow 200ms, border-color 200ms, transform 200ms;
+}
+
+.capec-card:hover {
+  box-shadow: var(--elevation-2);
+  border-left-color: var(--neon-blue);
+  transform: translateY(-1px);
+}
+
+.capec-card-header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  margin-bottom: var(--space-2);
+  flex-wrap: wrap;
+}
+
+.capec-card-id {
+  font-size: 0.875rem;
+  font-weight: 700;
+  font-stretch: 105%;
+  color: var(--neon-blue);
+  text-decoration: none;
+  transition: color 150ms;
+  white-space: nowrap;
+}
+
+.capec-card-id:hover {
+  color: #79b8ff;
+  text-decoration: underline;
+}
+
+.capec-card-badges {
+  display: flex;
+  gap: var(--space-1);
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.capec-abstraction-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 1px var(--space-2);
+  font-size: 0.5625rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  border-radius: var(--radius-sm);
+  white-space: nowrap;
+}
+
+.capec-abs-meta {
+  background: rgba(167, 139, 250, 0.15);
+  color: #a78bfa;
+  border: 1px solid rgba(167, 139, 250, 0.25);
+}
+
+.capec-abs-standard {
+  background: rgba(88, 166, 255, 0.12);
+  color: var(--neon-blue);
+  border: 1px solid rgba(88, 166, 255, 0.2);
+}
+
+.capec-abs-detailed {
+  background: rgba(0, 229, 199, 0.1);
+  color: var(--neon-teal);
+  border: 1px solid rgba(0, 229, 199, 0.2);
+}
+
+.capec-severity-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 1px var(--space-2);
+  font-size: 0.5625rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  border-radius: var(--radius-sm);
+  white-space: nowrap;
+}
+
+.capec-sev-very-high {
+  background: rgba(255, 45, 123, 0.15);
+  color: var(--neon-pink);
+  border: 1px solid rgba(255, 45, 123, 0.25);
+}
+
+.capec-sev-high {
+  background: rgba(255, 107, 107, 0.12);
+  color: #ff6b6b;
+  border: 1px solid rgba(255, 107, 107, 0.2);
+}
+
+.capec-sev-medium {
+  background: var(--neon-amber-subtle);
+  color: var(--neon-amber);
+  border: 1px solid rgba(245, 166, 35, 0.2);
+}
+
+.capec-sev-low {
+  background: rgba(0, 229, 199, 0.1);
+  color: var(--neon-teal);
+  border: 1px solid rgba(0, 229, 199, 0.2);
+}
+
+.capec-sev-very-low {
+  background: rgba(226, 232, 244, 0.08);
+  color: var(--text-muted);
+  border: 1px solid var(--border);
+}
+
+.capec-likelihood-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 1px var(--space-2);
+  font-size: 0.5625rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  border-radius: var(--radius-sm);
+  white-space: nowrap;
+}
+
+.capec-lh-high {
+  background: rgba(255, 45, 123, 0.12);
+  color: var(--neon-pink);
+  border: 1px solid rgba(255, 45, 123, 0.2);
+}
+
+.capec-lh-medium {
+  background: var(--neon-amber-subtle);
+  color: var(--neon-amber);
+  border: 1px solid rgba(245, 166, 35, 0.2);
+}
+
+.capec-lh-low {
+  background: rgba(0, 229, 199, 0.1);
+  color: var(--neon-teal);
+  border: 1px solid rgba(0, 229, 199, 0.2);
+}
+
+.capec-card-name {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--text);
+  margin: 0 0 var(--space-2) 0;
+  line-height: 1.4;
+}
+
+.capec-card-desc {
+  font-size: 0.8125rem;
+  color: var(--text-muted);
+  line-height: 1.55;
+  margin-bottom: var(--space-2);
+}
+
+.capec-expand-btn {
+  padding: var(--space-1) var(--space-3);
+  font-family: inherit;
+  font-size: 0.6875rem;
+  font-weight: 500;
+  background: transparent;
+  color: var(--neon-blue);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: all 200ms;
+  margin-bottom: var(--space-2);
+}
+
+.capec-expand-btn:hover {
+  background: rgba(88, 166, 255, 0.1);
+  border-color: var(--neon-blue);
+}
+
+.capec-card-meta {
+  display: flex;
+  gap: var(--space-2);
+  flex-wrap: wrap;
+  margin-top: var(--space-2);
+}
+
+.capec-meta-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  padding: 2px var(--space-2);
+  font-size: 0.6875rem;
+  color: var(--text-subtle);
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  white-space: nowrap;
+}
+
+.capec-meta-cwe {
+  background: var(--neon-amber-subtle);
+  color: var(--neon-amber);
+  border-color: rgba(245, 166, 35, 0.15);
+  font-weight: 600;
+  font-size: 0.5625rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.capec-meta-attck {
+  background: rgba(255, 45, 123, 0.08);
+  color: var(--neon-pink);
+  border-color: rgba(255, 45, 123, 0.15);
+  font-weight: 600;
+  font-size: 0.5625rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.capec-load-more {
+  display: flex;
+  justify-content: center;
+  margin-top: var(--space-5);
+}
+
+.capec-load-more-btn {
+  padding: var(--space-3) var(--space-6);
+  font-family: inherit;
+  font-size: 0.875rem;
+  font-weight: 600;
+  background: linear-gradient(135deg, var(--neon-blue), var(--neon-teal));
+  color: #fff;
+  border: none;
+  border-radius: var(--radius-pill);
+  cursor: pointer;
+  transition: opacity 200ms, box-shadow 200ms, transform 200ms;
+  box-shadow: 0 0 20px rgba(88, 166, 255, 0.2), 0 0 20px rgba(0, 229, 199, 0.2);
+}
+
+.capec-load-more-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 0 30px rgba(88, 166, 255, 0.3), 0 0 30px rgba(0, 229, 199, 0.3);
+}
+
+.capec-loading {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.capec-empty {
+  text-align: center;
+  padding: var(--space-8) var(--space-4);
+  color: var(--text-muted);
+}
+
+.capec-empty .empty-icon {
+  font-size: 2.5rem;
+  display: block;
+  margin-bottom: var(--space-3);
+  opacity: 0.5;
+}
+
 /* ── Empty state ── */
 
 .empty-state {
@@ -2232,6 +2666,16 @@ a.pf-item-name:hover {
     flex-direction: column;
     gap: var(--space-3);
   }
+
+  .capec-filters {
+    flex-direction: column;
+    gap: var(--space-3);
+  }
+
+  .tab-dropdown-menu {
+    left: auto;
+    right: 0;
+  }
 }
 
 @media (max-width: 640px) {
@@ -2305,6 +2749,22 @@ a.pf-item-name:hover {
   }
 
   .cwe-card-desc {
+    font-size: 0.75rem;
+  }
+
+  .capec-controls {
+    padding: var(--space-3);
+  }
+
+  .capec-card {
+    padding: var(--space-3);
+  }
+
+  .capec-card-name {
+    font-size: 0.8125rem;
+  }
+
+  .capec-card-desc {
     font-size: 0.75rem;
   }
 }

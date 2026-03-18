@@ -87,6 +87,32 @@
   var cweSearchTerm = '';
   var cweDebounceTimer = null;
 
+  var capecPanelEl = document.getElementById('capec-panel');
+  var capecListEl = document.getElementById('capec-list');
+  var capecSearchInput = document.getElementById('capec-search-input');
+  var capecCountEl = document.getElementById('capec-count');
+  var capecLoadingEl = document.getElementById('capec-loading');
+  var capecFilterAbstractionEl = document.getElementById('capec-filter-abstraction');
+  var capecFilterSeverityEl = document.getElementById('capec-filter-severity');
+  var capecFilterLikelihoodEl = document.getElementById('capec-filter-likelihood');
+  var tabCountCapecEl = document.getElementById('tab-count-capec');
+  var capecVersionBadgeEl = document.getElementById('capec-version-badge');
+  var statCapecEl = document.getElementById('stat-capec');
+
+  var capecData = null;
+  var filteredCapec = [];
+  var capecPage = 1;
+  var CAPEC_PAGE_SIZE = 50;
+  var capecLoaded = false;
+  var capecSearchTerm = '';
+  var capecDebounceTimer = null;
+
+  var refDropdownEl = document.getElementById('ref-dropdown');
+  var refTabBtnEl = document.getElementById('ref-tab-btn');
+  var refTabLabelEl = document.getElementById('ref-tab-label');
+  var refDropdownMenuEl = document.getElementById('ref-dropdown-menu');
+  var REF_TABS = ['glossary', 'cwe', 'capec'];
+
   var glossaryPanelEl = document.getElementById('glossary-panel');
   var glossaryListEl = document.getElementById('glossary-list');
   var glossarySearchInput = document.getElementById('glossary-search-input');
@@ -1534,16 +1560,217 @@
     cweListEl.appendChild(frag);
   }
 
+  /* ── CAPEC Database ── */
+
+  function loadCAPEC() {
+    if (capecLoaded) return Promise.resolve();
+    if (capecLoadingEl) capecLoadingEl.style.display = '';
+    if (capecListEl) capecListEl.innerHTML = '';
+
+    return loadJSON('data/capec-data.json').then(function (data) {
+      capecData = data.patterns || [];
+      capecLoaded = true;
+      if (capecLoadingEl) capecLoadingEl.style.display = 'none';
+      if (tabCountCapecEl) tabCountCapecEl.textContent = capecData.length;
+      if (statCapecEl) statCapecEl.textContent = capecData.length;
+      if (capecVersionBadgeEl) {
+        capecVersionBadgeEl.textContent = 'v' + (data.version || '') + ' (' + (data.date || '') + ')';
+      }
+      filterCAPEC();
+    }).catch(function (err) {
+      if (capecLoadingEl) capecLoadingEl.style.display = 'none';
+      if (capecListEl) {
+        capecListEl.innerHTML =
+          '<div class="capec-empty">' +
+            '<span class="empty-icon">&#x26A0;</span>' +
+            '<p>Could not load CAPEC data.<br>' + escapeHtml(err.message) + '</p>' +
+          '</div>';
+      }
+    });
+  }
+
+  function filterCAPEC() {
+    if (!capecData) return;
+    var term = capecSearchTerm.toLowerCase();
+    var abstraction = capecFilterAbstractionEl ? capecFilterAbstractionEl.value : '';
+    var severity = capecFilterSeverityEl ? capecFilterSeverityEl.value : '';
+    var likelihood = capecFilterLikelihoodEl ? capecFilterLikelihoodEl.value : '';
+
+    filteredCapec = capecData.filter(function (p) {
+      if (abstraction && p.abstraction !== abstraction) return false;
+      if (severity && p.severity !== severity) return false;
+      if (likelihood && p.likelihood !== likelihood) return false;
+      if (term) {
+        var idMatch = ('capec-' + p.id).indexOf(term) !== -1 || p.id === term;
+        var nameMatch = p.name.toLowerCase().indexOf(term) !== -1;
+        var descMatch = p.description.toLowerCase().indexOf(term) !== -1;
+        if (!idMatch && !nameMatch && !descMatch) return false;
+      }
+      return true;
+    });
+
+    capecPage = 1;
+    renderCAPEC();
+  }
+
+  function capecAbstractionClass(abstraction) {
+    var map = { Meta: 'capec-abs-meta', Standard: 'capec-abs-standard', Detailed: 'capec-abs-detailed' };
+    return map[abstraction] || 'capec-abs-standard';
+  }
+
+  function capecSeverityClass(severity) {
+    var s = (severity || '').toLowerCase().replace(/\s+/g, '-');
+    return 'capec-sev-' + (s || 'none');
+  }
+
+  function renderCAPEC() {
+    if (!capecListEl) return;
+    var total = filteredCapec.length;
+    var limit = capecPage * CAPEC_PAGE_SIZE;
+    var visible = filteredCapec.slice(0, limit);
+
+    if (capecCountEl) {
+      capecCountEl.textContent = total + ' attack pattern' + (total === 1 ? '' : 's') +
+        (capecSearchTerm ? ' matching "' + capecSearchTerm + '"' : '');
+    }
+
+    if (visible.length === 0) {
+      capecListEl.innerHTML =
+        '<div class="capec-empty">' +
+          '<span class="empty-icon">&#x1F50D;</span>' +
+          '<p>No attack patterns match your filters.<br>Try broadening your search or changing filters.</p>' +
+        '</div>';
+      return;
+    }
+
+    var frag = document.createDocumentFragment();
+    visible.forEach(function (p) {
+      var card = document.createElement('div');
+      card.className = 'capec-card';
+
+      var html = '<div class="capec-card-header">';
+      html += '<a class="capec-card-id" href="https://capec.mitre.org/data/definitions/' + escapeHtml(p.id) + '.html" target="_blank" rel="noopener">CAPEC-' + escapeHtml(p.id) + '</a>';
+      html += '<div class="capec-card-badges">';
+      html += '<span class="capec-abstraction-badge ' + capecAbstractionClass(p.abstraction) + '">' + escapeHtml(p.abstraction) + '</span>';
+      if (p.severity) {
+        html += '<span class="capec-severity-badge ' + capecSeverityClass(p.severity) + '">' + escapeHtml(p.severity) + '</span>';
+      }
+      if (p.likelihood) {
+        html += '<span class="capec-likelihood-badge capec-lh-' + p.likelihood.toLowerCase() + '">' + escapeHtml(p.likelihood) + ' Likelihood</span>';
+      }
+      html += '</div>';
+      html += '</div>';
+
+      html += '<h4 class="capec-card-name">' + escapeHtml(p.name) + '</h4>';
+
+      if (p.description) {
+        var desc = p.description;
+        var truncated = desc.length > 280;
+        var descId = 'capec-desc-' + p.id;
+        html += '<p class="capec-card-desc" id="' + descId + '">';
+        html += truncated ? escapeHtml(desc.substring(0, 280)) + '...' : escapeHtml(desc);
+        html += '</p>';
+        if (truncated) {
+          html += '<button type="button" class="capec-expand-btn" data-full="' + escapeHtml(desc) + '" data-target="' + descId + '">Show more</button>';
+        }
+      }
+
+      var metaItems = [];
+      if (p.executionSteps > 0) {
+        metaItems.push('<span class="capec-meta-item" title="Execution Steps">&#x1F3AF; ' + p.executionSteps + ' step' + (p.executionSteps === 1 ? '' : 's') + '</span>');
+      }
+      if (p.prerequisites > 0) {
+        metaItems.push('<span class="capec-meta-item" title="Prerequisites">&#x1F512; ' + p.prerequisites + ' prerequisite' + (p.prerequisites === 1 ? '' : 's') + '</span>');
+      }
+      if (p.skillLevels && p.skillLevels.length > 0) {
+        metaItems.push('<span class="capec-meta-item" title="Skill Levels Required">&#x1F4AA; ' + escapeHtml(p.skillLevels.join(', ')) + '</span>');
+      }
+      if (p.mitigationCount > 0) {
+        metaItems.push('<span class="capec-meta-item" title="Mitigations">&#x1F6E1; ' + p.mitigationCount + ' mitigation' + (p.mitigationCount === 1 ? '' : 's') + '</span>');
+      }
+      if (p.cweIds && p.cweIds.length > 0) {
+        metaItems.push('<span class="capec-meta-item capec-meta-cwe" title="Related CWE Weaknesses">CWE &#xD7; ' + p.cweIds.length + '</span>');
+      }
+      if (p.consequences && p.consequences.length > 0) {
+        var scopes = [];
+        p.consequences.forEach(function (c) { if (scopes.indexOf(c.scope) === -1) scopes.push(c.scope); });
+        metaItems.push('<span class="capec-meta-item" title="Impact Scopes">&#x26A1; ' + escapeHtml(scopes.slice(0, 3).join(', ')) + (scopes.length > 3 ? ' +' + (scopes.length - 3) : '') + '</span>');
+      }
+      if (p.taxonomies && p.taxonomies.length > 0) {
+        var attck = p.taxonomies.filter(function (t) { return t.source === 'ATTACK'; });
+        if (attck.length > 0) {
+          metaItems.push('<span class="capec-meta-item capec-meta-attck" title="MITRE ATT&CK Mapping">ATT&CK</span>');
+        }
+      }
+      if (metaItems.length > 0) {
+        html += '<div class="capec-card-meta">' + metaItems.join('') + '</div>';
+      }
+
+      card.innerHTML = html;
+      frag.appendChild(card);
+    });
+
+    if (limit < total) {
+      var loadMoreDiv = document.createElement('div');
+      loadMoreDiv.className = 'capec-load-more';
+      loadMoreDiv.innerHTML = '<button type="button" class="capec-load-more-btn">Load more (' + (total - limit) + ' remaining)</button>';
+      frag.appendChild(loadMoreDiv);
+    }
+
+    capecListEl.innerHTML = '';
+    capecListEl.appendChild(frag);
+  }
+
+  /* ── Reference Dropdown ── */
+
+  var REF_TAB_LABELS = { glossary: 'NIST Glossary', cwe: 'CWE Database', capec: 'CAPEC Attacks' };
+
+  function toggleRefDropdown(forceClose) {
+    if (!refDropdownEl) return;
+    var isOpen = refDropdownEl.classList.contains('open');
+    if (forceClose || isOpen) {
+      refDropdownEl.classList.remove('open');
+      if (refTabBtnEl) refTabBtnEl.setAttribute('aria-expanded', 'false');
+    } else {
+      refDropdownEl.classList.add('open');
+      if (refTabBtnEl) refTabBtnEl.setAttribute('aria-expanded', 'true');
+    }
+  }
+
+  function updateRefTabLabel() {
+    if (!refTabLabelEl) return;
+    if (REF_TABS.indexOf(activeTab) !== -1) {
+      refTabLabelEl.textContent = REF_TAB_LABELS[activeTab] || 'Reference';
+    } else {
+      refTabLabelEl.textContent = 'Reference';
+    }
+  }
+
   /* ── Tab switching ── */
 
   function switchTab(tab) {
     activeTab = tab;
-    var tabBtns = document.querySelectorAll('.tab-bar .tab');
+    var isRefTab = REF_TABS.indexOf(tab) !== -1;
+
+    var tabBtns = document.querySelectorAll('.tab-bar > .tab');
     tabBtns.forEach(function (btn) {
       var isActive = btn.dataset.tab === tab;
       btn.classList.toggle('active', isActive);
       btn.setAttribute('aria-selected', isActive ? 'true' : 'false');
     });
+
+    if (refTabBtnEl) {
+      refTabBtnEl.classList.toggle('active', isRefTab);
+      refTabBtnEl.setAttribute('aria-selected', isRefTab ? 'true' : 'false');
+    }
+    updateRefTabLabel();
+    toggleRefDropdown(true);
+
+    if (refDropdownMenuEl) {
+      refDropdownMenuEl.querySelectorAll('.tab-dropdown-item').forEach(function (item) {
+        item.classList.toggle('active', item.dataset.tab === tab);
+      });
+    }
 
     controlsCertsEl.style.display = 'none';
     controlsResEl.style.display = 'none';
@@ -1551,6 +1778,7 @@
     if (pathfinderPanelEl) pathfinderPanelEl.style.display = 'none';
     if (glossaryPanelEl) glossaryPanelEl.style.display = 'none';
     if (cwePanelEl) cwePanelEl.style.display = 'none';
+    if (capecPanelEl) capecPanelEl.style.display = 'none';
     chipSectionEl.style.display = 'none';
 
     var searchBarEl = document.querySelector('.search-bar');
@@ -1599,11 +1827,18 @@
       if (resultCountLine) resultCountLine.style.display = 'none';
       resultsEl.style.display = 'none';
       if (!cweLoaded) loadCWE();
+    } else if (tab === 'capec') {
+      if (capecPanelEl) capecPanelEl.style.display = '';
+      if (searchBarEl) searchBarEl.style.display = 'none';
+      if (activeFiltersBar) activeFiltersBar.style.display = 'none';
+      if (resultCountLine) resultCountLine.style.display = 'none';
+      resultsEl.style.display = 'none';
+      if (!capecLoaded) loadCAPEC();
     }
 
     searchInput.value = '';
     searchTerm = '';
-    if (tab !== 'pathfinder' && tab !== 'glossary' && tab !== 'cwe') runFilterAndRender();
+    if (tab !== 'pathfinder' && tab !== 'glossary' && tab !== 'cwe' && tab !== 'capec') runFilterAndRender();
   }
 
   /* ── Hero stats ── */
@@ -1624,6 +1859,8 @@
     if (tabCountGlossaryEl) tabCountGlossaryEl.textContent = glossaryLoaded ? glossaryTerms.length : '--';
     if (tabCountCweEl) tabCountCweEl.textContent = cweLoaded ? cweData.length : '--';
     if (statCweEl) statCweEl.textContent = cweLoaded ? cweData.length : '--';
+    if (tabCountCapecEl) tabCountCapecEl.textContent = capecLoaded ? capecData.length : '--';
+    if (statCapecEl) statCapecEl.textContent = capecLoaded ? capecData.length : '--';
   }
 
   /* ── Master filter + render ── */
@@ -1647,6 +1884,8 @@
     } else if (activeTab === 'glossary') {
       activeFiltersEl.innerHTML = '';
     } else if (activeTab === 'cwe') {
+      activeFiltersEl.innerHTML = '';
+    } else if (activeTab === 'capec') {
       activeFiltersEl.innerHTML = '';
     }
   }
@@ -1794,9 +2033,37 @@
   if (sortDefconEl) sortDefconEl.addEventListener('change', runFilterAndRender);
   if (resetDefconBtn) resetDefconBtn.addEventListener('click', resetDefcon);
 
-  var tabBtns = document.querySelectorAll('.tab-bar .tab');
+  var tabBtns = document.querySelectorAll('.tab-bar > .tab[data-tab]');
   tabBtns.forEach(function (btn) {
     btn.addEventListener('click', function () { switchTab(btn.dataset.tab); });
+  });
+
+  if (refTabBtnEl) {
+    refTabBtnEl.addEventListener('click', function (e) {
+      e.stopPropagation();
+      toggleRefDropdown();
+    });
+  }
+
+  if (refDropdownMenuEl) {
+    refDropdownMenuEl.addEventListener('click', function (e) {
+      var item = e.target.closest('.tab-dropdown-item');
+      if (item && item.dataset.tab) {
+        switchTab(item.dataset.tab);
+      }
+    });
+  }
+
+  document.addEventListener('click', function (e) {
+    if (refDropdownEl && !refDropdownEl.contains(e.target)) {
+      toggleRefDropdown(true);
+    }
+  });
+
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') {
+      toggleRefDropdown(true);
+    }
   });
 
   if (pfNiceRoleEl) pfNiceRoleEl.addEventListener('change', function () {
@@ -1896,6 +2163,47 @@
         return;
       }
       var expandBtn = e.target.closest('.cwe-expand-btn');
+      if (expandBtn) {
+        var targetId = expandBtn.dataset.target;
+        var descEl = document.getElementById(targetId);
+        if (descEl) {
+          var isExpanded = expandBtn.classList.toggle('expanded');
+          if (isExpanded) {
+            descEl.textContent = expandBtn.dataset.full;
+            expandBtn.textContent = 'Show less';
+          } else {
+            descEl.textContent = expandBtn.dataset.full.substring(0, 280) + '...';
+            expandBtn.textContent = 'Show more';
+          }
+        }
+        return;
+      }
+    });
+  }
+
+  if (capecSearchInput) {
+    capecSearchInput.addEventListener('input', function () {
+      clearTimeout(capecDebounceTimer);
+      capecDebounceTimer = setTimeout(function () {
+        capecSearchTerm = capecSearchInput.value.trim();
+        filterCAPEC();
+      }, 250);
+    });
+  }
+
+  if (capecFilterAbstractionEl) capecFilterAbstractionEl.addEventListener('change', filterCAPEC);
+  if (capecFilterSeverityEl) capecFilterSeverityEl.addEventListener('change', filterCAPEC);
+  if (capecFilterLikelihoodEl) capecFilterLikelihoodEl.addEventListener('change', filterCAPEC);
+
+  if (capecListEl) {
+    capecListEl.addEventListener('click', function (e) {
+      var loadMoreBtn = e.target.closest('.capec-load-more-btn');
+      if (loadMoreBtn) {
+        capecPage++;
+        renderCAPEC();
+        return;
+      }
+      var expandBtn = e.target.closest('.capec-expand-btn');
       if (expandBtn) {
         var targetId = expandBtn.dataset.target;
         var descEl = document.getElementById(targetId);
