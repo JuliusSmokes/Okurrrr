@@ -47,7 +47,7 @@
     "description": "Manage governance, risk, and compliance programs aligned with regulatory frameworks.",
     "niceRoleIds": ["OG-WRL-002", "OG-WRL-012", "OG-WRL-013", "OG-WRL-016"],
     "cisspDomains": ["cissp-d1", "cissp-d2"],
-    "resourceCategories": ["Governance and Service Management", "Hardening and Compliance", "Privacy and Legal", "Threat Modeling"],
+    "resourceCategories": ["Governance and Service Management", "Hardening and Compliance", "Privacy and Legal", "Threat Modeling", "Healthcare Cybersecurity"],
     "toolCategories": ["Governance and Service Management", "Hardening and Compliance"],
     "phases": [
       { "name": "Foundation", "level": "Beginner", "skills": ["Risk management fundamentals", "Compliance frameworks (NIST CSF, ISO 27001)", "Security policy development", "Business impact analysis"] },
@@ -89,7 +89,7 @@
     "description": "Design and oversee enterprise security architecture aligned with business objectives.",
     "niceRoleIds": ["DD-WRL-001", "DD-WRL-002", "OG-WRL-007"],
     "cisspDomains": ["cissp-d1", "cissp-d3", "cissp-d4", "cissp-d5"],
-    "resourceCategories": ["Hardening and Compliance", "Cloud Security", "Governance and Service Management", "Threat Modeling"],
+    "resourceCategories": ["Hardening and Compliance", "Cloud Security", "Governance and Service Management", "Threat Modeling", "Healthcare Cybersecurity"],
     "toolCategories": ["DevSecOps Tools", "Hardening and Compliance"],
     "phases": [
       { "name": "Foundation", "level": "Beginner", "skills": ["Networking fundamentals (OSI, TCP/IP)", "Operating system security", "Cryptography basics", "Security frameworks (NIST, ISO)"] },
@@ -117,7 +117,7 @@
     "description": "Identify, prioritize, and remediate vulnerabilities across the enterprise attack surface.",
     "niceRoleIds": ["PD-WRL-007", "PD-WRL-004"],
     "cisspDomains": ["cissp-d6", "cissp-d7"],
-    "resourceCategories": ["DevSecOps Tools", "Hardening and Compliance"],
+    "resourceCategories": ["DevSecOps Tools", "Hardening and Compliance", "Healthcare Cybersecurity"],
     "toolCategories": ["DevSecOps Tools", "Command Shells and CLI Tools"],
     "phases": [
       { "name": "Foundation", "level": "Beginner", "skills": ["Vulnerability scanning basics (Nessus, Qualys)", "CVE and CVSS scoring", "Patch management fundamentals", "Asset inventory and discovery"] },
@@ -187,7 +187,7 @@
     "description": "Develop and deliver cybersecurity training and awareness programs for organizations.",
     "niceRoleIds": ["OG-WRL-004", "OG-WRL-005"],
     "cisspDomains": ["cissp-d1"],
-    "resourceCategories": ["Courses", "Community and News", "Career Development"],
+    "resourceCategories": ["Courses", "Community and News", "Career Development", "Healthcare Cybersecurity"],
     "toolCategories": ["Community and News", "Governance and Service Management"],
     "phases": [
       { "name": "Foundation", "level": "Beginner", "skills": ["Security fundamentals and terminology", "Common threat landscape", "Social engineering awareness", "Phishing simulation basics"] },
@@ -215,7 +215,7 @@
     "description": "Implement technical controls to protect personal data and ensure privacy regulation compliance.",
     "niceRoleIds": ["OG-WRL-008", "DD-WRL-003"],
     "cisspDomains": ["cissp-d1", "cissp-d2"],
-    "resourceCategories": ["Privacy and Legal", "Governance and Service Management", "Hardening and Compliance", "Threat Modeling"],
+    "resourceCategories": ["Privacy and Legal", "Governance and Service Management", "Hardening and Compliance", "Threat Modeling", "Healthcare Cybersecurity"],
     "toolCategories": ["Governance and Service Management", "DevSecOps Tools"],
     "phases": [
       { "name": "Foundation", "level": "Beginner", "skills": ["Privacy regulations overview (GDPR, CCPA, HIPAA)", "Data classification and mapping", "Privacy by Design principles", "Consent management basics"] },
@@ -243,7 +243,7 @@
     "description": "Secure operational technology and industrial control systems in critical infrastructure.",
     "niceRoleIds": ["DD-WRL-009", "DD-WRL-004"],
     "cisspDomains": ["cissp-d3", "cissp-d4"],
-    "resourceCategories": ["Hardening and Compliance", "Networking and Infrastructure"],
+    "resourceCategories": ["Hardening and Compliance", "Networking and Infrastructure", "Healthcare Cybersecurity"],
     "toolCategories": ["Command Shells and CLI Tools", "Hardening and Compliance"],
     "phases": [
       { "name": "Foundation", "level": "Beginner", "skills": ["OT/ICS fundamentals (PLCs, HMIs, SCADA)", "Purdue Model for industrial networks", "ICS-specific protocols (Modbus, DNP3, OPC)", "IT/OT convergence challenges"] },
