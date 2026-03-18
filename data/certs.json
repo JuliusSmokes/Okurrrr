@@ -72,7 +72,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "DD-WRL-002"
     ],
     "costUsd": null,
     "costNote": "CREST certified exams ~£800; CRTSA may be discontinued–contact vendor",
@@ -106,7 +107,10 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-007",
+      "OG-WRL-009",
+      "IO-WRL-003"
     ],
     "costUsd": null,
     "costNote": "Multiple designations required; contact vendor for total path cost",
@@ -262,7 +266,9 @@
     "level": "Expert",
     "niceWorkRoleIds": [
       "DD-WRL-001",
-      "DD-WRL-006"
+      "DD-WRL-006",
+      "OG-WRL-007",
+      "DD-WRL-002"
     ],
     "costUsd": null,
     "costNote": "Training through AEPs; contact vendor for course and exam fees",
@@ -291,7 +297,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-015"
     ],
     "costUsd": null,
     "costNote": "No separate fee; awarded upon earning required GIAC certs",
@@ -323,7 +330,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "PD-WRL-006"
     ],
     "costUsd": 999,
     "costNote": null,
@@ -442,7 +450,11 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-007",
+      "OG-WRL-010",
+      "OG-WRL-011",
+      "OG-WRL-015"
     ],
     "costUsd": 555,
     "costNote": null,
@@ -474,7 +486,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-007"
     ],
     "costUsd": null,
     "costNote": "Contact NCSC/BCS for assured service fees",
@@ -626,7 +639,9 @@
     "level": "Expert",
     "niceWorkRoleIds": [
       "DD-WRL-001",
-      "DD-WRL-006"
+      "DD-WRL-006",
+      "OG-WRL-015",
+      "DD-WRL-002"
     ],
     "costUsd": 2999,
     "costNote": null,
@@ -655,7 +670,11 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-007",
+      "OG-WRL-009",
+      "OG-WRL-010",
+      "OG-WRL-011"
     ],
     "costUsd": 555,
     "costNote": null,
@@ -687,7 +706,11 @@
     "niceWorkRoleIds": [
       "OG-WRL-002",
       "OG-WRL-008",
-      "OG-WRL-016"
+      "OG-WRL-016",
+      "OG-WRL-003",
+      "OG-WRL-007",
+      "OG-WRL-014",
+      "PD-WRL-005"
     ],
     "costUsd": 760,
     "costNote": null,
@@ -720,7 +743,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-014"
     ],
     "costUsd": null,
     "costNote": "Contact vendor for exam and training fees",
@@ -845,7 +869,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-012"
     ],
     "costUsd": 999,
     "costNote": null,
@@ -877,7 +902,16 @@
     "niceWorkRoleIds": [
       "OG-WRL-002",
       "OG-WRL-008",
-      "OG-WRL-016"
+      "OG-WRL-016",
+      "OG-WRL-003",
+      "OG-WRL-004",
+      "OG-WRL-005",
+      "OG-WRL-007",
+      "OG-WRL-010",
+      "OG-WRL-012",
+      "OG-WRL-013",
+      "OG-WRL-014",
+      "PD-WRL-005"
     ],
     "costUsd": 749,
     "costNote": null,
@@ -1016,7 +1050,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "PD-WRL-006"
     ],
     "costUsd": 999,
     "costNote": null,
@@ -1057,7 +1092,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-010"
     ],
     "costUsd": 1016,
     "costNote": null,
@@ -1091,7 +1127,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "IO-WRL-007"
     ],
     "costUsd": 1500,
     "costNote": null,
@@ -1122,7 +1159,8 @@
     "level": "Expert",
     "niceWorkRoleIds": [
       "DD-WRL-001",
-      "DD-WRL-006"
+      "DD-WRL-006",
+      "DD-WRL-002"
     ],
     "costUsd": 400,
     "costNote": null,
@@ -1241,7 +1279,8 @@
     "level": "Expert",
     "niceWorkRoleIds": [
       "DD-WRL-001",
-      "DD-WRL-006"
+      "DD-WRL-006",
+      "DD-WRL-002"
     ],
     "costUsd": 165,
     "costNote": null,
@@ -1269,7 +1308,9 @@
     "level": "Expert",
     "niceWorkRoleIds": [
       "DD-WRL-001",
-      "DD-WRL-006"
+      "DD-WRL-006",
+      "OG-WRL-015",
+      "DD-WRL-002"
     ],
     "costUsd": 405,
     "costNote": null,
@@ -1298,7 +1339,9 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-003",
+      "OG-WRL-007"
     ],
     "costUsd": 2000,
     "costNote": null,
@@ -1333,7 +1376,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-014"
     ],
     "costUsd": null,
     "costNote": "Contact vendor for exam fees",
@@ -1365,7 +1409,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-007"
     ],
     "costUsd": 999,
     "costNote": null,
@@ -1429,7 +1474,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-012"
     ],
     "costUsd": 999,
     "costNote": null,
@@ -1703,7 +1749,8 @@
     "level": "Expert",
     "niceWorkRoleIds": [
       "DD-WRL-001",
-      "DD-WRL-006"
+      "DD-WRL-006",
+      "DD-WRL-002"
     ],
     "costUsd": null,
     "costNote": "Training through AEPs; contact vendor for fees",
@@ -1732,7 +1779,9 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-010",
+      "OG-WRL-011"
     ],
     "costUsd": 250,
     "costNote": null,
@@ -1764,7 +1813,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-015"
     ],
     "costUsd": null,
     "costNote": "No separate fee; awarded upon earning required GIAC certs",
@@ -1796,7 +1846,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-014"
     ],
     "costUsd": 999,
     "costNote": null,
@@ -1828,7 +1879,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "PD-WRL-006"
     ],
     "costUsd": null,
     "costNote": "Contact vendor for certification fees",
@@ -1892,7 +1944,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "PD-WRL-006"
     ],
     "costUsd": 2540,
     "costNote": null,
@@ -1923,7 +1976,8 @@
     "level": "Expert",
     "niceWorkRoleIds": [
       "PD-WRL-007",
-      "DD-WRL-008"
+      "DD-WRL-008",
+      "PD-WRL-006"
     ],
     "costUsd": null,
     "costNote": "Contact vendor for certification fees",
@@ -2097,7 +2151,8 @@
     "level": "Expert",
     "niceWorkRoleIds": [
       "DD-WRL-001",
-      "DD-WRL-006"
+      "DD-WRL-006",
+      "DD-WRL-002"
     ],
     "costUsd": 999,
     "costNote": null,
@@ -2126,7 +2181,11 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-007",
+      "OG-WRL-009",
+      "OG-WRL-015",
+      "IO-WRL-003"
     ],
     "costUsd": null,
     "costNote": "Multiple exams; contact vendor for path cost",
@@ -2158,7 +2217,9 @@
     "level": "Expert",
     "niceWorkRoleIds": [
       "DD-WRL-001",
-      "DD-WRL-006"
+      "DD-WRL-006",
+      "OG-WRL-015",
+      "DD-WRL-002"
     ],
     "costUsd": 2470,
     "costNote": null,
@@ -2187,7 +2248,9 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-007",
+      "OG-WRL-010"
     ],
     "costUsd": 999,
     "costNote": null,
@@ -2222,7 +2285,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-007"
     ],
     "costUsd": null,
     "costNote": "Contact vendor for certification fees",
@@ -2344,7 +2408,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-007"
     ],
     "costUsd": null,
     "costNote": "Contact vendor for certification fees",
@@ -2405,7 +2470,8 @@
     "level": "Expert",
     "niceWorkRoleIds": [
       "PD-WRL-007",
-      "DD-WRL-007"
+      "DD-WRL-007",
+      "OG-WRL-013"
     ],
     "costUsd": 540,
     "costNote": null,
@@ -2433,7 +2499,8 @@
     "level": "Expert",
     "niceWorkRoleIds": [
       "PD-WRL-007",
-      "DD-WRL-008"
+      "DD-WRL-008",
+      "PD-WRL-006"
     ],
     "costUsd": null,
     "costNote": "Contact vendor for certification fees",
@@ -2489,7 +2556,8 @@
     "level": "Expert",
     "niceWorkRoleIds": [
       "IO-WRL-005",
-      "DD-WRL-001"
+      "DD-WRL-001",
+      "OG-WRL-007"
     ],
     "costUsd": null,
     "costNote": "Contact vendor for certification fees",
@@ -2582,7 +2650,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "PD-WRL-006"
     ],
     "costUsd": null,
     "costNote": "Contact vendor for exam voucher pricing",
@@ -2838,7 +2907,9 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-009",
+      "IO-WRL-003"
     ],
     "costUsd": null,
     "costNote": "Multiple exams; contact vendor for path cost",
@@ -2871,7 +2942,9 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-010",
+      "OG-WRL-011"
     ],
     "costUsd": 250,
     "costNote": null,
@@ -2903,7 +2976,9 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-006",
+      "OG-WRL-013"
     ],
     "costUsd": 999,
     "costNote": null,
@@ -2935,7 +3010,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-014"
     ],
     "costUsd": null,
     "costNote": "Contact vendor for exam fees",
@@ -2967,7 +3043,10 @@
     "niceWorkRoleIds": [
       "OG-WRL-002",
       "OG-WRL-008",
-      "OG-WRL-016"
+      "OG-WRL-016",
+      "OG-WRL-006",
+      "OG-WRL-012",
+      "OG-WRL-013"
     ],
     "costUsd": 599,
     "costNote": null,
@@ -2997,7 +3076,9 @@
     "niceWorkRoleIds": [
       "OG-WRL-002",
       "OG-WRL-008",
-      "OG-WRL-016"
+      "OG-WRL-016",
+      "OG-WRL-003",
+      "OG-WRL-007"
     ],
     "costUsd": 760,
     "costNote": null,
@@ -3027,7 +3108,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-013"
     ],
     "costUsd": 999,
     "costNote": null,
@@ -3059,7 +3141,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-012"
     ],
     "costUsd": null,
     "costNote": "Firm qualification; contact PCI SSC for fees",
@@ -3251,7 +3334,9 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-010",
+      "PD-WRL-006"
     ],
     "costUsd": 1016,
     "costNote": null,
@@ -3369,7 +3454,8 @@
     "niceWorkRoleIds": [
       "IO-WRL-004",
       "IO-WRL-005",
-      "DD-WRL-001"
+      "DD-WRL-001",
+      "DD-WRL-002"
     ],
     "costUsd": 999,
     "costNote": null,
@@ -3431,7 +3517,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-013"
     ],
     "costUsd": 999,
     "costNote": null,
@@ -3495,7 +3582,9 @@
     "niceWorkRoleIds": [
       "OG-WRL-002",
       "OG-WRL-008",
-      "OG-WRL-016"
+      "OG-WRL-016",
+      "OG-WRL-014",
+      "IO-WRL-003"
     ],
     "costUsd": null,
     "costNote": "Included with training; contact vendor for pricing",
@@ -3525,7 +3614,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-006"
     ],
     "costUsd": 550,
     "costNote": null,
@@ -3557,7 +3647,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-006"
     ],
     "costUsd": 760,
     "costNote": null,
@@ -3589,7 +3680,10 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-009",
+      "OG-WRL-010",
+      "OG-WRL-011"
     ],
     "costUsd": null,
     "costNote": "Contact vendor for exam fees",
@@ -3621,7 +3715,9 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-010",
+      "OG-WRL-011"
     ],
     "costUsd": null,
     "costNote": "Contact vendor for exam fees",
@@ -3653,7 +3749,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-014"
     ],
     "costUsd": 3180,
     "costNote": null,
@@ -3685,7 +3782,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-014"
     ],
     "costUsd": null,
     "costNote": "Contact vendor for exam and training fees",
@@ -3717,7 +3815,9 @@
     "niceWorkRoleIds": [
       "OG-WRL-002",
       "OG-WRL-008",
-      "OG-WRL-016"
+      "OG-WRL-016",
+      "OG-WRL-012",
+      "OG-WRL-013"
     ],
     "costUsd": 575,
     "costNote": null,
@@ -3752,7 +3852,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "DD-WRL-002"
     ],
     "costUsd": 999,
     "costNote": null,
@@ -3784,7 +3885,10 @@
     "niceWorkRoleIds": [
       "OG-WRL-002",
       "OG-WRL-008",
-      "OG-WRL-016"
+      "OG-WRL-016",
+      "OG-WRL-012",
+      "OG-WRL-014",
+      "IO-WRL-003"
     ],
     "costUsd": 2788,
     "costNote": null,
@@ -3846,7 +3950,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "IO-WRL-001"
     ],
     "costUsd": 999,
     "costNote": null,
@@ -4075,7 +4180,9 @@
     "level": "Expert",
     "niceWorkRoleIds": [
       "PD-WRL-007",
-      "DD-WRL-007"
+      "DD-WRL-007",
+      "OG-WRL-013",
+      "PD-WRL-006"
     ],
     "costUsd": 464,
     "costNote": null,
@@ -4104,7 +4211,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-013"
     ],
     "costUsd": null,
     "costNote": "Requires CCSE plus two Infinity Specialist exams; contact vendor",
@@ -4288,7 +4396,8 @@
     "niceWorkRoleIds": [
       "IO-WRL-004",
       "IO-WRL-005",
-      "DD-WRL-001"
+      "DD-WRL-001",
+      "OG-WRL-013"
     ],
     "costUsd": 445,
     "costNote": null,
@@ -4348,7 +4457,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "DD-WRL-002"
     ],
     "costUsd": null,
     "costNote": "Included with training; contact vendor",
@@ -4380,7 +4490,9 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-010",
+      "OG-WRL-011"
     ],
     "costUsd": 200,
     "costNote": null,
@@ -4412,7 +4524,9 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-010",
+      "OG-WRL-011"
     ],
     "costUsd": null,
     "costNote": "In abeyance; renewal $199",
@@ -4474,7 +4588,9 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-007",
+      "OG-WRL-014"
     ],
     "costUsd": null,
     "costNote": "Contact vendor for exam fees",
@@ -4568,7 +4684,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "PD-WRL-006"
     ],
     "costUsd": 595,
     "costNote": null,
@@ -4808,7 +4925,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "PD-WRL-006"
     ],
     "costUsd": 999,
     "costNote": null,
@@ -4872,7 +4990,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-012"
     ],
     "costUsd": 999,
     "costNote": null,
@@ -4931,7 +5050,8 @@
     "level": "Expert",
     "niceWorkRoleIds": [
       "IO-WRL-005",
-      "DD-WRL-001"
+      "DD-WRL-001",
+      "OG-WRL-007"
     ],
     "costUsd": 750,
     "costNote": null,
@@ -4960,7 +5080,8 @@
     "niceWorkRoleIds": [
       "IO-WRL-004",
       "IO-WRL-005",
-      "DD-WRL-001"
+      "DD-WRL-001",
+      "DD-WRL-002"
     ],
     "costUsd": 599,
     "costNote": null,
@@ -5052,7 +5173,8 @@
     "category": "*nix",
     "level": "Expert",
     "niceWorkRoleIds": [
-      "IO-WRL-005"
+      "IO-WRL-005",
+      "OG-WRL-013"
     ],
     "costUsd": 500,
     "costNote": null,
@@ -5111,7 +5233,9 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-007",
+      "DD-WRL-002"
     ],
     "costUsd": 6000,
     "costNote": null,
@@ -5143,7 +5267,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-006"
     ],
     "costUsd": null,
     "costNote": "Contact vendor; training typically bundled",
@@ -5206,7 +5331,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-007"
     ],
     "costUsd": null,
     "costNote": "Contact vendor or training providers",
@@ -5238,7 +5364,9 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-010",
+      "OG-WRL-011"
     ],
     "costUsd": 495,
     "costNote": null,
@@ -5270,7 +5398,9 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-007",
+      "OG-WRL-014"
     ],
     "costUsd": null,
     "costNote": "Contact vendor for EISM program fees",
@@ -5302,7 +5432,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-015"
     ],
     "costUsd": 575,
     "costNote": null,
@@ -5334,7 +5465,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-014"
     ],
     "costUsd": null,
     "costNote": "Contact vendor for exam fees",
@@ -5490,7 +5622,11 @@
     "niceWorkRoleIds": [
       "OG-WRL-002",
       "OG-WRL-008",
-      "OG-WRL-016"
+      "OG-WRL-016",
+      "OG-WRL-007",
+      "OG-WRL-012",
+      "OG-WRL-014",
+      "IO-WRL-003"
     ],
     "costUsd": 2500,
     "costNote": null,
@@ -5520,7 +5656,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-011"
     ],
     "costUsd": 400,
     "costNote": null,
@@ -5581,7 +5718,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-013"
     ],
     "costUsd": 3180,
     "costNote": null,
@@ -5647,7 +5785,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "PD-WRL-006"
     ],
     "costUsd": 762,
     "costNote": null,
@@ -5681,7 +5820,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-012"
     ],
     "costUsd": 999,
     "costNote": null,
@@ -5712,7 +5852,8 @@
     "level": "Expert",
     "niceWorkRoleIds": [
       "PD-WRL-007",
-      "DD-WRL-008"
+      "DD-WRL-008",
+      "OG-WRL-013"
     ],
     "costUsd": 1749,
     "costNote": null,
@@ -5804,7 +5945,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "IO-WRL-007"
     ],
     "costUsd": 318,
     "costNote": null,
@@ -5899,7 +6041,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "DD-WRL-002"
     ],
     "costUsd": null,
     "costNote": "Contact vendor for exam fees",
@@ -5931,7 +6074,8 @@
     "niceWorkRoleIds": [
       "IO-WRL-004",
       "IO-WRL-005",
-      "DD-WRL-001"
+      "DD-WRL-001",
+      "OG-WRL-013"
     ],
     "costUsd": 445,
     "costNote": null,
@@ -5991,7 +6135,8 @@
     "level": "Expert",
     "niceWorkRoleIds": [
       "DD-WRL-001",
-      "DD-WRL-006"
+      "DD-WRL-006",
+      "DD-WRL-002"
     ],
     "costUsd": null,
     "costNote": "Training through AEPs; contact vendor for fees",
@@ -6048,7 +6193,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-006"
     ],
     "costUsd": 213,
     "costNote": null,
@@ -6080,7 +6226,10 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-007",
+      "OG-WRL-010",
+      "OG-WRL-011"
     ],
     "costUsd": 200,
     "costNote": null,
@@ -6112,7 +6261,9 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-010",
+      "OG-WRL-011"
     ],
     "costUsd": 300,
     "costNote": null,
@@ -6144,7 +6295,9 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-010",
+      "OG-WRL-011"
     ],
     "costUsd": 250,
     "costNote": null,
@@ -6176,7 +6329,9 @@
     "niceWorkRoleIds": [
       "OG-WRL-002",
       "OG-WRL-008",
-      "OG-WRL-016"
+      "OG-WRL-016",
+      "OG-WRL-009",
+      "IO-WRL-003"
     ],
     "costUsd": null,
     "costNote": "Contact vendor for exam fees",
@@ -6237,7 +6392,9 @@
     "niceWorkRoleIds": [
       "OG-WRL-002",
       "OG-WRL-008",
-      "OG-WRL-016"
+      "OG-WRL-016",
+      "OG-WRL-014",
+      "IO-WRL-003"
     ],
     "costUsd": null,
     "costNote": "Contact vendor for exam fees",
@@ -6268,7 +6425,9 @@
     "niceWorkRoleIds": [
       "OG-WRL-002",
       "OG-WRL-008",
-      "OG-WRL-016"
+      "OG-WRL-016",
+      "OG-WRL-014",
+      "IO-WRL-003"
     ],
     "costUsd": 640,
     "costNote": null,
@@ -6298,7 +6457,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-004"
     ],
     "costUsd": null,
     "costNote": "Contact vendor for course and exam fees",
@@ -6330,7 +6490,9 @@
     "niceWorkRoleIds": [
       "OG-WRL-002",
       "OG-WRL-008",
-      "OG-WRL-016"
+      "OG-WRL-016",
+      "OG-WRL-012",
+      "OG-WRL-014"
     ],
     "costUsd": null,
     "costNote": "Contact vendor for individual course pricing",
@@ -6360,7 +6522,11 @@
     "niceWorkRoleIds": [
       "OG-WRL-002",
       "OG-WRL-008",
-      "OG-WRL-016"
+      "OG-WRL-016",
+      "OG-WRL-007",
+      "OG-WRL-012",
+      "OG-WRL-014",
+      "IO-WRL-003"
     ],
     "costUsd": null,
     "costNote": "Contact vendor for exam fees",
@@ -6719,7 +6885,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "IO-WRL-007"
     ],
     "costUsd": null,
     "costNote": "Contact Pearson VUE for exam fees",
@@ -6751,7 +6918,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "IO-WRL-001"
     ],
     "costUsd": 999,
     "costNote": null,
@@ -6936,7 +7104,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-007"
     ],
     "costUsd": null,
     "costNote": "Contact vendor for exam fees",
@@ -7064,7 +7233,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "PD-WRL-006"
     ],
     "costUsd": 399,
     "costNote": null,
@@ -7336,7 +7506,9 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-006",
+      "OG-WRL-013"
     ],
     "costUsd": 999,
     "costNote": null,
@@ -7367,7 +7539,8 @@
     "level": "Intermediate",
     "niceWorkRoleIds": [
       "IO-WRL-005",
-      "DD-WRL-001"
+      "DD-WRL-001",
+      "OG-WRL-007"
     ],
     "costUsd": 295,
     "costNote": null,
@@ -7395,7 +7568,9 @@
     "level": "Intermediate",
     "niceWorkRoleIds": [
       "IO-WRL-005",
-      "DD-WRL-001"
+      "DD-WRL-001",
+      "OG-WRL-006",
+      "OG-WRL-013"
     ],
     "costUsd": 395,
     "costNote": null,
@@ -7456,7 +7631,8 @@
     "niceWorkRoleIds": [
       "OG-WRL-002",
       "OG-WRL-008",
-      "OG-WRL-016"
+      "OG-WRL-016",
+      "OG-WRL-014"
     ],
     "costUsd": 440,
     "costNote": null,
@@ -7486,7 +7662,9 @@
     "niceWorkRoleIds": [
       "OG-WRL-002",
       "OG-WRL-008",
-      "OG-WRL-016"
+      "OG-WRL-016",
+      "OG-WRL-014",
+      "IO-WRL-003"
     ],
     "costUsd": 1495,
     "costNote": null,
@@ -7516,7 +7694,9 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-007",
+      "OG-WRL-014"
     ],
     "costUsd": null,
     "costNote": "Training mandatory; contact ATP for price",
@@ -7548,7 +7728,8 @@
     "niceWorkRoleIds": [
       "OG-WRL-002",
       "OG-WRL-008",
-      "OG-WRL-016"
+      "OG-WRL-016",
+      "OG-WRL-014"
     ],
     "costUsd": 1999,
     "costNote": null,
@@ -7578,7 +7759,10 @@
     "niceWorkRoleIds": [
       "OG-WRL-002",
       "OG-WRL-008",
-      "OG-WRL-016"
+      "OG-WRL-016",
+      "OG-WRL-006",
+      "OG-WRL-013",
+      "OG-WRL-014"
     ],
     "costUsd": 550,
     "costNote": null,
@@ -7608,7 +7792,10 @@
     "niceWorkRoleIds": [
       "OG-WRL-002",
       "OG-WRL-008",
-      "OG-WRL-016"
+      "OG-WRL-016",
+      "OG-WRL-009",
+      "OG-WRL-012",
+      "IO-WRL-003"
     ],
     "costUsd": null,
     "costNote": "Contact APMG or ATO",
@@ -7639,7 +7826,10 @@
     "niceWorkRoleIds": [
       "OG-WRL-002",
       "OG-WRL-008",
-      "OG-WRL-016"
+      "OG-WRL-016",
+      "OG-WRL-012",
+      "OG-WRL-014",
+      "IO-WRL-003"
     ],
     "costUsd": 550,
     "costNote": null,
@@ -7669,7 +7859,10 @@
     "niceWorkRoleIds": [
       "OG-WRL-002",
       "OG-WRL-008",
-      "OG-WRL-016"
+      "OG-WRL-016",
+      "OG-WRL-012",
+      "OG-WRL-014",
+      "IO-WRL-003"
     ],
     "costUsd": null,
     "costNote": "Included with training ($1,495+)",
@@ -7793,7 +7986,8 @@
     "niceWorkRoleIds": [
       "IN-WRL-002",
       "PD-WRL-002",
-      "IN-WRL-001"
+      "IN-WRL-001",
+      "OG-WRL-013"
     ],
     "costUsd": 650,
     "costNote": null,
@@ -7829,7 +8023,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "PD-WRL-006"
     ],
     "costUsd": null,
     "costNote": "Contact vendor; bundled with training",
@@ -7951,7 +8146,8 @@
     "level": "Intermediate",
     "niceWorkRoleIds": [
       "PD-WRL-007",
-      "DD-WRL-007"
+      "DD-WRL-007",
+      "OG-WRL-012"
     ],
     "costUsd": 550,
     "costNote": null,
@@ -8044,7 +8240,8 @@
     "level": "Intermediate",
     "niceWorkRoleIds": [
       "OG-WRL-001",
-      "IO-WRL-004"
+      "IO-WRL-004",
+      "IO-WRL-007"
     ],
     "costUsd": 180,
     "costNote": null,
@@ -8163,7 +8360,9 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-009",
+      "IO-WRL-003"
     ],
     "costUsd": null,
     "costNote": "Contact vendor or ATP",
@@ -8224,7 +8423,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "IO-WRL-001"
     ],
     "costUsd": 125,
     "costNote": null,
@@ -8256,7 +8456,8 @@
     "niceWorkRoleIds": [
       "OG-WRL-002",
       "OG-WRL-008",
-      "OG-WRL-016"
+      "OG-WRL-016",
+      "DD-WRL-002"
     ],
     "costUsd": null,
     "costNote": "Contact BCS",
@@ -8286,7 +8487,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-006"
     ],
     "costUsd": null,
     "costNote": "Training $1,650+; contact ecfirst",
@@ -8318,7 +8520,9 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-010",
+      "OG-WRL-011"
     ],
     "costUsd": null,
     "costNote": "Contact GAQM",
@@ -8350,7 +8554,10 @@
     "niceWorkRoleIds": [
       "OG-WRL-002",
       "OG-WRL-008",
-      "OG-WRL-016"
+      "OG-WRL-016",
+      "OG-WRL-007",
+      "OG-WRL-010",
+      "OG-WRL-014"
     ],
     "costUsd": 550,
     "costNote": null,
@@ -8380,7 +8587,9 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-009",
+      "IO-WRL-003"
     ],
     "costUsd": null,
     "costNote": "Contact TÜV/Certipedia",
@@ -8473,7 +8682,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-012"
     ],
     "costUsd": 900,
     "costNote": null,
@@ -8505,7 +8715,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-012"
     ],
     "costUsd": null,
     "costNote": "Contact TÜV/Certipedia",
@@ -8538,7 +8749,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-011"
     ],
     "costUsd": 300,
     "costNote": null,
@@ -8675,7 +8887,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "IO-WRL-001"
     ],
     "costUsd": 999,
     "costNote": null,
@@ -8707,7 +8920,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "PD-WRL-006"
     ],
     "costUsd": 550,
     "costNote": null,
@@ -8738,7 +8952,8 @@
     "level": "Intermediate",
     "niceWorkRoleIds": [
       "PD-WRL-007",
-      "DD-WRL-007"
+      "DD-WRL-007",
+      "PD-WRL-006"
     ],
     "costUsd": 999,
     "costNote": null,
@@ -8766,7 +8981,8 @@
     "level": "Intermediate",
     "niceWorkRoleIds": [
       "PD-WRL-007",
-      "DD-WRL-007"
+      "DD-WRL-007",
+      "OG-WRL-012"
     ],
     "costUsd": 399,
     "costNote": null,
@@ -8855,7 +9071,8 @@
     "level": "Intermediate",
     "niceWorkRoleIds": [
       "PD-WRL-007",
-      "DD-WRL-007"
+      "DD-WRL-007",
+      "OG-WRL-012"
     ],
     "costUsd": 1749,
     "costNote": null,
@@ -8884,7 +9101,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "PD-WRL-006"
     ],
     "costUsd": null,
     "costNote": "Included with boot camp",
@@ -8916,7 +9134,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "IO-WRL-007"
     ],
     "costUsd": 350,
     "costNote": null,
@@ -9010,7 +9229,8 @@
     "niceWorkRoleIds": [
       "IO-WRL-004",
       "IO-WRL-005",
-      "DD-WRL-001"
+      "DD-WRL-001",
+      "OG-WRL-013"
     ],
     "costUsd": 165,
     "costNote": null,
@@ -9041,7 +9261,9 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-010",
+      "OG-WRL-014"
     ],
     "costUsd": 699,
     "costNote": null,
@@ -9137,7 +9359,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "DD-WRL-002"
     ],
     "costUsd": 400,
     "costNote": null,
@@ -9263,7 +9486,9 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-014",
+      "IO-WRL-003"
     ],
     "costUsd": 200,
     "costNote": null,
@@ -9295,7 +9520,8 @@
     "niceWorkRoleIds": [
       "OG-WRL-002",
       "OG-WRL-008",
-      "OG-WRL-016"
+      "OG-WRL-016",
+      "OG-WRL-007"
     ],
     "costUsd": 900,
     "costNote": null,
@@ -9417,7 +9643,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-014"
     ],
     "costUsd": null,
     "costNote": "Contact GAQM",
@@ -9449,7 +9676,9 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-012",
+      "OG-WRL-014"
     ],
     "costUsd": null,
     "costNote": "Contact TÜV/Certipedia",
@@ -9482,7 +9711,8 @@
     "niceWorkRoleIds": [
       "OG-WRL-002",
       "OG-WRL-008",
-      "OG-WRL-016"
+      "OG-WRL-016",
+      "OG-WRL-007"
     ],
     "costUsd": 595,
     "costNote": null,
@@ -9512,7 +9742,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-012"
     ],
     "costUsd": 1270,
     "costNote": null,
@@ -9743,7 +9974,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "PD-WRL-006"
     ],
     "costUsd": null,
     "costNote": "Contact EC-Council",
@@ -9899,7 +10131,8 @@
     "level": "Intermediate",
     "niceWorkRoleIds": [
       "PD-WRL-007",
-      "DD-WRL-007"
+      "DD-WRL-007",
+      "OG-WRL-012"
     ],
     "costUsd": 345,
     "costNote": null,
@@ -9929,7 +10162,8 @@
     "level": "Intermediate",
     "niceWorkRoleIds": [
       "OG-WRL-001",
-      "IO-WRL-004"
+      "IO-WRL-004",
+      "OG-WRL-013"
     ],
     "costUsd": 360,
     "costNote": null,
@@ -10018,7 +10252,8 @@
     "niceWorkRoleIds": [
       "IO-WRL-004",
       "IO-WRL-005",
-      "DD-WRL-001"
+      "DD-WRL-001",
+      "OG-WRL-006"
     ],
     "costUsd": 200,
     "costNote": null,
@@ -10049,7 +10284,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-014"
     ],
     "costUsd": null,
     "costNote": "Contact vendor or ATP",
@@ -10109,7 +10345,9 @@
     "category": "*nix",
     "level": "Intermediate",
     "niceWorkRoleIds": [
-      "IO-WRL-005"
+      "IO-WRL-005",
+      "OG-WRL-013",
+      "IO-WRL-007"
     ],
     "costUsd": null,
     "costNote": "Contact SUSE",
@@ -10168,7 +10406,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-014"
     ],
     "costUsd": null,
     "costNote": "Contact vendor",
@@ -10200,7 +10439,8 @@
     "level": "Intermediate",
     "niceWorkRoleIds": [
       "DD-WRL-001",
-      "DD-WRL-006"
+      "DD-WRL-006",
+      "DD-WRL-002"
     ],
     "costUsd": 2799,
     "costNote": null,
@@ -10229,7 +10469,10 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-010",
+      "OG-WRL-011",
+      "DD-WRL-002"
     ],
     "costUsd": null,
     "costNote": "Contact GAQM",
@@ -10261,7 +10504,9 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-010",
+      "OG-WRL-011"
     ],
     "costUsd": null,
     "costNote": "Contact GAQM",
@@ -10293,7 +10538,9 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-007",
+      "OG-WRL-014"
     ],
     "costUsd": null,
     "costNote": "Contact ISMI",
@@ -10325,7 +10572,9 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-006",
+      "OG-WRL-013"
     ],
     "costUsd": 1650,
     "costNote": null,
@@ -10357,7 +10606,9 @@
     "niceWorkRoleIds": [
       "OG-WRL-002",
       "OG-WRL-008",
-      "OG-WRL-016"
+      "OG-WRL-016",
+      "OG-WRL-014",
+      "IO-WRL-003"
     ],
     "costUsd": 390,
     "costNote": null,
@@ -10388,7 +10639,9 @@
     "niceWorkRoleIds": [
       "OG-WRL-002",
       "OG-WRL-008",
-      "OG-WRL-016"
+      "OG-WRL-016",
+      "OG-WRL-014",
+      "IO-WRL-003"
     ],
     "costUsd": 400,
     "costNote": null,
@@ -10418,7 +10671,9 @@
     "niceWorkRoleIds": [
       "DD-WRL-003",
       "DD-WRL-004",
-      "DD-WRL-005"
+      "DD-WRL-005",
+      "OG-WRL-011",
+      "OG-WRL-014"
     ],
     "costUsd": null,
     "costNote": "Contact Mile2",
@@ -10448,7 +10703,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-012"
     ],
     "costUsd": 900,
     "costNote": null,
@@ -10480,7 +10736,8 @@
     "niceWorkRoleIds": [
       "OG-WRL-002",
       "OG-WRL-008",
-      "OG-WRL-016"
+      "OG-WRL-016",
+      "OG-WRL-012"
     ],
     "costUsd": null,
     "costNote": "Contact OCEG",
@@ -10510,7 +10767,11 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-003",
+      "OG-WRL-004",
+      "OG-WRL-005",
+      "OG-WRL-014"
     ],
     "costUsd": null,
     "costNote": "Contact GAQM",
@@ -10638,7 +10899,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-013"
     ],
     "costUsd": null,
     "costNote": "Contact ASIS",
@@ -10670,7 +10932,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "PD-WRL-006"
     ],
     "costUsd": null,
     "costNote": "Contact MITRE Engenuity",
@@ -10702,7 +10965,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "PD-WRL-006"
     ],
     "costUsd": null,
     "costNote": "Contact MITRE Engenuity",
@@ -10761,7 +11025,8 @@
     "level": "Intermediate",
     "niceWorkRoleIds": [
       "PD-WRL-007",
-      "DD-WRL-007"
+      "DD-WRL-007",
+      "OG-WRL-012"
     ],
     "costUsd": 315,
     "costNote": null,
@@ -10970,7 +11235,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-012"
     ],
     "costUsd": 539,
     "costNote": null,
@@ -11002,7 +11268,8 @@
     "level": "Intermediate",
     "niceWorkRoleIds": [
       "IO-WRL-005",
-      "DD-WRL-001"
+      "DD-WRL-001",
+      "OG-WRL-013"
     ],
     "costUsd": 165,
     "costNote": null,
@@ -11120,7 +11387,8 @@
     "category": "*nix",
     "level": "Intermediate",
     "niceWorkRoleIds": [
-      "IO-WRL-005"
+      "IO-WRL-005",
+      "OG-WRL-013"
     ],
     "costUsd": 400,
     "costNote": null,
@@ -11221,7 +11489,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "IO-WRL-001"
     ],
     "costUsd": 699,
     "costNote": null,
@@ -11285,7 +11554,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "PD-WRL-006"
     ],
     "costUsd": 550,
     "costNote": null,
@@ -11579,7 +11849,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-005"
     ],
     "costUsd": null,
     "costNote": "Minimal or included with course; contact vendor",
@@ -11639,7 +11910,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "IO-WRL-007"
     ],
     "costUsd": 348,
     "costNote": null,
@@ -11671,7 +11943,8 @@
     "niceWorkRoleIds": [
       "DD-WRL-003",
       "DD-WRL-004",
-      "DD-WRL-005"
+      "DD-WRL-005",
+      "OG-WRL-011"
     ],
     "costUsd": 899,
     "costNote": null,
@@ -11762,7 +12035,8 @@
     "category": "*nix",
     "level": "Intermediate",
     "niceWorkRoleIds": [
-      "IO-WRL-005"
+      "IO-WRL-005",
+      "IO-WRL-007"
     ],
     "costUsd": 390,
     "costNote": null,
@@ -11851,7 +12125,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-014"
     ],
     "costUsd": 249,
     "costNote": null,
@@ -11990,7 +12265,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "DD-WRL-002"
     ],
     "costUsd": 699,
     "costNote": null,
@@ -12022,7 +12298,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "PD-WRL-006"
     ],
     "costUsd": 350,
     "costNote": null,
@@ -12144,7 +12421,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-013"
     ],
     "costUsd": 300,
     "costNote": null,
@@ -12426,7 +12704,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-006"
     ],
     "costUsd": 550,
     "costNote": null,
@@ -12561,7 +12840,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "IO-WRL-001"
     ],
     "costUsd": 410,
     "costNote": null,
@@ -12593,7 +12873,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "PD-WRL-006"
     ],
     "costUsd": 2500,
     "costNote": null,
@@ -12657,7 +12938,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "IO-WRL-007"
     ],
     "costUsd": 369,
     "costNote": null,
@@ -12812,7 +13094,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "IO-WRL-007"
     ],
     "costUsd": null,
     "costNote": "Included with Apple training; contact vendor",
@@ -12907,7 +13190,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-006"
     ],
     "costUsd": null,
     "costNote": "Contact vendor or training partner",
@@ -12938,7 +13222,9 @@
     "level": "Beginner",
     "niceWorkRoleIds": [
       "DD-WRL-001",
-      "DD-WRL-006"
+      "DD-WRL-006",
+      "OG-WRL-015",
+      "DD-WRL-002"
     ],
     "costUsd": 405,
     "costNote": null,
@@ -12967,7 +13253,9 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-010",
+      "OG-WRL-011"
     ],
     "costUsd": 150,
     "costNote": null,
@@ -13031,7 +13319,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-015"
     ],
     "costUsd": null,
     "costNote": "Bundled with training; contact vendor",
@@ -13063,7 +13352,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-014"
     ],
     "costUsd": 400,
     "costNote": null,
@@ -13157,7 +13447,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-007"
     ],
     "costUsd": 699,
     "costNote": null,
@@ -13316,7 +13607,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-012"
     ],
     "costUsd": 539,
     "costNote": null,
@@ -13381,7 +13673,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "IO-WRL-001"
     ],
     "costUsd": null,
     "costNote": "Contact vendor for course pricing",
@@ -13504,7 +13797,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-012"
     ],
     "costUsd": 107,
     "costNote": null,
@@ -13600,7 +13894,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-013"
     ],
     "costUsd": null,
     "costNote": "Contact vendor",
@@ -13632,7 +13927,10 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-004",
+      "OG-WRL-005",
+      "IO-WRL-007"
     ],
     "costUsd": 530,
     "costNote": null,
@@ -13729,7 +14027,8 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-006"
     ],
     "costUsd": null,
     "costNote": "Contact vendor",
@@ -13824,7 +14123,9 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-010",
+      "OG-WRL-011"
     ],
     "costUsd": 200,
     "costNote": null,
@@ -13856,7 +14157,9 @@
     "niceWorkRoleIds": [
       "OG-WRL-002",
       "OG-WRL-008",
-      "OG-WRL-016"
+      "OG-WRL-016",
+      "OG-WRL-009",
+      "IO-WRL-003"
     ],
     "costUsd": null,
     "costNote": "Contact vendor",
@@ -13887,7 +14190,9 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-007",
+      "OG-WRL-014"
     ],
     "costUsd": null,
     "costNote": "Contact vendor",
@@ -13919,7 +14224,8 @@
     "niceWorkRoleIds": [
       "OG-WRL-002",
       "OG-WRL-008",
-      "OG-WRL-016"
+      "OG-WRL-016",
+      "OG-WRL-014"
     ],
     "costUsd": 594,
     "costNote": null,
@@ -14302,7 +14608,10 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-009",
+      "IO-WRL-003",
+      "IO-WRL-007"
     ],
     "costUsd": 669,
     "costNote": null,
@@ -14335,7 +14644,9 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-010",
+      "OG-WRL-011"
     ],
     "costUsd": 369,
     "costNote": null,
@@ -14399,7 +14710,9 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-014",
+      "IO-WRL-003"
     ],
     "costUsd": 200,
     "costNote": null,
@@ -14431,7 +14744,9 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-014",
+      "IO-WRL-003"
     ],
     "costUsd": 200,
     "costNote": null,
@@ -14525,7 +14840,9 @@
     "niceWorkRoleIds": [
       "PD-WRL-001",
       "PD-WRL-003",
-      "IO-WRL-006"
+      "IO-WRL-006",
+      "OG-WRL-014",
+      "IO-WRL-003"
     ],
     "costUsd": null,
     "costNote": "Bundled with training; contact vendor",
@@ -14651,7 +14968,9 @@
     "url": "https://www.crowdstrike.com/en-us/crowdstrike-university/crowdstrike-falcon-certification-program/",
     "category": "Security Operations",
     "level": "Intermediate",
-    "niceWorkRoleIds": [],
+    "niceWorkRoleIds": [
+      "OG-WRL-013"
+    ],
     "costUsd": 250,
     "costNote": null,
     "dod8140": false,
@@ -14704,7 +15023,10 @@
     "url": "https://www.crowdstrike.com/en-us/crowdstrike-university/crowdstrike-falcon-certification-program/",
     "category": "Security Operations",
     "level": "Expert",
-    "niceWorkRoleIds": [],
+    "niceWorkRoleIds": [
+      "PD-WRL-005",
+      "PD-WRL-006"
+    ],
     "costUsd": 250,
     "costNote": null,
     "dod8140": false,
@@ -14732,7 +15054,9 @@
     "url": "https://www.crowdstrike.com/en-us/crowdstrike-university/crowdstrike-falcon-certification-program/",
     "category": "Security Operations",
     "level": "Intermediate",
-    "niceWorkRoleIds": [],
+    "niceWorkRoleIds": [
+      "IO-WRL-001"
+    ],
     "costUsd": 250,
     "costNote": null,
     "dod8140": false,
@@ -14760,7 +15084,10 @@
     "url": "https://www.crowdstrike.com/en-us/crowdstrike-university/crowdstrike-falcon-certification-program/",
     "category": "Security Architecture and Engineering",
     "level": "Expert",
-    "niceWorkRoleIds": [],
+    "niceWorkRoleIds": [
+      "DD-WRL-002",
+      "IO-WRL-001"
+    ],
     "costUsd": 250,
     "costNote": null,
     "dod8140": false,
@@ -14785,7 +15112,9 @@
     "url": "https://www.crowdstrike.com/en-us/crowdstrike-university/crowdstrike-falcon-certification-program/",
     "category": "IAM",
     "level": "Intermediate",
-    "niceWorkRoleIds": [],
+    "niceWorkRoleIds": [
+      "PD-WRL-006"
+    ],
     "costUsd": 250,
     "costNote": null,
     "dod8140": false,
@@ -14921,7 +15250,9 @@
     "url": "https://tryhackme.com/certifications",
     "category": "Penetration Testing",
     "level": "Beginner",
-    "niceWorkRoleIds": [],
+    "niceWorkRoleIds": [
+      "OG-WRL-007"
+    ],
     "costUsd": 297,
     "costNote": null,
     "dod8140": false,
@@ -14999,7 +15330,9 @@
     "url": "https://academy.hackthebox.com/preview/certifications/htb-certified-active-directory-pentesting-expert",
     "category": "Penetration Testing",
     "level": "Expert",
-    "niceWorkRoleIds": [],
+    "niceWorkRoleIds": [
+      "OG-WRL-007"
+    ],
     "costUsd": 1260,
     "costNote": null,
     "dod8140": false,
@@ -15130,7 +15463,9 @@
     "url": "https://education.oracle.com/oracle-cloud-infrastructure-2025-certified-security-professional",
     "category": "Security Operations",
     "level": "Expert",
-    "niceWorkRoleIds": [],
+    "niceWorkRoleIds": [
+      "OG-WRL-006"
+    ],
     "costUsd": 245,
     "costNote": null,
     "dod8140": false,
@@ -15183,7 +15518,9 @@
     "url": "https://education.oracle.com/oracle-certification-path/pPillar_640",
     "category": "Cloud/SysOps",
     "level": "Expert",
-    "niceWorkRoleIds": [],
+    "niceWorkRoleIds": [
+      "OG-WRL-011"
+    ],
     "costUsd": 245,
     "costNote": null,
     "dod8140": false,
@@ -15290,7 +15627,9 @@
     "url": "https://cloud.google.com/certification/cloud-devops-engineer",
     "category": "Cloud/SysOps",
     "level": "Expert",
-    "niceWorkRoleIds": [],
+    "niceWorkRoleIds": [
+      "OG-WRL-011"
+    ],
     "costUsd": 200,
     "costNote": null,
     "dod8140": false,
@@ -15693,7 +16032,9 @@
     "url": "https://www.nvidia.com/en-us/learn/certification/ai-operations-professional/",
     "category": "Cloud/SysOps",
     "level": "Expert",
-    "niceWorkRoleIds": [],
+    "niceWorkRoleIds": [
+      "IO-WRL-007"
+    ],
     "costUsd": 400,
     "costNote": null,
     "dod8140": false,
@@ -15952,7 +16293,9 @@
     "url": "https://www.ibm.com/training/certification/ibm-certified-analyst-security-qradar-siem-v75-C9005200",
     "category": "Security Operations",
     "level": "Intermediate",
-    "niceWorkRoleIds": [],
+    "niceWorkRoleIds": [
+      "IO-WRL-001"
+    ],
     "costUsd": 200,
     "costNote": null,
     "dod8140": false,
@@ -15980,7 +16323,10 @@
     "url": "https://www.ibm.com/training/certification/ibm-certified-administrator-security-qradar-siem-v75-C9004600",
     "category": "Security Operations",
     "level": "Intermediate",
-    "niceWorkRoleIds": [],
+    "niceWorkRoleIds": [
+      "OG-WRL-013",
+      "IO-WRL-001"
+    ],
     "costUsd": 200,
     "costNote": null,
     "dod8140": false,
@@ -16008,7 +16354,10 @@
     "url": "https://www.ibm.com/training/certification/ibm-certified-administrator-security-guardium-v11x-C9002402",
     "category": "GRC",
     "level": "Intermediate",
-    "niceWorkRoleIds": [],
+    "niceWorkRoleIds": [
+      "OG-WRL-006",
+      "OG-WRL-013"
+    ],
     "costUsd": 200,
     "costNote": null,
     "dod8140": false,
@@ -16034,7 +16383,10 @@
     "url": "https://www.ibm.com/training/certification/ibm-certified-guardium-data-protection-v12x-administrator-professional-C9008300",
     "category": "GRC",
     "level": "Expert",
-    "niceWorkRoleIds": [],
+    "niceWorkRoleIds": [
+      "OG-WRL-006",
+      "OG-WRL-013"
+    ],
     "costUsd": 200,
     "costNote": null,
     "dod8140": false,
@@ -16085,7 +16437,9 @@
     "url": "https://www.ibm.com/training/security",
     "category": "IAM",
     "level": "Intermediate",
-    "niceWorkRoleIds": [],
+    "niceWorkRoleIds": [
+      "OG-WRL-013"
+    ],
     "costUsd": 200,
     "costNote": null,
     "dod8140": false,
@@ -16138,7 +16492,9 @@
     "url": "https://www.paloaltonetworks.com/services/education/certification",
     "category": "Security Operations",
     "level": "Beginner",
-    "niceWorkRoleIds": [],
+    "niceWorkRoleIds": [
+      "OG-WRL-015"
+    ],
     "costUsd": 150,
     "costNote": null,
     "dod8140": false,
@@ -16166,7 +16522,9 @@
     "url": "https://www.paloaltonetworks.com/services/education/certification",
     "category": "Communication and Network Security",
     "level": "Intermediate",
-    "niceWorkRoleIds": [],
+    "niceWorkRoleIds": [
+      "OG-WRL-015"
+    ],
     "costUsd": 200,
     "costNote": null,
     "dod8140": false,
@@ -16266,7 +16624,9 @@
     "url": "https://www.paloaltonetworks.com/services/education/certification",
     "category": "Communication and Network Security",
     "level": "Intermediate",
-    "niceWorkRoleIds": [],
+    "niceWorkRoleIds": [
+      "IO-WRL-007"
+    ],
     "costUsd": 200,
     "costNote": null,
     "dod8140": false,
@@ -16291,7 +16651,9 @@
     "url": "https://www.paloaltonetworks.com/services/education/certification",
     "category": "Security Architecture and Engineering",
     "level": "Expert",
-    "niceWorkRoleIds": [],
+    "niceWorkRoleIds": [
+      "DD-WRL-002"
+    ],
     "costUsd": 250,
     "costNote": null,
     "dod8140": false,
@@ -16316,7 +16678,9 @@
     "url": "https://www.paloaltonetworks.com/services/education/certification",
     "category": "Security Operations",
     "level": "Intermediate",
-    "niceWorkRoleIds": [],
+    "niceWorkRoleIds": [
+      "OG-WRL-015"
+    ],
     "costUsd": 200,
     "costNote": null,
     "dod8140": false,
@@ -16484,7 +16848,9 @@
     "url": "https://www.paloaltonetworks.com/services/education/certification",
     "category": "Security Architecture and Engineering",
     "level": "Expert",
-    "niceWorkRoleIds": [],
+    "niceWorkRoleIds": [
+      "DD-WRL-002"
+    ],
     "costUsd": 250,
     "costNote": null,
     "dod8140": false,
@@ -16590,7 +16956,9 @@
     "url": "https://aws.amazon.com/certification/certified-machine-learning-engineer-associate/",
     "category": "Cloud/SysOps",
     "level": "Intermediate",
-    "niceWorkRoleIds": [],
+    "niceWorkRoleIds": [
+      "IO-WRL-001"
+    ],
     "costUsd": 150,
     "costNote": null,
     "dod8140": false,
@@ -16670,7 +17038,9 @@
     "url": "https://aws.amazon.com/certification/certified-devops-engineer-professional/",
     "category": "Cloud/SysOps",
     "level": "Expert",
-    "niceWorkRoleIds": [],
+    "niceWorkRoleIds": [
+      "OG-WRL-011"
+    ],
     "costUsd": 300,
     "costNote": null,
     "dod8140": false,
@@ -16722,7 +17092,9 @@
     "url": "https://aws.amazon.com/certification/certified-database-specialty/",
     "category": "Cloud/SysOps",
     "level": "Expert",
-    "niceWorkRoleIds": [],
+    "niceWorkRoleIds": [
+      "IO-WRL-002"
+    ],
     "costUsd": 300,
     "costNote": null,
     "dod8140": false,
@@ -16749,7 +17121,10 @@
     "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/sc-401",
     "category": "GRC",
     "level": "Intermediate",
-    "niceWorkRoleIds": [],
+    "niceWorkRoleIds": [
+      "OG-WRL-013",
+      "PD-WRL-005"
+    ],
     "costUsd": 165,
     "costNote": null,
     "dod8140": false,
@@ -16775,7 +17150,9 @@
     "url": "https://learn.microsoft.com/en-us/credentials/certifications/m365-administrator-expert/",
     "category": "Security Operations",
     "level": "Expert",
-    "niceWorkRoleIds": [],
+    "niceWorkRoleIds": [
+      "OG-WRL-013"
+    ],
     "costUsd": 165,
     "costNote": null,
     "dod8140": false,
@@ -16883,7 +17260,9 @@
     "url": "https://www.cisco.com/site/us/en/learn/training-certifications/certifications/support-technician/index.html",
     "category": "Security Operations",
     "level": "Beginner",
-    "niceWorkRoleIds": [],
+    "niceWorkRoleIds": [
+      "IO-WRL-007"
+    ],
     "costUsd": 125,
     "costNote": null,
     "dod8140": false,
@@ -16911,7 +17290,9 @@
     "url": "https://www.cisco.com/site/us/en/learn/training-certifications/certifications/support-technician/index.html",
     "category": "Communication and Network Security",
     "level": "Beginner",
-    "niceWorkRoleIds": [],
+    "niceWorkRoleIds": [
+      "IO-WRL-007"
+    ],
     "costUsd": 125,
     "costNote": null,
     "dod8140": false,
@@ -17071,7 +17452,9 @@
     "url": "https://www.cisco.com/site/us/en/learn/training-certifications/exams/sdsi.html",
     "category": "Security Architecture and Engineering",
     "level": "Intermediate",
-    "niceWorkRoleIds": [],
+    "niceWorkRoleIds": [
+      "DD-WRL-002"
+    ],
     "costUsd": 300,
     "costNote": null,
     "dod8140": false,
@@ -17096,7 +17479,9 @@
     "url": "https://www.splunk.com/en_us/training/certification-track/splunk-core-certified-user.html",
     "category": "Security Operations",
     "level": "Beginner",
-    "niceWorkRoleIds": [],
+    "niceWorkRoleIds": [
+      "OG-WRL-007"
+    ],
     "costUsd": 130,
     "costNote": null,
     "dod8140": false,
@@ -17152,7 +17537,9 @@
     "url": "https://www.splunk.com/en_us/training/certification-track/splunk-core-certified-advanced-power-user.html",
     "category": "Security Operations",
     "level": "Expert",
-    "niceWorkRoleIds": [],
+    "niceWorkRoleIds": [
+      "OG-WRL-007"
+    ],
     "costUsd": 130,
     "costNote": null,
     "dod8140": false,
@@ -17235,7 +17622,9 @@
     "url": "https://www.splunk.com/en_us/training/certification-track/splunk-enterprise-certified-architect.html",
     "category": "Security Architecture and Engineering",
     "level": "Expert",
-    "niceWorkRoleIds": [],
+    "niceWorkRoleIds": [
+      "DD-WRL-002"
+    ],
     "costUsd": 130,
     "costNote": null,
     "dod8140": false,
@@ -17260,7 +17649,9 @@
     "url": "https://www.splunk.com/en_us/training/certification-track/splunk-core-certified-consultant.html",
     "category": "Security Architecture and Engineering",
     "level": "Expert",
-    "niceWorkRoleIds": [],
+    "niceWorkRoleIds": [
+      "DD-WRL-002"
+    ],
     "costUsd": 130,
     "costNote": null,
     "dod8140": false,
@@ -17368,7 +17759,9 @@
     "url": "https://www.splunk.com/en_us/training/certification-track/splunk-certified-cybersecurity-defense-engineer.html",
     "category": "Security Operations",
     "level": "Expert",
-    "niceWorkRoleIds": [],
+    "niceWorkRoleIds": [
+      "PD-WRL-006"
+    ],
     "costUsd": 130,
     "costNote": null,
     "dod8140": false,
@@ -17558,7 +17951,9 @@
     "url": "https://databricks.com/learn/certification/machine-learning-professional",
     "category": "Cloud/SysOps",
     "level": "Expert",
-    "niceWorkRoleIds": [],
+    "niceWorkRoleIds": [
+      "IO-WRL-001"
+    ],
     "costUsd": 200,
     "costNote": null,
     "dod8140": false,
@@ -17585,7 +17980,9 @@
     "url": "https://databricks.com/learn/certification/platform-administrator-accreditation",
     "category": "Cloud/SysOps",
     "level": "Intermediate",
-    "niceWorkRoleIds": [],
+    "niceWorkRoleIds": [
+      "OG-WRL-013"
+    ],
     "costUsd": null,
     "costNote": "Free for Databricks customers/partners",
     "dod8140": false,
@@ -17691,7 +18088,9 @@
     "url": "https://learn.snowflake.com/en/certifications/snowpro-advanced-architect",
     "category": "Security Architecture and Engineering",
     "level": "Expert",
-    "niceWorkRoleIds": [],
+    "niceWorkRoleIds": [
+      "DD-WRL-002"
+    ],
     "costUsd": 375,
     "costNote": null,
     "dod8140": false,
@@ -17716,7 +18115,9 @@
     "url": "https://learn.snowflake.com/en/certifications/snowpro-advanced-administrator-c02/",
     "category": "Cloud/SysOps",
     "level": "Expert",
-    "niceWorkRoleIds": [],
+    "niceWorkRoleIds": [
+      "OG-WRL-013"
+    ],
     "costUsd": 375,
     "costNote": null,
     "dod8140": false,
@@ -17743,7 +18144,9 @@
     "url": "https://education.f5.com/learning-path/view/24",
     "category": "Communication and Network Security",
     "level": "Beginner",
-    "niceWorkRoleIds": [],
+    "niceWorkRoleIds": [
+      "OG-WRL-013"
+    ],
     "costUsd": 150,
     "costNote": null,
     "dod8140": false,
@@ -18007,7 +18410,9 @@
     "url": "https://cloudsecurityalliance.org/education/cczt",
     "category": "Security Architecture and Engineering",
     "level": "Intermediate",
-    "niceWorkRoleIds": [],
+    "niceWorkRoleIds": [
+      "DD-WRL-002"
+    ],
     "costUsd": 175,
     "costNote": null,
     "dod8140": false,
@@ -18064,7 +18469,8 @@
     "level": "Beginner",
     "niceWorkRoleIds": [
       "DD-WRL-001",
-      "DD-WRL-006"
+      "DD-WRL-006",
+      "DD-WRL-002"
     ],
     "costUsd": 0,
     "costNote": "Free (Z-Badge)",
@@ -18092,7 +18498,8 @@
     "level": "Intermediate",
     "niceWorkRoleIds": [
       "IO-WRL-004",
-      "IO-WRL-005"
+      "IO-WRL-005",
+      "OG-WRL-013"
     ],
     "costUsd": null,
     "costNote": "Contact Zscaler",
@@ -18152,7 +18559,8 @@
     "level": "Intermediate",
     "niceWorkRoleIds": [
       "IO-WRL-004",
-      "IO-WRL-005"
+      "IO-WRL-005",
+      "OG-WRL-013"
     ],
     "costUsd": null,
     "costNote": "Contact Zscaler",
@@ -18272,7 +18680,8 @@
     "level": "Intermediate",
     "niceWorkRoleIds": [
       "IO-WRL-005",
-      "DD-WRL-001"
+      "DD-WRL-001",
+      "OG-WRL-013"
     ],
     "costUsd": 250,
     "costNote": null,
@@ -18471,7 +18880,8 @@
     "level": "Expert",
     "niceWorkRoleIds": [
       "DD-WRL-001",
-      "DD-WRL-006"
+      "DD-WRL-006",
+      "DD-WRL-002"
     ],
     "costUsd": 400,
     "costNote": null,
@@ -18616,7 +19026,8 @@
     "level": "Intermediate",
     "niceWorkRoleIds": [
       "OG-WRL-008",
-      "OG-WRL-002"
+      "OG-WRL-002",
+      "OG-WRL-006"
     ],
     "costUsd": 0,
     "costNote": "Free for customers/partners",
@@ -18645,7 +19056,10 @@
     "level": "Intermediate",
     "niceWorkRoleIds": [
       "OG-WRL-008",
-      "OG-WRL-002"
+      "OG-WRL-002",
+      "OG-WRL-006",
+      "OG-WRL-007",
+      "OG-WRL-010"
     ],
     "costUsd": 0,
     "costNote": "Free for customers/partners",
@@ -18760,7 +19174,8 @@
     "level": "Intermediate",
     "niceWorkRoleIds": [
       "IO-WRL-005",
-      "DD-WRL-001"
+      "DD-WRL-001",
+      "OG-WRL-013"
     ],
     "costUsd": 400,
     "costNote": null,
@@ -18840,7 +19255,9 @@
     "niceWorkRoleIds": [
       "OG-WRL-002",
       "OG-WRL-008",
-      "OG-WRL-016"
+      "OG-WRL-016",
+      "OG-WRL-014",
+      "DD-WRL-002"
     ],
     "costUsd": 599,
     "costNote": null,
@@ -18871,7 +19288,8 @@
     "niceWorkRoleIds": [
       "OG-WRL-002",
       "OG-WRL-008",
-      "OG-WRL-016"
+      "OG-WRL-016",
+      "OG-WRL-014"
     ],
     "costUsd": 599,
     "costNote": null,
@@ -18902,7 +19320,9 @@
     "niceWorkRoleIds": [
       "OG-WRL-002",
       "OG-WRL-008",
-      "OG-WRL-016"
+      "OG-WRL-016",
+      "OG-WRL-007",
+      "OG-WRL-014"
     ],
     "costUsd": 599,
     "costNote": null,
