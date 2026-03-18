@@ -247,6 +247,7 @@ body {
 .stat-amber .stat-number { color: var(--neon-amber); }
 .stat-teal .stat-number { color: var(--neon-teal); }
 .stat-green .stat-number { color: #4ade80; }
+.stat-purple .stat-number { color: #a78bfa; }
 
 .stat-badge .stat-label {
   font-size: 0.75rem;
@@ -1721,6 +1722,358 @@ a.pf-item-name:hover {
   opacity: 0.5;
 }
 
+/* ── CWE Database ── */
+
+.cwe-header {
+  text-align: center;
+  padding: var(--space-4) 0 var(--space-2);
+}
+
+.cwe-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  font-stretch: 110%;
+  background: linear-gradient(135deg, var(--text) 30%, var(--neon-amber) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: var(--space-1);
+}
+
+.cwe-subtitle {
+  color: var(--text-muted);
+  font-size: 0.875rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  flex-wrap: wrap;
+}
+
+.cwe-version-badge {
+  display: inline-flex;
+  padding: 1px var(--space-2);
+  font-size: 0.6875rem;
+  font-weight: 600;
+  background: var(--neon-amber-subtle);
+  color: var(--neon-amber);
+  border: 1px solid rgba(245, 166, 35, 0.25);
+  border-radius: var(--radius-sm);
+}
+
+.cwe-controls {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  margin-bottom: var(--space-4);
+  padding: var(--space-4);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--elevation-1);
+}
+
+.cwe-search {
+  position: relative;
+}
+
+.cwe-search input {
+  width: 100%;
+  padding: var(--space-3) var(--space-4) var(--space-3) 40px;
+  font-family: inherit;
+  font-size: 0.9375rem;
+  background: var(--bg);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  outline: none;
+  transition: border-color 200ms, box-shadow 200ms;
+}
+
+.cwe-search input:focus {
+  border-color: var(--neon-amber);
+  box-shadow: 0 0 0 3px var(--neon-amber-subtle), 0 0 20px rgba(245, 166, 35, 0.08);
+}
+
+.cwe-search input::placeholder {
+  color: var(--text-subtle);
+}
+
+.cwe-filters {
+  display: flex;
+  gap: var(--space-4);
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.cwe-count {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  margin-bottom: var(--space-4);
+}
+
+.cwe-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.cwe-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 3px solid transparent;
+  border-radius: var(--radius-md);
+  padding: var(--space-4);
+  box-shadow: var(--elevation-1);
+  transition: box-shadow 200ms, border-color 200ms, transform 200ms;
+}
+
+.cwe-card:hover {
+  box-shadow: var(--elevation-2);
+  border-left-color: var(--neon-amber);
+  transform: translateY(-1px);
+}
+
+.cwe-card-header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  margin-bottom: var(--space-2);
+  flex-wrap: wrap;
+}
+
+.cwe-card-id {
+  font-size: 0.875rem;
+  font-weight: 700;
+  font-stretch: 105%;
+  color: var(--neon-amber);
+  text-decoration: none;
+  transition: color 150ms;
+  white-space: nowrap;
+}
+
+.cwe-card-id:hover {
+  color: #ffc04d;
+  text-decoration: underline;
+}
+
+.cwe-card-badges {
+  display: flex;
+  gap: var(--space-1);
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.cwe-abstraction-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 1px var(--space-2);
+  font-size: 0.5625rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  border-radius: var(--radius-sm);
+  white-space: nowrap;
+}
+
+.cwe-abs-pillar {
+  background: rgba(167, 139, 250, 0.15);
+  color: #a78bfa;
+  border: 1px solid rgba(167, 139, 250, 0.25);
+}
+
+.cwe-abs-class {
+  background: rgba(88, 166, 255, 0.12);
+  color: var(--neon-blue);
+  border: 1px solid rgba(88, 166, 255, 0.2);
+}
+
+.cwe-abs-base {
+  background: rgba(0, 229, 199, 0.1);
+  color: var(--neon-teal);
+  border: 1px solid rgba(0, 229, 199, 0.2);
+}
+
+.cwe-abs-variant {
+  background: rgba(226, 232, 244, 0.08);
+  color: var(--text-muted);
+  border: 1px solid var(--border);
+}
+
+.cwe-abs-compound {
+  background: rgba(255, 107, 107, 0.12);
+  color: #ff6b6b;
+  border: 1px solid rgba(255, 107, 107, 0.2);
+}
+
+.cwe-status-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 1px var(--space-2);
+  font-size: 0.5625rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  border-radius: var(--radius-sm);
+  white-space: nowrap;
+}
+
+.cwe-status-draft {
+  background: rgba(245, 166, 35, 0.1);
+  color: var(--neon-amber);
+  border: 1px solid rgba(245, 166, 35, 0.2);
+}
+
+.cwe-status-deprecated {
+  background: rgba(255, 107, 107, 0.1);
+  color: #ff6b6b;
+  border: 1px solid rgba(255, 107, 107, 0.2);
+}
+
+.cwe-status-incomplete {
+  background: rgba(226, 232, 244, 0.08);
+  color: var(--text-subtle);
+  border: 1px solid var(--border);
+}
+
+.cwe-likelihood-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 1px var(--space-2);
+  font-size: 0.5625rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  border-radius: var(--radius-sm);
+  white-space: nowrap;
+}
+
+.cwe-likelihood-high {
+  background: rgba(255, 45, 123, 0.12);
+  color: var(--neon-pink);
+  border: 1px solid rgba(255, 45, 123, 0.2);
+}
+
+.cwe-likelihood-medium {
+  background: var(--neon-amber-subtle);
+  color: var(--neon-amber);
+  border: 1px solid rgba(245, 166, 35, 0.2);
+}
+
+.cwe-likelihood-low {
+  background: rgba(0, 229, 199, 0.1);
+  color: var(--neon-teal);
+  border: 1px solid rgba(0, 229, 199, 0.2);
+}
+
+.cwe-card-name {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--text);
+  margin: 0 0 var(--space-2) 0;
+  line-height: 1.4;
+}
+
+.cwe-card-desc {
+  font-size: 0.8125rem;
+  color: var(--text-muted);
+  line-height: 1.55;
+  margin-bottom: var(--space-2);
+}
+
+.cwe-expand-btn {
+  padding: var(--space-1) var(--space-3);
+  font-family: inherit;
+  font-size: 0.6875rem;
+  font-weight: 500;
+  background: transparent;
+  color: var(--neon-amber);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: all 200ms;
+  margin-bottom: var(--space-2);
+}
+
+.cwe-expand-btn:hover {
+  background: var(--neon-amber-subtle);
+  border-color: var(--neon-amber);
+}
+
+.cwe-card-meta {
+  display: flex;
+  gap: var(--space-2);
+  flex-wrap: wrap;
+  margin-top: var(--space-2);
+}
+
+.cwe-meta-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  padding: 2px var(--space-2);
+  font-size: 0.6875rem;
+  color: var(--text-subtle);
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  white-space: nowrap;
+}
+
+.cwe-meta-owasp {
+  background: rgba(255, 45, 123, 0.08);
+  color: var(--neon-pink);
+  border-color: rgba(255, 45, 123, 0.15);
+  font-weight: 600;
+  font-size: 0.5625rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.cwe-load-more {
+  display: flex;
+  justify-content: center;
+  margin-top: var(--space-5);
+}
+
+.cwe-load-more-btn {
+  padding: var(--space-3) var(--space-6);
+  font-family: inherit;
+  font-size: 0.875rem;
+  font-weight: 600;
+  background: linear-gradient(135deg, var(--neon-amber), var(--neon-pink));
+  color: #fff;
+  border: none;
+  border-radius: var(--radius-pill);
+  cursor: pointer;
+  transition: opacity 200ms, box-shadow 200ms, transform 200ms;
+  box-shadow: 0 0 20px rgba(245, 166, 35, 0.2), 0 0 20px rgba(255, 45, 123, 0.2);
+}
+
+.cwe-load-more-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 0 30px rgba(245, 166, 35, 0.3), 0 0 30px rgba(255, 45, 123, 0.3);
+}
+
+.cwe-loading {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.cwe-empty {
+  text-align: center;
+  padding: var(--space-8) var(--space-4);
+  color: var(--text-muted);
+}
+
+.cwe-empty .empty-icon {
+  font-size: 2.5rem;
+  display: block;
+  margin-bottom: var(--space-3);
+  opacity: 0.5;
+}
+
 /* ── Empty state ── */
 
 .empty-state {
@@ -1874,6 +2227,11 @@ a.pf-item-name:hover {
     flex-direction: column;
     gap: var(--space-3);
   }
+
+  .cwe-filters {
+    flex-direction: column;
+    gap: var(--space-3);
+  }
 }
 
 @media (max-width: 640px) {
@@ -1932,6 +2290,22 @@ a.pf-item-name:hover {
 
   .glossary-term-card {
     padding: var(--space-3);
+  }
+
+  .cwe-controls {
+    padding: var(--space-3);
+  }
+
+  .cwe-card {
+    padding: var(--space-3);
+  }
+
+  .cwe-card-name {
+    font-size: 0.8125rem;
+  }
+
+  .cwe-card-desc {
+    font-size: 0.75rem;
   }
 }
 

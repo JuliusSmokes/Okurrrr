@@ -28,6 +28,7 @@
   var statCategoriesEl = document.getElementById('stat-categories');
   var statRolesEl = document.getElementById('stat-roles');
   var statFreeEl = document.getElementById('stat-free');
+  var statCweEl = document.getElementById('stat-cwe');
 
   var controlsCertsEl = document.getElementById('controls-certs');
   var controlsResEl = document.getElementById('controls-resources');
@@ -66,6 +67,25 @@
   var buildPathBtn = document.getElementById('build-path-btn');
   var pfNiceRoleEl = document.getElementById('pf-nice-role');
   var pfCisspDomainEl = document.getElementById('pf-cissp-domain');
+
+  var cwePanelEl = document.getElementById('cwe-panel');
+  var cweListEl = document.getElementById('cwe-list');
+  var cweSearchInput = document.getElementById('cwe-search-input');
+  var cweCountEl = document.getElementById('cwe-count');
+  var cweLoadingEl = document.getElementById('cwe-loading');
+  var cweFilterAbstractionEl = document.getElementById('cwe-filter-abstraction');
+  var cweFilterStatusEl = document.getElementById('cwe-filter-status');
+  var cweFilterLikelihoodEl = document.getElementById('cwe-filter-likelihood');
+  var tabCountCweEl = document.getElementById('tab-count-cwe');
+  var cweVersionBadgeEl = document.getElementById('cwe-version-badge');
+
+  var cweData = null;
+  var filteredCwe = [];
+  var cwePage = 1;
+  var CWE_PAGE_SIZE = 50;
+  var cweLoaded = false;
+  var cweSearchTerm = '';
+  var cweDebounceTimer = null;
 
   var glossaryPanelEl = document.getElementById('glossary-panel');
   var glossaryListEl = document.getElementById('glossary-list');
@@ -1364,6 +1384,156 @@
     glossaryListEl.appendChild(frag);
   }
 
+  /* ── CWE Database ── */
+
+  function loadCWE() {
+    if (cweLoaded) return Promise.resolve();
+    if (cweLoadingEl) cweLoadingEl.style.display = '';
+    if (cweListEl) cweListEl.innerHTML = '';
+
+    return loadJSON('data/cwe-data.json').then(function (data) {
+      cweData = data.weaknesses || [];
+      cweLoaded = true;
+      if (cweLoadingEl) cweLoadingEl.style.display = 'none';
+      if (tabCountCweEl) tabCountCweEl.textContent = cweData.length;
+      if (cweVersionBadgeEl) {
+        cweVersionBadgeEl.textContent = 'v' + (data.version || '') + ' (' + (data.date || '') + ')';
+      }
+      if (statCweEl) statCweEl.textContent = cweData.length;
+      filterCWE();
+    }).catch(function (err) {
+      if (cweLoadingEl) cweLoadingEl.style.display = 'none';
+      if (cweListEl) {
+        cweListEl.innerHTML =
+          '<div class="cwe-empty">' +
+            '<span class="empty-icon">&#x26A0;</span>' +
+            '<p>Could not load CWE data.<br>' + escapeHtml(err.message) + '</p>' +
+          '</div>';
+      }
+    });
+  }
+
+  function filterCWE() {
+    if (!cweData) return;
+    var term = cweSearchTerm.toLowerCase();
+    var abstraction = cweFilterAbstractionEl ? cweFilterAbstractionEl.value : '';
+    var status = cweFilterStatusEl ? cweFilterStatusEl.value : '';
+    var likelihood = cweFilterLikelihoodEl ? cweFilterLikelihoodEl.value : '';
+
+    filteredCwe = cweData.filter(function (w) {
+      if (abstraction && w.abstraction !== abstraction) return false;
+      if (status && w.status !== status) return false;
+      if (likelihood && w.likelihood !== likelihood) return false;
+      if (term) {
+        var idMatch = ('cwe-' + w.id).indexOf(term) !== -1 || w.id === term;
+        var nameMatch = w.name.toLowerCase().indexOf(term) !== -1;
+        var descMatch = w.description.toLowerCase().indexOf(term) !== -1;
+        if (!idMatch && !nameMatch && !descMatch) return false;
+      }
+      return true;
+    });
+
+    cwePage = 1;
+    renderCWE();
+  }
+
+  function cweAbstractionClass(abstraction) {
+    var map = { Pillar: 'cwe-abs-pillar', Class: 'cwe-abs-class', Base: 'cwe-abs-base', Variant: 'cwe-abs-variant', Compound: 'cwe-abs-compound' };
+    return map[abstraction] || 'cwe-abs-base';
+  }
+
+  function renderCWE() {
+    if (!cweListEl) return;
+    var total = filteredCwe.length;
+    var limit = cwePage * CWE_PAGE_SIZE;
+    var visible = filteredCwe.slice(0, limit);
+
+    if (cweCountEl) {
+      cweCountEl.textContent = total + ' weakness' + (total === 1 ? '' : 'es') +
+        (cweSearchTerm ? ' matching "' + cweSearchTerm + '"' : '');
+    }
+
+    if (visible.length === 0) {
+      cweListEl.innerHTML =
+        '<div class="cwe-empty">' +
+          '<span class="empty-icon">&#x1F50D;</span>' +
+          '<p>No weaknesses match your filters.<br>Try broadening your search or changing filters.</p>' +
+        '</div>';
+      return;
+    }
+
+    var frag = document.createDocumentFragment();
+    visible.forEach(function (w) {
+      var card = document.createElement('div');
+      card.className = 'cwe-card';
+
+      var html = '<div class="cwe-card-header">';
+      html += '<a class="cwe-card-id" href="https://cwe.mitre.org/data/definitions/' + escapeHtml(w.id) + '.html" target="_blank" rel="noopener">CWE-' + escapeHtml(w.id) + '</a>';
+      html += '<div class="cwe-card-badges">';
+      html += '<span class="cwe-abstraction-badge ' + cweAbstractionClass(w.abstraction) + '">' + escapeHtml(w.abstraction) + '</span>';
+      if (w.status && w.status !== 'Stable') {
+        html += '<span class="cwe-status-badge cwe-status-' + w.status.toLowerCase() + '">' + escapeHtml(w.status) + '</span>';
+      }
+      if (w.likelihood) {
+        html += '<span class="cwe-likelihood-badge cwe-likelihood-' + w.likelihood.toLowerCase() + '">' + escapeHtml(w.likelihood) + ' Likelihood</span>';
+      }
+      html += '</div>';
+      html += '</div>';
+
+      html += '<h4 class="cwe-card-name">' + escapeHtml(w.name) + '</h4>';
+
+      if (w.description) {
+        var desc = w.description;
+        var truncated = desc.length > 280;
+        var descId = 'cwe-desc-' + w.id;
+        html += '<p class="cwe-card-desc" id="' + descId + '">';
+        html += truncated ? escapeHtml(desc.substring(0, 280)) + '...' : escapeHtml(desc);
+        html += '</p>';
+        if (truncated) {
+          html += '<button type="button" class="cwe-expand-btn" data-full="' + escapeHtml(desc) + '" data-target="' + descId + '">Show more</button>';
+        }
+      }
+
+      var metaItems = [];
+      if (w.platforms && w.platforms.length > 0) {
+        metaItems.push('<span class="cwe-meta-item" title="Applicable Platforms">&#x1F4BB; ' + escapeHtml(w.platforms.slice(0, 4).join(', ')) + (w.platforms.length > 4 ? ' +' + (w.platforms.length - 4) : '') + '</span>');
+      }
+      if (w.consequences && w.consequences.length > 0) {
+        var scopes = [];
+        w.consequences.forEach(function (c) { if (scopes.indexOf(c.scope) === -1) scopes.push(c.scope); });
+        metaItems.push('<span class="cwe-meta-item" title="Impact Scopes">&#x26A1; ' + escapeHtml(scopes.slice(0, 3).join(', ')) + (scopes.length > 3 ? ' +' + (scopes.length - 3) : '') + '</span>');
+      }
+      if (w.mitigationCount > 0) {
+        metaItems.push('<span class="cwe-meta-item" title="Mitigations">&#x1F6E1; ' + w.mitigationCount + ' mitigation' + (w.mitigationCount === 1 ? '' : 's') + '</span>');
+      }
+      if (w.capecIds && w.capecIds.length > 0) {
+        metaItems.push('<span class="cwe-meta-item" title="Related Attack Patterns (CAPEC)">&#x1F3AF; ' + w.capecIds.length + ' CAPEC</span>');
+      }
+      if (w.cveExamples && w.cveExamples.length > 0) {
+        metaItems.push('<span class="cwe-meta-item" title="CVE Examples">&#x1F41B; ' + w.cveExamples.length + ' CVE' + (w.cveExamples.length === 1 ? '' : 's') + '</span>');
+      }
+      if (w.owasp && w.owasp.length > 0) {
+        metaItems.push('<span class="cwe-meta-item cwe-meta-owasp" title="OWASP Mapping">OWASP</span>');
+      }
+      if (metaItems.length > 0) {
+        html += '<div class="cwe-card-meta">' + metaItems.join('') + '</div>';
+      }
+
+      card.innerHTML = html;
+      frag.appendChild(card);
+    });
+
+    if (limit < total) {
+      var loadMoreDiv = document.createElement('div');
+      loadMoreDiv.className = 'cwe-load-more';
+      loadMoreDiv.innerHTML = '<button type="button" class="cwe-load-more-btn">Load more (' + (total - limit) + ' remaining)</button>';
+      frag.appendChild(loadMoreDiv);
+    }
+
+    cweListEl.innerHTML = '';
+    cweListEl.appendChild(frag);
+  }
+
   /* ── Tab switching ── */
 
   function switchTab(tab) {
@@ -1380,6 +1550,7 @@
     if (controlsDefconEl) controlsDefconEl.style.display = 'none';
     if (pathfinderPanelEl) pathfinderPanelEl.style.display = 'none';
     if (glossaryPanelEl) glossaryPanelEl.style.display = 'none';
+    if (cwePanelEl) cwePanelEl.style.display = 'none';
     chipSectionEl.style.display = 'none';
 
     var searchBarEl = document.querySelector('.search-bar');
@@ -1421,11 +1592,18 @@
       if (resultCountLine) resultCountLine.style.display = 'none';
       resultsEl.style.display = 'none';
       if (!glossaryLoaded) loadGlossary();
+    } else if (tab === 'cwe') {
+      if (cwePanelEl) cwePanelEl.style.display = '';
+      if (searchBarEl) searchBarEl.style.display = 'none';
+      if (activeFiltersBar) activeFiltersBar.style.display = 'none';
+      if (resultCountLine) resultCountLine.style.display = 'none';
+      resultsEl.style.display = 'none';
+      if (!cweLoaded) loadCWE();
     }
 
     searchInput.value = '';
     searchTerm = '';
-    if (tab !== 'pathfinder' && tab !== 'glossary') runFilterAndRender();
+    if (tab !== 'pathfinder' && tab !== 'glossary' && tab !== 'cwe') runFilterAndRender();
   }
 
   /* ── Hero stats ── */
@@ -1444,6 +1622,8 @@
     if (tabCountDefconEl) tabCountDefconEl.textContent = defconMedia.length;
     if (tabCountPathfinderEl) tabCountPathfinderEl.textContent = careerPaths.length;
     if (tabCountGlossaryEl) tabCountGlossaryEl.textContent = glossaryLoaded ? glossaryTerms.length : '--';
+    if (tabCountCweEl) tabCountCweEl.textContent = cweLoaded ? cweData.length : '--';
+    if (statCweEl) statCweEl.textContent = cweLoaded ? cweData.length : '--';
   }
 
   /* ── Master filter + render ── */
@@ -1465,6 +1645,8 @@
     } else if (activeTab === 'pathfinder') {
       activeFiltersEl.innerHTML = '';
     } else if (activeTab === 'glossary') {
+      activeFiltersEl.innerHTML = '';
+    } else if (activeTab === 'cwe') {
       activeFiltersEl.innerHTML = '';
     }
   }
@@ -1684,6 +1866,47 @@
           if (!isOpen) {
             var count = extraDefs.querySelectorAll('.glossary-term-def').length;
             showMoreBtn.textContent = 'Show ' + count + ' more definition' + (count === 1 ? '' : 's');
+          }
+        }
+        return;
+      }
+    });
+  }
+
+  if (cweSearchInput) {
+    cweSearchInput.addEventListener('input', function () {
+      clearTimeout(cweDebounceTimer);
+      cweDebounceTimer = setTimeout(function () {
+        cweSearchTerm = cweSearchInput.value.trim();
+        filterCWE();
+      }, 250);
+    });
+  }
+
+  if (cweFilterAbstractionEl) cweFilterAbstractionEl.addEventListener('change', filterCWE);
+  if (cweFilterStatusEl) cweFilterStatusEl.addEventListener('change', filterCWE);
+  if (cweFilterLikelihoodEl) cweFilterLikelihoodEl.addEventListener('change', filterCWE);
+
+  if (cweListEl) {
+    cweListEl.addEventListener('click', function (e) {
+      var loadMoreBtn = e.target.closest('.cwe-load-more-btn');
+      if (loadMoreBtn) {
+        cwePage++;
+        renderCWE();
+        return;
+      }
+      var expandBtn = e.target.closest('.cwe-expand-btn');
+      if (expandBtn) {
+        var targetId = expandBtn.dataset.target;
+        var descEl = document.getElementById(targetId);
+        if (descEl) {
+          var isExpanded = expandBtn.classList.toggle('expanded');
+          if (isExpanded) {
+            descEl.textContent = expandBtn.dataset.full;
+            expandBtn.textContent = 'Show less';
+          } else {
+            descEl.textContent = expandBtn.dataset.full.substring(0, 280) + '...';
+            expandBtn.textContent = 'Show more';
           }
         }
         return;

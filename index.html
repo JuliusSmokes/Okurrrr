@@ -35,7 +35,7 @@
   <section class="hero">
     <div class="hero-inner">
       <h2>Okurrrr &mdash; Set your Objectives. Certifications are the Key Results.</h2>
-      <p>Your cybersecurity career roadmap. Browse 627 certifications, 759 curated free resources, the complete DEF CON Media archive, and the NIST Glossary with 10,000+ terms. Build a personalized Career Pathfinder with progress tracking. Aligned with NIST NICE Framework, NIST CSF, NIST RMF, NIST AI RMF, OWASP, DoD 8140, and the CISSP CBK.</p>
+      <p>Your cybersecurity career roadmap. Browse 627 certifications, 759 curated free resources, the complete DEF CON Media archive, the NIST Glossary with 10,000+ terms, and the full MITRE CWE database of 944 software weaknesses. Build a personalized Career Pathfinder with progress tracking. Aligned with NIST NICE Framework, NIST CSF, NIST RMF, NIST AI RMF, OWASP, DoD 8140, and the CISSP CBK.</p>
       <div class="hero-stats">
         <div class="stat-badge stat-pink">
           <span class="stat-number" id="stat-certs">--</span>
@@ -52,6 +52,10 @@
         <div class="stat-badge stat-green">
           <span class="stat-number" id="stat-free">--</span>
           <span class="stat-label">Free Resources</span>
+        </div>
+        <div class="stat-badge stat-purple">
+          <span class="stat-number" id="stat-cwe">--</span>
+          <span class="stat-label">CWE Weaknesses</span>
         </div>
       </div>
     </div>
@@ -74,6 +78,9 @@
       </button>
       <button class="tab" role="tab" aria-selected="false" data-tab="glossary">
         NIST Glossary <span class="tab-count" id="tab-count-glossary">--</span>
+      </button>
+      <button class="tab" role="tab" aria-selected="false" data-tab="cwe">
+        CWE Database <span class="tab-count" id="tab-count-cwe">--</span>
       </button>
     </div>
 
@@ -249,6 +256,61 @@
       <div class="glossary-count" id="glossary-count"></div>
       <div class="glossary-list" id="glossary-list"></div>
       <div class="glossary-loading" id="glossary-loading" style="display:none">
+        <div class="skeleton-card"><div class="skeleton-line"></div><div class="skeleton-line"></div><div class="skeleton-line"></div></div>
+        <div class="skeleton-card"><div class="skeleton-line"></div><div class="skeleton-line"></div><div class="skeleton-line"></div></div>
+        <div class="skeleton-card"><div class="skeleton-line"></div><div class="skeleton-line"></div><div class="skeleton-line"></div></div>
+      </div>
+    </section>
+
+    <section id="cwe-panel" style="display:none">
+      <div class="cwe-header">
+        <h3 class="cwe-title">MITRE Common Weakness Enumeration</h3>
+        <p class="cwe-subtitle">
+          <span id="cwe-version-badge" class="cwe-version-badge"></span>
+          <span id="cwe-subtitle-text">Software &amp; hardware weakness catalog from MITRE</span>
+        </p>
+      </div>
+      <div class="cwe-controls">
+        <div class="cwe-search">
+          <span class="search-icon" aria-hidden="true">&#x1F50D;</span>
+          <input type="text" id="cwe-search-input" placeholder="Search by CWE ID, name, or keyword..." autocomplete="off">
+        </div>
+        <div class="cwe-filters">
+          <div class="control-group">
+            <label for="cwe-filter-abstraction">Abstraction</label>
+            <select id="cwe-filter-abstraction">
+              <option value="">All Levels</option>
+              <option value="Pillar">Pillar</option>
+              <option value="Class">Class</option>
+              <option value="Base">Base</option>
+              <option value="Variant">Variant</option>
+              <option value="Compound">Compound</option>
+            </select>
+          </div>
+          <div class="control-group">
+            <label for="cwe-filter-status">Status</label>
+            <select id="cwe-filter-status">
+              <option value="">All</option>
+              <option value="Stable">Stable</option>
+              <option value="Draft">Draft</option>
+              <option value="Deprecated">Deprecated</option>
+              <option value="Incomplete">Incomplete</option>
+            </select>
+          </div>
+          <div class="control-group">
+            <label for="cwe-filter-likelihood">Likelihood</label>
+            <select id="cwe-filter-likelihood">
+              <option value="">All</option>
+              <option value="High">High</option>
+              <option value="Medium">Medium</option>
+              <option value="Low">Low</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="cwe-count" id="cwe-count"></div>
+      <div class="cwe-list" id="cwe-list"></div>
+      <div class="cwe-loading" id="cwe-loading" style="display:none">
         <div class="skeleton-card"><div class="skeleton-line"></div><div class="skeleton-line"></div><div class="skeleton-line"></div></div>
         <div class="skeleton-card"><div class="skeleton-line"></div><div class="skeleton-line"></div><div class="skeleton-line"></div></div>
         <div class="skeleton-card"><div class="skeleton-line"></div><div class="skeleton-line"></div><div class="skeleton-line"></div></div>
