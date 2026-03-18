@@ -19,7 +19,7 @@
     "description": "Simulate adversary attacks to identify vulnerabilities in networks, systems, and applications.",
     "niceRoleIds": ["PD-WRL-007", "PD-WRL-001"],
     "cisspDomains": ["cissp-d4", "cissp-d6"],
-    "resourceCategories": ["Red Team and Adversary Simulation", "CTFs", "Labs", "Threat Modeling"],
+    "resourceCategories": ["Red Team and Adversary Simulation", "CTFs", "Labs", "Threat Modeling", "Computer Science Foundations"],
     "toolCategories": ["Command Shells and CLI Tools", "Red Team and Adversary Simulation", "OS and Command Line"],
     "phases": [
       { "name": "Foundation", "level": "Beginner", "skills": ["Networking and protocol analysis", "Linux/Windows administration", "Web application fundamentals", "Scripting (Python, Bash)"] },
@@ -33,7 +33,7 @@
     "description": "Secure cloud infrastructure, workloads, and services across AWS, Azure, and GCP.",
     "niceRoleIds": ["DD-WRL-001", "DD-WRL-004", "IO-WRL-005"],
     "cisspDomains": ["cissp-d3", "cissp-d4", "cissp-d5"],
-    "resourceCategories": ["Cloud Security", "DevSecOps Tools", "Hardening and Compliance", "Threat Modeling"],
+    "resourceCategories": ["Cloud Security", "DevSecOps Tools", "Hardening and Compliance", "Threat Modeling", "Software Architecture"],
     "toolCategories": ["DevSecOps Tools", "Command Shells and CLI Tools"],
     "phases": [
       { "name": "Foundation", "level": "Beginner", "skills": ["Cloud fundamentals (AWS/Azure/GCP)", "Networking in the cloud (VPCs, subnets, security groups)", "IAM policies and least privilege", "Linux/CLI basics"] },
@@ -75,7 +75,7 @@
     "description": "Integrate security into the software development lifecycle through testing, code review, and secure design.",
     "niceRoleIds": ["DD-WRL-003", "DD-WRL-005"],
     "cisspDomains": ["cissp-d8", "cissp-d6"],
-    "resourceCategories": ["Courses", "Hardening and Compliance", "DevSecOps Tools", "Threat Modeling"],
+    "resourceCategories": ["Courses", "Hardening and Compliance", "DevSecOps Tools", "Threat Modeling", "Computer Science Foundations", "Software Architecture"],
     "toolCategories": ["DevSecOps Tools", "Command Shells and CLI Tools", "Hardening and Compliance"],
     "phases": [
       { "name": "Foundation", "level": "Beginner", "skills": ["Programming fundamentals (Python, JavaScript, Java)", "OWASP Top 10 vulnerabilities", "HTTP protocol and web architecture", "Version control (Git)"] },
@@ -89,7 +89,7 @@
     "description": "Design and oversee enterprise security architecture aligned with business objectives.",
     "niceRoleIds": ["DD-WRL-001", "DD-WRL-002", "OG-WRL-007"],
     "cisspDomains": ["cissp-d1", "cissp-d3", "cissp-d4", "cissp-d5"],
-    "resourceCategories": ["Hardening and Compliance", "Cloud Security", "Governance and Service Management", "Threat Modeling", "Healthcare Cybersecurity"],
+    "resourceCategories": ["Hardening and Compliance", "Cloud Security", "Governance and Service Management", "Threat Modeling", "Healthcare Cybersecurity", "Software Architecture"],
     "toolCategories": ["DevSecOps Tools", "Hardening and Compliance"],
     "phases": [
       { "name": "Foundation", "level": "Beginner", "skills": ["Networking fundamentals (OSI, TCP/IP)", "Operating system security", "Cryptography basics", "Security frameworks (NIST, ISO)"] },
@@ -131,7 +131,7 @@
     "description": "Design and implement identity governance, authentication, and authorization systems.",
     "niceRoleIds": ["IO-WRL-005", "IO-WRL-006"],
     "cisspDomains": ["cissp-d5"],
-    "resourceCategories": ["Auth and Identity", "Cloud Security"],
+    "resourceCategories": ["Auth and Identity", "Cloud Security", "Privacy and Legal"],
     "toolCategories": ["Auth and Identity", "DevSecOps Tools"],
     "phases": [
       { "name": "Foundation", "level": "Beginner", "skills": ["Active Directory administration", "LDAP and directory services", "Authentication protocols (Kerberos, SAML, OAuth)", "Role-based access control (RBAC)"] },
@@ -145,7 +145,7 @@
     "description": "Embed security into CI/CD pipelines and development workflows.",
     "niceRoleIds": ["DD-WRL-003", "DD-WRL-004", "IO-WRL-005"],
     "cisspDomains": ["cissp-d8", "cissp-d3"],
-    "resourceCategories": ["DevSecOps Tools", "Courses", "Threat Modeling"],
+    "resourceCategories": ["DevSecOps Tools", "Courses", "Threat Modeling", "Software Architecture", "Computer Science Foundations"],
     "toolCategories": ["DevSecOps Tools", "Command Shells and CLI Tools"],
     "phases": [
       { "name": "Foundation", "level": "Beginner", "skills": ["Git, CI/CD basics (GitHub Actions, Jenkins)", "Linux administration", "Container fundamentals (Docker)", "Programming (Python, Go, or Bash)"] },
@@ -159,7 +159,7 @@
     "description": "Reverse engineer and analyze malicious software to understand attacker capabilities.",
     "niceRoleIds": ["PD-WRL-002", "PD-WRL-006"],
     "cisspDomains": ["cissp-d7", "cissp-d8"],
-    "resourceCategories": ["Blue Team and DFIR", "Research"],
+    "resourceCategories": ["Blue Team and DFIR", "Research", "Computer Science Foundations"],
     "toolCategories": ["Blue Team and DFIR", "Command Shells and CLI Tools", "OS and Command Line"],
     "phases": [
       { "name": "Foundation", "level": "Beginner", "skills": ["Operating system internals (Windows, Linux)", "Assembly language basics (x86/x64)", "C programming fundamentals", "File format analysis (PE, ELF)"] },
@@ -201,7 +201,7 @@
     "description": "Design, implement, and maintain secure network architectures and defenses.",
     "niceRoleIds": ["IO-WRL-004", "PD-WRL-004"],
     "cisspDomains": ["cissp-d4"],
-    "resourceCategories": ["Networking and Infrastructure", "Hardening and Compliance"],
+    "resourceCategories": ["Networking and Infrastructure", "Hardening and Compliance", "Computer Science Foundations"],
     "toolCategories": ["Command Shells and CLI Tools", "Networking and Infrastructure"],
     "phases": [
       { "name": "Foundation", "level": "Beginner", "skills": ["TCP/IP and OSI model mastery", "Routing and switching (VLANs, subnets, ACLs)", "Firewall administration basics", "Wireless networking fundamentals"] },
@@ -229,7 +229,7 @@
     "description": "Investigate cybercrimes, collect digital evidence, and support law enforcement proceedings.",
     "niceRoleIds": ["IN-WRL-001", "IN-WRL-002"],
     "cisspDomains": ["cissp-d7"],
-    "resourceCategories": ["Blue Team and DFIR", "Research"],
+    "resourceCategories": ["Blue Team and DFIR", "Research", "Privacy and Legal"],
     "toolCategories": ["Blue Team and DFIR", "Command Shells and CLI Tools", "OS and Command Line"],
     "phases": [
       { "name": "Foundation", "level": "Beginner", "skills": ["Digital evidence fundamentals", "Chain of custody procedures", "Legal frameworks for cybercrime", "Basic forensic imaging and analysis"] },
@@ -243,7 +243,7 @@
     "description": "Secure operational technology and industrial control systems in critical infrastructure.",
     "niceRoleIds": ["DD-WRL-009", "DD-WRL-004"],
     "cisspDomains": ["cissp-d3", "cissp-d4"],
-    "resourceCategories": ["Hardening and Compliance", "Networking and Infrastructure", "Healthcare Cybersecurity"],
+    "resourceCategories": ["Hardening and Compliance", "Networking and Infrastructure", "Healthcare Cybersecurity", "Labs"],
     "toolCategories": ["Command Shells and CLI Tools", "Hardening and Compliance"],
     "phases": [
       { "name": "Foundation", "level": "Beginner", "skills": ["OT/ICS fundamentals (PLCs, HMIs, SCADA)", "Purdue Model for industrial networks", "ICS-specific protocols (Modbus, DNP3, OPC)", "IT/OT convergence challenges"] },
