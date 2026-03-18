@@ -13325,5 +13325,924 @@
     ],
     "relatedCertIds": [],
     "id": "fr582"
+  },
+  {
+    "name": "Refactoring.Guru: Design Patterns",
+    "provider": "Refactoring.Guru",
+    "url": "https://refactoring.guru/design-patterns",
+    "description": "Free visual catalog of all 23 Gang of Four design patterns with code examples in multiple languages. Includes SOLID principles, refactoring techniques, and anti-pattern identification.",
+    "category": "Software Architecture",
+    "tags": [
+      "design patterns",
+      "GoF",
+      "SOLID",
+      "refactoring",
+      "anti-patterns"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Design and Development"
+    ],
+    "relatedCertIds": [],
+    "id": "fr583"
+  },
+  {
+    "name": "Microsoft Cloud Design Patterns",
+    "provider": "Microsoft",
+    "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/",
+    "description": "Catalog of cloud design patterns for building reliable, scalable, and secure applications. Covers Circuit Breaker, Retry, Bulkhead, Sidecar, Ambassador, and security-specific patterns like Gatekeeper and Valet Key.",
+    "category": "Software Architecture",
+    "tags": [
+      "cloud patterns",
+      "microservices",
+      "resilience",
+      "security patterns",
+      "Azure"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d3",
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Design and Development"
+    ],
+    "relatedCertIds": [],
+    "id": "fr584"
+  },
+  {
+    "name": "The Twelve-Factor App",
+    "provider": "Heroku / Adam Wiggins",
+    "url": "https://12factor.net/",
+    "description": "Methodology for building modern, portable, resilient software-as-a-service apps. Covers config externalization, dependency isolation, stateless processes, and log streaming -- foundational for secure cloud-native design.",
+    "category": "Software Architecture",
+    "tags": [
+      "twelve-factor",
+      "SaaS",
+      "cloud-native",
+      "microservices",
+      "best practices"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Design and Development"
+    ],
+    "relatedCertIds": [],
+    "id": "fr585"
+  },
+  {
+    "name": "Martin Fowler's Architecture Guide",
+    "provider": "Martin Fowler",
+    "url": "https://martinfowler.com/architecture/",
+    "description": "Free articles on software architecture including microservices, event-driven architecture, domain-driven design, continuous delivery, and the architectural trade-offs that impact security.",
+    "category": "Software Architecture",
+    "tags": [
+      "Martin Fowler",
+      "microservices",
+      "DDD",
+      "architecture",
+      "enterprise"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Design and Development"
+    ],
+    "relatedCertIds": [],
+    "id": "fr586"
+  },
+  {
+    "name": "TOGAF Standard (Open Group)",
+    "provider": "The Open Group",
+    "url": "https://pubs.opengroup.org/togaf-standard/",
+    "description": "The Open Group Architecture Framework standard overview and publicly available content. TOGAF is the most widely used enterprise architecture methodology globally, with security architecture as a core concern.",
+    "category": "Software Architecture",
+    "tags": [
+      "TOGAF",
+      "enterprise architecture",
+      "Open Group",
+      "framework",
+      "ADM"
+    ],
+    "level": "Expert",
+    "cisspDomains": [
+      "cissp-d1",
+      "cissp-d3"
+    ],
+    "niceCategories": [
+      "Oversight and Governance"
+    ],
+    "relatedCertIds": [],
+    "id": "fr587"
+  },
+  {
+    "name": "SABSA Security Architecture",
+    "provider": "SABSA Institute",
+    "url": "https://sabsa.org/",
+    "description": "Overview of the Sherwood Applied Business Security Architecture framework for developing security architectures driven by business requirements. The leading security-specific architecture methodology.",
+    "category": "Software Architecture",
+    "tags": [
+      "SABSA",
+      "security architecture",
+      "business-driven",
+      "enterprise",
+      "framework"
+    ],
+    "level": "Expert",
+    "cisspDomains": [
+      "cissp-d1",
+      "cissp-d3"
+    ],
+    "niceCategories": [
+      "Design and Development"
+    ],
+    "relatedCertIds": [],
+    "id": "fr588"
+  },
+  {
+    "name": "NIST SP 800-160 Vol. 1: Systems Security Engineering",
+    "provider": "NIST",
+    "url": "https://csrc.nist.gov/pubs/sp/800/160/v1/r1/final",
+    "description": "NIST's guide for engineering trustworthy secure systems. Integrates security into every phase of the system development lifecycle with architecture-level security design principles.",
+    "category": "Software Architecture",
+    "tags": [
+      "NIST",
+      "security engineering",
+      "architecture",
+      "SDLC",
+      "SP 800-160"
+    ],
+    "level": "Expert",
+    "cisspDomains": [
+      "cissp-d1",
+      "cissp-d3",
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Design and Development"
+    ],
+    "relatedCertIds": [],
+    "id": "fr589"
+  },
+  {
+    "name": "Mermaid: Diagrams as Code",
+    "provider": "Mermaid",
+    "url": "https://mermaid.js.org/",
+    "description": "Open-source JavaScript-based diagramming tool that renders text definitions into flowcharts, sequence diagrams, class diagrams, state diagrams, and architecture diagrams. Native in GitHub, GitLab, and Notion.",
+    "category": "DevSecOps Tools",
+    "tags": [
+      "Mermaid",
+      "diagrams",
+      "flowcharts",
+      "UML",
+      "documentation"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Design and Development"
+    ],
+    "relatedCertIds": [],
+    "id": "fr590"
+  },
+  {
+    "name": "PlantUML",
+    "provider": "PlantUML",
+    "url": "https://plantuml.com/",
+    "description": "Open-source tool for creating UML diagrams from plain text. Supports sequence, use case, class, activity, component, state, deployment, and timing diagrams for security architecture documentation.",
+    "category": "DevSecOps Tools",
+    "tags": [
+      "PlantUML",
+      "UML",
+      "diagrams",
+      "architecture",
+      "documentation"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Design and Development"
+    ],
+    "relatedCertIds": [],
+    "id": "fr591"
+  },
+  {
+    "name": "UML 2.5.1 Specification (OMG)",
+    "provider": "Object Management Group",
+    "url": "https://www.omg.org/spec/UML/2.5.1/About-UML/",
+    "description": "Official Unified Modeling Language 2.5.1 specification from OMG. Defines 14 diagram types used for system and security architecture documentation, threat modeling, and design review.",
+    "category": "Software Architecture",
+    "tags": [
+      "UML",
+      "OMG",
+      "specification",
+      "modeling",
+      "architecture"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Design and Development"
+    ],
+    "relatedCertIds": [],
+    "id": "fr592"
+  },
+  {
+    "name": "Playwright",
+    "provider": "Microsoft",
+    "url": "https://playwright.dev/",
+    "description": "Cross-browser automation framework for end-to-end testing of web applications. Used in security for automated vulnerability scanning, authentication flow testing, and regression testing of security fixes.",
+    "category": "DevSecOps Tools",
+    "tags": [
+      "Playwright",
+      "browser automation",
+      "E2E testing",
+      "Microsoft",
+      "web testing"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Design and Development"
+    ],
+    "relatedCertIds": [],
+    "id": "fr593"
+  },
+  {
+    "name": "Selenium",
+    "provider": "Selenium Project",
+    "url": "https://www.selenium.dev/",
+    "description": "Open-source browser automation suite for web application testing. WebDriver API supports security testing workflows including authentication bypass testing, session management verification, and DAST integration.",
+    "category": "DevSecOps Tools",
+    "tags": [
+      "Selenium",
+      "browser automation",
+      "web testing",
+      "WebDriver",
+      "QA"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Design and Development"
+    ],
+    "relatedCertIds": [],
+    "id": "fr594"
+  },
+  {
+    "name": "Postman API Platform",
+    "provider": "Postman",
+    "url": "https://www.postman.com/",
+    "description": "API development and testing platform with free tier. Build API test collections, automate security checks, test authentication flows, and validate API contracts. Supports CI/CD integration.",
+    "category": "DevSecOps Tools",
+    "tags": [
+      "Postman",
+      "API testing",
+      "REST",
+      "GraphQL",
+      "automation"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Design and Development"
+    ],
+    "relatedCertIds": [],
+    "id": "fr595"
+  },
+  {
+    "name": "OWASP Web Security Testing Guide (WSTG)",
+    "provider": "OWASP",
+    "url": "https://owasp.org/www-project-web-security-testing-guide/",
+    "description": "Comprehensive web application security testing methodology. Covers 91 test cases across authentication, session management, input validation, cryptography, business logic, and client-side testing.",
+    "category": "DevSecOps Tools",
+    "tags": [
+      "OWASP",
+      "WSTG",
+      "web testing",
+      "methodology",
+      "test cases"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d6",
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Design and Development"
+    ],
+    "relatedCertIds": [],
+    "id": "fr596"
+  },
+  {
+    "name": "Nessus Essentials (Free)",
+    "provider": "Tenable",
+    "url": "https://www.tenable.com/products/nessus/nessus-essentials",
+    "description": "Free vulnerability scanner for up to 16 IPs. Covers network vulnerability scanning, configuration auditing, and compliance checks. Industry standard for vulnerability assessment.",
+    "category": "DevSecOps Tools",
+    "tags": [
+      "Nessus",
+      "vulnerability scanner",
+      "Tenable",
+      "network scanning",
+      "compliance"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d6"
+    ],
+    "niceCategories": [
+      "Protect and Defend"
+    ],
+    "relatedCertIds": [],
+    "id": "fr597"
+  },
+  {
+    "name": "OpenVAS / Greenbone Community Edition",
+    "provider": "Greenbone",
+    "url": "https://www.greenbone.net/en/community-edition/",
+    "description": "Open-source vulnerability scanner with 50,000+ network vulnerability tests. Full-featured alternative to commercial scanners with web UI, scheduling, and reporting.",
+    "category": "DevSecOps Tools",
+    "tags": [
+      "OpenVAS",
+      "Greenbone",
+      "vulnerability scanner",
+      "open source",
+      "NVT"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d6"
+    ],
+    "niceCategories": [
+      "Protect and Defend"
+    ],
+    "relatedCertIds": [],
+    "id": "fr598"
+  },
+  {
+    "name": "Qualys Community Edition",
+    "provider": "Qualys",
+    "url": "https://www.qualys.com/community-edition/",
+    "description": "Free cloud-based vulnerability scanner for small environments. Scans external attack surfaces, web applications, and provides CIS benchmark compliance checks.",
+    "category": "DevSecOps Tools",
+    "tags": [
+      "Qualys",
+      "vulnerability scanner",
+      "cloud",
+      "compliance",
+      "CIS"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d6"
+    ],
+    "niceCategories": [
+      "Protect and Defend"
+    ],
+    "relatedCertIds": [],
+    "id": "fr599"
+  },
+  {
+    "name": "Arachni Web Application Scanner",
+    "provider": "Arachni",
+    "url": "https://www.arachni-scanner.com/",
+    "description": "Open-source web application security scanner with modular architecture. Detects XSS, SQL injection, file inclusion, and other web vulnerabilities with browser-based crawling.",
+    "category": "DevSecOps Tools",
+    "tags": [
+      "Arachni",
+      "web scanner",
+      "DAST",
+      "XSS",
+      "SQL injection"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d6",
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Design and Development"
+    ],
+    "relatedCertIds": [],
+    "id": "fr600"
+  },
+  {
+    "name": "NIST AI 100-1: AI Risk Management Framework",
+    "provider": "NIST",
+    "url": "https://www.nist.gov/artificial-intelligence/ai-risk-management-framework",
+    "description": "NIST's framework for managing risks in AI systems across the lifecycle. Covers governance, mapping, measuring, and managing AI risks including bias, security, and trustworthiness.",
+    "category": "Governance and Service Management",
+    "tags": [
+      "NIST",
+      "AI RMF",
+      "AI risk",
+      "AI governance",
+      "trustworthiness"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Oversight and Governance"
+    ],
+    "relatedCertIds": [],
+    "id": "fr601"
+  },
+  {
+    "name": "Garak: LLM Vulnerability Scanner",
+    "provider": "NVIDIA",
+    "url": "https://github.com/NVIDIA/garak",
+    "description": "Open-source LLM vulnerability scanner that probes for prompt injection, data leakage, hallucination, toxicity, and other failure modes. Automated red-teaming for generative AI systems.",
+    "category": "DevSecOps Tools",
+    "tags": [
+      "Garak",
+      "LLM",
+      "AI red team",
+      "prompt injection",
+      "NVIDIA"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d6",
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Design and Development"
+    ],
+    "relatedCertIds": [],
+    "id": "fr602"
+  },
+  {
+    "name": "NIST SP 800-63 Digital Identity Guidelines",
+    "provider": "NIST",
+    "url": "https://pages.nist.gov/800-63-4/",
+    "description": "NIST's comprehensive digital identity guidelines covering identity proofing (63A), authentication and lifecycle management (63B), and federation and assertions (63C). The foundation for federal identity architecture.",
+    "category": "Auth and Identity",
+    "tags": [
+      "NIST",
+      "digital identity",
+      "authentication",
+      "identity proofing",
+      "federation"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d5"
+    ],
+    "niceCategories": [
+      "Design and Development"
+    ],
+    "relatedCertIds": [],
+    "id": "fr603"
+  },
+  {
+    "name": "OpenID Connect Specification",
+    "provider": "OpenID Foundation",
+    "url": "https://openid.net/developers/how-connect-works/",
+    "description": "Identity layer built on OAuth 2.0 enabling single sign-on and identity federation. Covers ID tokens, UserInfo endpoint, discovery, dynamic registration, and session management.",
+    "category": "Auth and Identity",
+    "tags": [
+      "OpenID Connect",
+      "OIDC",
+      "SSO",
+      "federation",
+      "identity"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d5"
+    ],
+    "niceCategories": [
+      "Design and Development"
+    ],
+    "relatedCertIds": [],
+    "id": "fr604"
+  },
+  {
+    "name": "SCIM: System for Cross-domain Identity Management",
+    "provider": "IETF",
+    "url": "https://scim.cloud/",
+    "description": "Open standard for automating identity provisioning and deprovisioning across systems. SCIM enables consistent user lifecycle management -- create, read, update, delete -- across cloud and on-premises applications.",
+    "category": "Auth and Identity",
+    "tags": [
+      "SCIM",
+      "identity provisioning",
+      "lifecycle",
+      "automation",
+      "IETF"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d5"
+    ],
+    "niceCategories": [
+      "Implementation and Operation"
+    ],
+    "relatedCertIds": [],
+    "id": "fr605"
+  },
+  {
+    "name": "Hexa Policy Orchestrator",
+    "provider": "Strata Identity / CNCF",
+    "url": "https://www.hexa.org/",
+    "description": "Open-source policy orchestrator that translates authorization policies across platforms (AWS, Azure, GCP, OPA, IDQL). Enables multi-cloud identity and access policy management from a single abstraction.",
+    "category": "Auth and Identity",
+    "tags": [
+      "Hexa",
+      "policy orchestrator",
+      "IDQL",
+      "multi-cloud",
+      "authorization"
+    ],
+    "level": "Expert",
+    "cisspDomains": [
+      "cissp-d5"
+    ],
+    "niceCategories": [
+      "Design and Development"
+    ],
+    "relatedCertIds": [],
+    "id": "fr606"
+  },
+  {
+    "name": "CISA Zero Trust Maturity Model",
+    "provider": "CISA",
+    "url": "https://www.cisa.gov/zero-trust-maturity-model",
+    "description": "CISA's framework for federal agencies implementing zero trust architecture across five pillars: Identity, Devices, Networks, Applications & Workloads, and Data. Includes maturity levels and migration guidance.",
+    "category": "Auth and Identity",
+    "tags": [
+      "CISA",
+      "zero trust",
+      "maturity model",
+      "identity",
+      "federal"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d1",
+      "cissp-d5"
+    ],
+    "niceCategories": [
+      "Oversight and Governance"
+    ],
+    "relatedCertIds": [],
+    "id": "fr607"
+  },
+  {
+    "name": "Gartner CTEM Framework Overview",
+    "provider": "Various",
+    "url": "https://www.gartner.com/en/articles/how-to-manage-cybersecurity-threats-not-episodes",
+    "description": "Overview of Gartner's Continuous Threat Exposure Management framework -- a five-phase program (Scoping, Discovery, Prioritization, Validation, Mobilization) for continuous security posture improvement.",
+    "category": "Governance and Service Management",
+    "tags": [
+      "CTEM",
+      "Gartner",
+      "threat exposure",
+      "continuous",
+      "posture management"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d1",
+      "cissp-d6"
+    ],
+    "niceCategories": [
+      "Oversight and Governance"
+    ],
+    "relatedCertIds": [],
+    "id": "fr608"
+  },
+  {
+    "name": "Attack Surface Management (OWASP)",
+    "provider": "OWASP",
+    "url": "https://owasp.org/www-project-attack-surface-detector/",
+    "description": "OWASP's attack surface detection project for identifying and cataloging application endpoints. Maps attack surfaces from source code, WAR/EAR files, and running applications.",
+    "category": "DevSecOps Tools",
+    "tags": [
+      "OWASP",
+      "attack surface",
+      "ASM",
+      "endpoint discovery",
+      "CTEM"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d6"
+    ],
+    "niceCategories": [
+      "Protect and Defend"
+    ],
+    "relatedCertIds": [],
+    "id": "fr609"
+  },
+  {
+    "name": "ICS-CERT Recommended Practices",
+    "provider": "CISA",
+    "url": "https://www.cisa.gov/topics/industrial-control-systems",
+    "description": "CISA's ICS-CERT recommended practices for securing industrial control systems. Covers defense-in-depth strategies, network architecture, incident response, and vendor-specific advisories for SCADA/ICS.",
+    "category": "Networking and Infrastructure",
+    "tags": [
+      "ICS",
+      "SCADA",
+      "CISA",
+      "OT security",
+      "industrial"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d3",
+      "cissp-d4"
+    ],
+    "niceCategories": [
+      "Protect and Defend"
+    ],
+    "relatedCertIds": [],
+    "id": "fr610"
+  },
+  {
+    "name": "NIST SP 800-82 Rev. 3: Guide to OT Security",
+    "provider": "NIST",
+    "url": "https://csrc.nist.gov/pubs/sp/800/82/r3/final",
+    "description": "NIST's guide to operational technology security covering ICS, SCADA, DCS, and PLC environments. Addresses Modbus, DNP3, OPC, and other industrial protocols with specific security controls.",
+    "category": "Networking and Infrastructure",
+    "tags": [
+      "NIST",
+      "OT",
+      "ICS",
+      "SCADA",
+      "Modbus",
+      "DNP3",
+      "SP 800-82"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d3",
+      "cissp-d4"
+    ],
+    "niceCategories": [
+      "Implementation and Operation"
+    ],
+    "relatedCertIds": [],
+    "id": "fr611"
+  },
+  {
+    "name": "GRFICSv2: ICS/SCADA Security Simulation",
+    "provider": "Fortiphyd Logic",
+    "url": "https://github.com/Fortiphyd/GRFICSv2",
+    "description": "Virtual ICS/SCADA environment for security research and training. Simulates a chemical plant with HMI, PLC, and networking components for practicing ICS attack and defense techniques.",
+    "category": "Labs",
+    "tags": [
+      "ICS",
+      "SCADA",
+      "simulation",
+      "PLC",
+      "OT lab"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d3",
+      "cissp-d4"
+    ],
+    "niceCategories": [
+      "Protect and Defend"
+    ],
+    "relatedCertIds": [],
+    "id": "fr612"
+  },
+  {
+    "name": "Conpot: ICS/SCADA Honeypot",
+    "provider": "MushMush Foundation",
+    "url": "https://github.com/mushorg/conpot",
+    "description": "Low-interactive ICS honeypot simulating industrial control protocols including Modbus, S7comm, BACnet, and HTTP. Useful for studying OT-targeted attacks and building ICS threat intelligence.",
+    "category": "Blue Team and DFIR",
+    "tags": [
+      "Conpot",
+      "honeypot",
+      "ICS",
+      "Modbus",
+      "S7comm",
+      "OT"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d4",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Protect and Defend"
+    ],
+    "relatedCertIds": [],
+    "id": "fr613"
+  },
+  {
+    "name": "PTES: Penetration Testing Execution Standard",
+    "provider": "PTES",
+    "url": "http://www.pentest-standard.org/",
+    "description": "Industry standard defining the seven phases of a penetration test: pre-engagement, intelligence gathering, threat modeling, vulnerability analysis, exploitation, post-exploitation, and reporting.",
+    "category": "Red Team and Adversary Simulation",
+    "tags": [
+      "PTES",
+      "methodology",
+      "penetration testing",
+      "standard",
+      "phases"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d6"
+    ],
+    "niceCategories": [
+      "Protect and Defend"
+    ],
+    "relatedCertIds": [],
+    "id": "fr614"
+  },
+  {
+    "name": "OWASP Testing Guide v4.2",
+    "provider": "OWASP",
+    "url": "https://owasp.org/www-project-web-security-testing-guide/v42/",
+    "description": "Version 4.2 of the OWASP Testing Guide with 91 specific test procedures organized across 11 categories. The most widely referenced web application penetration testing methodology.",
+    "category": "Red Team and Adversary Simulation",
+    "tags": [
+      "OWASP",
+      "testing guide",
+      "web pentest",
+      "methodology",
+      "v4.2"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d6",
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Protect and Defend"
+    ],
+    "relatedCertIds": [],
+    "id": "fr615"
+  },
+  {
+    "name": "PayloadsAllTheThings",
+    "provider": "swisskyrepo",
+    "url": "https://github.com/swisskyrepo/PayloadsAllTheThings",
+    "description": "Comprehensive list of payloads and bypass techniques for web application security. Covers SQL injection, XSS, SSRF, XXE, directory traversal, command injection, and dozens more attack categories.",
+    "category": "Red Team and Adversary Simulation",
+    "tags": [
+      "payloads",
+      "web exploitation",
+      "bypass",
+      "cheat sheet",
+      "SQL injection"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d6"
+    ],
+    "niceCategories": [
+      "Protect and Defend"
+    ],
+    "relatedCertIds": [],
+    "id": "fr616"
+  },
+  {
+    "name": "SecLists: Security Tester's Companion",
+    "provider": "Daniel Miessler",
+    "url": "https://github.com/danielmiessler/SecLists",
+    "description": "Collection of wordlists for security testing: usernames, passwords, URLs, fuzzing payloads, web shells, and more. The standard companion for Burp Suite, ffuf, and other security tools.",
+    "category": "Red Team and Adversary Simulation",
+    "tags": [
+      "SecLists",
+      "wordlists",
+      "fuzzing",
+      "passwords",
+      "payloads"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d6"
+    ],
+    "niceCategories": [
+      "Protect and Defend"
+    ],
+    "relatedCertIds": [],
+    "id": "fr617"
+  },
+  {
+    "name": "PostgreSQL Documentation",
+    "provider": "PostgreSQL",
+    "url": "https://www.postgresql.org/docs/current/",
+    "description": "Official PostgreSQL documentation including security chapters on authentication, roles, row-level security, encryption, and SSL/TLS configuration. The most widely used open-source relational database.",
+    "category": "Networking and Infrastructure",
+    "tags": [
+      "PostgreSQL",
+      "database",
+      "SQL",
+      "security",
+      "authentication"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d2",
+      "cissp-d3"
+    ],
+    "niceCategories": [
+      "Implementation and Operation"
+    ],
+    "relatedCertIds": [],
+    "id": "fr618"
+  },
+  {
+    "name": "OWASP Database Security Cheat Sheet",
+    "provider": "OWASP",
+    "url": "https://cheatsheetseries.owasp.org/cheatsheets/Database_Security_Cheat_Sheet.html",
+    "description": "Quick-reference guide for securing databases: hardening, access control, parameterized queries, encryption at rest and in transit, auditing, and backup security across SQL and NoSQL systems.",
+    "category": "Hardening and Compliance",
+    "tags": [
+      "OWASP",
+      "database security",
+      "SQL injection",
+      "hardening",
+      "cheat sheet"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d2",
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Design and Development"
+    ],
+    "relatedCertIds": [],
+    "id": "fr619"
+  },
+  {
+    "name": "tfsec: Terraform Security Scanner",
+    "provider": "Aqua Security",
+    "url": "https://github.com/aquasecurity/tfsec",
+    "description": "Static analysis tool for Terraform code detecting security misconfigurations. Checks for unencrypted resources, overly permissive IAM, public access, and insecure defaults across AWS, Azure, and GCP.",
+    "category": "DevSecOps Tools",
+    "tags": [
+      "tfsec",
+      "Terraform",
+      "IaC",
+      "static analysis",
+      "misconfigurations"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d3",
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Design and Development"
+    ],
+    "relatedCertIds": [],
+    "id": "fr620"
+  },
+  {
+    "name": "KICS: Keeping Infrastructure as Code Secure",
+    "provider": "Checkmarx",
+    "url": "https://github.com/Checkmarx/kics",
+    "description": "Open-source IaC scanner supporting Terraform, CloudFormation, Kubernetes, Docker, Ansible, and Helm. Over 2,000 queries for detecting security vulnerabilities and compliance issues in infrastructure definitions.",
+    "category": "DevSecOps Tools",
+    "tags": [
+      "KICS",
+      "IaC scanning",
+      "Terraform",
+      "Kubernetes",
+      "compliance"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d3",
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Design and Development"
+    ],
+    "relatedCertIds": [],
+    "id": "fr621"
   }
 ]
