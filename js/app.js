@@ -67,6 +67,28 @@
   var pfNiceRoleEl = document.getElementById('pf-nice-role');
   var pfCisspDomainEl = document.getElementById('pf-cissp-domain');
 
+  var glossaryPanelEl = document.getElementById('glossary-panel');
+  var glossaryListEl = document.getElementById('glossary-list');
+  var glossarySearchInput = document.getElementById('glossary-search-input');
+  var glossaryAlphaEl = document.getElementById('glossary-alpha');
+  var glossaryCountEl = document.getElementById('glossary-count');
+  var glossaryLoadingEl = document.getElementById('glossary-loading');
+  var glossaryPathFilterEl = document.getElementById('glossary-path-filter');
+  var glossarySourceFilterEl = document.getElementById('glossary-source-filter');
+  var tabCountGlossaryEl = document.getElementById('tab-count-glossary');
+
+  var glossaryTerms = null;
+  var glossaryPathMap = null;
+  var filteredGlossary = [];
+  var glossaryLetter = 'All';
+  var glossarySource = 'all';
+  var glossaryPathFilter = '';
+  var glossarySearchTerm = '';
+  var glossaryPage = 1;
+  var GLOSSARY_PAGE_SIZE = 100;
+  var glossaryLoaded = false;
+  var glossaryDebounceTimer = null;
+
   var CISSP_SHORT = {
     'cissp-d1': 'D1: Risk Mgmt',
     'cissp-d2': 'D2: Asset Security',
@@ -1182,6 +1204,166 @@
     chips.forEach(function (c) { c.classList.remove('active'); });
   }
 
+  /* ── NIST Glossary ── */
+
+  function loadGlossary() {
+    if (glossaryLoaded) return Promise.resolve();
+    if (glossaryLoadingEl) glossaryLoadingEl.style.display = '';
+    if (glossaryListEl) glossaryListEl.innerHTML = '';
+
+    return loadJSON('data/nist-glossary.json').then(function (data) {
+      glossaryTerms = data.terms || [];
+      glossaryPathMap = {};
+      if (data.pathMap) {
+        Object.keys(data.pathMap).forEach(function (key) {
+          glossaryPathMap[key] = new Set(data.pathMap[key]);
+        });
+      }
+      glossaryLoaded = true;
+      if (glossaryLoadingEl) glossaryLoadingEl.style.display = 'none';
+      if (tabCountGlossaryEl) tabCountGlossaryEl.textContent = glossaryTerms.length;
+      buildGlossaryAlpha();
+      populateGlossaryPathFilter();
+      filterGlossary();
+    }).catch(function (err) {
+      if (glossaryLoadingEl) glossaryLoadingEl.style.display = 'none';
+      if (glossaryListEl) {
+        glossaryListEl.innerHTML =
+          '<div class="glossary-empty">' +
+            '<span class="empty-icon">&#x26A0;</span>' +
+            '<p>Could not load glossary data.<br>' + escapeHtml(err.message) + '</p>' +
+          '</div>';
+      }
+    });
+  }
+
+  function populateGlossaryPathFilter() {
+    if (!glossaryPathFilterEl) return;
+    glossaryPathFilterEl.innerHTML = '<option value="">All Paths</option>';
+    careerPaths.forEach(function (cp) {
+      var opt = document.createElement('option');
+      opt.value = cp.id;
+      var count = glossaryPathMap[cp.id] ? glossaryPathMap[cp.id].size : 0;
+      opt.textContent = cp.title + ' (' + count + ')';
+      glossaryPathFilterEl.appendChild(opt);
+    });
+  }
+
+  function buildGlossaryAlpha() {
+    if (!glossaryAlphaEl) return;
+    var letters = ['All', '#', 'A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'];
+    var frag = document.createDocumentFragment();
+    letters.forEach(function (l) {
+      var btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'glossary-alpha-btn' + (l === glossaryLetter ? ' active' : '');
+      btn.dataset.letter = l;
+      btn.textContent = l;
+      frag.appendChild(btn);
+    });
+    glossaryAlphaEl.innerHTML = '';
+    glossaryAlphaEl.appendChild(frag);
+  }
+
+  function filterGlossary() {
+    if (!glossaryTerms) return;
+    var term = glossarySearchTerm.toLowerCase();
+    var pathSet = (glossaryPathFilter && glossaryPathMap[glossaryPathFilter]) ? glossaryPathMap[glossaryPathFilter] : null;
+
+    filteredGlossary = glossaryTerms.filter(function (t) {
+      if (glossaryLetter !== 'All' && t.letter !== glossaryLetter) return false;
+      if (glossarySource !== 'all' && t.src !== glossarySource) return false;
+      if (pathSet && !pathSet.has(t.id)) return false;
+      if (term) {
+        var nameMatch = t.term.toLowerCase().indexOf(term) !== -1;
+        if (!nameMatch) {
+          var defMatch = false;
+          for (var i = 0; i < t.defs.length; i++) {
+            if (t.defs[i].t.toLowerCase().indexOf(term) !== -1) { defMatch = true; break; }
+          }
+          if (!defMatch) return false;
+        }
+      }
+      return true;
+    });
+
+    glossaryPage = 1;
+    renderGlossary();
+  }
+
+  function renderGlossary() {
+    if (!glossaryListEl) return;
+    var total = filteredGlossary.length;
+    var limit = glossaryPage * GLOSSARY_PAGE_SIZE;
+    var visible = filteredGlossary.slice(0, limit);
+
+    if (glossaryCountEl) {
+      glossaryCountEl.textContent = total + ' term' + (total === 1 ? '' : 's') +
+        (glossarySearchTerm ? ' matching "' + glossarySearchTerm + '"' : '') +
+        (glossaryPathFilter ? ' for ' + (careerPaths.find(function(p){return p.id===glossaryPathFilter})||{}).title : '');
+    }
+
+    if (visible.length === 0) {
+      glossaryListEl.innerHTML =
+        '<div class="glossary-empty">' +
+          '<span class="empty-icon">&#x1F50D;</span>' +
+          '<p>No terms match your filters.<br>Try broadening your search or changing filters.</p>' +
+        '</div>';
+      return;
+    }
+
+    var frag = document.createDocumentFragment();
+    visible.forEach(function (t) {
+      var card = document.createElement('div');
+      card.className = 'glossary-term-card';
+
+      var srcClass = t.src === 'CSRC' ? 'src-csrc' : (t.src === 'AI' ? 'src-ai' : 'src-both');
+      var srcLabel = t.src === 'CSRC' ? 'NIST CSRC' : (t.src === 'AI' ? 'AI RMF' : 'CSRC + AI');
+
+      var html = '<div class="glossary-term-header">';
+      if (t.link) {
+        html += '<a class="glossary-term-name" href="' + escapeHtml(t.link) + '" target="_blank" rel="noopener">' + escapeHtml(t.term) + '</a>';
+      } else {
+        html += '<span class="glossary-term-name">' + escapeHtml(t.term) + '</span>';
+      }
+      html += '<span class="glossary-term-source ' + srcClass + '">' + srcLabel + '</span>';
+      html += '</div>';
+
+      if (t.defs.length > 0) {
+        html += '<div class="glossary-term-def">' + escapeHtml(t.defs[0].t) + '</div>';
+        if (t.defs[0].c) {
+          html += '<div class="glossary-term-cite">' + escapeHtml(t.defs[0].c) + '</div>';
+        }
+      }
+
+      if (t.defs.length > 1) {
+        var extraId = 'gex-' + t.id;
+        html += '<div class="glossary-extra-defs" id="' + extraId + '">';
+        for (var i = 1; i < t.defs.length; i++) {
+          html += '<div class="glossary-term-def">' + escapeHtml(t.defs[i].t) + '</div>';
+          if (t.defs[i].c) {
+            html += '<div class="glossary-term-cite">' + escapeHtml(t.defs[i].c) + '</div>';
+          }
+        }
+        html += '</div>';
+        html += '<button type="button" class="glossary-show-more-btn" data-target="' + extraId + '">Show ' + (t.defs.length - 1) + ' more definition' + (t.defs.length - 1 === 1 ? '' : 's') + '</button>';
+      }
+
+      card.innerHTML = html;
+      frag.appendChild(card);
+    });
+
+    if (limit < total) {
+      var loadMoreDiv = document.createElement('div');
+      loadMoreDiv.className = 'glossary-load-more';
+      loadMoreDiv.innerHTML = '<button type="button" class="glossary-load-more-btn">Load more (' + (total - limit) + ' remaining)</button>';
+      frag.appendChild(loadMoreDiv);
+    }
+
+    glossaryListEl.innerHTML = '';
+    glossaryListEl.appendChild(frag);
+  }
+
   /* ── Tab switching ── */
 
   function switchTab(tab) {
@@ -1197,6 +1379,7 @@
     controlsResEl.style.display = 'none';
     if (controlsDefconEl) controlsDefconEl.style.display = 'none';
     if (pathfinderPanelEl) pathfinderPanelEl.style.display = 'none';
+    if (glossaryPanelEl) glossaryPanelEl.style.display = 'none';
     chipSectionEl.style.display = 'none';
 
     var searchBarEl = document.querySelector('.search-bar');
@@ -1231,11 +1414,18 @@
       if (activeFiltersBar) activeFiltersBar.style.display = 'none';
       if (resultCountLine) resultCountLine.style.display = 'none';
       resultsEl.style.display = 'none';
+    } else if (tab === 'glossary') {
+      if (glossaryPanelEl) glossaryPanelEl.style.display = '';
+      if (searchBarEl) searchBarEl.style.display = 'none';
+      if (activeFiltersBar) activeFiltersBar.style.display = 'none';
+      if (resultCountLine) resultCountLine.style.display = 'none';
+      resultsEl.style.display = 'none';
+      if (!glossaryLoaded) loadGlossary();
     }
 
     searchInput.value = '';
     searchTerm = '';
-    if (tab !== 'pathfinder') runFilterAndRender();
+    if (tab !== 'pathfinder' && tab !== 'glossary') runFilterAndRender();
   }
 
   /* ── Hero stats ── */
@@ -1253,6 +1443,7 @@
     if (tabCountResEl) tabCountResEl.textContent = resources.length;
     if (tabCountDefconEl) tabCountDefconEl.textContent = defconMedia.length;
     if (tabCountPathfinderEl) tabCountPathfinderEl.textContent = careerPaths.length;
+    if (tabCountGlossaryEl) tabCountGlossaryEl.textContent = glossaryLoaded ? glossaryTerms.length : '--';
   }
 
   /* ── Master filter + render ── */
@@ -1272,6 +1463,8 @@
       renderDefcon(filteredDc);
       renderActiveFiltersDefcon();
     } else if (activeTab === 'pathfinder') {
+      activeFiltersEl.innerHTML = '';
+    } else if (activeTab === 'glossary') {
       activeFiltersEl.innerHTML = '';
     }
   }
@@ -1431,6 +1624,72 @@
     selectPathByCisspDomain(pfCisspDomainEl.value);
   });
   if (buildPathBtn) buildPathBtn.addEventListener('click', buildPathfinder);
+
+  if (glossarySearchInput) {
+    glossarySearchInput.addEventListener('input', function () {
+      clearTimeout(glossaryDebounceTimer);
+      glossaryDebounceTimer = setTimeout(function () {
+        glossarySearchTerm = glossarySearchInput.value.trim();
+        filterGlossary();
+      }, 250);
+    });
+  }
+
+  if (glossaryAlphaEl) {
+    glossaryAlphaEl.addEventListener('click', function (e) {
+      var btn = e.target.closest('.glossary-alpha-btn');
+      if (!btn) return;
+      glossaryLetter = btn.dataset.letter;
+      glossaryAlphaEl.querySelectorAll('.glossary-alpha-btn').forEach(function (b) {
+        b.classList.toggle('active', b.dataset.letter === glossaryLetter);
+      });
+      filterGlossary();
+    });
+  }
+
+  if (glossarySourceFilterEl) {
+    glossarySourceFilterEl.addEventListener('click', function (e) {
+      var btn = e.target.closest('.glossary-src-btn');
+      if (!btn) return;
+      glossarySource = btn.dataset.source;
+      glossarySourceFilterEl.querySelectorAll('.glossary-src-btn').forEach(function (b) {
+        b.classList.toggle('active', b.dataset.source === glossarySource);
+      });
+      filterGlossary();
+    });
+  }
+
+  if (glossaryPathFilterEl) {
+    glossaryPathFilterEl.addEventListener('change', function () {
+      glossaryPathFilter = glossaryPathFilterEl.value;
+      filterGlossary();
+    });
+  }
+
+  if (glossaryListEl) {
+    glossaryListEl.addEventListener('click', function (e) {
+      var loadMoreBtn = e.target.closest('.glossary-load-more-btn');
+      if (loadMoreBtn) {
+        glossaryPage++;
+        renderGlossary();
+        return;
+      }
+      var showMoreBtn = e.target.closest('.glossary-show-more-btn');
+      if (showMoreBtn) {
+        var targetId = showMoreBtn.dataset.target;
+        var extraDefs = document.getElementById(targetId);
+        if (extraDefs) {
+          var isOpen = extraDefs.classList.toggle('open');
+          showMoreBtn.textContent = isOpen ? 'Show fewer definitions' : showMoreBtn.textContent;
+          if (!isOpen) {
+            var count = extraDefs.querySelectorAll('.glossary-term-def').length;
+            showMoreBtn.textContent = 'Show ' + count + ' more definition' + (count === 1 ? '' : 's');
+          }
+        }
+        return;
+      }
+    });
+  }
 
   searchInput.addEventListener('input', function () {
     clearTimeout(debounceTimer);

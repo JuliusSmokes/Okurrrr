@@ -35,7 +35,7 @@
   <section class="hero">
     <div class="hero-inner">
       <h2>Okurrrr &mdash; Set your Objectives. Certifications are the Key Results.</h2>
-      <p>Your cybersecurity career roadmap. Browse 629 certifications, 479 curated free resources, and the complete DEF CON Media archive. Build a personalized Career Pathfinder with progress tracking. Aligned with NIST NICE Framework, NIST CSF, NIST RMF, NIST AI RMF, OWASP, DoD 8140, and the CISSP CBK.</p>
+      <p>Your cybersecurity career roadmap. Browse 629 certifications, 479 curated free resources, the complete DEF CON Media archive, and the NIST Glossary with 10,000+ terms. Build a personalized Career Pathfinder with progress tracking. Aligned with NIST NICE Framework, NIST CSF, NIST RMF, NIST AI RMF, OWASP, DoD 8140, and the CISSP CBK.</p>
       <div class="hero-stats">
         <div class="stat-badge stat-pink">
           <span class="stat-number" id="stat-certs">--</span>
@@ -71,6 +71,9 @@
       </button>
       <button class="tab" role="tab" aria-selected="false" data-tab="pathfinder">
         Career Pathfinder <span class="tab-count" id="tab-count-pathfinder">18</span>
+      </button>
+      <button class="tab" role="tab" aria-selected="false" data-tab="glossary">
+        NIST Glossary <span class="tab-count" id="tab-count-glossary">--</span>
       </button>
     </div>
 
@@ -217,6 +220,39 @@
         <button type="button" class="btn-build-path" id="build-path-btn" disabled>Build My Path</button>
       </div>
       <div id="pathfinder-timeline" style="display:none"></div>
+    </section>
+
+    <section id="glossary-panel" style="display:none">
+      <div class="glossary-header">
+        <h3 class="glossary-title">NIST Cybersecurity &amp; AI Glossary</h3>
+        <p class="glossary-subtitle">10,000+ terms from CSRC and the Trustworthy AI Resource Center</p>
+      </div>
+      <div class="glossary-controls">
+        <div class="glossary-search">
+          <span class="search-icon" aria-hidden="true">&#x1F50D;</span>
+          <input type="text" id="glossary-search-input" placeholder="Search glossary terms..." autocomplete="off">
+        </div>
+        <div class="glossary-filters">
+          <div class="control-group">
+            <label for="glossary-path-filter">Career Path</label>
+            <select id="glossary-path-filter"><option value="">All Paths</option></select>
+          </div>
+          <div class="glossary-source-filter" id="glossary-source-filter">
+            <button type="button" class="glossary-src-btn active" data-source="all">All</button>
+            <button type="button" class="glossary-src-btn" data-source="CSRC">NIST CSRC</button>
+            <button type="button" class="glossary-src-btn" data-source="AI">AI RMF</button>
+            <button type="button" class="glossary-src-btn" data-source="BOTH">Both</button>
+          </div>
+        </div>
+      </div>
+      <nav class="glossary-alpha" id="glossary-alpha" aria-label="Alphabetical navigation"></nav>
+      <div class="glossary-count" id="glossary-count"></div>
+      <div class="glossary-list" id="glossary-list"></div>
+      <div class="glossary-loading" id="glossary-loading" style="display:none">
+        <div class="skeleton-card"><div class="skeleton-line"></div><div class="skeleton-line"></div><div class="skeleton-line"></div></div>
+        <div class="skeleton-card"><div class="skeleton-line"></div><div class="skeleton-line"></div><div class="skeleton-line"></div></div>
+        <div class="skeleton-card"><div class="skeleton-line"></div><div class="skeleton-line"></div><div class="skeleton-line"></div></div>
+      </div>
     </section>
 
     <div class="chip-section" id="chip-section">
