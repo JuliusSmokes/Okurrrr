@@ -2,7 +2,7 @@
   {
     "id": "c1",
     "name": "OSEE",
-    "url": "https://www.offensive-security.com/awe-osee/",
+    "url": "https://www.offsec.com/courses/exp-401/",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -34,7 +34,7 @@
   {
     "id": "c2",
     "name": "CCIE Sec",
-    "url": "https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/expert/ccie-security.html",
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/certifications/security/ccie-security/index.html",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -66,7 +66,7 @@
   {
     "id": "c3",
     "name": "CREST CRTSA",
-    "url": "https://www.crest-approved.org/examination/technical-security-architecture/index.html",
+    "url": "https://www.crest-approved.org/skills-certifications-careers/",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -137,7 +137,7 @@
   {
     "id": "c5",
     "name": "OSCE3",
-    "url": "https://help.offensive-security.com/hc/en-us/articles/4403282452628-What-is-OSCE3-",
+    "url": "https://www.offsec.com/courses/",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -169,7 +169,7 @@
   {
     "id": "c6",
     "name": "CCIE Ent",
-    "url": "https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/expert/ccie-security-v2.html",
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/certifications/security/ccie-security/index.html",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -201,7 +201,7 @@
   {
     "id": "c7",
     "name": "VCDX DCV",
-    "url": "https://www.vmware.com/education-services/certification/vcdx-dcv.html",
+    "url": "https://www.broadcom.com/support/education/vmware/certification/",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -324,7 +324,7 @@
   {
     "id": "c11",
     "name": "GREM",
-    "url": "https://www.giac.org/certifications/reverse-engineering-malware-grem/",
+    "url": "https://www.giac.org/certifications",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -360,7 +360,7 @@
   {
     "id": "c12",
     "name": "OSWE",
-    "url": "https://www.offensive-security.com/awae-oswe/",
+    "url": "https://www.offsec.com/courses/web-300/",
     "category": "Exploitation",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -388,7 +388,7 @@
   {
     "id": "c13",
     "name": "OSEP",
-    "url": "https://www.offensive-security.com/pen300-osep/",
+    "url": "https://www.offsec.com/courses/pen-300/",
     "category": "Penetration Testing",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -416,7 +416,7 @@
   {
     "id": "c14",
     "name": "OSED",
-    "url": "https://www.offensive-security.com/exp301-osed/",
+    "url": "https://www.offsec.com/courses/exp-301/",
     "category": "Penetration Testing",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -480,7 +480,7 @@
   {
     "id": "c16",
     "name": "NCSC CCPLP",
-    "url": "https://www.ncsc.gov.uk/information/about-certified-professional-scheme",
+    "url": "https://www.ncsc.gov.uk/information/certified-cyber-professional-assured-service",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -542,7 +542,7 @@
   {
     "id": "c18",
     "name": "GXPN",
-    "url": "https://www.giac.org/certification/gxpn",
+    "url": "https://www.giac.org/certifications",
     "category": "Exploitation",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -570,7 +570,7 @@
   {
     "id": "c19",
     "name": "VCIX DCV",
-    "url": "https://www.vmware.com/education-services/certification/vcap-dcv-design.html",
+    "url": "https://www.broadcom.com/support/education/vmware/certification/",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -737,7 +737,7 @@
   {
     "id": "c24",
     "name": "S-ISME",
-    "url": "https://www.seco-institute.org/certifications/information-security-certification-track/",
+    "url": "https://www.dnv.com/training/",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -770,7 +770,7 @@
   {
     "id": "c25",
     "name": "NCSC CCPSP",
-    "url": "https://www.ncsc.gov.uk/information/about-certified-professional-scheme",
+    "url": "https://www.ncsc.gov.uk/information/certified-cyber-professional-assured-service",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -831,7 +831,7 @@
   {
     "id": "c27",
     "name": "GIME",
-    "url": "https://www.giac.org/certifications/ios-macos-examiner-gime/",
+    "url": "https://www.giac.org/certifications",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -863,7 +863,7 @@
   {
     "id": "c28",
     "name": "GAWN",
-    "url": "https://www.giac.org/certification/gawn",
+    "url": "https://www.giac.org/certifications",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -940,7 +940,7 @@
   {
     "id": "c30",
     "name": "CCD",
-    "url": "https://cyberdefenders.org/blue-team-training/courses/certified-cyberdefender-certification/",
+    "url": "https://cyberdefenders.org/certifications/certified-cyberdefender-level2/",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -1004,7 +1004,7 @@
   {
     "id": "c32",
     "name": "GCFA",
-    "url": "https://www.giac.org/certification/gcfa",
+    "url": "https://www.giac.org/certifications",
     "category": "Forensics",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -1044,7 +1044,7 @@
   {
     "id": "c33",
     "name": "GCTI",
-    "url": "https://www.giac.org/certification/gcti",
+    "url": "https://www.giac.org/certifications",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -1086,7 +1086,7 @@
   {
     "id": "c34",
     "name": "CREST CSAM",
-    "url": "https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-simulated-attack-manager",
+    "url": "https://www.crest-approved.org/skills-certifications-careers/crest-certified-simulated-attack-manager/",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -1121,7 +1121,7 @@
   {
     "id": "c35",
     "name": "JNCIE Sec",
-    "url": "https://www.juniper.net/us/en/training/certification/certification-tracks/junos-security-track/?tab=jnciesec",
+    "url": "https://www.juniper.net/us/en/training/certification.html?tab=jnciesec",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -1154,7 +1154,7 @@
   {
     "id": "c36",
     "name": "CCDE",
-    "url": "https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/expert/ccde.html",
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/certifications/design/ccde/index.html",
     "category": "Security Architecture and Engineering",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -1242,7 +1242,7 @@
   {
     "id": "c39",
     "name": "GDAT",
-    "url": "https://www.giac.org/certification/defending-advanced-threats-gdat",
+    "url": "https://www.giac.org/certifications",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -1274,7 +1274,7 @@
   {
     "id": "c40",
     "name": "SC-100",
-    "url": "https://docs.microsoft.com/en-us/certifications/exams/sc-100",
+    "url": "https://learn.microsoft.com/en-us/certifications/exams/sc-100",
     "category": "Security Architecture and Engineering",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -1303,7 +1303,7 @@
   {
     "id": "c41",
     "name": "TOGAF",
-    "url": "https://www.opengroup.org/certifications/togaf",
+    "url": "https://www.opengroup.org/certifications/togaf-certification-portfolio",
     "category": "Security Architecture and Engineering",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -1370,7 +1370,7 @@
   {
     "id": "c43",
     "name": "EEXIN ISM",
-    "url": "https://www.exin.com/certifications/information-security-management-expert-based-isoiec-27001-exam",
+    "url": "https://www.exin.com/",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -1403,7 +1403,7 @@
   {
     "id": "c44",
     "name": "GSTRT",
-    "url": "https://www.giac.org/certification/gstrt",
+    "url": "https://www.giac.org/certifications",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -1436,7 +1436,7 @@
   {
     "id": "c45",
     "name": "NCSC CCPP",
-    "url": "https://www.ncsc.gov.uk/information/about-certified-professional-scheme",
+    "url": "https://www.ncsc.gov.uk/information/certified-cyber-professional-assured-service",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -1468,7 +1468,7 @@
   {
     "id": "c46",
     "name": "GSNA",
-    "url": "https://www.giac.org/certification/gsna",
+    "url": "https://www.giac.org/certifications",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -1501,7 +1501,7 @@
   {
     "id": "c47",
     "name": "CFSR",
-    "url": "https://www.opentext.com/products-and-solutions/services/training-and-learning-services/encase-training/forensic-security-responder-certification",
+    "url": "https://www.opentext.com/learning-services/learning-paths-encase-certifications",
     "category": "Forensics",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -1530,7 +1530,7 @@
   {
     "id": "c48",
     "name": "GNFA",
-    "url": "https://www.giac.org/certification/network-forensic-analyst-gnfa",
+    "url": "https://www.giac.org/certifications",
     "category": "Forensics",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -1559,7 +1559,7 @@
   {
     "id": "c49",
     "name": "eWPTX",
-    "url": "https://elearnsecurity.com/product/ewptxv2-certification/",
+    "url": "https://ine.com/security/certifications/ewptx-certification",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -1591,7 +1591,7 @@
   {
     "id": "c50",
     "name": "CREST CCSAS",
-    "url": "https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-simulated-attack-specialist",
+    "url": "https://www.crest-approved.org/skills-certifications-careers/",
     "category": "Penetration Testing",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -1653,7 +1653,7 @@
   {
     "id": "c52",
     "name": "AZ-305",
-    "url": "https://docs.microsoft.com/en-us/learn/certifications/azure-solutions-architect?wt.mc_id=learningredirect_certs-web-wwl",
+    "url": "https://learn.microsoft.com/en-us/learn/certifications/azure-solutions-architect",
     "category": "Cloud/SysOps",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -1684,7 +1684,7 @@
   {
     "id": "c53",
     "name": "VCIX NV",
-    "url": "https://www.vmware.com/education-services/certification/vcap-nv-deploy.html",
+    "url": "https://www.broadcom.com/support/education/vmware/certification/",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -1716,7 +1716,7 @@
   {
     "id": "c54",
     "name": "LPIC-3",
-    "url": "https://www.lpi.org/our-certifications/lpic-3-303-overview",
+    "url": "https://www.lpi.org/our-certifications/lpic-3-303-overview/",
     "category": "*nix",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -1840,7 +1840,7 @@
   {
     "id": "c58",
     "name": "GISP",
-    "url": "https://www.giac.org/certification/gisp",
+    "url": "https://www.giac.org/certifications",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -1906,7 +1906,7 @@
   {
     "id": "c60",
     "name": "GCFR",
-    "url": "https://www.giac.org/certifications/cloud-forensics-responder-gcfr/",
+    "url": "https://www.giac.org/certifications",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -1938,7 +1938,7 @@
   {
     "id": "c61",
     "name": "BTL2",
-    "url": "https://securityblue.team/btl2/",
+    "url": "https://www.securityblue.team/certifications/blue-team-level-2",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -2000,7 +2000,7 @@
   {
     "id": "c63",
     "name": "CREST CCTINF",
-    "url": "https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-infrastructure-tester",
+    "url": "https://www.crest-approved.org/skills-certifications-careers/crest-certified-infrastructure-tester/",
     "category": "Penetration Testing",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -2058,7 +2058,7 @@
   {
     "id": "c65",
     "name": "Google PCSA",
-    "url": "https://cloud.google.com/certification/cloud-architect",
+    "url": "https://cloud.google.com/learn/certification/cloud-architect/",
     "category": "Cloud/SysOps",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -2117,7 +2117,7 @@
   {
     "id": "c67",
     "name": "ISA CE",
-    "url": "https://www.isa.org/training-and-certifications/isa-certification/isa99iec-62443/isa99iec-62443-cybersecurity-certificate-programs/",
+    "url": "https://www.isa.org/certification/certificate-programs/isa-iec-62443-cybersecurity-certificate-program",
     "category": "ICS/IoT",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -2146,7 +2146,7 @@
   {
     "id": "c68",
     "name": "GDSA",
-    "url": "https://www.giac.org/certification/defensible-security-architecture-gdsa",
+    "url": "https://www.giac.org/certifications",
     "category": "Security Architecture and Engineering",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -2242,7 +2242,7 @@
   {
     "id": "c71",
     "name": "GSLC",
-    "url": "https://www.giac.org/certification/gslc",
+    "url": "https://www.giac.org/certifications",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -2279,7 +2279,7 @@
   {
     "id": "c72",
     "name": "S-CISO",
-    "url": "https://www.seco-institute.org/certifications/information-security-certification-track/",
+    "url": "https://www.dnv.com/training/",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -2312,7 +2312,7 @@
   {
     "id": "c73",
     "name": "GCFE",
-    "url": "https://www.giac.org/certification/gcfe",
+    "url": "https://www.giac.org/certifications",
     "category": "Forensics",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -2348,7 +2348,7 @@
   {
     "id": "c74",
     "name": "GEIR",
-    "url": "https://www.giac.org/certifications/enterprise-incident-responder-geir/",
+    "url": "https://www.giac.org/certifications",
     "category": "Incident Handling",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -2375,7 +2375,7 @@
   {
     "id": "c75",
     "name": "PACES",
-    "url": "https://www.pentesteracademy.com/gcb",
+    "url": "https://www.pentesteracademy.com/",
     "category": "Incident Handling",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -2402,7 +2402,7 @@
   {
     "id": "c76",
     "name": "S-CEHL",
-    "url": "https://www.seco-institute.org/certifications/ethical-hacking-track/leader/",
+    "url": "https://www.dnv.com/training/path-ethical-hacking/",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -2435,7 +2435,7 @@
   {
     "id": "c77",
     "name": "CREST CRT",
-    "url": "https://www.crest-approved.org/certification-careers/crest-certifications/crest-registered-penetration-tester",
+    "url": "https://www.crest-approved.org/skills-certifications-careers/crest-registered-penetration-tester/",
     "category": "Penetration Testing",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -2523,7 +2523,7 @@
   {
     "id": "c80",
     "name": "CCNP Sec",
-    "url": "https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/professional/ccnp-security-v2.html",
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/certifications/security/ccnp-security/index.html",
     "category": "Communication and Network Security",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -2551,7 +2551,7 @@
   {
     "id": "c81",
     "name": "CIMP",
-    "url": "https://www.identitymanagementinstitute.org/cimp/",
+    "url": "https://identitymanagementinstitute.org/cimp/",
     "category": "IAM",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -2580,7 +2580,7 @@
   {
     "id": "c82",
     "name": "CASP+",
-    "url": "https://www.comptia.org/certifications/comptia-advanced-security-practitioner",
+    "url": "https://www.comptia.org/en-us/certifications/securityx/",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -2612,7 +2612,7 @@
   {
     "id": "c83",
     "name": "GASF",
-    "url": "https://www.giac.org/certification/advanced-smartphone-forensics-gasf",
+    "url": "https://www.giac.org/certifications",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -2644,7 +2644,7 @@
   {
     "id": "c84",
     "name": "eCTHP",
-    "url": "https://security.ine.com/certifications/ecthp-certification/",
+    "url": "https://ine.com/security/certifications/ecthp-certification",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -2677,7 +2677,7 @@
   {
     "id": "c85",
     "name": "S-EHE",
-    "url": "https://www.seco-institute.org/certifications/ethical-hacking-certification-track/",
+    "url": "https://www.dnv.com/training/path-ethical-hacking/",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -2709,7 +2709,7 @@
   {
     "id": "c86",
     "name": "JNCIP Sec",
-    "url": "https://www.juniper.net/us/en/training/certification/certification-tracks/junos-security-track/?tab=jncip-sec",
+    "url": "https://www.juniper.net/us/en/training/certification.html?tab=jncip-sec",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -2836,7 +2836,7 @@
   {
     "id": "c90",
     "name": "GCTD",
-    "url": "https://www.giac.org/certifications/cloud-threat-detection-gctd/",
+    "url": "https://www.giac.org/certifications",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -2868,7 +2868,7 @@
   {
     "id": "c91",
     "name": "CACE",
-    "url": "https://www.exidacace.com/Apply/CACE",
+    "url": "https://www.exida.com/",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -2936,7 +2936,7 @@
   {
     "id": "c93",
     "name": "Scrum SPS",
-    "url": "https://www.scrum.org/scaled-professional-scrum-certification",
+    "url": "https://www.scrum.org/assessments/scaled-professional-scrum-certification",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -2970,7 +2970,7 @@
   {
     "id": "c94",
     "name": "GLEG",
-    "url": "https://www.giac.org/certification/law-data-security-investigations-gleg",
+    "url": "https://www.giac.org/certifications",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -3102,7 +3102,7 @@
   {
     "id": "c98",
     "name": "GCCC",
-    "url": "https://www.giac.org/certification/critical-controls-certification-gccc",
+    "url": "https://www.giac.org/certifications",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -3168,7 +3168,7 @@
   {
     "id": "c100",
     "name": "GWEB",
-    "url": "https://www.giac.org/certification/certified-web-application-defender-gweb",
+    "url": "https://www.giac.org/certifications",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -3200,7 +3200,7 @@
   {
     "id": "c101",
     "name": "Cisco COP",
-    "url": "https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/professional/cyberops-professional.html",
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/certifications/cybersecurity/professional/index.html",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -3232,7 +3232,7 @@
   {
     "id": "c102",
     "name": "CCFE",
-    "url": "https://app.infosecinstitute.com/portal/courses/a0t1A000009H5RcQAK",
+    "url": "https://www.infosecinstitute.com/",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -3264,7 +3264,7 @@
   {
     "id": "c103",
     "name": "GCED",
-    "url": "https://www.giac.org/certification/certified-enterprise-defender-gced",
+    "url": "https://www.giac.org/certifications",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -3328,7 +3328,7 @@
   {
     "id": "c105",
     "name": "CREST CCTIM",
-    "url": "https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-threat-intelligence-manager",
+    "url": "https://www.crest-approved.org/skills-certifications-careers/crest-certified-threat-intelligence-manager/",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -3364,7 +3364,7 @@
   {
     "id": "c106",
     "name": "OSCP",
-    "url": "https://www.offensive-security.com/pwk-oscp/",
+    "url": "https://www.offsec.com/courses/pen-200/",
     "category": "Penetration Testing",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -3420,7 +3420,7 @@
   {
     "id": "c108",
     "name": "CCNP Ent",
-    "url": "https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/professional/ccnp-enterprise.html",
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/certifications/enterprise/ccnp-enterprise/index.html",
     "category": "Communication and Network Security",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -3448,7 +3448,7 @@
   {
     "id": "c109",
     "name": "GPCS",
-    "url": "https://www.giac.org/certifications/public-cloud-security-gpcs/",
+    "url": "https://www.giac.org/certifications",
     "category": "Cloud/SysOps",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -3480,7 +3480,7 @@
   {
     "id": "c110",
     "name": "GCSA",
-    "url": "https://www.giac.org/certification/cloud-security-automation-gcsa",
+    "url": "https://www.giac.org/certifications",
     "category": "Cloud/SysOps",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -3511,7 +3511,7 @@
   {
     "id": "c111",
     "name": "GCWN",
-    "url": "https://www.giac.org/certifications/certified-windows-security-administrator-gcwn/",
+    "url": "https://www.giac.org/certifications",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -3544,7 +3544,7 @@
   {
     "id": "c112",
     "name": "GRID",
-    "url": "https://www.giac.org/certification/response-industrial-defense-grid",
+    "url": "https://www.giac.org/certifications",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -3576,7 +3576,7 @@
   {
     "id": "c113",
     "name": "CIS LI",
-    "url": "https://www.itgovernance.co.uk/shop/product/certified-iso-27001-isms-lead-implementer-training-course",
+    "url": "https://uk.grcsolutions.io/",
     "category": "GRC",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -3608,7 +3608,7 @@
   {
     "id": "c114",
     "name": "CIPT",
-    "url": "https://iapp.org/certify/cipt/",
+    "url": "https://iapp.org/certify/cipt",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -3641,7 +3641,7 @@
   {
     "id": "c115",
     "name": "CDPSE",
-    "url": "https://www.isaca.org/credentialing/certified-data-privacy-solutions-engineer",
+    "url": "https://www.isaca.org/credentialing/cdpse",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -3743,7 +3743,7 @@
   {
     "id": "c118",
     "name": "CM)ISSO",
-    "url": "https://www.mile2.com/master-certifications/",
+    "url": "https://mile2.com/master-certifications/",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -3776,7 +3776,7 @@
   {
     "id": "c119",
     "name": "S-ISP",
-    "url": "https://www.seco-institute.org/certifications/information-security-certification-track/",
+    "url": "https://www.dnv.com/training/",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -3846,7 +3846,7 @@
   {
     "id": "c121",
     "name": "GMON",
-    "url": "https://www.giac.org/certification/continuous-monitoring-certification-gmon",
+    "url": "https://www.giac.org/certifications",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -3879,7 +3879,7 @@
   {
     "id": "c122",
     "name": "CIS LA",
-    "url": "https://www.itgovernance.co.uk/shop/product/certified-iso-27001-isms-lead-auditor-training-course",
+    "url": "https://uk.grcsolutions.io/",
     "category": "GRC",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -3912,7 +3912,7 @@
   {
     "id": "c123",
     "name": "S-CSPL",
-    "url": "https://www.seco-institute.org/certifications/certified-secure-software-developer/",
+    "url": "https://www.dnv.com/training/path-secure-software/",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -3944,7 +3944,7 @@
   {
     "id": "c124",
     "name": "GCDA",
-    "url": "https://www.giac.org/certification/certified-detection-analyst-gcda",
+    "url": "https://www.giac.org/certifications",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -3977,7 +3977,7 @@
   {
     "id": "c125",
     "name": "CMFE",
-    "url": "https://app.infosecinstitute.com/portal/courses/a0t1A000009H6juQAC",
+    "url": "https://www.infosecinstitute.com/",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -4009,7 +4009,7 @@
   {
     "id": "c126",
     "name": "GX-FA",
-    "url": "https://www.giac.org/certifications/experienced-forensics-analyst-gxfa/",
+    "url": "https://www.giac.org/certifications",
     "category": "Forensics",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -4038,7 +4038,7 @@
   {
     "id": "c127",
     "name": "GCIH",
-    "url": "https://www.giac.org/certification/gcih",
+    "url": "https://www.giac.org/certifications",
     "category": "Incident Handling",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -4074,7 +4074,7 @@
   {
     "id": "c128",
     "name": "GX-PT",
-    "url": "https://www.giac.org/certifications/experienced-penetration-tester-gxpt/",
+    "url": "https://www.giac.org/certifications",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -4106,7 +4106,7 @@
   {
     "id": "c129",
     "name": "GPEN",
-    "url": "https://www.giac.org/certification/gpen",
+    "url": "https://www.giac.org/certifications",
     "category": "Penetration Testing",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -4143,7 +4143,7 @@
   {
     "id": "c130",
     "name": "OSWP",
-    "url": "https://www.offensive-security.com/wifu-oswp/",
+    "url": "https://www.offsec.com/courses/pen-210/",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -4238,7 +4238,7 @@
   {
     "id": "c133",
     "name": "CIAM",
-    "url": "https://www.identitymanagementinstitute.org/ciam/",
+    "url": "https://identitymanagementinstitute.org/ciam-certification/",
     "category": "IAM",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -4298,7 +4298,7 @@
   {
     "id": "c135",
     "name": "PDSO CDE",
-    "url": "https://www.practical-devsecops.com/certified-devsecops-expert",
+    "url": "https://www.practical-devsecops.com/certified-devsecops-expert/",
     "category": "Software Security",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -4328,7 +4328,7 @@
   {
     "id": "c136",
     "name": "VCP DCV",
-    "url": "https://www.vmware.com/education-services/certification/vcp-dcv.html",
+    "url": "https://www.broadcom.com/support/education/vmware/certification/vcp-dcv",
     "category": "Cloud/SysOps",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -4359,7 +4359,7 @@
   {
     "id": "c137",
     "name": "CKS",
-    "url": "https://www.cncf.io/certification/cks/",
+    "url": "https://www.cncf.io/training/certification/cks/",
     "category": "Cloud/SysOps",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -4451,7 +4451,7 @@
   {
     "id": "c140",
     "name": "CSSA",
-    "url": "https://app.infosecinstitute.com/portal/courses/a0tC0000000Fp4JIAS",
+    "url": "https://www.infosecinstitute.com/",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -4484,7 +4484,7 @@
   {
     "id": "c141",
     "name": "Scrum PSD",
-    "url": "https://www.scrum.org/professional-scrum-developer-certification",
+    "url": "https://www.scrum.org/assessments/professional-scrum-developer-certification",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -4518,7 +4518,7 @@
   {
     "id": "c142",
     "name": "GCPM",
-    "url": "https://www.giac.org/certification/gcpm",
+    "url": "https://www.giac.org/certifications",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -4552,7 +4552,7 @@
   {
     "id": "c143",
     "name": "BCS PCIRM",
-    "url": "https://www.bcs.org/get-qualified/certifications-for-professionals/information-security-and-ccp-scheme-certifications/bcs-practitioner-certificate-in-information-risk-management/",
+    "url": "https://www.bcs.org/",
     "category": "GRC",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -4582,7 +4582,7 @@
   {
     "id": "c144",
     "name": "PEXIN ISM",
-    "url": "https://www.exin.com/certifications/information-security-management-professional-based-isoiec-27001-exam",
+    "url": "https://www.exin.com/",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -4711,7 +4711,7 @@
   {
     "id": "c148",
     "name": "CDRP",
-    "url": "https://app.infosecinstitute.com/portal/courses/a0tC0000000FovhIAC",
+    "url": "https://www.infosecinstitute.com/",
     "category": "Software Security",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -4741,7 +4741,7 @@
   {
     "id": "c149",
     "name": "eCDFP",
-    "url": "https://security.ine.com/certifications/ecdfp-certification/",
+    "url": "https://ine.com/security/certifications/ecdfp-certification",
     "category": "Forensics",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -4770,7 +4770,7 @@
   {
     "id": "c150",
     "name": "GPYC",
-    "url": "https://www.giac.org/certification/python-coder-gpyc",
+    "url": "https://www.giac.org/certifications",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -4831,7 +4831,7 @@
   {
     "id": "c152",
     "name": "LPT",
-    "url": "https://www.eccouncil.org/programs/licensed-penetration-tester-lpt-master/",
+    "url": "https://www.eccouncil.org/train-certify/licensed-penetration-tester-lpt-master/",
     "category": "Penetration Testing",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -4887,7 +4887,7 @@
   {
     "id": "c154",
     "name": "GCPN",
-    "url": "https://www.giac.org/certification/gcpn",
+    "url": "https://www.giac.org/certifications",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -4919,7 +4919,7 @@
   {
     "id": "c155",
     "name": "GRTP",
-    "url": "https://www.giac.org/certifications/red-team-professional-grtp/",
+    "url": "https://www.giac.org/certifications",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -4984,7 +4984,7 @@
   {
     "id": "c157",
     "name": "GMOB",
-    "url": "https://www.giac.org/certification/mobile-device-security-analyst-gmob",
+    "url": "https://www.giac.org/certifications",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -5198,7 +5198,7 @@
   {
     "id": "c164",
     "name": "ISA CDS",
-    "url": "https://www.isa.org/training-and-certifications/isa-certification/isa99iec-62443/isa99iec-62443-cybersecurity-certificate-programs/",
+    "url": "https://www.isa.org/certification/certificate-programs/isa-iec-62443-cybersecurity-certificate-program",
     "category": "ICS/IoT",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -5459,7 +5459,7 @@
   {
     "id": "c172",
     "name": "EXIN 27001E",
-    "url": "https://www.exin.com/certifications/information-security-management-expert-based-isoiec-27001-exam?language_content_entity=en",
+    "url": "https://www.exin.com/",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -5554,7 +5554,7 @@
   {
     "id": "c175",
     "name": "GCIA",
-    "url": "https://www.giac.org/certification/certified-intrusion-analyst-gcia",
+    "url": "https://www.giac.org/certifications",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -5650,7 +5650,7 @@
   {
     "id": "c178",
     "name": "DevNet Pro",
-    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/certifications/devnet/professional/index.html",
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/certifications/automation/ccnp-automation/index.html",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -5683,7 +5683,7 @@
   {
     "id": "c179",
     "name": "CCE",
-    "url": "https://www.isfce.com/certification.htm",
+    "url": "https://www.isfce.com/",
     "category": "Forensics",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -5712,7 +5712,7 @@
   {
     "id": "c180",
     "name": "CM)DFI",
-    "url": "https://www.mile2.com/master-certifications/",
+    "url": "https://mile2.com/master-certifications/",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -5745,7 +5745,7 @@
   {
     "id": "c181",
     "name": "CREST CRIA",
-    "url": "https://www.crest-approved.org/certification-careers/crest-certifications/crest-registered-intrusion-analyst",
+    "url": "https://www.crest-approved.org/skills-certifications-careers/crest-registered-intrusion-analyst/",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -5779,7 +5779,7 @@
   {
     "id": "c182",
     "name": "CREST CRTIA",
-    "url": "https://www.crest-approved.org/certification-careers/crest-certifications/crest-registered-threat-intelligence-analyst",
+    "url": "https://www.crest-approved.org/skills-certifications-careers/crest-registered-threat-intelligence-analyst/",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -5814,7 +5814,7 @@
   {
     "id": "c183",
     "name": "GWAPT",
-    "url": "https://www.giac.org/certification/gwapt",
+    "url": "https://www.giac.org/certifications",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -5847,7 +5847,7 @@
   {
     "id": "c184",
     "name": "OSMR",
-    "url": "https://www.offensive-security.com/exp312-osmr/",
+    "url": "https://www.offsec.com/courses/",
     "category": "Exploitation",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -6035,7 +6035,7 @@
   {
     "id": "c190",
     "name": "EXIN PCSA",
-    "url": "https://www.exin.com/certifications/ccc-professional-cloud-solution-architect-exam",
+    "url": "https://www.exin.com/",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -6068,7 +6068,7 @@
   {
     "id": "c191",
     "name": "CKA",
-    "url": "https://www.cncf.io/certification/cka/",
+    "url": "https://www.cncf.io/training/certification/cka/",
     "category": "Cloud/SysOps",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -6100,7 +6100,7 @@
   {
     "id": "c192",
     "name": "TUV COTCP",
-    "url": "https://www.tuv.com/landingpage/en/lp-certified-operational-technology-cybersecurity-professional-program/",
+    "url": "https://www.tuv.com/world/en/lp/cybersecurity/",
     "category": "ICS/IoT",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -6159,7 +6159,7 @@
   {
     "id": "c194",
     "name": "CIPA",
-    "url": "https://www.identitymanagementinstitute.org/cipa/",
+    "url": "https://identitymanagementinstitute.org/cipa/",
     "category": "IAM",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -6220,7 +6220,7 @@
   {
     "id": "c196",
     "name": "Scrum PAL",
-    "url": "https://www.scrum.org/professional-agile-leadership-certification",
+    "url": "https://www.scrum.org/assessments/professional-agile-leadership-certification",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -6323,7 +6323,7 @@
   {
     "id": "c199",
     "name": "APMG 20000P",
-    "url": "https://apmg-international.com/product/iso-iec-20000",
+    "url": "https://apmg-international.com/product/isoiec-20000",
     "category": "GRC",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -6356,7 +6356,7 @@
   {
     "id": "c200",
     "name": "C)ISRM",
-    "url": "https://www.mile2.com/information-systems-risk-mangager-outline/",
+    "url": "https://mile2.com/cisrm-course-outline/",
     "category": "GRC",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -6386,7 +6386,7 @@
   {
     "id": "c201",
     "name": "APMG 27001P",
-    "url": "https://apmg-international.com/product/isoiec-27001",
+    "url": "https://apmg-international.com/product/iso-iec-27001",
     "category": "GRC",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -6451,7 +6451,7 @@
   {
     "id": "c203",
     "name": "IS20",
-    "url": "https://www.mile2.com/is20_outline/",
+    "url": "https://mile2.com/is18-course-outline/",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -6484,7 +6484,7 @@
   {
     "id": "c204",
     "name": "C)ISSA",
-    "url": "https://www.mile2.com/information_systems_security_auditor_outline/",
+    "url": "https://mile2.com/ccssa-course-outline/",
     "category": "GRC",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -6516,7 +6516,7 @@
   {
     "id": "c205",
     "name": "APMG 27001A",
-    "url": "https://apmg-international.com/product/isoiec-27001",
+    "url": "https://apmg-international.com/product/iso-iec-27001",
     "category": "GRC",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -6551,7 +6551,7 @@
   {
     "id": "c206",
     "name": "CASE",
-    "url": "https://www.eccouncil.org/programs/certified-application-security-engineer-case/",
+    "url": "https://www.eccouncil.org/train-certify/certified-application-security-engineer-case-java/",
     "category": "Software Security",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -6581,7 +6581,7 @@
   {
     "id": "c207",
     "name": "C)DRE",
-    "url": "https://www.mile2.com/cdre_outline/",
+    "url": "https://mile2.com/cdre-course-outline/",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -6613,7 +6613,7 @@
   {
     "id": "c208",
     "name": "GSOC",
-    "url": "https://www.giac.org/certifications/security-operations-certified-gsoc/",
+    "url": "https://www.giac.org/certifications",
     "category": "Incident Handling",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -6640,7 +6640,7 @@
   {
     "id": "c209",
     "name": "GBFA",
-    "url": "https://www.giac.org/certification/gbfa",
+    "url": "https://www.giac.org/certifications",
     "category": "Forensics",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -6669,7 +6669,7 @@
   {
     "id": "c210",
     "name": "BTL1",
-    "url": "https://www.securityblue.team/why-btl1/",
+    "url": "https://www.securityblue.team/certifications/blue-team-level-1",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -6761,7 +6761,7 @@
   {
     "id": "c213",
     "name": "CPENT",
-    "url": "https://www.eccouncil.org/programs/certified-penetration-testing-professional-cpent/",
+    "url": "https://www.eccouncil.org/train-certify/certified-penetration-testing-professional-cpent-north-america/",
     "category": "Penetration Testing",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -6789,7 +6789,7 @@
   {
     "id": "c214",
     "name": "CREST CCTAPP",
-    "url": "https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-web-application-tester/",
+    "url": "https://www.crest-approved.org/skills-certifications-careers/crest-certified-web-application-tester/",
     "category": "Penetration Testing",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -6879,7 +6879,7 @@
   {
     "id": "c217",
     "name": "JNCIS Sec",
-    "url": "https://www.juniper.net/us/en/training/certification/certification-tracks/junos-security-track/?tab=jncisec",
+    "url": "https://www.juniper.net/us/en/training/certification.html?tab=jncisec",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -6912,7 +6912,7 @@
   {
     "id": "c218",
     "name": "GMLE",
-    "url": "https://www.giac.org/certifications/machine-learning-engineer-gmle/",
+    "url": "https://www.giac.org/certifications",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -6945,7 +6945,7 @@
   {
     "id": "c219",
     "name": "CREST CCHIA",
-    "url": "https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-host-intrusion-analyst",
+    "url": "https://www.crest-approved.org/skills-certifications-careers/",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -6979,7 +6979,7 @@
   {
     "id": "c220",
     "name": "EnCE",
-    "url": "https://www.opentext.com/products-and-solutions/services/training-and-learning-services/encase-training/examiner-certification",
+    "url": "https://www.opentext.com/learning-services/learning-paths-encase-certifications",
     "category": "Forensics",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -7008,7 +7008,7 @@
   {
     "id": "c221",
     "name": "ACE",
-    "url": "https://accessdata.com/training/computer-forensics-certification",
+    "url": "https://www.exterro.com/",
     "category": "Forensics",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -7037,7 +7037,7 @@
   {
     "id": "c222",
     "name": "eCIR",
-    "url": "https://security.ine.com/certifications/ecir-certification/",
+    "url": "https://ine.com/security/certifications/ecir-certification",
     "category": "Forensics",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -7066,7 +7066,7 @@
   {
     "id": "c223",
     "name": "C)IHE",
-    "url": "https://www.mile2.com/cihe_outline/",
+    "url": "https://mile2.com/cihe-course-outline/",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -7098,7 +7098,7 @@
   {
     "id": "c224",
     "name": "CSTL",
-    "url": "https://thecyberscheme.org/cyber-scheme-team-leader-cstl-exam/",
+    "url": "https://thecyberscheme.org/",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -7131,7 +7131,7 @@
   {
     "id": "c225",
     "name": "eCPPT",
-    "url": "https://security.ine.com/certifications/ecppt-certification/",
+    "url": "https://ine.com/security/certifications/ecppt-certification",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -7163,7 +7163,7 @@
   {
     "id": "c226",
     "name": "eWPT",
-    "url": "https://security.ine.com/certifications/ewpt-certification/",
+    "url": "https://ine.com/security/certifications/ewpt-certification",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -7195,7 +7195,7 @@
   {
     "id": "c227",
     "name": "CM)IPS",
-    "url": "https://www.mile2.com/master-certifications/",
+    "url": "https://mile2.com/master-certifications/",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -7227,7 +7227,7 @@
   {
     "id": "c228",
     "name": "PJMR",
-    "url": "https://certifications.tcm-sec.com/pjmr/",
+    "url": "https://certifications.tcm-sec.com/pmrp/",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -7316,7 +7316,7 @@
   {
     "id": "c231",
     "name": "CCNA",
-    "url": "https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/ccna.html",
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/certifications/enterprise/ccna/index.html",
     "category": "Communication and Network Security",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -7347,7 +7347,7 @@
   {
     "id": "c232",
     "name": "AZ-500",
-    "url": "https://docs.microsoft.com/en-us/learn/certifications/azure-security-engineer?wt.mc_id=learningredirect_certs-web-wwl",
+    "url": "https://learn.microsoft.com/en-us/learn/certifications/azure-security-engineer",
     "category": "Cloud/SysOps",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -7378,7 +7378,7 @@
   {
     "id": "c233",
     "name": "CSA CGC",
-    "url": "https://cloudsecurityalliance.org/education/cloud-governance-and-compliance/",
+    "url": "https://cloudsecurityalliance.org/education/",
     "category": "Security Operations",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -7410,7 +7410,7 @@
   {
     "id": "c234",
     "name": "VCP NV",
-    "url": "https://www.vmware.com/education-services/certification/vcp-nv-tracks.html",
+    "url": "https://www.broadcom.com/support/education/vmware/certification/",
     "category": "Cloud/SysOps",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -7441,7 +7441,7 @@
   {
     "id": "c235",
     "name": "CKAD",
-    "url": "https://www.cncf.io/certification/ckad/",
+    "url": "https://www.cncf.io/training/certification/ckad/",
     "category": "Cloud/SysOps",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -7472,7 +7472,7 @@
   {
     "id": "c236",
     "name": "LPIC-2",
-    "url": "https://www.lpi.org/our-certifications/lpic-2-overview",
+    "url": "https://www.lpi.org/our-certifications/lpic-2-overview/",
     "category": "*nix",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -7500,7 +7500,7 @@
   {
     "id": "c237",
     "name": "GCIP",
-    "url": "https://www.giac.org/certification/critical-infrastructure-protection-gcip",
+    "url": "https://www.giac.org/certifications",
     "category": "Security Operations",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -7534,7 +7534,7 @@
   {
     "id": "c238",
     "name": "CIMP",
-    "url": "https://www.identitymanagementinstitute.org/cimp/",
+    "url": "https://identitymanagementinstitute.org/cimp/",
     "category": "IAM",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -7563,7 +7563,7 @@
   {
     "id": "c239",
     "name": "CDP",
-    "url": "https://www.identitymanagementinstitute.org/cdp/",
+    "url": "https://identitymanagementinstitute.org/cdp/",
     "category": "IAM",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -7593,7 +7593,7 @@
   {
     "id": "c240",
     "name": "CCP",
-    "url": "https://ecfirst.biz/index.php?route=product/product&#038;path=59_83&#038;product_id=281",
+    "url": "https://ecfirst.biz/",
     "category": "Security Operations",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -7625,7 +7625,7 @@
   {
     "id": "c241",
     "name": "C)ISSO",
-    "url": "https://www.mile2.com/cisso_outline/",
+    "url": "https://mile2.com/cisso-course-outline/",
     "category": "GRC",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -7656,7 +7656,7 @@
   {
     "id": "c242",
     "name": "CIS RM",
-    "url": "https://www.itgovernance.co.uk/shop/product/iso-27005-certified-isms-risk-management",
+    "url": "https://uk.grcsolutions.io/",
     "category": "GRC",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -7688,7 +7688,7 @@
   {
     "id": "c243",
     "name": "EXIN 27001P",
-    "url": "https://www.exin.com/certifications/information-security-management-professional-based-isoiec-27001-exam",
+    "url": "https://www.exin.com/",
     "category": "Security Operations",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -7722,7 +7722,7 @@
   {
     "id": "c244",
     "name": "PECB 27032CM",
-    "url": "https://pecb.com/en/education-and-certification-for-individuals/iso-iec-27032/iso-iec-27032-lead-cyber-security-manager",
+    "url": "https://pecb.com/",
     "category": "GRC",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -7753,7 +7753,7 @@
   {
     "id": "c245",
     "name": "C)HISSP",
-    "url": "https://www.mile2.com/chissp_outline/",
+    "url": "https://mile2.com/chissp-course-outline/",
     "category": "GRC",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -7786,7 +7786,7 @@
   {
     "id": "c246",
     "name": "APMG 20000A",
-    "url": "https://apmg-international.com/product/iso-iec-20000",
+    "url": "https://apmg-international.com/product/isoiec-20000",
     "category": "GRC",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -7820,7 +7820,7 @@
   {
     "id": "c247",
     "name": "C)ISMS-LA",
-    "url": "https://www.mile2.com/cisms-la-li-outline/",
+    "url": "https://mile2.com/cisms-la-li-course-outline/",
     "category": "GRC",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -7853,7 +7853,7 @@
   {
     "id": "c248",
     "name": "CIS IA",
-    "url": "https://www.itgovernance.co.uk/shop/product/iso27001-certified-isms-internal-auditor-training-course",
+    "url": "https://uk.grcsolutions.io/",
     "category": "GRC",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -7948,7 +7948,7 @@
   {
     "id": "c251",
     "name": "Cisco COA",
-    "url": "https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/cyberops-associate.html",
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/certifications/cybersecurity/ccna-cybersecurity/index.html",
     "category": "Security Operations",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -7980,7 +7980,7 @@
   {
     "id": "c252",
     "name": "CHFI",
-    "url": "https://www.eccouncil.org/programs/computer-hacking-forensic-investigator-chfi/",
+    "url": "https://www.eccouncil.org/train-certify/computer-hacking-forensic-investigator-chfi-north-america/",
     "category": "Forensics",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -8050,7 +8050,7 @@
   {
     "id": "c254",
     "name": "ECIH",
-    "url": "https://www.eccouncil.org/programs/ec-council-certified-incident-handler-ecih/",
+    "url": "https://www.eccouncil.org/train-certify/ec-council-certified-incident-handler-ecih-north-america/",
     "category": "Incident Handling",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -8077,7 +8077,7 @@
   {
     "id": "c255",
     "name": "C)PSH",
-    "url": "https://www.mile2.com/cpSH_outline/",
+    "url": "https://mile2.com/cpsh-course-outline/",
     "category": "Security Operations",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -8109,7 +8109,7 @@
   {
     "id": "c256",
     "name": "CMWAPT",
-    "url": "https://app.infosecinstitute.com/portal/courses/a0tC0000000Fow6IAC",
+    "url": "https://www.infosecinstitute.com/",
     "category": "Security Operations",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -8141,7 +8141,7 @@
   {
     "id": "c257",
     "name": "C)PTC",
-    "url": "https://mile2.com/cptc_outline/",
+    "url": "https://mile2.com/cptc-course-outline/",
     "category": "Penetration Testing",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -8170,7 +8170,7 @@
   {
     "id": "c258",
     "name": "CRTOP",
-    "url": "https://app.infosecinstitute.com/portal/courses/a0t0y00000BK8IcAAL",
+    "url": "https://www.infosecinstitute.com/",
     "category": "Security Operations",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -8202,7 +8202,7 @@
   {
     "id": "c259",
     "name": "CSR",
-    "url": "https://cyberstruggle.org/ranger-certification/",
+    "url": "https://cyberstruggle.org/programs/ranger-certification/",
     "category": "Security Operations",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -8292,7 +8292,7 @@
   {
     "id": "c262",
     "name": "GCLD",
-    "url": "https://www.giac.org/certifications/cloud-security-essentials-gcld/",
+    "url": "https://www.giac.org/certifications",
     "category": "Cloud/SysOps",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -8354,7 +8354,7 @@
   {
     "id": "c264",
     "name": "EXIN PCSerM",
-    "url": "https://www.exin.com/certifications/ccc-professional-cloud-service-manager-exam",
+    "url": "https://www.exin.com/",
     "category": "Security Operations",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -8388,7 +8388,7 @@
   {
     "id": "c265",
     "name": "ISA CRAS",
-    "url": "https://www.isa.org/training-and-certifications/isa-certification/isa99iec-62443/isa99iec-62443-cybersecurity-certificate-programs/",
+    "url": "https://www.isa.org/certification/certificate-programs/isa-iec-62443-cybersecurity-certificate-program",
     "category": "ICS/IoT",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -8450,7 +8450,7 @@
   {
     "id": "c267",
     "name": "BCS PCIAA",
-    "url": "https://www.bcs.org/get-qualified/certifications-for-professionals/information-security-and-ccp-scheme-certifications/bcs-practitioner-certificate-in-information-assurance-architecture/",
+    "url": "https://www.bcs.org/",
     "category": "GRC",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -8481,7 +8481,7 @@
   {
     "id": "c268",
     "name": "CCSA",
-    "url": "https://ecfirst.biz/index.php?route=product/product&#038;path=59_61&#038;product_id=77",
+    "url": "https://ecfirst.biz/",
     "category": "Security Operations",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -8548,7 +8548,7 @@
   {
     "id": "c270",
     "name": "C)ISSM",
-    "url": "https://mile2.com/cissm_outline/",
+    "url": "https://mile2.com/ccssm-course-outline/",
     "category": "GRC",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -8616,7 +8616,7 @@
   {
     "id": "c272",
     "name": "CCRMP",
-    "url": "https://www.itgovernance.co.uk/shop/product/managing-cyber-security-risk-training-course",
+    "url": "https://uk.grcsolutions.io/product/managing-cyber-security-risk-training-course",
     "category": "GRC",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -8743,7 +8743,7 @@
   {
     "id": "c276",
     "name": "DevNet A",
-    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/certifications/devnet/associate/index.html",
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/certifications/automation/ccna-automation/index.html",
     "category": "Security Operations",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -8776,7 +8776,7 @@
   {
     "id": "c277",
     "name": "CySA+",
-    "url": "https://www.comptia.org/certifications/cybersecurity-analyst",
+    "url": "https://www.comptia.org/en-us/certifications/cybersecurity-analyst/",
     "category": "Security Operations",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -8817,7 +8817,7 @@
   {
     "id": "c278",
     "name": "CSX-P",
-    "url": "https://cybersecurity.isaca.org/csx-certifications/csx-practitioner-certification",
+    "url": "https://www.isaca.org/training-and-events/cybersecurity",
     "category": "Security Operations",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -8849,7 +8849,7 @@
   {
     "id": "c279",
     "name": "C)NFE",
-    "url": "https://www.mile2.com/network-forensics-examiner-outline/",
+    "url": "https://mile2.com/cnfe-course-outline/",
     "category": "Security Operations",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -8881,7 +8881,7 @@
   {
     "id": "c280",
     "name": "GOSI",
-    "url": "https://www.giac.org/certification/open-source-intelligence-gosi",
+    "url": "https://www.giac.org/certifications",
     "category": "Security Operations",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -8914,7 +8914,7 @@
   {
     "id": "c281",
     "name": "C)TIA",
-    "url": "https://www.mile2.com/threat-analyst/",
+    "url": "https://mile2.com/ctia-course-outline/",
     "category": "Security Operations",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -8947,7 +8947,7 @@
   {
     "id": "c282",
     "name": "OSDA",
-    "url": "https://www.offensive-security.com/soc200-osda/",
+    "url": "https://www.offsec.com/courses/soc-200/",
     "category": "Penetration Testing",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -8976,7 +8976,7 @@
   {
     "id": "c283",
     "name": "eMAPT",
-    "url": "https://security.ine.com/certifications/emapt-certification/",
+    "url": "https://ine.com/security/certifications/emapt-certification",
     "category": "Penetration Testing",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -9005,7 +9005,7 @@
   {
     "id": "c284",
     "name": "BSCP",
-    "url": "https://portswigger.net/web-security/certification",
+    "url": "https://portswigger.net/web-security",
     "category": "Penetration Testing",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -9066,7 +9066,7 @@
   {
     "id": "c286",
     "name": "OSWA",
-    "url": "https://www.offensive-security.com/web200-oswa/",
+    "url": "https://www.offsec.com/courses/web-200/",
     "category": "Penetration Testing",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -9095,7 +9095,7 @@
   {
     "id": "c287",
     "name": "CREA",
-    "url": "https://app.infosecinstitute.com/portal/courses/a0tC0000000Fp4IIAS",
+    "url": "https://www.infosecinstitute.com/",
     "category": "Security Operations",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -9161,7 +9161,7 @@
   {
     "id": "c289",
     "name": "CREST CCNIA",
-    "url": "https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-network-intrusion-analyst",
+    "url": "https://www.crest-approved.org/skills-certifications-careers/",
     "category": "Security Operations",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -9195,7 +9195,7 @@
   {
     "id": "c290",
     "name": "CIGE",
-    "url": "https://www.identitymanagementinstitute.org/cige/",
+    "url": "https://identitymanagementinstitute.org/cige/",
     "category": "IAM",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -9223,7 +9223,7 @@
   {
     "id": "c291",
     "name": "AZ-104",
-    "url": "https://docs.microsoft.com/en-us/learn/certifications/azure-administrator?wt.mc_id=learningredirect_certs-web-wwl",
+    "url": "https://learn.microsoft.com/en-us/learn/certifications/azure-administrator",
     "category": "Cloud/SysOps",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -9353,7 +9353,7 @@
   {
     "id": "c295",
     "name": "SFSA",
-    "url": "https://trailhead.salesforce.com/credentials/systemarchitect",
+    "url": "https://trailhead.salesforce.com/en/credentials",
     "category": "Security Operations",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -9418,7 +9418,7 @@
   {
     "id": "c297",
     "name": "CNDA",
-    "url": "https://www.eccouncil.org/programs/certified-network-defense-architect-cnda/",
+    "url": "https://www.eccouncil.org/train-certify/certified-network-defender-cnd-north-america/",
     "category": "Security Operations",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -9480,7 +9480,7 @@
   {
     "id": "c299",
     "name": "CISRM",
-    "url": "https://www.itgovernance.co.uk/shop/product/iso-27005-certified-isms-risk-management",
+    "url": "https://uk.grcsolutions.io/",
     "category": "Security Operations",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -9545,7 +9545,7 @@
   {
     "id": "c301",
     "name": "SSAP",
-    "url": "https://www.sans.org/security-awareness-training/career-development/credential/",
+    "url": "https://www.sans.org/cyber-security-certifications/sans-security-awareness-professional-credential",
     "category": "GRC",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -9736,7 +9736,7 @@
   {
     "id": "c307",
     "name": "IIA CIA",
-    "url": "https://na.theiia.org/certification/CIA-Certification/Pages/CIA-Certification.aspx",
+    "url": "https://www.theiia.org/en/certifications/cia/",
     "category": "Security Operations",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -9769,7 +9769,7 @@
   {
     "id": "c308",
     "name": "CCSC",
-    "url": "https://certnexus.com/certification/cyber-secure-coder/",
+    "url": "https://certnexus.com/cyber-secure-coder/",
     "category": "Security Operations",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -9801,7 +9801,7 @@
   {
     "id": "c309",
     "name": "SC-200",
-    "url": "https://docs.microsoft.com/en-us/learn/certifications/security-operations-analyst/",
+    "url": "https://learn.microsoft.com/en-us/credentials/certifications/security-operations-analyst/",
     "category": "Security Operations",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -9865,7 +9865,7 @@
   {
     "id": "c311",
     "name": "EDRP",
-    "url": "https://www.eccouncil.org/programs/disaster-recovery-professional-edrp/",
+    "url": "https://www.eccouncil.org/",
     "category": "Security Operations",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -9929,7 +9929,7 @@
   {
     "id": "c313",
     "name": "CFR",
-    "url": "https://certnexus.com/certification/cybersec-first-responder/",
+    "url": "https://certnexus.com/cybersec-first-responder-advanced/",
     "category": "Security Operations",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -9968,7 +9968,7 @@
   {
     "id": "c314",
     "name": "CTIA",
-    "url": "https://www.eccouncil.org/programs/certified-threat-intelligence-analyst-ctia/",
+    "url": "https://www.eccouncil.org/train-certify/certified-threat-intelligence-analyst-ctia/",
     "category": "Security Operations",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -10001,7 +10001,7 @@
   {
     "id": "c315",
     "name": "CSTM",
-    "url": "https://thecyberscheme.org/cyber-scheme-team-member-cstm-exam/",
+    "url": "https://thecyberscheme.org/",
     "category": "Security Operations",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -10033,7 +10033,7 @@
   {
     "id": "c316",
     "name": "eJPT",
-    "url": "https://ine.com/learning/certifications/internal/elearnsecurity-junior-penetration-tester-v2",
+    "url": "https://my.ine.com/certifications/",
     "category": "Penetration Testing",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -10061,7 +10061,7 @@
   {
     "id": "c317",
     "name": "S-EHP",
-    "url": "https://www.seco-institute.org/certifications/ethical-hacking-track/practitioner/",
+    "url": "https://www.dnv.com/training/path-ethical-hacking/",
     "category": "Security Operations",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -10126,7 +10126,7 @@
   {
     "id": "c319",
     "name": "CREST CPSA",
-    "url": "https://www.crest-approved.org/certification-careers/crest-certifications/crest-practitioner-security-analyst",
+    "url": "https://www.crest-approved.org/skills-certifications-careers/crest-practitioner-security-analyst/",
     "category": "Penetration Testing",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -10186,7 +10186,7 @@
   {
     "id": "c321",
     "name": "eNDP",
-    "url": "https://www.elearnsecurity.com/certification/endp/",
+    "url": "https://ine.com/security",
     "category": "Security Operations",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -10218,7 +10218,7 @@
   {
     "id": "c322",
     "name": "CIST",
-    "url": "https://www.identitymanagementinstitute.org/cist/",
+    "url": "https://identitymanagementinstitute.org/cist/",
     "category": "IAM",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -10246,7 +10246,7 @@
   {
     "id": "c323",
     "name": "Google PCSE",
-    "url": "https://cloud.google.com/certification/cloud-security-engineer",
+    "url": "https://cloud.google.com/learn/certification/cloud-security-engineer/",
     "category": "Cloud/SysOps",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -10278,7 +10278,7 @@
   {
     "id": "c324",
     "name": "EXIN PCSM",
-    "url": "https://www.exin.com/certifications/ccc-professional-cloud-security-manager-exam",
+    "url": "https://www.exin.com/",
     "category": "Security Operations",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -10371,7 +10371,7 @@
   {
     "id": "c327",
     "name": "ISA CAP",
-    "url": "https://www.isa.org/training-and-certifications/isa-certification/isa99iec-62443/isa99iec-62443-cybersecurity-certificate-programs/",
+    "url": "https://www.isa.org/certification/certificate-programs/isa-iec-62443-cybersecurity-certificate-program",
     "category": "ICS/IoT",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -10400,7 +10400,7 @@
   {
     "id": "c328",
     "name": "TUV COSM",
-    "url": "https://limessecurity.com/en/academy/ics-211/",
+    "url": "https://limessecurity.com/en/academy/trainings/ics-211/",
     "category": "Security Operations",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -10532,7 +10532,7 @@
   {
     "id": "c332",
     "name": "ISMI CSMP",
-    "url": "https://www.ismi.org.uk/csmp/csmp%C2%AE-overview.aspx",
+    "url": "https://www.ismi.org.uk/",
     "category": "Security Operations",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -10566,7 +10566,7 @@
   {
     "id": "c333",
     "name": "CSCS",
-    "url": "https://ecfirst.biz/index.php?route=product/product&#038;path=59_61&#038;product_id=89",
+    "url": "https://ecfirst.biz/",
     "category": "Security Operations",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -10600,7 +10600,7 @@
   {
     "id": "c334",
     "name": "APMG 27001F",
-    "url": "https://apmg-international.com/product/isoiec-27001",
+    "url": "https://apmg-international.com/product/iso-iec-27001",
     "category": "GRC",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -10665,7 +10665,7 @@
   {
     "id": "c336",
     "name": "C)SLO",
-    "url": "https://www.mile2.com/cslo_outline/",
+    "url": "https://mile2.com/cslo-course-outline/",
     "category": "Software Security",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -10797,7 +10797,7 @@
   {
     "id": "c340",
     "name": "C)SWAE",
-    "url": "https://www.mile2.com/cswae_outline/",
+    "url": "https://mile2.com/cswae-course-outline/",
     "category": "Software Security",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -10860,7 +10860,7 @@
   {
     "id": "c342",
     "name": "CSAE",
-    "url": "https://cyberstruggle.org/aegis-certification/",
+    "url": "https://cyberstruggle.org/programs/aegis-certification/",
     "category": "Security Operations",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -10924,75 +10924,9 @@
     ]
   },
   {
-    "id": "c344",
-    "name": "MAD SOCA",
-    "url": "https://mad20.io/mad/",
-    "category": "Security Operations",
-    "level": "Intermediate",
-    "niceWorkRoleIds": [
-      "PD-WRL-001",
-      "PD-WRL-003",
-      "IO-WRL-006",
-      "PD-WRL-006"
-    ],
-    "costUsd": null,
-    "costNote": "Contact MITRE Engenuity",
-    "dod8140": false,
-    "dodWorkRoleCodes": [],
-    "fullName": "MITRE ATT&CK Defender - SOC Analyst",
-    "vendor": "MITRE Engenuity",
-    "description": "Validates SOC operations using MITRE ATT&CK framework.",
-    "status": "active",
-    "statusNote": null,
-    "freeTraining": true,
-    "freeTrainingUrl": "https://mad20.io/",
-    "cisspDomains": [
-      "cissp-d1",
-      "cissp-d2",
-      "cissp-d6",
-      "cissp-d7"
-    ],
-    "regions": [
-      "Global"
-    ]
-  },
-  {
-    "id": "c345",
-    "name": "MAD CTI",
-    "url": "https://mad20.io/mad/",
-    "category": "Security Operations",
-    "level": "Intermediate",
-    "niceWorkRoleIds": [
-      "PD-WRL-001",
-      "PD-WRL-003",
-      "IO-WRL-006",
-      "PD-WRL-006"
-    ],
-    "costUsd": null,
-    "costNote": "Contact MITRE Engenuity",
-    "dod8140": false,
-    "dodWorkRoleCodes": [],
-    "fullName": "MITRE ATT&CK Defender - Cyber Threat Intelligence",
-    "vendor": "MITRE Engenuity",
-    "description": "Validates threat intelligence using MITRE ATT&CK framework.",
-    "status": "active",
-    "statusNote": null,
-    "freeTraining": true,
-    "freeTrainingUrl": "https://mad20.io/",
-    "cisspDomains": [
-      "cissp-d1",
-      "cissp-d2",
-      "cissp-d6",
-      "cissp-d7"
-    ],
-    "regions": [
-      "Global"
-    ]
-  },
-  {
     "id": "c346",
     "name": "CEH",
-    "url": "https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/",
+    "url": "https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh-v13-north-america/",
     "category": "Penetration Testing",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -11049,7 +10983,7 @@
   {
     "id": "c348",
     "name": "C)PTE",
-    "url": "https://www.mile2.com/penetration-testing-engineer-outline/",
+    "url": "https://mile2.com/cpte-course-outline/",
     "category": "Penetration Testing",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -11263,7 +11197,7 @@
   {
     "id": "c355",
     "name": "SC-300",
-    "url": "https://docs.microsoft.com/en-us/learn/certifications/identity-and-access-administrator/",
+    "url": "https://learn.microsoft.com/en-us/learn/certifications/identity-and-access-administrator/",
     "category": "IAM",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -11323,7 +11257,7 @@
   {
     "id": "c357",
     "name": "C)CSO",
-    "url": "https://mile2.com/ccso_outline/",
+    "url": "https://mile2.com/ccso-course-outline/",
     "category": "Security Operations",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -11355,7 +11289,7 @@
   {
     "id": "c358",
     "name": "DCA",
-    "url": "https://training.mirantis.com/dca-certification-exam/",
+    "url": "https://training.mirantis.com/certification/dca-certification-exam/",
     "category": "*nix",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -11383,7 +11317,7 @@
   {
     "id": "c359",
     "name": "LPIC-1",
-    "url": "https://www.lpi.org/our-certifications/lpic-1-overview",
+    "url": "https://www.lpi.org/our-certifications/lpic-1-overview/",
     "category": "*nix",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -11412,7 +11346,7 @@
   {
     "id": "c360",
     "name": "GICSP",
-    "url": "https://www.giac.org/certification/global-industrial-cyber-security-professional-gicsp",
+    "url": "https://www.giac.org/certifications",
     "category": "ICS/IoT",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -11444,7 +11378,7 @@
   {
     "id": "c361",
     "name": "GSEC",
-    "url": "https://www.giac.org/certification/security-essentials-gsec",
+    "url": "https://www.giac.org/certifications",
     "category": "Security Operations",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -11548,7 +11482,7 @@
   {
     "id": "c364",
     "name": "CSA",
-    "url": "https://www.eccouncil.org/programs/certified-soc-analyst-csa/",
+    "url": "https://www.eccouncil.org/train-certify/certified-soc-analyst-csa-north-america/",
     "category": "Security Operations",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -11581,7 +11515,7 @@
   {
     "id": "c365",
     "name": "GFACT",
-    "url": "https://www.giac.org/certifications/foundational-cybersecurity-technologies-gfact/",
+    "url": "https://www.giac.org/certifications",
     "category": "Security Operations",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -11616,7 +11550,7 @@
   {
     "id": "c366",
     "name": "SOG CMPen And",
-    "url": "https://secops.group/product/certified-mobile-pentester-cmpen-android/",
+    "url": "https://secops.group/",
     "category": "Security Operations",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -11712,7 +11646,7 @@
   {
     "id": "c369",
     "name": "Pentest+",
-    "url": "https://www.comptia.org/certifications/pentest",
+    "url": "https://www.comptia.org/en-us/certifications/pentest/",
     "category": "Penetration Testing",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -11749,7 +11683,7 @@
   {
     "id": "c370",
     "name": "CREST CSAS",
-    "url": "https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-simulated-attack-specialist",
+    "url": "https://www.crest-approved.org/skills-certifications-careers/",
     "category": "Penetration Testing",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -11779,7 +11713,7 @@
   {
     "id": "c371",
     "name": "ECES",
-    "url": "https://www.eccouncil.org/programs/ec-council-certified-encryption-specialist-eces/",
+    "url": "https://www.eccouncil.org/train-certify/ec-council-certified-encryption-specialist-eces/",
     "category": "Security Operations",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -11811,7 +11745,7 @@
   {
     "id": "c372",
     "name": "JNCIA Sec",
-    "url": "https://www.juniper.net/us/en/training/certification/certification-tracks/junos-security-track/?tab=jnciasec",
+    "url": "https://www.juniper.net/us/en/training/certification.html?tab=jnciasec",
     "category": "Security Operations",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -11904,7 +11838,7 @@
   {
     "id": "c375",
     "name": "Server+",
-    "url": "https://www.comptia.org/certifications/server",
+    "url": "https://www.comptia.org/en-us/certifications/server/",
     "category": "Security Operations",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -11968,7 +11902,7 @@
   {
     "id": "c377",
     "name": "EXIN PCD",
-    "url": "https://www.exin.com/certifications/ccc-professional-cloud-developer-exam",
+    "url": "https://www.exin.com/",
     "category": "Security Operations",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -12000,7 +11934,7 @@
   {
     "id": "c378",
     "name": "KCNA",
-    "url": "https://www.cncf.io/certification/kcna/",
+    "url": "https://www.cncf.io/training/certification/kcna/",
     "category": "Cloud/SysOps",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -12031,7 +11965,7 @@
   {
     "id": "c379",
     "name": "Linux+",
-    "url": "https://www.comptia.org/certifications/linux",
+    "url": "https://www.comptia.org/en-us/certifications/linux/",
     "category": "*nix",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -12060,7 +11994,7 @@
   {
     "id": "c380",
     "name": "AZ-220",
-    "url": "https://docs.microsoft.com/en-us/learn/certifications/azure-iot-developer-specialty?wt.mc_id=learningredirect_certs-web-wwl",
+    "url": "https://learn.microsoft.com/en-us/learn/certifications/azure-iot-developer-specialty",
     "category": "Cloud/SysOps",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -12091,7 +12025,7 @@
   {
     "id": "c381",
     "name": "CRFS",
-    "url": "https://www.identitymanagementinstitute.org/crfs/",
+    "url": "https://identitymanagementinstitute.org/crfs/",
     "category": "IAM",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -12225,7 +12159,7 @@
   {
     "id": "c385",
     "name": "CREST CPIA",
-    "url": "https://www.crest-approved.org/certification-careers/crest-certifications/crest-practitioner-intrusion-analyst",
+    "url": "https://www.crest-approved.org/skills-certifications-careers/crest-practitioner-intrusion-analyst/",
     "category": "Security Operations",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -12292,7 +12226,7 @@
   {
     "id": "c387",
     "name": "CREST CPTIA",
-    "url": "https://www.crest-approved.org/certification-careers/crest-certifications/crest-practitioner-threat-intelligence-analyst/",
+    "url": "https://www.crest-approved.org/skills-certifications-careers/crest-practitioner-threat-intelligence-analyst/",
     "category": "Security Operations",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -12359,7 +12293,7 @@
   {
     "id": "c389",
     "name": "C)PEH",
-    "url": "https://mile2.com/professional-ethical-hacker/",
+    "url": "https://mile2.com/cpeh-course-outline/",
     "category": "Penetration Testing",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -12480,7 +12414,7 @@
   {
     "id": "c393",
     "name": "CCT",
-    "url": "https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/entry/technician-cct.html",
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/certifications/technician/index.html",
     "category": "Security Operations",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -12512,7 +12446,7 @@
   {
     "id": "c394",
     "name": "Cloud+",
-    "url": "https://www.comptia.org/certifications/cloud",
+    "url": "https://www.comptia.org/en-us/certifications/cloud/",
     "category": "Cloud/SysOps",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -12637,7 +12571,7 @@
   {
     "id": "c398",
     "name": "ISA CFS",
-    "url": "https://www.isa.org/training-and-certifications/isa-certification/isa99iec-62443/isa99iec-62443-cybersecurity-certificate-programs/",
+    "url": "https://www.isa.org/certification/certificate-programs/isa-iec-62443-cybersecurity-certificate-program",
     "category": "ICS/IoT",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -12731,7 +12665,7 @@
   {
     "id": "c401",
     "name": "Security+",
-    "url": "https://www.comptia.org/certifications/security",
+    "url": "https://www.comptia.org/en-us/certifications/security/",
     "category": "Security Operations",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -12770,7 +12704,7 @@
   {
     "id": "c402",
     "name": "ECSS",
-    "url": "https://www.eccouncil.org/programs/certified-security-specialist-ecss/",
+    "url": "https://www.eccouncil.org/train-certify/certified-security-specialist-ecss/",
     "category": "Security Operations",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -12802,7 +12736,7 @@
   {
     "id": "c403",
     "name": "C)DFE",
-    "url": "https://www.mile2.com/cdfe_outline/",
+    "url": "https://mile2.com/cdfe-course-outline/",
     "category": "Security Operations",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -12834,7 +12768,7 @@
   {
     "id": "c404",
     "name": "S-SA",
-    "url": "https://www.seco-institute.org/get-trained/cyber-defense-track/associate-soc-analyst-certification/",
+    "url": "https://www.dnv.com/training/",
     "category": "Security Operations",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -12932,7 +12866,7 @@
   {
     "id": "c407",
     "name": "Net+",
-    "url": "https://www.comptia.org/certifications/network",
+    "url": "https://www.comptia.org/en-us/certifications/network/",
     "category": "Security Operations",
     "level": "Beginner",
     "niceWorkRoleIds": [
@@ -12965,7 +12899,7 @@
   {
     "id": "c408",
     "name": "CAMS",
-    "url": "https://www.identitymanagementinstitute.org/cams/",
+    "url": "https://identitymanagementinstitute.org/cams/",
     "category": "IAM",
     "level": "Beginner",
     "niceWorkRoleIds": [
@@ -12993,7 +12927,7 @@
   {
     "id": "c409",
     "name": "AZ-900",
-    "url": "https://docs.microsoft.com/en-us/learn/certifications/azure-fundamentals",
+    "url": "https://learn.microsoft.com/en-us/learn/certifications/azure-fundamentals",
     "category": "Cloud/SysOps",
     "level": "Beginner",
     "niceWorkRoleIds": [
@@ -13088,7 +13022,7 @@
   {
     "id": "c412",
     "name": "Apple ACSP",
-    "url": "https://training.apple.com/us/en/recognition",
+    "url": "https://support.apple.com/en-us",
     "category": "Security Operations",
     "level": "Beginner",
     "niceWorkRoleIds": [
@@ -13121,7 +13055,7 @@
   {
     "id": "c413",
     "name": "CACS",
-    "url": "https://www.exidacace.com/Apply/CACS",
+    "url": "https://www.exida.com/",
     "category": "Security Operations",
     "level": "Beginner",
     "niceWorkRoleIds": [
@@ -13154,7 +13088,7 @@
   {
     "id": "c414",
     "name": "TUV COSTE",
-    "url": "https://limessecurity.com/en/academy/ics-211/",
+    "url": "https://limessecurity.com/en/academy/trainings/ics-211/",
     "category": "ICS/IoT",
     "level": "Beginner",
     "niceWorkRoleIds": [
@@ -13184,7 +13118,7 @@
   {
     "id": "c415",
     "name": "EPDPF",
-    "url": "https://www.exin.com/certifications/exin-privacy-and-data-protection-foundation-exam",
+    "url": "https://www.exin.com/",
     "category": "Security Operations",
     "level": "Beginner",
     "niceWorkRoleIds": [
@@ -13217,7 +13151,7 @@
   {
     "id": "c416",
     "name": "TOGAF Fdn",
-    "url": "https://www.opengroup.org/certifications/togaf",
+    "url": "https://www.opengroup.org/certifications/togaf-certification-portfolio",
     "category": "Security Architecture and Engineering",
     "level": "Beginner",
     "niceWorkRoleIds": [
@@ -13281,7 +13215,7 @@
   {
     "id": "c418",
     "name": "IIBA CCA",
-    "url": "https://www.iiba.org/certification/iiba-certifications/specialized-business-analysis-certifications/certificate-in-cybersecurity-analysis/",
+    "url": "https://www.iiba.org/",
     "category": "Security Operations",
     "level": "Beginner",
     "niceWorkRoleIds": [
@@ -13313,7 +13247,7 @@
   {
     "id": "c419",
     "name": "CITGP",
-    "url": "https://www.itgovernance.co.uk/shop/product/implementing-it-governance-foundation-principles-training-course",
+    "url": "https://uk.grcsolutions.io/product/implementing-it-governance-foundation-principles-training-course",
     "category": "Security Operations",
     "level": "Beginner",
     "niceWorkRoleIds": [
@@ -13346,7 +13280,7 @@
   {
     "id": "c420",
     "name": "C)ISCAP",
-    "url": "https://www.mile2.com/iscap_outline/",
+    "url": "https://mile2.com/ciscap-course-outline/",
     "category": "Security Operations",
     "level": "Beginner",
     "niceWorkRoleIds": [
@@ -13379,7 +13313,7 @@
   {
     "id": "c421",
     "name": "CSAP",
-    "url": "https://app.infosecinstitute.com/portal/courses/a0t0y000009lTzjAAE",
+    "url": "https://www.infosecinstitute.com/",
     "category": "Security Operations",
     "level": "Beginner",
     "niceWorkRoleIds": [
@@ -13411,7 +13345,7 @@
   {
     "id": "c422",
     "name": "PECB 27032F",
-    "url": "https://pecb.com/en/education-and-certification-for-individuals/iso-iec-27032/iso-iec-27032-foundation",
+    "url": "https://pecb.com/",
     "category": "GRC",
     "level": "Beginner",
     "niceWorkRoleIds": [
@@ -13506,7 +13440,7 @@
   {
     "id": "c425",
     "name": "EXIN CIT",
-    "url": "https://www.exin.com/qualification-program/exin-cyber-and-it-security",
+    "url": "https://www.exin.com/",
     "category": "Security Operations",
     "level": "Beginner",
     "niceWorkRoleIds": [
@@ -13635,7 +13569,7 @@
   {
     "id": "c429",
     "name": "CSX-F",
-    "url": "https://www.itgovernance.co.uk/shop/product/cyber-incident-response-management-foundation-training-course",
+    "url": "https://uk.grcsolutions.io/product/cyber-incident-response-management-foundation-training-course",
     "category": "Security Operations",
     "level": "Beginner",
     "niceWorkRoleIds": [
@@ -13700,7 +13634,7 @@
   {
     "id": "c431",
     "name": "CIRM Fdn",
-    "url": "https://www.itgovernance.co.uk/shop/product/cyber-incident-response-management-foundation-training-course",
+    "url": "https://uk.grcsolutions.io/product/cyber-incident-response-management-foundation-training-course",
     "category": "Incident Handling",
     "level": "Beginner",
     "niceWorkRoleIds": [
@@ -13727,7 +13661,7 @@
   {
     "id": "c432",
     "name": "EEHF",
-    "url": "https://www.exin.com/certifications/exin-ethical-hacking-foundation-exam",
+    "url": "https://www.exin.com/",
     "category": "Security Operations",
     "level": "Beginner",
     "niceWorkRoleIds": [
@@ -13759,7 +13693,7 @@
   {
     "id": "c433",
     "name": "S-EHF",
-    "url": "https://www.seco-institute.org/certifications/ethical-hacking-certification-track/ethical-hacking-foundation/",
+    "url": "https://www.dnv.com/training/path-ethical-hacking/",
     "category": "Security Operations",
     "level": "Beginner",
     "niceWorkRoleIds": [
@@ -13888,7 +13822,7 @@
   {
     "id": "c437",
     "name": "EXIN PCA",
-    "url": "https://www.exin.com/certifications/ccc-professional-cloud-administrator-exam",
+    "url": "https://www.exin.com/",
     "category": "Security Operations",
     "level": "Beginner",
     "niceWorkRoleIds": [
@@ -13921,7 +13855,7 @@
   {
     "id": "c438",
     "name": "A+",
-    "url": "https://www.comptia.org/certifications/a",
+    "url": "https://www.comptia.org/en-us/certifications/a/core-1-v15/",
     "category": "Security Operations",
     "level": "Beginner",
     "niceWorkRoleIds": [
@@ -13959,7 +13893,7 @@
   {
     "id": "c439",
     "name": "CIOTSP",
-    "url": "https://certnexus.com/certification/ciotsp/",
+    "url": "https://certnexus.com/",
     "category": "Security Operations",
     "level": "Beginner",
     "niceWorkRoleIds": [
@@ -13991,7 +13925,7 @@
   {
     "id": "c440",
     "name": "TUV COSP",
-    "url": "https://limessecurity.com/en/academy/ics-201/",
+    "url": "https://limessecurity.com/en/academy/trainings/ics-201/",
     "category": "ICS/IoT",
     "level": "Beginner",
     "niceWorkRoleIds": [
@@ -14021,7 +13955,7 @@
   {
     "id": "c441",
     "name": "EPDPE",
-    "url": "https://www.exin.com/certifications/exin-privacy-and-data-protection-essentials-exam",
+    "url": "https://www.exin.com/",
     "category": "Security Operations",
     "level": "Beginner",
     "niceWorkRoleIds": [
@@ -14085,7 +14019,7 @@
   {
     "id": "c443",
     "name": "Fair Fdn",
-    "url": "https://risklens-academy.myshopify.com/collections/popular-courses/products/fair-analysis-fundamentals-2",
+    "url": "https://safe.security/",
     "category": "Security Operations",
     "level": "Beginner",
     "niceWorkRoleIds": [
@@ -14151,7 +14085,7 @@
   {
     "id": "c445",
     "name": "APMG 20000F",
-    "url": "https://apmg-international.com/product/iso-20000",
+    "url": "https://apmg-international.com/product/isoiec-20000",
     "category": "GRC",
     "level": "Beginner",
     "niceWorkRoleIds": [
@@ -14184,7 +14118,7 @@
   {
     "id": "c446",
     "name": "ISMI CSM",
-    "url": "https://www.ismi.org.uk/csmp/certified-security-manager%C2%AE",
+    "url": "https://www.ismi.org.uk/",
     "category": "Security Operations",
     "level": "Beginner",
     "niceWorkRoleIds": [
@@ -14218,7 +14152,7 @@
   {
     "id": "c447",
     "name": "BCS FISMP",
-    "url": "https://www.bcs.org/get-qualified/certifications-for-professionals/information-security-and-ccp-scheme-certifications/bcs-foundation-certificate-in-information-security-management-principles/",
+    "url": "https://www.bcs.org/",
     "category": "GRC",
     "level": "Beginner",
     "niceWorkRoleIds": [
@@ -14281,7 +14215,7 @@
   {
     "id": "c449",
     "name": "S-ISF",
-    "url": "https://www.seco-institute.org/certifications/information-security-certification-track/",
+    "url": "https://www.dnv.com/training/",
     "category": "Security Operations",
     "level": "Beginner",
     "niceWorkRoleIds": [
@@ -14313,7 +14247,7 @@
   {
     "id": "c450",
     "name": "GISF",
-    "url": "https://www.giac.org/certification/information-security-fundamentals-gisf",
+    "url": "https://www.giac.org/certifications",
     "category": "Security Operations",
     "level": "Beginner",
     "niceWorkRoleIds": [
@@ -14408,7 +14342,7 @@
   {
     "id": "c453",
     "name": "C)SP",
-    "url": "https://www.mile2.com/csp_outline/",
+    "url": "https://mile2.com/csp-course-outline/",
     "category": "Security Operations",
     "level": "Beginner",
     "niceWorkRoleIds": [
@@ -14440,7 +14374,7 @@
   {
     "id": "c454",
     "name": "CND",
-    "url": "https://www.eccouncil.org/programs/certified-network-defender-cnd/",
+    "url": "https://www.eccouncil.org/train-certify/certified-network-defender-cnd-north-america/",
     "category": "Security Operations",
     "level": "Beginner",
     "niceWorkRoleIds": [
@@ -14475,7 +14409,7 @@
   {
     "id": "c455",
     "name": "C)VA",
-    "url": "https://www.mile2.com/vulnerability-assessor-outline/",
+    "url": "https://mile2.com/cva-course-outline/",
     "category": "Security Operations",
     "level": "Beginner",
     "niceWorkRoleIds": [
@@ -14507,7 +14441,7 @@
   {
     "id": "c456",
     "name": "KLCP",
-    "url": "https://kali.training/klcp/",
+    "url": "https://www.kali.org/blog/",
     "category": "Security Operations",
     "level": "Beginner",
     "niceWorkRoleIds": [
@@ -14539,7 +14473,7 @@
   {
     "id": "c457",
     "name": "SC-900",
-    "url": "https://docs.microsoft.com/en-us/learn/certifications/security-compliance-and-identity-fundamentals/",
+    "url": "https://learn.microsoft.com/en-us/learn/certifications/security-compliance-and-identity-fundamentals/",
     "category": "Security Operations",
     "level": "Beginner",
     "niceWorkRoleIds": [
@@ -14571,7 +14505,7 @@
   {
     "id": "c458",
     "name": "Cloud Essnt",
-    "url": "https://www.comptia.org/certifications/cloud-essentials",
+    "url": "https://www.comptia.org/en-us/certifications/cloud-essentials/",
     "category": "Cloud/SysOps",
     "level": "Beginner",
     "niceWorkRoleIds": [
@@ -14638,7 +14572,7 @@
   {
     "id": "c460",
     "name": "Project+",
-    "url": "https://www.comptia.org/certifications/project",
+    "url": "https://www.comptia.org/en-us/certifications/project/",
     "category": "Security Operations",
     "level": "Beginner",
     "niceWorkRoleIds": [
@@ -14672,7 +14606,7 @@
   {
     "id": "c461",
     "name": "CIISec ICSF",
-    "url": "https://www.ciisec.org/ICSF_Exam",
+    "url": "https://www.ciisec.org/",
     "category": "Security Operations",
     "level": "Beginner",
     "niceWorkRoleIds": [
@@ -14704,7 +14638,7 @@
   {
     "id": "c462",
     "name": "FEXIN",
-    "url": "https://www.exin.com/certifications/information-security-foundation-based-iso-iec-27001-exam?language_content_entity=en",
+    "url": "https://www.exin.com/",
     "category": "Security Operations",
     "level": "Beginner",
     "niceWorkRoleIds": [
@@ -14738,7 +14672,7 @@
   {
     "id": "c463",
     "name": "EXIN 27001F",
-    "url": "https://www.exin.com/certifications/information-security-foundation-based-iso-iec-27001-exam",
+    "url": "https://www.exin.com/",
     "category": "Security Operations",
     "level": "Beginner",
     "niceWorkRoleIds": [
@@ -14802,7 +14736,7 @@
   {
     "id": "c465",
     "name": "C CS F",
-    "url": "https://www.itgovernance.co.uk/shop/product/certified-cyber-security-foundation-training-course",
+    "url": "https://uk.grcsolutions.io/product/certified-cyber-security-foundation-training-course",
     "category": "Security Operations",
     "level": "Beginner",
     "niceWorkRoleIds": [
@@ -14834,7 +14768,7 @@
   {
     "id": "c466",
     "name": "CIS F",
-    "url": "https://www.itgovernance.co.uk/shop/product/certified-iso-27001-isms-foundation-training-course",
+    "url": "https://uk.grcsolutions.io/",
     "category": "Security Operations",
     "level": "Beginner",
     "niceWorkRoleIds": [
@@ -14868,7 +14802,7 @@
   {
     "id": "c467",
     "name": "S-SPF",
-    "url": "https://www.seco-institute.org/certifications/secure-software-certification-track/secure-programming-foundation/",
+    "url": "https://www.dnv.com/training/path-secure-software/",
     "category": "Software Security",
     "level": "Beginner",
     "niceWorkRoleIds": [
@@ -14898,7 +14832,7 @@
   {
     "id": "c468",
     "name": "CSCU",
-    "url": "https://www.eccouncil.org/Certification/certified-secure-computer-user",
+    "url": "https://www.eccouncil.org/train-certify/certified-secure-computer-user-cscu/",
     "category": "Security Operations",
     "level": "Beginner",
     "niceWorkRoleIds": [
@@ -15379,7 +15313,7 @@
     "fullName": "Oracle Cloud Infrastructure Foundations Associate",
     "vendor": "Oracle",
     "description": "Validates fundamental OCI and cloud concepts.",
-    "url": "https://education.oracle.com/oracle-cloud-infrastructure-foundations",
+    "url": "https://education.oracle.com/",
     "category": "Cloud/SysOps",
     "level": "Beginner",
     "niceWorkRoleIds": [],
@@ -15460,7 +15394,7 @@
     "fullName": "Oracle Cloud Infrastructure Security Professional",
     "vendor": "Oracle",
     "description": "Validates identity, network security, data protection, and security operations on OCI.",
-    "url": "https://education.oracle.com/oracle-cloud-infrastructure-2025-certified-security-professional",
+    "url": "https://education.oracle.com/",
     "category": "Security Operations",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -15544,7 +15478,7 @@
     "fullName": "Google Cloud Digital Leader",
     "vendor": "Google Cloud",
     "description": "Validates broad knowledge of Google Cloud products and cloud use cases.",
-    "url": "https://cloud.google.com/certification/cloud-digital-leader",
+    "url": "https://cloud.google.com/learn/certification/cloud-digital-leader/",
     "category": "Cloud/SysOps",
     "level": "Beginner",
     "niceWorkRoleIds": [],
@@ -15599,7 +15533,7 @@
     "fullName": "Google Professional Cloud Network Engineer",
     "vendor": "Google Cloud",
     "description": "Validates design and management of network architectures on Google Cloud.",
-    "url": "https://cloud.google.com/certification/cloud-network-engineer",
+    "url": "https://cloud.google.com/learn/certification/cloud-network-engineer/",
     "category": "Communication and Network Security",
     "level": "Expert",
     "niceWorkRoleIds": [],
@@ -15624,7 +15558,7 @@
     "fullName": "Google Professional Cloud DevOps Engineer",
     "vendor": "Google Cloud",
     "description": "Validates CI/CD, SRE practices, and deployment pipelines on Google Cloud.",
-    "url": "https://cloud.google.com/certification/cloud-devops-engineer",
+    "url": "https://cloud.google.com/learn/certification/cloud-devops-engineer/",
     "category": "Cloud/SysOps",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -15653,7 +15587,7 @@
     "fullName": "Google Professional Cloud Developer",
     "vendor": "Google Cloud",
     "description": "Validates building scalable cloud-native applications on Google Cloud.",
-    "url": "https://cloud.google.com/certification/cloud-developer",
+    "url": "https://cloud.google.com/learn/certification/cloud-developer/",
     "category": "Cloud/SysOps",
     "level": "Expert",
     "niceWorkRoleIds": [],
@@ -15680,7 +15614,7 @@
     "fullName": "Google Professional Data Engineer",
     "vendor": "Google Cloud",
     "description": "Validates design of data processing systems and ML models on Google Cloud.",
-    "url": "https://cloud.google.com/certification/data-engineer",
+    "url": "https://cloud.google.com/learn/certification/data-engineer/",
     "category": "Cloud/SysOps",
     "level": "Expert",
     "niceWorkRoleIds": [],
@@ -15707,7 +15641,7 @@
     "fullName": "Kubernetes and Cloud Native Security Associate",
     "vendor": "CNCF / Linux Foundation",
     "description": "Validates foundational Kubernetes security and cluster hardening knowledge.",
-    "url": "https://training.linuxfoundation.org/certification/kubernetes-and-cloud-native-security-associate-kcsa",
+    "url": "https://training.linuxfoundation.org/certification/kubernetes-and-cloud-native-security-associate-kcsa/",
     "category": "Security Operations",
     "level": "Beginner",
     "niceWorkRoleIds": [],
@@ -15735,7 +15669,7 @@
     "fullName": "Certified Cloud Native Platform Engineer",
     "vendor": "CNCF / Linux Foundation",
     "description": "Validates design, security, and operation of cloud-native platforms.",
-    "url": "https://training.linuxfoundation.org/certification/certified-cloud-native-platform-engineer-cnpe",
+    "url": "https://training.linuxfoundation.org/certification/certified-cloud-native-platform-engineer-cnpe/",
     "category": "Cloud/SysOps",
     "level": "Intermediate",
     "niceWorkRoleIds": [],
@@ -15762,7 +15696,7 @@
     "fullName": "Cloud Native Platform Engineering Associate",
     "vendor": "CNCF / Linux Foundation",
     "description": "Validates platform automation and developer experience fundamentals.",
-    "url": "https://training.linuxfoundation.org/certification/certified-cloud-native-platform-engineering-associate-cnpa",
+    "url": "https://training.linuxfoundation.org/certification/certified-cloud-native-platform-engineering-associate-cnpa/",
     "category": "Cloud/SysOps",
     "level": "Beginner",
     "niceWorkRoleIds": [],
@@ -15789,7 +15723,7 @@
     "fullName": "Prometheus Certified Associate",
     "vendor": "CNCF / Linux Foundation",
     "description": "Validates observability and monitoring skills with Prometheus.",
-    "url": "https://training.linuxfoundation.org/certification/prometheus-certified-associate",
+    "url": "https://training.linuxfoundation.org/certification/prometheus-certified-associate/",
     "category": "Cloud/SysOps",
     "level": "Beginner",
     "niceWorkRoleIds": [],
@@ -15816,7 +15750,7 @@
     "fullName": "Istio Certified Associate",
     "vendor": "CNCF / Linux Foundation",
     "description": "Validates service mesh fundamentals and Istio setup and operations.",
-    "url": "https://training.linuxfoundation.org/certification/istio-certified-associate-ica",
+    "url": "https://training.linuxfoundation.org/certification/istio-certified-associate-ica/",
     "category": "Communication and Network Security",
     "level": "Intermediate",
     "niceWorkRoleIds": [],
@@ -15841,7 +15775,7 @@
     "fullName": "Cilium Certified Associate",
     "vendor": "CNCF / Linux Foundation",
     "description": "Validates networking, security, and observability skills with Cilium.",
-    "url": "https://training.linuxfoundation.org/certification/cilium-certified-associate-cca",
+    "url": "https://training.linuxfoundation.org/certification/cilium-certified-associate-cca/",
     "category": "Communication and Network Security",
     "level": "Beginner",
     "niceWorkRoleIds": [],
@@ -15866,7 +15800,7 @@
     "fullName": "Kyverno Certified Associate",
     "vendor": "CNCF / Linux Foundation",
     "description": "Validates policy-based management and security for Kubernetes clusters.",
-    "url": "https://training.linuxfoundation.org/certification/kyverno-certified-associate-kca",
+    "url": "https://training.linuxfoundation.org/certification/kyverno-certified-associate-kca/",
     "category": "Security Operations",
     "level": "Beginner",
     "niceWorkRoleIds": [],
@@ -15894,7 +15828,7 @@
     "fullName": "Certified Argo Project Associate",
     "vendor": "CNCF / Linux Foundation",
     "description": "Validates Argo CD, Workflows, Events, and Rollouts skills.",
-    "url": "https://training.linuxfoundation.org/certification/certified-argo-project-associate-capa",
+    "url": "https://training.linuxfoundation.org/certification/certified-argo-project-associate-capa/",
     "category": "Cloud/SysOps",
     "level": "Beginner",
     "niceWorkRoleIds": [],
@@ -15921,7 +15855,7 @@
     "fullName": "Certified GitOps Associate",
     "vendor": "CNCF / Linux Foundation",
     "description": "Validates GitOps principles and managed deployment practices.",
-    "url": "https://training.linuxfoundation.org/certification/certified-gitops-associate-cgoa",
+    "url": "https://training.linuxfoundation.org/certification/certified-gitops-associate-cgoa/",
     "category": "Cloud/SysOps",
     "level": "Beginner",
     "niceWorkRoleIds": [],
@@ -15948,7 +15882,7 @@
     "fullName": "Certified Backstage Associate",
     "vendor": "CNCF / Linux Foundation",
     "description": "Validates developer portal skills with Backstage.",
-    "url": "https://training.linuxfoundation.org/certification/certified-backstage-associate-cba",
+    "url": "https://training.linuxfoundation.org/certification/certified-backstage-associate-cba/",
     "category": "Cloud/SysOps",
     "level": "Beginner",
     "niceWorkRoleIds": [],
@@ -16265,7 +16199,7 @@
     "fullName": "HashiCorp Certified: Consul Associate",
     "vendor": "HashiCorp",
     "description": "Validates service discovery, service mesh, and networking concepts with Consul.",
-    "url": "https://developer.hashicorp.com/certifications/networking-automation",
+    "url": "https://developer.hashicorp.com/certifications/security-automation",
     "category": "Communication and Network Security",
     "level": "Beginner",
     "niceWorkRoleIds": [],
@@ -17089,7 +17023,7 @@
     "fullName": "AWS Certified Database - Specialty",
     "vendor": "Amazon Web Services",
     "description": "Validates database design, migration, and management on AWS.",
-    "url": "https://aws.amazon.com/certification/certified-database-specialty/",
+    "url": "https://aws.amazon.com/certification/",
     "category": "Cloud/SysOps",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -17813,7 +17747,7 @@
     "fullName": "Wiz Certified Cloud Fundamentals",
     "vendor": "Wiz",
     "description": "Validates deployment and management of Wiz Cloud for CSPM, CNAPP, and compliance.",
-    "url": "https://wiz.io/wiz-certified/cloud-fundamentals-exam",
+    "url": "https://www.wiz.io/wiz-certified/cloud-fundamentals-exam",
     "category": "Cloud/SysOps",
     "level": "Beginner",
     "niceWorkRoleIds": [],
@@ -17840,7 +17774,7 @@
     "fullName": "Wiz Certified Defend Fundamentals",
     "vendor": "Wiz",
     "description": "Validates deployment and use of Wiz Defend for cloud threat detection and response.",
-    "url": "https://wiz.io/wiz-certified/wiz-certified-defend-fundamentals-exam",
+    "url": "https://www.wiz.io/wiz-certified/wiz-certified-defend-fundamentals-exam",
     "category": "Security Operations",
     "level": "Beginner",
     "niceWorkRoleIds": [],
@@ -17868,7 +17802,7 @@
     "fullName": "Databricks Certified Data Engineer Associate",
     "vendor": "Databricks",
     "description": "Validates introductory data engineering on the Databricks Lakehouse platform.",
-    "url": "https://databricks.com/learn/certification/data-engineer-associate",
+    "url": "https://www.databricks.com/learn/certification/data-engineer-associate",
     "category": "Cloud/SysOps",
     "level": "Beginner",
     "niceWorkRoleIds": [],
@@ -17895,7 +17829,7 @@
     "fullName": "Databricks Certified Data Engineer Professional",
     "vendor": "Databricks",
     "description": "Validates advanced production data engineering solutions on Databricks.",
-    "url": "https://databricks.com/learn/certification/data-engineer-professional",
+    "url": "https://www.databricks.com/learn/certification/data-engineer-professional",
     "category": "Cloud/SysOps",
     "level": "Expert",
     "niceWorkRoleIds": [],
@@ -17922,7 +17856,7 @@
     "fullName": "Databricks Certified Generative AI Engineer Associate",
     "vendor": "Databricks",
     "description": "Validates design and implementation of LLM-enabled solutions on Databricks.",
-    "url": "https://databricks.com/learn/certification/genai-engineer-associate",
+    "url": "https://www.databricks.com/learn/certification/genai-engineer-associate",
     "category": "Software Security",
     "level": "Beginner",
     "niceWorkRoleIds": [],
@@ -17948,7 +17882,7 @@
     "fullName": "Databricks Certified Machine Learning Professional",
     "vendor": "Databricks",
     "description": "Validates enterprise-scale ML solutions with MLOps and Model Serving.",
-    "url": "https://databricks.com/learn/certification/machine-learning-professional",
+    "url": "https://www.databricks.com/learn/certification/machine-learning-professional",
     "category": "Cloud/SysOps",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -17977,7 +17911,7 @@
     "fullName": "Databricks Platform Administrator Accreditation",
     "vendor": "Databricks",
     "description": "Validates administration of Lakehouse Platform with Unity Catalog.",
-    "url": "https://databricks.com/learn/certification/platform-administrator-accreditation",
+    "url": "https://www.databricks.com/learn/certification/platform-administrator-accreditation",
     "category": "Cloud/SysOps",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -18085,7 +18019,7 @@
     "fullName": "SnowPro Advanced: Architect",
     "vendor": "Snowflake",
     "description": "Validates role-based architect skills for Snowflake solution design.",
-    "url": "https://learn.snowflake.com/en/certifications/snowpro-advanced-architect",
+    "url": "https://learn.snowflake.com/en/certifications/snowpro-advanced-architect/",
     "category": "Security Architecture and Engineering",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -18248,7 +18182,7 @@
     "fullName": "Citrix Certified Associate - Virtualization",
     "vendor": "Citrix",
     "description": "Validates Citrix Virtual Apps and Desktops 7 administration skills.",
-    "url": "https://www.citrix.com/training-and-certifications",
+    "url": "https://www.citrix.com/training-and-certifications/",
     "category": "Cloud/SysOps",
     "level": "Beginner",
     "niceWorkRoleIds": [],
@@ -18275,7 +18209,7 @@
     "fullName": "Citrix Certified Professional - Virtualization",
     "vendor": "Citrix",
     "description": "Validates advanced Citrix Virtual Apps and Desktops 7 administration.",
-    "url": "https://www.citrix.com/training-and-certifications",
+    "url": "https://www.citrix.com/training-and-certifications/",
     "category": "Cloud/SysOps",
     "level": "Intermediate",
     "niceWorkRoleIds": [],
@@ -18302,7 +18236,7 @@
     "fullName": "Citrix Certified Associate - App Delivery and Security",
     "vendor": "Citrix",
     "description": "Validates deployment and management of NetScaler for traffic management.",
-    "url": "https://www.citrix.com/training-and-certifications",
+    "url": "https://www.citrix.com/training-and-certifications/",
     "category": "Communication and Network Security",
     "level": "Beginner",
     "niceWorkRoleIds": [],
@@ -18464,7 +18398,7 @@
     "fullName": "Zero Trust Certified Associate",
     "vendor": "Zscaler",
     "description": "Foundational zero trust concepts, architecture stages, and Zscaler solutions.",
-    "url": "https://www.zscaler.com/zscaler-academy/ztca-zero-trust-certified-associate",
+    "url": "https://www.zscaler.com/zscaler-cyber-academy/ztca-zero-trust-cyber-associate",
     "category": "Security Architecture and Engineering",
     "level": "Beginner",
     "niceWorkRoleIds": [
@@ -18493,7 +18427,7 @@
     "fullName": "Zscaler Digital Transformation Administrator",
     "vendor": "Zscaler",
     "description": "Deploy, manage, and optimize ZIA, ZPA, and ZDX on the Zero Trust Exchange.",
-    "url": "https://www.zscaler.com/zscaler-academy/zscaler-certification",
+    "url": "https://www.zscaler.com/zscaler-cyber-academy/zscaler-certification",
     "category": "Cloud/SysOps",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -18846,7 +18780,7 @@
     "fullName": "Salesforce Certified Platform Identity and Access Management Architect",
     "vendor": "Salesforce",
     "description": "Architect-level design of identity and SSO solutions on Salesforce Platform.",
-    "url": "https://trailhead.salesforce.com/credentials/identityandaccessmanagementarchitect",
+    "url": "https://trailhead.salesforce.com/en/credentials",
     "category": "IAM",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -18875,7 +18809,7 @@
     "fullName": "Salesforce Certified Sharing and Visibility Architect",
     "vendor": "Salesforce",
     "description": "Design sharing and visibility security requirements on Salesforce Platform.",
-    "url": "https://trailhead.salesforce.com/en/credentials/sharingandvisibilityarchitect",
+    "url": "https://trailhead.salesforce.com/en/credentials",
     "category": "Security Architecture and Engineering",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -18962,7 +18896,7 @@
     "fullName": "GitHub Administration Certification",
     "vendor": "Microsoft / GitHub",
     "description": "Managing and optimizing a healthy GitHub environment for organizations.",
-    "url": "https://learn.microsoft.com/en-us/credentials/certifications/github-admin/",
+    "url": "https://learn.microsoft.com/en-us/credentials/browse/",
     "category": "Cloud/SysOps",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -19021,7 +18955,7 @@
     "fullName": "OneTrust Professional Certification",
     "vendor": "OneTrust",
     "description": "Comprehensive certification covering the full OneTrust privacy platform.",
-    "url": "https://www.onetrust.com/certifications/privacy-management-professional-certification",
+    "url": "https://www.onetrust.com/certifications/",
     "category": "GRC",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -19051,7 +18985,7 @@
     "fullName": "OneTrust Privacy Management Professional",
     "vendor": "OneTrust",
     "description": "Privacy management operations; qualifies for 4.5 IAPP CPE credits.",
-    "url": "https://www.onetrust.com/certifications/privacy-management-professional-certification",
+    "url": "https://www.onetrust.com/certifications/",
     "category": "GRC",
     "level": "Intermediate",
     "niceWorkRoleIds": [
@@ -19083,7 +19017,7 @@
     "fullName": "OneTrust GRC Solutions Expert",
     "vendor": "OneTrust",
     "description": "Expert-level governance, risk, and compliance solutions on OneTrust.",
-    "url": "https://www.onetrust.com/certifications/part-2-onetrust-professional-certification",
+    "url": "https://www.onetrust.com/certifications/",
     "category": "GRC",
     "level": "Expert",
     "niceWorkRoleIds": [
@@ -19113,7 +19047,7 @@
     "fullName": "OneTrust Vendor Risk Management Expert",
     "vendor": "OneTrust",
     "description": "Third-party risk assessment and vendor risk management on OneTrust.",
-    "url": "https://www.onetrust.com/certifications/part-2-onetrust-professional-certification",
+    "url": "https://www.onetrust.com/certifications/",
     "category": "GRC",
     "level": "Expert",
     "niceWorkRoleIds": [

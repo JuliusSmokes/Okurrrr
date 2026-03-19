@@ -410,7 +410,7 @@
     "id": "fr019",
     "name": "edX Cybersecurity MicroMasters (RIT)",
     "provider": "RIT/edX",
-    "url": "https://www.edx.org/micromasters/ritx-cybersecurity",
+    "url": "https://www.edx.org/masters/micromasters/ritx-cybersecurity",
     "description": "Free audit of RIT's MicroMasters covering network security, forensics, and risk management.",
     "category": "Courses",
     "tags": [
@@ -434,7 +434,7 @@
     "id": "fr020",
     "name": "Cisco Networking Academy",
     "provider": "Cisco",
-    "url": "https://www.netacad.com/courses/cybersecurity",
+    "url": "https://www.netacad.com/cybersecurity",
     "description": "Free cybersecurity courses including Introduction to Cybersecurity and Cybersecurity Essentials.",
     "category": "Courses",
     "tags": [
@@ -503,7 +503,7 @@
     "id": "fr023",
     "name": "EC-Council CodeRed",
     "provider": "EC-Council",
-    "url": "https://codered.eccouncil.org/",
+    "url": "https://coderedpro.com/",
     "description": "Free cybersecurity courses and CTF challenges from EC-Council covering ethical hacking and defense.",
     "category": "CTFs",
     "tags": [
@@ -1069,7 +1069,7 @@
     "id": "fr048",
     "name": "Damn Vulnerable LLM Agent",
     "provider": "OWASP",
-    "url": "https://github.com/WithSecureLabs/damn-vulnerable-llm-agent",
+    "url": "https://github.com/ReversecLabs/damn-vulnerable-llm-agent",
     "description": "Vulnerable AI application for learning OWASP LLM Top 10 vulnerabilities including prompt injection.",
     "category": "Labs",
     "tags": [
@@ -1269,7 +1269,7 @@
     "id": "fr057",
     "name": "Chef InSpec",
     "provider": "Chef",
-    "url": "https://www.chef.io/products/chef-inspec",
+    "url": "https://www.chef.io/products/chef-compliance",
     "description": "Open-source compliance and security testing framework. Write human-readable tests to validate infrastructure state and ensure compliance.",
     "category": "DevSecOps Tools",
     "tags": [
@@ -1292,7 +1292,7 @@
     "id": "fr058",
     "name": "Docker Get Started",
     "provider": "Docker",
-    "url": "https://docs.docker.com/guides/get-started/",
+    "url": "https://docs.docker.com/get-started/workshop/",
     "description": "Official 45-minute workshop covering containerization, Docker Compose, multi-container deployments, and publishing to Docker Hub.",
     "category": "DevSecOps Tools",
     "tags": [
@@ -1358,7 +1358,7 @@
     "id": "fr061",
     "name": "GitLab CI",
     "provider": "GitLab",
-    "url": "https://docs.gitlab.com/ee/ci/",
+    "url": "https://docs.gitlab.com/ci/",
     "description": "Free tier includes 400 compute minutes monthly for CI/CD pipelines. Full pipeline configuration and runner support.",
     "category": "DevSecOps Tools",
     "tags": [
@@ -1424,7 +1424,7 @@
     "id": "fr064",
     "name": "Trivy",
     "provider": "Aqua Security",
-    "url": "https://aquasecurity.github.io/trivy/",
+    "url": "https://trivy.dev/",
     "description": "Comprehensive open-source scanner for vulnerabilities, misconfigurations, secrets, and SBOM in containers, IaC, and Kubernetes.",
     "category": "DevSecOps Tools",
     "tags": [
@@ -1559,7 +1559,7 @@
     "id": "fr070",
     "name": "HashiCorp Vault",
     "provider": "HashiCorp",
-    "url": "https://www.vaultproject.io/",
+    "url": "https://developer.hashicorp.com/vault",
     "description": "Open-source secrets and encryption management. Secure storage, dynamic secrets, encryption as a service, and audit logging.",
     "category": "DevSecOps Tools",
     "tags": [
@@ -1719,7 +1719,7 @@
     "id": "fr077",
     "name": "Prelude Operator",
     "provider": "Prelude",
-    "url": "https://www.prelude.org/download",
+    "url": "https://www.preludesecurity.com/",
     "description": "Free adversary emulation desktop app. Run and customize MITRE ATT&CK TTPs with transparency and third-party integration.",
     "category": "Red Team and Adversary Simulation",
     "tags": [
@@ -1972,7 +1972,7 @@
     "id": "fr088",
     "name": "TheHive / Cortex",
     "provider": "StrangeBee",
-    "url": "https://thehive-project.org/",
+    "url": "https://strangebee.com/",
     "description": "Security case management and incident response. Cortex automation engine, MISP integration, 200+ analyzers for observables.",
     "category": "Blue Team and DFIR",
     "tags": [
@@ -2202,7 +2202,7 @@
     "id": "fr098",
     "name": "OpenCTI",
     "provider": "Filigran",
-    "url": "https://www.opencti.io/",
+    "url": "https://filigran.io",
     "description": "Open-source threat intelligence platform. STIX 2.1 data model, 300+ integrations, MISP/TheHive integration, and GraphQL API.",
     "category": "Threat Intelligence",
     "tags": [
@@ -2241,28 +2241,6 @@
     "niceCategories": [
       "Collect and Operate",
       "Analyze"
-    ],
-    "relatedCertIds": []
-  },
-  {
-    "id": "fr100",
-    "name": "Hail a TAXII",
-    "provider": "Community",
-    "url": "https://www.hailataxii.com/",
-    "description": "Free public TAXII feeds for threat intelligence. Phishtank, Abuse.ch, Cybercrime Tracker, DShield, and more collections.",
-    "category": "Threat Intelligence",
-    "tags": [
-      "TAXII",
-      "feeds",
-      "IOC"
-    ],
-    "level": "Intermediate",
-    "cisspDomains": [
-      "cissp-d7",
-      "cissp-d1"
-    ],
-    "niceCategories": [
-      "Collect and Operate"
     ],
     "relatedCertIds": []
   },
@@ -2408,7 +2386,7 @@
     "id": "fr107",
     "name": "DISA STIGs",
     "provider": "DISA",
-    "url": "https://public.cyber.mil/stigs/",
+    "url": "https://www.cyber.mil/stigs/",
     "description": "Security Technical Implementation Guides for hardening DoD systems. Configuration benchmarks for Windows, Linux, network devices.",
     "category": "Hardening and Compliance",
     "tags": [
@@ -3164,7 +3142,7 @@
     "id": "fr139",
     "name": "NIST SP 800-53 Controls Catalog",
     "provider": "NIST",
-    "url": "https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final",
+    "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
     "description": "Comprehensive catalog of security and privacy controls for information systems and organizations.",
     "category": "Governance and Service Management",
     "tags": [
@@ -3380,7 +3358,7 @@
     "id": "fr148",
     "name": "Nuclei AI",
     "provider": "ProjectDiscovery",
-    "url": "https://docs.projectdiscovery.io/tools/nuclei/running",
+    "url": "https://docs.projectdiscovery.io/opensource/nuclei/running",
     "description": "Nuclei vulnerability scanner with AI-powered template generation (-ai flag) for CVE-based detection.",
     "category": "AI Security Tools",
     "tags": [
@@ -3788,7 +3766,7 @@
     "id": "fr165",
     "name": "Anthropic MCP Ecosystem",
     "provider": "Anthropic",
-    "url": "https://docs.anthropic.com/en/docs/mcp",
+    "url": "https://modelcontextprotocol.io/docs/getting-started/intro",
     "description": "Model Context Protocol documentation and ecosystem for connecting AI to external tools and data.",
     "category": "AI Agents and Frameworks",
     "tags": [
@@ -4339,7 +4317,7 @@
     "id": "fr188",
     "name": "GCP Security Command Center Documentation",
     "provider": "Google Cloud",
-    "url": "https://cloud.google.com/security-command-center/docs",
+    "url": "https://docs.cloud.google.com/security-command-center/docs",
     "description": "Official documentation for Google Cloud Security Command Center. Covers threat detection, vulnerability management, compliance monitoring, and posture management.",
     "category": "Cloud Security",
     "tags": [
@@ -4480,7 +4458,7 @@
     "id": "fr194",
     "name": "NICE Cybersecurity Workforce Framework Interactive Tool",
     "provider": "CISA NICCS",
-    "url": "https://niccs.cisa.gov/workforce-development/nice-framework-mapping-tool",
+    "url": "https://niccs.cisa.gov/tools/nice-framework-mapping-tool",
     "description": "Interactive mapping tool to align cybersecurity roles with the NICE Framework. Identify skills gaps, training needs, and workforce development opportunities.",
     "category": "Career Development",
     "tags": [
@@ -4546,7 +4524,7 @@
     "id": "fr197",
     "name": "SANS Reading Room",
     "provider": "SANS Institute",
-    "url": "https://www.sans.org/reading-room/",
+    "url": "https://www.sans.org/white-papers",
     "description": "Free whitepapers and research on threat hunting, incident response, ransomware, and security operations. Written by SANS instructors and community researchers.",
     "category": "Career Development",
     "tags": [
@@ -4849,7 +4827,7 @@
     "id": "fr210",
     "name": "SANS Whitepapers",
     "provider": "SANS Institute",
-    "url": "https://www.sans.org/white-papers/",
+    "url": "https://www.sans.org/white-papers",
     "description": "Free security research whitepapers on threat hunting, incident response, ransomware, and defensive operations. SANS instructor and community research.",
     "category": "Research",
     "tags": [
@@ -4943,7 +4921,7 @@
     "id": "fr214",
     "name": "MITRE Research Publications",
     "provider": "MITRE",
-    "url": "https://www.mitre.org/research",
+    "url": "https://www.mitre.org/focus-areas",
     "description": "MITRE cybersecurity research publications including ATT&CK framework updates, threat modeling, and applied security research.",
     "category": "Research",
     "tags": [
@@ -5157,7 +5135,7 @@
     "id": "fr223",
     "name": "IBM Quantum-Safe Cryptography Course",
     "provider": "IBM",
-    "url": "https://learning.quantum.ibm.com/course/practical-introduction-to-quantum-safe-cryptography",
+    "url": "https://quantum.cloud.ibm.com/learning/en/courses/quantum-safe-cryptography",
     "description": "Free 6-7 hour course covering hash functions, symmetric/asymmetric crypto, and quantum-safe algorithms with interactive code examples and a digital badge.",
     "category": "Quantum Computing",
     "tags": [
@@ -5227,7 +5205,7 @@
     "id": "fr226",
     "name": "CISA Post-Quantum Cryptography Initiative",
     "provider": "CISA",
-    "url": "https://www.cisa.gov/quantum",
+    "url": "https://www.cisa.gov/topics/risk-management/quantum",
     "description": "Federal guidance on preparing for quantum computing threats including migration roadmaps, risk assessments, and cryptographic inventory best practices.",
     "category": "Quantum Computing",
     "tags": [
@@ -5474,7 +5452,7 @@
   {
     "name": "OpenSSL Command Reference",
     "provider": "OpenSSL Project",
-    "url": "https://www.openssl.org/docs/man3.0/man1/",
+    "url": "https://docs.openssl.org/",
     "description": "CLI toolkit for TLS/SSL, certificate management, encryption, hashing, and key generation.",
     "category": "Command Shells and CLI Tools",
     "tags": [
@@ -5588,7 +5566,7 @@
   {
     "name": "Autopsy Digital Forensics",
     "provider": "Sleuth Kit",
-    "url": "https://sleuthkit.org/autopsy/docs/user-docs/latest/",
+    "url": "https://sleuthkit.org/autopsy/docs/user-docs/4.22.0/",
     "description": "Open-source digital forensics platform with disk imaging, timeline analysis, and keyword search.",
     "category": "Command Shells and CLI Tools",
     "tags": [
@@ -5971,7 +5949,7 @@
   {
     "name": "jq Manual",
     "provider": "jq Project",
-    "url": "https://jqlang.github.io/jq/manual/",
+    "url": "https://jqlang.org/manual/",
     "description": "Lightweight command-line JSON processor. Parse, filter, and transform JSON data in pipelines.",
     "category": "Command Shells and CLI Tools",
     "tags": [
@@ -6152,7 +6130,7 @@
   {
     "name": "gcloud CLI Reference",
     "provider": "Google Cloud",
-    "url": "https://cloud.google.com/sdk/gcloud/reference",
+    "url": "https://docs.cloud.google.com/sdk/gcloud/reference",
     "description": "Primary CLI for Google Cloud Platform. Manage compute, storage, IAM, networking, and security resources.",
     "category": "Command Shells and CLI Tools",
     "tags": [
@@ -6219,7 +6197,7 @@
   {
     "name": "Trivy (Aqua Security)",
     "provider": "Aqua Security",
-    "url": "https://trivy.dev/latest/",
+    "url": "https://trivy.dev/",
     "description": "All-in-one vulnerability scanner for containers, filesystems, Git repos, and Kubernetes. Scans for CVEs, misconfigs, and secrets.",
     "category": "Command Shells and CLI Tools",
     "tags": [
@@ -6514,7 +6492,7 @@
   {
     "name": "GCP Secret Manager Docs",
     "provider": "Google Cloud",
-    "url": "https://cloud.google.com/secret-manager/docs",
+    "url": "https://docs.cloud.google.com/secret-manager/docs",
     "description": "GCP-native secret storage, access control, and versioning.",
     "category": "DevSecOps Tools",
     "tags": [
@@ -7121,7 +7099,7 @@
   {
     "name": "MTA-STS / TLS-RPT Guide",
     "provider": "Google",
-    "url": "https://support.google.com/a/answer/9261504",
+    "url": "https://support.google.com/a/answer/10683907",
     "description": "Enforcing TLS for mail transport with MTA-STS and TLS reporting.",
     "category": "Hardening and Compliance",
     "tags": [
@@ -7188,7 +7166,7 @@
   {
     "name": "Ghidra",
     "provider": "NSA",
-    "url": "https://ghidra-sre.org/",
+    "url": "https://github.com/NationalSecurityAgency/ghidra",
     "description": "Open-source software reverse engineering suite. Disassembly, decompilation, and scripting.",
     "category": "Command Shells and CLI Tools",
     "tags": [
@@ -7389,7 +7367,7 @@
   {
     "name": "GTFOBins",
     "provider": "GTFOBins",
-    "url": "https://gtfobins.github.io/",
+    "url": "https://gtfobins.org/",
     "description": "Curated list of Unix binaries exploitable for privilege escalation, file read/write, shell escape, and SUID abuse.",
     "category": "Red Team and Adversary Simulation",
     "tags": [
@@ -7658,7 +7636,7 @@
   {
     "name": "King Phisher",
     "provider": "SecureState",
-    "url": "https://github.com/securestate/king-phisher",
+    "url": "https://github.com/rsmusllp/king-phisher",
     "description": "Phishing campaign toolkit with templates, tracking, and two-factor auth testing.",
     "category": "Red Team and Adversary Simulation",
     "tags": [
@@ -7840,7 +7818,7 @@
   {
     "name": "Maltego CE",
     "provider": "Maltego",
-    "url": "https://www.maltego.com/maltego-community/",
+    "url": "https://www.maltego.com/pricing/",
     "description": "Free community edition of the OSINT and graphical link analysis tool.",
     "category": "Research",
     "tags": [
@@ -8813,9 +8791,9 @@
     "id": "fr385"
   },
   {
-    "name": "SANS Incident Handling Cheat Sheet",
+    "name": "SANS Cheat Sheets Master List",
     "provider": "SANS",
-    "url": "https://www.sans.org/posters/incident-handlers-handbook/",
+    "url": "https://www.sans.org/blog/the-ultimate-list-of-sans-cheat-sheets/",
     "description": "Step-by-step incident response process reference card.",
     "category": "Research",
     "tags": [
@@ -8837,7 +8815,7 @@
   {
     "name": "SANS TCP/IP and tcpdump Cheat Sheet",
     "provider": "SANS",
-    "url": "https://www.sans.org/posters/tcp-ip-and-tcpdump/",
+    "url": "https://www.sans.org/posters/tcp-ip-and-tcpdump",
     "description": "Packet analysis quick reference for TCP/IP and tcpdump filters.",
     "category": "Research",
     "tags": [
@@ -8859,7 +8837,7 @@
   {
     "name": "SANS Windows Command Line Cheat Sheet",
     "provider": "SANS",
-    "url": "https://www.sans.org/posters/windows-command-line-cheat-sheet/",
+    "url": "https://www.sans.org/posters/windows-command-line-cheat-sheet",
     "description": "Essential Windows CLI commands for forensics and incident response.",
     "category": "Research",
     "tags": [
@@ -8881,7 +8859,7 @@
   {
     "name": "SANS Linux CLI Cheat Sheet",
     "provider": "SANS",
-    "url": "https://www.sans.org/posters/linux-essentials-cheat-sheet/",
+    "url": "https://www.sans.org/posters/linux-essentials-cheat-sheet",
     "description": "Core Linux commands for security operations and administration.",
     "category": "Research",
     "tags": [
@@ -8903,7 +8881,7 @@
   {
     "name": "SANS PowerShell Cheat Sheet",
     "provider": "SANS",
-    "url": "https://www.sans.org/blog/sans-pen-test-cheat-sheet-powershell/",
+    "url": "https://www.sans.org/blog/sans-pen-test-cheat-sheet-powershell",
     "description": "PowerShell commands for security operations and digital forensics.",
     "category": "Research",
     "tags": [
@@ -8925,7 +8903,7 @@
   {
     "name": "SANS REMnux Malware Analysis Cheat Sheet",
     "provider": "SANS",
-    "url": "https://www.sans.org/posters/remnux-usage-tips-for-malware-analysis-on-linux/",
+    "url": "https://www.sans.org/posters/remnux-usage-tips-for-malware-analysis-on-linux",
     "description": "Tools and techniques quick reference for malware reverse engineering on REMnux.",
     "category": "Research",
     "tags": [
@@ -8947,7 +8925,7 @@
   {
     "name": "SANS SIFT Workstation Cheat Sheet",
     "provider": "SANS",
-    "url": "https://www.sans.org/posters/sift-cheat-sheet/",
+    "url": "https://www.sans.org/posters/sift-cheat-sheet",
     "description": "DFIR tool quick reference for the SIFT forensic workstation.",
     "category": "Research",
     "tags": [
@@ -8969,7 +8947,7 @@
   {
     "name": "SANS Multicloud Security Cheat Sheet",
     "provider": "SANS",
-    "url": "https://www.sans.org/posters/multicloud-cheat-sheet/",
+    "url": "https://www.sans.org/posters/multicloud-cheat-sheet",
     "description": "AWS, Azure, and GCP security quick reference.",
     "category": "Research",
     "tags": [
@@ -8993,7 +8971,7 @@
   {
     "name": "SANS Intrusion Discovery Cheat Sheet",
     "provider": "SANS",
-    "url": "https://www.sans.org/posters/intrusion-discovery-cheat-sheet-for-linux/",
+    "url": "https://www.sans.org/posters/intrusion-discovery-cheat-sheet-for-linux",
     "description": "Host-based indicators of compromise lookup for Linux and Windows.",
     "category": "Research",
     "tags": [
@@ -9015,7 +8993,7 @@
   {
     "name": "SANS Google Dorking / OSINT Cheat Sheet",
     "provider": "SANS",
-    "url": "https://www.sans.org/posters/google-hacking-and-defense-cheat-sheet/",
+    "url": "https://www.sans.org/posters/google-hacking-and-defense-cheat-sheet",
     "description": "Google hacking queries and passive reconnaissance reference.",
     "category": "Research",
     "tags": [
@@ -9103,7 +9081,7 @@
   {
     "name": "SANS SIFT Workstation",
     "provider": "SANS",
-    "url": "https://www.sans.org/tools/sift-workstation/",
+    "url": "https://www.sans.org/tools/sift-workstation",
     "description": "DFIR-focused Ubuntu VM with forensic tools preinstalled by SANS.",
     "category": "OS and Command Line",
     "tags": [
@@ -9433,7 +9411,7 @@
   {
     "name": "OpenCost",
     "provider": "CNCF",
-    "url": "https://www.opencost.io/",
+    "url": "https://opencost.io/",
     "description": "CNCF open-source Kubernetes cost monitoring. Real-time cost allocation for K8s workloads.",
     "category": "FinOps and Cloud Cost Management",
     "tags": [
@@ -9455,7 +9433,7 @@
   {
     "name": "Kubecost",
     "provider": "Kubecost",
-    "url": "https://www.kubecost.com/install",
+    "url": "https://www.apptio.com/products/kubecost/install/?src=kc-com",
     "description": "Open-source Kubernetes cost monitoring and optimization. Real-time visibility into cluster spend.",
     "category": "FinOps and Cloud Cost Management",
     "tags": [
@@ -9544,7 +9522,7 @@
   {
     "name": "GCP Cloud Billing Docs",
     "provider": "Google Cloud",
-    "url": "https://cloud.google.com/billing/docs",
+    "url": "https://docs.cloud.google.com/billing/docs",
     "description": "GCP billing, budgets, cost management, and pricing documentation.",
     "category": "FinOps and Cloud Cost Management",
     "tags": [
@@ -10567,7 +10545,7 @@
   {
     "name": "EFF Security Education Companion",
     "provider": "Electronic Frontier Foundation",
-    "url": "https://sec.eff.org/",
+    "url": "https://www.securityeducationcompanion.org",
     "description": "Resource for security trainers with lesson plans, teaching materials, and guides for running digital security workshops. Designed for people who teach others about cybersecurity.",
     "category": "Courses",
     "tags": [
@@ -10708,7 +10686,7 @@
   {
     "name": "EFF Street Level Surveillance",
     "provider": "Electronic Frontier Foundation",
-    "url": "https://www.eff.org/issues/street-level-surveillance",
+    "url": "https://sls.eff.org/",
     "description": "Comprehensive resource hub covering surveillance technologies including body cameras, automated license plate readers, cell-site simulators, and facial recognition systems.",
     "category": "Privacy and Legal",
     "tags": [
@@ -11265,7 +11243,7 @@
   {
     "name": "HHS Cybersecurity Performance Goals (CPGs) for Healthcare",
     "provider": "HHS",
-    "url": "https://hphcyber.hhs.gov/performance-goals.html",
+    "url": "https://hhscyber.hhs.gov",
     "description": "Sector-specific cybersecurity performance goals for healthcare and public health organizations. Defines essential and enhanced goals across access control, asset management, email security, incident response, and more.",
     "category": "Healthcare Cybersecurity",
     "tags": [
@@ -11289,7 +11267,7 @@
   {
     "name": "FDA Premarket Cybersecurity Guidance for Medical Devices",
     "provider": "FDA",
-    "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cybersecurity-medical-devices-quality-system-considerations-and-content-premarket-submissions",
+    "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cybersecurity-medical-devices-quality-management-system-considerations-and-content-premarket",
     "description": "FDA guidance requiring medical device manufacturers to address cybersecurity throughout the product lifecycle. Covers threat modeling, SBOM requirements, vulnerability management, and secure design for connected medical devices.",
     "category": "Healthcare Cybersecurity",
     "tags": [
@@ -11314,7 +11292,7 @@
   {
     "name": "NIST Cybersecurity Framework Healthcare Profile",
     "provider": "NIST",
-    "url": "https://csrc.nist.gov/projects/cybersecurity-framework/nist-cybersecurity-framework-a-quick-start-guide",
+    "url": "https://www.nist.gov/cyberframework/csf-11-quick-start-guide",
     "description": "NIST CSF quick-start resources with healthcare sector-specific guidance. Maps the Framework's core functions to healthcare-relevant controls, supporting HIPAA compliance and health sector risk management.",
     "category": "Healthcare Cybersecurity",
     "tags": [
@@ -11503,9 +11481,9 @@
     "id": "fr504"
   },
   {
-    "name": "SANS Healthcare Cybersecurity Forum",
+    "name": "SANS Healthcare Cybersecurity Forum 2026",
     "provider": "SANS Institute",
-    "url": "https://www.sans.org/mlp/healthcare-cybersecurity/",
+    "url": "https://www.sans.org/webcasts/winter-cyber-solutions-fest-2026-healthcare",
     "description": "Archived talks from SANS Health Care Cybersecurity Summits. Features expert presentations on healthcare threat landscape, medical device security, incident response in hospitals, and regulatory compliance strategies.",
     "category": "Healthcare Cybersecurity",
     "tags": [
@@ -11529,7 +11507,7 @@
   {
     "name": "I Am The Cavalry – Hippocratic Oath for Connected Medical Devices",
     "provider": "I Am The Cavalry",
-    "url": "https://iamthecavalry.org/hippocratic-oath/",
+    "url": "https://iamthecavalry.org/",
     "description": "Grassroots cybersecurity initiative advocating for safety and security in medical devices and healthcare systems. The Hippocratic Oath for Connected Medical Devices outlines five principles for patient safety.",
     "category": "Healthcare Cybersecurity",
     "tags": [
@@ -11672,7 +11650,7 @@
   {
     "name": "HHS HIPAA Breach Portal (Wall of Shame)",
     "provider": "HHS OCR",
-    "url": "https://ocrportal.hhs.gov/ocr/breach/breach_report.jsf",
+    "url": "https://ocrportal.hhs.gov/ocr/breach/breach_frontpage.jsf",
     "description": "HHS Office for Civil Rights breach reporting portal listing all reported healthcare data breaches affecting 500+ individuals. Invaluable for studying breach trends, attack vectors, and regulatory enforcement patterns in healthcare.",
     "category": "Healthcare Cybersecurity",
     "tags": [
@@ -12025,7 +12003,7 @@
   {
     "name": "SEI CERT Secure Coding Standards",
     "provider": "Carnegie Mellon SEI",
-    "url": "https://wiki.sei.cmu.edu/confluence/display/seccode",
+    "url": "https://wiki.sei.cmu.edu/confluence/spaces/seccode/overview",
     "description": "Free wiki of secure coding rules for C, C++, Java, Perl, and Android developed by 1,900+ contributors. The authoritative reference for writing vulnerability-free code, maintained by CMU's CERT division.",
     "category": "Hardening and Compliance",
     "tags": [
@@ -12047,9 +12025,9 @@
     "id": "fr527"
   },
   {
-    "name": "CERT/CC Vulnerability Notes Database",
+    "name": "CISA Known Exploited Vulnerabilities Catalog",
     "provider": "Carnegie Mellon SEI",
-    "url": "https://www.kb.cert.org/",
+    "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
     "description": "Searchable database of 3,500+ vulnerability notes covering 2,300+ vendors. Each note includes technical details, impact assessment, remediation guidance, and affected vendor information.",
     "category": "Research",
     "tags": [
@@ -12073,7 +12051,7 @@
   {
     "name": "CERT Guide to Coordinated Vulnerability Disclosure",
     "provider": "Carnegie Mellon SEI",
-    "url": "https://vuls.cert.org/confluence/display/CVD",
+    "url": "https://certcc.github.io/confluence/display/CVD/",
     "description": "Comprehensive guide to the coordinated vulnerability disclosure process. Covers discovery, reporting, coordination, and publication phases with ethical and legal considerations.",
     "category": "Research",
     "tags": [
@@ -12119,9 +12097,9 @@
     "id": "fr530"
   },
   {
-    "name": "Common Sense Guide to Mitigating Insider Threats (6th Ed.)",
+    "name": "Common Sense Guide to Mitigating Insider Threats (7th Ed.)",
     "provider": "Carnegie Mellon SEI",
-    "url": "https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=884738",
+    "url": "https://www.sei.cmu.edu/library/common-sense-guide-to-mitigating-insider-threats-seventh-edition/",
     "description": "CMU CERT's definitive guide with 22 practices for insider threat mitigation, drawn from real-world case studies. Covers organizational, HR, technical, and legal countermeasures.",
     "category": "Research",
     "tags": [
@@ -12378,7 +12356,7 @@
   {
     "name": "Google Cloud Architecture Framework",
     "provider": "Google Cloud",
-    "url": "https://cloud.google.com/architecture/framework",
+    "url": "https://docs.cloud.google.com/architecture/framework",
     "description": "Google Cloud's best practices for system design covering security, reliability, cost optimization, and operational excellence. Security section covers identity, encryption, network security, and logging.",
     "category": "Cloud Security",
     "tags": [
@@ -12565,7 +12543,7 @@
   {
     "name": "Practical Networking: Networking Fundamentals",
     "provider": "Practical Networking",
-    "url": "https://www.practicalnetworking.net/series/networking-fundamentals/networking-fundamentals/",
+    "url": "https://www.practicalnetworking.net/index/networking-fundamentals-how-data-moves-through-the-internet/",
     "description": "Free article and video series covering OSI model, TCP/IP, subnetting, routing, switching, ARP, NAT, and VLAN fundamentals. Clear visual explanations with packet-level detail.",
     "category": "Networking and Infrastructure",
     "tags": [
@@ -12725,29 +12703,6 @@
     ],
     "relatedCertIds": [],
     "id": "fr556"
-  },
-  {
-    "name": "P1 Security: Telecom Security Resources",
-    "provider": "P1 Security",
-    "url": "https://p1sec.com/resources/",
-    "description": "Free research and tools for telecom security covering SS7, Diameter, GTP, and 5G protocol vulnerabilities. Includes published research papers and open-source telecom security tools.",
-    "category": "Networking and Infrastructure",
-    "tags": [
-      "SS7",
-      "Diameter",
-      "5G",
-      "telecom protocols",
-      "signaling"
-    ],
-    "level": "Expert",
-    "cisspDomains": [
-      "cissp-d4"
-    ],
-    "niceCategories": [
-      "Protect and Defend"
-    ],
-    "relatedCertIds": [],
-    "id": "fr557"
   },
   {
     "name": "OWASP CI/CD Security Top 10",
@@ -12940,7 +12895,7 @@
   {
     "name": "HackTricks",
     "provider": "Carlos Polop",
-    "url": "https://book.hacktricks.wiki/",
+    "url": "https://hacktricks.wiki/en/index.html",
     "description": "Massive free wiki of hacking techniques, privilege escalation paths, and pentesting methodologies for Linux, Windows, Active Directory, web apps, mobile, cloud, and CI/CD. The go-to field manual for penetration testers.",
     "category": "Red Team and Adversary Simulation",
     "tags": [
@@ -12964,7 +12919,7 @@
   {
     "name": "HackTricks Cloud",
     "provider": "Carlos Polop",
-    "url": "https://cloud.hacktricks.wiki/",
+    "url": "https://cloud.hacktricks.wiki/en/index.html",
     "description": "Cloud-specific companion to HackTricks covering AWS, Azure, GCP, and Kubernetes attack techniques, misconfigurations, privilege escalation, and post-exploitation in cloud environments.",
     "category": "Red Team and Adversary Simulation",
     "tags": [
@@ -13363,7 +13318,7 @@
   {
     "name": "OpenVAS / Greenbone Community Edition",
     "provider": "Greenbone",
-    "url": "https://www.greenbone.net/en/community-edition/",
+    "url": "https://www.greenbone.net/en/testnow/",
     "description": "Open-source vulnerability scanner with 50,000+ network vulnerability tests. Full-featured alternative to commercial scanners with web UI, scheduling, and reporting.",
     "category": "DevSecOps Tools",
     "tags": [
@@ -13409,7 +13364,7 @@
   {
     "name": "NIST AI 100-1: AI Risk Management Framework",
     "provider": "NIST",
-    "url": "https://www.nist.gov/artificial-intelligence/ai-risk-management-framework",
+    "url": "https://www.nist.gov/itl/ai-risk-management-framework",
     "description": "NIST's framework for managing risks in AI systems across the lifecycle. Covers governance, mapping, measuring, and managing AI risks including bias, security, and trustworthiness.",
     "category": "Governance and Service Management",
     "tags": [
@@ -13999,7 +13954,7 @@
   {
     "name": "RiskLens FAIR Fundamentals Training",
     "provider": "RiskLens",
-    "url": "https://www.risklens.com/resource-center",
+    "url": "https://safe.security/resources/",
     "description": "Free resources for learning the FAIR quantitative risk analysis model including webinars, white papers, and case studies on translating cyber risk into financial terms for executive communication.",
     "category": "Governance and Service Management",
     "tags": [
@@ -14068,7 +14023,7 @@
   {
     "name": "SANS Digital Forensics and Incident Response Blog",
     "provider": "SANS",
-    "url": "https://www.sans.org/blog/?focus-area=digital-forensics",
+    "url": "https://www.sans.org/blog?focus-area=digital-forensics",
     "description": "SANS DFIR blog with case studies, tool tutorials, memory forensics techniques, and investigation walkthroughs from certified forensic examiners.",
     "category": "Blue Team and DFIR",
     "tags": [
@@ -14137,7 +14092,7 @@
   {
     "name": "OWASP VoIP Security Testing Guide",
     "provider": "OWASP",
-    "url": "https://wiki.owasp.org/index.php/VoIP_Security_Testing_Guide",
+    "url": "https://owasp.org/www-project-web-security-testing-guide/",
     "description": "Guide for testing VoIP infrastructure security covering SIP protocol attacks, RTP interception, toll fraud, eavesdropping, and denial of service against unified communications platforms.",
     "category": "Networking and Infrastructure",
     "tags": [
@@ -14207,7 +14162,7 @@
   {
     "name": "CISA Physical Security Guidance",
     "provider": "CISA",
-    "url": "https://www.cisa.gov/physical-security",
+    "url": "https://www.cisa.gov/resources-tools/resources/physical-security-considerations-temporary-facilities-fact-sheet",
     "description": "CISA's physical security resources including active shooter preparedness, bomb threat guidance, facility security, mail screening, and physical security assessment checklists.",
     "category": "Hardening and Compliance",
     "tags": [
@@ -14465,7 +14420,7 @@
   {
     "name": "Open Policy Agent Documentation",
     "provider": "CNCF",
-    "url": "https://www.openpolicyagent.org/docs/latest/",
+    "url": "https://www.openpolicyagent.org/docs",
     "description": "Complete OPA documentation covering the Rego policy language, Kubernetes admission control, API authorization, Terraform policy enforcement, and integration patterns for policy-as-code across the stack.",
     "category": "DevSecOps Tools",
     "tags": [
@@ -14610,7 +14565,7 @@
   {
     "name": "Google Cloud Security Foundations Blueprint",
     "provider": "Google",
-    "url": "https://cloud.google.com/architecture/security-foundations",
+    "url": "https://docs.cloud.google.com/architecture/blueprints/security-foundations",
     "description": "Opinionated landing-zone blueprint for GCP covering org structure, networking, IAM, logging, and Security Command Center setup.",
     "category": "Cloud Security",
     "tags": [
@@ -14636,7 +14591,7 @@
   {
     "name": "Google Cloud Security Command Center Overview",
     "provider": "Google",
-    "url": "https://cloud.google.com/security-command-center/docs/concepts-security-command-center-overview",
+    "url": "https://docs.cloud.google.com/security-command-center/docs/security-command-center-overview",
     "description": "Documentation for GCP's built-in security posture management and threat detection service.",
     "category": "Cloud Security",
     "tags": [
@@ -14661,7 +14616,7 @@
   {
     "name": "Google Cloud Skills Boost – Security Learning Path",
     "provider": "Google",
-    "url": "https://www.cloudskillsboost.google/paths/15",
+    "url": "https://www.skills.google/paths/15",
     "description": "Free GCP learning path with hands-on labs covering IAM, VPC security, encryption, and Security Command Center.",
     "category": "Cloud Security",
     "tags": [
@@ -14686,7 +14641,7 @@
   {
     "name": "GCP Reference Architectures Catalog",
     "provider": "Google",
-    "url": "https://cloud.google.com/architecture",
+    "url": "https://docs.cloud.google.com/architecture",
     "description": "Full catalog of Google Cloud reference architectures spanning analytics, AI, networking, security, and hybrid cloud.",
     "category": "Cloud Security",
     "tags": [
@@ -14735,7 +14690,7 @@
   {
     "name": "GKE Security Best Practices",
     "provider": "Google",
-    "url": "https://cloud.google.com/kubernetes-engine/docs/how-to/hardening-your-cluster",
+    "url": "https://docs.cloud.google.com/kubernetes-engine/docs/how-to/hardening-your-cluster",
     "description": "Official GKE cluster hardening guide covering workload identity, network policy, binary authorization, and pod security.",
     "category": "Cloud Security",
     "tags": [
@@ -14761,7 +14716,7 @@
   {
     "name": "Chronicle SIEM / Google SecOps Overview",
     "provider": "Google",
-    "url": "https://cloud.google.com/chronicle/docs/overview",
+    "url": "https://docs.cloud.google.com/chronicle/docs/overview",
     "description": "Architecture overview of Chronicle (Google SecOps) cloud-native SIEM covering data ingestion, detection rules, and threat intelligence.",
     "category": "Cloud Security",
     "tags": [
@@ -14854,7 +14809,7 @@
   {
     "name": "OCI Cloud Guard Overview",
     "provider": "Oracle",
-    "url": "https://docs.oracle.com/en-us/iaas/cloud-guard/home.htm",
+    "url": "https://docs.oracle.com/en-us/iaas/Content/cloud-guard/home.htm",
     "description": "Documentation for OCI Cloud Guard — Oracle's cloud-native security monitoring and automated remediation service.",
     "category": "Cloud Security",
     "tags": [
@@ -14877,7 +14832,7 @@
   {
     "name": "OCI Security Zones and Security Advisor",
     "provider": "Oracle",
-    "url": "https://docs.oracle.com/en-us/iaas/security-zone/home.htm",
+    "url": "https://docs.oracle.com/en-us/iaas/Content/security-zone/home.htm",
     "description": "Enforces maximum security policies in designated compartments — preventing public buckets, unencrypted databases, and insecure network configs.",
     "category": "Cloud Security",
     "tags": [
@@ -14899,7 +14854,7 @@
   {
     "name": "OCI Vulnerability Scanning Service",
     "provider": "Oracle",
-    "url": "https://docs.oracle.com/en-us/iaas/scanning/home.htm",
+    "url": "https://docs.oracle.com/en-us/iaas/Content/scanning/home.htm",
     "description": "OCI's native host and container image vulnerability scanning service documentation.",
     "category": "Cloud Security",
     "tags": [
@@ -15791,7 +15746,7 @@
   {
     "name": "MITRE ATT&CK MCP Server",
     "provider": "BurtTheCoder",
-    "url": "https://github.com/BurtTheCoder/mcp-mitre-attack",
+    "url": "https://github.com/search?q=mcp+mitre+attack&type=repositories",
     "description": "MCP server enabling AI agents to query the MITRE ATT&CK knowledge base — techniques, tactics, software, groups, and mitigations.",
     "category": "AI and LLM Security",
     "tags": [
@@ -15879,7 +15834,7 @@
   {
     "name": "LangChain Documentation",
     "provider": "LangChain",
-    "url": "https://python.langchain.com/docs/introduction/",
+    "url": "https://docs.langchain.com/oss/python/langchain/overview",
     "description": "Framework for building LLM-powered applications. Critical for understanding AI agent architectures and their security implications.",
     "category": "AI and LLM Security",
     "tags": [
@@ -16039,7 +15994,7 @@
   {
     "name": "Elastic EQL – Event Query Language Reference",
     "provider": "Elastic",
-    "url": "https://www.elastic.co/guide/en/elasticsearch/reference/current/eql.html",
+    "url": "https://www.elastic.co/docs/explore-analyze/query-filter/languages/eql",
     "description": "Reference for Elastic's Event Query Language — used for threat hunting, detection rules, and sequence analysis in Elastic Security.",
     "category": "Threat Intelligence",
     "tags": [
@@ -16062,7 +16017,7 @@
   {
     "name": "ES|QL & Lucene Query Syntax (Elasticsearch)",
     "provider": "Elastic",
-    "url": "https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html",
+    "url": "https://www.elastic.co/docs/reference/query-languages/query-dsl/query-dsl-query-string-query",
     "description": "Elasticsearch query string syntax reference — the foundation for Kibana searches, alerts, and SIEM dashboards.",
     "category": "Threat Intelligence",
     "tags": [
@@ -16084,7 +16039,7 @@
   {
     "name": "YARA-L 2.0 Reference (Chronicle/Google SecOps)",
     "provider": "Google",
-    "url": "https://cloud.google.com/chronicle/docs/reference/yara-l-2-0-overview",
+    "url": "https://cloud.google.com/chronicle/docs/reference/yara-l-2-0-syntax",
     "description": "Reference for YARA-L 2.0, the detection rule language for Google Chronicle / SecOps. Used for writing custom detection rules.",
     "category": "Threat Intelligence",
     "tags": [
@@ -16153,7 +16108,7 @@
   {
     "name": "PCI DSS v4.0 Standard (PCI SSC)",
     "provider": "PCI Security Standards Council",
-    "url": "https://docs-prv.pcisecuritystandards.org/PCI%20DSS/Standard/PCI-DSS-v4_0.pdf",
+    "url": "https://www.pcisecuritystandards.org/document_library/",
     "description": "Full text of the PCI Data Security Standard v4.0 — free download covering all 12 requirement families for payment card security.",
     "category": "GRC and Compliance",
     "tags": [
@@ -16174,9 +16129,9 @@
     "id": "fr703"
   },
   {
-    "name": "FedRAMP Authorization Framework",
+    "name": "FedRAMP Authorization & Documentation",
     "provider": "GSA / FedRAMP PMO",
-    "url": "https://www.fedramp.gov/program-basics/",
+    "url": "https://www.fedramp.gov/docs/authority/",
     "description": "Federal Risk and Authorization Management Program for standardized cloud security assessment. Free templates, baselines, and guidance.",
     "category": "GRC and Compliance",
     "tags": [
@@ -16316,7 +16271,7 @@
   {
     "name": "SOX IT Controls Overview",
     "provider": "Linford & Company",
-    "url": "https://linfordco.com/blog/sox-it-controls/",
+    "url": "https://www.sarbanes-oxley-101.com/",
     "description": "Practical overview of Sarbanes-Oxley IT general controls covering access management, change management, and IT operations.",
     "category": "GRC and Compliance",
     "tags": [
@@ -16360,7 +16315,7 @@
   {
     "name": "ASD Essential Eight Maturity Model",
     "provider": "Australian Signals Directorate",
-    "url": "https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/essential-eight",
+    "url": "https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/essential-eight",
     "description": "Australia's prioritized list of mitigation strategies — application control, patching, macro settings, MFA, backups, and more.",
     "category": "GRC and Compliance",
     "tags": [
@@ -16382,7 +16337,7 @@
   {
     "name": "SWIFT Customer Security Programme (CSP)",
     "provider": "SWIFT",
-    "url": "https://www.swift.com/myswift/customer-security-programme-csp",
+    "url": "https://www.swift.com/myswift/customer-security-programme",
     "description": "Mandatory security controls for all institutions on the SWIFT network. Free framework documentation covering 32 controls.",
     "category": "GRC and Compliance",
     "tags": [
@@ -16404,7 +16359,7 @@
   {
     "name": "ENISA NIS2 Directive Overview",
     "provider": "ENISA",
-    "url": "https://www.enisa.europa.eu/topics/cybersecurity-policy/nis-directive-new",
+    "url": "https://www.enisa.europa.eu/topics/nis-directive",
     "description": "EU's updated Network and Information Security directive. Broadened scope, stricter requirements, and supply chain security mandates.",
     "category": "Privacy and Legal",
     "tags": [
@@ -16518,7 +16473,7 @@
   {
     "name": "ISO 27001 Overview & Summary",
     "provider": "SecurePrivacy.ai",
-    "url": "https://secureprivacy.ai/blog/iso-27001-requirements-overview",
+    "url": "https://www.iso.org/standard/27001",
     "description": "Comprehensive free summary of ISO 27001:2022 requirements — ISMS structure, Annex A controls, and certification process explained.",
     "category": "GRC and Compliance",
     "tags": [
@@ -16540,7 +16495,7 @@
   {
     "name": "ISO 27701 Privacy Information Management Summary",
     "provider": "Vanta",
-    "url": "https://www.vanta.com/resources/iso-27701",
+    "url": "https://www.iso.org/standard/71670.html",
     "description": "Free summary of ISO 27701 — extension to ISO 27001 for privacy information management. Covers PIMS requirements and GDPR alignment.",
     "category": "Privacy and Legal",
     "tags": [
@@ -16563,7 +16518,7 @@
   {
     "name": "ISO 27018 Cloud Privacy Controls Summary",
     "provider": "Linford & Company",
-    "url": "https://linfordco.com/blog/what-is-iso-27018/",
+    "url": "https://www.iso.org/standard/76559.html",
     "description": "Free overview of ISO 27018 — code of practice for protecting PII in public cloud acting as PII processor. Maps to ISO 27001.",
     "category": "Privacy and Legal",
     "tags": [
@@ -16608,7 +16563,7 @@
   {
     "name": "Brazil LGPD – General Data Protection Law Overview",
     "provider": "IAPP",
-    "url": "https://iapp.org/resources/article/brazilian-data-protection-law-lgpd-english-translation/",
+    "url": "https://iapp.org/resources/topics/brazilian-general-data-protection-law/",
     "description": "English translation and overview of Brazil's LGPD — the GDPR-inspired data protection law covering personal data processing.",
     "category": "Privacy and Legal",
     "tags": [
@@ -16654,7 +16609,7 @@
   {
     "name": "APEC Cross-Border Privacy Rules (CBPR)",
     "provider": "APEC",
-    "url": "https://www.apec.org/about-us/about-apec/fact-sheets/what-is-the-cross-border-privacy-rules-system",
+    "url": "https://www.apec.org/groups/committee-on-trade-and-investment/electronic-commerce-steering-group/cross-border-privacy-rules",
     "description": "Asia-Pacific privacy framework for cross-border data flows. Certification-based system for accountable data transfers.",
     "category": "Privacy and Legal",
     "tags": [
@@ -16839,7 +16794,7 @@
   {
     "name": "CBEST Threat Intelligence-Led Penetration Testing",
     "provider": "Bank of England",
-    "url": "https://www.bankofengland.co.uk/financial-stability/financial-sector-continuity/cbest-threat-intelligence-led-assessments",
+    "url": "https://www.bankofengland.co.uk/financial-stability/financial-sector-continuity",
     "description": "UK framework for intelligence-led penetration testing of financial services. Complements TIBER-EU with UK-specific implementation.",
     "category": "Red Team and Adversary Simulation",
     "tags": [
@@ -16863,7 +16818,7 @@
   {
     "name": "CREST Penetration Testing Guide",
     "provider": "CREST",
-    "url": "https://www.crest-approved.org/skills-certifications-careers/crest-penetration-testing/",
+    "url": "https://www.crest-approved.org/about-us/crest-penetration-testing-focus-group/",
     "description": "Overview of CREST-accredited penetration testing standards, methodologies, and career paths for professional security testers.",
     "category": "Red Team and Adversary Simulation",
     "tags": [
@@ -16887,7 +16842,7 @@
   {
     "name": "PCI DSS Penetration Testing Guidance v4.0",
     "provider": "PCI Security Standards Council",
-    "url": "https://docs-prv.pcisecuritystandards.org/Guidance%20Document/Penetration%20Testing/Penetration-Testing-Guidance-v1_1.pdf",
+    "url": "https://www.pcisecuritystandards.org/document_library/",
     "description": "Detailed guidance on conducting penetration tests that satisfy PCI DSS Requirement 11.4 — scope, methodology, and reporting.",
     "category": "Red Team and Adversary Simulation",
     "tags": [
@@ -16909,7 +16864,7 @@
   {
     "name": "CISA Red Team Assessment Guide",
     "provider": "CISA",
-    "url": "https://www.cisa.gov/resources-tools/services/red-team-assessments",
+    "url": "https://www.cisa.gov/resources-tools/services",
     "description": "CISA's red team assessment methodology — multi-phase approach simulating real-world adversary TTPs against critical infrastructure.",
     "category": "Red Team and Adversary Simulation",
     "tags": [
@@ -16979,7 +16934,7 @@
   {
     "name": "OWASP DefectDojo – Vulnerability Management",
     "provider": "OWASP",
-    "url": "https://www.defectdojo.org/",
+    "url": "https://defectdojo.com/community",
     "description": "Open-source vulnerability management platform. Aggregates findings from 150+ security tools, tracks remediation, and measures program maturity.",
     "category": "Vulnerability Management",
     "tags": [
@@ -17093,7 +17048,7 @@
   {
     "name": "OWASP Proactive Controls 2024",
     "provider": "OWASP",
-    "url": "https://owasp.org/www-project-proactive-controls/",
+    "url": "https://top10proactive.owasp.org/",
     "description": "Top 10 security techniques developers should implement — parameterized queries, output encoding, authentication, access control, and more.",
     "category": "Application Security",
     "tags": [
@@ -17179,29 +17134,6 @@
     ],
     "relatedCertIds": [],
     "id": "fr747"
-  },
-  {
-    "name": "OWASP Top 10 for MCP (Model Context Protocol)",
-    "provider": "OWASP",
-    "url": "https://owasp.org/www-project-top-10-for-mcp/",
-    "description": "Security risks specific to Model Context Protocol servers and clients — tool poisoning, excessive permissions, and prompt injection.",
-    "category": "AI and LLM Security",
-    "tags": [
-      "OWASP",
-      "MCP",
-      "AI",
-      "LLM",
-      "tool security"
-    ],
-    "level": "Intermediate",
-    "cisspDomains": [
-      "cissp-d8"
-    ],
-    "niceCategories": [
-      "Securely Provision"
-    ],
-    "relatedCertIds": [],
-    "id": "fr748"
   },
   {
     "name": "OWASP Docker Top 10",
