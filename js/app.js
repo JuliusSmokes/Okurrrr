@@ -2252,7 +2252,9 @@
     loadJSON('data/cissp-domains.json'),
     loadJSON('data/free-resources.json'),
     loadJSON('data/defcon-media.json'),
-    loadJSON('data/career-paths.json')
+    loadJSON('data/career-paths.json'),
+    loadJSON('data/cwe-data.json'),
+    loadJSON('data/capec-data.json')
   ]).then(function (results) {
     certs = results[0] || [];
     niceWorkRoles = results[1] || [];
@@ -2260,6 +2262,27 @@
     resources = results[3] || [];
     defconMedia = results[4] || [];
     careerPaths = results[5] || [];
+
+    var cweRaw = results[6];
+    if (cweRaw) {
+      cweData = cweRaw.weaknesses || [];
+      cweLoaded = true;
+      if (tabCountCweEl) tabCountCweEl.textContent = cweData.length;
+      if (cweVersionBadgeEl) {
+        cweVersionBadgeEl.textContent = 'v' + (cweRaw.version || '') + ' (' + (cweRaw.date || '') + ')';
+      }
+    }
+
+    var capecRaw = results[7];
+    if (capecRaw) {
+      capecData = capecRaw.patterns || [];
+      capecLoaded = true;
+      if (tabCountCapecEl) tabCountCapecEl.textContent = capecData.length;
+      if (capecVersionBadgeEl) {
+        capecVersionBadgeEl.textContent = 'v' + (capecRaw.version || '') + ' (' + (capecRaw.date || '') + ')';
+      }
+    }
+
     populateCategoryFilter();
     populateVendorFilter();
     populateRegionFilter();
