@@ -14325,8 +14325,8 @@
   {
     "name": "Nevada Gaming Control Board MICS",
     "provider": "Nevada GCB",
-    "url": "https://gaming.nv.gov/index.aspx?page=177",
-    "description": "Minimum Internal Control Standards for Nevada gaming operations covering IT security, surveillance, access control, and cybersecurity requirements for casinos and gaming technology.",
+    "url": "https://www.gaming.nv.gov/divisions/audit-division/minimum-internal-control-standards/",
+    "description": "Minimum Internal Control Standards (Version 9) for Nevada gaming operations covering IT security, interactive gaming, surveillance, access control, and cybersecurity requirements for casinos and gaming technology.",
     "category": "Hardening and Compliance",
     "tags": [
       "gaming",
@@ -17452,5 +17452,31 @@
     ],
     "relatedCertIds": [],
     "id": "fr759"
+  },
+  {
+    "name": "Nevada Gaming Control Board – Internal Control Procedures",
+    "provider": "Nevada GCB",
+    "url": "https://www.gaming.nv.gov/divisions/audit-division/internal-control-information/",
+    "description": "NGC Regulation 6.090 internal control system requirements, CPA MICS compliance checklists, internal audit compliance checklists, submission procedures, and policy templates for Nevada gaming licensees.",
+    "category": "Hardening and Compliance",
+    "tags": [
+      "gaming",
+      "MICS",
+      "Nevada",
+      "casino",
+      "compliance",
+      "internal controls",
+      "audit"
+    ],
+    "level": "Expert",
+    "cisspDomains": [
+      "cissp-d1",
+      "cissp-d6"
+    ],
+    "niceCategories": [
+      "Oversight and Governance"
+    ],
+    "relatedCertIds": [],
+    "id": "fr760"
   }
 ]
