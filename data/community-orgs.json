@@ -5,8 +5,18 @@
     "url": "https://www.womenscyberjutsu.org/",
     "description": "501(c)(3) nonprofit dedicated to empowering women and girls in cybersecurity careers. Offers hands-on technical training, CTF competitions (Wicked 6), mentorship, networking events, local chapters worldwide, scholarships, and the Cyberjutsu Girls Academy for youth outreach.",
     "type": "Support & Empowerment",
-    "focusAreas": ["Women in Cyber", "Training", "Mentorship", "CTF Competitions", "Youth Outreach"],
-    "audience": ["Career Changers", "Students", "Professionals"],
+    "focusAreas": [
+      "Women in Cyber",
+      "Training",
+      "Mentorship",
+      "CTF Competitions",
+      "Youth Outreach"
+    ],
+    "audience": [
+      "Career Changers",
+      "Students",
+      "Professionals"
+    ],
     "free": true
   },
   {
@@ -15,9 +25,40 @@
     "url": "https://blackgirlshack.org/",
     "description": "Training-focused 501(c)(3) nonprofit increasing diversity in cybersecurity. Provides Red Team, Blue Team, Cloud Security, GRC, CISSP, and DFIR training programs. Also runs BlackKidsHack, We Got Next Cyber for youth, mentoring, resume review, mock interviews, and the SquadCon conference.",
     "type": "Support & Empowerment",
-    "focusAreas": ["Black Women in Cyber", "Training Programs", "Mentorship", "Youth Outreach", "Career Development"],
-    "audience": ["Career Changers", "Students", "Professionals"],
+    "focusAreas": [
+      "Black Women in Cyber",
+      "Training Programs",
+      "Mentorship",
+      "Youth Outreach",
+      "Career Development"
+    ],
+    "audience": [
+      "Career Changers",
+      "Students",
+      "Professionals"
+    ],
     "free": true
+  },
+  {
+    "id": "org035",
+    "name": "Cyversity",
+    "url": "https://www.cyversity.org/",
+    "description": "501(c)(3) nonprofit committed to achieving consistent representation of women, underrepresented communities, and all veterans in cybersecurity. Offers training partnerships with SANS, (ISC)², and EC-Council, a structured mentorship program, apprenticeships and internships, career resources, and 350+ annual scholarships valued at over $3 million.",
+    "type": "Support & Empowerment",
+    "focusAreas": [
+      "Diversity in Cyber",
+      "Scholarships",
+      "Mentorship",
+      "Training Partnerships",
+      "Veterans"
+    ],
+    "audience": [
+      "Students",
+      "Professionals",
+      "Career Changers",
+      "Veterans"
+    ],
+    "free": false
   },
   {
     "id": "org003",
@@ -25,8 +66,17 @@
     "url": "https://wearebgc.org/",
     "description": "Nonprofit introducing girls of color ages 7–18 to STEM and cybersecurity through hands-on workshops, hackathons, summer camps, and AI literacy programs. Over 40,000 learners reached since 2011. Offers college and career community, volunteer opportunities, and the AI Hive initiative.",
     "type": "Support & Empowerment",
-    "focusAreas": ["Girls of Color", "K-12 Education", "Coding Workshops", "AI Literacy", "Summer Camps"],
-    "audience": ["Students", "Youth (Ages 7-18)"],
+    "focusAreas": [
+      "Girls of Color",
+      "K-12 Education",
+      "Coding Workshops",
+      "AI Literacy",
+      "Summer Camps"
+    ],
+    "audience": [
+      "Students",
+      "Youth (Ages 7-18)"
+    ],
     "free": true
   },
   {
@@ -35,8 +85,18 @@
     "url": "https://www.wicys.org/",
     "description": "One of the largest organizations for women in cybersecurity. Provides annual conference and career fair, student chapters, mentorship programs, professional development, special interest groups (neurodiversity, data privacy, research), Job Board++, and a global member community portal.",
     "type": "Support & Empowerment",
-    "focusAreas": ["Women in Cyber", "Conference", "Mentorship", "Student Chapters", "Career Fair"],
-    "audience": ["Students", "Professionals", "Career Changers"],
+    "focusAreas": [
+      "Women in Cyber",
+      "Conference",
+      "Mentorship",
+      "Student Chapters",
+      "Career Fair"
+    ],
+    "audience": [
+      "Students",
+      "Professionals",
+      "Career Changers"
+    ],
     "free": false
   },
   {
@@ -45,8 +105,17 @@
     "url": "https://www.dianainitiative.org/",
     "description": "Nonprofit committed to helping all those underrepresented in information security. Hosts an annual conference (born from the DEF CON community) featuring talks, workshops, and village events. Provides CFP mentoring program for first-time speakers and a supportive community for diverse voices in security.",
     "type": "Support & Empowerment",
-    "focusAreas": ["Underrepresented in InfoSec", "Conference", "Speaker Mentoring", "Community"],
-    "audience": ["Students", "Professionals", "Career Changers"],
+    "focusAreas": [
+      "Underrepresented in InfoSec",
+      "Conference",
+      "Speaker Mentoring",
+      "Community"
+    ],
+    "audience": [
+      "Students",
+      "Professionals",
+      "Career Changers"
+    ],
     "free": true
   },
   {
@@ -55,8 +124,17 @@
     "url": "https://www.blacksincybersecurity.com/",
     "description": "Professional community for Black cybersecurity professionals providing networking, mentorship, and career resources. Hosts conferences and events focused on advancing Black representation in the cybersecurity industry with programming for both emerging and seasoned professionals.",
     "type": "Support & Empowerment",
-    "focusAreas": ["Black Professionals in Cyber", "Conference", "Networking", "Career Resources"],
-    "audience": ["Students", "Professionals", "Career Changers"],
+    "focusAreas": [
+      "Black Professionals in Cyber",
+      "Conference",
+      "Networking",
+      "Career Resources"
+    ],
+    "audience": [
+      "Students",
+      "Professionals",
+      "Career Changers"
+    ],
     "free": true
   },
   {
@@ -65,8 +143,18 @@
     "url": "https://www.nsbe.org/",
     "description": "One of the largest student-governed organizations in the US with 50,000+ members and 500+ chapters. Offers cybersecurity tracks at annual convention, scholarships, SEEK summer program for K-5, career center, professional development, and a pipeline connecting Black STEM professionals with major cyber employers.",
     "type": "Support & Empowerment",
-    "focusAreas": ["Black Engineers", "Scholarships", "Career Fair", "K-12 Outreach", "Professional Development"],
-    "audience": ["Students", "Professionals", "Youth (K-12)"],
+    "focusAreas": [
+      "Black Engineers",
+      "Scholarships",
+      "Career Fair",
+      "K-12 Outreach",
+      "Professional Development"
+    ],
+    "audience": [
+      "Students",
+      "Professionals",
+      "Youth (K-12)"
+    ],
     "free": false
   },
   {
@@ -75,8 +163,17 @@
     "url": "https://latinasincyber.org/",
     "description": "Community dedicated to elevating Latina representation in the cybersecurity industry. Provides mentorship, networking events, career resources, and visibility campaigns to support Latinas entering, advancing, and thriving in cybersecurity careers.",
     "type": "Support & Empowerment",
-    "focusAreas": ["Latinas in Cyber", "Mentorship", "Networking", "Visibility"],
-    "audience": ["Students", "Professionals", "Career Changers"],
+    "focusAreas": [
+      "Latinas in Cyber",
+      "Mentorship",
+      "Networking",
+      "Visibility"
+    ],
+    "audience": [
+      "Students",
+      "Professionals",
+      "Career Changers"
+    ],
     "free": true
   },
   {
@@ -85,8 +182,18 @@
     "url": "https://www.mincybsec.org/",
     "description": "501(c)(3) nonprofit equipping cybersecurity professionals with training, mentorship, and leadership development. Structured leadership pathways from Aspirers to Directors. Annual conference in Dallas, MiC LEAD sessions, and the MiC Inclusive Community for peer networking and career growth.",
     "type": "Support & Empowerment",
-    "focusAreas": ["Minorities in Cyber", "Leadership Development", "Conference", "Mentorship", "Training"],
-    "audience": ["Students", "Professionals", "Career Changers"],
+    "focusAreas": [
+      "Minorities in Cyber",
+      "Leadership Development",
+      "Conference",
+      "Mentorship",
+      "Training"
+    ],
+    "audience": [
+      "Students",
+      "Professionals",
+      "Career Changers"
+    ],
     "free": false
   },
   {
@@ -95,8 +202,17 @@
     "url": "https://techimpact.org/",
     "description": "National nonprofit providing free IT and cybersecurity training through the ITWorks program for underserved communities. Includes CompTIA certification prep, soft skills, credentials, supportive services, and job placement assistance. Also offers cybersecurity services and consulting for nonprofits.",
     "type": "Support & Empowerment",
-    "focusAreas": ["Workforce Development", "Free Training", "Certification Prep", "Job Placement", "Nonprofits"],
-    "audience": ["Career Changers", "Underserved Communities"],
+    "focusAreas": [
+      "Workforce Development",
+      "Free Training",
+      "Certification Prep",
+      "Job Placement",
+      "Nonprofits"
+    ],
+    "audience": [
+      "Career Changers",
+      "Underserved Communities"
+    ],
     "free": true
   },
   {
@@ -105,8 +221,17 @@
     "url": "https://www.issa.org/",
     "description": "International nonprofit for cybersecurity professionals. 10,000+ members across 100+ local chapters offering networking, mentorship, education, and career development. Annual conference, CISO Executive Forum, special interest groups, and the ISSA Journal for thought leadership.",
     "type": "Professional Association",
-    "focusAreas": ["Networking", "Local Chapters", "Education", "CISO Forum", "Thought Leadership"],
-    "audience": ["Professionals", "Career Changers"],
+    "focusAreas": [
+      "Networking",
+      "Local Chapters",
+      "Education",
+      "CISO Forum",
+      "Thought Leadership"
+    ],
+    "audience": [
+      "Professionals",
+      "Career Changers"
+    ],
     "free": false
   },
   {
@@ -115,8 +240,17 @@
     "url": "https://www.isc2.org/chapters",
     "description": "Global network of local (ISC)² chapters providing peer networking, CPE earning opportunities, and community engagement for certified professionals (CISSP, SSCP, CCSP, etc.). Free chapter events, study groups, and mentorship connecting experienced practitioners with career starters.",
     "type": "Professional Association",
-    "focusAreas": ["Certification Community", "Local Chapters", "CPE Credits", "Study Groups", "Mentorship"],
-    "audience": ["Professionals", "Students"],
+    "focusAreas": [
+      "Certification Community",
+      "Local Chapters",
+      "CPE Credits",
+      "Study Groups",
+      "Mentorship"
+    ],
+    "audience": [
+      "Professionals",
+      "Students"
+    ],
     "free": true
   },
   {
@@ -125,8 +259,17 @@
     "url": "https://www.isaca.org/membership/local-chapter",
     "description": "200+ chapters in 80+ countries providing local networking, training events, and career development for governance, risk, audit, and cybersecurity professionals. Chapter events often offer CPE credits, certification study groups, and mentorship for CISM, CISA, CRISC, and CGEIT candidates.",
     "type": "Professional Association",
-    "focusAreas": ["GRC Community", "Local Chapters", "CPE Credits", "Certification Support", "Training Events"],
-    "audience": ["Professionals", "Students"],
+    "focusAreas": [
+      "GRC Community",
+      "Local Chapters",
+      "CPE Credits",
+      "Certification Support",
+      "Training Events"
+    ],
+    "audience": [
+      "Professionals",
+      "Students"
+    ],
     "free": false
   },
   {
@@ -135,8 +278,16 @@
     "url": "https://www.infragard.org/",
     "description": "Partnership between the FBI and private sector for the protection of US critical infrastructure. Provides education, information sharing, networking, and workshops on emerging technologies and threats. Membership includes business executives, IT professionals, law enforcement, military, and academia.",
     "type": "Professional Association",
-    "focusAreas": ["FBI Partnership", "Critical Infrastructure", "Information Sharing", "Networking", "Workshops"],
-    "audience": ["Professionals"],
+    "focusAreas": [
+      "FBI Partnership",
+      "Critical Infrastructure",
+      "Information Sharing",
+      "Networking",
+      "Workshops"
+    ],
+    "audience": [
+      "Professionals"
+    ],
     "free": true
   },
   {
@@ -145,8 +296,17 @@
     "url": "https://www.cloudsecurityalliance.org/",
     "description": "Leading nonprofit for cloud and AI security best practices. Offers CCSK and CCZT certifications, the Cloud Controls Matrix, STAR registry, 40+ research working groups, webinars, and the AI Safety Initiative. Individual membership provides access to research, training discounts, and a global community.",
     "type": "Professional Association",
-    "focusAreas": ["Cloud Security", "AI Safety", "Certifications", "Research", "Zero Trust"],
-    "audience": ["Professionals", "Students"],
+    "focusAreas": [
+      "Cloud Security",
+      "AI Safety",
+      "Certifications",
+      "Research",
+      "Zero Trust"
+    ],
+    "audience": [
+      "Professionals",
+      "Students"
+    ],
     "free": false
   },
   {
@@ -155,8 +315,18 @@
     "url": "https://owasp.org/",
     "description": "Open community dedicated to application security with 250+ local chapters worldwide. All projects, tools, and resources are free and open source. Community-driven projects include the OWASP Top 10, ZAP, Testing Guide, and hundreds of security tools. Regular chapter meetups and global conferences.",
     "type": "Professional Association",
-    "focusAreas": ["Application Security", "Open Source", "Local Chapters", "Projects", "Conferences"],
-    "audience": ["Professionals", "Students", "Career Changers"],
+    "focusAreas": [
+      "Application Security",
+      "Open Source",
+      "Local Chapters",
+      "Projects",
+      "Conferences"
+    ],
+    "audience": [
+      "Professionals",
+      "Students",
+      "Career Changers"
+    ],
     "free": true
   },
   {
@@ -165,8 +335,17 @@
     "url": "https://www.vetsec.org/",
     "description": "Nonprofit creating a world where no veteran pursuing a cybersecurity career goes unemployed. Provides free or low-cost training through partners (SANS, CompTIA, Cybrary, TCM Security), resume help, interview prep, job listings, VetSecCon virtual conference, mentorship program, and a veterans community platform.",
     "type": "Veterans & Military",
-    "focusAreas": ["Veterans", "Free Training", "Job Placement", "Mentorship", "VetSecCon"],
-    "audience": ["Veterans", "Transitioning Military"],
+    "focusAreas": [
+      "Veterans",
+      "Free Training",
+      "Job Placement",
+      "Mentorship",
+      "VetSecCon"
+    ],
+    "audience": [
+      "Veterans",
+      "Transitioning Military"
+    ],
     "free": true
   },
   {
@@ -175,8 +354,18 @@
     "url": "https://www.hiringourheroes.org/",
     "description": "US Chamber of Commerce Foundation initiative connecting transitioning service members, veterans, and military spouses with meaningful employment. Offers Corporate Fellowship Program, career workshops, resume workshops, networking events, and hiring fairs with major cybersecurity employers.",
     "type": "Veterans & Military",
-    "focusAreas": ["Veterans", "Military Spouses", "Corporate Fellowships", "Career Workshops", "Hiring Fairs"],
-    "audience": ["Veterans", "Transitioning Military", "Military Spouses"],
+    "focusAreas": [
+      "Veterans",
+      "Military Spouses",
+      "Corporate Fellowships",
+      "Career Workshops",
+      "Hiring Fairs"
+    ],
+    "audience": [
+      "Veterans",
+      "Transitioning Military",
+      "Military Spouses"
+    ],
     "free": true
   },
   {
@@ -185,8 +374,17 @@
     "url": "https://fedvte.usalearning.gov/",
     "description": "Free online cybersecurity training provided by CISA for federal, state, local, tribal, and territorial government employees, veterans, and the general public. Hundreds of hours of training across ethical hacking, incident response, risk management, malware analysis, and more.",
     "type": "Veterans & Military",
-    "focusAreas": ["Free Government Training", "Veterans", "Federal Workforce", "Certification Prep"],
-    "audience": ["Veterans", "Government Employees", "Career Changers"],
+    "focusAreas": [
+      "Free Government Training",
+      "Veterans",
+      "Federal Workforce",
+      "Certification Prep"
+    ],
+    "audience": [
+      "Veterans",
+      "Government Employees",
+      "Career Changers"
+    ],
     "free": true
   },
   {
@@ -195,8 +393,17 @@
     "url": "https://www.uscyberpatriot.org/",
     "description": "Created by the Air & Space Forces Association to inspire K-12 students toward cybersecurity and STEM careers. Core program is the National Youth Cyber Defense Competition (nation's largest). Also offers AFA CyberCamps, CyberGenerations for seniors, an elementary school initiative, and the CyberPatriot Alumni Network.",
     "type": "Student & Youth",
-    "focusAreas": ["K-12 Education", "Cyber Defense Competition", "CyberCamps", "STEM Pipeline"],
-    "audience": ["Students", "Youth (K-12)", "Educators"],
+    "focusAreas": [
+      "K-12 Education",
+      "Cyber Defense Competition",
+      "CyberCamps",
+      "STEM Pipeline"
+    ],
+    "audience": [
+      "Students",
+      "Youth (K-12)",
+      "Educators"
+    ],
     "free": true
   },
   {
@@ -205,8 +412,15 @@
     "url": "https://nationalcyberleague.org/",
     "description": "Virtual, learning-centered cybersecurity competition and community for college students. 17,000+ students from 1,200+ schools across all 50 states. Participants earn a Scouting Report providing evidence of job-readiness to employers. Supported by CrowdStrike, ISACA, CompTIA, and WiCyS.",
     "type": "Student & Youth",
-    "focusAreas": ["Collegiate Competition", "Scouting Reports", "Career Pipeline", "Hands-On Skills"],
-    "audience": ["Students"],
+    "focusAreas": [
+      "Collegiate Competition",
+      "Scouting Reports",
+      "Career Pipeline",
+      "Hands-On Skills"
+    ],
+    "audience": [
+      "Students"
+    ],
     "free": false
   },
   {
@@ -215,8 +429,18 @@
     "url": "https://cyber.org/",
     "description": "Academic initiative of the Cyber Innovation Center advancing K-12 cybersecurity education and workforce development. Provides free curricula, virtual professional development for educators, the CYBER.ORG Range for hands-on labs, cyber career profiles, and resources serving 38,000+ educators across all 50 states. Supported by CISA.",
     "type": "Student & Youth",
-    "focusAreas": ["K-12 Curriculum", "Educator Training", "Cyber Range", "Career Exploration", "CISA Partnership"],
-    "audience": ["Educators", "Students", "Youth (K-12)"],
+    "focusAreas": [
+      "K-12 Curriculum",
+      "Educator Training",
+      "Cyber Range",
+      "Career Exploration",
+      "CISA Partnership"
+    ],
+    "audience": [
+      "Educators",
+      "Students",
+      "Youth (K-12)"
+    ],
     "free": true
   },
   {
@@ -225,8 +449,18 @@
     "url": "https://www.gen-cyber.com/",
     "description": "NSA and NSF funded summer cybersecurity camp program for students (K-12) and teachers. Free camps hosted at universities nationwide, covering cybersecurity principles, hands-on activities, and career exploration. Aims to increase interest in cybersecurity careers and improve teaching methods.",
     "type": "Student & Youth",
-    "focusAreas": ["Summer Camps", "K-12 Students", "Teacher Training", "NSA/NSF Funded", "Free Program"],
-    "audience": ["Students", "Youth (K-12)", "Educators"],
+    "focusAreas": [
+      "Summer Camps",
+      "K-12 Students",
+      "Teacher Training",
+      "NSA/NSF Funded",
+      "Free Program"
+    ],
+    "audience": [
+      "Students",
+      "Youth (K-12)",
+      "Educators"
+    ],
     "free": true
   },
   {
@@ -235,8 +469,15 @@
     "url": "https://www.nationalccdc.org/",
     "description": "Premier collegiate cyber defense competition where student teams defend a simulated corporate network against professional red team attackers. Regional and national competitions develop incident response, teamwork, and communication skills. A major talent pipeline for the cybersecurity industry.",
     "type": "Student & Youth",
-    "focusAreas": ["Collegiate Competition", "Blue Team Defense", "Incident Response", "Teamwork"],
-    "audience": ["Students"],
+    "focusAreas": [
+      "Collegiate Competition",
+      "Blue Team Defense",
+      "Incident Response",
+      "Teamwork"
+    ],
+    "audience": [
+      "Students"
+    ],
     "free": true
   },
   {
@@ -245,8 +486,18 @@
     "url": "https://defcongroups.org/",
     "description": "Worldwide network of local DEF CON-affiliated hacker groups. DCGs host regular meetups, workshops, CTFs, and talks in cities around the globe. Free, open community gatherings that bring the spirit of DEF CON to local communities year-round. Great entry point for networking and learning.",
     "type": "Peer Community",
-    "focusAreas": ["Local Meetups", "Hacker Culture", "CTFs", "Workshops", "Global Network"],
-    "audience": ["Students", "Professionals", "Career Changers"],
+    "focusAreas": [
+      "Local Meetups",
+      "Hacker Culture",
+      "CTFs",
+      "Workshops",
+      "Global Network"
+    ],
+    "audience": [
+      "Students",
+      "Professionals",
+      "Career Changers"
+    ],
     "free": true
   },
   {
@@ -255,8 +506,18 @@
     "url": "http://www.securitybsides.com/",
     "description": "Community-driven framework for organizing local information security conferences worldwide. BSides events are low-cost or free, volunteer-run, and feature talks, workshops, villages, and CTFs. Over 100 events annually across 6 continents. An accessible on-ramp into the security community.",
     "type": "Peer Community",
-    "focusAreas": ["Local Conferences", "Community-Driven", "Talks", "Workshops", "Accessible"],
-    "audience": ["Students", "Professionals", "Career Changers"],
+    "focusAreas": [
+      "Local Conferences",
+      "Community-Driven",
+      "Talks",
+      "Workshops",
+      "Accessible"
+    ],
+    "audience": [
+      "Students",
+      "Professionals",
+      "Career Changers"
+    ],
     "free": true
   },
   {
@@ -265,8 +526,18 @@
     "url": "https://www.antisyphontraining.com/",
     "description": "Founded by BHIS and John Strand, Antisyphon provides pay-what-you-can cybersecurity training and a vibrant Discord community. Courses cover SOC, threat hunting, penetration testing, and more. The community Discord is a welcoming space for questions, career advice, and peer networking.",
     "type": "Peer Community",
-    "focusAreas": ["Pay-What-You-Can Training", "Discord Community", "SOC", "Pentesting", "Threat Hunting"],
-    "audience": ["Students", "Career Changers", "Professionals"],
+    "focusAreas": [
+      "Pay-What-You-Can Training",
+      "Discord Community",
+      "SOC",
+      "Pentesting",
+      "Threat Hunting"
+    ],
+    "audience": [
+      "Students",
+      "Career Changers",
+      "Professionals"
+    ],
     "free": true
   },
   {
@@ -275,8 +546,17 @@
     "url": "https://www.blackhillsinfosec.com/",
     "description": "Active penetration testing firm that gives back extensively to the community through free webcasts, tools, blog posts, and training. Weekly Talkin' About Infosec News webcasts, backdoors and breaches tabletop game, and a culture of open knowledge sharing that has become a community pillar.",
     "type": "Peer Community",
-    "focusAreas": ["Free Webcasts", "Open Source Tools", "Community Education", "Penetration Testing"],
-    "audience": ["Students", "Professionals", "Career Changers"],
+    "focusAreas": [
+      "Free Webcasts",
+      "Open Source Tools",
+      "Community Education",
+      "Penetration Testing"
+    ],
+    "audience": [
+      "Students",
+      "Professionals",
+      "Career Changers"
+    ],
     "free": true
   },
   {
@@ -285,8 +565,16 @@
     "url": "https://www.first.org/",
     "description": "Premier global organization for incident response teams with 700+ member teams across 100+ countries. Develops standards (TLP, CVSS, CSIRT/PSIRT Frameworks), hosts annual conference, provides training, and facilitates trusted information sharing among CSIRTs, PSIRTs, and security teams worldwide.",
     "type": "Professional Association",
-    "focusAreas": ["Incident Response", "Global Standards", "Conference", "CSIRT Community", "Information Sharing"],
-    "audience": ["Professionals"],
+    "focusAreas": [
+      "Incident Response",
+      "Global Standards",
+      "Conference",
+      "CSIRT Community",
+      "Information Sharing"
+    ],
+    "audience": [
+      "Professionals"
+    ],
     "free": false
   },
   {
@@ -295,8 +583,15 @@
     "url": "https://www.nationalisacs.org/",
     "description": "The National Council of ISACs coordinates sector-specific Information Sharing and Analysis Centers across 16 critical infrastructure sectors. ISACs facilitate sharing of cyber threat intelligence, best practices, and incident coordination. Includes FS-ISAC (Financial), H-ISAC (Health), MS-ISAC (Multi-State), and more.",
     "type": "Professional Association",
-    "focusAreas": ["Sector ISACs", "Threat Intelligence Sharing", "Critical Infrastructure", "Incident Coordination"],
-    "audience": ["Professionals"],
+    "focusAreas": [
+      "Sector ISACs",
+      "Threat Intelligence Sharing",
+      "Critical Infrastructure",
+      "Incident Coordination"
+    ],
+    "audience": [
+      "Professionals"
+    ],
     "free": false
   },
   {
@@ -305,8 +600,18 @@
     "url": "https://www.eff.org/",
     "description": "Leading nonprofit defending digital privacy, free speech, and innovation. Publishes the Deeplinks blog with daily cybersecurity policy analysis, runs surveillance self-defense guides, fights for encryption rights, and provides resources on digital security for activists, journalists, and the public.",
     "type": "Peer Community",
-    "focusAreas": ["Digital Rights", "Privacy", "Policy Advocacy", "Security Guides", "Encryption"],
-    "audience": ["Professionals", "Students", "General Public"],
+    "focusAreas": [
+      "Digital Rights",
+      "Privacy",
+      "Policy Advocacy",
+      "Security Guides",
+      "Encryption"
+    ],
+    "audience": [
+      "Professionals",
+      "Students",
+      "General Public"
+    ],
     "free": true
   },
   {
@@ -315,8 +620,17 @@
     "url": "https://www.cisa.gov/careers",
     "description": "CISA's careers portal with federal cybersecurity job listings, the NICE Framework workforce tool, Cyber Career Pathways Tool, DHS Cybersecurity Service career tracks, hiring events, and resources for building a cybersecurity career in government service from entry to executive level.",
     "type": "Career Support",
-    "focusAreas": ["Federal Careers", "NICE Framework", "Career Pathways", "Government Service"],
-    "audience": ["Career Changers", "Students", "Professionals"],
+    "focusAreas": [
+      "Federal Careers",
+      "NICE Framework",
+      "Career Pathways",
+      "Government Service"
+    ],
+    "audience": [
+      "Career Changers",
+      "Students",
+      "Professionals"
+    ],
     "free": true
   },
   {
@@ -325,8 +639,17 @@
     "url": "https://www.cyberseek.org/",
     "description": "Interactive tool by NIST NICE, CompTIA, and Lightcast showing real-time cybersecurity job demand, salary data, required skills, certifications, and career advancement paths. Mapped to NICE Framework roles with heat maps of supply/demand across US metro areas.",
     "type": "Career Support",
-    "focusAreas": ["Career Pathway Tool", "Job Demand Data", "Salary Data", "NICE Framework Mapping"],
-    "audience": ["Career Changers", "Students", "Professionals"],
+    "focusAreas": [
+      "Career Pathway Tool",
+      "Job Demand Data",
+      "Salary Data",
+      "NICE Framework Mapping"
+    ],
+    "audience": [
+      "Career Changers",
+      "Students",
+      "Professionals"
+    ],
     "free": true
   },
   {
@@ -335,8 +658,239 @@
     "url": "https://www.sans.org/cybertalent/",
     "description": "SANS workforce development programs including CyberTalent Assessments for skills measurement, Immersion Academy for intensive training, scholarship programs (including military-focused), and employer pipeline services connecting trained candidates with hiring organizations.",
     "type": "Career Support",
-    "focusAreas": ["Skills Assessment", "Immersion Training", "Scholarships", "Employer Pipeline"],
-    "audience": ["Career Changers", "Veterans", "Students"],
+    "focusAreas": [
+      "Skills Assessment",
+      "Immersion Training",
+      "Scholarships",
+      "Employer Pipeline"
+    ],
+    "audience": [
+      "Career Changers",
+      "Veterans",
+      "Students"
+    ],
     "free": false
+  },
+  {
+    "id": "org036",
+    "name": "Neurodiverse Hackers",
+    "url": "https://neurodiversehackers.com/",
+    "description": "501(c)(3) nonprofit empowering neurodiverse individuals in cybersecurity. Offers scholarship programs for certifications, ADA advocacy at conferences, mentorship pairing with experienced professionals, networking events, and active Discord/LinkedIn communities. Founded by security researchers with lived experience.",
+    "type": "Support & Empowerment",
+    "focusAreas": [
+      "Neurodiversity in Cyber",
+      "Scholarships",
+      "Mentorship",
+      "ADA Advocacy"
+    ],
+    "audience": [
+      "Neurodivergent Professionals",
+      "Career Changers",
+      "Students"
+    ],
+    "free": true
+  },
+  {
+    "id": "org037",
+    "name": "NFAR IT/Cyber Program",
+    "url": "https://nfar.org/vocational-programs/cyber",
+    "description": "9-month hands-on IT and cybersecurity training designed for neurodivergent individuals. Covers computer hardware, operating systems, networks, and cybersecurity with CompTIA A+/Network+/Security+ prep. 6:1 participant-to-instructor ratio, soft skills curriculum, paid internship placement, and work experience projects.",
+    "type": "Career Support",
+    "focusAreas": [
+      "Neurodivergent Training",
+      "CompTIA Prep",
+      "Internship Placement",
+      "Workforce Development"
+    ],
+    "audience": [
+      "Neurodivergent Professionals",
+      "Career Changers"
+    ],
+    "free": true
+  },
+  {
+    "id": "org038",
+    "name": "Aspiritech Academy – Cybersecurity Program",
+    "url": "https://aspiritech.org/aspiritech-academy/cybersecurity-academy-apprenticeship/",
+    "description": "Cost-free 12-week cybersecurity training for neurodivergent adults across the United States. Covers CompTIA Security+ fundamentals, CMMC framework, network/cloud security, incident response, digital forensics, IAM, and cryptography. Led by neurodivergent subject matter experts. Illinois residents can access a paid pre-apprenticeship/apprenticeship pathway.",
+    "type": "Career Support",
+    "focusAreas": [
+      "Neurodivergent Training",
+      "Security+ Prep",
+      "Apprenticeship",
+      "Workforce Development"
+    ],
+    "audience": [
+      "Neurodivergent Professionals",
+      "Career Changers"
+    ],
+    "free": true
+  },
+  {
+    "id": "org039",
+    "name": "Specialisterne USA Academy",
+    "url": "https://www.us.specialisterne.com/academy/",
+    "description": "Free 8-week online training for autistic job seekers in IT and AI fundamentals, partnered with The Hg Foundation and IBM SkillsBuild. Combines coaching, employment readiness, live workshops, applied projects, and technical eLearning. 10-20 participants per cohort, multiple cohorts per year through 2027.",
+    "type": "Career Support",
+    "focusAreas": [
+      "Neurodivergent Training",
+      "IT Fundamentals",
+      "Employment Readiness",
+      "IBM Partnership"
+    ],
+    "audience": [
+      "Neurodivergent Professionals",
+      "Career Changers"
+    ],
+    "free": true
+  },
+  {
+    "id": "org040",
+    "name": "Mentra – Neurodiversity Employment Network",
+    "url": "https://www.mentra.com/",
+    "description": "Job platform connecting neurodivergent professionals with inclusive employers including Fortune 500 companies. Dedicated Cybersecurity Pathways program with hands-on training in threat intelligence, incident response, and vulnerability management. Job matching based on cognitive strengths and preferences, with mentorship from cybersecurity professionals.",
+    "type": "Career Support",
+    "focusAreas": [
+      "Neurodivergent Hiring",
+      "Cybersecurity Careers",
+      "Job Matching",
+      "Mentorship"
+    ],
+    "audience": [
+      "Neurodivergent Professionals",
+      "Career Changers",
+      "Professionals"
+    ],
+    "free": true
+  },
+  {
+    "id": "org041",
+    "name": "Microsoft Neurodiversity Hiring Program",
+    "url": "https://careers.microsoft.com/v2/global/en/neurodiversity.html",
+    "description": "Alternative hiring pathway at Microsoft for neurodivergent candidates since 2015. Roles span consulting, data science, software engineering, security engineering, IT operations, and more. Extended interview process with preparation activities, workplace insights, and accommodations including extra processing time and 1:1 interviews.",
+    "type": "Career Support",
+    "focusAreas": [
+      "Neurodivergent Hiring",
+      "Tech Careers",
+      "Interview Accommodations",
+      "Enterprise"
+    ],
+    "audience": [
+      "Neurodivergent Professionals",
+      "Career Changers",
+      "Students"
+    ],
+    "free": true
+  },
+  {
+    "id": "org042",
+    "name": "Dell Neurodiversity Hiring Program",
+    "url": "https://jobs.dell.com/en/neurodiversity",
+    "description": "Dedicated hiring program at Dell Technologies for neurodivergent candidates. Skill-based interview process with structured, objective questions instead of traditional behavioral interviews. Provides internships, full-time roles, mentoring, coaching, professional development, and employee support resources.",
+    "type": "Career Support",
+    "focusAreas": [
+      "Neurodivergent Hiring",
+      "Tech Careers",
+      "Internships",
+      "Mentorship"
+    ],
+    "audience": [
+      "Neurodivergent Professionals",
+      "Students",
+      "Career Changers"
+    ],
+    "free": true
+  },
+  {
+    "id": "org043",
+    "name": "auticon",
+    "url": "https://auticon.com/careers",
+    "description": "World's largest autistic-majority technology consulting firm. IT consultant roles in software development, data science, cybersecurity, QA, and project management for autistic professionals. Provides job coaches (psychology/coaching backgrounds), remote-friendly flexible work, competitive pay, and benefits. Global presence across 12+ countries.",
+    "type": "Career Support",
+    "focusAreas": [
+      "Neurodivergent Employment",
+      "Tech Consulting",
+      "Cybersecurity Careers",
+      "Coaching"
+    ],
+    "audience": [
+      "Neurodivergent Professionals",
+      "Professionals"
+    ],
+    "free": true
+  },
+  {
+    "id": "org044",
+    "name": "Specialisterne USA",
+    "url": "https://us.specialisterne.com/job-seekers/",
+    "description": "Connects autistic and neurodivergent job seekers with inclusive employers and helps businesses build neuroinclusive hiring practices. Offers talent community membership, IBM SkillsBuild access for free STEM training and certifications, and employment transition support. Part of the global Specialisterne network operating in 20+ countries.",
+    "type": "Career Support",
+    "focusAreas": [
+      "Neurodivergent Hiring",
+      "Employer Partnerships",
+      "STEM Training",
+      "Global Network"
+    ],
+    "audience": [
+      "Neurodivergent Professionals",
+      "Career Changers"
+    ],
+    "free": true
+  },
+  {
+    "id": "org045",
+    "name": "JAN – Job Accommodation Network",
+    "url": "https://askjan.org/",
+    "description": "Free, expert, confidential guidance on workplace accommodations and disability employment from the U.S. Department of Labor. Covers neurodiversity, disclosure decisions, performance management, and reasonable accommodations during hiring and employment. A-to-Z disability accommodation guides, webinars, and phone/chat consultation.",
+    "type": "Support & Empowerment",
+    "focusAreas": [
+      "Workplace Accommodations",
+      "ADA Guidance",
+      "Neurodiversity Support",
+      "Disclosure"
+    ],
+    "audience": [
+      "Neurodivergent Professionals",
+      "Professionals",
+      "Career Changers"
+    ],
+    "free": true
+  },
+  {
+    "id": "org046",
+    "name": "EARN – Neurodiversity in the Workplace",
+    "url": "https://askearn.org/page/neurodiversity-in-the-workplace",
+    "description": "Employer Assistance and Resource Network toolkit on recruiting, hiring, retaining, and advancing neurodivergent workers. Covers accommodation strategies, management training, neurodiversity hiring initiatives, the Neurodiversity @ Work Employer Roundtable, and checklists for organizational success. From the U.S. Department of Labor.",
+    "type": "Support & Empowerment",
+    "focusAreas": [
+      "Workplace Inclusion",
+      "Employer Resources",
+      "Neurodiversity Toolkit",
+      "Policy"
+    ],
+    "audience": [
+      "Neurodivergent Professionals",
+      "Professionals"
+    ],
+    "free": true
+  },
+  {
+    "id": "org047",
+    "name": "SANS Neurodiversity in Cybersecurity Summit",
+    "url": "https://www.sans.org/blog/visual-summary-sans-neurodiversity-summit-2025",
+    "description": "Annual free virtual summit from SANS Institute for neurodivergent cybersecurity professionals and allies. Features panels on workplace inclusion, self-management, AI support tools, neuroinclusion strategies, and career development. Includes graphic recordings for visual learners. Worth 6 CPE credits. Runs since 2022.",
+    "type": "Peer Community",
+    "focusAreas": [
+      "Neurodiversity in Cyber",
+      "Summit",
+      "CPE Credits",
+      "Community"
+    ],
+    "audience": [
+      "Neurodivergent Professionals",
+      "Professionals",
+      "Students"
+    ],
+    "free": true
   }
 ]
