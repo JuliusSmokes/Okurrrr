@@ -122,6 +122,22 @@
   var reportsSearchTerm = '';
   var reportsDebounceTimer = null;
 
+  var communityPanelEl = document.getElementById('community-panel');
+  var communityListEl = document.getElementById('community-list');
+  var communitySearchInput = document.getElementById('community-search-input');
+  var communityCountEl = document.getElementById('community-count');
+  var communityFilterTypeEl = document.getElementById('community-filter-type');
+  var communityFilterFocusEl = document.getElementById('community-filter-focus');
+  var communityFilterAudienceEl = document.getElementById('community-filter-audience');
+  var resetCommunityBtn = document.getElementById('reset-community-filters');
+  var tabCountCommunityEl = document.getElementById('tab-count-community');
+  var statCommunityEl = document.getElementById('stat-community');
+
+  var communityOrgs = [];
+  var filteredCommunity = [];
+  var communitySearchTerm = '';
+  var communityDebounceTimer = null;
+
   var refDropdownEl = document.getElementById('ref-dropdown');
   var refTabBtnEl = document.getElementById('ref-tab-btn');
   var refTabLabelEl = document.getElementById('ref-tab-label');
@@ -1885,6 +1901,150 @@
     });
   }
 
+  /* ── Community & Support ── */
+
+  function populateCommunityFilters() {
+    var types = {};
+    var focusAreas = {};
+    var audiences = {};
+    communityOrgs.forEach(function (o) {
+      if (o.type) types[o.type] = true;
+      if (o.focusAreas) o.focusAreas.forEach(function (f) { focusAreas[f] = true; });
+      if (o.audience) o.audience.forEach(function (a) { audiences[a] = true; });
+    });
+
+    if (communityFilterTypeEl) {
+      Object.keys(types).sort().forEach(function (t) {
+        var opt = document.createElement('option');
+        opt.value = t;
+        opt.textContent = t;
+        communityFilterTypeEl.appendChild(opt);
+      });
+    }
+
+    if (communityFilterFocusEl) {
+      Object.keys(focusAreas).sort().forEach(function (f) {
+        var opt = document.createElement('option');
+        opt.value = f;
+        opt.textContent = f;
+        communityFilterFocusEl.appendChild(opt);
+      });
+    }
+
+    if (communityFilterAudienceEl) {
+      Object.keys(audiences).sort().forEach(function (a) {
+        var opt = document.createElement('option');
+        opt.value = a;
+        opt.textContent = a;
+        communityFilterAudienceEl.appendChild(opt);
+      });
+    }
+  }
+
+  function filterCommunity() {
+    var typ = communityFilterTypeEl ? communityFilterTypeEl.value : '';
+    var focus = communityFilterFocusEl ? communityFilterFocusEl.value : '';
+    var aud = communityFilterAudienceEl ? communityFilterAudienceEl.value : '';
+    var q = communitySearchTerm.toLowerCase();
+
+    filteredCommunity = communityOrgs.filter(function (o) {
+      if (typ && o.type !== typ) return false;
+      if (focus && (!o.focusAreas || o.focusAreas.indexOf(focus) === -1)) return false;
+      if (aud && (!o.audience || o.audience.indexOf(aud) === -1)) return false;
+      if (q) {
+        var haystack = (o.name + ' ' + o.type + ' ' + o.description + ' ' + (o.focusAreas || []).join(' ') + ' ' + (o.audience || []).join(' ')).toLowerCase();
+        if (haystack.indexOf(q) === -1) return false;
+      }
+      return true;
+    });
+  }
+
+  function renderCommunity() {
+    filterCommunity();
+    if (communityCountEl) {
+      communityCountEl.textContent = 'Showing ' + filteredCommunity.length + ' of ' + communityOrgs.length + ' organizations';
+    }
+
+    if (!communityListEl) return;
+
+    if (filteredCommunity.length === 0) {
+      communityListEl.innerHTML =
+        '<div class="community-empty">' +
+          '<span class="empty-icon">&#x1F465;</span>' +
+          '<p>No organizations match your filters.</p>' +
+        '</div>';
+      return;
+    }
+
+    var frag = document.createDocumentFragment();
+    filteredCommunity.forEach(function (o) {
+      var card = document.createElement('div');
+      card.className = 'community-card';
+
+      var header = '<div class="community-card-header">' +
+        '<a href="' + o.url + '" target="_blank" rel="noopener">' + o.name + '</a>' +
+        '<span class="community-card-type">' + o.type + '</span>' +
+      '</div>';
+
+      var desc = '<div class="community-card-desc">' + (o.description || '') + '</div>';
+
+      var metaParts = [];
+      if (o.focusAreas) {
+        o.focusAreas.slice(0, 3).forEach(function (f) {
+          metaParts.push('<span class="badge badge-community-focus">' + f + '</span>');
+        });
+      }
+      if (o.audience) {
+        o.audience.forEach(function (a) {
+          metaParts.push('<span class="badge badge-community-audience">' + a + '</span>');
+        });
+      }
+      if (o.free) {
+        metaParts.push('<span class="badge badge-community-free">Free</span>');
+      }
+      var meta = '<div class="community-card-meta">' + metaParts.join('') + '</div>';
+
+      card.innerHTML = header + desc + meta;
+      frag.appendChild(card);
+    });
+
+    communityListEl.innerHTML = '';
+    communityListEl.appendChild(frag);
+  }
+
+  if (communitySearchInput) {
+    communitySearchInput.addEventListener('input', function () {
+      clearTimeout(communityDebounceTimer);
+      communityDebounceTimer = setTimeout(function () {
+        communitySearchTerm = communitySearchInput.value.trim();
+        renderCommunity();
+      }, 200);
+    });
+  }
+
+  if (communityFilterTypeEl) {
+    communityFilterTypeEl.addEventListener('change', function () { renderCommunity(); });
+  }
+
+  if (communityFilterFocusEl) {
+    communityFilterFocusEl.addEventListener('change', function () { renderCommunity(); });
+  }
+
+  if (communityFilterAudienceEl) {
+    communityFilterAudienceEl.addEventListener('change', function () { renderCommunity(); });
+  }
+
+  if (resetCommunityBtn) {
+    resetCommunityBtn.addEventListener('click', function () {
+      if (communitySearchInput) communitySearchInput.value = '';
+      if (communityFilterTypeEl) communityFilterTypeEl.value = '';
+      if (communityFilterFocusEl) communityFilterFocusEl.value = '';
+      if (communityFilterAudienceEl) communityFilterAudienceEl.value = '';
+      communitySearchTerm = '';
+      renderCommunity();
+    });
+  }
+
   /* ── Tab switching ── */
 
   function switchTab(tab) {
@@ -1916,6 +2076,7 @@
     if (controlsDefconEl) controlsDefconEl.style.display = 'none';
     if (pathfinderPanelEl) pathfinderPanelEl.style.display = 'none';
     if (reportsPanelEl) reportsPanelEl.style.display = 'none';
+    if (communityPanelEl) communityPanelEl.style.display = 'none';
     if (glossaryPanelEl) glossaryPanelEl.style.display = 'none';
     if (cwePanelEl) cwePanelEl.style.display = 'none';
     if (capecPanelEl) capecPanelEl.style.display = 'none';
@@ -1954,6 +2115,13 @@
       if (resultCountLine) resultCountLine.style.display = 'none';
       resultsEl.style.display = 'none';
       renderReports();
+    } else if (tab === 'community') {
+      if (communityPanelEl) communityPanelEl.style.display = '';
+      if (searchBarEl) searchBarEl.style.display = 'none';
+      if (activeFiltersBar) activeFiltersBar.style.display = 'none';
+      if (resultCountLine) resultCountLine.style.display = 'none';
+      resultsEl.style.display = 'none';
+      renderCommunity();
     } else if (tab === 'pathfinder') {
       if (pathfinderPanelEl) pathfinderPanelEl.style.display = '';
       if (searchBarEl) searchBarEl.style.display = 'none';
@@ -1985,7 +2153,7 @@
 
     searchInput.value = '';
     searchTerm = '';
-    if (tab !== 'pathfinder' && tab !== 'reports' && tab !== 'glossary' && tab !== 'cwe' && tab !== 'capec') runFilterAndRender();
+    if (tab !== 'pathfinder' && tab !== 'reports' && tab !== 'community' && tab !== 'glossary' && tab !== 'cwe' && tab !== 'capec') runFilterAndRender();
   }
 
   /* ── Hero stats ── */
@@ -2402,7 +2570,8 @@
     loadJSON('data/career-paths.json'),
     loadJSON('data/cwe-data.json'),
     loadJSON('data/capec-data.json'),
-    loadJSON('data/threat-reports.json')
+    loadJSON('data/threat-reports.json'),
+    loadJSON('data/community-orgs.json')
   ]).then(function (results) {
     certs = results[0] || [];
     niceWorkRoles = results[1] || [];
@@ -2435,6 +2604,11 @@
     if (tabCountReportsEl) tabCountReportsEl.textContent = threatReports.length;
     if (statReportsEl) statReportsEl.textContent = threatReports.length;
     populateReportsFilters();
+
+    communityOrgs = results[9] || [];
+    if (tabCountCommunityEl) tabCountCommunityEl.textContent = communityOrgs.length;
+    if (statCommunityEl) statCommunityEl.textContent = communityOrgs.length;
+    populateCommunityFilters();
 
     populateCategoryFilter();
     populateVendorFilter();
