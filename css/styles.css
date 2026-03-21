@@ -3024,20 +3024,14 @@ a.pf-item-name:hover {
   }
 
   .tab-bar {
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    scrollbar-width: none;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 0;
-  }
-
-  .tab-bar::-webkit-scrollbar {
-    display: none;
   }
 
   .tab {
     padding: var(--space-2) var(--space-3);
     font-size: 0.8125rem;
-    white-space: nowrap;
   }
 
   .filter-chip .fc-remove {
