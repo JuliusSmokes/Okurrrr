@@ -229,7 +229,9 @@ body {
   background: var(--surface-raised);
   border: 1px solid var(--border);
   border-radius: var(--radius-md);
-  min-width: 140px;
+  flex: 1 1 0;
+  min-width: 120px;
+  text-align: center;
   transition: border-color 200ms;
 }
 
@@ -3012,7 +3014,8 @@ a.pf-item-name:hover {
   }
 
   .stat-badge {
-    min-width: 100px;
+    flex: 1 1 0;
+    min-width: 80px;
     padding: var(--space-2) var(--space-3);
   }
 
