@@ -18748,5 +18748,212 @@
       "Analyze"
     ],
     "relatedCertIds": []
+  },
+  {
+    "id": "fr817",
+    "name": "Google Gemini for Workspace Prompt Guide",
+    "provider": "Google",
+    "url": "https://services.google.com/fh/files/misc/gemini_for_workspace_prompt_guide_october_2024_digital_final.pdf",
+    "description": "Official Google guide for prompt engineering with Gemini in Workspace. Covers writing effective prompts for summarization, content creation, data analysis, and workflow automation across Gmail, Docs, Sheets, and Slides.",
+    "category": "AI and LLM Security",
+    "tags": [
+      "Gemini",
+      "prompt engineering",
+      "Google Workspace",
+      "AI",
+      "productivity"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Oversee and Govern"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr818",
+    "name": "Anthropic Claude Prompt Engineering Guide",
+    "provider": "Anthropic",
+    "url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview",
+    "description": "Official Anthropic documentation on prompt engineering for Claude models. Covers prompting best practices, XML tag structuring, role prompting, chain-of-thought, few-shot examples, prompt chaining, and console tools including the prompt generator and prompt improver.",
+    "category": "AI and LLM Security",
+    "tags": [
+      "Claude",
+      "Anthropic",
+      "prompt engineering",
+      "AI",
+      "LLM"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Oversee and Govern"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr819",
+    "name": "OpenAI Prompt Engineering Guide",
+    "provider": "OpenAI",
+    "url": "https://platform.openai.com/docs/guides/prompt-engineering",
+    "description": "Official OpenAI guide covering six core strategies for effective prompting. Includes model selection guidance (GPT-4.1, reasoning models), evaluation building, prompt caching for latency/cost reduction, and techniques from zero-shot to chain-of-thought.",
+    "category": "AI and LLM Security",
+    "tags": [
+      "OpenAI",
+      "GPT",
+      "prompt engineering",
+      "AI",
+      "LLM"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Oversee and Govern"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr820",
+    "name": "OpenAI Codex Prompting Guide",
+    "provider": "OpenAI",
+    "url": "https://cookbook.openai.com/examples/gpt-5/codex_prompting_guide",
+    "description": "Official prompting guide for OpenAI Codex, the agentic coding model. Covers autonomous code generation, codebase exploration, tool use patterns, migration from other models, and best practices for long-running agentic development sessions.",
+    "category": "AI and LLM Security",
+    "tags": [
+      "Codex",
+      "OpenAI",
+      "agentic coding",
+      "prompt engineering",
+      "AI"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Design and Development"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr821",
+    "name": "AWS Kiro Documentation",
+    "provider": "AWS",
+    "url": "https://kiro.dev/docs/",
+    "description": "Official documentation for AWS Kiro, an agentic coding service built on Amazon Bedrock. Covers spec-driven development, structured artifacts (tasks.md, design.md), agent hooks for automated triggers, steering files for persistent project context, and context engineering as an alternative to traditional prompting.",
+    "category": "AI and LLM Security",
+    "tags": [
+      "Kiro",
+      "AWS",
+      "agentic coding",
+      "spec-driven development",
+      "AI"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Design and Development"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr822",
+    "name": "Cursor IDE Documentation",
+    "provider": "Anysphere",
+    "url": "https://docs.cursor.com/get-started/introduction",
+    "description": "Official documentation for Cursor, an AI-powered code editor. Covers the .cursor/rules/ system for persistent AI guidance, AGENTS.md cross-tool compatibility, Ask/Agent/Debug modes, context management, MCP integrations, and prompt engineering through project rules and custom instructions.",
+    "category": "AI and LLM Security",
+    "tags": [
+      "Cursor",
+      "IDE",
+      "agentic coding",
+      "prompt engineering",
+      "AI"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Design and Development"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr823",
+    "name": "Cline Prompt Engineering & Rules Guide",
+    "provider": "Cline",
+    "url": "https://docs.cline.bot/prompting/prompt-engineering-guide",
+    "description": "Official Cline documentation on prompt engineering through rules, context management, and development modes. Covers .clinerules/ configuration, conditional rules with glob patterns, Plan & Act modes, Memory Bank for persistent context, and cross-tool rule compatibility with Cursor and Windsurf.",
+    "category": "AI and LLM Security",
+    "tags": [
+      "Cline",
+      "prompt engineering",
+      "rules",
+      "agentic coding",
+      "AI"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Design and Development"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr824",
+    "name": "Google Cloud Prompt Engineering for Generative AI",
+    "provider": "Google Cloud",
+    "url": "https://developers.google.com/machine-learning/resources/prompt-eng",
+    "description": "Google Cloud guide to prompt engineering fundamentals. Covers direct prompting (zero-shot), one-shot, few-shot, and multi-shot techniques, chain-of-thought prompting, role prompting, prompt iteration strategies, and best practices for structuring effective LLM interactions.",
+    "category": "AI and LLM Security",
+    "tags": [
+      "Google Cloud",
+      "prompt engineering",
+      "Gemini",
+      "AI",
+      "LLM"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Oversee and Govern"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr825",
+    "name": "Google Antigravity Tutorial & Documentation",
+    "provider": "Google",
+    "url": "https://antigravity.codes/tutorial",
+    "description": "Comprehensive tutorial for Google Antigravity, an agent-first development platform. Covers autonomous AI agent workflows, spec-driven development, multi-agent parallel execution, AGENTS.md cross-tool rules, browser subagent testing, MCP integrations, and agent skills for modular AI capabilities.",
+    "category": "AI and LLM Security",
+    "tags": [
+      "Antigravity",
+      "Google",
+      "agentic coding",
+      "prompt engineering",
+      "AI"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Design and Development"
+    ],
+    "relatedCertIds": []
   }
 ]
