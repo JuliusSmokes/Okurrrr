@@ -164,6 +164,7 @@
   var glossaryPage = 1;
   var GLOSSARY_PAGE_SIZE = 100;
   var glossaryLoaded = false;
+  var glossaryMetaCount = 0;
   var glossaryDebounceTimer = null;
 
   var CISSP_SHORT = {
@@ -2178,7 +2179,7 @@
     if (tabCountResEl) tabCountResEl.textContent = resources.length;
     if (tabCountDefconEl) tabCountDefconEl.textContent = defconMedia.length;
     if (tabCountPathfinderEl) tabCountPathfinderEl.textContent = careerPaths.length;
-    if (tabCountGlossaryEl) tabCountGlossaryEl.textContent = glossaryLoaded ? glossaryTerms.length : '--';
+    if (tabCountGlossaryEl) tabCountGlossaryEl.textContent = glossaryLoaded ? glossaryTerms.length : (glossaryMetaCount || '--');
     if (tabCountCweEl) tabCountCweEl.textContent = cweLoaded ? cweData.length : '--';
     if (statCweEl) statCweEl.textContent = cweLoaded ? cweData.length : '--';
     if (tabCountCapecEl) tabCountCapecEl.textContent = capecLoaded ? capecData.length : '--';
@@ -2578,7 +2579,8 @@
     loadJSON('data/cwe-data.json'),
     loadJSON('data/capec-data.json'),
     loadJSON('data/threat-reports.json'),
-    loadJSON('data/community-orgs.json')
+    loadJSON('data/community-orgs.json'),
+    loadJSON('data/nist-glossary-meta.json')
   ]).then(function (results) {
     certs = results[0] || [];
     niceWorkRoles = results[1] || [];
@@ -2616,6 +2618,12 @@
     if (tabCountCommunityEl) tabCountCommunityEl.textContent = communityOrgs.length;
     if (statCommunityEl) statCommunityEl.textContent = communityOrgs.length;
     populateCommunityFilters();
+
+    var glossaryMeta = results[10];
+    if (glossaryMeta && glossaryMeta.count) {
+      glossaryMetaCount = glossaryMeta.count;
+      if (!glossaryLoaded && tabCountGlossaryEl) tabCountGlossaryEl.textContent = glossaryMetaCount;
+    }
 
     populateCategoryFilter();
     populateVendorFilter();
