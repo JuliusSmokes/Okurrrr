@@ -19277,5 +19277,97 @@
     "regions": [
       "Global"
     ]
+  },
+  {
+    "id": "c628",
+    "name": "CIPM",
+    "url": "https://iapp.org/certify/cipm",
+    "category": "GRC",
+    "level": "Intermediate",
+    "niceWorkRoleIds": [
+      "PD-WRL-001",
+      "PD-WRL-003",
+      "IO-WRL-006",
+      "OG-WRL-006"
+    ],
+    "costUsd": 550,
+    "costNote": null,
+    "dod8140": false,
+    "dodWorkRoleCodes": [],
+    "fullName": "Certified Information Privacy Manager",
+    "vendor": "IAPP",
+    "description": "Validates privacy program management skills including building organizational privacy frameworks, data lifecycle governance, and cross-functional privacy operations.",
+    "status": "active",
+    "statusNote": null,
+    "freeTraining": true,
+    "freeTrainingUrl": "https://iapp.org/resources/",
+    "cisspDomains": [
+      "cissp-d1",
+      "cissp-d2",
+      "cissp-d6",
+      "cissp-d7"
+    ],
+    "regions": [
+      "Global"
+    ]
+  },
+  {
+    "id": "c629",
+    "name": "AIGP",
+    "url": "https://iapp.org/certify/aigp",
+    "category": "GRC",
+    "level": "Intermediate",
+    "niceWorkRoleIds": [
+      "OG-WRL-006"
+    ],
+    "costUsd": 550,
+    "costNote": null,
+    "dod8140": false,
+    "dodWorkRoleCodes": [],
+    "fullName": "Artificial Intelligence Governance Professional",
+    "vendor": "IAPP",
+    "description": "Validates AI governance competencies including AI lifecycle risk management, ethical AI deployment, regulatory compliance (EU AI Act, NIST AI RMF), and organizational AI accountability frameworks.",
+    "status": "active",
+    "statusNote": null,
+    "freeTraining": true,
+    "freeTrainingUrl": "https://iapp.org/resources/",
+    "cisspDomains": [
+      "cissp-d1",
+      "cissp-d2"
+    ],
+    "regions": [
+      "Global"
+    ]
+  },
+  {
+    "id": "c630",
+    "name": "CDPO",
+    "url": "https://pecb.com/en/education-and-certification-for-individuals/data-protection/certified-data-protection-officer",
+    "category": "GRC",
+    "level": "Expert",
+    "niceWorkRoleIds": [
+      "PD-WRL-001",
+      "PD-WRL-003",
+      "OG-WRL-006"
+    ],
+    "costUsd": 900,
+    "costNote": "Training + exam; varies by region",
+    "dod8140": false,
+    "dodWorkRoleCodes": [],
+    "fullName": "PECB Certified Data Protection Officer",
+    "vendor": "PECB",
+    "description": "Validates expertise in data protection governance, GDPR compliance implementation, privacy impact assessments, and fulfilling the statutory DPO role required under EU data protection law.",
+    "status": "active",
+    "statusNote": null,
+    "freeTraining": false,
+    "freeTrainingUrl": null,
+    "cisspDomains": [
+      "cissp-d1",
+      "cissp-d2",
+      "cissp-d6"
+    ],
+    "regions": [
+      "Global"
+    ]
   }
 ]
