@@ -17410,5 +17410,681 @@
     ],
     "relatedCertIds": [],
     "id": "fr760"
+  },
+  {
+    "id": "fr761",
+    "name": "(ISC)2 Code of Ethics",
+    "provider": "(ISC)2",
+    "url": "https://www.isc2.org/ethics",
+    "description": "The foundational code of ethics binding all (ISC)2 members and certificants including CISSPs. Four mandatory canons: protect society, act honorably, provide diligent service, and advance the profession.",
+    "category": "Ethics and Professional Conduct",
+    "tags": [
+      "(ISC)2",
+      "CISSP",
+      "code of ethics",
+      "professional conduct"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Oversee and Govern"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr762",
+    "name": "ISACA Code of Professional Ethics",
+    "provider": "ISACA",
+    "url": "https://www.isaca.org/credentialing/code-of-professional-ethics",
+    "description": "Professional ethics code governing all ISACA certificants (CISA, CISM, CRISC, CGEIT, CDPSE). Covers due diligence, confidentiality, competence, professional standards, and governance obligations.",
+    "category": "Ethics and Professional Conduct",
+    "tags": [
+      "ISACA",
+      "code of ethics",
+      "professional conduct",
+      "governance"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Oversee and Govern"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr763",
+    "name": "ACM Code of Ethics and Professional Conduct",
+    "provider": "ACM",
+    "url": "https://www.acm.org/code-of-ethics",
+    "description": "The premier computing ethics framework. Seven general principles and seven professional responsibilities covering harm avoidance, honesty, privacy, confidentiality, fairness, and respect for intellectual property.",
+    "category": "Ethics and Professional Conduct",
+    "tags": [
+      "ACM",
+      "code of ethics",
+      "computing",
+      "professional responsibility"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Oversee and Govern"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr764",
+    "name": "IEEE Code of Ethics",
+    "provider": "IEEE",
+    "url": "https://www.ieee.org/about/corporate/governance/p7-8.html",
+    "description": "Ten-point code of ethics for IEEE members covering public safety, conflicts of interest, honest claims, rejection of bribery, improving technical understanding, fair treatment, and avoiding discrimination.",
+    "category": "Ethics and Professional Conduct",
+    "tags": [
+      "IEEE",
+      "code of ethics",
+      "engineering",
+      "professional standards"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Oversee and Govern"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr765",
+    "name": "EC-Council Code of Ethics",
+    "provider": "EC-Council",
+    "url": "https://www.eccouncil.org/code-of-ethics/",
+    "description": "Ethical standards binding all EC-Council certificants including CEH holders. Covers privacy protection, intellectual property respect, authorized access, lawful conduct, and responsible disclosure.",
+    "category": "Ethics and Professional Conduct",
+    "tags": [
+      "EC-Council",
+      "CEH",
+      "code of ethics",
+      "ethical hacking"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Oversee and Govern"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr766",
+    "name": "SANS Cybersecurity Ethics Poster",
+    "provider": "SANS Institute",
+    "url": "https://www.sans.org/posters/",
+    "description": "SANS poster collection including cybersecurity ethics reference materials. Visual guides covering ethical decision-making frameworks, responsible conduct, and professional boundaries in security operations.",
+    "category": "Ethics and Professional Conduct",
+    "tags": [
+      "SANS",
+      "poster",
+      "ethics",
+      "reference"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Oversee and Govern"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr767",
+    "name": "RFC 8890 – The Internet is for End Users (IAB)",
+    "provider": "IETF / IAB",
+    "url": "https://www.rfc-editor.org/rfc/rfc8890",
+    "description": "Internet Architecture Board statement establishing that end users must be prioritized in Internet standards development. Addresses ethical considerations in protocol design, privacy by default, and duty of care in infrastructure decisions.",
+    "category": "Ethics and Professional Conduct",
+    "tags": [
+      "IETF",
+      "IAB",
+      "RFC",
+      "internet governance",
+      "user rights"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d1",
+      "cissp-d4"
+    ],
+    "niceCategories": [
+      "Oversee and Govern"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr768",
+    "name": "EU Artificial Intelligence Act (Official Text)",
+    "provider": "European Union",
+    "url": "https://artificialintelligenceact.eu/",
+    "description": "The world's first comprehensive AI regulation. Risk-based classification system (unacceptable, high, limited, minimal risk) with requirements for transparency, human oversight, conformity assessments, and prohibited AI practices.",
+    "category": "AI Governance",
+    "tags": [
+      "EU AI Act",
+      "regulation",
+      "AI risk",
+      "compliance",
+      "European Union"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Oversee and Govern"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr769",
+    "name": "UNESCO Recommendation on the Ethics of Artificial Intelligence",
+    "provider": "UNESCO",
+    "url": "https://www.unesco.org/en/artificial-intelligence/recommendation-ethics",
+    "description": "First global normative instrument on AI ethics, adopted by 193 member states. Covers proportionality, safety, fairness, sustainability, right to privacy, human oversight, transparency, responsibility, and governance frameworks.",
+    "category": "AI Governance",
+    "tags": [
+      "UNESCO",
+      "AI ethics",
+      "global",
+      "normative",
+      "human rights"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Oversee and Govern"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr770",
+    "name": "OECD AI Principles",
+    "provider": "OECD",
+    "url": "https://oecd.ai/en/ai-principles",
+    "description": "Five values-based principles for trustworthy AI adopted by 46+ countries: inclusive growth, human-centered values, transparency, robustness, and accountability. Foundation for G20 AI governance commitments.",
+    "category": "AI Governance",
+    "tags": [
+      "OECD",
+      "AI principles",
+      "international",
+      "governance",
+      "trustworthy AI"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Oversee and Govern"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr771",
+    "name": "White House Blueprint for an AI Bill of Rights",
+    "provider": "White House OSTP",
+    "url": "https://www.whitehouse.gov/ostp/ai-bill-of-rights/",
+    "description": "Five principles to guide AI system design: safe and effective systems, algorithmic discrimination protections, data privacy, notice and explanation, and human alternatives and fallback. Includes technical companion guide.",
+    "category": "AI Governance",
+    "tags": [
+      "White House",
+      "AI Bill of Rights",
+      "US policy",
+      "civil rights",
+      "algorithmic bias"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Oversee and Govern"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr772",
+    "name": "Canada Directive on Automated Decision-Making",
+    "provider": "Treasury Board of Canada",
+    "url": "https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32592",
+    "description": "Federal directive requiring Algorithmic Impact Assessments before deploying automated decision systems in Canadian government. Tiered requirements based on impact level covering transparency, recourse, and auditing.",
+    "category": "AI Governance",
+    "tags": [
+      "Canada",
+      "algorithmic impact",
+      "automated decision",
+      "government",
+      "transparency"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Oversee and Govern"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr773",
+    "name": "EU ALTAI – Assessment List for Trustworthy AI",
+    "provider": "European Commission",
+    "url": "https://digital-strategy.ec.europa.eu/en/library/assessment-list-trustworthy-artificial-intelligence-altai-self-assessment",
+    "description": "Self-assessment checklist from the EU High-Level Expert Group on AI. Operationalizes seven key requirements: human agency, technical robustness, privacy, transparency, diversity, well-being, and accountability.",
+    "category": "AI Governance",
+    "tags": [
+      "EU",
+      "ALTAI",
+      "self-assessment",
+      "trustworthy AI",
+      "checklist"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d1",
+      "cissp-d2"
+    ],
+    "niceCategories": [
+      "Oversee and Govern"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr774",
+    "name": "IEEE Ethically Aligned Design (EAD)",
+    "provider": "IEEE",
+    "url": "https://ethicsinaction.ieee.org/",
+    "description": "Comprehensive framework for ethically aligned design of autonomous and intelligent systems. Covers human well-being, data agency, effectiveness, transparency, awareness of misuse, and competence standards.",
+    "category": "AI Governance",
+    "tags": [
+      "IEEE",
+      "EAD",
+      "autonomous systems",
+      "ethical design",
+      "AI standards"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d1",
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Oversee and Govern"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr775",
+    "name": "NIST AI 100-2e2023 – Adversarial Machine Learning Taxonomy",
+    "provider": "NIST",
+    "url": "https://csrc.nist.gov/pubs/ai/100/2/e2023/final",
+    "description": "NIST taxonomy of adversarial machine learning attacks and mitigations. Covers evasion, poisoning, privacy attacks on ML models, and implications for AI fairness, bias, and trustworthiness.",
+    "category": "AI Governance",
+    "tags": [
+      "NIST",
+      "adversarial ML",
+      "AI security",
+      "taxonomy",
+      "bias"
+    ],
+    "level": "Expert",
+    "cisspDomains": [
+      "cissp-d1",
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Analyze",
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr776",
+    "name": "Stanford HAI AI Index Report",
+    "provider": "Stanford University HAI",
+    "url": "https://aiindex.stanford.edu/report/",
+    "description": "Annual comprehensive report tracking AI progress across technical performance, ethics, policy, economy, education, and diversity. Data-driven benchmarking of global AI development with visualization dashboards.",
+    "category": "AI Governance",
+    "tags": [
+      "Stanford",
+      "HAI",
+      "AI Index",
+      "research",
+      "benchmarks"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Oversee and Govern"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr777",
+    "name": "AI Now Institute Publications",
+    "provider": "AI Now Institute",
+    "url": "https://ainowinstitute.org/",
+    "description": "Research center studying the social implications of AI. Publications cover algorithmic accountability, workplace surveillance, biometric regulation, AI in government, and corporate AI governance failures.",
+    "category": "AI Governance",
+    "tags": [
+      "AI Now",
+      "research",
+      "social impact",
+      "accountability",
+      "algorithmic bias"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Oversee and Govern"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr778",
+    "name": "Beijing AI Principles",
+    "provider": "BAAI (Beijing Academy of Artificial Intelligence)",
+    "url": "https://www.baai.ac.cn/english.html",
+    "description": "China's AI governance framework covering research ethics, development responsibility, and governance policies. Fifteen principles spanning beneficence, responsible use, informed consent, and international cooperation.",
+    "category": "AI Governance",
+    "tags": [
+      "China",
+      "BAAI",
+      "AI principles",
+      "governance",
+      "international"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Oversee and Govern"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr779",
+    "name": "Markkula Center for Applied Ethics – Technology Ethics",
+    "provider": "Santa Clara University",
+    "url": "https://www.scu.edu/ethics/focus-areas/technology-ethics/",
+    "description": "Academic ethics resources covering internet ethics, AI ethics, bioethics and technology, privacy, and algorithmic decision-making. Case studies, frameworks, and teaching materials for technology ethics education.",
+    "category": "Ethics and Professional Conduct",
+    "tags": [
+      "Markkula Center",
+      "applied ethics",
+      "technology ethics",
+      "education",
+      "case studies"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Oversee and Govern"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr780",
+    "name": "Ohio State Cybersecurity Canon",
+    "provider": "Ohio State University",
+    "url": "https://icmcybersecuritycanon.com/",
+    "description": "Curated list of must-read cybersecurity books reviewed and rated by practitioners. Includes ethics-focused titles on hacker culture, responsible disclosure, surveillance capitalism, and the societal impact of technology.",
+    "category": "Ethics and Professional Conduct",
+    "tags": [
+      "book list",
+      "canon",
+      "education",
+      "ethics",
+      "reading"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Oversee and Govern"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr781",
+    "name": "Disclose.io – Vulnerability Disclosure Policy Framework",
+    "provider": "Disclose.io",
+    "url": "https://disclose.io/",
+    "description": "Open-source safe harbor framework and policy templates for coordinated vulnerability disclosure. Standardized terms protecting both researchers and organizations, with legal language vetted by the security community.",
+    "category": "Ethics and Professional Conduct",
+    "tags": [
+      "disclosure",
+      "safe harbor",
+      "policy template",
+      "responsible disclosure",
+      "legal"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d1",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Oversee and Govern",
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr782",
+    "name": "FIRST Ethics SIG – Ethics for Incident Responders",
+    "provider": "FIRST.org",
+    "url": "https://www.first.org/global/sigs/ethics/",
+    "description": "Forum of Incident Response and Security Teams Ethics Special Interest Group. Resources on ethical conduct in incident response, PSIRT operations, vulnerability coordination, and information sharing.",
+    "category": "Ethics and Professional Conduct",
+    "tags": [
+      "FIRST",
+      "incident response",
+      "ethics",
+      "PSIRT",
+      "vulnerability coordination"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d1",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Oversee and Govern",
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr783",
+    "name": "EU Whistleblower Protection Directive (2019/1937)",
+    "provider": "European Union",
+    "url": "https://commission.europa.eu/aid-development-cooperation-fundamental-rights/your-rights-eu/protection-whistleblowers_en",
+    "description": "EU-wide protections for persons reporting breaches of Union law including cybersecurity violations. Covers internal and external reporting channels, protection from retaliation, and confidentiality obligations.",
+    "category": "Ethics and Professional Conduct",
+    "tags": [
+      "EU",
+      "whistleblower",
+      "protection",
+      "reporting",
+      "directive"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Oversee and Govern"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr784",
+    "name": "NSABB Dual Use Research of Concern Framework",
+    "provider": "National Science Advisory Board for Biosecurity",
+    "url": "https://osp.od.nih.gov/biotechnology/dual-use-research-of-concern/",
+    "description": "US federal framework governing dual-use research that could be directly misused. Applicable to cybersecurity research involving exploit development, offensive tool creation, and vulnerability weaponization concerns.",
+    "category": "Ethics and Professional Conduct",
+    "tags": [
+      "dual use",
+      "DURC",
+      "research ethics",
+      "weaponization",
+      "responsible research"
+    ],
+    "level": "Expert",
+    "cisspDomains": [
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Oversee and Govern",
+      "Analyze"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr785",
+    "name": "HackerOne Vulnerability Disclosure Guidelines",
+    "provider": "HackerOne",
+    "url": "https://www.hackerone.com/vulnerability-management/vulnerability-disclosure",
+    "description": "Industry guidelines for vulnerability disclosure programs. Covers safe harbor terms, scope definitions, response timelines, and ethical research expectations for bug bounty and VDP participants.",
+    "category": "Bug Bounty",
+    "tags": [
+      "HackerOne",
+      "vulnerability disclosure",
+      "VDP",
+      "safe harbor",
+      "ethics"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d1",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Oversee and Govern",
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr786",
+    "name": "Bugcrowd Vulnerability Disclosure Program Resources",
+    "provider": "Bugcrowd",
+    "url": "https://www.bugcrowd.com/resources/guides/",
+    "description": "Guides and templates for building ethical vulnerability disclosure programs. Covers VDP frameworks, researcher engagement models, triage processes, and legal safe harbor documentation.",
+    "category": "Bug Bounty",
+    "tags": [
+      "Bugcrowd",
+      "vulnerability disclosure",
+      "VDP",
+      "program management",
+      "ethics"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d1",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Oversee and Govern",
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr787",
+    "name": "NIST AI 600-1: AI RMF Generative AI Profile",
+    "provider": "NIST",
+    "url": "https://airc.nist.gov/Docs/1",
+    "description": "NIST companion resource mapping generative AI risks to the AI RMF. Covers hallucinations, CBRN information generation, confabulation, data privacy, environmental impact, and homogenization of content.",
+    "category": "AI Governance",
+    "tags": [
+      "NIST",
+      "generative AI",
+      "AI RMF",
+      "risk profile",
+      "LLM"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d1",
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Oversee and Govern"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr788",
+    "name": "OECD AI Policy Observatory",
+    "provider": "OECD",
+    "url": "https://oecd.ai/",
+    "description": "Live tracker of AI policies across 70+ countries. Searchable database of national AI strategies, regulations, and governance initiatives with comparative analysis tools and policy trend data.",
+    "category": "AI Governance",
+    "tags": [
+      "OECD",
+      "AI policy",
+      "tracker",
+      "international",
+      "comparative"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Oversee and Govern"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr789",
+    "name": "CompTIA IT Industry Outlook – Ethics and Workforce",
+    "provider": "CompTIA",
+    "url": "https://www.comptia.org/content/research",
+    "description": "CompTIA research publications covering IT industry workforce ethics, emerging technology impact, and professional development standards. Annual reports on industry trends with ethics and governance components.",
+    "category": "Ethics and Professional Conduct",
+    "tags": [
+      "CompTIA",
+      "IT ethics",
+      "workforce",
+      "research",
+      "industry outlook"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Oversee and Govern"
+    ],
+    "relatedCertIds": []
   }
 ]
