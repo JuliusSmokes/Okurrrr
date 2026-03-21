@@ -18086,5 +18086,667 @@
       "Oversee and Govern"
     ],
     "relatedCertIds": []
+  },
+  {
+    "id": "fr790",
+    "name": "FIRST Traffic Light Protocol (TLP) v2.0",
+    "provider": "FIRST",
+    "url": "https://www.first.org/tlp/",
+    "description": "The authoritative standard for information sharing classifications. Defines four labels (TLP:RED, TLP:AMBER, TLP:GREEN, TLP:CLEAR) that control how sensitive threat intelligence and incident data may be disseminated across organizations and communities.",
+    "category": "Cybersecurity Communication",
+    "tags": [
+      "TLP",
+      "information sharing",
+      "FIRST",
+      "classification",
+      "threat intelligence"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d1",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Analyze",
+      "Oversee and Govern"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr791",
+    "name": "STIX/TAXII – Structured Threat Information Sharing Standards",
+    "provider": "OASIS",
+    "url": "https://oasis-open.github.io/cti-documentation/",
+    "description": "The open standards for expressing and transporting cyber threat intelligence. STIX provides a structured language for describing threat actors, campaigns, indicators, and TTPs. TAXII defines the transport protocol for sharing STIX data over HTTPS.",
+    "category": "Cybersecurity Communication",
+    "tags": [
+      "STIX",
+      "TAXII",
+      "OASIS",
+      "threat intelligence",
+      "data exchange",
+      "CTI"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d1",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Analyze"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr792",
+    "name": "MISP – Open Source Threat Intelligence Platform",
+    "provider": "MISP Project",
+    "url": "https://www.misp-project.org/",
+    "description": "An open-source platform for collecting, storing, distributing, and sharing cyber threat intelligence. Supports STIX, taxonomies, galaxies (including ATT&CK), and automated IOC correlation. Widely used by CSIRTs, ISACs, and SOCs worldwide.",
+    "category": "Cybersecurity Communication",
+    "tags": [
+      "MISP",
+      "threat intelligence",
+      "IOC",
+      "sharing platform",
+      "CSIRT"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d1",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Analyze",
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr793",
+    "name": "CISA Information Sharing Programs & Resources",
+    "provider": "CISA",
+    "url": "https://www.cisa.gov/topics/cyber-threats-and-advisories/information-sharing",
+    "description": "Overview of CISA's information sharing ecosystem including Automated Indicator Sharing (AIS), the Joint Cyber Defense Collaborative (JCDC), ISAOs, and coordinated vulnerability disclosure. Explains federal-private sector threat data sharing mechanisms.",
+    "category": "Cybersecurity Communication",
+    "tags": [
+      "CISA",
+      "AIS",
+      "JCDC",
+      "information sharing",
+      "ISAO",
+      "government"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d1",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Oversee and Govern",
+      "Analyze"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr794",
+    "name": "CISA Incident & Vulnerability Response Playbooks",
+    "provider": "CISA",
+    "url": "https://www.cisa.gov/resources-tools/resources/federal-government-cybersecurity-incident-and-vulnerability-response-playbooks",
+    "description": "Standardized operational procedures for planning and conducting cybersecurity incident and vulnerability response. Includes communication workflows, escalation chains, stakeholder notification templates, and remediation tracking applicable beyond federal agencies.",
+    "category": "Cybersecurity Communication",
+    "tags": [
+      "CISA",
+      "incident response",
+      "playbook",
+      "vulnerability response",
+      "communication plan"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d7",
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Protect and Defend",
+      "Oversee and Govern"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr795",
+    "name": "OWASP Vulnerability Disclosure Cheat Sheet",
+    "provider": "OWASP",
+    "url": "https://cheatsheetseries.owasp.org/cheatsheets/Vulnerability_Disclosure_Cheat_Sheet.html",
+    "description": "Practical guide for both security researchers and organizations on responsible vulnerability disclosure. Covers disclosure models (full, responsible, coordinated), communication templates, timelines, legal considerations, and handling disputes.",
+    "category": "Cybersecurity Communication",
+    "tags": [
+      "OWASP",
+      "vulnerability disclosure",
+      "coordinated disclosure",
+      "responsible disclosure"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d1",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Analyze",
+      "Oversee and Govern"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr796",
+    "name": "SANS OUCH! Security Awareness Newsletter",
+    "provider": "SANS",
+    "url": "https://www.sans.org/newsletters/ouch",
+    "description": "The world's leading free security awareness newsletter. Published monthly in multiple languages, each edition focuses on a specific topic with actionable steps. An excellent model for how to communicate cybersecurity concepts to non-technical audiences.",
+    "category": "Cybersecurity Communication",
+    "tags": [
+      "SANS",
+      "security awareness",
+      "newsletter",
+      "non-technical communication",
+      "end users"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Oversee and Govern"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr797",
+    "name": "SANS Security Awareness Training Resources",
+    "provider": "SANS",
+    "url": "https://www.sans.org/security-awareness-training/resources",
+    "description": "Curated collection of practical tools and materials for building and running a security awareness program. Includes the SANS Security Awareness Report, deployment kits, practical tips, and Cybersecurity Awareness Month toolkits for driving behavior change.",
+    "category": "Cybersecurity Communication",
+    "tags": [
+      "SANS",
+      "security awareness",
+      "training",
+      "program design",
+      "behavior change"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Oversee and Govern"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr798",
+    "name": "NIST Cybersecurity Framework – Getting Started Guide",
+    "provider": "NIST",
+    "url": "https://www.nist.gov/cyberframework/getting-started",
+    "description": "Official quick-start guide for implementing the NIST CSF. Demonstrates how to communicate cybersecurity risk posture using the framework's Core, Implementation Tiers, and Profiles — a common language for cross-organizational security discussion.",
+    "category": "Cybersecurity Communication",
+    "tags": [
+      "NIST",
+      "CSF",
+      "risk communication",
+      "framework",
+      "getting started"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d1",
+      "cissp-d2"
+    ],
+    "niceCategories": [
+      "Oversee and Govern"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr799",
+    "name": "CIS Community Defense Model 2.0",
+    "provider": "CIS",
+    "url": "https://www.cisecurity.org/insights/white-papers/cis-community-defense-model-2-0",
+    "description": "A data-driven model for communicating the effectiveness of the CIS Critical Security Controls against prevalent attack types. Helps practitioners translate technical controls into business-relevant risk language using real threat data from industry reports.",
+    "category": "Cybersecurity Communication",
+    "tags": [
+      "CIS",
+      "defense model",
+      "risk communication",
+      "CIS Controls",
+      "threat data"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d1",
+      "cissp-d2"
+    ],
+    "niceCategories": [
+      "Oversee and Govern",
+      "Analyze"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr800",
+    "name": "Public Pentesting Reports Collection",
+    "provider": "Julio Cesar Fort",
+    "url": "https://github.com/juliocesarfort/public-pentesting-reports",
+    "description": "A curated list of publicly available penetration test reports from major consulting firms and academic security groups. An invaluable resource for learning professional security report writing, methodology documentation, and how to communicate technical findings to stakeholders.",
+    "category": "Cybersecurity Communication",
+    "tags": [
+      "pentesting reports",
+      "report writing",
+      "security assessment",
+      "consulting",
+      "open source"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d6",
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Protect and Defend",
+      "Analyze"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr801",
+    "name": "Cure53 Public Pentesting Reports",
+    "provider": "Cure53",
+    "url": "https://github.com/cure53/public-pentesting-reports",
+    "description": "A collection of real-world penetration testing and security audit reports published by Cure53. Provides concrete examples of professional vulnerability reporting, executive summaries, and technical finding documentation for applications and protocols.",
+    "category": "Cybersecurity Communication",
+    "tags": [
+      "Cure53",
+      "pentesting reports",
+      "security audit",
+      "report writing",
+      "real-world examples"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d6",
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Protect and Defend",
+      "Analyze"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr802",
+    "name": "SANS Writing a Penetration Testing Report",
+    "provider": "SANS",
+    "url": "https://www.sans.org/white-papers/33343/",
+    "description": "White paper on penetration testing report writing methodology. Covers report structure, audience-appropriate communication (executive vs technical), finding severity classification, remediation recommendations, and includes a detailed example report template.",
+    "category": "Cybersecurity Communication",
+    "tags": [
+      "SANS",
+      "pentest report",
+      "report writing",
+      "methodology",
+      "white paper"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d6",
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr803",
+    "name": "OWASP Web Security Testing Guide (WSTG)",
+    "provider": "OWASP",
+    "url": "https://owasp.org/www-project-web-security-testing-guide/",
+    "description": "The premier cybersecurity testing resource for web application security. Beyond testing methodology, it provides a comprehensive framework for documenting and communicating web security findings with consistent severity ratings and remediation guidance.",
+    "category": "Cybersecurity Communication",
+    "tags": [
+      "OWASP",
+      "web security testing",
+      "WSTG",
+      "testing guide",
+      "reporting"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d6",
+      "cissp-d8"
+    ],
+    "niceCategories": [
+      "Protect and Defend",
+      "Analyze"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr804",
+    "name": "STIX Project Documentation (Archived v1.x)",
+    "provider": "MITRE / DHS",
+    "url": "https://stixproject.github.io/",
+    "description": "Archived documentation for STIX 1.x, the original structured threat information format co-developed by MITRE and DHS. Includes suggested practices, data models, and the community-driven approach to standardizing threat intelligence communication.",
+    "category": "Cybersecurity Communication",
+    "tags": [
+      "STIX",
+      "MITRE",
+      "threat intelligence",
+      "data model",
+      "archive"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d1",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Analyze"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr805",
+    "name": "CVSS – Common Vulnerability Scoring System",
+    "provider": "FIRST",
+    "url": "https://www.first.org/cvss/",
+    "description": "The industry-standard framework for communicating vulnerability severity. Provides a standardized scoring methodology (Base, Temporal, Environmental metrics) that enables consistent risk communication across vendors, researchers, and security teams worldwide.",
+    "category": "Cybersecurity Communication",
+    "tags": [
+      "CVSS",
+      "FIRST",
+      "vulnerability scoring",
+      "risk communication",
+      "severity rating"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d1",
+      "cissp-d6"
+    ],
+    "niceCategories": [
+      "Analyze",
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr806",
+    "name": "NIST SP 800-61 – Computer Security Incident Handling Guide",
+    "provider": "NIST",
+    "url": "https://www.nist.gov/privacy-framework/nist-sp-800-61",
+    "description": "The definitive federal guide for incident handling including communication procedures. Covers incident response lifecycle, stakeholder notification requirements, evidence preservation documentation, post-incident activity reporting, and inter-organizational coordination.",
+    "category": "Cybersecurity Communication",
+    "tags": [
+      "NIST",
+      "incident response",
+      "incident handling",
+      "communication",
+      "SP 800-61"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Protect and Defend",
+      "Oversee and Govern"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr807",
+    "name": "MITRE ATT&CK – Getting Started Resources",
+    "provider": "MITRE",
+    "url": "https://attack.mitre.org/resources/getting-started/",
+    "description": "Official getting-started guide for the MITRE ATT&CK framework. Demonstrates how to use ATT&CK as a common language for describing adversary behavior, enabling consistent communication between red teams, blue teams, CTI analysts, and executive stakeholders.",
+    "category": "Cybersecurity Communication",
+    "tags": [
+      "MITRE",
+      "ATT&CK",
+      "common language",
+      "adversary behavior",
+      "TTPs"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d1",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Analyze",
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr808",
+    "name": "FIRST CVSS v4.0 Specification",
+    "provider": "FIRST",
+    "url": "https://www.first.org/cvss/v4-0/",
+    "description": "The latest version of the Common Vulnerability Scoring System. Introduces refined supplemental metric groups, improved granularity in attack complexity and requirements, and better communication of vulnerability severity context to diverse audiences.",
+    "category": "Cybersecurity Communication",
+    "tags": [
+      "CVSS 4.0",
+      "FIRST",
+      "vulnerability scoring",
+      "risk assessment",
+      "severity"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d1",
+      "cissp-d6"
+    ],
+    "niceCategories": [
+      "Analyze",
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr809",
+    "name": "FIRST PSIRT Services Framework",
+    "provider": "FIRST",
+    "url": "https://www.first.org/standards/frameworks/psirts/psirt_services_framework_v1.1",
+    "description": "Framework for Product Security Incident Response Teams (PSIRTs) defining how vendors should communicate security vulnerabilities to customers, researchers, and the public. Covers advisory creation, coordinated disclosure processes, and stakeholder engagement.",
+    "category": "Cybersecurity Communication",
+    "tags": [
+      "FIRST",
+      "PSIRT",
+      "product security",
+      "vendor communication",
+      "advisory"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d1",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Oversee and Govern",
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr810",
+    "name": "FIRST CSIRT Services Framework",
+    "provider": "FIRST",
+    "url": "https://www.first.org/standards/frameworks/csirts/csirt_services_framework_v2.1",
+    "description": "Comprehensive framework defining core CSIRT services including information sharing, incident coordination, situational awareness, and knowledge transfer. Provides a standardized vocabulary and service catalog for building and communicating CSIRT capabilities.",
+    "category": "Cybersecurity Communication",
+    "tags": [
+      "FIRST",
+      "CSIRT",
+      "incident response",
+      "service framework",
+      "coordination"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d7",
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Protect and Defend",
+      "Oversee and Govern"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr811",
+    "name": "OpenIOC – Open Indicators of Compromise Framework",
+    "provider": "Mandiant / FireEye",
+    "url": "https://github.com/mandiant/OpenIOC_1.1",
+    "description": "An open framework for sharing indicators of compromise (IOCs) in a machine-readable XML format. Enables standardized communication of threat artifacts (file hashes, registry keys, network indicators) between security teams and threat intelligence platforms.",
+    "category": "Cybersecurity Communication",
+    "tags": [
+      "OpenIOC",
+      "Mandiant",
+      "indicators of compromise",
+      "threat sharing",
+      "XML"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d7",
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Analyze"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr812",
+    "name": "VERIS – Vocabulary for Event Recording and Incident Sharing",
+    "provider": "Verizon",
+    "url": "https://verisframework.org/",
+    "description": "A common language for describing security incidents in a structured and repeatable manner. Used in the Verizon DBIR, VERIS provides a taxonomy for recording and sharing incident data that enables cross-organizational analysis and consistent reporting.",
+    "category": "Cybersecurity Communication",
+    "tags": [
+      "VERIS",
+      "Verizon",
+      "incident recording",
+      "taxonomy",
+      "DBIR"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d1",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Analyze",
+      "Oversee and Govern"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr813",
+    "name": "ISO/IEC 29147 – Vulnerability Disclosure Guidelines (Overview)",
+    "provider": "ISO",
+    "url": "https://www.iso.org/standard/72311.html",
+    "description": "International standard for vulnerability disclosure. While the full standard requires purchase, the overview page explains the framework for receiving vulnerability reports, issuing advisories, and communicating remediation — essential reading for understanding global disclosure norms.",
+    "category": "Cybersecurity Communication",
+    "tags": [
+      "ISO",
+      "vulnerability disclosure",
+      "international standard",
+      "coordination",
+      "advisory"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Oversee and Govern"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr814",
+    "name": "Carnegie Mellon CERT Guide to Coordinated Vulnerability Disclosure",
+    "provider": "Carnegie Mellon SEI",
+    "url": "https://certcc.github.io/CERT-Guide-to-CVD/",
+    "description": "Comprehensive guide from the CERT Coordination Center on coordinated vulnerability disclosure. Covers the CVD process, roles and responsibilities, communication strategies, handling disputes, multi-party coordination, and case studies from real-world disclosures.",
+    "category": "Cybersecurity Communication",
+    "tags": [
+      "CERT",
+      "Carnegie Mellon",
+      "CVD",
+      "coordinated disclosure",
+      "vulnerability reporting"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d1",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Oversee and Govern",
+      "Analyze"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr815",
+    "name": "CISA Coordinated Vulnerability Disclosure Process",
+    "provider": "CISA",
+    "url": "https://www.cisa.gov/coordinated-vulnerability-disclosure-process",
+    "description": "CISA's official coordinated vulnerability disclosure process. Details how to submit vulnerability reports to CISA, how CISA coordinates with vendors, and the timeline and communication expectations for researchers and affected organizations.",
+    "category": "Cybersecurity Communication",
+    "tags": [
+      "CISA",
+      "CVD",
+      "vulnerability disclosure",
+      "government",
+      "coordination"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d1",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Oversee and Govern"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr816",
+    "name": "MISP Taxonomies, Galaxies & Data Models",
+    "provider": "MISP Project",
+    "url": "https://www.misp-project.org/datamodels/",
+    "description": "Documentation for MISP's extensive classification system including taxonomies (TLP, estimative language, CSIRT classifications), galaxies (ATT&CK, threat actors, tools), and open data models. Demonstrates standardized vocabularies for threat intelligence communication.",
+    "category": "Cybersecurity Communication",
+    "tags": [
+      "MISP",
+      "taxonomies",
+      "galaxies",
+      "data models",
+      "classification"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d1",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Analyze"
+    ],
+    "relatedCertIds": []
   }
 ]
