@@ -19060,5 +19060,232 @@
       "Securely Provision"
     ],
     "relatedCertIds": []
+  },
+  {
+    "id": "fr830",
+    "name": "Blue Team Home Lab Guide",
+    "provider": "aboutsecurity",
+    "url": "https://github.com/aboutsecurity/blueteam_homelabs",
+    "description": "Curated collection of resources for building an enterprise-grade blue team home lab. Covers SOC architecture, SIEM deployment, network security monitoring, log collection pipelines, threat hunting environments, and integration of tools like Security Onion, Wazuh, ELK, and Splunk.",
+    "category": "Labs",
+    "tags": [
+      "home lab",
+      "blue team",
+      "SOC",
+      "SIEM",
+      "threat hunting",
+      "guide"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d7",
+      "cissp-d4"
+    ],
+    "niceCategories": [
+      "Protect and Defend",
+      "Operate and Maintain"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr831",
+    "name": "CyberDefenders – Blue Team Training",
+    "provider": "CyberDefenders",
+    "url": "https://cyberdefenders.org/",
+    "description": "Free blue team training platform with hands-on labs and challenges. Practice DFIR, threat hunting, malware analysis, and network forensics using real-world scenarios. Browser-based lab environments with structured learning paths from beginner to advanced. Community leaderboard and certifications.",
+    "category": "Labs",
+    "tags": [
+      "CyberDefenders",
+      "blue team",
+      "DFIR",
+      "threat hunting",
+      "forensics",
+      "challenges"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Protect and Defend",
+      "Investigate"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr832",
+    "name": "Pi-hole – Network-wide DNS Ad Blocking",
+    "provider": "Pi-hole",
+    "url": "https://pi-hole.net/",
+    "description": "Free, open-source DNS sinkhole for network-wide ad and tracker blocking. Runs on Raspberry Pi, Docker, or any Linux machine. Includes a web dashboard with query logging, statistics, and whitelist/blacklist management. A foundational home lab component for learning DNS filtering, network traffic analysis, and privacy-enhancing technologies.",
+    "category": "Networking and Infrastructure",
+    "tags": [
+      "Pi-hole",
+      "DNS",
+      "ad blocking",
+      "home lab",
+      "privacy",
+      "open source"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d4"
+    ],
+    "niceCategories": [
+      "Operate and Maintain"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr833",
+    "name": "MISP – Open Source Threat Intelligence Platform",
+    "provider": "MISP Project",
+    "url": "https://www.misp-project.org/",
+    "description": "Free, open-source threat intelligence platform for collecting, storing, distributing, and sharing indicators of compromise and threat data. Integrates with TheHive, Cortex, Suricata, and SIEM platforms. Includes MITRE ATT&CK mapping, STIX/TAXII support, 300+ galaxies and taxonomies, and community threat feeds. Essential home lab component for CTI practice.",
+    "category": "Threat Intelligence and OSINT",
+    "tags": [
+      "MISP",
+      "threat intelligence",
+      "IOC",
+      "STIX",
+      "sharing",
+      "home lab",
+      "open source"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d1",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Analyze",
+      "Investigate"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr834",
+    "name": "DetectionLab",
+    "provider": "Chris Long",
+    "url": "https://github.com/clong/DetectionLab",
+    "description": "Automated lab environment with Windows Active Directory, Splunk, osquery, Sysmon, and Velociraptor for practicing detection engineering. Deploys via Vagrant/Packer to VirtualBox or VMware. Pre-configured with logging pipelines, security tools, and attack simulation capabilities for testing detection rules and incident response procedures.",
+    "category": "Labs",
+    "tags": [
+      "DetectionLab",
+      "Active Directory",
+      "Splunk",
+      "detection engineering",
+      "home lab",
+      "Vagrant"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d7",
+      "cissp-d4"
+    ],
+    "niceCategories": [
+      "Protect and Defend",
+      "Operate and Maintain"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr835",
+    "name": "Ludus – Automated Home Lab Builder",
+    "provider": "Badsectorlabs",
+    "url": "https://github.com/badsectorlabs/ludus",
+    "description": "Automated cybersecurity lab deployment tool built on Proxmox. Spin up Active Directory environments, vulnerable machines, and attack infrastructure with simple YAML configuration. Supports templates for common scenarios like red team labs, malware analysis, and certification prep. Drastically reduces lab setup time from days to minutes.",
+    "category": "Labs",
+    "tags": [
+      "Ludus",
+      "automated lab",
+      "Proxmox",
+      "Active Directory",
+      "home lab",
+      "infrastructure as code"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d3",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Operate and Maintain",
+      "Securely Provision"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr836",
+    "name": "Awesome Cyber Security Home Labs",
+    "provider": "Community",
+    "url": "https://github.com/joe-shenouda/awesome-cyber-security",
+    "description": "Community-curated awesome list of cybersecurity home lab resources. Covers hypervisors, network simulation, vulnerable VMs, SIEM/SOC tools, Active Directory labs, cloud security labs, malware analysis environments, and automation tools. A comprehensive starting point for planning and building any type of security lab.",
+    "category": "Labs",
+    "tags": [
+      "awesome list",
+      "home lab",
+      "curated",
+      "resources",
+      "cybersecurity"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr837",
+    "name": "SimplyCyber Home Lab Walkthrough",
+    "provider": "SimplyCyber / Gerald Auger",
+    "url": "https://www.youtube.com/@SimplyCyber",
+    "description": "Gerald Auger's SimplyCyber YouTube channel with home lab build walkthroughs, SOC analyst career guidance, and hands-on cybersecurity tutorials. Covers building a SOC home lab on a budget, resume building, interview prep, and practical blue team skills. One of the most recommended starting points for cybersecurity career changers.",
+    "category": "Training and Education",
+    "tags": [
+      "SimplyCyber",
+      "Gerald Auger",
+      "home lab",
+      "SOC analyst",
+      "career",
+      "YouTube"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr838",
+    "name": "Cloud Security Labs – Free Tier Environments",
+    "provider": "Various",
+    "url": "https://github.com/iknowjason/PurpleCloud",
+    "description": "PurpleCloud: automated Azure AD lab deployment for purple team exercises using Terraform. Deploys a complete Active Directory environment in Azure with attack simulation tools, Sentinel logging, and detection engineering resources. Ideal for those who prefer cloud-based labs over on-premises hardware.",
+    "category": "Labs",
+    "tags": [
+      "PurpleCloud",
+      "Azure",
+      "cloud lab",
+      "purple team",
+      "Terraform",
+      "Active Directory"
+    ],
+    "level": "Advanced",
+    "cisspDomains": [
+      "cissp-d3",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Protect and Defend",
+      "Securely Provision"
+    ],
+    "relatedCertIds": []
   }
 ]
