@@ -56,9 +56,24 @@
   var selectedCategoryId = '';
   var searchTerm = '';
   var debounceTimer = null;
-  var activeTab = 'certs';
+  var activeTab = 'pathfinder';
   var selectedPath = null;
   var pathfinderProgress = {};
+
+  var heroDescEl = document.getElementById('hero-desc');
+  var defaultHeroText = heroDescEl ? heroDescEl.textContent : '';
+  var heroDescriptions = {
+    pathfinder: 'Select a job title, NICE Work Role, or CISSP Domain to build a personalized roadmap with certifications, training, tools, and milestones. Track your progress across career phases.',
+    resources: 'Curated courses, labs, tutorials, and guides from trusted providers \u2014 all free to access. Filter by category, skill level, or CISSP domain to find what fits your learning path.',
+    community: 'Professional associations, support organizations, mentorship programs, and peer communities advancing cybersecurity careers. Find your people, build your network, and grow together.',
+    certs: 'Industry-recognized credentials mapped to NICE Work Roles, CISSP Domains, and DoD 8140 requirements. Compare vendors, costs, and difficulty levels to plan your certification journey.',
+    reports: 'Annual and periodic threat intelligence publications from leading security vendors and government agencies. Stay current with the real-world threat landscape.',
+    defcon: 'Talks, workshops, and presentations from the world\u2019s largest underground hacking conference. Explore decades of security research, live demos, and community-driven knowledge.',
+    glossary: 'Over 10,000 terms from the NIST CSRC and Trustworthy AI Resource Center. Look up cybersecurity, privacy, and AI terminology with citations to authoritative source documents.',
+    cwe: 'The MITRE Common Weakness Enumeration \u2014 a comprehensive catalog of software and hardware weaknesses. Understand vulnerability root causes to write more secure code.',
+    capec: 'The MITRE Common Attack Pattern Enumeration and Classification \u2014 a catalog of known adversary attack patterns. Learn how attackers think to build better defenses.'
+  };
+  var heroFadeTimer = null;
 
   var pathfinderPanelEl = document.getElementById('pathfinder-panel');
   var pathfinderTimelineEl = document.getElementById('pathfinder-timeline');
@@ -2073,6 +2088,18 @@
     updateRefTabLabel();
     toggleRefDropdown(true);
 
+    if (heroDescEl) {
+      var newText = heroDescriptions[tab] || defaultHeroText;
+      if (heroDescEl.textContent !== newText) {
+        heroDescEl.style.opacity = '0';
+        clearTimeout(heroFadeTimer);
+        heroFadeTimer = setTimeout(function () {
+          heroDescEl.textContent = newText;
+          heroDescEl.style.opacity = '1';
+        }, 150);
+      }
+    }
+
     if (refDropdownMenuEl) {
       refDropdownMenuEl.querySelectorAll('.tab-dropdown-item').forEach(function (item) {
         item.classList.toggle('active', item.dataset.tab === tab);
@@ -2637,7 +2664,7 @@
     buildPathfinderChips();
     pathfinderProgress = loadPathfinderProgress();
     updateStats();
-    runFilterAndRender();
+    switchTab('pathfinder');
   }).catch(function (err) {
     resultCountEl.textContent = 'Failed to load data: ' + err.message;
     resultsEl.innerHTML =
