@@ -1358,6 +1358,11 @@
           for (var i = 0; i < t.defs.length; i++) {
             if (t.defs[i].t.toLowerCase().indexOf(term) !== -1) { defMatch = true; break; }
           }
+          if (!defMatch && t.abbrevs) {
+            for (var j = 0; j < t.abbrevs.length; j++) {
+              if (t.abbrevs[j].toLowerCase().indexOf(term) !== -1) { defMatch = true; break; }
+            }
+          }
           if (!defMatch) return false;
         }
       }
@@ -1411,6 +1416,8 @@
         if (t.defs[0].c) {
           html += '<div class="glossary-term-cite">' + escapeHtml(t.defs[0].c) + '</div>';
         }
+      } else if (t.abbrevs && t.abbrevs.length > 0) {
+        html += '<div class="glossary-term-abbrev">Abbreviation for: ' + escapeHtml(t.abbrevs.join(', ')) + '</div>';
       }
 
       if (t.defs.length > 1) {

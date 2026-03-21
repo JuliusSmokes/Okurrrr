@@ -1720,6 +1720,14 @@ a.pf-item-name:hover {
   margin-bottom: var(--space-1);
 }
 
+.glossary-term-abbrev {
+  font-size: 0.8125rem;
+  color: var(--text-muted);
+  font-style: italic;
+  line-height: 1.55;
+  margin-bottom: var(--space-1);
+}
+
 .glossary-term-cite {
   font-size: 0.6875rem;
   color: var(--text-subtle);
@@ -2834,7 +2842,7 @@ a.pf-item-name:hover {
 }
 
 .community-card-type {
-  display: inline-block;
+  display: block;
   font-size: 0.75rem;
   color: var(--text-muted);
   margin-top: var(--space-1);
@@ -3207,7 +3215,8 @@ a.pf-item-name:hover {
     font-size: 0.8125rem;
   }
 
-  .glossary-term-def {
+  .glossary-term-def,
+  .glossary-term-abbrev {
     font-size: 0.75rem;
   }
 
