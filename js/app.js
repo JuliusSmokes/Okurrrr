@@ -107,6 +107,21 @@
   var capecSearchTerm = '';
   var capecDebounceTimer = null;
 
+  var reportsPanelEl = document.getElementById('reports-panel');
+  var reportsListEl = document.getElementById('reports-list');
+  var reportsSearchInput = document.getElementById('reports-search-input');
+  var reportsCountEl = document.getElementById('reports-count');
+  var reportsFilterPublisherEl = document.getElementById('reports-filter-publisher');
+  var reportsFilterFocusEl = document.getElementById('reports-filter-focus');
+  var resetReportsBtn = document.getElementById('reset-reports-filters');
+  var tabCountReportsEl = document.getElementById('tab-count-reports');
+  var statReportsEl = document.getElementById('stat-reports');
+
+  var threatReports = [];
+  var filteredReports = [];
+  var reportsSearchTerm = '';
+  var reportsDebounceTimer = null;
+
   var refDropdownEl = document.getElementById('ref-dropdown');
   var refTabBtnEl = document.getElementById('ref-tab-btn');
   var refTabLabelEl = document.getElementById('ref-tab-label');
@@ -1746,6 +1761,130 @@
     }
   }
 
+  /* ── Threat Reports ── */
+
+  function populateReportsFilters() {
+    var publishers = {};
+    var focusAreas = {};
+    threatReports.forEach(function (r) {
+      if (r.publisher) publishers[r.publisher] = true;
+      if (r.focusAreas) r.focusAreas.forEach(function (f) { focusAreas[f] = true; });
+    });
+
+    if (reportsFilterPublisherEl) {
+      Object.keys(publishers).sort().forEach(function (p) {
+        var opt = document.createElement('option');
+        opt.value = p;
+        opt.textContent = p;
+        reportsFilterPublisherEl.appendChild(opt);
+      });
+    }
+
+    if (reportsFilterFocusEl) {
+      Object.keys(focusAreas).sort().forEach(function (f) {
+        var opt = document.createElement('option');
+        opt.value = f;
+        opt.textContent = f;
+        reportsFilterFocusEl.appendChild(opt);
+      });
+    }
+  }
+
+  function filterReports() {
+    var pub = reportsFilterPublisherEl ? reportsFilterPublisherEl.value : '';
+    var focus = reportsFilterFocusEl ? reportsFilterFocusEl.value : '';
+    var q = reportsSearchTerm.toLowerCase();
+
+    filteredReports = threatReports.filter(function (r) {
+      if (pub && r.publisher !== pub) return false;
+      if (focus && (!r.focusAreas || r.focusAreas.indexOf(focus) === -1)) return false;
+      if (q) {
+        var haystack = (r.name + ' ' + r.publisher + ' ' + r.description + ' ' + (r.focusAreas || []).join(' ')).toLowerCase();
+        if (haystack.indexOf(q) === -1) return false;
+      }
+      return true;
+    });
+  }
+
+  function renderReports() {
+    filterReports();
+    if (reportsCountEl) {
+      reportsCountEl.textContent = 'Showing ' + filteredReports.length + ' of ' + threatReports.length + ' reports';
+    }
+
+    if (!reportsListEl) return;
+
+    if (filteredReports.length === 0) {
+      reportsListEl.innerHTML =
+        '<div class="reports-empty">' +
+          '<span class="empty-icon">&#x1F4CB;</span>' +
+          '<p>No reports match your filters.</p>' +
+        '</div>';
+      return;
+    }
+
+    var frag = document.createDocumentFragment();
+    filteredReports.forEach(function (r) {
+      var card = document.createElement('div');
+      card.className = 'report-card';
+
+      var header = '<div class="report-card-header">' +
+        '<a href="' + r.url + '" target="_blank" rel="noopener">' + r.name + '</a>' +
+        '<span class="report-card-publisher">' + r.publisher + '</span>' +
+      '</div>';
+
+      var desc = '<div class="report-card-desc">' + (r.description || '') + '</div>';
+
+      var metaParts = [];
+      if (r.focusAreas) {
+        r.focusAreas.forEach(function (f) {
+          metaParts.push('<span class="badge badge-report-focus">' + f + '</span>');
+        });
+      }
+      if (r.frequency) {
+        metaParts.push('<span class="badge badge-report-frequency">' + r.frequency + '</span>');
+      }
+      if (r.registrationRequired) {
+        metaParts.push('<span class="badge badge-report-reg">Registration</span>');
+      }
+      var meta = '<div class="report-card-meta">' + metaParts.join('') + '</div>';
+
+      card.innerHTML = header + desc + meta;
+      frag.appendChild(card);
+    });
+
+    reportsListEl.innerHTML = '';
+    reportsListEl.appendChild(frag);
+  }
+
+  if (reportsSearchInput) {
+    reportsSearchInput.addEventListener('input', function () {
+      clearTimeout(reportsDebounceTimer);
+      reportsDebounceTimer = setTimeout(function () {
+        reportsSearchTerm = reportsSearchInput.value.trim();
+        renderReports();
+      }, 200);
+    });
+  }
+
+  if (reportsFilterPublisherEl) {
+    reportsFilterPublisherEl.addEventListener('change', function () { renderReports(); });
+  }
+
+  if (reportsFilterFocusEl) {
+    reportsFilterFocusEl.addEventListener('change', function () { renderReports(); });
+  }
+
+  if (resetReportsBtn) {
+    resetReportsBtn.addEventListener('click', function () {
+      if (reportsSearchInput) reportsSearchInput.value = '';
+      if (reportsFilterPublisherEl) reportsFilterPublisherEl.value = '';
+      if (reportsFilterFocusEl) reportsFilterFocusEl.value = '';
+      reportsSearchTerm = '';
+      renderReports();
+    });
+  }
+
   /* ── Tab switching ── */
 
   function switchTab(tab) {
@@ -1776,6 +1915,7 @@
     controlsResEl.style.display = 'none';
     if (controlsDefconEl) controlsDefconEl.style.display = 'none';
     if (pathfinderPanelEl) pathfinderPanelEl.style.display = 'none';
+    if (reportsPanelEl) reportsPanelEl.style.display = 'none';
     if (glossaryPanelEl) glossaryPanelEl.style.display = 'none';
     if (cwePanelEl) cwePanelEl.style.display = 'none';
     if (capecPanelEl) capecPanelEl.style.display = 'none';
@@ -1807,6 +1947,13 @@
       if (activeFiltersBar) activeFiltersBar.style.display = '';
       if (resultCountLine) resultCountLine.style.display = '';
       resultsEl.style.display = '';
+    } else if (tab === 'reports') {
+      if (reportsPanelEl) reportsPanelEl.style.display = '';
+      if (searchBarEl) searchBarEl.style.display = 'none';
+      if (activeFiltersBar) activeFiltersBar.style.display = 'none';
+      if (resultCountLine) resultCountLine.style.display = 'none';
+      resultsEl.style.display = 'none';
+      renderReports();
     } else if (tab === 'pathfinder') {
       if (pathfinderPanelEl) pathfinderPanelEl.style.display = '';
       if (searchBarEl) searchBarEl.style.display = 'none';
@@ -1838,7 +1985,7 @@
 
     searchInput.value = '';
     searchTerm = '';
-    if (tab !== 'pathfinder' && tab !== 'glossary' && tab !== 'cwe' && tab !== 'capec') runFilterAndRender();
+    if (tab !== 'pathfinder' && tab !== 'reports' && tab !== 'glossary' && tab !== 'cwe' && tab !== 'capec') runFilterAndRender();
   }
 
   /* ── Hero stats ── */
@@ -2254,7 +2401,8 @@
     loadJSON('data/defcon-media.json'),
     loadJSON('data/career-paths.json'),
     loadJSON('data/cwe-data.json'),
-    loadJSON('data/capec-data.json')
+    loadJSON('data/capec-data.json'),
+    loadJSON('data/threat-reports.json')
   ]).then(function (results) {
     certs = results[0] || [];
     niceWorkRoles = results[1] || [];
@@ -2282,6 +2430,11 @@
         capecVersionBadgeEl.textContent = 'v' + (capecRaw.version || '') + ' (' + (capecRaw.date || '') + ')';
       }
     }
+
+    threatReports = results[8] || [];
+    if (tabCountReportsEl) tabCountReportsEl.textContent = threatReports.length;
+    if (statReportsEl) statReportsEl.textContent = threatReports.length;
+    populateReportsFilters();
 
     populateCategoryFilter();
     populateVendorFilter();

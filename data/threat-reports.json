@@ -1,0 +1,282 @@
+[
+  {
+    "id": "tr001",
+    "name": "Verizon Data Breach Investigations Report (DBIR)",
+    "publisher": "Verizon",
+    "url": "https://www.verizon.com/business/resources/reports/dbir/",
+    "description": "The industry gold standard for breach data analysis. Examines tens of thousands of real-world security incidents and confirmed data breaches annually, providing statistical breakdowns of attack patterns, threat actors, and targeted industries.",
+    "focusAreas": ["Breach Data", "Incident Response", "Threat Landscape"],
+    "frequency": "Annual",
+    "registrationRequired": false
+  },
+  {
+    "id": "tr002",
+    "name": "CrowdStrike Global Threat Report",
+    "publisher": "CrowdStrike",
+    "url": "https://www.crowdstrike.com/en-us/global-threat-report/",
+    "description": "Comprehensive adversary intelligence report covering eCrime, nation-state actors, and hacktivism. Features named threat actor profiles, breakout time metrics, and year-over-year attack trend analysis.",
+    "focusAreas": ["Threat Intelligence", "Adversary Tradecraft", "eCrime"],
+    "frequency": "Annual",
+    "registrationRequired": true
+  },
+  {
+    "id": "tr003",
+    "name": "Mandiant M-Trends Report",
+    "publisher": "Mandiant / Google Cloud",
+    "url": "https://www.mandiant.com/m-trends",
+    "description": "Derived from Mandiant's frontline incident response engagements. Covers global median dwell time, initial access vectors, targeted industries, and detection improvements. Essential IR benchmarking data.",
+    "focusAreas": ["Incident Response", "Threat Intelligence", "Detection"],
+    "frequency": "Annual",
+    "registrationRequired": true
+  },
+  {
+    "id": "tr004",
+    "name": "IBM X-Force Threat Intelligence Index",
+    "publisher": "IBM Security",
+    "url": "https://www.ibm.com/reports/threat-intelligence",
+    "description": "Global threat intelligence derived from billions of data points. Covers top attack vectors, most targeted industries, geographic trends, and vulnerability exploitation patterns.",
+    "focusAreas": ["Threat Intelligence", "Vulnerability Management", "Threat Landscape"],
+    "frequency": "Annual",
+    "registrationRequired": true
+  },
+  {
+    "id": "tr005",
+    "name": "IBM Cost of a Data Breach Report",
+    "publisher": "IBM Security / Ponemon Institute",
+    "url": "https://www.ibm.com/reports/data-breach",
+    "description": "The definitive financial impact study of data breaches. Surveys hundreds of organizations globally to calculate average breach costs by industry, country, root cause, and mitigating factors like AI and automation.",
+    "focusAreas": ["Breach Data", "Risk Management", "Financial Impact"],
+    "frequency": "Annual",
+    "registrationRequired": true
+  },
+  {
+    "id": "tr006",
+    "name": "Microsoft Digital Defense Report",
+    "publisher": "Microsoft",
+    "url": "https://www.microsoft.com/en-us/security/security-insider/microsoft-digital-defense-report",
+    "description": "Insights from Microsoft's unique vantage point across cloud, endpoint, and identity ecosystems. Covers nation-state threats, cybercrime, supply chain attacks, and critical infrastructure targeting.",
+    "focusAreas": ["Threat Landscape", "Nation-State", "Cloud Security"],
+    "frequency": "Annual",
+    "registrationRequired": false
+  },
+  {
+    "id": "tr007",
+    "name": "Sophos Active Adversary Report",
+    "publisher": "Sophos",
+    "url": "https://news.sophos.com/en-us/2025/04/02/the-sophos-active-adversary-report/",
+    "description": "Analysis of real-world attacker behaviors from Sophos IR and MDR engagements. Covers root causes, dwell times, RDP abuse, credential theft patterns, and ransomware operator tactics.",
+    "focusAreas": ["Adversary Tradecraft", "Incident Response", "Ransomware"],
+    "frequency": "Semi-Annual",
+    "registrationRequired": false
+  },
+  {
+    "id": "tr008",
+    "name": "Palo Alto Networks Unit 42 Incident Response Report",
+    "publisher": "Palo Alto Networks / Unit 42",
+    "url": "https://www.paloaltonetworks.com/unit42/incident-response-report",
+    "description": "Data-driven findings from Unit 42's global incident response practice. Covers ransomware trends, initial access techniques, extortion tactics, and industry-specific attack patterns.",
+    "focusAreas": ["Incident Response", "Ransomware", "Threat Intelligence"],
+    "frequency": "Annual",
+    "registrationRequired": true
+  },
+  {
+    "id": "tr009",
+    "name": "ENISA Threat Landscape Report",
+    "publisher": "ENISA (EU Agency for Cybersecurity)",
+    "url": "https://www.enisa.europa.eu/topics/cyber-threats/threats-and-trends",
+    "description": "The EU's comprehensive annual threat assessment. Covers prime threats (ransomware, malware, social engineering, DDoS, supply chain), threat actor motivations, and sector-specific analysis across EU member states.",
+    "focusAreas": ["Threat Landscape", "Regulatory", "EU/Regional"],
+    "frequency": "Annual",
+    "registrationRequired": false
+  },
+  {
+    "id": "tr010",
+    "name": "Red Canary Threat Detection Report",
+    "publisher": "Red Canary",
+    "url": "https://redcanary.com/threat-detection-report/",
+    "description": "Detection-focused analysis mapping real-world threats to MITRE ATT&CK. Covers top techniques, trending threats, and actionable detection opportunities with detailed analytics and ATT&CK coverage heat maps.",
+    "focusAreas": ["Detection", "MITRE ATT&CK", "Threat Intelligence"],
+    "frequency": "Annual",
+    "registrationRequired": false
+  },
+  {
+    "id": "tr011",
+    "name": "Dragos Year in Review (OT/ICS)",
+    "publisher": "Dragos",
+    "url": "https://www.dragos.com/year-in-review/",
+    "description": "The leading annual report on industrial control systems and operational technology threats. Covers ICS-targeting threat groups, vulnerability advisories, ransomware impacts on industrial operations, and sector analysis.",
+    "focusAreas": ["OT/ICS Security", "Threat Intelligence", "Critical Infrastructure"],
+    "frequency": "Annual",
+    "registrationRequired": true
+  },
+  {
+    "id": "tr012",
+    "name": "Recorded Future Annual Threat Report",
+    "publisher": "Recorded Future",
+    "url": "https://www.recordedfuture.com/resources/2024-annual-report",
+    "description": "Strategic threat intelligence analysis covering geopolitical cyber trends, dark web activity, ransomware ecosystems, and emerging nation-state capabilities. Built on the world's largest intelligence dataset.",
+    "focusAreas": ["Threat Intelligence", "Nation-State", "Dark Web"],
+    "frequency": "Annual",
+    "registrationRequired": true
+  },
+  {
+    "id": "tr013",
+    "name": "Cisco Talos Year in Review",
+    "publisher": "Cisco Talos",
+    "url": "https://blog.talosintelligence.com/cisco-talos-2024-year-in-review/",
+    "description": "Telemetry-driven threat landscape analysis from one of the largest commercial threat intelligence teams. Covers commodity malware, ransomware, network-based attacks, and email threat trends.",
+    "focusAreas": ["Threat Intelligence", "Malware", "Network Security"],
+    "frequency": "Annual",
+    "registrationRequired": false
+  },
+  {
+    "id": "tr014",
+    "name": "Elastic Global Threat Report",
+    "publisher": "Elastic Security Labs",
+    "url": "https://www.elastic.co/explore/security-without-limits/global-threat-report",
+    "description": "Open data-driven analysis of endpoint, cloud, and network threats. Covers malware trends by OS, cloud security posture findings, and defense evasion techniques observed across Elastic's telemetry.",
+    "focusAreas": ["Threat Landscape", "Cloud Security", "Detection"],
+    "frequency": "Annual",
+    "registrationRequired": false
+  },
+  {
+    "id": "tr015",
+    "name": "Fortinet Global Threat Landscape Report",
+    "publisher": "Fortinet / FortiGuard Labs",
+    "url": "https://www.fortinet.com/resources/reports/threat-landscape-report",
+    "description": "Semi-annual report drawn from FortiGuard network telemetry. Covers exploit trends, malware families, botnet activity, and regional attack patterns with quantitative analysis across millions of sensors.",
+    "focusAreas": ["Threat Landscape", "Vulnerability Management", "Malware"],
+    "frequency": "Semi-Annual",
+    "registrationRequired": true
+  },
+  {
+    "id": "tr016",
+    "name": "Proofpoint State of the Phish Report",
+    "publisher": "Proofpoint",
+    "url": "https://www.proofpoint.com/us/resources/threat-reports/state-of-phish",
+    "description": "Global phishing and social engineering threat analysis. Covers phishing click rates, BEC trends, MFA bypass techniques, user awareness benchmarks, and industry-specific targeting data.",
+    "focusAreas": ["Phishing", "Social Engineering", "Email Security"],
+    "frequency": "Annual",
+    "registrationRequired": true
+  },
+  {
+    "id": "tr017",
+    "name": "Secureworks State of the Threat Report",
+    "publisher": "Secureworks",
+    "url": "https://www.secureworks.com/resources/rp-state-of-the-threat",
+    "description": "Annual report from Secureworks Counter Threat Unit covering ransomware group activity, initial access broker trends, nation-state operations, and business email compromise evolution.",
+    "focusAreas": ["Threat Intelligence", "Ransomware", "eCrime"],
+    "frequency": "Annual",
+    "registrationRequired": true
+  },
+  {
+    "id": "tr018",
+    "name": "Google Cloud Threat Horizons Report",
+    "publisher": "Google Cloud",
+    "url": "https://services.google.com/fh/files/misc/threat_horizons_report.pdf",
+    "description": "Cloud-focused threat intelligence report from Google's Threat Analysis Group and Mandiant. Covers cloud-specific attack vectors, misconfiguration exploitation, and identity-based attacks targeting GCP and multi-cloud environments.",
+    "focusAreas": ["Cloud Security", "Threat Intelligence", "Identity"],
+    "frequency": "Quarterly",
+    "registrationRequired": false
+  },
+  {
+    "id": "tr019",
+    "name": "Akamai State of the Internet Report",
+    "publisher": "Akamai",
+    "url": "https://www.akamai.com/resources/state-of-the-internet",
+    "description": "Internet security research reports covering DDoS trends, API security threats, web application attacks, and DNS traffic analysis drawn from Akamai's massive global network infrastructure.",
+    "focusAreas": ["DDoS", "API Security", "Web Security"],
+    "frequency": "Periodic",
+    "registrationRequired": false
+  },
+  {
+    "id": "tr020",
+    "name": "Wiz State of Cloud Security Report",
+    "publisher": "Wiz",
+    "url": "https://www.wiz.io/blog/the-top-cloud-security-threats",
+    "description": "Cloud security threat research derived from scanning hundreds of thousands of cloud accounts. Covers misconfiguration prevalence, exposure risks, lateral movement paths, and container security findings.",
+    "focusAreas": ["Cloud Security", "Misconfiguration", "Container Security"],
+    "frequency": "Annual",
+    "registrationRequired": false
+  },
+  {
+    "id": "tr021",
+    "name": "Check Point Cyber Security Report",
+    "publisher": "Check Point Research",
+    "url": "https://www.checkpoint.com/security-report/",
+    "description": "Global cyber attack trends and statistics from Check Point Research. Covers weekly attack volume by sector and region, top malware families, and emerging threat tactics.",
+    "focusAreas": ["Threat Landscape", "Malware", "Attack Statistics"],
+    "frequency": "Annual",
+    "registrationRequired": true
+  },
+  {
+    "id": "tr022",
+    "name": "SonicWall Cyber Threat Report",
+    "publisher": "SonicWall",
+    "url": "https://www.sonicwall.com/threat-report/",
+    "description": "Annual mid-year and full-year threat data covering ransomware volume, cryptojacking trends, IoT malware, encrypted attacks, and intrusion attempts across SonicWall's global sensor network.",
+    "focusAreas": ["Ransomware", "IoT Security", "Malware"],
+    "frequency": "Semi-Annual",
+    "registrationRequired": true
+  },
+  {
+    "id": "tr023",
+    "name": "SANS Cyber Threat Intelligence Survey",
+    "publisher": "SANS Institute",
+    "url": "https://www.sans.org/white-papers/",
+    "description": "Survey-based analysis of how organizations produce and consume threat intelligence. Covers CTI program maturity, tool usage, intelligence sharing practices, and team staffing benchmarks.",
+    "focusAreas": ["Threat Intelligence", "CTI Programs", "Industry Survey"],
+    "frequency": "Annual",
+    "registrationRequired": false
+  },
+  {
+    "id": "tr024",
+    "name": "Trustwave Global Security Report",
+    "publisher": "Trustwave SpiderLabs",
+    "url": "https://www.trustwave.com/en-us/resources/security-resources/security-advisories/",
+    "description": "Insights from Trustwave's managed security services and penetration testing practice. Covers web application vulnerabilities, database exposure, email threats, and network compromise patterns.",
+    "focusAreas": ["Penetration Testing", "Web Security", "Threat Landscape"],
+    "frequency": "Annual",
+    "registrationRequired": false
+  },
+  {
+    "id": "tr025",
+    "name": "Chainalysis Crypto Crime Report",
+    "publisher": "Chainalysis",
+    "url": "https://www.chainalysis.com/blog/crypto-crime-report-2025/",
+    "description": "Definitive analysis of cryptocurrency-related cybercrime. Covers ransomware payment flows, crypto laundering techniques, sanctions evasion, darknet market volumes, and law enforcement seizures.",
+    "focusAreas": ["Financial Crime", "Ransomware", "Cryptocurrency"],
+    "frequency": "Annual",
+    "registrationRequired": false
+  },
+  {
+    "id": "tr026",
+    "name": "Snyk State of Open Source Security Report",
+    "publisher": "Snyk",
+    "url": "https://snyk.io/reports/open-source-security/",
+    "description": "Analysis of open-source vulnerability trends across major ecosystems (npm, PyPI, Maven, Go). Covers supply chain risk, dependency vulnerabilities, fix times, and container image security.",
+    "focusAreas": ["Supply Chain Security", "Open Source", "Vulnerability Management"],
+    "frequency": "Annual",
+    "registrationRequired": false
+  },
+  {
+    "id": "tr027",
+    "name": "Flashpoint Global Threat Intelligence Report",
+    "publisher": "Flashpoint",
+    "url": "https://flashpoint.io/resources/report/",
+    "description": "Deep and dark web intelligence covering threat actor communities, ransomware-as-a-service ecosystems, initial access broker marketplaces, and vulnerability exploitation trends.",
+    "focusAreas": ["Dark Web", "Threat Intelligence", "Ransomware"],
+    "frequency": "Annual",
+    "registrationRequired": true
+  },
+  {
+    "id": "tr028",
+    "name": "CISA Cybersecurity Year in Review",
+    "publisher": "CISA",
+    "url": "https://www.cisa.gov/news-events/cybersecurity-advisories",
+    "description": "US federal government perspective on critical cyber threats, vulnerabilities, and advisories. Includes CISA's Known Exploited Vulnerabilities catalog context, Shields Up campaigns, and critical infrastructure defense summaries.",
+    "focusAreas": ["Critical Infrastructure", "Vulnerability Management", "Government"],
+    "frequency": "Periodic",
+    "registrationRequired": false
+  }
+]
