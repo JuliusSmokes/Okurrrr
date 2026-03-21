@@ -19287,5 +19287,213 @@
       "Securely Provision"
     ],
     "relatedCertIds": []
+  },
+  {
+    "id": "fr839",
+    "name": "pfSense – Open Source Firewall",
+    "provider": "Netgate",
+    "url": "https://www.pfsense.org/",
+    "description": "World's most trusted open-source firewall and router platform based on FreeBSD. Offers stateful packet filtering, VPN (IPsec, OpenVPN, WireGuard), traffic shaping, Snort/Suricata IDS/IPS integration, captive portal, and multi-WAN. Widely deployed in home labs and enterprises. Free Community Edition available for bare metal and VM installs.",
+    "category": "Networking and Infrastructure",
+    "tags": [
+      "pfSense",
+      "firewall",
+      "open source",
+      "VPN",
+      "IDS/IPS",
+      "home lab"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d4",
+      "cissp-d3"
+    ],
+    "niceCategories": [
+      "Operate and Maintain",
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr840",
+    "name": "OPNsense – Open Source Firewall",
+    "provider": "Deciso",
+    "url": "https://opnsense.org/",
+    "description": "Free, open-source firewall and routing platform with a modern web interface. Features stateful firewall, inline IDS/IPS via Suricata, VPN support (IPsec, OpenVPN, WireGuard, Tinc), traffic shaping, Unbound DNS resolver, CARP high availability, and GeoIP filtering. Includes a free beginners training course and e-book. Popular pfSense alternative with weekly security updates.",
+    "category": "Networking and Infrastructure",
+    "tags": [
+      "OPNsense",
+      "firewall",
+      "open source",
+      "IDS/IPS",
+      "VPN",
+      "home lab"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d4",
+      "cissp-d3"
+    ],
+    "niceCategories": [
+      "Operate and Maintain",
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr841",
+    "name": "Fortinet NSE Training Institute – Free Courses",
+    "provider": "Fortinet",
+    "url": "https://www.fortinet.com/training/cybersecurity-professionals",
+    "description": "Free self-paced cybersecurity training from Fortinet covering security-driven networking, adaptive cloud security, AI-driven security operations, zero-trust network access, and OT security. Part of the NSE certification program (8 levels). Over 1.8 million certifications issued. On-demand labs available at nominal cost.",
+    "category": "Training and Education",
+    "tags": [
+      "Fortinet",
+      "NSE",
+      "firewall",
+      "free training",
+      "certification",
+      "FortiGate"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d4",
+      "cissp-d3"
+    ],
+    "niceCategories": [
+      "Operate and Maintain",
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr842",
+    "name": "Palo Alto Networks Beacon – Free Training",
+    "provider": "Palo Alto Networks",
+    "url": "https://beacon.paloaltonetworks.com/",
+    "description": "Free education platform from Palo Alto Networks offering self-paced cybersecurity courses. Includes Introduction to Cybersecurity, Fundamentals of Network Security, Cloud Security, and SOC operations. Features customizable learning roadmaps, technical best practices, quizzes, study guides, and access to certification prep materials.",
+    "category": "Training and Education",
+    "tags": [
+      "Palo Alto",
+      "Beacon",
+      "firewall",
+      "free training",
+      "NGFW",
+      "zero trust"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d4",
+      "cissp-d3"
+    ],
+    "niceCategories": [
+      "Operate and Maintain",
+      "Protect and Defend"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr843",
+    "name": "Mininet – SDN Network Emulator",
+    "provider": "Mininet Project",
+    "url": "https://mininet.org/",
+    "description": "Free, open-source network emulator for creating realistic virtual networks with real kernel, switch, and application code on a single machine. The standard tool for developing, testing, and experimenting with Software-Defined Networking (SDN) using OpenFlow and P4. Includes CLI and Python API, scales to hundreds of hosts, and boots in seconds.",
+    "category": "Networking and Infrastructure",
+    "tags": [
+      "Mininet",
+      "SDN",
+      "OpenFlow",
+      "network emulator",
+      "P4",
+      "open source"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d4",
+      "cissp-d3"
+    ],
+    "niceCategories": [
+      "Operate and Maintain",
+      "Securely Provision"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr844",
+    "name": "Open vSwitch – Production Virtual Switch",
+    "provider": "Open vSwitch Project",
+    "url": "https://www.openvswitch.org/",
+    "description": "Production-quality, multilayer open-source virtual switch licensed under Apache 2.0. Supports NetFlow, sFlow, IPFIX, RSPAN, LACP, 802.1ag, and OpenFlow for massive network automation through programmatic extension. Core SDN infrastructure component used in OpenStack, Kubernetes networking (OVN), and data center virtualization environments.",
+    "category": "Networking and Infrastructure",
+    "tags": [
+      "Open vSwitch",
+      "OVS",
+      "SDN",
+      "virtual switch",
+      "OpenFlow",
+      "open source"
+    ],
+    "level": "Advanced",
+    "cisspDomains": [
+      "cissp-d4",
+      "cissp-d3"
+    ],
+    "niceCategories": [
+      "Operate and Maintain",
+      "Securely Provision"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr845",
+    "name": "ONF – Open Networking Foundation SDN Resources",
+    "provider": "Open Networking Foundation",
+    "url": "https://opennetworking.org/",
+    "description": "The Open Networking Foundation drives adoption of SDN and open-source networking. Hosts the OpenFlow specification, ONOS (Open Network Operating System), Stratum, and Aether connected edge platform. Free technical whitepapers, SDN architecture resources, and the definitive SDN reference materials for understanding programmable network infrastructure.",
+    "category": "Networking and Infrastructure",
+    "tags": [
+      "ONF",
+      "SDN",
+      "OpenFlow",
+      "ONOS",
+      "open networking",
+      "architecture"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d4",
+      "cissp-d3"
+    ],
+    "niceCategories": [
+      "Securely Provision",
+      "Operate and Maintain"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr846",
+    "name": "SDN Security Considerations – NIST",
+    "provider": "NIST",
+    "url": "https://csrc.nist.gov/pubs/sp/800-180/ipd",
+    "description": "NIST SP 800-180 draft exploring security considerations for Software-Defined Networking. Covers SDN architecture (application, control, data planes), threat analysis of centralized controllers, northbound/southbound API security, and recommendations for securing SDN deployments. Essential reading for understanding the security implications of programmable networks.",
+    "category": "Networking and Infrastructure",
+    "tags": [
+      "NIST",
+      "SDN",
+      "security",
+      "SP 800-180",
+      "architecture",
+      "threat analysis"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d4",
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Securely Provision",
+      "Oversee and Govern"
+    ],
+    "relatedCertIds": []
   }
 ]
