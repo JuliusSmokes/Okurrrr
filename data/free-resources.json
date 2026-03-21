@@ -19673,5 +19673,197 @@
       "Securely Provision"
     ],
     "relatedCertIds": []
+  },
+  {
+    "id": "fr854",
+    "name": "ISC2 Exam Accommodations",
+    "provider": "ISC2",
+    "url": "https://www.isc2.org/exams/before-your-exam",
+    "description": "Guide for requesting exam accommodations for ISC2 certifications (CISSP, SSCP, CCSP, etc.). Submit the Examination Accommodation Form to examadministration@isc2.org with documentation before scheduling through Pearson VUE. Accommodations include extra time, separate room, zoom text/reader, and medical equipment. Allow 3-5 business days for review.",
+    "category": "Compliance and Frameworks",
+    "tags": [
+      "ISC2",
+      "exam accommodations",
+      "disability",
+      "neurodiversity",
+      "accessibility",
+      "CISSP"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Oversee and Govern"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr855",
+    "name": "CompTIA Exam Accommodations",
+    "provider": "CompTIA",
+    "url": "https://help.comptia.org/hc/en-us/articles/11183018549780-What-Are-Accommodations-and-How-Do-I-Request-One-If-Elegible",
+    "description": "Guide for requesting testing accommodations for CompTIA certifications (A+, Network+, Security+, CySA+, etc.). Handled through Pearson VUE Reasonable Adjustments Request System. Requires documentation from a psychologist or doctor. Accommodations include extra time, separate room, and scheduled breaks. Allow 10 business days for review.",
+    "category": "Compliance and Frameworks",
+    "tags": [
+      "CompTIA",
+      "exam accommodations",
+      "disability",
+      "neurodiversity",
+      "accessibility"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Oversee and Govern"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr856",
+    "name": "EC-Council Special Accommodations",
+    "provider": "EC-Council",
+    "url": "https://cert.eccouncil.org/special-accommodation-policy.html",
+    "description": "EC-Council's ADA-compliant accommodation policy for CEH, CHFI, and other certification exams. Submit the Special Accommodation Request Form at least 30 days before registering. Requires verification from a healthcare professional. EC-Council responds within 14 days. Free upgrade to Remote Proctoring Services available with ETC vouchers.",
+    "category": "Compliance and Frameworks",
+    "tags": [
+      "EC-Council",
+      "exam accommodations",
+      "disability",
+      "neurodiversity",
+      "accessibility",
+      "CEH"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Oversee and Govern"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr857",
+    "name": "Pearson VUE Test Accommodations Portal",
+    "provider": "Pearson VUE",
+    "url": "https://home.pearsonvue.com/Test-takers/Accommodations.aspx",
+    "description": "Central accommodations portal used by ISC2, CompTIA, EC-Council, Cisco, and dozens of other certification programs. Request extra time, separate rooms, breaks, zoom text, readers, and other support. Each program has specific requirements -- start by selecting your exam program. Pearson VUE provides a list of lower-cost testing clinics for documentation needs.",
+    "category": "Compliance and Frameworks",
+    "tags": [
+      "Pearson VUE",
+      "exam accommodations",
+      "disability",
+      "neurodiversity",
+      "accessibility",
+      "testing"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Oversee and Govern"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr858",
+    "name": "JAN – Neurodiversity & Hiring Accommodations Guide",
+    "provider": "Job Accommodation Network",
+    "url": "https://askjan.org/Frequently-Asked-Questions.cfm",
+    "description": "Free, confidential guidance from the U.S. Department of Labor on workplace accommodations for neurodivergent employees. Covers reasonable accommodations during job applications, interviews, and employment. A-to-Z disability guides, free webinars, phone/email/chat consultation. Essential for neurodivergent job seekers understanding their rights and options.",
+    "category": "Ethics and Professional Conduct",
+    "tags": [
+      "JAN",
+      "workplace accommodations",
+      "ADA",
+      "neurodiversity",
+      "hiring",
+      "disability rights"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Oversee and Govern"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr859",
+    "name": "EARN – Neurodiversity Hiring Checklist",
+    "provider": "EARN / U.S. Department of Labor",
+    "url": "https://askearn.org/page/neurodiversity-in-the-workplace",
+    "description": "Comprehensive toolkit from the Employer Assistance and Resource Network on recruiting, hiring, retaining, and advancing neurodivergent workers. Covers inclusive job descriptions, interview processes, accommodation strategies, management training, mentoring, and the Neurodiversity @ Work Employer Roundtable. Useful for both job seekers and employers building inclusive programs.",
+    "category": "Ethics and Professional Conduct",
+    "tags": [
+      "EARN",
+      "neurodiversity",
+      "hiring",
+      "workplace inclusion",
+      "employer resources",
+      "toolkit"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Oversee and Govern"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr860",
+    "name": "U.S. DOL ODEP Autism Employment Resources",
+    "provider": "U.S. Department of Labor",
+    "url": "https://www.dol.gov/agencies/odep/program-areas/autism",
+    "description": "Central U.S. government resource page linking to employer guidance, JAN accommodations, EARN toolkits, and archived resources on cybersecurity careers for autistic people (including an archived NIST webinar). From the Office of Disability Employment Policy -- the authoritative federal source for autism employment information and support services.",
+    "category": "Ethics and Professional Conduct",
+    "tags": [
+      "DOL",
+      "ODEP",
+      "autism",
+      "employment",
+      "government",
+      "neurodiversity",
+      "accommodations"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Oversee and Govern"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr861",
+    "name": "Neurodiverse Hackers – Resources & Community",
+    "provider": "Neurodiverse Hackers",
+    "url": "https://neurodiversehackers.com/resources/",
+    "description": "Curated resource hub from the Neurodiverse Hackers 501(c)(3) nonprofit. Includes cybersecurity career guidance for neurodivergent individuals, scholarship information for certifications, ADA advocacy resources for conferences and events, mentorship program details, and links to active Discord, LinkedIn, and social media communities.",
+    "category": "Training and Education",
+    "tags": [
+      "Neurodiverse Hackers",
+      "neurodiversity",
+      "cybersecurity",
+      "community",
+      "scholarships",
+      "mentorship"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d1"
+    ],
+    "niceCategories": [
+      "Oversee and Govern"
+    ],
+    "relatedCertIds": []
   }
 ]
