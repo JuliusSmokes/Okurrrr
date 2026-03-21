@@ -4055,13 +4055,16 @@
     "name": "GNS3",
     "provider": "GNS3",
     "url": "https://www.gns3.com/",
-    "description": "Open-source network emulator for building and testing complex network topologies. Run real Cisco and other vendor images in virtual environments.",
+    "description": "Open-source network emulator for building and testing complex network topologies. Run real Cisco, Juniper, and other vendor images in virtual environments. Includes GNS3 Academy with free courses, community-shared lab templates, and integration with VMware/VirtualBox/Docker for full home lab environments. The go-to tool for CCNA/CCNP lab practice and network security monitoring setups.",
     "category": "Networking and Infrastructure",
     "tags": [
       "network emulator",
       "lab",
       "topology",
-      "virtualization"
+      "virtualization",
+      "home lab",
+      "GNS3 Academy",
+      "Cisco"
     ],
     "level": "Intermediate",
     "cisspDomains": [
@@ -18953,6 +18956,108 @@
     ],
     "niceCategories": [
       "Design and Development"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr826",
+    "name": "Proxmox Virtual Environment (VE)",
+    "provider": "Proxmox Server Solutions",
+    "url": "https://www.proxmox.com/en/proxmox-virtual-environment/overview",
+    "description": "Free, open-source Type 1 hypervisor integrating KVM and LXC containers with a web-based management interface. The most popular platform for cybersecurity home labs due to its support for VM snapshots, clustering, ZFS storage, and software-defined networking. Ideal for running isolated malware analysis environments, Active Directory labs, and full SOC stacks.",
+    "category": "Networking and Infrastructure",
+    "tags": [
+      "Proxmox",
+      "hypervisor",
+      "virtualization",
+      "KVM",
+      "home lab",
+      "open source"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d3",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Operate and Maintain",
+      "Securely Provision"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr827",
+    "name": "Oracle VirtualBox",
+    "provider": "Oracle",
+    "url": "https://www.virtualbox.org/",
+    "description": "Free, open-source cross-platform Type 2 hypervisor for x86/x64 and ARM hardware. Supports Windows, Linux, macOS, and Solaris guests with snapshots, shared folders, and seamless mode. Widely used for running Kali Linux, REMnux, DVWA, and other security VMs on personal machines. Includes labs, tutorials, and training resources.",
+    "category": "Networking and Infrastructure",
+    "tags": [
+      "VirtualBox",
+      "hypervisor",
+      "virtualization",
+      "Oracle",
+      "home lab",
+      "open source"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d3",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Operate and Maintain"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr828",
+    "name": "VMware Workstation Pro (Free)",
+    "provider": "Broadcom / VMware",
+    "url": "https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion",
+    "description": "Industry-standard Type 2 desktop hypervisor now free for all use cases including commercial. Supports advanced networking (NAT, bridged, host-only, custom virtual networks), snapshots, clones, and integration with VMware vSphere. Commonly used for cybersecurity training labs, malware analysis sandboxes, and certification exam prep environments.",
+    "category": "Networking and Infrastructure",
+    "tags": [
+      "VMware",
+      "hypervisor",
+      "virtualization",
+      "Workstation",
+      "home lab",
+      "desktop"
+    ],
+    "level": "Beginner",
+    "cisspDomains": [
+      "cissp-d3",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Operate and Maintain"
+    ],
+    "relatedCertIds": []
+  },
+  {
+    "id": "fr829",
+    "name": "HashiCorp Vagrant",
+    "provider": "HashiCorp",
+    "url": "https://developer.hashicorp.com/vagrant/docs",
+    "description": "Open-source tool for building and managing portable virtual machine environments via code. Define entire lab topologies in a Vagrantfile and spin them up with a single command. Supports VirtualBox, VMware, Hyper-V, and Docker providers. Used to automate reproducible security lab provisioning -- spin up Active Directory domains, vulnerable networks, or SOC stacks on demand.",
+    "category": "Networking and Infrastructure",
+    "tags": [
+      "Vagrant",
+      "HashiCorp",
+      "infrastructure as code",
+      "virtualization",
+      "home lab",
+      "automation"
+    ],
+    "level": "Intermediate",
+    "cisspDomains": [
+      "cissp-d3",
+      "cissp-d7"
+    ],
+    "niceCategories": [
+      "Operate and Maintain",
+      "Securely Provision"
     ],
     "relatedCertIds": []
   }
